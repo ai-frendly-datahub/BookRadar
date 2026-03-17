@@ -18,6 +18,16 @@ sources:
     type: "rss"
     url: "https://www.yes24.com/_par_/Rss/KBO001.xml"
 
+  # Publishers Weekly - 글로벌 출판 업계 전문 매체
+  - name: "Publishers Weekly"
+    type: "rss"
+    url: "https://www.publishersweekly.com/rss/bestsellers"
+
+  # Kirkus Reviews - 도서 리뷰 전문
+  - name: "Kirkus Reviews"
+    type: "rss"
+    url: "https://www.kirkusreviews.com/feeds/rss/"
+
 entities:
   - name: "Genre"
     display_name: "장르"
