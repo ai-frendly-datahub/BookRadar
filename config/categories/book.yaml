@@ -2,23 +2,21 @@ category_name: "book"
 display_name: "도서 레이더"
 
 sources:
-  # 알라딘 - 국내 최대 온라인 서점 RSS
-  - name: "알라딘 신간"
+  # 알라딘 - 분야별 신간 RSS (카테고리 0은 폐지됨)
+  - name: "알라딘 신간 (소설)"
     type: "rss"
-    url: "https://www.aladin.co.kr/rss/special_new/0"
-  - name: "알라딘 베스트셀러"
+    url: "https://www.aladin.co.kr/rss/special_new/1"
+  - name: "알라딘 신간 (경제경영)"
     type: "rss"
-    url: "https://www.aladin.co.kr/rss/special_bestseller/0"
+    url: "https://www.aladin.co.kr/rss/special_new/170"
+  - name: "알라딘 신간 (자기계발)"
+    type: "rss"
+    url: "https://www.aladin.co.kr/rss/special_new/336"
 
   # YES24 - 종합 베스트셀러 RSS
   - name: "YES24 베스트셀러"
     type: "rss"
     url: "https://www.yes24.com/_par_/Rss/KBO001.xml"
-
-  # 교보문고 - 북뉴스 RSS
-  - name: "교보문고 북뉴스"
-    type: "rss"
-    url: "http://news.kyobobook.co.kr/RSS.ink"
 
 entities:
   - name: "Genre"
