@@ -1,10 +1,31 @@
 {
   "date": "2026-03-17",
   "category": "book",
-  "article_count": 0,
-  "source_count": 0,
-  "matched_count": 0,
-  "top_entities": [],
-  "sources": {},
-  "generated_at": "2026-03-17T00:52:05.777745+09:00"
+  "article_count": 35,
+  "source_count": 3,
+  "matched_count": 35,
+  "top_entities": [
+    {
+      "name": "Genre",
+      "count": 113
+    },
+    {
+      "name": "Award",
+      "count": 24
+    },
+    {
+      "name": "Publisher",
+      "count": 10
+    },
+    {
+      "name": "BookType",
+      "count": 4
+    }
+  ],
+  "sources": {
+    "알라딘 신간 (소설)": 25,
+    "알라딘 신간 (자기계발)": 2,
+    "알라딘 신간 (경제경영)": 8
+  },
+  "generated_at": "2026-03-17T10:16:04.277682+09:00"
 }
