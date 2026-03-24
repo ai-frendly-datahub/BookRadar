@@ -2,8 +2,6 @@ from __future__ import annotations
 
 from datetime import UTC, datetime, timedelta
 
-import pytest
-
 from bookradar.models import Article
 from bookradar.storage import RadarStorage
 
