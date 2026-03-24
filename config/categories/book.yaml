@@ -15,10 +15,7 @@ sources:
     type: "rss"
     url: "https://www.yes24.com/_par_/Rss/KBO001.xml"
 
-  # 교보문고 - 북뉴스 RSS
-  - name: "교보문고 북뉴스"
-    type: "rss"
-    url: "http://news.kyobobook.co.kr/RSS.ink"
+
 
 entities:
   - name: "Genre"
