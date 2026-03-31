@@ -70,6 +70,74 @@ sources:
     type: "rss"
     url: "https://www.kirkusreviews.com/feeds/latest-reviews/"
 
+  # === Reddit 독서 커뮤니티 ===
+  - name: "r/books"
+    type: "rss"
+    url: "https://www.reddit.com/r/books/.rss"
+
+  - name: "r/suggestmeabook"
+    type: "rss"
+    url: "https://www.reddit.com/r/suggestmeabook/.rss"
+
+  - name: "r/52book"
+    type: "rss"
+    url: "https://www.reddit.com/r/52book/.rss"
+
+  - name: "r/booksuggestions"
+    type: "rss"
+    url: "https://www.reddit.com/r/booksuggestions/.rss"
+
+  - name: "r/Fantasy"
+    type: "rss"
+    url: "https://www.reddit.com/r/Fantasy/.rss"
+
+  - name: "r/literature"
+    type: "rss"
+    url: "https://www.reddit.com/r/literature/.rss"
+
+  - name: "r/horrorlit"
+    type: "rss"
+    url: "https://www.reddit.com/r/horrorlit/.rss"
+
+  - name: "r/scifi"
+    type: "rss"
+    url: "https://www.reddit.com/r/scifi/.rss"
+
+  # === BookTube (YouTube) ===
+  - name: "merphy napier"
+    type: "rss"
+    url: "https://www.youtube.com/feeds/videos.xml?channel_id=UC7FW6FYqPLeQIXMSulBfOLw"
+
+  - name: "Daniel Greene"
+    type: "rss"
+    url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCw--xPGVVxYzRsWyV1nFqgg"
+
+  - name: "Ariel Bissett"
+    type: "rss"
+    url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCuw5d8pP51LwRGZPq1QVQUg"
+
+  # === 팟캐스트 ===
+  - name: "What Should I Read Next"
+    type: "rss"
+    url: "https://feeds.simplecast.com/4MfgQ3lv"
+
+  - name: "The Bookshelf"
+    type: "rss"
+    url: "https://feeds.npr.org/510302/podcast.xml"
+
+  # === 국제 출판 뉴스 ===
+  - name: "The Bookseller UK"
+    type: "rss"
+    url: "https://www.thebookseller.com/rss.xml"
+
+  - name: "Publishing Perspectives"
+    type: "rss"
+    url: "https://publishingperspectives.com/feed/"
+
+  - name: "Shelf Awareness"
+    type: "rss"
+    url: "https://www.shelf-awareness.com/rss/"
+
 entities:
   - name: "Genre"
     display_name: "장르"
