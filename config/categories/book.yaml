@@ -72,36 +72,36 @@ sources:
 
   # === Reddit 독서 커뮤니티 ===
   - name: "r/books"
-    type: "rss"
-    url: "https://www.reddit.com/r/books/.rss"
+    type: "reddit"
+    url: "https://www.reddit.com/r/books/"
 
   - name: "r/suggestmeabook"
-    type: "rss"
-    url: "https://www.reddit.com/r/suggestmeabook/.rss"
+    type: "reddit"
+    url: "https://www.reddit.com/r/suggestmeabook/"
 
   - name: "r/52book"
-    type: "rss"
-    url: "https://www.reddit.com/r/52book/.rss"
+    type: "reddit"
+    url: "https://www.reddit.com/r/52book/"
 
   - name: "r/booksuggestions"
-    type: "rss"
-    url: "https://www.reddit.com/r/booksuggestions/.rss"
+    type: "reddit"
+    url: "https://www.reddit.com/r/booksuggestions/"
 
   - name: "r/Fantasy"
-    type: "rss"
-    url: "https://www.reddit.com/r/Fantasy/.rss"
+    type: "reddit"
+    url: "https://www.reddit.com/r/Fantasy/"
 
   - name: "r/literature"
-    type: "rss"
-    url: "https://www.reddit.com/r/literature/.rss"
+    type: "reddit"
+    url: "https://www.reddit.com/r/literature/"
 
   - name: "r/horrorlit"
-    type: "rss"
-    url: "https://www.reddit.com/r/horrorlit/.rss"
+    type: "reddit"
+    url: "https://www.reddit.com/r/horrorlit/"
 
   - name: "r/scifi"
-    type: "rss"
-    url: "https://www.reddit.com/r/scifi/.rss"
+    type: "reddit"
+    url: "https://www.reddit.com/r/scifi/"
 
   # === BookTube (YouTube) ===
   - name: "merphy napier"
