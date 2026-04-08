@@ -4,10 +4,11 @@ import argparse
 from pathlib import Path
 from typing import cast
 
+from radar_core.date_storage import apply_date_storage_policy
+
 from bookradar.analyzer import apply_entity_rules
 from bookradar.collector import collect_sources
 from bookradar.config_loader import load_category_config, load_settings
-from radar_core.date_storage import apply_date_storage_policy
 from bookradar.logger import configure_logging, get_logger
 from bookradar.reporter import generate_index_html, generate_report
 from bookradar.storage import RadarStorage
