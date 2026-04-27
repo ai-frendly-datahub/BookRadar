@@ -114,3 +114,15 @@ BookRadar는 radar-core 공유 라이브러리를 활용합니다:
 - `from radar_core.report_utils import generate_report, generate_index_html`
 
 이를 통해 코드 중복을 최소화하고 여러 Radar 프로젝트 간 일관성을 유지합니다.
+
+<!-- DATAHUB-OPS-AUDIT:START -->
+## DataHub Operations
+
+- CI/CD workflows: `radar-crawler.yml`.
+- GitHub Pages visualization: `reports/index.html` (valid HTML); https://ai-frendly-datahub.github.io/BookRadar/.
+- Latest remote Pages check: HTTP 200, HTML.
+- Local workspace audit: 23 Python files parsed, 0 syntax errors.
+- Re-run audit from the workspace root: `python scripts/audit_ci_pages_readme.py --syntax-check --write`.
+- Latest audit report: `_workspace/2026-04-14_github_ci_pages_readme_audit.md`.
+- Latest Pages URL report: `_workspace/2026-04-14_github_pages_url_check.md`.
+<!-- DATAHUB-OPS-AUDIT:END -->

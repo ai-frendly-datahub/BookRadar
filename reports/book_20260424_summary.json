@@ -1,0 +1,97 @@
+{
+  "date": "2026-04-24",
+  "category": "book",
+  "article_count": 430,
+  "source_count": 19,
+  "matched_count": 430,
+  "top_entities": [
+    {
+      "name": "SourceSignal",
+      "count": 461
+    },
+    {
+      "name": "Genre",
+      "count": 428
+    },
+    {
+      "name": "Author",
+      "count": 83
+    },
+    {
+      "name": "BookType",
+      "count": 38
+    },
+    {
+      "name": "Award",
+      "count": 31
+    },
+    {
+      "name": "Publisher",
+      "count": 16
+    },
+    {
+      "name": "BookEvent",
+      "count": 10
+    }
+  ],
+  "sources": {
+    "r/booksuggestions": 30,
+    "r/52book": 30,
+    "r/Fantasy": 31,
+    "r/suggestmeabook": 30,
+    "r/horrorlit": 30,
+    "r/books": 30,
+    "r/scifi": 30,
+    "r/literature": 30,
+    "Literary Hub": 20,
+    "The Guardian Books": 25,
+    "Book Riot": 15,
+    "New York Times Books": 16,
+    "Publishing Perspectives": 13,
+    "NPR Books": 10,
+    "Publishers Weekly": 30,
+    "Daniel Greene": 14,
+    "알라딘 신간": 30,
+    "merphy napier": 15,
+    "알라딘 베스트셀러": 1
+  },
+  "generated_at": "2026-04-24T23:22:40.520561+09:00",
+  "ontology": {
+    "repo": "BookRadar",
+    "category": "book",
+    "ontology_version": "0.1.0",
+    "event_model_ids": [
+      "book.author_event",
+      "book.award_signal",
+      "book.library_lending",
+      "book.sales_ranking"
+    ],
+    "event_model_mappings": {
+      "sales_ranking": "book.sales_ranking",
+      "library_lending": "book.library_lending",
+      "author_event": "book.author_event",
+      "award_signal": "book.award_signal"
+    },
+    "entity_type_hints": [
+      "book.edition",
+      "book.author"
+    ],
+    "source_role_ids": [
+      "community_signal",
+      "context_only",
+      "operational_evidence",
+      "primary_evidence"
+    ],
+    "source_role_mappings": {
+      "알라딘 베스트셀러": "primary_evidence",
+      "알라딘 신간": "operational_evidence",
+      "Publishers Weekly": "context_only",
+      "r/books": "community_signal"
+    },
+    "evidence_policy_ids": [
+      "traceable_url_required",
+      "cross_reference_required",
+      "non_authoritative_context_only"
+    ]
+  }
+}

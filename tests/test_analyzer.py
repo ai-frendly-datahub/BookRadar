@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from bookradar.analyzer import apply_entity_rules
+from bookradar.config_loader import load_category_config
 from bookradar.models import Article, EntityDefinition
 
 
@@ -86,3 +87,27 @@ class TestApplyEntityRules:
         result = apply_entity_rules(articles, entities)
 
         assert "도서" in result[0].matched_entities
+
+    def test_book_config_matches_book_news(self):
+        """Book news headlines should be classified by the real category config."""
+        category = load_category_config("book")
+        articles = [_make_article("The Book News We Covered This Week")]
+
+        result = apply_entity_rules(articles, category.entities)
+
+        assert result[0].matched_entities["BookType"] == ["book news"]
+
+    def test_book_config_does_not_match_pronoun_it_as_genre(self):
+        """The book config must not classify English pronoun 'it' as the IT genre."""
+        category = load_category_config("book")
+        articles = [
+            _make_article(
+                "Too hot to handle? Why it's time for authors to rediscover sex",
+                summary="A fiction critic argues that contemporary writers avoid sex.",
+            )
+        ]
+
+        result = apply_entity_rules(articles, category.entities)
+
+        assert result[0].matched_entities["Genre"] == ["fiction"]
+        assert "it" not in result[0].matched_entities["Genre"]

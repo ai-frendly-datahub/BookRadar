@@ -1,15 +1,24 @@
 from __future__ import annotations
 
 import argparse
+from datetime import UTC, datetime
 from pathlib import Path
 from typing import cast
 
 from radar_core.date_storage import apply_date_storage_policy
+from radar_core.ontology import annotate_articles_with_ontology
+from radar_core.raw_logger import RawLogger
 
 from bookradar.analyzer import apply_entity_rules
 from bookradar.collector import collect_sources
-from bookradar.config_loader import load_category_config, load_settings
+from bookradar.config_loader import (
+    load_category_config,
+    load_category_quality_config,
+    load_settings,
+)
 from bookradar.logger import configure_logging, get_logger
+from bookradar.quality_report import build_quality_report, write_quality_report
+from bookradar.relevance import apply_source_context_entities, filter_relevant_articles
 from bookradar.reporter import generate_index_html, generate_report
 from bookradar.storage import RadarStorage
 
@@ -26,12 +35,17 @@ def run(
     recent_days: int = 7,
     timeout: int = 15,
     keep_days: int = 90,
+    keep_raw_days: int = 180,
+    keep_report_days: int = 90,
     snapshot_db: bool = False,
 ) -> Path:
     """Execute the lightweight collect -> analyze -> report pipeline."""
     configure_logging()
+    cycle_start = datetime.now(UTC)
     settings = load_settings(config_path)
+    raw_data_dir = getattr(settings, "raw_data_dir", settings.database_path.parent / "raw")
     category_cfg = load_category_config(category, categories_dir=categories_dir)
+    quality_cfg = load_category_quality_config(category, categories_dir=categories_dir)
 
     logger.info(
         "pipeline_start",
@@ -44,17 +58,67 @@ def run(
         limit_per_source=per_source_limit,
         timeout=timeout,
     )
+    collected = annotate_articles_with_ontology(
+        collected,
+        repo_name="BookRadar",
+        sources_by_name={source.name: source for source in category_cfg.sources},
+        category_name=category_cfg.category_name,
+        search_from=Path(__file__),
+    )
 
-    analyzed = apply_entity_rules(collected, category_cfg.entities)
+    raw_logger = RawLogger(raw_data_dir)
+    for source in category_cfg.sources:
+        source_articles = [article for article in collected if article.source == source.name]
+        if source_articles:
+            _ = raw_logger.log(source_articles, source_name=source.name)
+
+    analyzed = filter_relevant_articles(
+        apply_source_context_entities(
+            apply_entity_rules(collected, category_cfg.entities),
+            category_cfg.sources,
+        ),
+        category_cfg.sources,
+    )
 
     storage = RadarStorage(settings.database_path)
     storage.upsert_articles(analyzed)
     _ = storage.delete_older_than(keep_days)
 
-    recent_articles = storage.recent_articles(category_cfg.category_name, days=recent_days)
+    quality_window_days = max(recent_days, 14)
+    recent_articles_by_link = {
+        article.link: article
+        for article in [
+            *storage.recent_articles(
+                category_cfg.category_name, days=recent_days, limit=1000
+            ),
+            *storage.recent_articles_by_collected_at(
+                category_cfg.category_name, days=recent_days, limit=1000
+            ),
+        ]
+    }
+    quality_articles_by_link = {
+        article.link: article
+        for article in [
+            *storage.recent_articles(
+                category_cfg.category_name, days=quality_window_days, limit=1000
+            ),
+            *storage.recent_articles_by_collected_at(
+                category_cfg.category_name, days=quality_window_days, limit=1000
+            ),
+        ]
+    }
     storage.close()
+    recent_articles = filter_relevant_articles(
+        apply_source_context_entities(recent_articles_by_link.values(), category_cfg.sources),
+        category_cfg.sources,
+    )
+    quality_articles = filter_relevant_articles(
+        apply_source_context_entities(quality_articles_by_link.values(), category_cfg.sources),
+        category_cfg.sources,
+    )
 
-    matched_count = sum(1 for a in collected if a.matched_entities)
+    matched_count = sum(1 for a in recent_articles if a.matched_entities)
+    source_count = len({a.source for a in recent_articles if a.source})
     logger.info(
         "collection_complete",
         collected_count=len(collected),
@@ -64,11 +128,21 @@ def run(
 
     stats = {
         "sources": len(category_cfg.sources),
-        "collected": len(collected),
+        "collected": len(recent_articles),
         "matched": matched_count,
         "window_days": recent_days,
+        "article_count": len(recent_articles),
+        "source_count": source_count,
+        "matched_count": matched_count,
     }
 
+    quality_report = build_quality_report(
+        category=category_cfg,
+        articles=quality_articles,
+        errors=errors,
+        quality_config=quality_cfg,
+        generated_at=cycle_start,
+    )
     output_path = settings.report_dir / f"{category_cfg.category_name}_report.html"
     _ = generate_report(
         category=category_cfg,
@@ -76,15 +150,19 @@ def run(
         output_path=output_path,
         stats=stats,
         errors=errors,
+        quality_report=quality_report,
     )
     logger.info("report_generated", output_path=str(output_path))
+    quality_paths = write_quality_report(
+        quality_report,
+        output_dir=settings.report_dir,
+        category_name=category_cfg.category_name,
+    )
+    logger.info("quality_report_generated", output_path=str(quality_paths["latest"]))
     generate_index_html(settings.report_dir)
     if errors:
         logger.warning("collection_errors", errors_count=len(errors))
 
-    raw_data_dir = getattr(settings, "raw_data_dir", settings.database_path.parent / "raw")
-    keep_raw_days = getattr(settings, "keep_raw_days", 180)
-    keep_report_days = getattr(settings, "keep_report_days", 90)
     date_storage = apply_date_storage_policy(
         database_path=settings.database_path,
         raw_data_dir=raw_data_dir,
@@ -135,6 +213,12 @@ def parse_args() -> argparse.Namespace:
         "--keep-days", type=int, default=90, help="Retention window for stored items"
     )
     _ = parser.add_argument(
+        "--keep-raw-days", type=int, default=180, help="Retention window for raw JSONL directories"
+    )
+    _ = parser.add_argument(
+        "--keep-report-days", type=int, default=90, help="Retention window for dated HTML reports"
+    )
+    _ = parser.add_argument(
         "--snapshot-db",
         action="store_true",
         default=False,
@@ -172,5 +256,7 @@ if __name__ == "__main__":
         recent_days=_to_int(args.get("recent_days"), 7),
         timeout=_to_int(args.get("timeout"), 15),
         keep_days=_to_int(args.get("keep_days"), 90),
+        keep_raw_days=_to_int(args.get("keep_raw_days"), 180),
+        keep_report_days=_to_int(args.get("keep_report_days"), 90),
         snapshot_db=bool(args.get("snapshot_db", False)),
     )

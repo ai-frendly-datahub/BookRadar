@@ -28,6 +28,51 @@ def _str(d: dict[str, object], k: str, default: str = "") -> str:
     return v if isinstance(v, str) and v.strip() else default
 
 
+def _bool(d: dict[str, object], k: str, default: bool) -> bool:
+    v = d.get(k)
+    if isinstance(v, bool):
+        return v
+    if isinstance(v, str):
+        lowered = v.strip().lower()
+        if lowered in {"true", "1", "yes", "y"}:
+            return True
+        if lowered in {"false", "0", "no", "n"}:
+            return False
+    return default
+
+
+def _float(d: dict[str, object], k: str, default: float) -> float:
+    v = d.get(k)
+    if isinstance(v, int | float):
+        return float(v)
+    if isinstance(v, str):
+        try:
+            return float(v.strip())
+        except ValueError:
+            return default
+    return default
+
+
+def _str_list(d: dict[str, object], k: str) -> list[str]:
+    v = d.get(k)
+    if isinstance(v, list):
+        values = cast(list[object], v)
+    elif isinstance(v, tuple | set):
+        values = list(cast(tuple[object, ...] | set[object], v))
+    elif isinstance(v, str) and v.strip():
+        values = [v]
+    else:
+        values = []
+    return [str(value).strip() for value in values if str(value).strip()]
+
+
+def _dict(d: dict[str, object], k: str) -> dict[str, object]:
+    v = d.get(k)
+    if isinstance(v, dict):
+        return {str(key): value for key, value in cast(dict[object, object], v).items()}
+    return {}
+
+
 def _path(val: str) -> Path:
     p = Path(val).expanduser()
     return p if p.is_absolute() else (_PROJECT_ROOT / p).resolve()
@@ -61,6 +106,19 @@ def load_category_config(category_name: str, categories_dir: Path | None = None)
                     name=_str(sd, "name", "Unnamed"),
                     type=_str(sd, "type", "rss"),
                     url=_str(sd, "url"),
+                    id=_str(sd, "id"),
+                    enabled=_bool(sd, "enabled", True),
+                    language=_str(sd, "language"),
+                    country=_str(sd, "country"),
+                    region=_str(sd, "region"),
+                    trust_tier=_str(sd, "trust_tier", "T3_professional"),
+                    weight=_float(sd, "weight", 1.0),
+                    content_type=_str(sd, "content_type", "news"),
+                    collection_tier=_str(sd, "collection_tier", "C1_rss"),
+                    producer_role=_str(sd, "producer_role"),
+                    info_purpose=_str_list(sd, "info_purpose"),
+                    notes=_str(sd, "notes"),
+                    config=_dict(sd, "config"),
                 )
             )
     entities = []
@@ -89,6 +147,20 @@ def load_category_config(category_name: str, categories_dir: Path | None = None)
     )
 
 
+def load_category_quality_config(
+    category_name: str, categories_dir: Path | None = None
+) -> dict[str, object]:
+    base = categories_dir or _PROJECT_ROOT / "config" / "categories"
+    f = Path(base) / f"{category_name}.yaml"
+    if not f.exists():
+        raise FileNotFoundError(f"Category config not found: {f}")
+    raw = _read_yaml(f)
+    return {
+        "data_quality": _dict(raw, "data_quality"),
+        "source_backlog": _dict(raw, "source_backlog"),
+    }
+
+
 def load_notification_config(config_path: Path | None = None) -> NotificationConfig:
     f = config_path or _PROJECT_ROOT / "config" / "notifications.yaml"
     if not f.exists():
@@ -96,4 +168,9 @@ def load_notification_config(config_path: Path | None = None) -> NotificationCon
     return NotificationConfig(enabled=False, channels=[])
 
 
-__all__ = ["load_category_config", "load_notification_config", "load_settings"]
+__all__ = [
+    "load_category_config",
+    "load_category_quality_config",
+    "load_notification_config",
+    "load_settings",
+]

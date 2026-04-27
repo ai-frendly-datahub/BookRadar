@@ -1,0 +1,2007 @@
+{
+  "category": "book",
+  "generated_at": "2026-04-23T19:40:04.813530+00:00",
+  "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
+  "summary": {
+    "total_sources": 32,
+    "enabled_sources": 20,
+    "tracked_sources": 2,
+    "fresh_sources": 0,
+    "stale_sources": 1,
+    "missing_sources": 0,
+    "missing_event_sources": 0,
+    "unknown_event_date_sources": 0,
+    "not_tracked_sources": 19,
+    "skipped_disabled_sources": 12,
+    "collection_error_count": 0,
+    "sales_ranking_events": 1,
+    "library_lending_events": 0,
+    "author_event_events": 4,
+    "award_signal_events": 14,
+    "book_signal_event_count": 19,
+    "official_or_operational_event_count": 2,
+    "community_proxy_event_count": 1,
+    "complete_canonical_key_count": 6,
+    "proxy_canonical_key_count": 13,
+    "missing_canonical_key_count": 0,
+    "isbn_present_count": 6,
+    "author_present_count": 5,
+    "publisher_present_count": 2,
+    "rank_present_count": 0,
+    "lending_count_present_count": 0,
+    "event_required_field_gap_count": 16,
+    "tracked_source_gap_count": 1,
+    "missing_event_model_count": 1,
+    "source_backlog_candidate_count": 4,
+    "daily_review_item_count": 36
+  },
+  "sources": [
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 1,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "알라딘 베스트셀러",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T1_official",
+      "content_type": "bestseller",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": true,
+      "event_model": "sales_ranking",
+      "freshness_sla_days": 3.0,
+      "status": "stale",
+      "article_count": 1,
+      "event_count": 1,
+      "latest_event_at": "2026-04-12T13:01:06+00:00",
+      "age_days": 11.28,
+      "latest_title": "[알라딘 베스트 RSS] 도서종합 분야 주간 베스트셀러",
+      "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=BEST&branch=book&cid=0&days=2026043",
+      "latest_source_signal": [
+        "official_book_source",
+        "sales_ranking"
+      ],
+      "latest_required_field_proxy": {
+        "isbn": true,
+        "rank": false,
+        "retailer": true
+      },
+      "errors": []
+    },
+    {
+      "source": "YES24 베스트셀러",
+      "source_type": "rss",
+      "enabled": false,
+      "trust_tier": "T1_official",
+      "content_type": "bestseller",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": true,
+      "event_model": "sales_ranking",
+      "freshness_sla_days": 3.0,
+      "status": "skipped_disabled",
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "교보문고 북뉴스",
+      "source_type": "rss",
+      "enabled": false,
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "skipped_disabled",
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "출판저널",
+      "source_type": "rss",
+      "enabled": false,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "skipped_disabled",
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "북DB",
+      "source_type": "rss",
+      "enabled": false,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "skipped_disabled",
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "한겨레 책",
+      "source_type": "rss",
+      "enabled": false,
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "skipped_disabled",
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "경향신문 책",
+      "source_type": "rss",
+      "enabled": false,
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "skipped_disabled",
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "Publishers Weekly",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 33,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 30,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "NPR Books",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 12,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 16,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "Book Riot",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 15,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "Goodreads News",
+      "source_type": "rss",
+      "enabled": false,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "skipped_disabled",
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "New York Times Books",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 21,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "Kirkus Reviews",
+      "source_type": "rss",
+      "enabled": false,
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "skipped_disabled",
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "r/books",
+      "source_type": "reddit",
+      "enabled": true,
+      "trust_tier": "T4_community",
+      "content_type": "community",
+      "collection_tier": "C3_reddit",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 3,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "r/suggestmeabook",
+      "source_type": "reddit",
+      "enabled": true,
+      "trust_tier": "T4_community",
+      "content_type": "community",
+      "collection_tier": "C3_reddit",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 4,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "r/52book",
+      "source_type": "reddit",
+      "enabled": true,
+      "trust_tier": "T4_community",
+      "content_type": "community",
+      "collection_tier": "C3_reddit",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 3,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "r/booksuggestions",
+      "source_type": "reddit",
+      "enabled": true,
+      "trust_tier": "T4_community",
+      "content_type": "community",
+      "collection_tier": "C3_reddit",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 4,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "r/Fantasy",
+      "source_type": "reddit",
+      "enabled": true,
+      "trust_tier": "T4_community",
+      "content_type": "community",
+      "collection_tier": "C3_reddit",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 3,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "r/literature",
+      "source_type": "reddit",
+      "enabled": true,
+      "trust_tier": "T4_community",
+      "content_type": "community",
+      "collection_tier": "C3_reddit",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 2,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "r/horrorlit",
+      "source_type": "reddit",
+      "enabled": true,
+      "trust_tier": "T4_community",
+      "content_type": "community",
+      "collection_tier": "C3_reddit",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 3,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "r/scifi",
+      "source_type": "reddit",
+      "enabled": true,
+      "trust_tier": "T4_community",
+      "content_type": "community",
+      "collection_tier": "C3_reddit",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 3,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "merphy napier",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T4_community",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 1,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "Daniel Greene",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T4_community",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 1,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "Ariel Bissett",
+      "source_type": "rss",
+      "enabled": false,
+      "trust_tier": "T4_community",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "skipped_disabled",
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "What Should I Read Next",
+      "source_type": "rss",
+      "enabled": false,
+      "trust_tier": "T4_community",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "skipped_disabled",
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "The Bookshelf",
+      "source_type": "rss",
+      "enabled": false,
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "skipped_disabled",
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "The Bookseller UK",
+      "source_type": "rss",
+      "enabled": false,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "skipped_disabled",
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "Publishing Perspectives",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 13,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    },
+    {
+      "source": "Shelf Awareness",
+      "source_type": "rss",
+      "enabled": true,
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "tracked": false,
+      "event_model": "",
+      "freshness_sla_days": null,
+      "status": "not_tracked",
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_required_field_proxy": {},
+      "errors": []
+    }
+  ],
+  "events": [
+    {
+      "source": "r/Fantasy",
+      "source_type": "reddit",
+      "trust_tier": "T4_community",
+      "content_type": "community",
+      "collection_tier": "C3_reddit",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "A Review of Walk to the End of the World by Suzy McKee Charnas (spoilers because... hoo boy)",
+      "url": "https://www.reddit.com/r/Fantasy/comments/1sku9az/a_review_of_walk_to_the_end_of_the_world_by_suzy/",
+      "source_url": "https://www.reddit.com/r/Fantasy/comments/1sku9az/a_review_of_walk_to_the_end_of_the_world_by_suzy/",
+      "event_at": "2026-04-14T01:19:08+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [
+        "fantasy"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "award",
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "community_book_signal"
+      ],
+      "canonical_key": "book_source:r-fantasy:905ea69263be",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:d99c662c89e5:20260414",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "NPR Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Have we been reading Toni Morrison all wrong?",
+      "url": "https://www.npr.org/2026/04/13/nx-s1-5780845/have-we-been-reading-toni-morrison-all-wrong",
+      "source_url": "https://www.npr.org/2026/04/13/nx-s1-5780845/have-we-been-reading-toni-morrison-all-wrong",
+      "event_at": "2026-04-13T06:52:26+00:00",
+      "isbn": "5780845",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "nobel",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "nobel",
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source"
+      ],
+      "canonical_key": "book_edition:5780845",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:b451593dd3f8:20260413",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "Publishing Perspectives",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "Options, Shopping Agreements, and the ‘Great Divide’: Bologna Kicks Off with a Program on Rights and Licensing",
+      "url": "https://publishingperspectives.com/2026/04/options-shopping-agreements-and-the-great-divide-bologna-kicks-off-with-a-program-on-rights-and-licensing/",
+      "source_url": "https://publishingperspectives.com/2026/04/options-shopping-agreements-and-the-great-divide-bologna-kicks-off-with-a-program-on-rights-and-licensing/",
+      "event_at": "2026-04-12T23:13:49+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "book fair",
+      "award_name": "",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "book fair"
+      ],
+      "source_signal": [
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:publishing-perspectives:5e0a822c31d0",
+      "canonical_key_status": "source_proxy",
+      "event_key": "author_event:c849c19e9155:20260412",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "Publishers Weekly",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "Bologna Children’s Book Fair 2026: Must-See Events",
+      "url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/100091-bologna-children-s-book-fair-2026-must-see-events.html",
+      "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/100091-bologna-children-s-book-fair-2026-must-see-events.html",
+      "event_at": "2026-04-12T19:00:00+00:00",
+      "isbn": "100091",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "book fair",
+      "award_name": "",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "book fair"
+      ],
+      "source_signal": [
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:100091",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:52b8260324b5:20260412",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "Publishers Weekly",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "Bologna Children’s Book Fair 2026: Michael Rosen and Cai Gao Win Hans Christian Andersen Awards",
+      "url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/100164-bologna-children-s-book-fair-2026-michael-rosen-and-cai-gao-win-hans-christian-andersen-awards.html",
+      "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/100164-bologna-children-s-book-fair-2026-michael-rosen-and-cai-gao-win-hans-christian-andersen-awards.html",
+      "event_at": "2026-04-12T19:00:00+00:00",
+      "isbn": "100164",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "book fair",
+      "award_name": "",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "book fair"
+      ],
+      "source_signal": [
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:100164",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:8ddf8989645c:20260412",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "알라딘 베스트셀러",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "bestseller",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "sales_ranking",
+      "title": "[알라딘 베스트 RSS] 도서종합 분야 주간 베스트셀러",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=BEST&branch=book&cid=0&days=2026043",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=BEST&branch=book&cid=0&days=2026043",
+      "event_at": "2026-04-12T13:01:06+00:00",
+      "isbn": "270454373",
+      "rank": null,
+      "retailer": "알라딘 베스트셀러",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "문학",
+        "자기계발",
+        "인문학",
+        "과학",
+        "역사",
+        "철학",
+        "심리",
+        "만화",
+        "판타지",
+        "sf",
+        "동화"
+      ],
+      "publisher": [
+        "문학동네",
+        "알에이치코리아",
+        "21세기북스",
+        "rhk",
+        "출판사"
+      ],
+      "book_type": [
+        "베스트셀러",
+        "화제의 책",
+        "초판"
+      ],
+      "author": [
+        "작가",
+        "저자",
+        "번역",
+        "데뷔"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "official_book_source",
+        "sales_ranking"
+      ],
+      "canonical_key": "book_edition:270454373",
+      "canonical_key_status": "complete",
+      "event_key": "sales_ranking:7af97829f158:20260412",
+      "required_field_proxy": {
+        "isbn": true,
+        "rank": false,
+        "retailer": true
+      },
+      "required_field_gaps": [
+        "rank"
+      ]
+    },
+    {
+      "source": "알라딘 베스트셀러",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "bestseller",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "[알라딘 베스트 RSS] 도서종합 분야 주간 베스트셀러",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=BEST&branch=book&cid=0&days=2026043",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=BEST&branch=book&cid=0&days=2026043",
+      "event_at": "2026-04-12T13:01:06+00:00",
+      "isbn": "270454373",
+      "rank": null,
+      "retailer": "알라딘 베스트셀러",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "문학",
+        "자기계발",
+        "인문학",
+        "과학",
+        "역사",
+        "철학",
+        "심리",
+        "만화",
+        "판타지",
+        "sf",
+        "동화"
+      ],
+      "publisher": [
+        "문학동네",
+        "알에이치코리아",
+        "21세기북스",
+        "rhk",
+        "출판사"
+      ],
+      "book_type": [
+        "베스트셀러",
+        "화제의 책",
+        "초판"
+      ],
+      "author": [
+        "작가",
+        "저자",
+        "번역",
+        "데뷔"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "official_book_source",
+        "sales_ranking"
+      ],
+      "canonical_key": "book_edition:270454373",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:7af97829f158:20260412",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "Publishing Perspectives",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "Preview of the 63rd edition of the Bologna Children’s Book Fair",
+      "url": "https://publishingperspectives.com/2026/04/preview-of-the-63rd-edition-of-the-bologna-childrens-book-fair/",
+      "source_url": "https://publishingperspectives.com/2026/04/preview-of-the-63rd-edition-of-the-bologna-childrens-book-fair/",
+      "event_at": "2026-04-10T03:15:16+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "book fair",
+      "award_name": "",
+      "genre": [
+        "literature"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "book fair"
+      ],
+      "source_signal": [
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:publishing-perspectives:a28b7883df9a",
+      "canonical_key_status": "source_proxy",
+      "event_key": "author_event:9f28b379b920:20260410",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "This month’s best paperbacks: David Szalay, Han Kang and more",
+      "url": "https://www.theguardian.com/books/ng-interactive/2026/mar/18/this-months-best-paperbacks-david-szalay-han-kang-and-more",
+      "source_url": "https://www.theguardian.com/books/ng-interactive/2026/mar/18/this-months-best-paperbacks-david-szalay-han-kang-and-more",
+      "event_at": "2026-03-18T00:00:27+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source"
+      ],
+      "canonical_key": "book_source:the-guardian-books:810143522014",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:441e05ef9134:20260318",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Shahrnush Parsipur: ‘The women of Iran will cause the fall of the Islamic Republic’",
+      "url": "https://www.theguardian.com/books/2026/mar/15/shahrnush-parsipur-the-women-of-iran-will-cause-the-fall-of-the-islamic-republic",
+      "source_url": "https://www.theguardian.com/books/2026/mar/15/shahrnush-parsipur-the-women-of-iran-will-cause-the-fall-of-the-islamic-republic",
+      "event_at": "2026-03-15T03:00:24+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [
+        "literary"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author"
+      ],
+      "award": [
+        "booker"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source"
+      ],
+      "canonical_key": "book_edition:title:1cdf01351394",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:7cbfc8cb5c82:20260315",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Helen DeWitt turns down $175k Windham-Campbell prize over promotional requirements",
+      "url": "https://www.theguardian.com/books/2026/apr/09/helen-dewitt-turns-down-windham-campbell-prize-unable-promote",
+      "source_url": "https://www.theguardian.com/books/2026/apr/09/helen-dewitt-turns-down-windham-campbell-prize-unable-promote",
+      "event_at": "2026-04-09T08:26:30+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author",
+        "writer"
+      ],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source"
+      ],
+      "canonical_key": "book_edition:title:b56410b8021f",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:ca71d37fb27b:20260409",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "British novelist Gwendoline Riley wins $175k Windham-Campbell prize",
+      "url": "https://www.theguardian.com/books/2026/apr/08/british-novelist-gwendoline-riley-wins-windham-campbell-prize",
+      "source_url": "https://www.theguardian.com/books/2026/apr/08/british-novelist-gwendoline-riley-wins-windham-campbell-prize",
+      "event_at": "2026-04-08T09:15:09+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [
+        "fiction",
+        "poetry"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source"
+      ],
+      "canonical_key": "book_source:the-guardian-books:de914d6baa30",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:cb5788bb9623:20260408",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "New York Times Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Book Review: ‘Corto Maltese,’ by Hugo Pratt",
+      "url": "https://www.nytimes.com/2026/04/07/books/review/corto-maltese-hugo-pratt.html",
+      "source_url": "https://www.nytimes.com/2026/04/07/books/review/corto-maltese-hugo-pratt.html",
+      "event_at": "2026-04-07T00:00:07+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "hugo",
+      "genre": [
+        "novel"
+      ],
+      "publisher": [],
+      "book_type": [
+        "book review"
+      ],
+      "author": [],
+      "award": [
+        "hugo"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source"
+      ],
+      "canonical_key": "book_source:new-york-times-books:da7c47e6c264",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:d0c8ada35302:20260407",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Publishing Perspectives",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "IPA Announces Shortlist for the 2026 Innovation Award",
+      "url": "https://publishingperspectives.com/2026/04/ipa-announces-shortlist-for-the-2026-innovation-award/",
+      "source_url": "https://publishingperspectives.com/2026/04/ipa-announces-shortlist-for-the-2026-innovation-award/",
+      "event_at": "2026-04-02T02:20:12+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "award",
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:publishing-perspectives:6a4fad753741",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:a1d42fb5a91e:20260402",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Publishing Perspectives",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "International Awards Round-Up: International Booker Prize, NBCCs, the Nibbies, and More",
+      "url": "https://publishingperspectives.com/2026/04/international-awards-round-up-international-booker-prize-nbccs-the-nibbies-and-more/",
+      "source_url": "https://publishingperspectives.com/2026/04/international-awards-round-up-international-booker-prize-nbccs-the-nibbies-and-more/",
+      "event_at": "2026-04-01T03:05:01+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker",
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:publishing-perspectives:6bc14a924560",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:0ee212795aa3:20260401",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Publishing Perspectives",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Dr. Said Laouadi on the Connection Between Food and Literature",
+      "url": "https://publishingperspectives.com/2026/04/dr-said-laouadi-on-the-connection-between-food-and-literature/",
+      "source_url": "https://publishingperspectives.com/2026/04/dr-said-laouadi-on-the-connection-between-food-and-literature/",
+      "event_at": "2026-04-08T03:08:57+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [
+        "literature"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:publishing-perspectives:9c55acf04ff3",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:b138757ef30c:20260408",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "The Annotated Nightstand: What Anne Enright is Reading Now, And Next",
+      "url": "https://lithub.com/the-annotated-nightstand-what-anne-enright-is-reading-now-and-next/",
+      "source_url": "https://lithub.com/the-annotated-nightstand-what-anne-enright-is-reading-now-and-next/",
+      "event_at": "2026-04-08T23:58:22+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author"
+      ],
+      "award": [
+        "booker",
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source"
+      ],
+      "canonical_key": "book_edition:title:65f5cee4d669",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:8ee710100251:20260408",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Book Riot",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Indie Booksellers Award the Best Books of 2025",
+      "url": "https://bookriot.com/indies-choice-book-awards-james-patterson-bookshop-prize/",
+      "source_url": "https://bookriot.com/indies-choice-book-awards-james-patterson-bookshop-prize/",
+      "event_at": "2026-04-09T04:43:51+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:book-riot:3f62d0d972ca",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:cca77d022d1a:20260409",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Publishers Weekly",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "ABA Announces 2026 Indies Choice Book Award Winners",
+      "url": "http://www.publishersweekly.com/pw/by-topic/industry-news/awards-and-prizes/article/100120-aba-announces-2026-indies-choice-book-award-winners.html",
+      "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/awards-and-prizes/article/100120-aba-announces-2026-indies-choice-book-award-winners.html",
+      "event_at": "2026-04-07T19:00:00+00:00",
+      "isbn": "100120",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:100120",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:bde5cbf47045:20260407",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    }
+  ],
+  "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "r/Fantasy",
+      "title": "A Review of Walk to the End of the World by Suzy McKee Charnas (spoilers because... hoo boy)",
+      "canonical_key": "book_source:r-fantasy:905ea69263be",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "r/Fantasy",
+      "title": "A Review of Walk to the End of the World by Suzy McKee Charnas (spoilers because... hoo boy)",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "community_proxy_source",
+      "event_model": "award_signal",
+      "source": "r/Fantasy",
+      "title": "A Review of Walk to the End of the World by Suzy McKee Charnas (spoilers because... hoo boy)"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "Publishing Perspectives",
+      "title": "Options, Shopping Agreements, and the ‘Great Divide’: Bologna Kicks Off with a Program on Rights and Licensing",
+      "canonical_key": "book_source:publishing-perspectives:5e0a822c31d0",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "author_event",
+      "source": "Publishing Perspectives",
+      "title": "Options, Shopping Agreements, and the ‘Great Divide’: Bologna Kicks Off with a Program on Rights and Licensing",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "Publishers Weekly",
+      "title": "Bologna Children’s Book Fair 2026: Must-See Events",
+      "canonical_key": "book_edition:100091",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "Publishers Weekly",
+      "title": "Bologna Children’s Book Fair 2026: Michael Rosen and Cai Gao Win Hans Christian Andersen Awards",
+      "canonical_key": "book_edition:100164",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "sales_ranking",
+      "source": "알라딘 베스트셀러",
+      "title": "[알라딘 베스트 RSS] 도서종합 분야 주간 베스트셀러",
+      "canonical_key": "book_edition:270454373",
+      "required_field_gaps": [
+        "rank"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "Publishing Perspectives",
+      "title": "Preview of the 63rd edition of the Bologna Children’s Book Fair",
+      "canonical_key": "book_source:publishing-perspectives:a28b7883df9a",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "author_event",
+      "source": "Publishing Perspectives",
+      "title": "Preview of the 63rd edition of the Bologna Children’s Book Fair",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "This month’s best paperbacks: David Szalay, Han Kang and more",
+      "canonical_key": "book_source:the-guardian-books:810143522014",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "This month’s best paperbacks: David Szalay, Han Kang and more",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Shahrnush Parsipur: ‘The women of Iran will cause the fall of the Islamic Republic’",
+      "canonical_key": "book_edition:title:1cdf01351394",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Shahrnush Parsipur: ‘The women of Iran will cause the fall of the Islamic Republic’",
+      "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Helen DeWitt turns down $175k Windham-Campbell prize over promotional requirements",
+      "canonical_key": "book_edition:title:b56410b8021f",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Helen DeWitt turns down $175k Windham-Campbell prize over promotional requirements",
+      "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "British novelist Gwendoline Riley wins $175k Windham-Campbell prize",
+      "canonical_key": "book_source:the-guardian-books:de914d6baa30",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "British novelist Gwendoline Riley wins $175k Windham-Campbell prize",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "New York Times Books",
+      "title": "Book Review: ‘Corto Maltese,’ by Hugo Pratt",
+      "canonical_key": "book_source:new-york-times-books:da7c47e6c264",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "New York Times Books",
+      "title": "Book Review: ‘Corto Maltese,’ by Hugo Pratt",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Publishing Perspectives",
+      "title": "IPA Announces Shortlist for the 2026 Innovation Award",
+      "canonical_key": "book_source:publishing-perspectives:6a4fad753741",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Publishing Perspectives",
+      "title": "IPA Announces Shortlist for the 2026 Innovation Award",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Publishing Perspectives",
+      "title": "International Awards Round-Up: International Booker Prize, NBCCs, the Nibbies, and More",
+      "canonical_key": "book_source:publishing-perspectives:6bc14a924560",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Publishing Perspectives",
+      "title": "International Awards Round-Up: International Booker Prize, NBCCs, the Nibbies, and More",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Publishing Perspectives",
+      "title": "Dr. Said Laouadi on the Connection Between Food and Literature",
+      "canonical_key": "book_source:publishing-perspectives:9c55acf04ff3",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Publishing Perspectives",
+      "title": "Dr. Said Laouadi on the Connection Between Food and Literature",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "The Annotated Nightstand: What Anne Enright is Reading Now, And Next",
+      "canonical_key": "book_edition:title:65f5cee4d669",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "The Annotated Nightstand: What Anne Enright is Reading Now, And Next",
+      "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "Indie Booksellers Award the Best Books of 2025",
+      "canonical_key": "book_source:book-riot:3f62d0d972ca",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "Indie Booksellers Award the Best Books of 2025",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "source_stale",
+      "source": "알라딘 베스트셀러",
+      "event_model": "sales_ranking",
+      "age_days": 11.28
+    },
+    {
+      "reason": "missing_event_model",
+      "event_model": "library_lending"
+    },
+    {
+      "reason": "source_backlog_pending",
+      "source": "Aladin bestseller ranking history",
+      "signal_type": "sales_ranking",
+      "activation_gate": "ranking window handling, ISBN mapping, and retailer taxonomy"
+    },
+    {
+      "reason": "source_backlog_pending",
+      "source": "YES24 bestseller ranking history",
+      "signal_type": "sales_ranking",
+      "activation_gate": "parser stability, ISBN mapping, and duplicate edition handling"
+    },
+    {
+      "reason": "source_backlog_pending",
+      "source": "Korea library bigdata lending statistics",
+      "signal_type": "library_lending",
+      "activation_gate": "API key, date granularity, ISBN coverage, and source attribution"
+    },
+    {
+      "reason": "source_backlog_pending",
+      "source": "Publisher/bookstore author event calendars",
+      "signal_type": "author_event",
+      "activation_gate": "venue canonicalization, event date parsing, and duplicate event handling"
+    }
+  ],
+  "source_backlog": {
+    "operational_candidates": [
+      {
+        "id": "aladin_bestseller_history",
+        "name": "Aladin bestseller ranking history",
+        "signal_type": "sales_ranking",
+        "activation_gate": "ranking window handling, ISBN mapping, and retailer taxonomy"
+      },
+      {
+        "id": "yes24_bestseller_history",
+        "name": "YES24 bestseller ranking history",
+        "signal_type": "sales_ranking",
+        "activation_gate": "parser stability, ISBN mapping, and duplicate edition handling"
+      },
+      {
+        "id": "library_bigdata_lending",
+        "name": "Korea library bigdata lending statistics",
+        "signal_type": "library_lending",
+        "activation_gate": "API key, date granularity, ISBN coverage, and source attribution"
+      },
+      {
+        "id": "author_event_calendars",
+        "name": "Publisher/bookstore author event calendars",
+        "signal_type": "author_event",
+        "activation_gate": "venue canonicalization, event date parsing, and duplicate event handling"
+      }
+    ]
+  },
+  "errors": []
+}

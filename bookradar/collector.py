@@ -171,6 +171,34 @@ def _parse_retry_after(value: str | None) -> int | str | None:
     return stripped
 
 
+def _source_bool(source: Source, key: str) -> bool:
+    value = source.config.get(key)
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, str):
+        return value.strip().lower() in {"1", "true", "yes", "y", "on"}
+    return False
+
+
+def _collect_reddit_pass(
+    sources: list[Source],
+    *,
+    category: str,
+    limit_per_source: int,
+    timeout: int,
+    health_db_path: str | None,
+) -> tuple[list[Article], list[str]]:
+    from radar_core.reddit_collector import collect_reddit_sources
+
+    return collect_reddit_sources(
+        sources=sources,
+        category=category,
+        limit=limit_per_source,
+        timeout=timeout,
+        health_db_path=health_db_path,
+    )
+
+
 def _detect_encoding(response: requests.Response) -> str:
     """Detect encoding for Korean .kr sites that may use EUC-KR."""
     content_type = response.headers.get("Content-Type", "")
@@ -197,23 +225,36 @@ def collect_sources(
     """Fetch items from all configured sources, returning articles and errors."""
     articles: list[Article] = []
     errors: list[str] = []
+    enabled_sources = [source for source in sources if source.enabled]
+    rss_sources = [source for source in enabled_sources if source.type.lower() == "rss"]
+    reddit_sources = [source for source in enabled_sources if source.type.lower() == "reddit"]
+    unsupported_sources = [
+        source
+        for source in enabled_sources
+        if source.type.lower() not in {"rss", "reddit"}
+    ]
     manager = get_circuit_breaker_manager()
     workers = _resolve_max_workers(max_workers)
+    resolved_health_db_path = health_db_path or os.environ.get(
+        "RADAR_CRAWL_HEALTH_DB_PATH", _DEFAULT_HEALTH_DB_PATH
+    )
     source_hosts: dict[str, str] = {
-        source.name: (urlparse(source.url).netloc.lower() or source.name) for source in sources
+        source.name: (urlparse(source.url).netloc.lower() or source.name)
+        for source in rss_sources
     }
     rate_limiters: dict[str, RateLimiter] = {
         host: RateLimiter(min_interval=min_interval_per_host) for host in set(source_hosts.values())
     }
     throttler = AdaptiveThrottler(min_delay=max(0.001, min_interval_per_host))
-    health_store = CrawlHealthStore(
-        health_db_path or os.environ.get("RADAR_CRAWL_HEALTH_DB_PATH", _DEFAULT_HEALTH_DB_PATH)
-    )
+    health_store = CrawlHealthStore(resolved_health_db_path)
     _set_collection_controls(throttler, health_store)
     session = _create_session()
 
     def _collect_for_source(source: Source) -> tuple[list[Article], list[str]]:
-        if health_store.is_disabled(source.name):
+        if (
+            not _source_bool(source, "bypass_crawl_health")
+            and health_store.is_disabled(source.name)
+        ):
             return [], [f"{source.name}: Source disabled (crawl health threshold reached)"]
 
         host = source_hosts[source.name]
@@ -241,20 +282,43 @@ def collect_sources(
 
     try:
         if workers == 1:
-            for source in sources:
+            for source in rss_sources:
                 source_articles, source_errors = _collect_for_source(source)
                 articles.extend(source_articles)
                 errors.extend(source_errors)
         else:
-            with ThreadPoolExecutor(max_workers=workers) as executor:
-                future_map: list[Future[tuple[list[Article], list[str]]]] = [
-                    executor.submit(_collect_for_source, source) for source in sources
-                ]
+            if rss_sources:
+                with ThreadPoolExecutor(max_workers=workers) as executor:
+                    future_map: list[Future[tuple[list[Article], list[str]]]] = [
+                        executor.submit(_collect_for_source, source) for source in rss_sources
+                    ]
 
-                for future in future_map:
-                    source_articles, source_errors = future.result()
-                    articles.extend(source_articles)
-                    errors.extend(source_errors)
+                    for future in future_map:
+                        source_articles, source_errors = future.result()
+                        articles.extend(source_articles)
+                        errors.extend(source_errors)
+
+        if reddit_sources:
+            try:
+                reddit_articles, reddit_errors = _collect_reddit_pass(
+                    reddit_sources,
+                    category=category,
+                    limit_per_source=limit_per_source,
+                    timeout=timeout,
+                    health_db_path=resolved_health_db_path,
+                )
+                articles.extend(reddit_articles)
+                errors.extend(reddit_errors)
+            except ImportError:
+                errors.append(
+                    f"Reddit collection unavailable for {len(reddit_sources)} source(s). "
+                    "Ensure radar-core reddit support is installed."
+                )
+
+        for source in unsupported_sources:
+            errors.append(
+                f"{source.name}: Source type '{source.type}' is cataloged but not collected by the book pipeline"
+            )
     finally:
         session.close()
         health_store.close()

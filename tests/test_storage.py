@@ -65,6 +65,43 @@ class TestRadarStorage:
         assert len(results) == 1
         assert results[0].title == "최근"
 
+    def test_recent_articles_by_collected_at_includes_old_published_article(self, tmp_db):
+        """Recently collected old articles remain available for quality reporting."""
+        old_published = Article(
+            title="오래 전에 발행된 최근 수집 기사",
+            link="https://example.com/recollected",
+            summary="",
+            published=datetime.now(UTC) - timedelta(days=40),
+            source="S",
+            category="test",
+        )
+        with RadarStorage(tmp_db) as storage:
+            storage.upsert_articles([old_published])
+            published_results = storage.recent_articles("test", days=7)
+            collected_results = storage.recent_articles_by_collected_at("test", days=7)
+
+        assert published_results == []
+        assert len(collected_results) == 1
+        assert collected_results[0].title == old_published.title
+
+    def test_recent_articles_by_collected_at_round_trips_ontology(self, tmp_db):
+        """Collected-at queries preserve ontology metadata."""
+        article = Article(
+            title="온톨로지 기사",
+            link="https://example.com/ontology",
+            summary="",
+            published=datetime.now(UTC) - timedelta(days=40),
+            source="S",
+            category="test",
+            ontology={"ontology_version": "0.1.0", "event_model_id": "book_signal_event"},
+        )
+        with RadarStorage(tmp_db) as storage:
+            storage.upsert_articles([article])
+            results = storage.recent_articles_by_collected_at("test", days=7)
+
+        assert len(results) == 1
+        assert results[0].ontology == article.ontology
+
     def test_delete_older_than(self, tmp_db):
         """Old articles are deleted, recent ones remain."""
         now = datetime.now(UTC)

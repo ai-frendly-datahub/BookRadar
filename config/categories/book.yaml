@@ -1,503 +1,621 @@
-category_name: "book"
-display_name: "도서 레이더"
-
+category_name: book
+display_name: 도서 레이더
+data_quality:
+  priority: P2
+  primary_motion: intelligence
+  weakest_dimension: operational_depth
+  quality_outputs:
+    freshness_report: reports/book_quality.json
+    dated_freshness_report_pattern: reports/book_YYYYMMDD_quality.json
+    tracked_event_models:
+    - sales_ranking
+    - library_lending
+    - author_event
+    - award_signal
+  event_models:
+    sales_ranking:
+      date_fields:
+      - ranking_date
+      - collected_at
+      required_fields:
+      - isbn
+      - rank
+      - retailer
+    library_lending:
+      date_fields:
+      - metric_date
+      - collected_at
+      required_fields:
+      - isbn
+      - library_network
+      - lending_count
+    author_event:
+      date_fields:
+      - event_date
+      - collected_at
+      required_fields:
+      - author_name
+      - venue
+      - source_url
+    award_signal:
+      date_fields:
+      - award_date
+      - collected_at
+      required_fields:
+      - isbn
+      - award_name
+      - source_url
+  canonical_keys:
+    edition:
+    - isbn
+    - title
+    - author_name
+    - publisher
+    - format
+    author:
+    - author_name
+    - country
+  freshness_sla:
+    sales_ranking_days: 3
+    library_lending_days: 14
+    author_event_days: 14
+    award_signal_days: 30
+  quality_gates:
+  - ISBN을 canonical key로 우선 사용한다
+  - 리뷰/기사와 판매/대출 신호를 분리한다
+  - 판본, 번역본, 전자책/종이책을 별도 edition으로 유지한다
+  - 순위 변동은 ranking_date와 collected_at을 함께 저장한다
+source_backlog:
+  operational_candidates:
+  - id: aladin_bestseller_history
+    name: Aladin bestseller ranking history
+    signal_type: sales_ranking
+    activation_gate: ranking window handling, ISBN mapping, and retailer taxonomy
+  - id: yes24_bestseller_history
+    name: YES24 bestseller ranking history
+    signal_type: sales_ranking
+    activation_gate: parser stability, ISBN mapping, and duplicate edition handling
+  - id: library_bigdata_lending
+    name: Korea library bigdata lending statistics
+    signal_type: library_lending
+    activation_gate: API key, date granularity, ISBN coverage, and source attribution
+  - id: author_event_calendars
+    name: Publisher/bookstore author event calendars
+    signal_type: author_event
+    activation_gate: venue canonicalization, event date parsing, and duplicate event
+      handling
 sources:
-  # === 국내 온라인 서점 ===
-  - name: "알라딘 신간"
-    type: "rss"
-    url: "https://www.aladin.co.kr/rss/special_new/0"
-    language: "ko"
-    country: "KR"
-    trust_tier: "T1_official"
-    collection_tier: "C1_rss"
-    content_type: "bestseller"
-
-  - name: "알라딘 베스트셀러"
-    type: "rss"
-    url: "https://www.aladin.co.kr/rss/special_bestseller/0"
-    language: "ko"
-    country: "KR"
-    trust_tier: "T1_official"
-    collection_tier: "C1_rss"
-    content_type: "bestseller"
-
-  - name: "YES24 베스트셀러"
-    type: "rss"
-    url: "https://www.yes24.com/_par_/Rss/KBO001.xml"
-    language: "ko"
-    country: "KR"
-    trust_tier: "T1_official"
-    collection_tier: "C1_rss"
-    content_type: "bestseller"
-
-  - name: "교보문고 북뉴스"
-    type: "rss"
-    url: "http://news.kyobobook.co.kr/RSS.ink"
-    language: "ko"
-    country: "KR"
-    trust_tier: "T1_official"
-    collection_tier: "C1_rss"
-    content_type: "news"
-
-  # === 출판/독서 뉴스 ===
-  - name: "출판저널"
-    type: "rss"
-    url: "https://www.publisherjournal.co.kr/rss/allArticle.xml"
-    language: "ko"
-    country: "KR"
-    trust_tier: "T3_professional"
-    collection_tier: "C1_rss"
-    content_type: "news"
-
-  - name: "북DB"
-    type: "rss"
-    url: "https://bookdb.co.kr/rss/rss.asp"
-    language: "ko"
-    country: "KR"
-    trust_tier: "T3_professional"
-    collection_tier: "C1_rss"
-    content_type: "news"
-
-  - name: "한겨레 책"
-    type: "rss"
-    url: "https://www.hani.co.kr/rss/book/"
-    language: "ko"
-    country: "KR"
-    trust_tier: "T2_institutional"
-    collection_tier: "C1_rss"
-    content_type: "review"
-
-  - name: "경향신문 책"
-    type: "rss"
-    url: "https://www.khan.co.kr/rss/rssdata/book_news.xml"
-    language: "ko"
-    country: "KR"
-    trust_tier: "T2_institutional"
-    collection_tier: "C1_rss"
-    content_type: "review"
-
-  # === 글로벌 출판 뉴스 ===
-  - name: "Publishers Weekly"
-    type: "rss"
-    url: "https://www.publishersweekly.com/pw/feeds/recent/index.xml"
-    language: "en"
-    country: "US"
-    trust_tier: "T3_professional"
-    collection_tier: "C1_rss"
-    content_type: "news"
-
-  - name: "The Guardian Books"
-    type: "rss"
-    url: "https://www.theguardian.com/books/rss"
-    language: "en"
-    country: "UK"
-    trust_tier: "T2_institutional"
-    collection_tier: "C1_rss"
-    content_type: "review"
-
-  - name: "NPR Books"
-    type: "rss"
-    url: "https://feeds.npr.org/1032/rss.xml"
-    language: "en"
-    country: "US"
-    trust_tier: "T2_institutional"
-    collection_tier: "C1_rss"
-    content_type: "review"
-
-  - name: "Literary Hub"
-    type: "rss"
-    url: "https://lithub.com/feed/"
-    language: "en"
-    country: "US"
-    trust_tier: "T3_professional"
-    collection_tier: "C1_rss"
-    content_type: "review"
-
-  - name: "Book Riot"
-    type: "rss"
-    url: "https://bookriot.com/feed/"
-    language: "en"
-    country: "US"
-    trust_tier: "T3_professional"
-    collection_tier: "C1_rss"
-    content_type: "news"
-
-  - name: "Goodreads News"
-    type: "rss"
-    url: "https://www.goodreads.com/blog/feed.xml"
-    language: "en"
-    country: "US"
-    trust_tier: "T3_professional"
-    collection_tier: "C1_rss"
-    content_type: "news"
-
-  # === 리뷰/비평 ===
-  - name: "New York Times Books"
-    type: "rss"
-    url: "https://rss.nytimes.com/services/xml/rss/nyt/Books.xml"
-    language: "en"
-    country: "US"
-    trust_tier: "T2_institutional"
-    collection_tier: "C1_rss"
-    content_type: "review"
-
-  - name: "Kirkus Reviews"
-    type: "rss"
-    url: "https://www.kirkusreviews.com/feeds/latest-reviews/"
-    language: "en"
-    country: "US"
-    trust_tier: "T3_professional"
-    collection_tier: "C1_rss"
-    content_type: "review"
-
-  # === Reddit 독서 커뮤니티 ===
-  - name: "r/books"
-    type: "reddit"
-    url: "https://www.reddit.com/r/books/"
-    language: "en"
-    country: "US"
-    trust_tier: "T4_community"
-    collection_tier: "C3_reddit"
-    content_type: "community"
-
-  - name: "r/suggestmeabook"
-    type: "reddit"
-    url: "https://www.reddit.com/r/suggestmeabook/"
-    language: "en"
-    country: "US"
-    trust_tier: "T4_community"
-    collection_tier: "C3_reddit"
-    content_type: "community"
-
-  - name: "r/52book"
-    type: "reddit"
-    url: "https://www.reddit.com/r/52book/"
-    language: "en"
-    country: "US"
-    trust_tier: "T4_community"
-    collection_tier: "C3_reddit"
-    content_type: "community"
-
-  - name: "r/booksuggestions"
-    type: "reddit"
-    url: "https://www.reddit.com/r/booksuggestions/"
-    language: "en"
-    country: "US"
-    trust_tier: "T4_community"
-    collection_tier: "C3_reddit"
-    content_type: "community"
-
-  - name: "r/Fantasy"
-    type: "reddit"
-    url: "https://www.reddit.com/r/Fantasy/"
-    language: "en"
-    country: "US"
-    trust_tier: "T4_community"
-    collection_tier: "C3_reddit"
-    content_type: "community"
-
-  - name: "r/literature"
-    type: "reddit"
-    url: "https://www.reddit.com/r/literature/"
-    language: "en"
-    country: "US"
-    trust_tier: "T4_community"
-    collection_tier: "C3_reddit"
-    content_type: "community"
-
-  - name: "r/horrorlit"
-    type: "reddit"
-    url: "https://www.reddit.com/r/horrorlit/"
-    language: "en"
-    country: "US"
-    trust_tier: "T4_community"
-    collection_tier: "C3_reddit"
-    content_type: "community"
-
-  - name: "r/scifi"
-    type: "reddit"
-    url: "https://www.reddit.com/r/scifi/"
-    language: "en"
-    country: "US"
-    trust_tier: "T4_community"
-    collection_tier: "C3_reddit"
-    content_type: "community"
-
-  # === BookTube (YouTube) ===
-  - name: "merphy napier"
-    type: "rss"
-    url: "https://www.youtube.com/feeds/videos.xml?channel_id=UC7FW6FYqPLeQIXMSulBfOLw"
-    language: "en"
-    country: "US"
-    trust_tier: "T4_community"
-    collection_tier: "C1_rss"
-    content_type: "review"
-
-  - name: "Daniel Greene"
-    type: "rss"
-    url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCw--xPGVVxYzRsWyV1nFqgg"
-    language: "en"
-    country: "US"
-    trust_tier: "T4_community"
-    collection_tier: "C1_rss"
-    content_type: "review"
-
-  - name: "Ariel Bissett"
-    type: "rss"
-    url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCuw5d8pP51LwRGZPq1QVQUg"
-    language: "en"
-    country: "US"
-    trust_tier: "T4_community"
-    collection_tier: "C1_rss"
-    content_type: "review"
-
-  # === 팟캐스트 ===
-  - name: "What Should I Read Next"
-    type: "rss"
-    url: "https://feeds.simplecast.com/4MfgQ3lv"
-    language: "en"
-    country: "US"
-    trust_tier: "T4_community"
-    collection_tier: "C1_rss"
-    content_type: "review"
-
-  - name: "The Bookshelf"
-    type: "rss"
-    url: "https://feeds.npr.org/510302/podcast.xml"
-    language: "en"
-    country: "US"
-    trust_tier: "T2_institutional"
-    collection_tier: "C1_rss"
-    content_type: "review"
-
-  # === 국제 출판 뉴스 ===
-  - name: "The Bookseller UK"
-    type: "rss"
-    url: "https://www.thebookseller.com/rss.xml"
-    language: "en"
-    country: "UK"
-    trust_tier: "T3_professional"
-    collection_tier: "C1_rss"
-    content_type: "news"
-
-  - name: "Publishing Perspectives"
-    type: "rss"
-    url: "https://publishingperspectives.com/feed/"
-    language: "en"
-    country: "US"
-    trust_tier: "T3_professional"
-    collection_tier: "C1_rss"
-    content_type: "news"
-
-  - name: "Shelf Awareness"
-    type: "rss"
-    url: "https://www.shelf-awareness.com/rss/"
-    language: "en"
-    country: "US"
-    trust_tier: "T3_professional"
-    collection_tier: "C1_rss"
-    content_type: "news"
-
+- name: 알라딘 신간
+  type: rss
+  url: https://www.aladin.co.kr/rss/special_new/book
+  language: ko
+  country: KR
+  trust_tier: T1_official
+  collection_tier: C1_rss
+  content_type: news
+  config:
+    bypass_crawl_health: true
+    event_model: editorial_coverage
+- name: 알라딘 베스트셀러
+  type: rss
+  url: https://www.aladin.co.kr/rss/bestseller/book
+  language: ko
+  country: KR
+  trust_tier: T1_official
+  collection_tier: C1_rss
+  content_type: bestseller
+  notes: Official weekly bestseller RSS. Use a 7-day freshness window because the
+    feed updates on a weekly ranking cadence.
+  config:
+    bypass_crawl_health: true
+    freshness_sla_days: 7
+    event_model: editorial_coverage
+- name: YES24 베스트셀러
+  type: rss
+  url: https://www.yes24.com/_par_/Rss/KBO001.xml
+  enabled: false
+  language: ko
+  country: KR
+  trust_tier: T1_official
+  collection_tier: C1_rss
+  content_type: bestseller
+  config:
+    bypass_crawl_health: true
+  notes: 'Disabled 2026-04-13: official RSS still resolves but latest item is dated
+    2025-06-08, so it is stale for the sales_ranking SLA.'
+- name: 교보문고 북뉴스
+  type: rss
+  url: http://news.kyobobook.co.kr/RSS.ink
+  enabled: false
+  language: ko
+  country: KR
+  trust_tier: T1_official
+  collection_tier: C1_rss
+  content_type: news
+  notes: 'Disabled 2026-04-13: live probe timed out on news.kyobobook.co.kr RSS endpoint.'
+- name: 출판저널
+  type: rss
+  url: https://www.publisherjournal.co.kr/rss/allArticle.xml
+  enabled: false
+  language: ko
+  country: KR
+  trust_tier: T3_professional
+  collection_tier: C1_rss
+  content_type: news
+  notes: 'Disabled 2026-04-13: live probe could not resolve publisherjournal.co.kr
+    RSS host.'
+- name: 북DB
+  type: rss
+  url: https://bookdb.co.kr/rss/rss.asp
+  enabled: false
+  language: ko
+  country: KR
+  trust_tier: T3_professional
+  collection_tier: C1_rss
+  content_type: news
+  notes: 'Disabled 2026-04-13: endpoint returns HTML page, not parseable RSS.'
+- name: 한겨레 책
+  type: rss
+  url: https://www.hani.co.kr/rss/book/
+  enabled: false
+  language: ko
+  country: KR
+  trust_tier: T2_institutional
+  collection_tier: C1_rss
+  content_type: review
+  notes: 'Disabled 2026-04-13: book-specific RSS returns 404; general RSS is too broad
+    for this source.'
+- name: 경향신문 책
+  type: rss
+  url: https://www.khan.co.kr/rss/rssdata/book_news.xml
+  enabled: false
+  language: ko
+  country: KR
+  trust_tier: T2_institutional
+  collection_tier: C1_rss
+  content_type: review
+  notes: 'Disabled 2026-04-13: configured book RSS returns 404 and RSS index is blocked.'
+- name: Publishers Weekly
+  type: rss
+  url: https://www.publishersweekly.com/pw/feeds/recent/index.xml
+  language: en
+  country: US
+  trust_tier: T3_professional
+  collection_tier: C1_rss
+  content_type: news
+  config:
+    event_model: editorial_coverage
+- name: The Guardian Books
+  type: rss
+  url: https://www.theguardian.com/books/rss
+  language: en
+  country: UK
+  trust_tier: T2_institutional
+  collection_tier: C1_rss
+  content_type: review
+  config:
+    event_model: editorial_coverage
+- name: NPR Books
+  type: rss
+  url: https://feeds.npr.org/1032/rss.xml
+  language: en
+  country: US
+  trust_tier: T2_institutional
+  collection_tier: C1_rss
+  content_type: review
+  config:
+    event_model: editorial_coverage
+- name: Literary Hub
+  type: rss
+  url: https://lithub.com/feed/
+  language: en
+  country: US
+  trust_tier: T3_professional
+  collection_tier: C1_rss
+  content_type: review
+  config:
+    event_model: editorial_coverage
+- name: Book Riot
+  type: rss
+  url: https://bookriot.com/feed/
+  language: en
+  country: US
+  trust_tier: T3_professional
+  collection_tier: C1_rss
+  content_type: news
+  config:
+    event_model: editorial_coverage
+- name: Goodreads News
+  type: rss
+  url: https://www.goodreads.com/blog/feed.xml
+  enabled: false
+  language: en
+  country: US
+  trust_tier: T3_professional
+  collection_tier: C1_rss
+  content_type: news
+  notes: 'Disabled 2026-04-13: configured Goodreads blog feed returns 404.'
+- name: New York Times Books
+  type: rss
+  url: https://rss.nytimes.com/services/xml/rss/nyt/Books.xml
+  language: en
+  country: US
+  trust_tier: T2_institutional
+  collection_tier: C1_rss
+  content_type: review
+  config:
+    event_model: editorial_coverage
+- name: Kirkus Reviews
+  type: rss
+  url: https://www.kirkusreviews.com/feeds/latest-reviews/
+  enabled: false
+  language: en
+  country: US
+  trust_tier: T3_professional
+  collection_tier: C1_rss
+  content_type: review
+  notes: 'Disabled 2026-04-13: configured feed and checked RSS alternatives return
+    404.'
+- name: r/books
+  type: reddit
+  url: https://www.reddit.com/r/books/
+  language: en
+  country: US
+  trust_tier: T4_community
+  collection_tier: C3_reddit
+  content_type: community
+  config:
+    event_model: editorial_coverage
+- name: r/suggestmeabook
+  type: reddit
+  url: https://www.reddit.com/r/suggestmeabook/
+  language: en
+  country: US
+  trust_tier: T4_community
+  collection_tier: C3_reddit
+  content_type: community
+  config:
+    event_model: editorial_coverage
+- name: r/52book
+  type: reddit
+  url: https://www.reddit.com/r/52book/
+  language: en
+  country: US
+  trust_tier: T4_community
+  collection_tier: C3_reddit
+  content_type: community
+  config:
+    event_model: editorial_coverage
+- name: r/booksuggestions
+  type: reddit
+  url: https://www.reddit.com/r/booksuggestions/
+  language: en
+  country: US
+  trust_tier: T4_community
+  collection_tier: C3_reddit
+  content_type: community
+  config:
+    event_model: editorial_coverage
+- name: r/Fantasy
+  type: reddit
+  url: https://www.reddit.com/r/Fantasy/
+  language: en
+  country: US
+  trust_tier: T4_community
+  collection_tier: C3_reddit
+  content_type: community
+  config:
+    event_model: editorial_coverage
+- name: r/literature
+  type: reddit
+  url: https://www.reddit.com/r/literature/
+  language: en
+  country: US
+  trust_tier: T4_community
+  collection_tier: C3_reddit
+  content_type: community
+  config:
+    event_model: editorial_coverage
+- name: r/horrorlit
+  type: reddit
+  url: https://www.reddit.com/r/horrorlit/
+  language: en
+  country: US
+  trust_tier: T4_community
+  collection_tier: C3_reddit
+  content_type: community
+  config:
+    event_model: editorial_coverage
+- name: r/scifi
+  type: reddit
+  url: https://www.reddit.com/r/scifi/
+  language: en
+  country: US
+  trust_tier: T4_community
+  collection_tier: C3_reddit
+  content_type: community
+  config:
+    event_model: editorial_coverage
+- name: merphy napier
+  type: rss
+  url: https://www.youtube.com/feeds/videos.xml?channel_id=UC7FW6FYqPLeQIXMSulBfOLw
+  language: en
+  country: US
+  trust_tier: T4_community
+  collection_tier: C1_rss
+  content_type: review
+  config:
+    bypass_crawl_health: true
+    event_model: editorial_coverage
+- name: Daniel Greene
+  type: rss
+  url: https://www.youtube.com/feeds/videos.xml?channel_id=UCw--xPGVVxYzRsWyV1nFqgg
+  language: en
+  country: US
+  trust_tier: T4_community
+  collection_tier: C1_rss
+  content_type: review
+  config:
+    bypass_crawl_health: true
+    event_model: editorial_coverage
+- name: Ariel Bissett
+  type: rss
+  url: https://www.youtube.com/feeds/videos.xml?channel_id=UCuw5d8pP51LwRGZPq1QVQUg
+  enabled: false
+  language: en
+  country: US
+  trust_tier: T4_community
+  collection_tier: C1_rss
+  content_type: review
+  notes: 'Disabled 2026-04-13: configured YouTube channel feed returns 404.'
+- name: What Should I Read Next
+  type: rss
+  url: https://feeds.simplecast.com/4MfgQ3lv
+  enabled: false
+  language: en
+  country: US
+  trust_tier: T4_community
+  collection_tier: C1_rss
+  content_type: review
+  notes: 'Disabled 2026-04-13: configured Simplecast feed returns 404.'
+- name: The Bookshelf
+  type: rss
+  url: https://feeds.npr.org/510302/podcast.xml
+  enabled: false
+  language: en
+  country: US
+  trust_tier: T2_institutional
+  collection_tier: C1_rss
+  content_type: review
+  notes: 'Disabled 2026-04-13: NPR podcast feed returns 400 for this podcast model.'
+- name: The Bookseller UK
+  type: rss
+  url: https://www.thebookseller.com/rss.xml
+  enabled: false
+  language: en
+  country: UK
+  trust_tier: T3_professional
+  collection_tier: C1_rss
+  content_type: news
+  notes: 'Disabled 2026-04-13: configured feed and checked RSS alternatives return
+    404.'
+- name: Publishing Perspectives
+  type: rss
+  url: https://publishingperspectives.com/feed/
+  language: en
+  country: US
+  trust_tier: T3_professional
+  collection_tier: C1_rss
+  content_type: news
+  config:
+    event_model: editorial_coverage
+- name: Shelf Awareness
+  type: rss
+  url: https://www.shelf-awareness.com/rss/
+  language: en
+  country: US
+  trust_tier: T3_professional
+  collection_tier: C1_rss
+  content_type: news
+  config:
+    event_model: editorial_coverage
 entities:
-  - name: "Genre"
-    display_name: "장르"
-    keywords:
-      # 문학
-      - "소설"
-      - "에세이"
-      - "시"
-      - "희곡"
-      - "문학"
-      - "fiction"
-      - "novel"
-      - "essay"
-      - "poetry"
-      # 비문학
-      - "경제경영"
-      - "자기계발"
-      - "인문학"
-      - "과학"
-      - "역사"
-      - "사회과학"
-      - "예술"
-      - "종교"
-      - "철학"
-      - "여행"
-      - "요리"
-      - "건강"
-      - "심리"
-      - "교육"
-      - "정치"
-      - "법률"
-      # IT/컴퓨터
-      - "컴퓨터"
-      - "프로그래밍"
-      - "IT"
-      - "개발"
-      - "코딩"
-      # 외국어
-      - "외국어"
-      - "영어"
-      - "일본어"
-      - "중국어"
-      - "TOEIC"
-      - "TOEFL"
-      # 장르문학
-      - "만화"
-      - "라이트노벨"
-      - "웹소설"
-      - "판타지"
-      - "로맨스"
-      - "추리"
-      - "sf"
-      - "horror"
-      - "무협"
-      - "스릴러"
-      # 아동/청소년
-      - "어린이"
-      - "청소년"
-      - "그림책"
-      - "동화"
-      - "육아"
-
-  - name: "Publisher"
-    display_name: "출판사"
-    keywords:
-      # 대형 출판사
-      - "민음사"
-      - "창비"
-      - "문학동네"
-      - "김영사"
-      - "위즈덤하우스"
-      - "한겨레출판"
-      - "을유문화사"
-      - "열린책들"
-      - "문학과지성사"
-      - "사계절"
-      - "웅진지식하우스"
-      - "다산북스"
-      - "시공사"
-      - "비룡소"
-      - "한빛미디어"
-      # 추가 출판사
-      - "현대문학"
-      - "북이십일"
-      - "알에이치코리아"
-      - "중앙books"
-      - "쌤앤파커스"
-      - "21세기북스"
-      - "에세이출판사"
-      - "인플루엔셜"
-      - "더퀘스트"
-      - "흐름출판"
-      - "해냄출판사"
-      - "RHK"
-      - "출판사"
-      - "publisher"
-
-  - name: "BookType"
-    display_name: "도서 유형"
-    keywords:
-      - "신간"
-      - "베스트셀러"
-      - "화제의 책"
-      - "추천도서"
-      - "개정판"
-      - "전자책"
-      - "오디오북"
-      - "문고본"
-      - "양장본"
-      - "페이퍼백"
-      - "e북"
-      - "ebook"
-      - "audiobook"
-      - "hardcover"
-      - "paperback"
-      - "new release"
-      - "bestseller"
-      - "독점"
-      - "한정판"
-      - "세트"
-      - "시리즈"
-      - "완결"
-      - "초판"
-
-  - name: "Award"
-    display_name: "수상/선정"
-    keywords:
-      # 국제 문학상
-      - "노벨문학상"
-      - "부커상"
-      - "퓰리처"
-      - "맨부커"
-      - "공쿠르"
-      - "Nobel"
-      - "Booker"
-      - "Pulitzer"
-      - "Hugo"
-      - "Nebula"
-      # 국내 문학상
-      - "이상문학상"
-      - "동인문학상"
-      - "현대문학상"
-      - "황순원문학상"
-      - "김유정문학상"
-      - "오늘의 작가상"
-      - "한국문학상"
-      - "대산문학상"
-      # 일반
-      - "수상"
-      - "문학상"
-      - "올해의 책"
-      - "award"
-      - "winner"
-      - "선정"
-      - "후보"
-
-  - name: "Author"
-    display_name: "작가"
-    keywords:
-      # 한국 작가
-      - "한강"
-      - "정유정"
-      - "김영하"
-      - "신경숙"
-      - "공지영"
-      - "이외수"
-      - "조정래"
-      - "이문열"
-      - "김훈"
-      - "박완서"
-      - "황석영"
-      - "천명관"
-      - "김언수"
-      - "정세랑"
-      - "김초엽"
-      # 일반
-      - "작가"
-      - "저자"
-      - "author"
-      - "writer"
-      - "번역"
-      - "역자"
-      - "translator"
-      - "신인작가"
-      - "데뷔"
-
-  - name: "BookEvent"
-    display_name: "도서 행사"
-    keywords:
-      - "서울국제도서전"
-      - "북콘서트"
-      - "작가와의 만남"
-      - "사인회"
-      - "북토크"
-      - "독서모임"
-      - "북클럽"
-      - "도서전"
-      - "book fair"
-      - "book signing"
-      - "book talk"
-      - "출간기념"
-      - "강연"
-      - "낭독회"
+- name: Genre
+  display_name: 장르
+  keywords:
+  - 소설
+  - 에세이
+  - 시
+  - 희곡
+  - 문학
+  - fiction
+  - novel
+  - literary
+  - literature
+  - essay
+  - poetry
+  - memoir
+  - 경제경영
+  - 자기계발
+  - 인문학
+  - 과학
+  - 역사
+  - 사회과학
+  - 예술
+  - 종교
+  - 철학
+  - 여행
+  - 요리
+  - 건강
+  - 심리
+  - 교육
+  - 정치
+  - 법률
+  - 컴퓨터
+  - 프로그래밍
+  - information technology
+  - computer science
+  - 개발
+  - 코딩
+  - 외국어
+  - 영어
+  - 일본어
+  - 중국어
+  - TOEIC
+  - TOEFL
+  - 만화
+  - 라이트노벨
+  - 웹소설
+  - 판타지
+  - 로맨스
+  - 추리
+  - sf
+  - horror
+  - fantasy
+  - romance
+  - mystery
+  - thriller
+  - 무협
+  - 스릴러
+  - 어린이
+  - 청소년
+  - 그림책
+  - 동화
+  - 육아
+- name: Publisher
+  display_name: 출판사
+  keywords:
+  - 민음사
+  - 창비
+  - 문학동네
+  - 김영사
+  - 위즈덤하우스
+  - 한겨레출판
+  - 을유문화사
+  - 열린책들
+  - 문학과지성사
+  - 사계절
+  - 웅진지식하우스
+  - 다산북스
+  - 시공사
+  - 비룡소
+  - 한빛미디어
+  - 현대문학
+  - 북이십일
+  - 알에이치코리아
+  - 중앙books
+  - 쌤앤파커스
+  - 21세기북스
+  - 에세이출판사
+  - 인플루엔셜
+  - 더퀘스트
+  - 흐름출판
+  - 해냄출판사
+  - RHK
+  - 출판사
+  - publisher
+- name: BookType
+  display_name: 도서 유형
+  keywords:
+  - 신간
+  - 베스트셀러
+  - 화제의 책
+  - 추천도서
+  - 개정판
+  - 전자책
+  - 오디오북
+  - 문고본
+  - 양장본
+  - 페이퍼백
+  - e북
+  - ebook
+  - audiobook
+  - hardcover
+  - paperback
+  - new release
+  - new books
+  - book news
+  - book review
+  - books roundup
+  - reading list
+  - book club
+  - literary news
+  - bestseller
+  - 독점
+  - 한정판
+  - 세트
+  - 시리즈
+  - 완결
+  - 초판
+- name: Award
+  display_name: 수상/선정
+  keywords:
+  - 노벨문학상
+  - 부커상
+  - 퓰리처
+  - 맨부커
+  - 공쿠르
+  - Nobel
+  - Booker
+  - Pulitzer
+  - Hugo
+  - Nebula
+  - 이상문학상
+  - 동인문학상
+  - 현대문학상
+  - 황순원문학상
+  - 김유정문학상
+  - 오늘의 작가상
+  - 한국문학상
+  - 대산문학상
+  - 수상
+  - 문학상
+  - 올해의 책
+  - award
+  - winner
+  - 선정
+  - 후보
+- name: Author
+  display_name: 작가
+  keywords:
+  - 한강
+  - 정유정
+  - 김영하
+  - 신경숙
+  - 공지영
+  - 이외수
+  - 조정래
+  - 이문열
+  - 김훈
+  - 박완서
+  - 황석영
+  - 천명관
+  - 김언수
+  - 정세랑
+  - 김초엽
+  - 작가
+  - 저자
+  - author
+  - writer
+  - 번역
+  - 역자
+  - translator
+  - 신인작가
+  - 데뷔
+- name: BookEvent
+  display_name: 도서 행사
+  keywords:
+  - 서울국제도서전
+  - 북콘서트
+  - 작가와의 만남
+  - 사인회
+  - 북토크
+  - 독서모임
+  - 북클럽
+  - 도서전
+  - book fair
+  - book signing
+  - book talk
+  - 출간기념
+  - 강연
+  - 낭독회
