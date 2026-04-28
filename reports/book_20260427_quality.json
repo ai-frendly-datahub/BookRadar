@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-04-28T00:40:30.224504+00:00",
+  "generated_at": "2026-04-27T23:44:13.741290+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -1252,50 +1252,6 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "author_event",
-      "title": "Bologna Children’s Book Fair 2026: Publishers Defend Idea of Books as Bridges",
-      "url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/100246-bologna-children-s-book-fair-2026-publishers-defend-idea-of-books-as-bridges.html",
-      "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/100246-bologna-children-s-book-fair-2026-publishers-defend-idea-of-books-as-bridges.html",
-      "event_at": "2026-04-22T19:00:00+00:00",
-      "isbn": "100246",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "book fair",
-      "award_name": "",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "book fair"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:100246",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:035544170ef6:20260422",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "source": "Publishers Weekly",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
       "title": "Bologna Children’s Book Fair 2026: Illustrators Share Sketches from the Fair",
       "url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/100247-bologna-children-s-book-fair-2026-illustrators-sketches-from-the-fair.html",
       "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/100247-bologna-children-s-book-fair-2026-illustrators-sketches-from-the-fair.html",
@@ -1322,6 +1278,50 @@
       "canonical_key": "book_edition:100247",
       "canonical_key_status": "complete",
       "event_key": "author_event:6f4b991b7770:20260422",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "Publishers Weekly",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "Bologna Children’s Book Fair 2026: Publishers Defend Idea of Books as Bridges",
+      "url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/100246-bologna-children-s-book-fair-2026-publishers-defend-idea-of-books-as-bridges.html",
+      "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/100246-bologna-children-s-book-fair-2026-publishers-defend-idea-of-books-as-bridges.html",
+      "event_at": "2026-04-22T19:00:00+00:00",
+      "isbn": "100246",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "book fair",
+      "award_name": "",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "book fair"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:100246",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:035544170ef6:20260422",
       "required_field_proxy": {
         "author_name": false,
         "venue": true,
@@ -1926,50 +1926,6 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "author_event",
-      "title": "Bologna Children’s Book Fair 2026: Photos from the Fair",
-      "url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/100212-bologna-children-s-book-fair-2026-photos-from-the-fair.html",
-      "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/100212-bologna-children-s-book-fair-2026-photos-from-the-fair.html",
-      "event_at": "2026-04-20T19:00:00+00:00",
-      "isbn": "100212",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "book fair",
-      "award_name": "",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "book fair"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:100212",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:d323634d88af:20260420",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "source": "Publishers Weekly",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
       "title": "Bologna Children’s Book Fair 2026: Agents, Matchmaking, and the Human Pulse of Publishing",
       "url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/100214-bologna-children-s-book-fair-2026-agents-matchmaking-and-the-human-pulse-of-publishing.html",
       "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/100214-bologna-children-s-book-fair-2026-agents-matchmaking-and-the-human-pulse-of-publishing.html",
@@ -1996,6 +1952,50 @@
       "canonical_key": "book_edition:100214",
       "canonical_key_status": "complete",
       "event_key": "author_event:a64eda6a3994:20260420",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "Publishers Weekly",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "Bologna Children’s Book Fair 2026: Photos from the Fair",
+      "url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/100212-bologna-children-s-book-fair-2026-photos-from-the-fair.html",
+      "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/100212-bologna-children-s-book-fair-2026-photos-from-the-fair.html",
+      "event_at": "2026-04-20T19:00:00+00:00",
+      "isbn": "100212",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "book fair",
+      "award_name": "",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "book fair"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:100212",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:d323634d88af:20260420",
       "required_field_proxy": {
         "author_name": false,
         "venue": true,
@@ -2736,8 +2736,8 @@
       "reason": "missing_required_fields",
       "event_model": "author_event",
       "source": "Publishers Weekly",
-      "title": "Bologna Children’s Book Fair 2026: Publishers Defend Idea of Books as Bridges",
-      "canonical_key": "book_edition:100246",
+      "title": "Bologna Children’s Book Fair 2026: Illustrators Share Sketches from the Fair",
+      "canonical_key": "book_edition:100247",
       "required_field_gaps": [
         "author_name"
       ]
@@ -2746,8 +2746,8 @@
       "reason": "missing_required_fields",
       "event_model": "author_event",
       "source": "Publishers Weekly",
-      "title": "Bologna Children’s Book Fair 2026: Illustrators Share Sketches from the Fair",
-      "canonical_key": "book_edition:100247",
+      "title": "Bologna Children’s Book Fair 2026: Publishers Defend Idea of Books as Bridges",
+      "canonical_key": "book_edition:100246",
       "required_field_gaps": [
         "author_name"
       ]
@@ -2867,8 +2867,8 @@
       "reason": "missing_required_fields",
       "event_model": "author_event",
       "source": "Publishers Weekly",
-      "title": "Bologna Children’s Book Fair 2026: Photos from the Fair",
-      "canonical_key": "book_edition:100212",
+      "title": "Bologna Children’s Book Fair 2026: Agents, Matchmaking, and the Human Pulse of Publishing",
+      "canonical_key": "book_edition:100214",
       "required_field_gaps": [
         "author_name"
       ]
@@ -2877,8 +2877,8 @@
       "reason": "missing_required_fields",
       "event_model": "author_event",
       "source": "Publishers Weekly",
-      "title": "Bologna Children’s Book Fair 2026: Agents, Matchmaking, and the Human Pulse of Publishing",
-      "canonical_key": "book_edition:100214",
+      "title": "Bologna Children’s Book Fair 2026: Photos from the Fair",
+      "canonical_key": "book_edition:100212",
       "required_field_gaps": [
         "author_name"
       ]
