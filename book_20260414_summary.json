@@ -1,43 +1,58 @@
 {
   "date": "2026-04-14",
   "category": "book",
-  "article_count": 200,
-  "source_count": 7,
-  "matched_count": 93,
+  "article_count": 33,
+  "source_count": 18,
+  "matched_count": 33,
   "top_entities": [
     {
       "name": "Genre",
-      "count": 80
+      "count": 39
     },
     {
-      "name": "Author",
-      "count": 30
+      "name": "SourceSignal",
+      "count": 35
     },
     {
       "name": "Award",
-      "count": 15
+      "count": 6
     },
     {
-      "name": "BookType",
-      "count": 7
-    },
-    {
-      "name": "BookEvent",
-      "count": 7
+      "name": "Author",
+      "count": 6
     },
     {
       "name": "Publisher",
+      "count": 6
+    },
+    {
+      "name": "BookType",
+      "count": 3
+    },
+    {
+      "name": "BookEvent",
       "count": 2
     }
   ],
   "sources": {
-    "Publishing Perspectives": 11,
-    "Book Riot": 48,
-    "Literary Hub": 50,
-    "New York Times Books": 25,
-    "The Guardian Books": 18,
-    "NPR Books": 9,
-    "Publishers Weekly": 39
+    "r/booksuggestions": 3,
+    "r/suggestmeabook": 3,
+    "r/horrorlit": 2,
+    "r/Fantasy": 2,
+    "r/books": 2,
+    "r/52book": 2,
+    "r/scifi": 2,
+    "Publishing Perspectives": 2,
+    "Book Riot": 3,
+    "Literary Hub": 3,
+    "r/literature": 1,
+    "The Guardian Books": 2,
+    "merphy napier": 1,
+    "Daniel Greene": 1,
+    "NPR Books": 1,
+    "Publishers Weekly": 1,
+    "알라딘 베스트셀러": 1,
+    "알라딘 신간": 1
   },
-  "generated_at": "2026-04-14T21:18:21.189265+09:00"
+  "generated_at": "2026-04-14T20:20:53.739698+09:00"
 }
