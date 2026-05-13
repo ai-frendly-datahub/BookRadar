@@ -1,51 +1,49 @@
 {
   "date": "2026-05-13",
   "category": "book",
-  "article_count": 181,
+  "article_count": 163,
   "source_count": 19,
-  "matched_count": 181,
+  "matched_count": 163,
   "top_entities": [
     {
       "name": "SourceSignal",
-      "count": 385
+      "count": 357
     },
     {
       "name": "Genre",
-      "count": 184
-    },
-    {
-      "name": "BookType",
-      "count": 41
+      "count": 218
     },
     {
       "name": "Author",
-      "count": 38
+      "count": 47
+    },
+    {
+      "name": "BookType",
+      "count": 43
     },
     {
       "name": "Award",
-      "count": 25
+      "count": 24
     },
     {
       "name": "Publisher",
-      "count": 14
+      "count": 15
     },
     {
       "name": "BookEvent",
-      "count": 4
+      "count": 6
     }
   ],
   "sources": {
-    "New York Times Books": 21,
     "Book Riot": 11,
+    "New York Times Books": 21,
     "NPR Books": 10,
-    "Daniel Greene": 14,
     "The Guardian Books": 25,
-    "Publishing Perspectives": 10,
+    "Publishing Perspectives": 11,
     "Literary Hub": 11,
     "Publishers Weekly": 31,
-    "merphy napier": 15,
+    "알라딘 신간": 31,
     "알라딘 베스트셀러": 2,
-    "알라딘 신간": 23,
     "r/booksuggestions": 1,
     "r/literature": 1,
     "r/horrorlit": 1,
@@ -53,9 +51,11 @@
     "r/books": 1,
     "r/52book": 1,
     "r/scifi": 1,
-    "r/Fantasy": 1
+    "r/Fantasy": 1,
+    "Daniel Greene": 1,
+    "merphy napier": 1
   },
-  "generated_at": "2026-05-13T05:38:41.169383+09:00",
+  "generated_at": "2026-05-13T13:45:56.580235+09:00",
   "articles": [
     {
       "event_model_payload": {
@@ -145,6 +145,33 @@
         "source_url": "https://lithub.com/unions-are-having-a-moment-in-publishing-heres-why/",
         "published_at": "2026-05-06T05:52:47+00:00",
         "summary": "Yesterday, workers at the University of Chicago Press announced a plan to unionize. As Publishers Weekly reported, the UCP Workers Guild would be the first union in the nonprofit publisher’s 130-year history. But they wouldn’t be lonely, in this timeline."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Daniel Greene",
+        "headline": "The Perfect E-Reader or Total Junk?",
+        "source_url": "https://www.youtube.com/watch?v=sA2MeaH5S44",
+        "published_at": "2026-05-05T07:01:29+00:00",
+        "summary": "Is the viral XTEINK ereader genius or a broken scam? \nAffiliate Link: https://amzn.to/4f2KYGN \nNew OS For The x4: https://github.com/crosspoint-reader/crosspoint-reader"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "merphy napier",
+        "headline": "FINALLY | One Piece Live Action Season 2 Episodes 6-8",
+        "source_url": "https://www.youtube.com/watch?v=QQ0rqAkX-CQ",
+        "published_at": "2026-05-04T09:00:23+00:00",
+        "summary": "My book channel: https://www.youtube.com/channel/UCngqsMYjruusuywWg_2xraA\n\nMy merch: https://merphy-napier-shop.fourthwall.com/ \n\nWHERE TO FIND ME:\n► My Patreon: https://www.patreon.com/merphynapier\n► Reading Spreadsheet: https://docs.google.com/spreadsheets/d/1xO-1ZHm9am_X5lf4n-2_qmIFn19bq2G1546A7AWMa1c/edit?usp=sharing\n► Instagram: https://www.instagram.com/merphynapier/\n► E-mail: merphynapier@gmail.com"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishing Perspectives",
+        "headline": "Publishers and Authors Sue Meta, Alleging ‘Massive’ Copyright Infringement Behind Its Llama AI Service",
+        "source_url": "https://publishingperspectives.com/2026/05/publishers-and-authors-sue-meta-alleging-massive-copyright-infringement-behind-its-llama-ai-service/",
+        "published_at": "2026-05-06T02:55:59+00:00",
+        "summary": "<p>The class action lawsuit, filed in New York, accuses Meta—and its founder and CEO Mark Zuckerberg personally—of building its Llama AI service with unauthorized copies knowingly sourced from illegal pirate sites.  </p>\n<p>The post <a href=\"https://publishingperspectives.com/2026/05/publishers-and-authors-sue-meta-alleging-massive-copyright-infringement-behind-its-llama-ai-service/\">Publishers and Authors Sue Meta, Alleging ‘Massive’ Copyright Infringement Behind Its Llama AI Service</a> appeared first on <a href=\"https://publishingperspectives.com\">Publishing Perspectives</a>.</p>"
       }
     },
     {

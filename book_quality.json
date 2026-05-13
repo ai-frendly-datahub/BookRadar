@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-05-12T20:38:41.996944+00:00",
+  "generated_at": "2026-05-13T04:45:57.455559+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,24 +16,24 @@
     "collection_error_count": 0,
     "sales_ranking_events": 0,
     "library_lending_events": 0,
-    "author_event_events": 3,
+    "author_event_events": 5,
     "award_signal_events": 16,
-    "book_signal_event_count": 19,
-    "official_or_operational_event_count": 7,
+    "book_signal_event_count": 21,
+    "official_or_operational_event_count": 9,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 10,
+    "complete_canonical_key_count": 12,
     "proxy_canonical_key_count": 9,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 10,
-    "author_present_count": 9,
-    "publisher_present_count": 6,
+    "isbn_present_count": 12,
+    "author_present_count": 11,
+    "publisher_present_count": 7,
     "rank_present_count": 0,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 9,
+    "event_required_field_gap_count": 10,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 24
+    "daily_review_item_count": 25
   },
   "sources": [
     {
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 24,
+      "article_count": 32,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -601,7 +601,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 15,
+      "article_count": 2,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -624,7 +624,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 14,
+      "article_count": 2,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -739,7 +739,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 11,
+      "article_count": 12,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -828,8 +828,8 @@
       "info_purpose": [],
       "event_model": "author_event",
       "title": "Beijing International Book Fair Celebrates 40th Anniversary in June",
-      "url": "https://publishingperspectives.com/2026/05/beijing-international-book-fair-celebrates-40th-anniversary-in-june/",
-      "source_url": "https://publishingperspectives.com/2026/05/beijing-international-book-fair-celebrates-40th-anniversary-in-june/",
+      "url": "https://publishingperspectives.com/2026/05/beijing-international-book-fair-celebrates-40th-anniversary-in-june",
+      "source_url": "https://publishingperspectives.com/2026/05/beijing-international-book-fair-celebrates-40th-anniversary-in-june",
       "event_at": "2026-05-12T03:08:40+00:00",
       "isbn": "",
       "rank": null,
@@ -872,8 +872,8 @@
       "info_purpose": [],
       "event_model": "award_signal",
       "title": "At the AAP’s Annual Meeting, Talk of AI, Copyright, and ‘Ripples of Hope’",
-      "url": "https://publishingperspectives.com/2026/05/at-the-aaps-annual-meeting-talk-of-ai-copyright-and-ripples-of-hope/",
-      "source_url": "https://publishingperspectives.com/2026/05/at-the-aaps-annual-meeting-talk-of-ai-copyright-and-ripples-of-hope/",
+      "url": "https://publishingperspectives.com/2026/05/at-the-aaps-annual-meeting-talk-of-ai-copyright-and-ripples-of-hope",
+      "source_url": "https://publishingperspectives.com/2026/05/at-the-aaps-annual-meeting-talk-of-ai-copyright-and-ripples-of-hope",
       "event_at": "2026-05-12T02:33:36+00:00",
       "isbn": "",
       "rank": null,
@@ -918,8 +918,8 @@
       "info_purpose": [],
       "event_model": "award_signal",
       "title": "Lori Carlson-Hijuelos on Honoring Her Husband’s Literary Legacy",
-      "url": "https://lithub.com/lori-carlson-hijuelos-on-honoring-her-husbands-literary-legacy/",
-      "source_url": "https://lithub.com/lori-carlson-hijuelos-on-honoring-her-husbands-literary-legacy/",
+      "url": "https://lithub.com/lori-carlson-hijuelos-on-honoring-her-husbands-literary-legacy",
+      "source_url": "https://lithub.com/lori-carlson-hijuelos-on-honoring-her-husbands-literary-legacy",
       "event_at": "2026-05-11T23:59:11+00:00",
       "isbn": "",
       "rank": null,
@@ -1050,6 +1050,62 @@
       ]
     },
     {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "우리 세희/조해진 지음/현대문학",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=392954718&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=392954718&rssType=1&type=item",
+      "event_at": "2026-05-10T22:38:00+00:00",
+      "isbn": "392954718",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "역사",
+        "예술"
+      ],
+      "publisher": [
+        "현대문학"
+      ],
+      "book_type": [
+        "시리즈"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:392954718",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:4831722399f3:20260510",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -1097,6 +1153,210 @@
       ]
     },
     {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "죽은나무숲의 죽다 만 여우/오브리 하트먼 지음, 마르친 미노르 그림, 황세림 옮김/위즈덤하우스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=392922768&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=392922768&rssType=1&type=item",
+      "event_at": "2026-05-10T17:34:00+00:00",
+      "isbn": "392922768",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "문학",
+        "판타지",
+        "어린이",
+        "동화"
+      ],
+      "publisher": [
+        "위즈덤하우스"
+      ],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "수상",
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:392922768",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:4b610ad02414:20260510",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "한 여성 살인범의 초상/후무칭 지음, 김주희 옮김/글항아리",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=392918252&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=392918252&rssType=1&type=item",
+      "event_at": "2026-05-10T17:05:00+00:00",
+      "isbn": "392918252",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "",
+      "genre": [
+        "시",
+        "문학",
+        "과학",
+        "사회과학"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:392918252",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:bf4a4c95bbae:20260510",
+      "required_field_proxy": {
+        "author_name": true,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "나쁜 말이 쾅 튀어나왔어!/레오나다 카란사 지음, 에리카 메디나 그림, 이혜성 옮김/포레스트북스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=392916094&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=392916094&rssType=1&type=item",
+      "event_at": "2026-05-10T16:42:00+00:00",
+      "isbn": "392916094",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "어린이",
+        "그림책"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가",
+        "번역"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:392916094",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:d9161f426282:20260510",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "제로 포인트/슬라보예 지젝 지음, 이혜진 옮김, 배세진 해제/우중몽",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=392912882&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=392912882&rssType=1&type=item",
+      "event_at": "2026-05-10T16:01:00+00:00",
+      "isbn": "392912882",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "",
+      "genre": [
+        "시",
+        "문학",
+        "인문학",
+        "과학",
+        "사회과학",
+        "철학",
+        "정치"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:392912882",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:0b806655605e:20260510",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
       "source": "알라딘 베스트셀러",
       "source_type": "rss",
       "trust_tier": "T1_official",
@@ -1106,8 +1366,8 @@
       "info_purpose": [],
       "event_model": "author_event",
       "title": "[알라딘 베스트 RSS] 도서종합 분야 주간 베스트셀러",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=BEST&branch=book&cid=0&days=2026053",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=BEST&branch=book&cid=0&days=2026053",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?branch=book&cid=0&days=2026053&rssType=5&type=BEST",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?branch=book&cid=0&days=2026053&rssType=5&type=BEST",
       "event_at": "2026-05-10T13:00:27+00:00",
       "isbn": "270454373",
       "rank": null,
@@ -1188,8 +1448,8 @@
       "info_purpose": [],
       "event_model": "award_signal",
       "title": "[알라딘 베스트 RSS] 도서종합 분야 주간 베스트셀러",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=BEST&branch=book&cid=0&days=2026053",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=BEST&branch=book&cid=0&days=2026053",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?branch=book&cid=0&days=2026053&rssType=5&type=BEST",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?branch=book&cid=0&days=2026053&rssType=5&type=BEST",
       "event_at": "2026-05-10T13:00:27+00:00",
       "isbn": "270454373",
       "rank": null,
@@ -1253,162 +1513,6 @@
       "canonical_key": "book_edition:270454373",
       "canonical_key_status": "complete",
       "event_key": "award_signal:7af97829f158:20260510",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "우리는 멸종하지 않는다/유병록 지음/창비",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=392630378",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=392630378",
-      "event_at": "2026-05-07T17:20:00+00:00",
-      "isbn": "392630378",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학"
-      ],
-      "publisher": [
-        "창비"
-      ],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:392630378",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:bf4791224a6a:20260507",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "스와이프 엄금/치넨 미키토 지음, 김은모 옮김/북다",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=392626367",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=392626367",
-      "event_at": "2026-05-07T16:46:00+00:00",
-      "isbn": "392626367",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "후보",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "판타지",
-        "로맨스"
-      ],
-      "publisher": [],
-      "book_type": [
-        "화제의 책"
-      ],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "후보"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:392626367",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:eb4888e0f1a5:20260507",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "웨딩 피플/앨리슨 에스파흐 지음, 김보람 옮김/북로망스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=392621945",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=392621945",
-      "event_at": "2026-05-07T16:03:00+00:00",
-      "isbn": "392621945",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "올해의 책",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학"
-      ],
-      "publisher": [],
-      "book_type": [
-        "베스트셀러"
-      ],
-      "author": [],
-      "award": [
-        "올해의 책",
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:392621945",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:d4b4455ae9f9:20260507",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -1920,6 +2024,16 @@
       "source": "The Guardian Books",
       "title": "John of John by Douglas Stuart review – will a father and son come out to each other?",
       "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "알라딘 신간",
+      "title": "제로 포인트/슬라보예 지젝 지음, 이혜진 옮김, 배세진 해제/우중몽",
+      "canonical_key": "book_edition:392912882",
+      "required_field_gaps": [
+        "author_name"
+      ]
     },
     {
       "reason": "missing_required_fields",
