@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-05-13T12:20:29.356840+00:00",
+  "generated_at": "2026-05-14T02:28:38.540458+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,24 +16,24 @@
     "collection_error_count": 0,
     "sales_ranking_events": 0,
     "library_lending_events": 0,
-    "author_event_events": 1,
-    "award_signal_events": 3,
-    "book_signal_event_count": 4,
-    "official_or_operational_event_count": 4,
+    "author_event_events": 6,
+    "award_signal_events": 15,
+    "book_signal_event_count": 21,
+    "official_or_operational_event_count": 9,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 4,
-    "proxy_canonical_key_count": 0,
+    "complete_canonical_key_count": 12,
+    "proxy_canonical_key_count": 9,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 4,
-    "author_present_count": 4,
-    "publisher_present_count": 4,
-    "rank_present_count": 0,
+    "isbn_present_count": 12,
+    "author_present_count": 12,
+    "publisher_present_count": 6,
+    "rank_present_count": 1,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 0,
+    "event_required_field_gap_count": 11,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 6
+    "daily_review_item_count": 26
   },
   "sources": [
     {
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 3,
+      "article_count": 32,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -233,7 +233,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 3,
+      "article_count": 32,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -256,7 +256,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 4,
+      "article_count": 27,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -279,7 +279,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 3,
+      "article_count": 11,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -302,7 +302,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 4,
+      "article_count": 12,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -325,7 +325,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 3,
+      "article_count": 12,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -371,7 +371,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 0,
+      "article_count": 21,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -417,7 +417,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 4,
+      "article_count": 3,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -440,7 +440,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 4,
+      "article_count": 3,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -463,7 +463,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 4,
+      "article_count": 3,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -486,7 +486,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 4,
+      "article_count": 3,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -509,7 +509,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 4,
+      "article_count": 3,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -532,7 +532,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 4,
+      "article_count": 3,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -555,7 +555,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 4,
+      "article_count": 3,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -578,7 +578,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 4,
+      "article_count": 3,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -739,7 +739,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 3,
+      "article_count": 12,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -774,6 +774,576 @@
     }
   ],
   "events": [
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "#MeToo-themed novel wins inaugural reader-led award worth £50,000",
+      "url": "https://www.theguardian.com/books/2026/may/13/me-too-novel-donna-fisher-wins-inaugural-libraro-prize-sheeps-clothing",
+      "source_url": "https://www.theguardian.com/books/2026/may/13/me-too-novel-donna-fisher-wins-inaugural-libraro-prize-sheeps-clothing",
+      "event_at": "2026-05-13T09:45:05+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [
+        "novel"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author"
+      ],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:fe4ba9d455d2",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:51f051069755:20260513",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "New York Times Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "Revolution is the Theme at the Firsts London Book Fair",
+      "url": "https://www.nytimes.com/2026/05/12/books/firsts-london-book-fair.html",
+      "source_url": "https://www.nytimes.com/2026/05/12/books/firsts-london-book-fair.html",
+      "event_at": "2026-05-13T08:03:45+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "book fair",
+      "award_name": "",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "book fair"
+      ],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:new-york-times-books:fc8f931f2f82",
+      "canonical_key_status": "source_proxy",
+      "event_key": "author_event:2f0fe9e27cde:20260513",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "Publishing Perspectives",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Virginia Roberts Giuffre, Sarah Wynn-Williams Share Freedom to Publish Award at the 2026 British Book Awards",
+      "url": "https://publishingperspectives.com/2026/05/virginia-roberts-giuffre-sarah-wynn-williams-share-freedom-to-publish-award-at-the-2026-british-book-awards",
+      "source_url": "https://publishingperspectives.com/2026/05/virginia-roberts-giuffre-sarah-wynn-williams-share-freedom-to-publish-award-at-the-2026-british-book-awards",
+      "event_at": "2026-05-13T03:05:50+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author"
+      ],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:title:4ff4fe40dca3",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:d4ba64297f48:20260513",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Book Riot",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "The 2026 Edgar Award Winners Have Been Announced",
+      "url": "https://bookriot.com/edgar-award-winners-have-been-announced",
+      "source_url": "https://bookriot.com/edgar-award-winners-have-been-announced",
+      "event_at": "2026-05-13T01:02:00+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:book-riot:20d81cc753e7",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:7db4e40d3ba6:20260513",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Publishing Perspectives",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "Beijing International Book Fair Celebrates 40th Anniversary in June",
+      "url": "https://publishingperspectives.com/2026/05/beijing-international-book-fair-celebrates-40th-anniversary-in-june",
+      "source_url": "https://publishingperspectives.com/2026/05/beijing-international-book-fair-celebrates-40th-anniversary-in-june",
+      "event_at": "2026-05-12T03:08:40+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "book fair",
+      "award_name": "",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "book fair"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:publishing-perspectives:f77989474e81",
+      "canonical_key_status": "source_proxy",
+      "event_key": "author_event:eaeb8c8a84f9:20260512",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "Publishing Perspectives",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "At the AAP’s Annual Meeting, Talk of AI, Copyright, and ‘Ripples of Hope’",
+      "url": "https://publishingperspectives.com/2026/05/at-the-aaps-annual-meeting-talk-of-ai-copyright-and-ripples-of-hope",
+      "source_url": "https://publishingperspectives.com/2026/05/at-the-aaps-annual-meeting-talk-of-ai-copyright-and-ripples-of-hope",
+      "event_at": "2026-05-12T02:33:36+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "pulitzer",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author"
+      ],
+      "award": [
+        "pulitzer"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:title:eaea3c9b01d2",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:6380ea6677a4:20260512",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "모자를 왜 써?/정해영 지음/키다리",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393052086&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393052086&rssType=1&type=item",
+      "event_at": "2026-05-11T21:42:00+00:00",
+      "isbn": "393052086",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "시",
+        "어린이",
+        "그림책"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:393052086",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:4acd3ff84237:20260511",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "여기 붙어라!/이승범 지음/길벗어린이",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393024113&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393024113&rssType=1&type=item",
+      "event_at": "2026-05-11T20:26:00+00:00",
+      "isbn": "393024113",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "",
+      "genre": [
+        "시",
+        "어린이",
+        "그림책"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:393024113",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:f723d8496f0c:20260511",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "너에게 들려주고 싶은 노래가 있어/여서윤 지음/사계절",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393004942&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393004942&rssType=1&type=item",
+      "event_at": "2026-05-11T17:15:00+00:00",
+      "isbn": "393004942",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "여행",
+        "그림책"
+      ],
+      "publisher": [
+        "사계절"
+      ],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:393004942",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:03cd36b680f0:20260511",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "하우스콘서트에 진심/강선애 지음/어크로스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393004587&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393004587&rssType=1&type=item",
+      "event_at": "2026-05-11T17:11:00+00:00",
+      "isbn": "393004587",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "강연",
+      "award_name": "",
+      "genre": [
+        "에세이",
+        "시",
+        "예술",
+        "어린이"
+      ],
+      "publisher": [],
+      "book_type": [
+        "시리즈"
+      ],
+      "author": [
+        "저자"
+      ],
+      "award": [],
+      "book_event": [
+        "강연"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:393004587",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:16734d424a02:20260511",
+      "required_field_proxy": {
+        "author_name": true,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "학습 민첩성의 힘/신종호 지음/카시오페아",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393003894&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393003894&rssType=1&type=item",
+      "event_at": "2026-05-11T17:02:00+00:00",
+      "isbn": "393003894",
+      "rank": 0,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "강연",
+      "award_name": "",
+      "genre": [
+        "시",
+        "과학",
+        "심리",
+        "교육"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "강연"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:393003894",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:bc19cb5505c9:20260511",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "John of John by Douglas Stuart review – will a father and son come out to each other?",
+      "url": "https://www.theguardian.com/books/2026/may/11/john-of-john-by-douglas-stuart-review-will-a-father-and-son-come-out-to-each-other",
+      "source_url": "https://www.theguardian.com/books/2026/may/11/john-of-john-by-douglas-stuart-review-will-a-father-and-son-come-out-to-each-other",
+      "event_at": "2026-05-10T21:00:48+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [
+        "novel"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker",
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:the-guardian-books:72fc338fdc8f",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:b6deac4f7e49:20260510",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
     {
       "source": "알라딘 베스트셀러",
       "source_type": "rss",
@@ -939,6 +1509,95 @@
       "required_field_gaps": []
     },
     {
+      "source": "NPR Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Here are the 2026 Pulitzer Prize winners",
+      "url": "https://www.npr.org/2026/05/04/nx-s1-5803483/pulitzer-prize-winners-2026",
+      "source_url": "https://www.npr.org/2026/05/04/nx-s1-5803483/pulitzer-prize-winners-2026",
+      "event_at": "2026-05-04T11:00:16+00:00",
+      "isbn": "5803483",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "pulitzer",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "writer"
+      ],
+      "award": [
+        "pulitzer",
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:5803483",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:d6f17656a9a0:20260504",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "NPR Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "In 'John of John,' father and son are gay -- and they're keeping it from each other",
+      "url": "https://www.npr.org/2026/05/04/nx-s1-5810185/in-john-of-john-father-and-son-are-gay-and-theyre-keeping-it-from-each-other",
+      "source_url": "https://www.npr.org/2026/05/04/nx-s1-5810185/in-john-of-john-father-and-son-are-gay-and-theyre-keeping-it-from-each-other",
+      "event_at": "2026-05-04T06:44:09+00:00",
+      "isbn": "5810185",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [
+        "novel"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:5810185",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:bcc4917fc782:20260504",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
       "source": "알라딘 베스트셀러",
       "source_type": "rss",
       "trust_tier": "T1_official",
@@ -1010,6 +1669,142 @@
       "canonical_key": "book_edition:391764120",
       "canonical_key_status": "complete",
       "event_key": "award_signal:591e0e9ebd68:20260503",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "‘I wanted it to feel both Shakespearean and like Jay-Z’: debut author Sufiyaan Salam on masculinity, rap and meeting Stormzy",
+      "url": "https://www.theguardian.com/books/2026/may/03/i-wanted-it-to-feel-both-shakespearean-and-like-jay-z-debut-author-sufiyaan-salam-on-masculinity-rap-and-meeting-stormzy",
+      "source_url": "https://www.theguardian.com/books/2026/may/03/i-wanted-it-to-feel-both-shakespearean-and-like-jay-z-debut-author-sufiyaan-salam-on-masculinity-rap-and-meeting-stormzy",
+      "event_at": "2026-05-03T02:00:54+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "winner",
+      "genre": [
+        "novel"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author"
+      ],
+      "award": [
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:d34708c159d1",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:35e0fc919c16:20260503",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "The best books to read in April: new paperbacks from Katie Kitamura, Benjamin Wood and Mick Herron",
+      "url": "https://www.theguardian.com/books/ng-interactive/2026/apr/22/the-best-books-to-read-in-april-new-paperbacks-from-katie-kitamura-benjamin-wood-and-mick-herron",
+      "source_url": "https://www.theguardian.com/books/ng-interactive/2026/apr/22/the-best-books-to-read-in-april-new-paperbacks-from-katie-kitamura-benjamin-wood-and-mick-herron",
+      "event_at": "2026-04-22T07:37:06+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:the-guardian-books:51dfa136f0d2",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:76a54f71cf60:20260422",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Children and teens roundup – the best new picture books and novels",
+      "url": "https://www.theguardian.com/books/2026/apr/24/children-and-teens-roundup-the-best-new-picture-books-and-novels",
+      "source_url": "https://www.theguardian.com/books/2026/apr/24/children-and-teens-roundup-the-best-new-picture-books-and-novels",
+      "event_at": "2026-04-24T02:00:39+00:00",
+      "isbn": "9781646866311",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "winner",
+      "genre": [],
+      "publisher": [
+        "publisher"
+      ],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:9781646866311",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:6ea6cfdca6b6:20260424",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -1099,6 +1894,179 @@
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "#MeToo-themed novel wins inaugural reader-led award worth £50,000",
+      "canonical_key": "book_edition:title:fe4ba9d455d2",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "#MeToo-themed novel wins inaugural reader-led award worth £50,000",
+      "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "New York Times Books",
+      "title": "Revolution is the Theme at the Firsts London Book Fair",
+      "canonical_key": "book_source:new-york-times-books:fc8f931f2f82",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "author_event",
+      "source": "New York Times Books",
+      "title": "Revolution is the Theme at the Firsts London Book Fair",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Publishing Perspectives",
+      "title": "Virginia Roberts Giuffre, Sarah Wynn-Williams Share Freedom to Publish Award at the 2026 British Book Awards",
+      "canonical_key": "book_edition:title:4ff4fe40dca3",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Publishing Perspectives",
+      "title": "Virginia Roberts Giuffre, Sarah Wynn-Williams Share Freedom to Publish Award at the 2026 British Book Awards",
+      "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "The 2026 Edgar Award Winners Have Been Announced",
+      "canonical_key": "book_source:book-riot:20d81cc753e7",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "The 2026 Edgar Award Winners Have Been Announced",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "Publishing Perspectives",
+      "title": "Beijing International Book Fair Celebrates 40th Anniversary in June",
+      "canonical_key": "book_source:publishing-perspectives:f77989474e81",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "author_event",
+      "source": "Publishing Perspectives",
+      "title": "Beijing International Book Fair Celebrates 40th Anniversary in June",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Publishing Perspectives",
+      "title": "At the AAP’s Annual Meeting, Talk of AI, Copyright, and ‘Ripples of Hope’",
+      "canonical_key": "book_edition:title:eaea3c9b01d2",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Publishing Perspectives",
+      "title": "At the AAP’s Annual Meeting, Talk of AI, Copyright, and ‘Ripples of Hope’",
+      "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "알라딘 신간",
+      "title": "여기 붙어라!/이승범 지음/길벗어린이",
+      "canonical_key": "book_edition:393024113",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "알라딘 신간",
+      "title": "학습 민첩성의 힘/신종호 지음/카시오페아",
+      "canonical_key": "book_edition:393003894",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "John of John by Douglas Stuart review – will a father and son come out to each other?",
+      "canonical_key": "book_source:the-guardian-books:72fc338fdc8f",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "John of John by Douglas Stuart review – will a father and son come out to each other?",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "‘I wanted it to feel both Shakespearean and like Jay-Z’: debut author Sufiyaan Salam on masculinity, rap and meeting Stormzy",
+      "canonical_key": "book_edition:title:d34708c159d1",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "‘I wanted it to feel both Shakespearean and like Jay-Z’: debut author Sufiyaan Salam on masculinity, rap and meeting Stormzy",
+      "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "The best books to read in April: new paperbacks from Katie Kitamura, Benjamin Wood and Mick Herron",
+      "canonical_key": "book_source:the-guardian-books:51dfa136f0d2",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "The best books to read in April: new paperbacks from Katie Kitamura, Benjamin Wood and Mick Herron",
+      "canonical_key_status": "source_proxy"
+    },
     {
       "reason": "missing_event_model",
       "event_model": "sales_ranking"
