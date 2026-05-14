@@ -57,14 +57,14 @@ BookRadar는 다음 RSS 피드에서 도서 정보를 수집합니다:
 
 - 워크플로: `.github/workflows/radar-crawler.yml`
   - 스케줄: 매일 00:00 UTC (KST 09:00), 수동 실행도 지원.
-  - 환경 변수 `RADAR_CATEGORY`를 프로젝트에 맞게 수정하세요.
+  - 환경 변수 `RADAR_CATEGORY` 값은 `book`입니다.
   - 리포트 배포 디렉터리: `reports` → `gh-pages` 브랜치로 배포.
   - DuckDB 경로: `data/radar_data.duckdb` (Pages에 올라가지 않음). 아티팩트로 7일 보관.
 
 - 설정 방법:
   1) 저장소 Settings → Pages에서 `gh-pages` 브랜치를 선택해 활성화
   2) Actions 권한을 기본값으로 두거나 외부 PR에서도 실행되도록 설정
-  3) 워크플로 파일의 `RADAR_CATEGORY`를 원하는 YAML 이름으로 변경
+  3) 워크플로 파일의 `RADAR_CATEGORY`가 `book`인지 확인
 
 ## 동작 방식
 
