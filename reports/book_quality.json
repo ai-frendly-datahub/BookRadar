@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-05-19T13:26:50.385486+00:00",
+  "generated_at": "2026-05-20T05:07:20.574102+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -17,23 +17,23 @@
     "sales_ranking_events": 0,
     "library_lending_events": 0,
     "author_event_events": 9,
-    "award_signal_events": 24,
-    "book_signal_event_count": 33,
-    "official_or_operational_event_count": 12,
+    "award_signal_events": 33,
+    "book_signal_event_count": 42,
+    "official_or_operational_event_count": 14,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 17,
-    "proxy_canonical_key_count": 16,
+    "complete_canonical_key_count": 20,
+    "proxy_canonical_key_count": 22,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 17,
-    "author_present_count": 17,
-    "publisher_present_count": 9,
+    "isbn_present_count": 20,
+    "author_present_count": 19,
+    "publisher_present_count": 11,
     "rank_present_count": 1,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 18,
+    "event_required_field_gap_count": 24,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 40
+    "daily_review_item_count": 50
   },
   "sources": [
     {
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 61,
+      "article_count": 91,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -233,7 +233,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 61,
+      "article_count": 72,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -256,7 +256,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 37,
+      "article_count": 40,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -279,7 +279,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 14,
+      "article_count": 16,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -302,7 +302,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 21,
+      "article_count": 26,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -325,7 +325,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 21,
+      "article_count": 23,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -371,7 +371,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 42,
+      "article_count": 45,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -783,6 +783,336 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
+      "title": "International Booker Prize 2026: ‘Taiwan Travelogue’ is First Winner Originally Written in Mandarin",
+      "url": "https://www.nytimes.com/2026/05/19/books/international-booker-prize-taiwan-travelogue.html",
+      "source_url": "https://www.nytimes.com/2026/05/19/books/international-booker-prize-taiwan-travelogue.html",
+      "event_at": "2026-05-19T13:52:45+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [
+        "fiction",
+        "novel"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker",
+        "award",
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:new-york-times-books:8fda7a02b2a2",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:d363eb8bd8e6:20260519",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Taiwan Travelogue has won the 2026 International Booker Prize.",
+      "url": "https://lithub.com/taiwan-travelogue-has-won-the-2026-international-booker-prize",
+      "source_url": "https://lithub.com/taiwan-travelogue-has-won-the-2026-international-booker-prize",
+      "event_at": "2026-05-19T13:20:10+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker",
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:literary-hub:886619f038d5",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:3d6f8a7be6a2:20260519",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Olga Tokarczuk has responded to the controversy over her reputed use of AI.",
+      "url": "https://lithub.com/olga-tokarczuk-has-responded-to-the-controversy-over-her-reputed-use-of-ai",
+      "source_url": "https://lithub.com/olga-tokarczuk-has-responded-to-the-controversy-over-her-reputed-use-of-ai",
+      "event_at": "2026-05-19T13:07:48+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "nobel",
+      "genre": [
+        "novel"
+      ],
+      "publisher": [
+        "publisher"
+      ],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "nobel",
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:literary-hub:1549ead02ce3",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:5de9e46dce0f:20260519",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "NPR Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "'Taiwan Travelogue' wins the 2026 International Booker Prize",
+      "url": "https://www.npr.org/2026/05/19/nx-s1-5823677/2026-booker-prize-winner-taiwan-travelogue",
+      "source_url": "https://www.npr.org/2026/05/19/nx-s1-5823677/2026-booker-prize-winner-taiwan-travelogue",
+      "event_at": "2026-05-19T12:31:47+00:00",
+      "isbn": "5823677",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [
+        "novel"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker",
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:5823677",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:feac484d6065:20260519",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "International Booker prize goes to novel originally written in Mandarin Chinese for the first time",
+      "url": "https://www.theguardian.com/culture/2026/may/19/international-booker-prize-goes-to-novel-originally-written-in-mandarin-chinese-for-the-first-time",
+      "source_url": "https://www.theguardian.com/culture/2026/may/19/international-booker-prize-goes-to-novel-originally-written-in-mandarin-chinese-for-the-first-time",
+      "event_at": "2026-05-19T12:30:14+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [
+        "novel",
+        "romance"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:the-guardian-books:767e2ee30e1b",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:bb2c0194ae20:20260519",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Book Riot",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Book Riot’s Deals of the Day for May 19, 2026",
+      "url": "https://bookriot.com/book-riots-deals-of-the-day-for-may-19-2026",
+      "source_url": "https://bookriot.com/book-riots-deals-of-the-day-for-may-19-2026",
+      "event_at": "2026-05-19T06:35:35+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [
+        "memoir"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:book-riot:825dd78061a2",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:8a0a09765410:20260519",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Nobel laureate Olga Tokarczuk apparently used AI to write her latest novel.",
+      "url": "https://lithub.com/nobel-laureate-olga-tokarczuk-apparently-used-ai-to-write-her-latest-novel",
+      "source_url": "https://lithub.com/nobel-laureate-olga-tokarczuk-apparently-used-ai-to-write-her-latest-novel",
+      "event_at": "2026-05-19T05:50:44+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "nobel",
+      "genre": [
+        "novel"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "writer"
+      ],
+      "award": [
+        "nobel",
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:45242238750a",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:0d13c3fe9052:20260519",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "New York Times Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
       "title": "Book Review: ‘On Witness and Respair,’ by Jesmyn Ward",
       "url": "https://www.nytimes.com/2026/05/18/books/review/jesmyn-ward-witness-and-respair.html",
       "source_url": "https://www.nytimes.com/2026/05/18/books/review/jesmyn-ward-witness-and-respair.html",
@@ -820,6 +1150,114 @@
       "required_field_gaps": [
         "isbn"
       ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "진짜 백설 공주는 누구일까?/유순희 지음, 최정인 그림/가나출판사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393509664&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393509664&rssType=1&type=item",
+      "event_at": "2026-05-17T19:31:00+00:00",
+      "isbn": "393509664",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "시",
+        "교육",
+        "판타지",
+        "어린이",
+        "청소년",
+        "동화"
+      ],
+      "publisher": [
+        "출판사"
+      ],
+      "book_type": [
+        "추천도서",
+        "개정판"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:393509664",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:f347db15ed86:20260517",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "처음 만나는 사회 4학년/배성호.신봉석.양은석 지음, 나유진 그림, 전국초등사회교과모임 기획/철수와영희",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393495530&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393495530&rssType=1&type=item",
+      "event_at": "2026-05-17T16:42:00+00:00",
+      "isbn": "393495530",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "후보",
+      "genre": [
+        "시",
+        "과학",
+        "역사",
+        "철학",
+        "여행",
+        "건강",
+        "어린이"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "후보"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:393495530",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:3fac6ade68b6:20260517",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "알라딘 베스트셀러",
@@ -2513,6 +2951,108 @@
       "reason": "missing_required_fields",
       "event_model": "award_signal",
       "source": "New York Times Books",
+      "title": "International Booker Prize 2026: ‘Taiwan Travelogue’ is First Winner Originally Written in Mandarin",
+      "canonical_key": "book_source:new-york-times-books:8fda7a02b2a2",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "New York Times Books",
+      "title": "International Booker Prize 2026: ‘Taiwan Travelogue’ is First Winner Originally Written in Mandarin",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Taiwan Travelogue has won the 2026 International Booker Prize.",
+      "canonical_key": "book_source:literary-hub:886619f038d5",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Taiwan Travelogue has won the 2026 International Booker Prize.",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Olga Tokarczuk has responded to the controversy over her reputed use of AI.",
+      "canonical_key": "book_source:literary-hub:1549ead02ce3",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Olga Tokarczuk has responded to the controversy over her reputed use of AI.",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "International Booker prize goes to novel originally written in Mandarin Chinese for the first time",
+      "canonical_key": "book_source:the-guardian-books:767e2ee30e1b",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "International Booker prize goes to novel originally written in Mandarin Chinese for the first time",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "Book Riot’s Deals of the Day for May 19, 2026",
+      "canonical_key": "book_source:book-riot:825dd78061a2",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "Book Riot’s Deals of the Day for May 19, 2026",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Nobel laureate Olga Tokarczuk apparently used AI to write her latest novel.",
+      "canonical_key": "book_edition:title:45242238750a",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Nobel laureate Olga Tokarczuk apparently used AI to write her latest novel.",
+      "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "New York Times Books",
       "title": "Book Review: ‘On Witness and Respair,’ by Jesmyn Ward",
       "canonical_key": "book_source:new-york-times-books:1b2c5b714280",
       "required_field_gaps": [
@@ -2820,18 +3360,6 @@
       "source": "YES24 bestseller ranking history",
       "signal_type": "sales_ranking",
       "activation_gate": "parser stability, ISBN mapping, and duplicate edition handling"
-    },
-    {
-      "reason": "source_backlog_pending",
-      "source": "Korea library bigdata lending statistics",
-      "signal_type": "library_lending",
-      "activation_gate": "API key, date granularity, ISBN coverage, and source attribution"
-    },
-    {
-      "reason": "source_backlog_pending",
-      "source": "Publisher/bookstore author event calendars",
-      "signal_type": "author_event",
-      "activation_gate": "venue canonicalization, event date parsing, and duplicate event handling"
     }
   ],
   "source_backlog": {
