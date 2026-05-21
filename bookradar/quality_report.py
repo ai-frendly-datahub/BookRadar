@@ -1,7 +1,7 @@
 from __future__ import annotations
 
-import json
 import hashlib
+import json
 import re
 from collections import Counter
 from collections.abc import Iterable, Mapping
@@ -61,7 +61,9 @@ def build_quality_report(
     summary = {
         "total_sources": len(source_rows),
         "enabled_sources": sum(1 for row in source_rows if row["enabled"]),
-        "tracked_sources": sum(1 for row in source_rows if row["tracked"]),
+        "tracked_sources": sum(
+            1 for row in source_rows if row["enabled"] and row["tracked"]
+        ),
         "fresh_sources": status_counts.get("fresh", 0),
         "stale_sources": status_counts.get("stale", 0),
         "missing_sources": status_counts.get("missing", 0),
@@ -577,8 +579,14 @@ def _isbn(article: Article) -> str:
 
 
 def _rank(article: Article) -> int | None:
-    match = re.search(r"(?:rank|#|위)\s*(\d{1,5})", f"{article.title} {article.summary}", re.I)
-    return int(match.group(1)) if match else None
+    match = re.search(
+        r"(?:rank|#)\s*(\d{1,5})|(\d{1,5})\s*위",
+        f"{article.title} {article.summary}",
+        re.I,
+    )
+    if match is None:
+        return None
+    return int(match.group(1) or match.group(2))
 
 
 def _retailer(article: Article, source: Source) -> str:

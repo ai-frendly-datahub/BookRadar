@@ -80,6 +80,100 @@ def test_build_quality_report_tracks_book_event_statuses() -> None:
     assert "required_field_gaps" in report["events"][0]
 
 
+def test_build_quality_report_counts_only_enabled_tracked_sources() -> None:
+    now = datetime(2026, 5, 21, tzinfo=UTC)
+    category = CategoryConfig(
+        category_name="book",
+        display_name="Book Radar",
+        sources=[
+            Source(
+                name="알라딘 베스트셀러",
+                type="rss",
+                url="https://example.com/aladin",
+                content_type="bestseller",
+                enabled=True,
+            ),
+            Source(
+                name="YES24 베스트셀러",
+                type="rss",
+                url="https://example.com/yes24",
+                content_type="bestseller",
+                enabled=False,
+            ),
+        ],
+        entities=[],
+    )
+
+    report = build_quality_report(
+        category=category,
+        articles=[
+            Article(
+                title="1위 프로젝트 헤일메리",
+                link="https://example.com/aladin/1",
+                summary="ISBN:9788925588735",
+                published=now,
+                source="알라딘 베스트셀러",
+                category="book",
+            )
+        ],
+        quality_config={
+            "data_quality": {
+                "quality_outputs": {"tracked_event_models": ["sales_ranking"]},
+            }
+        },
+        generated_at=now,
+    )
+
+    assert report["summary"]["enabled_sources"] == 1
+    assert report["summary"]["tracked_sources"] == 1
+    assert report["summary"]["skipped_disabled_sources"] == 1
+
+
+def test_build_quality_report_reads_rank_before_korean_rank_suffix() -> None:
+    now = datetime(2026, 5, 20, tzinfo=UTC)
+    category = CategoryConfig(
+        category_name="book",
+        display_name="Book Radar",
+        sources=[
+            Source(
+                name="알라딘 베스트셀러",
+                type="rss",
+                url="https://example.com/bestseller",
+                content_type="bestseller",
+                config={"event_model": "sales_ranking"},
+            )
+        ],
+        entities=[],
+    )
+
+    report = build_quality_report(
+        category=category,
+        articles=[
+            Article(
+                title="1위 프로젝트 헤일메리",
+                link="https://example.com/book-1",
+                summary="ISBN:9788925588735",
+                published=now,
+                source="알라딘 베스트셀러",
+                category="book",
+                matched_entities={"BookType": ["bestseller"]},
+            )
+        ],
+        quality_config={
+            "data_quality": {
+                "quality_outputs": {"tracked_event_models": ["sales_ranking"]},
+            }
+        },
+        generated_at=now,
+    )
+
+    event = report["events"][0]
+    assert report["summary"]["sales_ranking_events"] == 1
+    assert event["rank"] == 1
+    assert event["isbn"] == "9788925588735"
+    assert event["required_field_gaps"] == []
+
+
 def test_write_quality_report_writes_latest_and_dated_files(tmp_path: Path) -> None:
     report = {
         "category": "book",

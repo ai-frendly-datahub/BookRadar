@@ -1,4 +1,4 @@
 include README.md
 include LICENSE
-recursive-include radar/templates *
 recursive-include config *.yaml
+recursive-include runtime_contracts *.json

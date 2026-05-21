@@ -20,5 +20,7 @@ jobs:
           pip install "radar-core @ git+https://github.com/ai-frendly-datahub/radar-core.git@main"
           pip install -r requirements.txt
           pip install -e .
+      - name: Lint
+        run: ruff check .
       - name: Tests
-        run: pytest --tb=short
+        run: pytest --tb=short --cov=bookradar --cov=main --cov=scripts --cov-report=term-missing --cov-fail-under=80

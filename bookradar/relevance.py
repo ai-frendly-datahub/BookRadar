@@ -1,18 +1,28 @@
 from __future__ import annotations
 
+import re
 from collections.abc import Iterable
 
 from .models import Article, Source
 
 
 BOOK_ENTITY_NAMES = {"Award", "Author", "BookEvent", "BookType", "Genre", "Publisher"}
-INVALID_TERMS = {
-    "404",
-    "access denied",
-    "not found",
-    "page not found",
-    "service unavailable",
+SOURCE_CONTEXT_TAGS = {
+    "author_event",
+    "award_signal",
+    "book_review_source",
+    "community_book_signal",
+    "editorial_coverage",
+    "library_lending",
+    "official_book_source",
+    "publishing_news_source",
+    "sales_ranking",
 }
+INVALID_CONTENT_RE = re.compile(
+    r"\b(?:40[034]|50[0234])\b.{0,80}\b(?:client error|server error|not found|forbidden|service unavailable)\b"
+    r"|\b(?:access denied|page not found|service unavailable)\b",
+    re.IGNORECASE | re.DOTALL,
+)
 
 
 def apply_source_context_entities(
@@ -34,8 +44,13 @@ def apply_source_context_entities(
         if tags:
             existing = article.matched_entities.get("SourceSignal", [])
             existing_values = existing if isinstance(existing, list) else [existing]
+            preserved_values = {
+                str(value)
+                for value in existing_values
+                if str(value) not in SOURCE_CONTEXT_TAGS
+            }
             article.matched_entities["SourceSignal"] = sorted(
-                {str(value) for value in existing_values} | set(tags)
+                preserved_values | set(tags)
             )
         classified.append(article)
     return classified
@@ -108,5 +123,5 @@ def _has_book_entity(article: Article) -> bool:
 
 
 def _is_invalid(article: Article) -> bool:
-    text = f"{article.title} {article.summary}".lower()
-    return any(term in text for term in INVALID_TERMS)
+    text = f"{article.title} {article.summary}"
+    return INVALID_CONTENT_RE.search(text) is not None

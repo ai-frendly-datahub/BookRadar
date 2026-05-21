@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import logging
 import os
 import sys
 from typing import Any
@@ -23,8 +24,13 @@ def configure_logging(
     if use_json is None:
         use_json = not sys.stderr.isatty()
 
+    logging_level = getattr(logging, log_level, logging.INFO)
+    logging.basicConfig(level=logging_level, stream=sys.stderr, format="%(message)s", force=True)
+
     processors: list[Any] = [
+        structlog.stdlib.filter_by_level,
         structlog.processors.TimeStamper(fmt="iso", utc=True),
+        structlog.stdlib.add_logger_name,
         structlog.processors.add_log_level,
         structlog.processors.StackInfoRenderer(),
         structlog.processors.format_exc_info,
@@ -42,17 +48,14 @@ def configure_logging(
 
     structlog.configure(
         processors=processors,
-        wrapper_class=structlog.BoundLogger,
+        wrapper_class=structlog.stdlib.BoundLogger,
         context_class=dict,
-        logger_factory=structlog.PrintLoggerFactory(file=sys.stderr),
+        logger_factory=structlog.stdlib.LoggerFactory(),
         cache_logger_on_first_use=True,
     )
 
-    logging_level = getattr(__import__("logging"), log_level, "INFO")
-    __import__("logging").basicConfig(level=logging_level)
 
-
-def get_logger(name: str) -> structlog.BoundLogger:
+def get_logger(name: str) -> structlog.stdlib.BoundLogger:
     """Get a structured logger instance.
 
     Args:

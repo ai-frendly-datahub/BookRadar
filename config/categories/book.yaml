@@ -109,7 +109,7 @@ sources:
   config:
     bypass_crawl_health: true
     freshness_sla_days: 7
-    event_model: editorial_coverage
+    event_model: sales_ranking
 - name: YES24 베스트셀러
   type: rss
   url: https://www.yes24.com/_par_/Rss/KBO001.xml
@@ -259,104 +259,122 @@ sources:
 - name: r/books
   type: reddit
   url: https://www.reddit.com/r/books/
+  enabled: false
   language: en
   country: US
   trust_tier: T4_community
   collection_tier: C3_reddit
   content_type: community
+  notes: 'Disabled 2026-05-21: crawl_health records repeated Reddit 403 responses; re-enable after authenticated Reddit collection is configured.'
   config:
     event_model: editorial_coverage
 - name: r/suggestmeabook
   type: reddit
   url: https://www.reddit.com/r/suggestmeabook/
+  enabled: false
   language: en
   country: US
   trust_tier: T4_community
   collection_tier: C3_reddit
   content_type: community
+  notes: 'Disabled 2026-05-21: crawl_health records repeated Reddit 403 responses; re-enable after authenticated Reddit collection is configured.'
   config:
     event_model: editorial_coverage
 - name: r/52book
   type: reddit
   url: https://www.reddit.com/r/52book/
+  enabled: false
   language: en
   country: US
   trust_tier: T4_community
   collection_tier: C3_reddit
   content_type: community
+  notes: 'Disabled 2026-05-21: crawl_health records repeated Reddit 403 responses; re-enable after authenticated Reddit collection is configured.'
   config:
     event_model: editorial_coverage
 - name: r/booksuggestions
   type: reddit
   url: https://www.reddit.com/r/booksuggestions/
+  enabled: false
   language: en
   country: US
   trust_tier: T4_community
   collection_tier: C3_reddit
   content_type: community
+  notes: 'Disabled 2026-05-21: crawl_health records repeated Reddit 403 responses; re-enable after authenticated Reddit collection is configured.'
   config:
     event_model: editorial_coverage
 - name: r/Fantasy
   type: reddit
   url: https://www.reddit.com/r/Fantasy/
+  enabled: false
   language: en
   country: US
   trust_tier: T4_community
   collection_tier: C3_reddit
   content_type: community
+  notes: 'Disabled 2026-05-21: crawl_health records repeated Reddit 403 responses; re-enable after authenticated Reddit collection is configured.'
   config:
     event_model: editorial_coverage
 - name: r/literature
   type: reddit
   url: https://www.reddit.com/r/literature/
+  enabled: false
   language: en
   country: US
   trust_tier: T4_community
   collection_tier: C3_reddit
   content_type: community
+  notes: 'Disabled 2026-05-21: crawl_health records repeated Reddit 403 responses; re-enable after authenticated Reddit collection is configured.'
   config:
     event_model: editorial_coverage
 - name: r/horrorlit
   type: reddit
   url: https://www.reddit.com/r/horrorlit/
+  enabled: false
   language: en
   country: US
   trust_tier: T4_community
   collection_tier: C3_reddit
   content_type: community
+  notes: 'Disabled 2026-05-21: crawl_health records repeated Reddit 403 responses; re-enable after authenticated Reddit collection is configured.'
   config:
     event_model: editorial_coverage
 - name: r/scifi
   type: reddit
   url: https://www.reddit.com/r/scifi/
+  enabled: false
   language: en
   country: US
   trust_tier: T4_community
   collection_tier: C3_reddit
   content_type: community
+  notes: 'Disabled 2026-05-21: crawl_health records repeated Reddit 403 responses; re-enable after authenticated Reddit collection is configured.'
   config:
     event_model: editorial_coverage
 - name: merphy napier
   type: rss
   url: https://www.youtube.com/feeds/videos.xml?channel_id=UC7FW6FYqPLeQIXMSulBfOLw
+  enabled: false
   language: en
   country: US
   trust_tier: T4_community
   collection_tier: C1_rss
   content_type: review
+  notes: 'Disabled 2026-05-21: configured YouTube channel feed returns 404 and crawl_health has disabled the source.'
   config:
-    bypass_crawl_health: true
     event_model: editorial_coverage
 - name: Daniel Greene
   type: rss
   url: https://www.youtube.com/feeds/videos.xml?channel_id=UCw--xPGVVxYzRsWyV1nFqgg
+  enabled: false
   language: en
   country: US
   trust_tier: T4_community
   collection_tier: C1_rss
   content_type: review
+  notes: 'Disabled 2026-05-21: configured YouTube channel feed returns 404 and crawl_health has disabled the source.'
   config:
-    bypass_crawl_health: true
     event_model: editorial_coverage
 - name: Ariel Bissett
   type: rss
@@ -412,11 +430,13 @@ sources:
 - name: Shelf Awareness
   type: rss
   url: https://www.shelf-awareness.com/rss/
+  enabled: false
   language: en
   country: US
   trust_tier: T3_professional
   collection_tier: C1_rss
   content_type: news
+  notes: 'Disabled 2026-05-21: RSS endpoint returns HTTP 200 with an empty body, so it produces no feed entries.'
   config:
     event_model: editorial_coverage
 entities:

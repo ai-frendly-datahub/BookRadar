@@ -37,12 +37,14 @@
 
 ## 수집 소스
 
-BookRadar는 다음 RSS 피드에서 도서 정보를 수집합니다:
+BookRadar는 카테고리 YAML에 정의된 활성 소스를 수집합니다. 현재 핵심 활성 소스는 다음과 같습니다:
 
 - **알라딘 신간**: 최신 출간 도서 정보
-- **알라딘 베스트셀러**: 판매 순위 기반 인기 도서
-- **YES24 베스트셀러**: 종합 베스트셀러 순위
-- **교보문고 북뉴스**: 도서 관련 뉴스 및 신간 소식
+- **알라딘 베스트셀러**: 주간 베스트셀러 RSS를 순위별 도서 이벤트로 분해
+- **영미권 도서 매체**: Publishers Weekly, Guardian Books, NPR Books, Literary Hub, Book Riot, New York Times Books 등
+- **커뮤니티 신호**: Reddit 도서 서브레딧과 일부 유튜브 RSS
+
+YES24, 교보문고 등 일부 국내 소스는 stale endpoint, timeout, RSS 구조 문제로 비활성화되어 있으며 `config/categories/book.yaml`의 `notes`에 사유를 기록합니다.
 
 ## 엔티티 분석
 
@@ -56,10 +58,11 @@ BookRadar는 다음 RSS 피드에서 도서 정보를 수집합니다:
 ## GitHub Actions & GitHub Pages
 
 - 워크플로: `.github/workflows/radar-crawler.yml`
-  - 스케줄: 매일 00:00 UTC (KST 09:00), 수동 실행도 지원.
+  - 스케줄: 매일 01:00 UTC (KST 10:00), 수동 실행도 지원.
   - 환경 변수 `RADAR_CATEGORY` 값은 `book`입니다.
   - 리포트 배포 디렉터리: `reports` → `gh-pages` 브랜치로 배포.
   - DuckDB 경로: `data/radar_data.duckdb` (Pages에 올라가지 않음). 아티팩트로 7일 보관.
+  - 배포 전 `ruff check .`와 `pytest --tb=short`로 회귀를 차단합니다.
 
 - 설정 방법:
   1) 저장소 Settings → Pages에서 `gh-pages` 브랜치를 선택해 활성화
@@ -71,6 +74,7 @@ BookRadar는 다음 RSS 피드에서 도서 정보를 수집합니다:
 - **수집**: 카테고리 YAML에 정의된 소스를 수집합니다. 실행 시 DuckDB에 적재하고 보존 기간(`keep_days`)을 적용합니다.
 - **분석**: 엔티티별 키워드 매칭. 매칭된 키워드를 리포트에 칩으로 표시합니다.
 - **리포트**: `reports/<category>_report.html`을 생성하며, 최근 N일(기본 7일) 기사와 엔티티 히트 카운트, 수집 오류를 표시합니다.
+- **품질 리포트**: `reports/book_quality.json`과 날짜별 품질 JSON을 생성해 판매 순위, 대출, 행사, 수상 신호의 필드 결손과 freshness를 추적합니다.
 
 ## 기본 경로
 
@@ -102,6 +106,16 @@ BookRadar/
 테스트 실행:
 ```bash
 pytest tests/ -v
+```
+
+커버리지 확인:
+```bash
+pytest --cov=bookradar --cov=main --cov=scripts --cov-report=term-missing
+```
+
+린트:
+```bash
+ruff check .
 ```
 
 ## 아키텍처

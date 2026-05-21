@@ -3,8 +3,8 @@
 
 from __future__ import annotations
 
-from datetime import UTC, date, datetime
 import sys
+from datetime import UTC, date, datetime, timedelta
 from pathlib import Path
 from typing import Any
 
@@ -16,19 +16,21 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 sys.path.insert(0, str(PROJECT_ROOT.parent / "radar-core"))
 
-from bookradar.config_loader import load_category_config, load_category_quality_config  # noqa: E402
-from bookradar.quality_report import build_quality_report, write_quality_report  # noqa: E402
-from bookradar.relevance import (  # noqa: E402
-    apply_source_context_entities,
-    filter_relevant_articles,
-)
-from bookradar.storage import RadarStorage  # noqa: E402
 from radar_core.common.quality_checks import (  # noqa: E402
     check_dates,
     check_duplicate_urls,
     check_missing_fields,
     check_text_lengths,
 )
+
+from bookradar.config_loader import load_category_config, load_category_quality_config  # noqa: E402
+from bookradar.models import Article  # noqa: E402
+from bookradar.quality_report import build_quality_report, write_quality_report  # noqa: E402
+from bookradar.relevance import (  # noqa: E402
+    apply_source_context_entities,
+    filter_relevant_articles,
+)
+from bookradar.storage import _article_from_row  # noqa: E402
 
 
 def _project_path(project_root: Path, raw_path: str | Path) -> Path:
@@ -90,6 +92,42 @@ def _lookback_days(target_date: date | None, *, minimum_days: int = 14) -> int:
     return max(minimum_days, age_days)
 
 
+def _recent_articles_read_only(
+    db_path: Path,
+    *,
+    category_name: str,
+    days: int,
+    limit: int = 1000,
+) -> list[Article]:
+    since = datetime.now(UTC).replace(tzinfo=None) - timedelta(days=days)
+    articles_by_link: dict[str, Article] = {}
+    with duckdb.connect(str(db_path), read_only=True) as con:
+        for date_column in ("published", "collected_at"):
+            rows = con.execute(
+                f"""
+                SELECT
+                    category,
+                    source,
+                    title,
+                    link,
+                    summary,
+                    published,
+                    collected_at,
+                    entities_json,
+                    ontology_json
+                FROM articles
+                WHERE category = ? AND {date_column} >= ?
+                ORDER BY {date_column} DESC, link DESC
+                LIMIT ?
+                """,
+                [category_name, since, limit],
+            ).fetchall()
+            for row in rows:
+                article = _article_from_row(row)
+                articles_by_link[article.link] = article
+    return list(articles_by_link.values())
+
+
 def _run_storage_checks(con: duckdb.DuckDBPyConnection) -> None:
     total = con.execute("SELECT COUNT(*) FROM articles").fetchone()
     total_records = int(total[0]) if total else 0
@@ -129,24 +167,11 @@ def generate_quality_artifacts(
     quality_cfg = load_category_quality_config(category_name, categories_dir=categories_dir)
     lookback_days = _lookback_days(_latest_article_date(db_path, category_cfg.category_name))
 
-    with RadarStorage(db_path) as storage:
-        articles_by_link = {
-            article.link: article
-            for article in [
-                *storage.recent_articles(
-                    category_cfg.category_name,
-                    days=lookback_days,
-                    limit=1000,
-                ),
-                *storage.recent_articles_by_collected_at(
-                    category_cfg.category_name,
-                    days=lookback_days,
-                    limit=1000,
-                ),
-            ]
-        }
-
-    articles = list(articles_by_link.values())
+    articles = _recent_articles_read_only(
+        db_path,
+        category_name=category_cfg.category_name,
+        days=lookback_days,
+    )
     scoped_articles = filter_relevant_articles(
         apply_source_context_entities(articles, category_cfg.sources),
         category_cfg.sources,

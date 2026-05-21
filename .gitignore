@@ -180,6 +180,7 @@ data/raw/
 data/search_index.db
 data/search_index.db-wal
 data/search_index.db-shm
+data/backups/
 reports/*.html
 !reports/.gitkeep
 docs/reports/*.html

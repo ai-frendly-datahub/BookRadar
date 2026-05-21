@@ -5,10 +5,10 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import cast
 
+from radar_core.config_loader import filter_sources
 from radar_core.date_storage import apply_date_storage_policy
 from radar_core.ontology import annotate_articles_with_ontology
 from radar_core.raw_logger import RawLogger
-from radar_core.config_loader import filter_sources
 
 from bookradar.analyzer import apply_entity_rules
 from bookradar.collector import collect_sources
@@ -66,6 +66,7 @@ def run(
         category=category_cfg.category_name,
         limit_per_source=per_source_limit,
         timeout=timeout,
+        health_db_path=str(settings.database_path),
     )
     collected = annotate_articles_with_ontology(
         collected,

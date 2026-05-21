@@ -100,3 +100,34 @@ def test_generate_quality_artifacts_uses_latest_stored_checkpoint(
     assert "quality_report=" in captured.out
     assert "tracked_sources=1" in captured.out
     assert "book_signal_event_count=1" in captured.out
+
+
+def test_recent_articles_read_only_includes_collected_at_window(tmp_path: Path) -> None:
+    db_path = tmp_path / "radar_data.duckdb"
+    old_published = datetime.now(UTC) - timedelta(days=60)
+    recent_collected = datetime.now(UTC) - timedelta(days=1)
+    with RadarStorage(db_path) as storage:
+        storage.upsert_articles(
+            [
+                Article(
+                    title="Recently collected older ranking",
+                    link="https://example.com/books/recently-collected",
+                    summary="Ranking data arrived late.",
+                    published=old_published,
+                    collected_at=recent_collected,
+                    source="Bookstore Ranking",
+                    category="book",
+                )
+            ]
+        )
+
+    module = _load_script_module()
+    articles = module._recent_articles_read_only(
+        db_path,
+        category_name="book",
+        days=14,
+    )
+
+    assert [article.link for article in articles] == [
+        "https://example.com/books/recently-collected"
+    ]

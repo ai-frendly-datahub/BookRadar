@@ -6,10 +6,12 @@ from typing import cast
 import yaml
 from radar_core.models import (
     CategoryConfig,
+    EmailConfig,
     EntityDefinition,
-    NotificationConfig,
     RadarSettings,
     Source,
+    StandardNotificationConfig,
+    WebhookConfig,
 )
 
 
@@ -161,11 +163,49 @@ def load_category_quality_config(
     }
 
 
-def load_notification_config(config_path: Path | None = None) -> NotificationConfig:
-    f = config_path or _PROJECT_ROOT / "config" / "notifications.yaml"
+def load_notification_config(config_path: Path | None = None) -> StandardNotificationConfig:
+    f = config_path or _PROJECT_ROOT / "config" / "config.yaml"
     if not f.exists():
-        return NotificationConfig(enabled=False, channels=[])
-    return NotificationConfig(enabled=False, channels=[])
+        f = _PROJECT_ROOT / "config" / "notifications.yaml"
+    if not f.exists():
+        return StandardNotificationConfig(enabled=False, channels=[])
+
+    raw = _read_yaml(f)
+    notifications = _dict(raw, "notifications") if "notifications" in raw else raw
+    email_raw = _dict(notifications, "email")
+    webhook_raw = _dict(notifications, "webhook")
+    email_enabled = _bool(email_raw, "enabled", False)
+    webhook_enabled = _bool(webhook_raw, "enabled", False)
+    channels = _str_list(notifications, "channels")
+    if not channels:
+        channels = [
+            name
+            for name, enabled in (
+                ("email", email_enabled),
+                ("webhook", webhook_enabled),
+            )
+            if enabled
+        ]
+
+    return StandardNotificationConfig(
+        enabled=_bool(notifications, "enabled", False),
+        channels=channels,
+        email=EmailConfig(
+            enabled=email_enabled,
+            smtp_host=_str(email_raw, "smtp_host"),
+            smtp_port=int(_float(email_raw, "smtp_port", 587)),
+            smtp_user=_str(email_raw, "smtp_user"),
+            smtp_password=_str(email_raw, "smtp_password"),
+            from_addr=_str(email_raw, "from_addr"),
+            to_addrs=_str_list(email_raw, "to_addrs"),
+        ),
+        webhook=WebhookConfig(
+            enabled=webhook_enabled,
+            url=_str(webhook_raw, "url"),
+            method=_str(webhook_raw, "method", "POST"),
+            headers={str(k): str(v) for k, v in _dict(webhook_raw, "headers").items()},
+        ),
+    )
 
 
 __all__ = [

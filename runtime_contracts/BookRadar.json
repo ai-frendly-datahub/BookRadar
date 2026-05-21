@@ -1,0 +1,82 @@
+{
+  "repo": "BookRadar",
+  "category": "book",
+  "ontology_version": "0.1.0",
+  "event_model_mappings": {
+    "sales_ranking": "book.sales_ranking",
+    "library_lending": "book.library_lending",
+    "author_event": "book.author_event",
+    "award_signal": "book.award_signal",
+    "editorial_coverage": "book.editorial_coverage"
+  },
+  "event_model_field_specs": {
+    "sales_ranking": {
+      "required_fields": ["source_name", "headline", "source_url"],
+      "optional_fields": ["published_at", "summary", "tags"],
+      "field_enums": {}
+    },
+    "library_lending": {
+      "required_fields": ["source_name", "headline", "source_url"],
+      "optional_fields": ["published_at", "summary", "tags"],
+      "field_enums": {}
+    },
+    "author_event": {
+      "required_fields": ["source_name", "headline", "source_url"],
+      "optional_fields": ["published_at", "summary", "tags"],
+      "field_enums": {}
+    },
+    "award_signal": {
+      "required_fields": ["source_name", "headline", "source_url"],
+      "optional_fields": ["published_at", "summary", "tags"],
+      "field_enums": {}
+    },
+    "editorial_coverage": {
+      "required_fields": ["source_name", "headline", "source_url"],
+      "optional_fields": ["published_at", "summary", "tags"],
+      "field_enums": {}
+    }
+  },
+  "entity_type_hints": [
+    "book.edition",
+    "book.author"
+  ],
+  "source_role_mappings": {
+    "알라딘 신간": "primary_evidence",
+    "알라딘 베스트셀러": "primary_evidence",
+    "YES24 베스트셀러": "primary_evidence",
+    "교보문고 북뉴스": "context_only",
+    "출판저널": "context_only",
+    "북DB": "context_only",
+    "한겨레 책": "context_only",
+    "경향신문 책": "context_only",
+    "Publishers Weekly": "context_only",
+    "The Guardian Books": "context_only",
+    "NPR Books": "context_only",
+    "Literary Hub": "context_only",
+    "Book Riot": "context_only",
+    "Goodreads News": "context_only",
+    "New York Times Books": "context_only",
+    "Kirkus Reviews": "context_only",
+    "r/books": "community_signal",
+    "r/suggestmeabook": "community_signal",
+    "r/52book": "community_signal",
+    "r/booksuggestions": "community_signal",
+    "r/Fantasy": "community_signal",
+    "r/literature": "community_signal",
+    "r/horrorlit": "community_signal",
+    "r/scifi": "community_signal",
+    "merphy napier": "community_signal",
+    "Daniel Greene": "community_signal",
+    "Ariel Bissett": "community_signal",
+    "What Should I Read Next": "community_signal",
+    "The Bookshelf": "context_only",
+    "The Bookseller UK": "context_only",
+    "Publishing Perspectives": "context_only",
+    "Shelf Awareness": "context_only"
+  },
+  "evidence_policy_ids": [
+    "book.source_rss",
+    "book.source_reddit",
+    "book.entity_keyword_match"
+  ]
+}

@@ -5,7 +5,15 @@ from datetime import UTC, datetime
 import pytest
 
 from bookradar.models import Article, CategoryConfig
-from bookradar.reporter import generate_index_html, generate_report
+from bookradar.reporter import (
+    _inject_book_quality_panel,
+    _list_of_mappings,
+    _mapping,
+    _render_quality_events,
+    _render_quality_review,
+    generate_index_html,
+    generate_report,
+)
 
 
 @pytest.fixture()
@@ -103,6 +111,34 @@ class TestGenerateReport:
         html = output.read_text(encoding="utf-8")
         assert "source timeout" in html
 
+    def test_generate_report_ignores_plugin_failures(
+        self, tmp_path, report_category, report_articles, report_stats, patch_datetime, monkeypatch
+    ):
+        """Plugin failures must not block the core HTML report."""
+        output = tmp_path / "reports" / "book_report.html"
+
+        def raise_plugin(*args, **kwargs):
+            raise RuntimeError("plugin failed")
+
+        monkeypatch.setattr(
+            "radar_core.plugins.entity_heatmap.get_chart_config",
+            raise_plugin,
+        )
+        monkeypatch.setattr(
+            "radar_core.plugins.source_reliability.get_chart_config",
+            raise_plugin,
+        )
+
+        result = generate_report(
+            category=report_category,
+            articles=report_articles,
+            output_path=output,
+            stats=report_stats,
+        )
+
+        assert result == output
+        assert output.exists()
+
     def test_generate_report_injects_book_quality_panel(
         self, tmp_path, report_category, report_articles, report_stats, patch_datetime
     ):
@@ -172,3 +208,31 @@ class TestGenerateIndexHtml:
         assert index_path.exists()
         rendered = index_path.read_text(encoding="utf-8")
         assert "Book Radar" in rendered
+
+
+def test_book_quality_panel_helpers_handle_empty_and_append_paths(tmp_path) -> None:
+    missing = tmp_path / "missing.html"
+    _inject_book_quality_panel(missing, {"summary": {}})
+    assert not missing.exists()
+
+    report = tmp_path / "report.html"
+    report.write_text("<html>no body</html>", encoding="utf-8")
+    _inject_book_quality_panel(
+        report,
+        {
+            "summary": {"book_signal_event_count": 1},
+            "events": [],
+            "daily_review_items": [{"reason": "missing_event_model", "event_model": "sales_ranking"}],
+        },
+    )
+
+    rendered = report.read_text(encoding="utf-8")
+    assert "Book Quality" in rendered
+    assert "No book quality events" in _render_quality_events([])
+    assert "missing_event_model" in _render_quality_review(
+        [{"reason": "missing_event_model", "event_model": "sales_ranking"}]
+    )
+    assert "No daily review items" in _render_quality_review([])
+    assert _mapping([]) == {}
+    assert _list_of_mappings({"bad": "shape"}) == []
+    assert _list_of_mappings([{"ok": True}, "bad"]) == [{"ok": True}]

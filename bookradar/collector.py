@@ -1,7 +1,9 @@
 from __future__ import annotations
 
+import calendar
 import html
 import os
+import re
 import threading
 import time
 from collections.abc import Mapping
@@ -13,6 +15,7 @@ from urllib.parse import urlparse
 
 import feedparser
 import requests
+from bs4 import BeautifulSoup
 from pybreaker import CircuitBreakerError
 from radar_core import AdaptiveThrottler, CrawlHealthStore
 from requests.adapters import HTTPAdapter
@@ -30,6 +33,8 @@ _DEFAULT_HEALTH_DB_PATH = "data/radar_data.duckdb"
 _COLLECTION_CONTROL_LOCK = threading.Lock()
 _ACTIVE_THROTTLER: AdaptiveThrottler | None = None
 _ACTIVE_HEALTH_STORE: CrawlHealthStore | None = None
+_BESTSELLER_RANK_RE = re.compile(r"\[[^\]]*베스트셀러\s*(\d{1,5})위[^\]]*\]")
+_ISBN_RE = re.compile(r"\b(?:97[89][-\s]?)?\d[-\s]?\d{2,5}[-\s]?\d{2,7}[-\s]?[\dX]\b")
 
 
 def _set_collection_controls(throttler: AdaptiveThrottler, health_store: CrawlHealthStore) -> None:
@@ -248,7 +253,6 @@ def collect_sources(
     throttler = AdaptiveThrottler(min_delay=max(0.001, min_interval_per_host))
     health_store = CrawlHealthStore(resolved_health_db_path)
     _set_collection_controls(throttler, health_store)
-    session = _create_session()
 
     def _collect_for_source(source: Source) -> tuple[list[Article], list[str]]:
         if (
@@ -262,20 +266,32 @@ def collect_sources(
 
         try:
             breaker = manager.get_breaker(source.name)
-            result = breaker.call(
-                _collect_single,
-                source,
-                category=category,
-                limit=limit_per_source,
-                timeout=timeout,
-                session=session,
-            )
+            source_session = _create_session()
+            try:
+                result = breaker.call(
+                    _collect_single,
+                    source,
+                    category=category,
+                    limit=limit_per_source,
+                    timeout=timeout,
+                    session=source_session,
+                )
+            finally:
+                source_session.close()
             return result, []
         except CircuitBreakerError:
             return [], [f"{source.name}: Circuit breaker open (source unavailable)"]
         except SourceError as exc:
             return [], [str(exc)]
-        except (NetworkError, ParseError) as exc:
+        except ParseError as exc:
+            throttler.record_failure(source.name)
+            health_store.record_failure(
+                source.name,
+                str(exc),
+                throttler.get_current_delay(source.name),
+            )
+            return [], [f"{source.name}: {exc}"]
+        except NetworkError as exc:
             return [], [f"{source.name}: {exc}"]
         except Exception as exc:
             return [], [f"{source.name}: Unexpected error - {type(exc).__name__}: {exc}"]
@@ -320,7 +336,6 @@ def collect_sources(
                 f"{source.name}: Source type '{source.type}' is cataloged but not collected by the book pipeline"
             )
     finally:
-        session.close()
         health_store.close()
         _clear_collection_controls()
 
@@ -358,26 +373,40 @@ def _collect_single(
         else:
             content = response.content
 
+        if not content.strip():
+            raise ParseError(f"Empty feed response from {source.name}")
+
         feed = feedparser.parse(content)
+        if not feed.entries and not _source_bool(source, "allow_empty_feed"):
+            raise ParseError(f"No feed entries found for {source.name}")
         items: list[Article] = []
 
-        for entry in feed.entries[:limit]:
+        for entry in feed.entries:
+            if len(items) >= limit:
+                break
+
             published = _extract_datetime(entry)
-            summary = _entry_text(entry, "summary") or _entry_text(entry, "description")
-            if not summary:
-                _content = entry.get("content", [])
-                if isinstance(_content, list) and _content:
-                    first_item = _content[0]
-                    if isinstance(first_item, Mapping):
-                        value = first_item.get("value")
-                        if isinstance(value, str):
-                            summary = value
+            title = html.unescape(_entry_text(entry, "title").strip()) or "(no title)"
+            summary = _entry_summary(entry, fallback=title)
+            link = _entry_text(entry, "link").strip()
+            if _is_sales_ranking_source(source):
+                expanded = _expand_bestseller_entry(
+                    source=source,
+                    title=title,
+                    link=link,
+                    summary=summary,
+                    published=published,
+                    category=category,
+                )
+                if expanded:
+                    items.extend(expanded[: max(0, limit - len(items))])
+                    continue
 
             items.append(
                 Article(
-                    title=html.unescape(_entry_text(entry, "title").strip()) or "(no title)",
-                    link=_entry_text(entry, "link").strip(),
-                    summary=html.unescape(summary.strip()),
+                    title=title,
+                    link=link,
+                    summary=summary,
                     published=published,
                     source=source.name,
                     category=category,
@@ -389,15 +418,126 @@ def _collect_single(
         raise ParseError(f"Failed to parse feed from {source.name}: {exc}") from exc
 
 
+def _is_sales_ranking_source(source: Source) -> bool:
+    content_type = source.content_type.strip().lower()
+    if content_type in {"bestseller", "sales_ranking"}:
+        return True
+    event_model = source.config.get("event_model")
+    return isinstance(event_model, str) and event_model.strip() == "sales_ranking"
+
+
+def _expand_bestseller_entry(
+    *,
+    source: Source,
+    title: str,
+    link: str,
+    summary: str,
+    published: datetime | None,
+    category: str,
+) -> list[Article]:
+    matches = list(_BESTSELLER_RANK_RE.finditer(summary))
+    if not matches:
+        return []
+
+    articles: list[Article] = []
+    for index, match in enumerate(matches):
+        rank = int(match.group(1))
+        end = matches[index + 1].start() if index + 1 < len(matches) else len(summary)
+        chunk = summary[match.end() : end]
+        soup = BeautifulSoup(chunk, "html.parser")
+        book_title = _bestseller_title(soup)
+        if not book_title:
+            continue
+
+        item_link = _ranked_event_link(
+            item_link=_bestseller_link(soup),
+            weekly_link=link,
+            rank=rank,
+            published=published,
+        )
+        isbn = _bestseller_isbn(chunk, soup)
+        plain_summary = " ".join(soup.get_text(" ", strip=True).split())
+        if isbn and "ISBN" not in plain_summary.upper():
+            plain_summary = f"ISBN: {isbn}. {plain_summary}"
+
+        articles.append(
+            Article(
+                title=f"{rank}위 {book_title}",
+                link=item_link,
+                summary=html.unescape(plain_summary),
+                published=published,
+                source=source.name,
+                category=category,
+            )
+        )
+
+    if articles:
+        return articles
+
+    return [
+        Article(
+            title=title,
+            link=link,
+            summary=html.unescape(summary.strip()),
+            published=published,
+            source=source.name,
+            category=category,
+        )
+    ]
+
+
+def _bestseller_title(soup: BeautifulSoup) -> str:
+    title_node = soup.select_one("h2 a") or soup.select_one("h2")
+    if title_node is None:
+        return ""
+    return html.unescape(title_node.get_text(" ", strip=True)).strip()
+
+
+def _bestseller_link(soup: BeautifulSoup) -> str:
+    link_node = soup.select_one("h2 a[href]")
+    if link_node is None:
+        return ""
+    href = link_node.get("href")
+    return str(href).strip() if href else ""
+
+
+def _bestseller_isbn(chunk: str, soup: BeautifulSoup) -> str:
+    isbn_node = soup.select_one(".isbn13")
+    if isbn_node is not None:
+        value = isbn_node.get_text("", strip=True)
+        if value:
+            return re.sub(r"[-\s]", "", value)
+
+    match = _ISBN_RE.search(chunk)
+    return re.sub(r"[-\s]", "", match.group(0)) if match else ""
+
+
+def _ranked_event_link(
+    *,
+    item_link: str,
+    weekly_link: str,
+    rank: int,
+    published: datetime | None,
+) -> str:
+    base = item_link.strip() or weekly_link.strip() or "about:blank"
+    ranking_date = (
+        published.astimezone(UTC).strftime("%Y%m%d%H%M%S")
+        if published and published.tzinfo
+        else (published.strftime("%Y%m%d%H%M%S") if published else "undated")
+    )
+    separator = "&" if "?" in base else "?"
+    return f"{base}{separator}radar_rank={rank}&radar_ranking_date={ranking_date}"
+
+
 def _extract_datetime(entry: Mapping[str, Any]) -> datetime | None:
     """Parse a feed entry date into a timezone-aware datetime."""
     published_parsed = entry.get("published_parsed")
     if isinstance(published_parsed, time.struct_time):
-        return datetime.fromtimestamp(time.mktime(published_parsed), tz=UTC)
+        return datetime.fromtimestamp(calendar.timegm(published_parsed), tz=UTC)
 
     updated_parsed = entry.get("updated_parsed")
     if isinstance(updated_parsed, time.struct_time):
-        return datetime.fromtimestamp(time.mktime(updated_parsed), tz=UTC)
+        return datetime.fromtimestamp(calendar.timegm(updated_parsed), tz=UTC)
 
     for key in ("published", "updated", "date"):
         raw = entry.get(key)
@@ -415,3 +555,18 @@ def _extract_datetime(entry: Mapping[str, Any]) -> datetime | None:
 def _entry_text(entry: Mapping[str, Any], key: str) -> str:
     value = entry.get(key)
     return value if isinstance(value, str) else ""
+
+
+def _entry_summary(entry: Mapping[str, Any], *, fallback: str) -> str:
+    summary = _entry_text(entry, "summary") or _entry_text(entry, "description")
+    if not summary:
+        _content = entry.get("content", [])
+        if isinstance(_content, list) and _content:
+            first_item = _content[0]
+            if isinstance(first_item, Mapping):
+                value = first_item.get("value")
+                if isinstance(value, str):
+                    summary = value
+
+    summary = html.unescape(summary.strip())
+    return summary or fallback
