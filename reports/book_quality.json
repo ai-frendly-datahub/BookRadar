@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-05-21T05:10:29.949228+00:00",
+  "generated_at": "2026-05-22T05:02:44.227660+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,20 +16,20 @@
     "collection_error_count": 0,
     "sales_ranking_events": 45,
     "library_lending_events": 0,
-    "author_event_events": 11,
-    "award_signal_events": 49,
-    "book_signal_event_count": 105,
-    "official_or_operational_event_count": 72,
+    "author_event_events": 12,
+    "award_signal_events": 52,
+    "book_signal_event_count": 109,
+    "official_or_operational_event_count": 73,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 79,
-    "proxy_canonical_key_count": 26,
+    "complete_canonical_key_count": 80,
+    "proxy_canonical_key_count": 29,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 79,
-    "author_present_count": 47,
-    "publisher_present_count": 28,
+    "isbn_present_count": 80,
+    "author_present_count": 50,
+    "publisher_present_count": 29,
     "rank_present_count": 58,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 29,
+    "event_required_field_gap_count": 32,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 120,
+      "article_count": 150,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 45,
       "event_count": 45,
       "latest_event_at": "2026-05-17T22:03:40+00:00",
-      "age_days": 3.3,
+      "age_days": 4.29,
       "latest_title": "8위 도쿄 에일리언즈 12 (트리플 특장판)",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393250501&radar_rank=8&radar_ranking_date=20260517220340&rssType=5&type=item",
       "latest_source_signal": [
@@ -240,7 +240,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 77,
+      "article_count": 89,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 44,
+      "article_count": 49,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -286,7 +286,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 18,
+      "article_count": 19,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -309,7 +309,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 35,
+      "article_count": 45,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -332,7 +332,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 32,
+      "article_count": 41,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -378,7 +378,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 52,
+      "article_count": 56,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -746,7 +746,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 22,
+      "article_count": 24,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -782,6 +782,154 @@
   ],
   "events": [
     {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "‘I refuse to be a second-class citizen in my own land’: Taiwanese International Booker winner Yáng Shuāng-zǐ",
+      "url": "https://www.theguardian.com/books/2026/may/21/yang-shuang-zi-interview-lin-king-taiwan-travelogue-international-booker",
+      "source_url": "https://www.theguardian.com/books/2026/may/21/yang-shuang-zi-interview-lin-king-taiwan-travelogue-international-booker",
+      "event_at": "2026-05-21T17:50:32+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [
+        "novel",
+        "literature"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author",
+        "writer",
+        "translator"
+      ],
+      "award": [
+        "booker",
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:1a41e3993fd1",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:32c6266f5513:20260521",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Book Riot",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Book Riot’s Deals of the Day for May 21, 2026",
+      "url": "https://bookriot.com/book-riots-deals-of-the-day-for-may-21-2026",
+      "source_url": "https://bookriot.com/book-riots-deals-of-the-day-for-may-21-2026",
+      "event_at": "2026-05-21T16:17:34+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "pulitzer",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "pulitzer",
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:book-riot:6e109ff48805",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:a06c6afa4632:20260521",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Publishing Perspectives",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Second Consecutive International Booker Prize Validates Publisher’s Vision for Translated Works",
+      "url": "https://publishingperspectives.com/2026/05/second-consecutive-international-booker-prize-validates-publishers-vision-for-translated-works",
+      "source_url": "https://publishingperspectives.com/2026/05/second-consecutive-international-booker-prize-validates-publishers-vision-for-translated-works",
+      "event_at": "2026-05-21T08:00:09+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [
+        "literature"
+      ],
+      "publisher": [
+        "publisher"
+      ],
+      "book_type": [],
+      "author": [
+        "translator"
+      ],
+      "award": [
+        "booker",
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:title:0c96f3bbdd43",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:4fe6c327dc59:20260521",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
       "source": "New York Times Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -793,7 +941,7 @@
       "title": "Was a Story That Just Won a Literary Prize A.I.-Generated?",
       "url": "https://www.nytimes.com/2026/05/20/books/ai-fiction-contest-granta.html",
       "source_url": "https://www.nytimes.com/2026/05/20/books/ai-fiction-contest-granta.html",
-      "event_at": "2026-05-20T22:44:02+00:00",
+      "event_at": "2026-05-20T22:44:03+00:00",
       "isbn": "",
       "rank": null,
       "retailer": "",
@@ -1105,6 +1253,57 @@
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "충분한, 아름다움/김다현 지음/샘터사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393694242&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393694242&rssType=1&type=item",
+      "event_at": "2026-05-20T01:39:00+00:00",
+      "isbn": "393694242",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "강연",
+      "award_name": "",
+      "genre": [
+        "에세이",
+        "시",
+        "요리",
+        "건강",
+        "심리"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "저자"
+      ],
+      "award": [],
+      "book_event": [
+        "강연"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:393694242",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:18e76355842d:20260520",
+      "required_field_proxy": {
+        "author_name": true,
+        "venue": true,
         "source_url": true
       },
       "required_field_gaps": []
@@ -5872,6 +6071,57 @@
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "‘I refuse to be a second-class citizen in my own land’: Taiwanese International Booker winner Yáng Shuāng-zǐ",
+      "canonical_key": "book_edition:title:1a41e3993fd1",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "‘I refuse to be a second-class citizen in my own land’: Taiwanese International Booker winner Yáng Shuāng-zǐ",
+      "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "Book Riot’s Deals of the Day for May 21, 2026",
+      "canonical_key": "book_source:book-riot:6e109ff48805",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "Book Riot’s Deals of the Day for May 21, 2026",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Publishing Perspectives",
+      "title": "Second Consecutive International Booker Prize Validates Publisher’s Vision for Translated Works",
+      "canonical_key": "book_edition:title:0c96f3bbdd43",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Publishing Perspectives",
+      "title": "Second Consecutive International Booker Prize Validates Publisher’s Vision for Translated Works",
+      "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
       "source": "New York Times Books",
       "title": "Was a Story That Just Won a Literary Prize A.I.-Generated?",
       "canonical_key": "book_source:new-york-times-books:52620825dc84",
@@ -6241,60 +6491,6 @@
       "event_model": "author_event",
       "source": "Publishing Perspectives",
       "title": "Beijing International Book Fair Celebrates 40th Anniversary in June",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Publishing Perspectives",
-      "title": "At the AAP’s Annual Meeting, Talk of AI, Copyright, and ‘Ripples of Hope’",
-      "canonical_key": "book_edition:title:eaea3c9b01d2",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Publishing Perspectives",
-      "title": "At the AAP’s Annual Meeting, Talk of AI, Copyright, and ‘Ripples of Hope’",
-      "canonical_key_status": "title_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "알라딘 신간",
-      "title": "여기 붙어라!/이승범 지음/길벗어린이",
-      "canonical_key": "book_edition:393024113",
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "알라딘 신간",
-      "title": "학습 민첩성의 힘/신종호 지음/카시오페아",
-      "canonical_key": "book_edition:393003894",
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "John of John by Douglas Stuart review – will a father and son come out to each other?",
-      "canonical_key": "book_source:the-guardian-books:72fc338fdc8f",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "John of John by Douglas Stuart review – will a father and son come out to each other?",
       "canonical_key_status": "source_proxy"
     }
   ],
