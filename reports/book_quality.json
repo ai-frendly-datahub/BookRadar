@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-05-22T05:02:44.227660+00:00",
+  "generated_at": "2026-05-23T04:42:55.386437+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -17,19 +17,19 @@
     "sales_ranking_events": 45,
     "library_lending_events": 0,
     "author_event_events": 12,
-    "award_signal_events": 52,
-    "book_signal_event_count": 109,
-    "official_or_operational_event_count": 73,
+    "award_signal_events": 60,
+    "book_signal_event_count": 117,
+    "official_or_operational_event_count": 76,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 80,
-    "proxy_canonical_key_count": 29,
+    "complete_canonical_key_count": 84,
+    "proxy_canonical_key_count": 33,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 80,
-    "author_present_count": 50,
-    "publisher_present_count": 29,
+    "isbn_present_count": 84,
+    "author_present_count": 53,
+    "publisher_present_count": 30,
     "rank_present_count": 58,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 32,
+    "event_required_field_gap_count": 36,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 150,
+      "article_count": 180,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 45,
       "event_count": 45,
       "latest_event_at": "2026-05-17T22:03:40+00:00",
-      "age_days": 4.29,
+      "age_days": 5.28,
       "latest_title": "8위 도쿄 에일리언즈 12 (트리플 특장판)",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393250501&radar_rank=8&radar_ranking_date=20260517220340&rssType=5&type=item",
       "latest_source_signal": [
@@ -240,7 +240,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 89,
+      "article_count": 102,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 49,
+      "article_count": 51,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -309,7 +309,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 45,
+      "article_count": 55,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -332,7 +332,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 41,
+      "article_count": 50,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -378,7 +378,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 56,
+      "article_count": 62,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -746,7 +746,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 24,
+      "article_count": 26,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -781,6 +781,236 @@
     }
   ],
   "events": [
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Everyone is an AI Cop Now: What Happens When an AI-Generated Story Wins a Prestigious Prize",
+      "url": "https://lithub.com/everyone-is-an-ai-cop-now-what-happens-when-an-ai-generated-story-wins-a-prestigious-prize",
+      "source_url": "https://lithub.com/everyone-is-an-ai-cop-now-what-happens-when-an-ai-generated-story-wins-a-prestigious-prize",
+      "event_at": "2026-05-22T11:02:38+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "winner",
+      "genre": [
+        "literary"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:literary-hub:7f7a277c0efe",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:b9f2a4203685:20260522",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Lit Hub Daily: May 22, 2026",
+      "url": "https://lithub.com/lit-hub-daily-may-22-2026",
+      "source_url": "https://lithub.com/lit-hub-daily-may-22-2026",
+      "event_at": "2026-05-22T10:30:04+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "winner",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:literary-hub:1194221c2f0b",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:6140cd19c75c:20260522",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Publishing Perspectives",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "‘Politically Urgent, Humanely Thought-provoking:’ Furthering Translation Projects Around the World",
+      "url": "https://publishingperspectives.com/2026/05/politically-urgent-humanely-thought-provoking-furthering-translation-projects-around-the-world",
+      "source_url": "https://publishingperspectives.com/2026/05/politically-urgent-humanely-thought-provoking-furthering-translation-projects-around-the-world",
+      "event_at": "2026-05-22T08:25:55+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [
+        "literary",
+        "literature"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:publishing-perspectives:1bee6cc4c95e",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:0ac149412e97:20260522",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Hunger and Thirst by Claire Fuller review – a blend of social realism and gothic horror",
+      "url": "https://www.theguardian.com/books/2026/may/22/hunger-and-thirst-by-claire-fuller-review-a-blend-of-social-realism-and-gothic-horror",
+      "source_url": "https://www.theguardian.com/books/2026/may/22/hunger-and-thirst-by-claire-fuller-review-a-blend-of-social-realism-and-gothic-horror",
+      "event_at": "2026-05-22T06:00:51+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "winner",
+      "genre": [
+        "novel",
+        "horror"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:the-guardian-books:fe4c0af97a21",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:1e928bb6baf6:20260522",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Publishers Weekly",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "How ‘Winner Takes All’ by Emily Martin Got Made",
+      "url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/100460-how-winner-takes-all-by-emily-martin-got-made.html",
+      "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/100460-how-winner-takes-all-by-emily-martin-got-made.html",
+      "event_at": "2026-05-22T04:00:00+00:00",
+      "isbn": "100460",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "winner",
+      "genre": [
+        "novel"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author"
+      ],
+      "award": [
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:100460",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:ca5ed431ba0b:20260522",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
     {
       "source": "The Guardian Books",
       "source_type": "rss",
@@ -928,6 +1158,161 @@
       "required_field_gaps": [
         "isbn"
       ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "바람 관찰자/미카 아처 지음, 김난령 옮김/나무의말",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393778641&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393778641&rssType=1&type=item",
+      "event_at": "2026-05-21T06:39:00+00:00",
+      "isbn": "393778641",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "과학",
+        "예술",
+        "교육",
+        "어린이",
+        "그림책"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상",
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:393778641",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:a6e6af466ea5:20260521",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "인간이라는 환상처럼/하재연 지음/문학과지성사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393761463&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393761463&rssType=1&type=item",
+      "event_at": "2026-05-21T02:42:00+00:00",
+      "isbn": "393761463",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "인문학",
+        "판타지"
+      ],
+      "publisher": [
+        "문학과지성사"
+      ],
+      "book_type": [],
+      "author": [
+        "데뷔"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:393761463",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:1a20fe8312de:20260521",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "파뿌리24 (특별판)/이정태 그림, 주상일 외 글, 샌드박스 네트워크 감수, 파뿌리 원작/겜툰",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393755894&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393755894&rssType=1&type=item",
+      "event_at": "2026-05-21T01:05:00+00:00",
+      "isbn": "393755894",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "시",
+        "만화",
+        "어린이"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:393755894",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:a4ddde363c6a:20260521",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "New York Times Books",
@@ -5800,48 +6185,6 @@
       "required_field_gaps": []
     },
     {
-      "source": "NPR Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Ginny Monk and Dave Altimari discuss their Pulitzer Prize-winning work",
-      "url": "https://www.npr.org/2026/05/09/nx-s1-5814969/ginny-monk-and-dave-altimari-discuss-their-pulitzer-prize-winning-work",
-      "source_url": "https://www.npr.org/2026/05/09/nx-s1-5814969/ginny-monk-and-dave-altimari-discuss-their-pulitzer-prize-winning-work",
-      "event_at": "2026-05-09T02:43:04+00:00",
-      "isbn": "5814969",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "pulitzer",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "pulitzer"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:5814969",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:6ac42e8fd1a7:20260509",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -5986,6 +6329,48 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
+      "title": "Ginny Monk and Dave Altimari discuss their Pulitzer Prize-winning work",
+      "url": "https://www.npr.org/2026/05/09/nx-s1-5814969/ginny-monk-and-dave-altimari-discuss-their-pulitzer-prize-winning-work",
+      "source_url": "https://www.npr.org/2026/05/09/nx-s1-5814969/ginny-monk-and-dave-altimari-discuss-their-pulitzer-prize-winning-work",
+      "event_at": "2026-05-09T02:43:04+00:00",
+      "isbn": "5814969",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "pulitzer",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "pulitzer"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:5814969",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:6ac42e8fd1a7:20260509",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "NPR Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
       "title": "In 'John of John,' father and son are gay -- and they're keeping it from each other",
       "url": "https://www.npr.org/2026/05/04/nx-s1-5810185/in-john-of-john-father-and-son-are-gay-and-theyre-keeping-it-from-each-other",
       "source_url": "https://www.npr.org/2026/05/04/nx-s1-5810185/in-john-of-john-father-and-son-are-gay-and-theyre-keeping-it-from-each-other",
@@ -6068,6 +6453,74 @@
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Everyone is an AI Cop Now: What Happens When an AI-Generated Story Wins a Prestigious Prize",
+      "canonical_key": "book_source:literary-hub:7f7a277c0efe",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Everyone is an AI Cop Now: What Happens When an AI-Generated Story Wins a Prestigious Prize",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Lit Hub Daily: May 22, 2026",
+      "canonical_key": "book_source:literary-hub:1194221c2f0b",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Lit Hub Daily: May 22, 2026",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Publishing Perspectives",
+      "title": "‘Politically Urgent, Humanely Thought-provoking:’ Furthering Translation Projects Around the World",
+      "canonical_key": "book_source:publishing-perspectives:1bee6cc4c95e",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Publishing Perspectives",
+      "title": "‘Politically Urgent, Humanely Thought-provoking:’ Furthering Translation Projects Around the World",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Hunger and Thirst by Claire Fuller review – a blend of social realism and gothic horror",
+      "canonical_key": "book_source:the-guardian-books:fe4c0af97a21",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Hunger and Thirst by Claire Fuller review – a blend of social realism and gothic horror",
+      "canonical_key_status": "source_proxy"
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
@@ -6424,74 +6877,6 @@
       "source": "The Guardian Books",
       "title": "#MeToo-themed novel wins inaugural reader-led award worth £50,000",
       "canonical_key_status": "title_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "New York Times Books",
-      "title": "Revolution is the Theme at the Firsts London Book Fair",
-      "canonical_key": "book_source:new-york-times-books:fc8f931f2f82",
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "author_event",
-      "source": "New York Times Books",
-      "title": "Revolution is the Theme at the Firsts London Book Fair",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Publishing Perspectives",
-      "title": "Virginia Roberts Giuffre, Sarah Wynn-Williams Share Freedom to Publish Award at the 2026 British Book Awards",
-      "canonical_key": "book_edition:title:4ff4fe40dca3",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Publishing Perspectives",
-      "title": "Virginia Roberts Giuffre, Sarah Wynn-Williams Share Freedom to Publish Award at the 2026 British Book Awards",
-      "canonical_key_status": "title_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "The 2026 Edgar Award Winners Have Been Announced",
-      "canonical_key": "book_source:book-riot:20d81cc753e7",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "The 2026 Edgar Award Winners Have Been Announced",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "Publishing Perspectives",
-      "title": "Beijing International Book Fair Celebrates 40th Anniversary in June",
-      "canonical_key": "book_source:publishing-perspectives:f77989474e81",
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "author_event",
-      "source": "Publishing Perspectives",
-      "title": "Beijing International Book Fair Celebrates 40th Anniversary in June",
-      "canonical_key_status": "source_proxy"
     }
   ],
   "source_backlog": {
