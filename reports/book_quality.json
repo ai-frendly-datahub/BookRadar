@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-05-25T05:21:43.535098+00:00",
+  "generated_at": "2026-05-26T05:04:48.188924+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,20 +16,20 @@
     "collection_error_count": 0,
     "sales_ranking_events": 60,
     "library_lending_events": 0,
-    "author_event_events": 14,
+    "author_event_events": 15,
     "award_signal_events": 68,
-    "book_signal_event_count": 142,
+    "book_signal_event_count": 143,
     "official_or_operational_event_count": 101,
     "community_proxy_event_count": 0,
     "complete_canonical_key_count": 109,
-    "proxy_canonical_key_count": 33,
+    "proxy_canonical_key_count": 34,
     "missing_canonical_key_count": 0,
     "isbn_present_count": 109,
     "author_present_count": 66,
     "publisher_present_count": 38,
     "rank_present_count": 76,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 36,
+    "event_required_field_gap_count": 37,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
@@ -75,7 +75,7 @@
       "article_count": 60,
       "event_count": 60,
       "latest_event_at": "2026-05-24T22:02:39+00:00",
-      "age_days": 0.3,
+      "age_days": 1.29,
       "latest_title": "7위 불가항력의 I LOVE YOU 8",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393769452&radar_rank=7&radar_ranking_date=20260524220239&rssType=5&type=item",
       "latest_source_signal": [
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 55,
+      "article_count": 59,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -286,7 +286,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 20,
+      "article_count": 21,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -378,7 +378,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 66,
+      "article_count": 68,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -746,7 +746,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 26,
+      "article_count": 28,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -781,6 +781,50 @@
     }
   ],
   "events": [
+    {
+      "source": "Publishing Perspectives",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "A Growing Warsaw International Book Fair Readies Its 2026 Edition",
+      "url": "https://publishingperspectives.com/2026/05/a-growing-warsaw-international-book-fair-readies-its-2026-edition",
+      "source_url": "https://publishingperspectives.com/2026/05/a-growing-warsaw-international-book-fair-readies-its-2026-edition",
+      "event_at": "2026-05-25T06:06:36+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "book fair",
+      "award_name": "",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "book fair"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:publishing-perspectives:6941d68a6485",
+      "canonical_key_status": "source_proxy",
+      "event_key": "author_event:8a4000f5d29c:20260525",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
     {
       "source": "알라딘 베스트셀러",
       "source_type": "rss",
@@ -6066,6 +6110,273 @@
       ]
     },
     {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Children and teens roundup – the best new picture books and novels",
+      "url": "https://www.theguardian.com/books/2026/apr/24/children-and-teens-roundup-the-best-new-picture-books-and-novels",
+      "source_url": "https://www.theguardian.com/books/2026/apr/24/children-and-teens-roundup-the-best-new-picture-books-and-novels",
+      "event_at": "2026-04-24T11:00:39+00:00",
+      "isbn": "9781646866311",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "winner",
+      "genre": [],
+      "publisher": [
+        "publisher"
+      ],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:9781646866311",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:6ea6cfdca6b6:20260424",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "‘I wanted it to feel both Shakespearean and like Jay-Z’: debut author Sufiyaan Salam on masculinity, rap and meeting Stormzy",
+      "url": "https://www.theguardian.com/books/2026/may/03/i-wanted-it-to-feel-both-shakespearean-and-like-jay-z-debut-author-sufiyaan-salam-on-masculinity-rap-and-meeting-stormzy",
+      "source_url": "https://www.theguardian.com/books/2026/may/03/i-wanted-it-to-feel-both-shakespearean-and-like-jay-z-debut-author-sufiyaan-salam-on-masculinity-rap-and-meeting-stormzy",
+      "event_at": "2026-05-03T11:00:54+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "winner",
+      "genre": [
+        "novel"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author"
+      ],
+      "award": [
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:d34708c159d1",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:35e0fc919c16:20260503",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "The best books to read in April: new paperbacks from Katie Kitamura, Benjamin Wood and Mick Herron",
+      "url": "https://www.theguardian.com/books/ng-interactive/2026/apr/22/the-best-books-to-read-in-april-new-paperbacks-from-katie-kitamura-benjamin-wood-and-mick-herron",
+      "source_url": "https://www.theguardian.com/books/ng-interactive/2026/apr/22/the-best-books-to-read-in-april-new-paperbacks-from-katie-kitamura-benjamin-wood-and-mick-herron",
+      "event_at": "2026-04-22T16:37:06+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:the-guardian-books:51dfa136f0d2",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:76a54f71cf60:20260422",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "NPR Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Ginny Monk and Dave Altimari discuss their Pulitzer Prize-winning work",
+      "url": "https://www.npr.org/2026/05/09/nx-s1-5814969/ginny-monk-and-dave-altimari-discuss-their-pulitzer-prize-winning-work",
+      "source_url": "https://www.npr.org/2026/05/09/nx-s1-5814969/ginny-monk-and-dave-altimari-discuss-their-pulitzer-prize-winning-work",
+      "event_at": "2026-05-09T02:43:04+00:00",
+      "isbn": "5814969",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "pulitzer",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "pulitzer"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:5814969",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:6ac42e8fd1a7:20260509",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "NPR Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "In 'John of John,' father and son are gay -- and they're keeping it from each other",
+      "url": "https://www.npr.org/2026/05/04/nx-s1-5810185/in-john-of-john-father-and-son-are-gay-and-theyre-keeping-it-from-each-other",
+      "source_url": "https://www.npr.org/2026/05/04/nx-s1-5810185/in-john-of-john-father-and-son-are-gay-and-theyre-keeping-it-from-each-other",
+      "event_at": "2026-05-04T06:44:09+00:00",
+      "isbn": "5810185",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [
+        "novel"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:5810185",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:bcc4917fc782:20260504",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "NPR Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Here are the 2026 Pulitzer Prize winners",
+      "url": "https://www.npr.org/2026/05/04/nx-s1-5803483/pulitzer-prize-winners-2026",
+      "source_url": "https://www.npr.org/2026/05/04/nx-s1-5803483/pulitzer-prize-winners-2026",
+      "event_at": "2026-05-04T11:00:16+00:00",
+      "isbn": "5803483",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "pulitzer",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "writer"
+      ],
+      "award": [
+        "pulitzer",
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:5803483",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:d6f17656a9a0:20260504",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
       "source": "Publishing Perspectives",
       "source_type": "rss",
       "trust_tier": "T3_professional",
@@ -6405,273 +6716,6 @@
       "required_field_gaps": [
         "author_name"
       ]
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Children and teens roundup – the best new picture books and novels",
-      "url": "https://www.theguardian.com/books/2026/apr/24/children-and-teens-roundup-the-best-new-picture-books-and-novels",
-      "source_url": "https://www.theguardian.com/books/2026/apr/24/children-and-teens-roundup-the-best-new-picture-books-and-novels",
-      "event_at": "2026-04-24T11:00:39+00:00",
-      "isbn": "9781646866311",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "winner",
-      "genre": [],
-      "publisher": [
-        "publisher"
-      ],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:9781646866311",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:6ea6cfdca6b6:20260424",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "‘I wanted it to feel both Shakespearean and like Jay-Z’: debut author Sufiyaan Salam on masculinity, rap and meeting Stormzy",
-      "url": "https://www.theguardian.com/books/2026/may/03/i-wanted-it-to-feel-both-shakespearean-and-like-jay-z-debut-author-sufiyaan-salam-on-masculinity-rap-and-meeting-stormzy",
-      "source_url": "https://www.theguardian.com/books/2026/may/03/i-wanted-it-to-feel-both-shakespearean-and-like-jay-z-debut-author-sufiyaan-salam-on-masculinity-rap-and-meeting-stormzy",
-      "event_at": "2026-05-03T11:00:54+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "winner",
-      "genre": [
-        "novel"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "author"
-      ],
-      "award": [
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:title:d34708c159d1",
-      "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:35e0fc919c16:20260503",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "The best books to read in April: new paperbacks from Katie Kitamura, Benjamin Wood and Mick Herron",
-      "url": "https://www.theguardian.com/books/ng-interactive/2026/apr/22/the-best-books-to-read-in-april-new-paperbacks-from-katie-kitamura-benjamin-wood-and-mick-herron",
-      "source_url": "https://www.theguardian.com/books/ng-interactive/2026/apr/22/the-best-books-to-read-in-april-new-paperbacks-from-katie-kitamura-benjamin-wood-and-mick-herron",
-      "event_at": "2026-04-22T16:37:06+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "booker"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:the-guardian-books:51dfa136f0d2",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:76a54f71cf60:20260422",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "NPR Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Ginny Monk and Dave Altimari discuss their Pulitzer Prize-winning work",
-      "url": "https://www.npr.org/2026/05/09/nx-s1-5814969/ginny-monk-and-dave-altimari-discuss-their-pulitzer-prize-winning-work",
-      "source_url": "https://www.npr.org/2026/05/09/nx-s1-5814969/ginny-monk-and-dave-altimari-discuss-their-pulitzer-prize-winning-work",
-      "event_at": "2026-05-09T02:43:04+00:00",
-      "isbn": "5814969",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "pulitzer",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "pulitzer"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:5814969",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:6ac42e8fd1a7:20260509",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "NPR Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "In 'John of John,' father and son are gay -- and they're keeping it from each other",
-      "url": "https://www.npr.org/2026/05/04/nx-s1-5810185/in-john-of-john-father-and-son-are-gay-and-theyre-keeping-it-from-each-other",
-      "source_url": "https://www.npr.org/2026/05/04/nx-s1-5810185/in-john-of-john-father-and-son-are-gay-and-theyre-keeping-it-from-each-other",
-      "event_at": "2026-05-04T06:44:09+00:00",
-      "isbn": "5810185",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [
-        "novel"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "booker"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:5810185",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:bcc4917fc782:20260504",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "NPR Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Here are the 2026 Pulitzer Prize winners",
-      "url": "https://www.npr.org/2026/05/04/nx-s1-5803483/pulitzer-prize-winners-2026",
-      "source_url": "https://www.npr.org/2026/05/04/nx-s1-5803483/pulitzer-prize-winners-2026",
-      "event_at": "2026-05-04T11:00:16+00:00",
-      "isbn": "5803483",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "pulitzer",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "writer"
-      ],
-      "award": [
-        "pulitzer",
-        "award"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:5803483",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:d6f17656a9a0:20260504",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     },
     {
       "source": "알라딘 베스트셀러",
@@ -7695,6 +7739,23 @@
   "daily_review_items": [
     {
       "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "Publishing Perspectives",
+      "title": "A Growing Warsaw International Book Fair Readies Its 2026 Edition",
+      "canonical_key": "book_source:publishing-perspectives:6941d68a6485",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "author_event",
+      "source": "Publishing Perspectives",
+      "title": "A Growing Warsaw International Book Fair Readies Its 2026 Edition",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
       "event_model": "award_signal",
       "source": "Literary Hub",
       "title": "Everyone is an AI Cop Now: What Happens When an AI-Generated Story Wins a Prestigious Prize",
@@ -8100,23 +8161,6 @@
       "source": "Publishing Perspectives",
       "title": "Buenos Aires International Book Fair Reports 8% Attendance Growth",
       "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "#MeToo-themed novel wins inaugural reader-led award worth £50,000",
-      "canonical_key": "book_edition:title:fe4ba9d455d2",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "#MeToo-themed novel wins inaugural reader-led award worth £50,000",
-      "canonical_key_status": "title_proxy"
     }
   ],
   "source_backlog": {
