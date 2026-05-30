@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-05-29T05:14:43.702166+00:00",
+  "generated_at": "2026-05-30T04:53:50.872660+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,20 +16,20 @@
     "collection_error_count": 0,
     "sales_ranking_events": 45,
     "library_lending_events": 0,
-    "author_event_events": 11,
-    "award_signal_events": 68,
-    "book_signal_event_count": 124,
-    "official_or_operational_event_count": 89,
+    "author_event_events": 13,
+    "award_signal_events": 75,
+    "book_signal_event_count": 133,
+    "official_or_operational_event_count": 96,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 96,
-    "proxy_canonical_key_count": 28,
+    "complete_canonical_key_count": 103,
+    "proxy_canonical_key_count": 30,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 96,
-    "author_present_count": 61,
-    "publisher_present_count": 35,
+    "isbn_present_count": 103,
+    "author_present_count": 67,
+    "publisher_present_count": 38,
     "rank_present_count": 56,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 30,
+    "event_required_field_gap_count": 33,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 243,
+      "article_count": 273,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 45,
       "event_count": 45,
       "latest_event_at": "2026-05-24T22:02:39+00:00",
-      "age_days": 4.3,
+      "age_days": 5.29,
       "latest_title": "7위 불가항력의 I LOVE YOU 8",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393769452&radar_rank=7&radar_ranking_date=20260524220239&rssType=5&type=item",
       "latest_source_signal": [
@@ -240,7 +240,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 98,
+      "article_count": 117,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 56,
+      "article_count": 60,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -309,7 +309,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 76,
+      "article_count": 86,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -332,7 +332,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 76,
+      "article_count": 84,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -378,7 +378,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 63,
+      "article_count": 67,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -746,7 +746,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 29,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -781,6 +781,457 @@
     }
   ],
   "events": [
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Francesca Wade has won the Plutarch Award for Gertrude Stein: An Afterlife.",
+      "url": "https://lithub.com/francesca-wade-has-won-the-plutarch-award-for-gertrude-stein-an-afterlife",
+      "source_url": "https://lithub.com/francesca-wade-has-won-the-plutarch-award-for-gertrude-stein-an-afterlife",
+      "event_at": "2026-05-29T19:00:49+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "award",
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:literary-hub:6b575de56b95",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:0c1d8f540c16:20260529",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Submissions open for 4thWrite short story prize",
+      "url": "https://www.theguardian.com/books/2026/may/29/submissions-open-for-4thwrite-short-story-prize-for-writers-of-colour",
+      "source_url": "https://www.theguardian.com/books/2026/may/29/submissions-open-for-4thwrite-short-story-prize-for-writers-of-colour",
+      "event_at": "2026-05-29T11:00:48+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "winner",
+      "genre": [],
+      "publisher": [
+        "publisher"
+      ],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:the-guardian-books:98feca2975d5",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:75839e7b81a9:20260529",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "당신의 고객은 왜 야구장에 있을까?/정은우 지음/수오서재",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394195818&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394195818&rssType=1&type=item",
+      "event_at": "2026-05-28T05:49:00+00:00",
+      "isbn": "394195818",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "강연",
+      "award_name": "",
+      "genre": [
+        "시",
+        "경제경영",
+        "자기계발"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "저자"
+      ],
+      "award": [],
+      "book_event": [
+        "강연"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394195818",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:aceea03e9ec9:20260528",
+      "required_field_proxy": {
+        "author_name": true,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "나는 음악에게 인생을 배웠다/빅터 우튼 (Victor Wooten) 지음, 배지은 옮김/반니출판",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394194861&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394194861&rssType=1&type=item",
+      "event_at": "2026-05-28T05:38:00+00:00",
+      "isbn": "394194861",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "예술"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "번역"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394194861",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:bef67acb8843:20260528",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "고농축 디자인 스토리/박진배 지음/효형출판",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394191025&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394191025&rssType=1&type=item",
+      "event_at": "2026-05-28T04:47:00+00:00",
+      "isbn": "394191025",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "에세이",
+        "시",
+        "문학",
+        "인문학",
+        "예술"
+      ],
+      "publisher": [],
+      "book_type": [
+        "시리즈",
+        "완결"
+      ],
+      "author": [
+        "저자"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394191025",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:9ba7176ca68c:20260528",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "이제는 대학이 아니라 직업이다/손영배 지음/생각비행",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394179246&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394179246&rssType=1&type=item",
+      "event_at": "2026-05-28T02:21:00+00:00",
+      "isbn": "394179246",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "시",
+        "철학",
+        "여행",
+        "청소년"
+      ],
+      "publisher": [],
+      "book_type": [
+        "베스트셀러",
+        "개정판",
+        "초판"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394179246",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:acef8b9085ef:20260528",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "걱정 마, 나는 강아지별에서 잘 지내/수수아 지음/팜파스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394178958&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394178958&rssType=1&type=item",
+      "event_at": "2026-05-28T02:17:00+00:00",
+      "isbn": "394178958",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "",
+      "genre": [
+        "시",
+        "어린이",
+        "그림책"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394178958",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:1294d027a8e3:20260528",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "너를 미워했던 여름/이로아 지음/래빗홀",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394178450&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394178450&rssType=1&type=item",
+      "event_at": "2026-05-28T02:12:00+00:00",
+      "isbn": "394178450",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "문학",
+        "청소년"
+      ],
+      "publisher": [
+        "문학동네"
+      ],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394178450",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:1be11e40e0a6:20260528",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "단 한 번의 사계절/하세가와 마리루 지음, 이소담 옮김/다산책방",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394178324&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394178324&rssType=1&type=item",
+      "event_at": "2026-05-28T02:09:00+00:00",
+      "isbn": "394178324",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "청소년"
+      ],
+      "publisher": [
+        "사계절"
+      ],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394178324",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:73c9ef11bf0e:20260528",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
     {
       "source": "The Guardian Books",
       "source_type": "rss",
@@ -6367,96 +6818,6 @@
       ]
     },
     {
-      "source": "NPR Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Remembering Pulitzer Prize-winning journalist Philip Caputo",
-      "url": "https://www.npr.org/2026/05/15/nx-s1-5823574/remembering-pulitzer-prize-winning-journalist-philip-caputo",
-      "source_url": "https://www.npr.org/2026/05/15/nx-s1-5823574/remembering-pulitzer-prize-winning-journalist-philip-caputo",
-      "event_at": "2026-05-15T15:57:34+00:00",
-      "isbn": "5823574",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "pulitzer",
-      "genre": [
-        "memoir"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "pulitzer"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:5823574",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:c6385317d99a:20260515",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "Publishing Perspectives",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "PublisHer Excellence Awards Celebrate Innovation, Impact, and Forging a Path for the Future",
-      "url": "https://publishingperspectives.com/2026/05/publisher-excellence-awards-celebrate-innovation-impact-and-forging-a-path-for-the-future",
-      "source_url": "https://publishingperspectives.com/2026/05/publisher-excellence-awards-celebrate-innovation-impact-and-forging-a-path-for-the-future",
-      "event_at": "2026-05-15T12:19:08+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "book fair",
-      "award_name": "",
-      "genre": [],
-      "publisher": [
-        "publisher"
-      ],
-      "book_type": [],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "book fair"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_source:publishing-perspectives:59e21c1f8ea1",
-      "canonical_key_status": "source_proxy",
-      "event_key": "author_event:ceec8df84ecd:20260515",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -6493,6 +6854,50 @@
       "canonical_key": "book_edition:9781646866311",
       "canonical_key_status": "complete",
       "event_key": "award_signal:6ea6cfdca6b6:20260424",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "NPR Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Remembering Pulitzer Prize-winning journalist Philip Caputo",
+      "url": "https://www.npr.org/2026/05/15/nx-s1-5823574/remembering-pulitzer-prize-winning-journalist-philip-caputo",
+      "source_url": "https://www.npr.org/2026/05/15/nx-s1-5823574/remembering-pulitzer-prize-winning-journalist-philip-caputo",
+      "event_at": "2026-05-15T15:57:34+00:00",
+      "isbn": "5823574",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "pulitzer",
+      "genre": [
+        "memoir"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "pulitzer"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:5823574",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:c6385317d99a:20260515",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -6638,6 +7043,52 @@
       },
       "required_field_gaps": [
         "isbn"
+      ]
+    },
+    {
+      "source": "Publishing Perspectives",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "PublisHer Excellence Awards Celebrate Innovation, Impact, and Forging a Path for the Future",
+      "url": "https://publishingperspectives.com/2026/05/publisher-excellence-awards-celebrate-innovation-impact-and-forging-a-path-for-the-future",
+      "source_url": "https://publishingperspectives.com/2026/05/publisher-excellence-awards-celebrate-innovation-impact-and-forging-a-path-for-the-future",
+      "event_at": "2026-05-15T12:19:08+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "book fair",
+      "award_name": "",
+      "genre": [],
+      "publisher": [
+        "publisher"
+      ],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "book fair"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:publishing-perspectives:59e21c1f8ea1",
+      "canonical_key_status": "source_proxy",
+      "event_key": "author_event:ceec8df84ecd:20260515",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
       ]
     },
     {
@@ -6883,6 +7334,50 @@
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Francesca Wade has won the Plutarch Award for Gertrude Stein: An Afterlife.",
+      "canonical_key": "book_source:literary-hub:6b575de56b95",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Francesca Wade has won the Plutarch Award for Gertrude Stein: An Afterlife.",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Submissions open for 4thWrite short story prize",
+      "canonical_key": "book_source:the-guardian-books:98feca2975d5",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Submissions open for 4thWrite short story prize",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "알라딘 신간",
+      "title": "걱정 마, 나는 강아지별에서 잘 지내/수수아 지음/팜파스",
+      "canonical_key": "book_edition:394178958",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "author_event",
@@ -7269,47 +7764,6 @@
       "required_field_gaps": [
         "isbn"
       ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "‘I’m so grateful I got to live these days’: A Ghost in the Throat author Doireann Ní Ghríofa on recovering from depression",
-      "canonical_key_status": "title_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "Publishing Perspectives",
-      "title": "PublisHer Excellence Awards Celebrate Innovation, Impact, and Forging a Path for the Future",
-      "canonical_key": "book_source:publishing-perspectives:59e21c1f8ea1",
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "author_event",
-      "source": "Publishing Perspectives",
-      "title": "PublisHer Excellence Awards Celebrate Innovation, Impact, and Forging a Path for the Future",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "‘I wanted it to feel both Shakespearean and like Jay-Z’: debut author Sufiyaan Salam on masculinity, rap and meeting Stormzy",
-      "canonical_key": "book_edition:title:d34708c159d1",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "‘I wanted it to feel both Shakespearean and like Jay-Z’: debut author Sufiyaan Salam on masculinity, rap and meeting Stormzy",
-      "canonical_key_status": "title_proxy"
     }
   ],
   "source_backlog": {
