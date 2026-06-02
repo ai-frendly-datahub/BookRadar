@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-06-01T06:04:35.653043+00:00",
+  "generated_at": "2026-06-02T05:50:27.126724+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -17,19 +17,19 @@
     "sales_ranking_events": 60,
     "library_lending_events": 0,
     "author_event_events": 13,
-    "award_signal_events": 79,
-    "book_signal_event_count": 152,
-    "official_or_operational_event_count": 115,
+    "award_signal_events": 82,
+    "book_signal_event_count": 155,
+    "official_or_operational_event_count": 117,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 122,
-    "proxy_canonical_key_count": 30,
+    "complete_canonical_key_count": 124,
+    "proxy_canonical_key_count": 31,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 122,
-    "author_present_count": 78,
+    "isbn_present_count": 124,
+    "author_present_count": 79,
     "publisher_present_count": 44,
     "rank_present_count": 74,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 33,
+    "event_required_field_gap_count": 34,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 293,
+      "article_count": 305,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 60,
       "event_count": 60,
       "latest_event_at": "2026-05-31T22:01:22+00:00",
-      "age_days": 0.34,
+      "age_days": 1.33,
       "latest_title": "11위 캐릭캐릭 체인지! Jewel Joker 주얼 조커 3",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394124358&radar_rank=11&radar_ranking_date=20260531220122&rssType=5&type=item",
       "latest_source_signal": [
@@ -240,7 +240,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 119,
+      "article_count": 125,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 64,
+      "article_count": 66,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -286,7 +286,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 22,
+      "article_count": 24,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -309,7 +309,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 87,
+      "article_count": 97,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -332,7 +332,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 89,
+      "article_count": 98,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -378,7 +378,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 71,
+      "article_count": 77,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -781,6 +781,53 @@
     }
   ],
   "events": [
+    {
+      "source": "New York Times Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "28 New Books to Read in June: Ann Patchett, Maggie O’Farrell, Daniel Kraus and More",
+      "url": "https://www.nytimes.com/2026/06/01/books/new-books-june.html",
+      "source_url": "https://www.nytimes.com/2026/06/01/books/new-books-june.html",
+      "event_at": "2026-06-01T17:56:20+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "pulitzer",
+      "genre": [],
+      "publisher": [],
+      "book_type": [
+        "new books"
+      ],
+      "author": [],
+      "award": [
+        "pulitzer",
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:new-york-times-books:6f65546d8824",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:e70e317fbcfd:20260601",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
     {
       "source": "알라딘 베스트셀러",
       "source_type": "rss",
@@ -1739,6 +1786,57 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
+      "title": "요아킴 트리에의 영화/요아킴 트리에 지음, 안네 옐스비크 글, 강탄우 옮김/코프키노",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394263444&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394263444&rssType=1&type=item",
+      "event_at": "2026-05-29T07:16:00+00:00",
+      "isbn": "394263444",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "과학",
+        "예술"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가",
+        "데뷔"
+      ],
+      "award": [
+        "수상",
+        "후보"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394263444",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:6d137c8ddecc:20260529",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
       "title": "사건/아니 에르노 지음, 윤석헌 옮김/민음사",
       "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394240791&rssType=1&type=item",
       "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394240791&rssType=1&type=item",
@@ -1776,6 +1874,53 @@
       "canonical_key": "book_edition:394240791",
       "canonical_key_status": "complete",
       "event_key": "award_signal:5b04214a0cbf:20260529",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "얼음산 빙수 가게 (여름 에디션)/정현진 지음/올리",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394238626&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394238626&rssType=1&type=item",
+      "event_at": "2026-05-29T02:26:00+00:00",
+      "isbn": "394238626",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "시",
+        "과학",
+        "그림책"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394238626",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:e210fb089cce:20260529",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -5557,105 +5702,6 @@
       ]
     },
     {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "아기 코끼리/김소민 지음/현북스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393556121&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393556121&rssType=1&type=item",
-      "event_at": "2026-05-19T03:20:00+00:00",
-      "isbn": "393556121",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "그림책"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:393556121",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:95315f4597b2:20260519",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "우리는 한때 같은 성에 살았고/김희재 지음/다산책방",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393552134&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393552134&rssType=1&type=item",
-      "event_at": "2026-05-19T02:34:00+00:00",
-      "isbn": "393552134",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가",
-        "데뷔"
-      ],
-      "award": [
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:393552134",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:bfe45b11aadd:20260519",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -6910,6 +6956,105 @@
       "required_field_gaps": [
         "author_name"
       ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "아기 코끼리/김소민 지음/현북스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393556121&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393556121&rssType=1&type=item",
+      "event_at": "2026-05-19T03:20:00+00:00",
+      "isbn": "393556121",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "그림책"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:393556121",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:95315f4597b2:20260519",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "우리는 한때 같은 성에 살았고/김희재 지음/다산책방",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393552134&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393552134&rssType=1&type=item",
+      "event_at": "2026-05-19T02:34:00+00:00",
+      "isbn": "393552134",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가",
+        "데뷔"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:393552134",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:bfe45b11aadd:20260519",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "NPR Books",
@@ -8248,6 +8393,23 @@
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
+      "source": "New York Times Books",
+      "title": "28 New Books to Read in June: Ann Patchett, Maggie O’Farrell, Daniel Kraus and More",
+      "canonical_key": "book_source:new-york-times-books:6f65546d8824",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "New York Times Books",
+      "title": "28 New Books to Read in June: Ann Patchett, Maggie O’Farrell, Daniel Kraus and More",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
       "source": "Literary Hub",
       "title": "Francesca Wade has won the Plutarch Award for Gertrude Stein: An Afterlife.",
       "canonical_key": "book_source:literary-hub:6b575de56b95",
@@ -8655,23 +8817,6 @@
       "source": "The Guardian Books",
       "title": "‘I’m so grateful I got to live these days’: A Ghost in the Throat author Doireann Ní Ghríofa on recovering from depression",
       "canonical_key": "book_edition:title:9b0ab879e2e1",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "‘I’m so grateful I got to live these days’: A Ghost in the Throat author Doireann Ní Ghríofa on recovering from depression",
-      "canonical_key_status": "title_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "‘I wanted it to feel both Shakespearean and like Jay-Z’: debut author Sufiyaan Salam on masculinity, rap and meeting Stormzy",
-      "canonical_key": "book_edition:title:d34708c159d1",
       "required_field_gaps": [
         "isbn"
       ]
