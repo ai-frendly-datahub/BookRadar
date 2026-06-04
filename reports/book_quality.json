@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-06-03T06:05:31.886424+00:00",
+  "generated_at": "2026-06-04T05:57:40.465292+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,20 +16,20 @@
     "collection_error_count": 0,
     "sales_ranking_events": 45,
     "library_lending_events": 0,
-    "author_event_events": 13,
-    "award_signal_events": 74,
+    "author_event_events": 16,
+    "award_signal_events": 71,
     "book_signal_event_count": 132,
-    "official_or_operational_event_count": 100,
+    "official_or_operational_event_count": 102,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 107,
-    "proxy_canonical_key_count": 25,
+    "complete_canonical_key_count": 109,
+    "proxy_canonical_key_count": 23,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 107,
-    "author_present_count": 68,
+    "isbn_present_count": 109,
+    "author_present_count": 70,
     "publisher_present_count": 35,
     "rank_present_count": 56,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 29,
+    "event_required_field_gap_count": 28,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 275,
+      "article_count": 258,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 45,
       "event_count": 45,
       "latest_event_at": "2026-05-31T22:01:22+00:00",
-      "age_days": 2.34,
+      "age_days": 3.33,
       "latest_title": "11위 캐릭캐릭 체인지! Jewel Joker 주얼 조커 3",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394124358&radar_rank=11&radar_ranking_date=20260531220122&rssType=5&type=item",
       "latest_source_signal": [
@@ -240,7 +240,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 121,
+      "article_count": 112,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 67,
+      "article_count": 65,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -332,7 +332,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 96,
+      "article_count": 97,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -378,7 +378,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 72,
+      "article_count": 74,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -746,7 +746,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 26,
+      "article_count": 24,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -781,6 +781,50 @@
     }
   ],
   "events": [
+    {
+      "source": "New York Times Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Caissie Levy, Tony Awards Contender and ‘Ragtime’ Star, Is Having a Moment",
+      "url": "https://www.nytimes.com/2026/06/03/theater/caissie-levy-broadway-tonys-ragtime.html",
+      "source_url": "https://www.nytimes.com/2026/06/03/theater/caissie-levy-broadway-tonys-ragtime.html",
+      "event_at": "2026-06-03T15:38:06+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:new-york-times-books:0d7a146ce6fd",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:757b88127417:20260603",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
     {
       "source": "Literary Hub",
       "source_type": "rss",
@@ -870,6 +914,379 @@
       "required_field_gaps": [
         "isbn"
       ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "프랑스 아빠, 한국 엄마, 독일 쌍둥이/이연실 지음/향출판사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394520040&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394520040&rssType=1&type=item",
+      "event_at": "2026-06-02T05:24:00+00:00",
+      "isbn": "394520040",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "",
+      "genre": [
+        "에세이",
+        "시",
+        "교육",
+        "어린이",
+        "그림책",
+        "육아"
+      ],
+      "publisher": [
+        "출판사"
+      ],
+      "book_type": [],
+      "author": [
+        "작가",
+        "저자"
+      ],
+      "award": [],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394520040",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:370b4b8b7004:20260602",
+      "required_field_proxy": {
+        "author_name": true,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "라키비움 J 12호 : 그림책은 어린이/전은주 외 지음/제이포럼",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394498272&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394498272&rssType=1&type=item",
+      "event_at": "2026-06-02T02:51:00+00:00",
+      "isbn": "394498272",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "",
+      "genre": [
+        "시",
+        "문학",
+        "인문학",
+        "건강",
+        "교육",
+        "영어",
+        "어린이",
+        "청소년",
+        "그림책"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394498272",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:6c41d1e05e44:20260602",
+      "required_field_proxy": {
+        "author_name": true,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "만일 그대가 나보다 먼저 간다면 (미니 에디션 더 쏙)/허수경 지음/난다",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394497362&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394497362&rssType=1&type=item",
+      "event_at": "2026-06-02T02:42:00+00:00",
+      "isbn": "394497362",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "여행",
+        "동화"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "번역"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394497362",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:dc7b704b5b44:20260602",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "할아버지의 한 달/도현순 지음, 고정순 그림/곰세마리",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394494914&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394494914&rssType=1&type=item",
+      "event_at": "2026-06-02T02:35:00+00:00",
+      "isbn": "394494914",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "",
+      "genre": [
+        "시",
+        "어린이",
+        "그림책"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394494914",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:981f9305478a:20260602",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "만일 그대가 나보다 먼저 간다면/허수경 지음/난다",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394493838&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394493838&rssType=1&type=item",
+      "event_at": "2026-06-02T02:31:00+00:00",
+      "isbn": "394493838",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "여행",
+        "동화"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "번역"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394493838",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:a0f847e0163d:20260602",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "오밀조밀 마을 사전/로트라우트 주자네 베르너 지음, 윤혜정 옮김/윌북주니어",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394487190&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394487190&rssType=1&type=item",
+      "event_at": "2026-06-02T00:57:00+00:00",
+      "isbn": "394487190",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "수상",
+      "genre": [
+        "문학",
+        "영어",
+        "어린이",
+        "그림책"
+      ],
+      "publisher": [
+        "사계절"
+      ],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394487190",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:938fea0e1f29:20260602",
+      "required_field_proxy": {
+        "author_name": true,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "오밀조밀 마을 사전/로트라우트 주자네 베르너 지음, 윤혜정 옮김/윌북주니어",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394487190&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394487190&rssType=1&type=item",
+      "event_at": "2026-06-02T00:57:00+00:00",
+      "isbn": "394487190",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "수상",
+      "genre": [
+        "문학",
+        "영어",
+        "어린이",
+        "그림책"
+      ],
+      "publisher": [
+        "사계절"
+      ],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394487190",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:938fea0e1f29:20260602",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "New York Times Books",
@@ -5181,394 +5598,6 @@
       "required_field_gaps": []
     },
     {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "인간이라는 환상처럼/하재연 지음/문학과지성사",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393761463&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393761463&rssType=1&type=item",
-      "event_at": "2026-05-21T02:42:00+00:00",
-      "isbn": "393761463",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "인문학",
-        "판타지"
-      ],
-      "publisher": [
-        "문학과지성사"
-      ],
-      "book_type": [],
-      "author": [
-        "데뷔"
-      ],
-      "award": [
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:393761463",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:1a20fe8312de:20260521",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "파뿌리24 (특별판)/이정태 그림, 주상일 외 글, 샌드박스 네트워크 감수, 파뿌리 원작/겜툰",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393755894&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393755894&rssType=1&type=item",
-      "event_at": "2026-05-21T01:05:00+00:00",
-      "isbn": "393755894",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "시",
-        "만화",
-        "어린이"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:393755894",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:a4ddde363c6a:20260521",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "New York Times Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Was a Story That Just Won a Literary Prize A.I.-Generated?",
-      "url": "https://www.nytimes.com/2026/05/20/books/ai-fiction-contest-granta.html",
-      "source_url": "https://www.nytimes.com/2026/05/20/books/ai-fiction-contest-granta.html",
-      "event_at": "2026-05-20T22:44:03+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "award",
-      "genre": [
-        "literary"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "award"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:new-york-times-books:52620825dc84",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:d1b4191825fc:20260520",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "New York Times Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "International Booker Prize 2026: ‘Taiwan Travelogue’ is First Winner Originally Written in Mandarin",
-      "url": "https://www.nytimes.com/2026/05/19/books/international-booker-prize-taiwan-travelogue.html",
-      "source_url": "https://www.nytimes.com/2026/05/19/books/international-booker-prize-taiwan-travelogue.html",
-      "event_at": "2026-05-20T19:49:59+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [
-        "fiction",
-        "novel"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "booker",
-        "award",
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:new-york-times-books:8fda7a02b2a2",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:d363eb8bd8e6:20260520",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "Book Riot",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "This is the Winner of the 2026 International Booker Prize",
-      "url": "https://bookriot.com/2026-international-booker-prize-winner",
-      "source_url": "https://bookriot.com/2026-international-booker-prize-winner",
-      "event_at": "2026-05-20T16:57:50+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [
-        "literary"
-      ],
-      "publisher": [],
-      "book_type": [
-        "literary news"
-      ],
-      "author": [],
-      "award": [
-        "booker",
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_source:book-riot:a033773af6ac",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:d4486168025a:20260520",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "New York Times Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Book Review: ‘On Witness and Respair,’ by Jesmyn Ward",
-      "url": "https://www.nytimes.com/2026/05/18/books/review/jesmyn-ward-witness-and-respair.html",
-      "source_url": "https://www.nytimes.com/2026/05/18/books/review/jesmyn-ward-witness-and-respair.html",
-      "event_at": "2026-05-20T13:12:49+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "award",
-      "genre": [],
-      "publisher": [],
-      "book_type": [
-        "book review"
-      ],
-      "author": [],
-      "award": [
-        "award",
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:new-york-times-books:1b2c5b714280",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:f639572588b7:20260520",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "Publishing Perspectives",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Taiwan Travelogue Wins the 2026 International Booker Prize",
-      "url": "https://publishingperspectives.com/2026/05/taiwan-travelogue-wins-the-2026-international-booker-prize",
-      "source_url": "https://publishingperspectives.com/2026/05/taiwan-travelogue-wins-the-2026-international-booker-prize",
-      "event_at": "2026-05-20T11:04:03+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [
-        "novel",
-        "memoir"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "booker"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_source:publishing-perspectives:58174c2f68d3",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:fa3298a6889b:20260520",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "New York Times Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Book Review: ‘Keeper of My Kin,’ by Ada Ferrer",
-      "url": "https://www.nytimes.com/2026/05/20/books/review/keeper-of-my-kin-ada-ferrer.html",
-      "source_url": "https://www.nytimes.com/2026/05/20/books/review/keeper-of-my-kin-ada-ferrer.html",
-      "event_at": "2026-05-20T09:00:57+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "pulitzer",
-      "genre": [
-        "memoir"
-      ],
-      "publisher": [],
-      "book_type": [
-        "book review"
-      ],
-      "author": [],
-      "award": [
-        "pulitzer"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:new-york-times-books:330d97434b5f",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:e589ce3b7394:20260520",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -5707,6 +5736,99 @@
       "required_field_gaps": []
     },
     {
+      "source": "Publishing Perspectives",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Taiwan Travelogue Wins the 2026 International Booker Prize",
+      "url": "https://publishingperspectives.com/2026/05/taiwan-travelogue-wins-the-2026-international-booker-prize",
+      "source_url": "https://publishingperspectives.com/2026/05/taiwan-travelogue-wins-the-2026-international-booker-prize",
+      "event_at": "2026-05-20T11:04:03+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [
+        "novel",
+        "memoir"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:publishing-perspectives:58174c2f68d3",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:fa3298a6889b:20260520",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "New York Times Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Was a Story That Just Won a Literary Prize A.I.-Generated?",
+      "url": "https://www.nytimes.com/2026/05/20/books/ai-fiction-contest-granta.html",
+      "source_url": "https://www.nytimes.com/2026/05/20/books/ai-fiction-contest-granta.html",
+      "event_at": "2026-05-20T22:44:03+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [
+        "literary"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:new-york-times-books:52620825dc84",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:d1b4191825fc:20260520",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
       "source": "NPR Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -5751,6 +5873,54 @@
       "required_field_gaps": []
     },
     {
+      "source": "New York Times Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Book Review: ‘Keeper of My Kin,’ by Ada Ferrer",
+      "url": "https://www.nytimes.com/2026/05/20/books/review/keeper-of-my-kin-ada-ferrer.html",
+      "source_url": "https://www.nytimes.com/2026/05/20/books/review/keeper-of-my-kin-ada-ferrer.html",
+      "event_at": "2026-05-20T09:00:57+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "pulitzer",
+      "genre": [
+        "memoir"
+      ],
+      "publisher": [],
+      "book_type": [
+        "book review"
+      ],
+      "author": [],
+      "award": [
+        "pulitzer"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:new-york-times-books:330d97434b5f",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:e589ce3b7394:20260520",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -5789,6 +5959,55 @@
       "canonical_key": "book_edition:title:d34708c159d1",
       "canonical_key_status": "title_proxy",
       "event_key": "award_signal:35e0fc919c16:20260503",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "New York Times Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "International Booker Prize 2026: ‘Taiwan Travelogue’ is First Winner Originally Written in Mandarin",
+      "url": "https://www.nytimes.com/2026/05/19/books/international-booker-prize-taiwan-travelogue.html",
+      "source_url": "https://www.nytimes.com/2026/05/19/books/international-booker-prize-taiwan-travelogue.html",
+      "event_at": "2026-05-20T19:49:59+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [
+        "fiction",
+        "novel"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker",
+        "award",
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:new-york-times-books:8fda7a02b2a2",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:d363eb8bd8e6:20260520",
       "required_field_proxy": {
         "isbn": false,
         "award_name": true,
@@ -6776,6 +6995,204 @@
       ]
     },
     {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "인간이라는 환상처럼/하재연 지음/문학과지성사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393761463&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393761463&rssType=1&type=item",
+      "event_at": "2026-05-21T02:42:00+00:00",
+      "isbn": "393761463",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "인문학",
+        "판타지"
+      ],
+      "publisher": [
+        "문학과지성사"
+      ],
+      "book_type": [],
+      "author": [
+        "데뷔"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:393761463",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:1a20fe8312de:20260521",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "파뿌리24 (특별판)/이정태 그림, 주상일 외 글, 샌드박스 네트워크 감수, 파뿌리 원작/겜툰",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393755894&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393755894&rssType=1&type=item",
+      "event_at": "2026-05-21T01:05:00+00:00",
+      "isbn": "393755894",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "시",
+        "만화",
+        "어린이"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:393755894",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:a4ddde363c6a:20260521",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "New York Times Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Book Review: ‘On Witness and Respair,’ by Jesmyn Ward",
+      "url": "https://www.nytimes.com/2026/05/18/books/review/jesmyn-ward-witness-and-respair.html",
+      "source_url": "https://www.nytimes.com/2026/05/18/books/review/jesmyn-ward-witness-and-respair.html",
+      "event_at": "2026-05-20T13:12:49+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [],
+      "publisher": [],
+      "book_type": [
+        "book review"
+      ],
+      "author": [],
+      "award": [
+        "award",
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:new-york-times-books:1b2c5b714280",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:f639572588b7:20260520",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Book Riot",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "This is the Winner of the 2026 International Booker Prize",
+      "url": "https://bookriot.com/2026-international-booker-prize-winner",
+      "source_url": "https://bookriot.com/2026-international-booker-prize-winner",
+      "event_at": "2026-05-20T16:57:50+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [
+        "literary"
+      ],
+      "publisher": [],
+      "book_type": [
+        "literary news"
+      ],
+      "author": [],
+      "award": [
+        "booker",
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:book-riot:a033773af6ac",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:d4486168025a:20260520",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
       "source": "Publishers Weekly",
       "source_type": "rss",
       "trust_tier": "T3_professional",
@@ -6867,409 +7284,26 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "International Booker prize goes to novel originally written in Mandarin Chinese for the first time",
-      "url": "https://www.theguardian.com/culture/2026/may/19/international-booker-prize-goes-to-novel-originally-written-in-mandarin-chinese-for-the-first-time",
-      "source_url": "https://www.theguardian.com/culture/2026/may/19/international-booker-prize-goes-to-novel-originally-written-in-mandarin-chinese-for-the-first-time",
-      "event_at": "2026-05-19T21:30:14+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [
-        "novel",
-        "literary",
-        "romance"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "booker"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:the-guardian-books:767e2ee30e1b",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:bb2c0194ae20:20260519",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Seascraper by Benjamin Wood audiobook review – a shore thing",
-      "url": "https://www.theguardian.com/books/2026/may/14/seascraper-by-benjamin-wood-audiobook-review-a-shore-thing",
-      "source_url": "https://www.theguardian.com/books/2026/may/14/seascraper-by-benjamin-wood-audiobook-review-a-shore-thing",
-      "event_at": "2026-05-14T14:00:09+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [
-        "novel"
-      ],
-      "publisher": [],
-      "book_type": [
-        "audiobook"
-      ],
-      "author": [],
-      "award": [
-        "booker"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:the-guardian-books:6d6b9ebe826d",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:670f405992db:20260514",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "Publishing Perspectives",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "PublisHer Excellence Awards Celebrate Innovation, Impact, and Forging a Path for the Future",
-      "url": "https://publishingperspectives.com/2026/05/publisher-excellence-awards-celebrate-innovation-impact-and-forging-a-path-for-the-future",
-      "source_url": "https://publishingperspectives.com/2026/05/publisher-excellence-awards-celebrate-innovation-impact-and-forging-a-path-for-the-future",
-      "event_at": "2026-05-15T12:19:08+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "book fair",
-      "award_name": "",
-      "genre": [],
-      "publisher": [
-        "publisher"
-      ],
-      "book_type": [],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "book fair"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_source:publishing-perspectives:59e21c1f8ea1",
-      "canonical_key_status": "source_proxy",
-      "event_key": "author_event:ceec8df84ecd:20260515",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "더트백 억만장자/데이비드 겔러스 지음, 고현석 옮김/흐름출판",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393637372&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393637372&rssType=1&type=item",
-      "event_at": "2026-05-19T08:15:00+00:00",
-      "isbn": "393637372",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "시",
-        "경제경영",
-        "철학",
-        "어린이"
-      ],
-      "publisher": [
-        "흐름출판"
-      ],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:393637372",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:e1fcb4e11b5a:20260519",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "어른의 행복은 조용하다 (40만 부 기념 스페셜 리커버)/태수 지음/페이지2(page2)",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393597412&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393597412&rssType=1&type=item",
-      "event_at": "2026-05-19T06:50:00+00:00",
-      "isbn": "393597412",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "에세이",
-        "시"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "저자"
-      ],
-      "award": [
-        "수상",
-        "올해의 책",
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:393597412",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:ce3f0ca8c781:20260519",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "나의 몬티셀로/조슬린 니콜 존슨 지음, 강동혁 옮김/문학동네",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393587319&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393587319&rssType=1&type=item",
-      "event_at": "2026-05-19T06:40:00+00:00",
-      "isbn": "393587319",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "퓰리처",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "역사"
-      ],
-      "publisher": [
-        "문학동네"
-      ],
-      "book_type": [],
-      "author": [
-        "작가",
-        "데뷔"
-      ],
-      "award": [
-        "퓰리처",
-        "수상",
-        "문학상",
-        "올해의 책",
-        "선정",
-        "후보"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:393587319",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:f64e0f8dd96f:20260519",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "아기 코끼리/김소민 지음/현북스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393556121&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393556121&rssType=1&type=item",
-      "event_at": "2026-05-19T03:20:00+00:00",
-      "isbn": "393556121",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "그림책"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:393556121",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:95315f4597b2:20260519",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "우리는 한때 같은 성에 살았고/김희재 지음/다산책방",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393552134&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393552134&rssType=1&type=item",
-      "event_at": "2026-05-19T02:34:00+00:00",
-      "isbn": "393552134",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가",
-        "데뷔"
-      ],
-      "award": [
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:393552134",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:bfe45b11aadd:20260519",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "New York Times Books",
+      "title": "Caissie Levy, Tony Awards Contender and ‘Ragtime’ Star, Is Having a Moment",
+      "canonical_key": "book_source:new-york-times-books:0d7a146ce6fd",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "New York Times Books",
+      "title": "Caissie Levy, Tony Awards Contender and ‘Ragtime’ Star, Is Having a Moment",
+      "canonical_key_status": "source_proxy"
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
@@ -7286,6 +7320,16 @@
       "source": "The Guardian Books",
       "title": "Tonight the Music Seems So Loud by Sathnam Sanghera review – a heartbreaking portrait of George Michael",
       "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "알라딘 신간",
+      "title": "할아버지의 한 달/도현순 지음, 고정순 그림/곰세마리",
+      "canonical_key": "book_edition:394494914",
+      "required_field_gaps": [
+        "author_name"
+      ]
     },
     {
       "reason": "missing_required_fields",
@@ -7534,9 +7578,9 @@
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "Was a Story That Just Won a Literary Prize A.I.-Generated?",
-      "canonical_key": "book_source:new-york-times-books:52620825dc84",
+      "source": "The Guardian Books",
+      "title": "‘I’m so grateful I got to live these days’: A Ghost in the Throat author Doireann Ní Ghríofa on recovering from depression",
+      "canonical_key": "book_edition:title:9b0ab879e2e1",
       "required_field_gaps": [
         "isbn"
       ]
@@ -7544,60 +7588,9 @@
     {
       "reason": "proxy_canonical_key",
       "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "Was a Story That Just Won a Literary Prize A.I.-Generated?",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "International Booker Prize 2026: ‘Taiwan Travelogue’ is First Winner Originally Written in Mandarin",
-      "canonical_key": "book_source:new-york-times-books:8fda7a02b2a2",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "International Booker Prize 2026: ‘Taiwan Travelogue’ is First Winner Originally Written in Mandarin",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "This is the Winner of the 2026 International Booker Prize",
-      "canonical_key": "book_source:book-riot:a033773af6ac",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "This is the Winner of the 2026 International Booker Prize",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "Book Review: ‘On Witness and Respair,’ by Jesmyn Ward",
-      "canonical_key": "book_source:new-york-times-books:1b2c5b714280",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "Book Review: ‘On Witness and Respair,’ by Jesmyn Ward",
-      "canonical_key_status": "source_proxy"
+      "source": "The Guardian Books",
+      "title": "‘I’m so grateful I got to live these days’: A Ghost in the Throat author Doireann Ní Ghríofa on recovering from depression",
+      "canonical_key_status": "title_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -7614,6 +7607,23 @@
       "event_model": "award_signal",
       "source": "Publishing Perspectives",
       "title": "Taiwan Travelogue Wins the 2026 International Booker Prize",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "New York Times Books",
+      "title": "Was a Story That Just Won a Literary Prize A.I.-Generated?",
+      "canonical_key": "book_source:new-york-times-books:52620825dc84",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "New York Times Books",
+      "title": "Was a Story That Just Won a Literary Prize A.I.-Generated?",
       "canonical_key_status": "source_proxy"
     },
     {
@@ -7637,23 +7647,6 @@
       "reason": "missing_required_fields",
       "event_model": "award_signal",
       "source": "The Guardian Books",
-      "title": "‘I’m so grateful I got to live these days’: A Ghost in the Throat author Doireann Ní Ghríofa on recovering from depression",
-      "canonical_key": "book_edition:title:9b0ab879e2e1",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "‘I’m so grateful I got to live these days’: A Ghost in the Throat author Doireann Ní Ghríofa on recovering from depression",
-      "canonical_key_status": "title_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
       "title": "‘I wanted it to feel both Shakespearean and like Jay-Z’: debut author Sufiyaan Salam on masculinity, rap and meeting Stormzy",
       "canonical_key": "book_edition:title:d34708c159d1",
       "required_field_gaps": [
@@ -7666,6 +7659,23 @@
       "source": "The Guardian Books",
       "title": "‘I wanted it to feel both Shakespearean and like Jay-Z’: debut author Sufiyaan Salam on masculinity, rap and meeting Stormzy",
       "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "New York Times Books",
+      "title": "International Booker Prize 2026: ‘Taiwan Travelogue’ is First Winner Originally Written in Mandarin",
+      "canonical_key": "book_source:new-york-times-books:8fda7a02b2a2",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "New York Times Books",
+      "title": "International Booker Prize 2026: ‘Taiwan Travelogue’ is First Winner Originally Written in Mandarin",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -7687,9 +7697,9 @@
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "International Booker prize goes to novel originally written in Mandarin Chinese for the first time",
-      "canonical_key": "book_source:the-guardian-books:767e2ee30e1b",
+      "source": "New York Times Books",
+      "title": "Book Review: ‘On Witness and Respair,’ by Jesmyn Ward",
+      "canonical_key": "book_source:new-york-times-books:1b2c5b714280",
       "required_field_gaps": [
         "isbn"
       ]
@@ -7697,9 +7707,19 @@
     {
       "reason": "proxy_canonical_key",
       "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "International Booker prize goes to novel originally written in Mandarin Chinese for the first time",
+      "source": "New York Times Books",
+      "title": "Book Review: ‘On Witness and Respair,’ by Jesmyn Ward",
       "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "This is the Winner of the 2026 International Booker Prize",
+      "canonical_key": "book_source:book-riot:a033773af6ac",
+      "required_field_gaps": [
+        "isbn"
+      ]
     }
   ],
   "source_backlog": {
