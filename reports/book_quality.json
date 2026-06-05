@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-06-04T05:57:40.465292+00:00",
+  "generated_at": "2026-06-05T05:19:30.291165+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,20 +16,20 @@
     "collection_error_count": 0,
     "sales_ranking_events": 45,
     "library_lending_events": 0,
-    "author_event_events": 16,
-    "award_signal_events": 71,
-    "book_signal_event_count": 132,
-    "official_or_operational_event_count": 102,
+    "author_event_events": 15,
+    "award_signal_events": 68,
+    "book_signal_event_count": 128,
+    "official_or_operational_event_count": 101,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 109,
-    "proxy_canonical_key_count": 23,
+    "complete_canonical_key_count": 107,
+    "proxy_canonical_key_count": 21,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 109,
-    "author_present_count": 70,
+    "isbn_present_count": 107,
+    "author_present_count": 69,
     "publisher_present_count": 35,
     "rank_present_count": 56,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 28,
+    "event_required_field_gap_count": 26,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 258,
+      "article_count": 231,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 45,
       "event_count": 45,
       "latest_event_at": "2026-05-31T22:01:22+00:00",
-      "age_days": 3.33,
+      "age_days": 4.3,
       "latest_title": "11위 캐릭캐릭 체인지! Jewel Joker 주얼 조커 3",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394124358&radar_rank=11&radar_ranking_date=20260531220122&rssType=5&type=item",
       "latest_source_signal": [
@@ -240,7 +240,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 112,
+      "article_count": 110,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 65,
+      "article_count": 68,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -286,7 +286,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 27,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -378,7 +378,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 74,
+      "article_count": 72,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -746,7 +746,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 24,
+      "article_count": 22,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -793,7 +793,7 @@
       "title": "Caissie Levy, Tony Awards Contender and ‘Ragtime’ Star, Is Having a Moment",
       "url": "https://www.nytimes.com/2026/06/03/theater/caissie-levy-broadway-tonys-ragtime.html",
       "source_url": "https://www.nytimes.com/2026/06/03/theater/caissie-levy-broadway-tonys-ragtime.html",
-      "event_at": "2026-06-03T15:38:06+00:00",
+      "event_at": "2026-06-04T21:11:51+00:00",
       "isbn": "",
       "rank": null,
       "retailer": "",
@@ -815,7 +815,53 @@
       ],
       "canonical_key": "book_source:new-york-times-books:0d7a146ce6fd",
       "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:757b88127417:20260603",
+      "event_key": "award_signal:757b88127417:20260604",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Kevin Young has won the 2026 Griffin Poetry Prize.",
+      "url": "https://lithub.com/kevin-young-has-won-the-2026-griffin-poetry-prize",
+      "source_url": "https://lithub.com/kevin-young-has-won-the-2026-griffin-poetry-prize",
+      "event_at": "2026-06-04T13:00:45+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "winner",
+      "genre": [
+        "poetry"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:literary-hub:6522a62760d7",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:ca494b425d30:20260604",
       "required_field_proxy": {
         "isbn": false,
         "award_name": true,
@@ -5192,6 +5238,196 @@
       "required_field_gaps": []
     },
     {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "‘I refuse to be a second-class citizen in my own land’: Taiwanese International Booker winner Yáng Shuāng-zǐ",
+      "url": "https://www.theguardian.com/books/2026/may/21/yang-shuang-zi-interview-lin-king-taiwan-travelogue-international-booker",
+      "source_url": "https://www.theguardian.com/books/2026/may/21/yang-shuang-zi-interview-lin-king-taiwan-travelogue-international-booker",
+      "event_at": "2026-05-21T17:50:32+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [
+        "novel",
+        "literature"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author",
+        "writer",
+        "translator"
+      ],
+      "award": [
+        "booker",
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:1a41e3993fd1",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:32c6266f5513:20260521",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "‘I’m so grateful I got to live these days’: A Ghost in the Throat author Doireann Ní Ghríofa on recovering from depression",
+      "url": "https://www.theguardian.com/books/2026/may/16/im-so-grateful-i-got-to-live-these-days-a-ghost-in-the-throat-author-doireann-ni-ghriofa-on-recovering-from-depression",
+      "source_url": "https://www.theguardian.com/books/2026/may/16/im-so-grateful-i-got-to-live-these-days-a-ghost-in-the-throat-author-doireann-ni-ghriofa-on-recovering-from-depression",
+      "event_at": "2026-05-16T08:01:04+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [
+        "poetry",
+        "memoir"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author"
+      ],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:9b0ab879e2e1",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:e61e7ba8c474:20260516",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Children and teens roundup – the best new picture books and novels",
+      "url": "https://www.theguardian.com/books/2026/apr/24/children-and-teens-roundup-the-best-new-picture-books-and-novels",
+      "source_url": "https://www.theguardian.com/books/2026/apr/24/children-and-teens-roundup-the-best-new-picture-books-and-novels",
+      "event_at": "2026-04-24T11:00:39+00:00",
+      "isbn": "9781646866311",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "winner",
+      "genre": [],
+      "publisher": [
+        "publisher"
+      ],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:9781646866311",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:6ea6cfdca6b6:20260424",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "NPR Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "'Taiwan Travelogue' wins the 2026 International Booker Prize",
+      "url": "https://www.npr.org/2026/05/19/nx-s1-5823677/2026-booker-prize-winner-taiwan-travelogue",
+      "source_url": "https://www.npr.org/2026/05/19/nx-s1-5823677/2026-booker-prize-winner-taiwan-travelogue",
+      "event_at": "2026-05-19T21:31:47+00:00",
+      "isbn": "5823677",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [
+        "novel"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker",
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:5823677",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:feac484d6065:20260519",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
       "source": "Publishers Weekly",
       "source_type": "rss",
       "trust_tier": "T3_professional",
@@ -5230,6 +5466,194 @@
       "canonical_key": "book_edition:100460",
       "canonical_key_status": "complete",
       "event_key": "award_signal:ca5ed431ba0b:20260522",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "Publishing Perspectives",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Taiwan Travelogue Wins the 2026 International Booker Prize",
+      "url": "https://publishingperspectives.com/2026/05/taiwan-travelogue-wins-the-2026-international-booker-prize",
+      "source_url": "https://publishingperspectives.com/2026/05/taiwan-travelogue-wins-the-2026-international-booker-prize",
+      "event_at": "2026-05-20T11:04:03+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [
+        "novel",
+        "memoir"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:publishing-perspectives:58174c2f68d3",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:fa3298a6889b:20260520",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Publishing Perspectives",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Second Consecutive International Booker Prize Validates Publisher’s Vision for Translated Works",
+      "url": "https://publishingperspectives.com/2026/05/second-consecutive-international-booker-prize-validates-publishers-vision-for-translated-works",
+      "source_url": "https://publishingperspectives.com/2026/05/second-consecutive-international-booker-prize-validates-publishers-vision-for-translated-works",
+      "event_at": "2026-05-21T08:00:09+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [
+        "literature"
+      ],
+      "publisher": [
+        "publisher"
+      ],
+      "book_type": [],
+      "author": [
+        "translator"
+      ],
+      "award": [
+        "booker",
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:title:0c96f3bbdd43",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:4fe6c327dc59:20260521",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "New York Times Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Was a Story That Just Won a Literary Prize A.I.-Generated?",
+      "url": "https://www.nytimes.com/2026/05/20/books/ai-fiction-contest-granta.html",
+      "source_url": "https://www.nytimes.com/2026/05/20/books/ai-fiction-contest-granta.html",
+      "event_at": "2026-05-20T22:44:03+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [
+        "literary"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:new-york-times-books:52620825dc84",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:d1b4191825fc:20260520",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "NPR Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Remembering Pulitzer Prize-winning journalist Philip Caputo",
+      "url": "https://www.npr.org/2026/05/15/nx-s1-5823574/remembering-pulitzer-prize-winning-journalist-philip-caputo",
+      "source_url": "https://www.npr.org/2026/05/15/nx-s1-5823574/remembering-pulitzer-prize-winning-journalist-philip-caputo",
+      "event_at": "2026-05-15T15:57:34+00:00",
+      "isbn": "5823574",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "pulitzer",
+      "genre": [
+        "memoir"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "pulitzer"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:5823574",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:c6385317d99a:20260515",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -5392,482 +5816,6 @@
       "required_field_proxy": {
         "author_name": true,
         "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "‘I refuse to be a second-class citizen in my own land’: Taiwanese International Booker winner Yáng Shuāng-zǐ",
-      "url": "https://www.theguardian.com/books/2026/may/21/yang-shuang-zi-interview-lin-king-taiwan-travelogue-international-booker",
-      "source_url": "https://www.theguardian.com/books/2026/may/21/yang-shuang-zi-interview-lin-king-taiwan-travelogue-international-booker",
-      "event_at": "2026-05-21T17:50:32+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [
-        "novel",
-        "literature"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "author",
-        "writer",
-        "translator"
-      ],
-      "award": [
-        "booker",
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:title:1a41e3993fd1",
-      "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:32c6266f5513:20260521",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "Book Riot",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Book Riot’s Deals of the Day for May 21, 2026",
-      "url": "https://bookriot.com/book-riots-deals-of-the-day-for-may-21-2026",
-      "source_url": "https://bookriot.com/book-riots-deals-of-the-day-for-may-21-2026",
-      "event_at": "2026-05-21T16:17:34+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "pulitzer",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "pulitzer",
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_source:book-riot:6e109ff48805",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:a06c6afa4632:20260521",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "Publishing Perspectives",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Second Consecutive International Booker Prize Validates Publisher’s Vision for Translated Works",
-      "url": "https://publishingperspectives.com/2026/05/second-consecutive-international-booker-prize-validates-publishers-vision-for-translated-works",
-      "source_url": "https://publishingperspectives.com/2026/05/second-consecutive-international-booker-prize-validates-publishers-vision-for-translated-works",
-      "event_at": "2026-05-21T08:00:09+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [
-        "literature"
-      ],
-      "publisher": [
-        "publisher"
-      ],
-      "book_type": [],
-      "author": [
-        "translator"
-      ],
-      "award": [
-        "booker",
-        "award"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:title:0c96f3bbdd43",
-      "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:4fe6c327dc59:20260521",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "바람 관찰자/미카 아처 지음, 김난령 옮김/나무의말",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393778641&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393778641&rssType=1&type=item",
-      "event_at": "2026-05-21T06:39:00+00:00",
-      "isbn": "393778641",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "과학",
-        "예술",
-        "교육",
-        "어린이",
-        "그림책"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상",
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:393778641",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:a6e6af466ea5:20260521",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "‘I’m so grateful I got to live these days’: A Ghost in the Throat author Doireann Ní Ghríofa on recovering from depression",
-      "url": "https://www.theguardian.com/books/2026/may/16/im-so-grateful-i-got-to-live-these-days-a-ghost-in-the-throat-author-doireann-ni-ghriofa-on-recovering-from-depression",
-      "source_url": "https://www.theguardian.com/books/2026/may/16/im-so-grateful-i-got-to-live-these-days-a-ghost-in-the-throat-author-doireann-ni-ghriofa-on-recovering-from-depression",
-      "event_at": "2026-05-16T08:01:04+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "award",
-      "genre": [
-        "poetry",
-        "memoir"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "author"
-      ],
-      "award": [
-        "award"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:title:9b0ab879e2e1",
-      "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:e61e7ba8c474:20260516",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Children and teens roundup – the best new picture books and novels",
-      "url": "https://www.theguardian.com/books/2026/apr/24/children-and-teens-roundup-the-best-new-picture-books-and-novels",
-      "source_url": "https://www.theguardian.com/books/2026/apr/24/children-and-teens-roundup-the-best-new-picture-books-and-novels",
-      "event_at": "2026-04-24T11:00:39+00:00",
-      "isbn": "9781646866311",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "winner",
-      "genre": [],
-      "publisher": [
-        "publisher"
-      ],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:9781646866311",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:6ea6cfdca6b6:20260424",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "NPR Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "'Taiwan Travelogue' wins the 2026 International Booker Prize",
-      "url": "https://www.npr.org/2026/05/19/nx-s1-5823677/2026-booker-prize-winner-taiwan-travelogue",
-      "source_url": "https://www.npr.org/2026/05/19/nx-s1-5823677/2026-booker-prize-winner-taiwan-travelogue",
-      "event_at": "2026-05-19T21:31:47+00:00",
-      "isbn": "5823677",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [
-        "novel"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "booker",
-        "award"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:5823677",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:feac484d6065:20260519",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "Publishing Perspectives",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Taiwan Travelogue Wins the 2026 International Booker Prize",
-      "url": "https://publishingperspectives.com/2026/05/taiwan-travelogue-wins-the-2026-international-booker-prize",
-      "source_url": "https://publishingperspectives.com/2026/05/taiwan-travelogue-wins-the-2026-international-booker-prize",
-      "event_at": "2026-05-20T11:04:03+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [
-        "novel",
-        "memoir"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "booker"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_source:publishing-perspectives:58174c2f68d3",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:fa3298a6889b:20260520",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "New York Times Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Was a Story That Just Won a Literary Prize A.I.-Generated?",
-      "url": "https://www.nytimes.com/2026/05/20/books/ai-fiction-contest-granta.html",
-      "source_url": "https://www.nytimes.com/2026/05/20/books/ai-fiction-contest-granta.html",
-      "event_at": "2026-05-20T22:44:03+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "award",
-      "genre": [
-        "literary"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "award"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:new-york-times-books:52620825dc84",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:d1b4191825fc:20260520",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "NPR Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Remembering Pulitzer Prize-winning journalist Philip Caputo",
-      "url": "https://www.npr.org/2026/05/15/nx-s1-5823574/remembering-pulitzer-prize-winning-journalist-philip-caputo",
-      "source_url": "https://www.npr.org/2026/05/15/nx-s1-5823574/remembering-pulitzer-prize-winning-journalist-philip-caputo",
-      "event_at": "2026-05-15T15:57:34+00:00",
-      "isbn": "5823574",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "pulitzer",
-      "genre": [
-        "memoir"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "pulitzer"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:5823574",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:c6385317d99a:20260515",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
         "source_url": true
       },
       "required_field_gaps": []
@@ -7003,6 +6951,59 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
+      "title": "바람 관찰자/미카 아처 지음, 김난령 옮김/나무의말",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393778641&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393778641&rssType=1&type=item",
+      "event_at": "2026-05-21T06:39:00+00:00",
+      "isbn": "393778641",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "과학",
+        "예술",
+        "교육",
+        "어린이",
+        "그림책"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상",
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:393778641",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:a6e6af466ea5:20260521",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
       "title": "인간이라는 환상처럼/하재연 지음/문학과지성사",
       "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393761463&rssType=1&type=item",
       "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393761463&rssType=1&type=item",
@@ -7095,195 +7096,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "New York Times Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Book Review: ‘On Witness and Respair,’ by Jesmyn Ward",
-      "url": "https://www.nytimes.com/2026/05/18/books/review/jesmyn-ward-witness-and-respair.html",
-      "source_url": "https://www.nytimes.com/2026/05/18/books/review/jesmyn-ward-witness-and-respair.html",
-      "event_at": "2026-05-20T13:12:49+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "award",
-      "genre": [],
-      "publisher": [],
-      "book_type": [
-        "book review"
-      ],
-      "author": [],
-      "award": [
-        "award",
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:new-york-times-books:1b2c5b714280",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:f639572588b7:20260520",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "Book Riot",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "This is the Winner of the 2026 International Booker Prize",
-      "url": "https://bookriot.com/2026-international-booker-prize-winner",
-      "source_url": "https://bookriot.com/2026-international-booker-prize-winner",
-      "event_at": "2026-05-20T16:57:50+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [
-        "literary"
-      ],
-      "publisher": [],
-      "book_type": [
-        "literary news"
-      ],
-      "author": [],
-      "award": [
-        "booker",
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_source:book-riot:a033773af6ac",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:d4486168025a:20260520",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "Publishers Weekly",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "‘Taiwan Travelogue’ Wins International Booker Prize",
-      "url": "http://www.publishersweekly.com/pw/by-topic/industry-news/awards-and-prizes/article/100452-taiwan-travelogue-wins-international-booker-prize.html",
-      "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/awards-and-prizes/article/100452-taiwan-travelogue-wins-international-booker-prize.html",
-      "event_at": "2026-05-20T04:00:00+00:00",
-      "isbn": "100452",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "booker"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:100452",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:b9e49e192a0d:20260520",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "충분한, 아름다움/김다현 지음/샘터사",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393694242&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393694242&rssType=1&type=item",
-      "event_at": "2026-05-20T01:39:00+00:00",
-      "isbn": "393694242",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "강연",
-      "award_name": "",
-      "genre": [
-        "에세이",
-        "시",
-        "요리",
-        "건강",
-        "심리"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "저자"
-      ],
-      "award": [],
-      "book_event": [
-        "강연"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:393694242",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:18e76355842d:20260520",
-      "required_field_proxy": {
-        "author_name": true,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
@@ -7302,6 +7114,23 @@
       "event_model": "award_signal",
       "source": "New York Times Books",
       "title": "Caissie Levy, Tony Awards Contender and ‘Ragtime’ Star, Is Having a Moment",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Kevin Young has won the 2026 Griffin Poetry Prize.",
+      "canonical_key": "book_source:literary-hub:6522a62760d7",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Kevin Young has won the 2026 Griffin Poetry Prize.",
       "canonical_key_status": "source_proxy"
     },
     {
@@ -7544,40 +7373,6 @@
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "Book Riot’s Deals of the Day for May 21, 2026",
-      "canonical_key": "book_source:book-riot:6e109ff48805",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "Book Riot’s Deals of the Day for May 21, 2026",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Publishing Perspectives",
-      "title": "Second Consecutive International Booker Prize Validates Publisher’s Vision for Translated Works",
-      "canonical_key": "book_edition:title:0c96f3bbdd43",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Publishing Perspectives",
-      "title": "Second Consecutive International Booker Prize Validates Publisher’s Vision for Translated Works",
-      "canonical_key_status": "title_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
       "source": "The Guardian Books",
       "title": "‘I’m so grateful I got to live these days’: A Ghost in the Throat author Doireann Ní Ghríofa on recovering from depression",
       "canonical_key": "book_edition:title:9b0ab879e2e1",
@@ -7608,6 +7403,23 @@
       "source": "Publishing Perspectives",
       "title": "Taiwan Travelogue Wins the 2026 International Booker Prize",
       "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Publishing Perspectives",
+      "title": "Second Consecutive International Booker Prize Validates Publisher’s Vision for Translated Works",
+      "canonical_key": "book_edition:title:0c96f3bbdd43",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Publishing Perspectives",
+      "title": "Second Consecutive International Booker Prize Validates Publisher’s Vision for Translated Works",
+      "canonical_key_status": "title_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -7695,31 +7507,20 @@
       "canonical_key_status": "source_proxy"
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "Book Review: ‘On Witness and Respair,’ by Jesmyn Ward",
-      "canonical_key": "book_source:new-york-times-books:1b2c5b714280",
-      "required_field_gaps": [
-        "isbn"
-      ]
+      "reason": "missing_event_model",
+      "event_model": "library_lending"
     },
     {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "Book Review: ‘On Witness and Respair,’ by Jesmyn Ward",
-      "canonical_key_status": "source_proxy"
+      "reason": "source_backlog_pending",
+      "source": "Aladin bestseller ranking history",
+      "signal_type": "sales_ranking",
+      "activation_gate": "ranking window handling, ISBN mapping, and retailer taxonomy"
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "This is the Winner of the 2026 International Booker Prize",
-      "canonical_key": "book_source:book-riot:a033773af6ac",
-      "required_field_gaps": [
-        "isbn"
-      ]
+      "reason": "source_backlog_pending",
+      "source": "YES24 bestseller ranking history",
+      "signal_type": "sales_ranking",
+      "activation_gate": "parser stability, ISBN mapping, and duplicate edition handling"
     }
   ],
   "source_backlog": {
