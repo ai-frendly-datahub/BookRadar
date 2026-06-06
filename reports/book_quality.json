@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-06-05T05:19:30.291165+00:00",
+  "generated_at": "2026-06-06T04:54:34.767120+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,20 +16,20 @@
     "collection_error_count": 0,
     "sales_ranking_events": 45,
     "library_lending_events": 0,
-    "author_event_events": 15,
+    "author_event_events": 18,
     "award_signal_events": 68,
-    "book_signal_event_count": 128,
-    "official_or_operational_event_count": 101,
+    "book_signal_event_count": 131,
+    "official_or_operational_event_count": 103,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 107,
+    "complete_canonical_key_count": 110,
     "proxy_canonical_key_count": 21,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 107,
+    "isbn_present_count": 110,
     "author_present_count": 69,
     "publisher_present_count": 35,
-    "rank_present_count": 56,
+    "rank_present_count": 57,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 26,
+    "event_required_field_gap_count": 29,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 231,
+      "article_count": 230,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 45,
       "event_count": 45,
       "latest_event_at": "2026-05-31T22:01:22+00:00",
-      "age_days": 4.3,
+      "age_days": 5.29,
       "latest_title": "11위 캐릭캐릭 체인지! Jewel Joker 주얼 조커 3",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394124358&radar_rank=11&radar_ranking_date=20260531220122&rssType=5&type=item",
       "latest_source_signal": [
@@ -240,7 +240,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 110,
+      "article_count": 126,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 68,
+      "article_count": 69,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -309,7 +309,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 92,
+      "article_count": 101,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -332,7 +332,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 97,
+      "article_count": 103,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -378,7 +378,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 72,
+      "article_count": 74,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -782,6 +782,94 @@
   ],
   "events": [
     {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "The best recent poetry – review roundup",
+      "url": "https://www.theguardian.com/books/2026/jun/05/the-best-recent-poetry-review-roundup",
+      "source_url": "https://www.theguardian.com/books/2026/jun/05/the-best-recent-poetry-review-roundup",
+      "event_at": "2026-06-05T11:00:33+00:00",
+      "isbn": "9781526683380",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "winner",
+      "genre": [
+        "poetry"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:9781526683380",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:6c7fdf92e08f:20260605",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "Book Riot",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "The Late Stan Lee’s Voice and Likeness Being Resurrected by AI",
+      "url": "https://bookriot.com/stan-lees-likeness-resurrected-by-ai",
+      "source_url": "https://bookriot.com/stan-lees-likeness-resurrected-by-ai",
+      "event_at": "2026-06-05T10:11:00+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:book-riot:fea98fd376d3",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:6415ba706b8f:20260605",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
       "source": "New York Times Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -869,6 +957,267 @@
       },
       "required_field_gaps": [
         "isbn"
+      ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "다른 사랑/최은미 지음/문학동네",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394810106&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394810106&rssType=1&type=item",
+      "event_at": "2026-06-04T08:07:00+00:00",
+      "isbn": "394810106",
+      "rank": 1,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "이상문학상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학"
+      ],
+      "publisher": [
+        "문학동네"
+      ],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "이상문학상",
+        "수상",
+        "문학상",
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394810106",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:6c89cc7ddae1:20260604",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "건축무한육면각체의 비밀 1/장용민 지음/재담",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394796002&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394796002&rssType=1&type=item",
+      "event_at": "2026-06-04T07:04:00+00:00",
+      "isbn": "394796002",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "역사",
+        "스릴러"
+      ],
+      "publisher": [],
+      "book_type": [
+        "신간",
+        "개정판"
+      ],
+      "author": [
+        "작가",
+        "데뷔"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394796002",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:22dbbf3a7350:20260604",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "안녕, 나는 금성이야!/스테이시 매카널티 지음, 스티비 루이스 그림, 조은영 옮김/현암주니어",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394704538&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394704538&rssType=1&type=item",
+      "event_at": "2026-06-04T02:54:00+00:00",
+      "isbn": "394704538",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "",
+      "genre": [
+        "시",
+        "과학",
+        "어린이",
+        "그림책"
+      ],
+      "publisher": [],
+      "book_type": [
+        "시리즈"
+      ],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394704538",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:d99efef61e42:20260604",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "솔품씨의 대단한 하루/김상균 지음/국민서관",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394703366&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394703366&rssType=1&type=item",
+      "event_at": "2026-06-04T02:48:00+00:00",
+      "isbn": "394703366",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "",
+      "genre": [
+        "시",
+        "어린이",
+        "그림책"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394703366",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:459a37b7a52f:20260604",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "장난감이 되고 싶은 당근/이와카미 아이 지음, 고향옥 옮김/길벗스쿨",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394700272&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394700272&rssType=1&type=item",
+      "event_at": "2026-06-04T02:09:00+00:00",
+      "isbn": "394700272",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "",
+      "genre": [
+        "시",
+        "어린이",
+        "그림책"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394700272",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:1065ed49de07:20260604",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
       ]
     },
     {
@@ -4843,401 +5192,6 @@
       "required_field_gaps": []
     },
     {
-      "source": "Literary Hub",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Everyone is an AI Cop Now: What Happens When an AI-Generated Story Wins a Prestigious Prize",
-      "url": "https://lithub.com/everyone-is-an-ai-cop-now-what-happens-when-an-ai-generated-story-wins-a-prestigious-prize",
-      "source_url": "https://lithub.com/everyone-is-an-ai-cop-now-what-happens-when-an-ai-generated-story-wins-a-prestigious-prize",
-      "event_at": "2026-05-22T11:02:38+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "winner",
-      "genre": [
-        "literary"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:literary-hub:7f7a277c0efe",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:b9f2a4203685:20260522",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "Literary Hub",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Lit Hub Daily: May 22, 2026",
-      "url": "https://lithub.com/lit-hub-daily-may-22-2026",
-      "source_url": "https://lithub.com/lit-hub-daily-may-22-2026",
-      "event_at": "2026-05-22T10:30:04+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "winner",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:literary-hub:1194221c2f0b",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:6140cd19c75c:20260522",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "Publishing Perspectives",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "‘Politically Urgent, Humanely Thought-provoking:’ Furthering Translation Projects Around the World",
-      "url": "https://publishingperspectives.com/2026/05/politically-urgent-humanely-thought-provoking-furthering-translation-projects-around-the-world",
-      "source_url": "https://publishingperspectives.com/2026/05/politically-urgent-humanely-thought-provoking-furthering-translation-projects-around-the-world",
-      "event_at": "2026-05-22T08:25:55+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "award",
-      "genre": [
-        "literary",
-        "literature"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "award"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_source:publishing-perspectives:1bee6cc4c95e",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:0ac149412e97:20260522",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "코드 탐정단과 수상한 박물관 1/지샤오미 지음, 이지수 옮김/아이스크림북스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393835784&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393835784&rssType=1&type=item",
-      "event_at": "2026-05-22T08:00:00+00:00",
-      "isbn": "393835784",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "예술",
-        "여행",
-        "추리",
-        "어린이",
-        "동화"
-      ],
-      "publisher": [],
-      "book_type": [
-        "시리즈"
-      ],
-      "author": [],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:393835784",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:f80eabd5d623:20260522",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "토머스 쿤의 마지막 원고/토머스 S. 쿤 지음, 보야나 믈라데노비치 엮음, 홍성욱 옮김/까치",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393827878&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393827878&rssType=1&type=item",
-      "event_at": "2026-05-22T06:48:00+00:00",
-      "isbn": "393827878",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "강연",
-      "award_name": "",
-      "genre": [
-        "시",
-        "과학",
-        "역사",
-        "철학"
-      ],
-      "publisher": [],
-      "book_type": [
-        "초판"
-      ],
-      "author": [
-        "역자"
-      ],
-      "award": [],
-      "book_event": [
-        "강연"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:393827878",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:bad2e218ca54:20260522",
-      "required_field_proxy": {
-        "author_name": true,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "굴과 모래/주영하 지음/창비",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393824790&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393824790&rssType=1&type=item",
-      "event_at": "2026-05-22T06:08:00+00:00",
-      "isbn": "393824790",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학"
-      ],
-      "publisher": [
-        "창비"
-      ],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:393824790",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:57797bda8552:20260522",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Hunger and Thirst by Claire Fuller review – a blend of social realism and gothic horror",
-      "url": "https://www.theguardian.com/books/2026/may/22/hunger-and-thirst-by-claire-fuller-review-a-blend-of-social-realism-and-gothic-horror",
-      "source_url": "https://www.theguardian.com/books/2026/may/22/hunger-and-thirst-by-claire-fuller-review-a-blend-of-social-realism-and-gothic-horror",
-      "event_at": "2026-05-22T06:00:51+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "winner",
-      "genre": [
-        "novel",
-        "horror"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:the-guardian-books:fe4c0af97a21",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:1e928bb6baf6:20260522",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "다가오는 이마와 검은 털 고양이/박솔뫼 지음/마음산책",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393824022&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393824022&rssType=1&type=item",
-      "event_at": "2026-05-22T05:57:00+00:00",
-      "isbn": "393824022",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "에세이",
-        "시",
-        "희곡",
-        "문학",
-        "여행"
-      ],
-      "publisher": [],
-      "book_type": [
-        "시리즈"
-      ],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:393824022",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:c2f2879e7dc2:20260522",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -5428,6 +5382,53 @@
       "required_field_gaps": []
     },
     {
+      "source": "Publishing Perspectives",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "‘Politically Urgent, Humanely Thought-provoking:’ Furthering Translation Projects Around the World",
+      "url": "https://publishingperspectives.com/2026/05/politically-urgent-humanely-thought-provoking-furthering-translation-projects-around-the-world",
+      "source_url": "https://publishingperspectives.com/2026/05/politically-urgent-humanely-thought-provoking-furthering-translation-projects-around-the-world",
+      "event_at": "2026-05-22T08:25:55+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [
+        "literary",
+        "literature"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:publishing-perspectives:1bee6cc4c95e",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:0ac149412e97:20260522",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
       "source": "Publishers Weekly",
       "source_type": "rss",
       "trust_tier": "T3_professional",
@@ -5572,6 +5573,217 @@
       ]
     },
     {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "코드 탐정단과 수상한 박물관 1/지샤오미 지음, 이지수 옮김/아이스크림북스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393835784&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393835784&rssType=1&type=item",
+      "event_at": "2026-05-22T08:00:00+00:00",
+      "isbn": "393835784",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "예술",
+        "여행",
+        "추리",
+        "어린이",
+        "동화"
+      ],
+      "publisher": [],
+      "book_type": [
+        "시리즈"
+      ],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:393835784",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:f80eabd5d623:20260522",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "토머스 쿤의 마지막 원고/토머스 S. 쿤 지음, 보야나 믈라데노비치 엮음, 홍성욱 옮김/까치",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393827878&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393827878&rssType=1&type=item",
+      "event_at": "2026-05-22T06:48:00+00:00",
+      "isbn": "393827878",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "강연",
+      "award_name": "",
+      "genre": [
+        "시",
+        "과학",
+        "역사",
+        "철학"
+      ],
+      "publisher": [],
+      "book_type": [
+        "초판"
+      ],
+      "author": [
+        "역자"
+      ],
+      "award": [],
+      "book_event": [
+        "강연"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:393827878",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:bad2e218ca54:20260522",
+      "required_field_proxy": {
+        "author_name": true,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "굴과 모래/주영하 지음/창비",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393824790&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393824790&rssType=1&type=item",
+      "event_at": "2026-05-22T06:08:00+00:00",
+      "isbn": "393824790",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학"
+      ],
+      "publisher": [
+        "창비"
+      ],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:393824790",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:57797bda8552:20260522",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "다가오는 이마와 검은 털 고양이/박솔뫼 지음/마음산책",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393824022&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393824022&rssType=1&type=item",
+      "event_at": "2026-05-22T05:57:00+00:00",
+      "isbn": "393824022",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "에세이",
+        "시",
+        "희곡",
+        "문학",
+        "여행"
+      ],
+      "publisher": [],
+      "book_type": [
+        "시리즈"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:393824022",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:c2f2879e7dc2:20260522",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
       "source": "New York Times Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -5660,6 +5872,96 @@
         "source_url": true
       },
       "required_field_gaps": []
+    },
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Lit Hub Daily: May 22, 2026",
+      "url": "https://lithub.com/lit-hub-daily-may-22-2026",
+      "source_url": "https://lithub.com/lit-hub-daily-may-22-2026",
+      "event_at": "2026-05-22T10:30:04+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "winner",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:literary-hub:1194221c2f0b",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:6140cd19c75c:20260522",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Everyone is an AI Cop Now: What Happens When an AI-Generated Story Wins a Prestigious Prize",
+      "url": "https://lithub.com/everyone-is-an-ai-cop-now-what-happens-when-an-ai-generated-story-wins-a-prestigious-prize",
+      "source_url": "https://lithub.com/everyone-is-an-ai-cop-now-what-happens-when-an-ai-generated-story-wins-a-prestigious-prize",
+      "event_at": "2026-05-22T11:02:38+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "winner",
+      "genre": [
+        "literary"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:literary-hub:7f7a277c0efe",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:b9f2a4203685:20260522",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
     },
     {
       "source": "알라딘 신간",
@@ -5819,6 +6121,53 @@
         "source_url": true
       },
       "required_field_gaps": []
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Hunger and Thirst by Claire Fuller review – a blend of social realism and gothic horror",
+      "url": "https://www.theguardian.com/books/2026/may/22/hunger-and-thirst-by-claire-fuller-review-a-blend-of-social-realism-and-gothic-horror",
+      "source_url": "https://www.theguardian.com/books/2026/may/22/hunger-and-thirst-by-claire-fuller-review-a-blend-of-social-realism-and-gothic-horror",
+      "event_at": "2026-05-22T06:00:51+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "winner",
+      "genre": [
+        "novel",
+        "horror"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:the-guardian-books:fe4c0af97a21",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:1e928bb6baf6:20260522",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
     },
     {
       "source": "New York Times Books",
@@ -6897,208 +7246,26 @@
         "retailer": true
       },
       "required_field_gaps": []
-    },
+    }
+  ],
+  "daily_review_items": [
     {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
+      "reason": "missing_required_fields",
       "event_model": "award_signal",
-      "title": "The best books to read in April: new paperbacks from Katie Kitamura, Benjamin Wood and Mick Herron",
-      "url": "https://www.theguardian.com/books/ng-interactive/2026/apr/22/the-best-books-to-read-in-april-new-paperbacks-from-katie-kitamura-benjamin-wood-and-mick-herron",
-      "source_url": "https://www.theguardian.com/books/ng-interactive/2026/apr/22/the-best-books-to-read-in-april-new-paperbacks-from-katie-kitamura-benjamin-wood-and-mick-herron",
-      "event_at": "2026-04-22T16:37:06+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "booker"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:the-guardian-books:51dfa136f0d2",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:76a54f71cf60:20260422",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
+      "source": "Book Riot",
+      "title": "The Late Stan Lee’s Voice and Likeness Being Resurrected by AI",
+      "canonical_key": "book_source:book-riot:fea98fd376d3",
       "required_field_gaps": [
         "isbn"
       ]
     },
     {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
+      "reason": "proxy_canonical_key",
       "event_model": "award_signal",
-      "title": "바람 관찰자/미카 아처 지음, 김난령 옮김/나무의말",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393778641&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393778641&rssType=1&type=item",
-      "event_at": "2026-05-21T06:39:00+00:00",
-      "isbn": "393778641",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "과학",
-        "예술",
-        "교육",
-        "어린이",
-        "그림책"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상",
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:393778641",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:a6e6af466ea5:20260521",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
+      "source": "Book Riot",
+      "title": "The Late Stan Lee’s Voice and Likeness Being Resurrected by AI",
+      "canonical_key_status": "source_proxy"
     },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "인간이라는 환상처럼/하재연 지음/문학과지성사",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393761463&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393761463&rssType=1&type=item",
-      "event_at": "2026-05-21T02:42:00+00:00",
-      "isbn": "393761463",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "인문학",
-        "판타지"
-      ],
-      "publisher": [
-        "문학과지성사"
-      ],
-      "book_type": [],
-      "author": [
-        "데뷔"
-      ],
-      "award": [
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:393761463",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:1a20fe8312de:20260521",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "파뿌리24 (특별판)/이정태 그림, 주상일 외 글, 샌드박스 네트워크 감수, 파뿌리 원작/겜툰",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393755894&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393755894&rssType=1&type=item",
-      "event_at": "2026-05-21T01:05:00+00:00",
-      "isbn": "393755894",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "시",
-        "만화",
-        "어린이"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:393755894",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:a4ddde363c6a:20260521",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    }
-  ],
-  "daily_review_items": [
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
@@ -7132,6 +7299,36 @@
       "source": "Literary Hub",
       "title": "Kevin Young has won the 2026 Griffin Poetry Prize.",
       "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "알라딘 신간",
+      "title": "안녕, 나는 금성이야!/스테이시 매카널티 지음, 스티비 루이스 그림, 조은영 옮김/현암주니어",
+      "canonical_key": "book_edition:394704538",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "알라딘 신간",
+      "title": "솔품씨의 대단한 하루/김상균 지음/국민서관",
+      "canonical_key": "book_edition:394703366",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "알라딘 신간",
+      "title": "장난감이 되고 싶은 당근/이와카미 아이 지음, 고향옥 옮김/길벗스쿨",
+      "canonical_key": "book_edition:394700272",
+      "required_field_gaps": [
+        "author_name"
+      ]
     },
     {
       "reason": "missing_required_fields",
@@ -7288,74 +7485,6 @@
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Everyone is an AI Cop Now: What Happens When an AI-Generated Story Wins a Prestigious Prize",
-      "canonical_key": "book_source:literary-hub:7f7a277c0efe",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Everyone is an AI Cop Now: What Happens When an AI-Generated Story Wins a Prestigious Prize",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Lit Hub Daily: May 22, 2026",
-      "canonical_key": "book_source:literary-hub:1194221c2f0b",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Lit Hub Daily: May 22, 2026",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Publishing Perspectives",
-      "title": "‘Politically Urgent, Humanely Thought-provoking:’ Furthering Translation Projects Around the World",
-      "canonical_key": "book_source:publishing-perspectives:1bee6cc4c95e",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Publishing Perspectives",
-      "title": "‘Politically Urgent, Humanely Thought-provoking:’ Furthering Translation Projects Around the World",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "Hunger and Thirst by Claire Fuller review – a blend of social realism and gothic horror",
-      "canonical_key": "book_source:the-guardian-books:fe4c0af97a21",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "Hunger and Thirst by Claire Fuller review – a blend of social realism and gothic horror",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
       "source": "The Guardian Books",
       "title": "‘I refuse to be a second-class citizen in my own land’: Taiwanese International Booker winner Yáng Shuāng-zǐ",
       "canonical_key": "book_edition:title:1a41e3993fd1",
@@ -7386,6 +7515,23 @@
       "source": "The Guardian Books",
       "title": "‘I’m so grateful I got to live these days’: A Ghost in the Throat author Doireann Ní Ghríofa on recovering from depression",
       "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Publishing Perspectives",
+      "title": "‘Politically Urgent, Humanely Thought-provoking:’ Furthering Translation Projects Around the World",
+      "canonical_key": "book_source:publishing-perspectives:1bee6cc4c95e",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Publishing Perspectives",
+      "title": "‘Politically Urgent, Humanely Thought-provoking:’ Furthering Translation Projects Around the World",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -7441,6 +7587,57 @@
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Lit Hub Daily: May 22, 2026",
+      "canonical_key": "book_source:literary-hub:1194221c2f0b",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Lit Hub Daily: May 22, 2026",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Everyone is an AI Cop Now: What Happens When an AI-Generated Story Wins a Prestigious Prize",
+      "canonical_key": "book_source:literary-hub:7f7a277c0efe",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Everyone is an AI Cop Now: What Happens When an AI-Generated Story Wins a Prestigious Prize",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Hunger and Thirst by Claire Fuller review – a blend of social realism and gothic horror",
+      "canonical_key": "book_source:the-guardian-books:fe4c0af97a21",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Hunger and Thirst by Claire Fuller review – a blend of social realism and gothic horror",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
       "source": "New York Times Books",
       "title": "Book Review: ‘Keeper of My Kin,’ by Ada Ferrer",
       "canonical_key": "book_source:new-york-times-books:330d97434b5f",
@@ -7488,39 +7685,6 @@
       "source": "New York Times Books",
       "title": "International Booker Prize 2026: ‘Taiwan Travelogue’ is First Winner Originally Written in Mandarin",
       "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "The best books to read in April: new paperbacks from Katie Kitamura, Benjamin Wood and Mick Herron",
-      "canonical_key": "book_source:the-guardian-books:51dfa136f0d2",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "The best books to read in April: new paperbacks from Katie Kitamura, Benjamin Wood and Mick Herron",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_event_model",
-      "event_model": "library_lending"
-    },
-    {
-      "reason": "source_backlog_pending",
-      "source": "Aladin bestseller ranking history",
-      "signal_type": "sales_ranking",
-      "activation_gate": "ranking window handling, ISBN mapping, and retailer taxonomy"
-    },
-    {
-      "reason": "source_backlog_pending",
-      "source": "YES24 bestseller ranking history",
-      "signal_type": "sales_ranking",
-      "activation_gate": "parser stability, ISBN mapping, and duplicate edition handling"
     }
   ],
   "source_backlog": {
