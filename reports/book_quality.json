@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-06-09T05:08:26.911574+00:00",
+  "generated_at": "2026-06-10T05:21:14.449079+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -19,13 +19,13 @@
     "author_event_events": 19,
     "award_signal_events": 69,
     "book_signal_event_count": 133,
-    "official_or_operational_event_count": 107,
+    "official_or_operational_event_count": 108,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 113,
-    "proxy_canonical_key_count": 20,
+    "complete_canonical_key_count": 114,
+    "proxy_canonical_key_count": 19,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 113,
-    "author_present_count": 78,
+    "isbn_present_count": 114,
+    "author_present_count": 79,
     "publisher_present_count": 34,
     "rank_present_count": 58,
     "lending_count_present_count": 0,
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 253,
+      "article_count": 258,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 45,
       "event_count": 45,
       "latest_event_at": "2026-06-07T22:00:09+00:00",
-      "age_days": 1.3,
+      "age_days": 2.31,
       "latest_title": "1위 나의 첫 번째 부동산 교과서",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394433203&radar_rank=1&radar_ranking_date=20260607220009&rssType=5&type=item",
       "latest_source_signal": [
@@ -240,7 +240,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 134,
+      "article_count": 132,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 63,
+      "article_count": 64,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -378,7 +378,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 73,
+      "article_count": 71,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -746,7 +746,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 18,
+      "article_count": 14,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -790,10 +790,104 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
+      "title": "Gordon S. Wood, Pioneering Historian of Early America, Dies at 92",
+      "url": "https://www.nytimes.com/2026/06/08/books/gordon-s-wood-dead.html",
+      "source_url": "https://www.nytimes.com/2026/06/08/books/gordon-s-wood-dead.html",
+      "event_at": "2026-06-09T15:35:06+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "pulitzer",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "pulitzer"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:new-york-times-books:d54833411f77",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:a246beb8cf60:20260609",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Book Riot",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "The 2026 Locus Award Winners and More SFF News",
+      "url": "https://bookriot.com/locus-award-winners",
+      "source_url": "https://bookriot.com/locus-award-winners",
+      "event_at": "2026-06-09T10:02:00+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "pulitzer",
+      "genre": [
+        "novel",
+        "fantasy"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author"
+      ],
+      "award": [
+        "pulitzer",
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:title:af90ff6d3cbd",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:b956f7f81ff5:20260609",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "New York Times Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
       "title": "Robert Coles, Pulitzer-Winning Child Psychiatrist, Is Dead at 97",
       "url": "https://www.nytimes.com/2026/06/07/us/robert-coles-dead.html",
       "source_url": "https://www.nytimes.com/2026/06/07/us/robert-coles-dead.html",
-      "event_at": "2026-06-08T20:58:44+00:00",
+      "event_at": "2026-06-08T20:58:45+00:00",
       "isbn": "",
       "rank": null,
       "retailer": "",
@@ -861,50 +955,6 @@
       "canonical_key": "book_source:book-riot:d0bc18763859",
       "canonical_key_status": "source_proxy",
       "event_key": "award_signal:ef78f86dd6cd:20260608",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "New York Times Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Gordon S. Wood, Pioneering Historian of Early America, Dies at 92",
-      "url": "https://www.nytimes.com/2026/06/08/books/gordon-s-wood-dead.html",
-      "source_url": "https://www.nytimes.com/2026/06/08/books/gordon-s-wood-dead.html",
-      "event_at": "2026-06-08T16:47:01+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "pulitzer",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "pulitzer"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:new-york-times-books:d54833411f77",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:a246beb8cf60:20260608",
       "required_field_proxy": {
         "isbn": false,
         "award_name": true,
@@ -1054,6 +1104,271 @@
       "required_field_gaps": [
         "isbn"
       ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "야생의 눈과 눈 안쪽의 야생/김리윤 지음/문학과지성사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395199979&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395199979&rssType=1&type=item",
+      "event_at": "2026-06-08T07:15:00+00:00",
+      "isbn": "395199979",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "인문학"
+      ],
+      "publisher": [
+        "문학과지성사"
+      ],
+      "book_type": [
+        "완결"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:395199979",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:358c85da866d:20260608",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "미디엄 핫: 발열 시대의 이미지/히토 슈타이얼 지음, 이계성 옮김/워크룸프레스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395193595&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395193595&rssType=1&type=item",
+      "event_at": "2026-06-08T06:08:00+00:00",
+      "isbn": "395193595",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "",
+      "genre": [
+        "시",
+        "예술",
+        "정치"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:395193595",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:df34992801db:20260608",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "내 땅이야!/현단 지음/오늘책",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395188473&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395188473&rssType=1&type=item",
+      "event_at": "2026-06-08T05:17:00+00:00",
+      "isbn": "395188473",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "문학",
+        "어린이",
+        "그림책"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:395188473",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:00dfb63fd4b7:20260608",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "소프트 사이언스/프래니 최 지음, 정새벽 옮김/허블",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395186683&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395186683&rssType=1&type=item",
+      "event_at": "2026-06-08T04:56:00+00:00",
+      "isbn": "395186683",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "역사",
+        "정치",
+        "sf"
+      ],
+      "publisher": [
+        "출판사"
+      ],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상",
+        "문학상",
+        "award",
+        "후보"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:395186683",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:d3a526ce577d:20260608",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "북쪽의 개/엘리자베스 매켄지 지음, 김진희 옮김/비채",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395176715&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395176715&rssType=1&type=item",
+      "event_at": "2026-06-08T02:33:00+00:00",
+      "isbn": "395176715",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "문학상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "문학상",
+        "후보"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:395176715",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:3c35ba4b9684:20260608",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "알라딘 베스트셀러",
@@ -5280,581 +5595,6 @@
       ]
     },
     {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "데미지/조세핀 하트 지음, 공경희 옮김/녹색광선",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394106011&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394106011&rssType=1&type=item",
-      "event_at": "2026-05-27T02:32:00+00:00",
-      "isbn": "394106011",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "후보",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "심리"
-      ],
-      "publisher": [],
-      "book_type": [
-        "베스트셀러"
-      ],
-      "author": [
-        "작가",
-        "데뷔"
-      ],
-      "award": [
-        "후보"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:394106011",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:51cd7bb0ee11:20260527",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "학살기관/이토 케이카쿠 지음, 김준 옮김/문학수첩",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394101485&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394101485&rssType=1&type=item",
-      "event_at": "2026-05-27T01:27:00+00:00",
-      "isbn": "394101485",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "과학",
-        "철학",
-        "sf"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가",
-        "번역",
-        "역자",
-        "데뷔"
-      ],
-      "award": [
-        "수상",
-        "선정",
-        "후보"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:394101485",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:907e91e51887:20260527",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "모범소설 2/미겔 데 세르반테스 지음, 박철 옮김/민음사",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394100994&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394100994&rssType=1&type=item",
-      "event_at": "2026-05-27T01:16:00+00:00",
-      "isbn": "394100994",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "역사",
-        "예술"
-      ],
-      "publisher": [
-        "민음사"
-      ],
-      "book_type": [
-        "초판"
-      ],
-      "author": [
-        "작가",
-        "번역"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:394100994",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:8be5734371f9:20260527",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "글로벌 카지노/앤 페티포 지음, 신예용 옮김/시그마북스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394100805&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394100805&rssType=1&type=item",
-      "event_at": "2026-05-27T01:14:00+00:00",
-      "isbn": "394100805",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "경제경영",
-        "법률"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "저자"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:394100805",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:87fc527ef4ab:20260527",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "모범소설 1/미겔 데 세르반테스 지음, 박철 옮김/민음사",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394100793&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394100793&rssType=1&type=item",
-      "event_at": "2026-05-27T01:14:00+00:00",
-      "isbn": "394100793",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "역사",
-        "예술"
-      ],
-      "publisher": [
-        "민음사"
-      ],
-      "book_type": [
-        "초판"
-      ],
-      "author": [
-        "작가",
-        "번역"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:394100793",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:7cae9482cc1f:20260527",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "Publishing Perspectives",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "For Indie Publishers at Barcelona’s Literal Book Fair, a Focus on Issues, and Craft",
-      "url": "https://publishingperspectives.com/2026/05/for-indie-publishers-at-barcelonas-literal-book-fair-a-focus-on-issues-and-craft",
-      "source_url": "https://publishingperspectives.com/2026/05/for-indie-publishers-at-barcelonas-literal-book-fair-a-focus-on-issues-and-craft",
-      "event_at": "2026-05-26T10:39:23+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "book fair",
-      "award_name": "",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "book fair"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_source:publishing-perspectives:e3e35758fa6c",
-      "canonical_key_status": "source_proxy",
-      "event_key": "author_event:cb8fed1ad876:20260526",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "리치먼드힐의 이층 버스/이경진 지음/북플레저",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394084608&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394084608&rssType=1&type=item",
-      "event_at": "2026-05-26T08:06:00+00:00",
-      "isbn": "394084608",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:394084608",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:d063c7f53754:20260526",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "보물전/모세영 지음/다른",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394084512&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394084512&rssType=1&type=item",
-      "event_at": "2026-05-26T08:04:00+00:00",
-      "isbn": "394084512",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "문학",
-        "역사",
-        "청소년",
-        "동화"
-      ],
-      "publisher": [
-        "비룡소"
-      ],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:394084512",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:684fe48aae03:20260526",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "멜로우TV 팀나빠 1 : 나사 빠진 친구들/쓰리포 그림, 안경순 글, 멜로우 TV 원작/학산키즈",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394084297&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394084297&rssType=1&type=item",
-      "event_at": "2026-05-26T07:59:00+00:00",
-      "isbn": "394084297",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "만화",
-        "판타지",
-        "어린이"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:394084297",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:c583909a3c1c:20260526",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "저주를 파는 초콜릿 가게/주미 지음, 무디 그림/데이스타",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394029221&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394029221&rssType=1&type=item",
-      "event_at": "2026-05-26T05:12:00+00:00",
-      "isbn": "394029221",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "건강",
-        "판타지",
-        "스릴러",
-        "어린이",
-        "동화"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:394029221",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:fa41950ab13e:20260526",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "재규어의 꿈/미겔 본푸아 지음, 윤진 옮김/복복서가",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394029205&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394029205&rssType=1&type=item",
-      "event_at": "2026-05-26T05:11:00+00:00",
-      "isbn": "394029205",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "역사"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상",
-        "문학상",
-        "후보"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:394029205",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:46e1953915f5:20260526",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -6922,6 +6662,50 @@
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
+      "event_model": "author_event",
+      "title": "For Indie Publishers at Barcelona’s Literal Book Fair, a Focus on Issues, and Craft",
+      "url": "https://publishingperspectives.com/2026/05/for-indie-publishers-at-barcelonas-literal-book-fair-a-focus-on-issues-and-craft",
+      "source_url": "https://publishingperspectives.com/2026/05/for-indie-publishers-at-barcelonas-literal-book-fair-a-focus-on-issues-and-craft",
+      "event_at": "2026-05-26T10:39:23+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "book fair",
+      "award_name": "",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "book fair"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:publishing-perspectives:e3e35758fa6c",
+      "canonical_key_status": "source_proxy",
+      "event_key": "author_event:cb8fed1ad876:20260526",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "Publishing Perspectives",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
       "event_model": "award_signal",
       "title": "‘Politically Urgent, Humanely Thought-provoking:’ Furthering Translation Projects Around the World",
       "url": "https://publishingperspectives.com/2026/05/politically-urgent-humanely-thought-provoking-furthering-translation-projects-around-the-world",
@@ -7006,6 +6790,281 @@
       ]
     },
     {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "데미지/조세핀 하트 지음, 공경희 옮김/녹색광선",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394106011&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394106011&rssType=1&type=item",
+      "event_at": "2026-05-27T02:32:00+00:00",
+      "isbn": "394106011",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "후보",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "심리"
+      ],
+      "publisher": [],
+      "book_type": [
+        "베스트셀러"
+      ],
+      "author": [
+        "작가",
+        "데뷔"
+      ],
+      "award": [
+        "후보"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394106011",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:51cd7bb0ee11:20260527",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "학살기관/이토 케이카쿠 지음, 김준 옮김/문학수첩",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394101485&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394101485&rssType=1&type=item",
+      "event_at": "2026-05-27T01:27:00+00:00",
+      "isbn": "394101485",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "과학",
+        "철학",
+        "sf"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가",
+        "번역",
+        "역자",
+        "데뷔"
+      ],
+      "award": [
+        "수상",
+        "선정",
+        "후보"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394101485",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:907e91e51887:20260527",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "모범소설 2/미겔 데 세르반테스 지음, 박철 옮김/민음사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394100994&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394100994&rssType=1&type=item",
+      "event_at": "2026-05-27T01:16:00+00:00",
+      "isbn": "394100994",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "역사",
+        "예술"
+      ],
+      "publisher": [
+        "민음사"
+      ],
+      "book_type": [
+        "초판"
+      ],
+      "author": [
+        "작가",
+        "번역"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394100994",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:8be5734371f9:20260527",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "글로벌 카지노/앤 페티포 지음, 신예용 옮김/시그마북스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394100805&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394100805&rssType=1&type=item",
+      "event_at": "2026-05-27T01:14:00+00:00",
+      "isbn": "394100805",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "경제경영",
+        "법률"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "저자"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394100805",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:87fc527ef4ab:20260527",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "모범소설 1/미겔 데 세르반테스 지음, 박철 옮김/민음사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394100793&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394100793&rssType=1&type=item",
+      "event_at": "2026-05-27T01:14:00+00:00",
+      "isbn": "394100793",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "역사",
+        "예술"
+      ],
+      "publisher": [
+        "민음사"
+      ],
+      "book_type": [
+        "초판"
+      ],
+      "author": [
+        "작가",
+        "번역"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394100793",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:7cae9482cc1f:20260527",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
       "source": "Publishers Weekly",
       "source_type": "rss",
       "trust_tier": "T3_professional",
@@ -7052,104 +7111,6 @@
       "required_field_gaps": []
     },
     {
-      "source": "Publishing Perspectives",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Taiwan Travelogue Wins the 2026 International Booker Prize",
-      "url": "https://publishingperspectives.com/2026/05/taiwan-travelogue-wins-the-2026-international-booker-prize",
-      "source_url": "https://publishingperspectives.com/2026/05/taiwan-travelogue-wins-the-2026-international-booker-prize",
-      "event_at": "2026-05-20T11:04:03+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [
-        "novel",
-        "memoir"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "booker"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_source:publishing-perspectives:58174c2f68d3",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:fa3298a6889b:20260520",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "Publishing Perspectives",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Second Consecutive International Booker Prize Validates Publisher’s Vision for Translated Works",
-      "url": "https://publishingperspectives.com/2026/05/second-consecutive-international-booker-prize-validates-publishers-vision-for-translated-works",
-      "source_url": "https://publishingperspectives.com/2026/05/second-consecutive-international-booker-prize-validates-publishers-vision-for-translated-works",
-      "event_at": "2026-05-21T08:00:09+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [
-        "literature"
-      ],
-      "publisher": [
-        "publisher"
-      ],
-      "book_type": [],
-      "author": [
-        "translator"
-      ],
-      "award": [
-        "booker",
-        "award"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:title:0c96f3bbdd43",
-      "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:4fe6c327dc59:20260521",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
       "source": "알라딘 신간",
       "source_type": "rss",
       "trust_tier": "T1_official",
@@ -7158,11 +7119,11 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "코드 탐정단과 수상한 박물관 1/지샤오미 지음, 이지수 옮김/아이스크림북스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393835784&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393835784&rssType=1&type=item",
-      "event_at": "2026-05-22T08:00:00+00:00",
-      "isbn": "393835784",
+      "title": "리치먼드힐의 이층 버스/이경진 지음/북플레저",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394084608&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394084608&rssType=1&type=item",
+      "event_at": "2026-05-26T08:06:00+00:00",
+      "isbn": "394084608",
       "rank": null,
       "retailer": "",
       "library_network": "",
@@ -7170,18 +7131,15 @@
       "venue": "",
       "award_name": "수상",
       "genre": [
+        "소설",
         "시",
-        "예술",
-        "여행",
-        "추리",
-        "어린이",
-        "동화"
+        "희곡"
       ],
       "publisher": [],
-      "book_type": [
-        "시리즈"
+      "book_type": [],
+      "author": [
+        "작가"
       ],
-      "author": [],
       "award": [
         "수상"
       ],
@@ -7191,9 +7149,9 @@
         "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:393835784",
+      "canonical_key": "book_edition:394084608",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:f80eabd5d623:20260522",
+      "event_key": "award_signal:d063c7f53754:20260526",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -7209,64 +7167,12 @@
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
-      "event_model": "author_event",
-      "title": "토머스 쿤의 마지막 원고/토머스 S. 쿤 지음, 보야나 믈라데노비치 엮음, 홍성욱 옮김/까치",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393827878&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393827878&rssType=1&type=item",
-      "event_at": "2026-05-22T06:48:00+00:00",
-      "isbn": "393827878",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "강연",
-      "award_name": "",
-      "genre": [
-        "시",
-        "과학",
-        "역사",
-        "철학"
-      ],
-      "publisher": [],
-      "book_type": [
-        "초판"
-      ],
-      "author": [
-        "역자"
-      ],
-      "award": [],
-      "book_event": [
-        "강연"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:393827878",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:bad2e218ca54:20260522",
-      "required_field_proxy": {
-        "author_name": true,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
       "event_model": "award_signal",
-      "title": "굴과 모래/주영하 지음/창비",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393824790&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393824790&rssType=1&type=item",
-      "event_at": "2026-05-22T06:08:00+00:00",
-      "isbn": "393824790",
+      "title": "보물전/모세영 지음/다른",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394084512&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394084512&rssType=1&type=item",
+      "event_at": "2026-05-26T08:04:00+00:00",
+      "isbn": "394084512",
       "rank": null,
       "retailer": "",
       "library_network": "",
@@ -7276,11 +7182,13 @@
       "genre": [
         "소설",
         "시",
-        "희곡",
-        "문학"
+        "문학",
+        "역사",
+        "청소년",
+        "동화"
       ],
       "publisher": [
-        "창비"
+        "비룡소"
       ],
       "book_type": [],
       "author": [
@@ -7295,9 +7203,9 @@
         "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:393824790",
+      "canonical_key": "book_edition:394084512",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:57797bda8552:20260522",
+      "event_key": "award_signal:684fe48aae03:20260526",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -7314,11 +7222,111 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "다가오는 이마와 검은 털 고양이/박솔뫼 지음/마음산책",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393824022&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393824022&rssType=1&type=item",
-      "event_at": "2026-05-22T05:57:00+00:00",
-      "isbn": "393824022",
+      "title": "멜로우TV 팀나빠 1 : 나사 빠진 친구들/쓰리포 그림, 안경순 글, 멜로우 TV 원작/학산키즈",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394084297&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394084297&rssType=1&type=item",
+      "event_at": "2026-05-26T07:59:00+00:00",
+      "isbn": "394084297",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "만화",
+        "판타지",
+        "어린이"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394084297",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:c583909a3c1c:20260526",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "저주를 파는 초콜릿 가게/주미 지음, 무디 그림/데이스타",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394029221&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394029221&rssType=1&type=item",
+      "event_at": "2026-05-26T05:12:00+00:00",
+      "isbn": "394029221",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "건강",
+        "판타지",
+        "스릴러",
+        "어린이",
+        "동화"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394029221",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:fa41950ab13e:20260526",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "재규어의 꿈/미겔 본푸아 지음, 윤진 옮김/복복서가",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394029205&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394029205&rssType=1&type=item",
+      "event_at": "2026-05-26T05:11:00+00:00",
+      "isbn": "394029205",
       "rank": null,
       "retailer": "",
       "library_network": "",
@@ -7327,22 +7335,20 @@
       "award_name": "수상",
       "genre": [
         "소설",
-        "에세이",
         "시",
         "희곡",
         "문학",
-        "여행"
+        "역사"
       ],
       "publisher": [],
-      "book_type": [
-        "시리즈"
-      ],
+      "book_type": [],
       "author": [
         "작가"
       ],
       "award": [
         "수상",
-        "문학상"
+        "문학상",
+        "후보"
       ],
       "book_event": [],
       "source_signal": [
@@ -7350,9 +7356,9 @@
         "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:393824022",
+      "canonical_key": "book_edition:394029205",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:c2f2879e7dc2:20260522",
+      "event_key": "award_signal:46e1953915f5:20260526",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -7362,6 +7368,40 @@
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "New York Times Books",
+      "title": "Gordon S. Wood, Pioneering Historian of Early America, Dies at 92",
+      "canonical_key": "book_source:new-york-times-books:d54833411f77",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "New York Times Books",
+      "title": "Gordon S. Wood, Pioneering Historian of Early America, Dies at 92",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "The 2026 Locus Award Winners and More SFF News",
+      "canonical_key": "book_edition:title:af90ff6d3cbd",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "The 2026 Locus Award Winners and More SFF News",
+      "canonical_key_status": "title_proxy"
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
@@ -7394,23 +7434,6 @@
       "event_model": "award_signal",
       "source": "Book Riot",
       "title": "The Nebula and Bram Stoker Award Winners Have Been Announced",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "Gordon S. Wood, Pioneering Historian of Early America, Dies at 92",
-      "canonical_key": "book_source:new-york-times-books:d54833411f77",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "Gordon S. Wood, Pioneering Historian of Early America, Dies at 92",
       "canonical_key_status": "source_proxy"
     },
     {
@@ -7463,6 +7486,16 @@
       "source": "The Guardian Books",
       "title": "Villa Coco by Andrew Sean Greer review – fun in the Tuscan sun",
       "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "알라딘 신간",
+      "title": "미디엄 핫: 발열 시대의 이미지/히토 슈타이얼 지음, 이계성 옮김/워크룸프레스",
+      "canonical_key": "book_edition:395193595",
+      "required_field_gaps": [
+        "author_name"
+      ]
     },
     {
       "reason": "missing_required_fields",
@@ -7665,23 +7698,6 @@
     },
     {
       "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "Publishing Perspectives",
-      "title": "For Indie Publishers at Barcelona’s Literal Book Fair, a Focus on Issues, and Craft",
-      "canonical_key": "book_source:publishing-perspectives:e3e35758fa6c",
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "author_event",
-      "source": "Publishing Perspectives",
-      "title": "For Indie Publishers at Barcelona’s Literal Book Fair, a Focus on Issues, and Craft",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
       "event_model": "award_signal",
       "source": "The Guardian Books",
       "title": "‘I refuse to be a second-class citizen in my own land’: Taiwanese International Booker winner Yáng Shuāng-zǐ",
@@ -7713,6 +7729,23 @@
       "source": "The Guardian Books",
       "title": "‘I’m so grateful I got to live these days’: A Ghost in the Throat author Doireann Ní Ghríofa on recovering from depression",
       "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "Publishing Perspectives",
+      "title": "For Indie Publishers at Barcelona’s Literal Book Fair, a Focus on Issues, and Craft",
+      "canonical_key": "book_source:publishing-perspectives:e3e35758fa6c",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "author_event",
+      "source": "Publishing Perspectives",
+      "title": "For Indie Publishers at Barcelona’s Literal Book Fair, a Focus on Issues, and Craft",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -7749,40 +7782,6 @@
       "canonical_key_status": "source_proxy"
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Publishing Perspectives",
-      "title": "Taiwan Travelogue Wins the 2026 International Booker Prize",
-      "canonical_key": "book_source:publishing-perspectives:58174c2f68d3",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Publishing Perspectives",
-      "title": "Taiwan Travelogue Wins the 2026 International Booker Prize",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Publishing Perspectives",
-      "title": "Second Consecutive International Booker Prize Validates Publisher’s Vision for Translated Works",
-      "canonical_key": "book_edition:title:0c96f3bbdd43",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Publishing Perspectives",
-      "title": "Second Consecutive International Booker Prize Validates Publisher’s Vision for Translated Works",
-      "canonical_key_status": "title_proxy"
-    },
-    {
       "reason": "missing_event_model",
       "event_model": "library_lending"
     },
@@ -7791,6 +7790,12 @@
       "source": "Aladin bestseller ranking history",
       "signal_type": "sales_ranking",
       "activation_gate": "ranking window handling, ISBN mapping, and retailer taxonomy"
+    },
+    {
+      "reason": "source_backlog_pending",
+      "source": "YES24 bestseller ranking history",
+      "signal_type": "sales_ranking",
+      "activation_gate": "parser stability, ISBN mapping, and duplicate edition handling"
     }
   ],
   "source_backlog": {
