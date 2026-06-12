@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-06-11T05:50:23.124242+00:00",
+  "generated_at": "2026-06-12T05:50:36.738257+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,17 +16,17 @@
     "collection_error_count": 0,
     "sales_ranking_events": 45,
     "library_lending_events": 0,
-    "author_event_events": 19,
-    "award_signal_events": 70,
-    "book_signal_event_count": 134,
-    "official_or_operational_event_count": 109,
+    "author_event_events": 18,
+    "award_signal_events": 69,
+    "book_signal_event_count": 132,
+    "official_or_operational_event_count": 106,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 114,
+    "complete_canonical_key_count": 112,
     "proxy_canonical_key_count": 20,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 114,
-    "author_present_count": 78,
-    "publisher_present_count": 34,
+    "isbn_present_count": 112,
+    "author_present_count": 75,
+    "publisher_present_count": 33,
     "rank_present_count": 60,
     "lending_count_present_count": 0,
     "event_required_field_gap_count": 29,
@@ -75,7 +75,7 @@
       "article_count": 45,
       "event_count": 45,
       "latest_event_at": "2026-06-07T22:00:09+00:00",
-      "age_days": 3.33,
+      "age_days": 4.33,
       "latest_title": "1위 나의 첫 번째 부동산 교과서",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394433203&radar_rank=1&radar_ranking_date=20260607220009&rssType=5&type=item",
       "latest_source_signal": [
@@ -240,7 +240,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 124,
+      "article_count": 115,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 66,
+      "article_count": 61,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -286,7 +286,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 23,
+      "article_count": 25,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -332,7 +332,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 105,
+      "article_count": 107,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -746,7 +746,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 14,
+      "article_count": 10,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -781,6 +781,189 @@
     }
   ],
   "events": [
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Here are the winners of the 2026 Women’s Prizes in Fiction and Nonfiction.",
+      "url": "https://lithub.com/here-are-the-winners-of-the-2026-womens-prizes-in-fiction-and-nonfiction",
+      "source_url": "https://lithub.com/here-are-the-winners-of-the-2026-womens-prizes-in-fiction-and-nonfiction",
+      "event_at": "2026-06-11T19:20:02+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "winner",
+      "genre": [
+        "fiction",
+        "novel"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:literary-hub:65bc5ceb3153",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:b9812f4bf3eb:20260611",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Women’s prize: Virginia Evans wins for fiction and Lyse Doucet takes award for nonfiction",
+      "url": "https://www.theguardian.com/books/2026/jun/11/womens-prize-virginia-evans-the-correspondent-fiction-lyse-doucet-the-finest-hotel-in-kabul-nonfiction",
+      "source_url": "https://www.theguardian.com/books/2026/jun/11/womens-prize-virginia-evans-the-correspondent-fiction-lyse-doucet-the-finest-hotel-in-kabul-nonfiction",
+      "event_at": "2026-06-11T18:18:40+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [
+        "fiction"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author"
+      ],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:24f99d3accdf",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:4a5ada668cac:20260611",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Publishers Weekly",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "Beijing International Book Fair to Focus on AI, IP Licensing",
+      "url": "http://www.publishersweekly.com/pw/by-topic/international/trade-shows/article/100610-beijing-international-book-fair-to-focus-on-ai-and-ip-licensing.html",
+      "source_url": "http://www.publishersweekly.com/pw/by-topic/international/trade-shows/article/100610-beijing-international-book-fair-to-focus-on-ai-and-ip-licensing.html",
+      "event_at": "2026-06-11T04:00:00+00:00",
+      "isbn": "100610",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "book fair",
+      "award_name": "",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "book fair"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:100610",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:7ac74b0c18c5:20260611",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "‘Pleasure and invigoration’: Diana Evans wins UK’s Jhalak prose prize",
+      "url": "https://www.theguardian.com/books/2026/jun/10/pleasure-and-invigoration-diana-evans-wins-uks-jhalak-prose-prize",
+      "source_url": "https://www.theguardian.com/books/2026/jun/10/pleasure-and-invigoration-diana-evans-wins-uks-jhalak-prose-prize",
+      "event_at": "2026-06-10T18:30:53+00:00",
+      "isbn": "9781784744243",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "winner",
+      "genre": [
+        "poetry"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:9781784744243",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:2d9762949471:20260610",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
     {
       "source": "Book Riot",
       "source_type": "rss",
@@ -824,6 +1007,265 @@
       "required_field_gaps": [
         "isbn"
       ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "동생을 빌렸습니다/다키이 사치요 지음, 미키 겐지 외 옮김/책과콩나무",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395381927&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395381927&rssType=1&type=item",
+      "event_at": "2026-06-10T04:56:00+00:00",
+      "isbn": "395381927",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "문학상",
+      "genre": [
+        "시",
+        "문학",
+        "어린이",
+        "동화"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:395381927",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:8eb3ff728963:20260610",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "잠자리가 말해요/포푸라기 지음/라임",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395365711&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395365711&rssType=1&type=item",
+      "event_at": "2026-06-10T02:14:00+00:00",
+      "isbn": "395365711",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "어린이",
+        "그림책",
+        "동화"
+      ],
+      "publisher": [
+        "창비"
+      ],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:395365711",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:e84281e75b27:20260610",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "다정한 위선자/메리 쿠비카 지음, 신솔잎 옮김/해피북스투유",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395363151&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395363151&rssType=1&type=item",
+      "event_at": "2026-06-10T01:47:00+00:00",
+      "isbn": "395363151",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "스릴러"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "번역"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:395363151",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:3fc5aa84caa5:20260610",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "보스토크 VOSTOK 매거진 54호/보스토크 프레스 편집부 지음/보스토크프레스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395360271&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395360271&rssType=1&type=item",
+      "event_at": "2026-06-10T01:11:00+00:00",
+      "isbn": "395360271",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "",
+      "genre": [
+        "에세이",
+        "시",
+        "역사",
+        "예술",
+        "여행",
+        "정치"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:395360271",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:a8be01ea5ace:20260610",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "릿터 Littor 2026.6.7/릿터 편집부 지음/민음사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395358954&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395358954&rssType=1&type=item",
+      "event_at": "2026-06-10T00:50:00+00:00",
+      "isbn": "395358954",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "오늘의 작가상",
+      "genre": [
+        "소설",
+        "에세이",
+        "시",
+        "문학",
+        "essay"
+      ],
+      "publisher": [
+        "민음사"
+      ],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "오늘의 작가상",
+        "수상",
+        "문학상",
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:395358954",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:3d56e6b35f5e:20260610",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "New York Times Books",
@@ -5292,106 +5734,6 @@
       "required_field_gaps": []
     },
     {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "사건/아니 에르노 지음, 윤석헌 옮김/민음사",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394240791&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394240791&rssType=1&type=item",
-      "event_at": "2026-05-29T02:57:00+00:00",
-      "isbn": "394240791",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "에세이",
-        "문학",
-        "과학",
-        "역사"
-      ],
-      "publisher": [
-        "민음사"
-      ],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:394240791",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:5b04214a0cbf:20260529",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "얼음산 빙수 가게 (여름 에디션)/정현진 지음/올리",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394238626&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394238626&rssType=1&type=item",
-      "event_at": "2026-05-29T02:26:00+00:00",
-      "isbn": "394238626",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "시",
-        "과학",
-        "그림책"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:394238626",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:e210fb089cce:20260529",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -5529,6 +5871,106 @@
       "canonical_key": "book_edition:9781646866311",
       "canonical_key_status": "complete",
       "event_key": "award_signal:6ea6cfdca6b6:20260424",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "사건/아니 에르노 지음, 윤석헌 옮김/민음사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394240791&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394240791&rssType=1&type=item",
+      "event_at": "2026-05-29T02:57:00+00:00",
+      "isbn": "394240791",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "에세이",
+        "문학",
+        "과학",
+        "역사"
+      ],
+      "publisher": [
+        "민음사"
+      ],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394240791",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:5b04214a0cbf:20260529",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "얼음산 빙수 가게 (여름 에디션)/정현진 지음/올리",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394238626&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394238626&rssType=1&type=item",
+      "event_at": "2026-05-29T02:26:00+00:00",
+      "isbn": "394238626",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "시",
+        "과학",
+        "그림책"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394238626",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:e210fb089cce:20260529",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -6854,576 +7296,53 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
+    }
+  ],
+  "daily_review_items": [
     {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
+      "reason": "missing_required_fields",
       "event_model": "award_signal",
-      "title": "Novel about ‘Disneyfication’ of nature wins climate fiction prize",
-      "url": "https://www.theguardian.com/books/2026/may/27/helen-phillips-hum-climate-fiction-prize",
-      "source_url": "https://www.theguardian.com/books/2026/may/27/helen-phillips-hum-climate-fiction-prize",
-      "event_at": "2026-05-27T19:00:42+00:00",
-      "isbn": "9781805461722",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "winner",
-      "genre": [
-        "fiction",
-        "novel"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "writer"
-      ],
-      "award": [
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:9781805461722",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:33ba00caf7d5:20260527",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "Publishing Perspectives",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "‘Politically Urgent, Humanely Thought-provoking:’ Furthering Translation Projects Around the World",
-      "url": "https://publishingperspectives.com/2026/05/politically-urgent-humanely-thought-provoking-furthering-translation-projects-around-the-world",
-      "source_url": "https://publishingperspectives.com/2026/05/politically-urgent-humanely-thought-provoking-furthering-translation-projects-around-the-world",
-      "event_at": "2026-05-22T08:25:55+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "award",
-      "genre": [
-        "literary",
-        "literature"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "award"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_source:publishing-perspectives:1bee6cc4c95e",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:0ac149412e97:20260522",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
+      "source": "Literary Hub",
+      "title": "Here are the winners of the 2026 Women’s Prizes in Fiction and Nonfiction.",
+      "canonical_key": "book_source:literary-hub:65bc5ceb3153",
       "required_field_gaps": [
         "isbn"
       ]
     },
     {
-      "source": "Publishing Perspectives",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Here are the winners of the 2026 Women’s Prizes in Fiction and Nonfiction.",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Women’s prize: Virginia Evans wins for fiction and Lyse Doucet takes award for nonfiction",
+      "canonical_key": "book_edition:title:24f99d3accdf",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Women’s prize: Virginia Evans wins for fiction and Lyse Doucet takes award for nonfiction",
+      "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
       "event_model": "author_event",
-      "title": "A Growing Warsaw International Book Fair Readies Its 2026 Edition",
-      "url": "https://publishingperspectives.com/2026/05/a-growing-warsaw-international-book-fair-readies-its-2026-edition",
-      "source_url": "https://publishingperspectives.com/2026/05/a-growing-warsaw-international-book-fair-readies-its-2026-edition",
-      "event_at": "2026-05-25T06:06:36+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "book fair",
-      "award_name": "",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "book fair"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_source:publishing-perspectives:6941d68a6485",
-      "canonical_key_status": "source_proxy",
-      "event_key": "author_event:8a4000f5d29c:20260525",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
+      "source": "Publishers Weekly",
+      "title": "Beijing International Book Fair to Focus on AI, IP Licensing",
+      "canonical_key": "book_edition:100610",
       "required_field_gaps": [
         "author_name"
       ]
     },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "취사병 전설이 되다 15/제이로빈 지음, 이진수 그림/지식오름",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394122707&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394122707&rssType=1&type=item",
-      "event_at": "2026-05-27T05:36:00+00:00",
-      "isbn": "394122707",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "도서전",
-      "award_name": "",
-      "genre": [
-        "요리",
-        "만화",
-        "라이트노벨"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "도서전"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:394122707",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:86fb623a4a6f:20260527",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "밤 끝으로의 여행/루이페르디낭 셀린 지음, 김예령 옮김/워크룸프레스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394122592&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394122592&rssType=1&type=item",
-      "event_at": "2026-05-27T05:34:00+00:00",
-      "isbn": "394122592",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "여행"
-      ],
-      "publisher": [
-        "현대문학"
-      ],
-      "book_type": [
-        "화제의 책"
-      ],
-      "author": [
-        "작가",
-        "번역"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:394122592",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:d0dfb40a7675:20260527",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "취사병 전설이 되다 14/제이로빈 지음, 이진수 그림/지식오름",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394122361&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394122361&rssType=1&type=item",
-      "event_at": "2026-05-27T05:32:00+00:00",
-      "isbn": "394122361",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "도서전",
-      "award_name": "",
-      "genre": [
-        "요리",
-        "만화",
-        "라이트노벨"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "도서전"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:394122361",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:296e282078f7:20260527",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "데미지/조세핀 하트 지음, 공경희 옮김/녹색광선",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394106011&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394106011&rssType=1&type=item",
-      "event_at": "2026-05-27T02:32:00+00:00",
-      "isbn": "394106011",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "후보",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "심리"
-      ],
-      "publisher": [],
-      "book_type": [
-        "베스트셀러"
-      ],
-      "author": [
-        "작가",
-        "데뷔"
-      ],
-      "award": [
-        "후보"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:394106011",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:51cd7bb0ee11:20260527",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "학살기관/이토 케이카쿠 지음, 김준 옮김/문학수첩",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394101485&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394101485&rssType=1&type=item",
-      "event_at": "2026-05-27T01:27:00+00:00",
-      "isbn": "394101485",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "과학",
-        "철학",
-        "sf"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가",
-        "번역",
-        "역자",
-        "데뷔"
-      ],
-      "award": [
-        "수상",
-        "선정",
-        "후보"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:394101485",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:907e91e51887:20260527",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "모범소설 2/미겔 데 세르반테스 지음, 박철 옮김/민음사",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394100994&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394100994&rssType=1&type=item",
-      "event_at": "2026-05-27T01:16:00+00:00",
-      "isbn": "394100994",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "역사",
-        "예술"
-      ],
-      "publisher": [
-        "민음사"
-      ],
-      "book_type": [
-        "초판"
-      ],
-      "author": [
-        "작가",
-        "번역"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:394100994",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:8be5734371f9:20260527",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "글로벌 카지노/앤 페티포 지음, 신예용 옮김/시그마북스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394100805&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394100805&rssType=1&type=item",
-      "event_at": "2026-05-27T01:14:00+00:00",
-      "isbn": "394100805",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "경제경영",
-        "법률"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "저자"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:394100805",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:87fc527ef4ab:20260527",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "모범소설 1/미겔 데 세르반테스 지음, 박철 옮김/민음사",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394100793&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394100793&rssType=1&type=item",
-      "event_at": "2026-05-27T01:14:00+00:00",
-      "isbn": "394100793",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "역사",
-        "예술"
-      ],
-      "publisher": [
-        "민음사"
-      ],
-      "book_type": [
-        "초판"
-      ],
-      "author": [
-        "작가",
-        "번역"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:394100793",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:7cae9482cc1f:20260527",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    }
-  ],
-  "daily_review_items": [
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
@@ -7440,6 +7359,16 @@
       "source": "Book Riot",
       "title": "The Best Nonfiction Books of the Year (So Far), According to The New York Times",
       "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "알라딘 신간",
+      "title": "보스토크 VOSTOK 매거진 54호/보스토크 프레스 편집부 지음/보스토크프레스",
+      "canonical_key": "book_edition:395360271",
+      "required_field_gaps": [
+        "author_name"
+      ]
     },
     {
       "reason": "missing_required_fields",
@@ -7796,60 +7725,6 @@
       "source": "알라딘 신간",
       "title": "걱정 마, 나는 강아지별에서 잘 지내/수수아 지음/팜파스",
       "canonical_key": "book_edition:394178958",
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Publishing Perspectives",
-      "title": "‘Politically Urgent, Humanely Thought-provoking:’ Furthering Translation Projects Around the World",
-      "canonical_key": "book_source:publishing-perspectives:1bee6cc4c95e",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Publishing Perspectives",
-      "title": "‘Politically Urgent, Humanely Thought-provoking:’ Furthering Translation Projects Around the World",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "Publishing Perspectives",
-      "title": "A Growing Warsaw International Book Fair Readies Its 2026 Edition",
-      "canonical_key": "book_source:publishing-perspectives:6941d68a6485",
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "author_event",
-      "source": "Publishing Perspectives",
-      "title": "A Growing Warsaw International Book Fair Readies Its 2026 Edition",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "알라딘 신간",
-      "title": "취사병 전설이 되다 15/제이로빈 지음, 이진수 그림/지식오름",
-      "canonical_key": "book_edition:394122707",
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "알라딘 신간",
-      "title": "취사병 전설이 되다 14/제이로빈 지음, 이진수 그림/지식오름",
-      "canonical_key": "book_edition:394122361",
       "required_field_gaps": [
         "author_name"
       ]
