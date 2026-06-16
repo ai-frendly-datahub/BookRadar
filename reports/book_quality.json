@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-06-15T06:27:13.490520+00:00",
+  "generated_at": "2026-06-16T06:35:10.446103+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,20 +16,20 @@
     "collection_error_count": 0,
     "sales_ranking_events": 45,
     "library_lending_events": 0,
-    "author_event_events": 18,
-    "award_signal_events": 76,
-    "book_signal_event_count": 139,
-    "official_or_operational_event_count": 108,
+    "author_event_events": 19,
+    "award_signal_events": 74,
+    "book_signal_event_count": 138,
+    "official_or_operational_event_count": 107,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 117,
+    "complete_canonical_key_count": 116,
     "proxy_canonical_key_count": 22,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 117,
-    "author_present_count": 81,
-    "publisher_present_count": 36,
+    "isbn_present_count": 116,
+    "author_present_count": 80,
+    "publisher_present_count": 35,
     "rank_present_count": 61,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 31,
+    "event_required_field_gap_count": 32,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 273,
+      "article_count": 249,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 45,
       "event_count": 45,
       "latest_event_at": "2026-06-14T22:00:57+00:00",
-      "age_days": 0.35,
+      "age_days": 1.36,
       "latest_title": "3위 장송의 프리렌 15 (한정판)",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395444467&radar_rank=3&radar_ranking_date=20260614220057&rssType=5&type=item",
       "latest_source_signal": [
@@ -240,7 +240,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 126,
+      "article_count": 123,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 68,
+      "article_count": 65,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -286,7 +286,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 26,
+      "article_count": 23,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -332,7 +332,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 106,
+      "article_count": 104,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -378,7 +378,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 70,
+      "article_count": 66,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1950,6 +1950,57 @@
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
+      "event_model": "author_event",
+      "title": "휴민트 각본집/류승완 지음/무제",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395547003&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395547003&rssType=1&type=item",
+      "event_at": "2026-06-12T06:49:00+00:00",
+      "isbn": "395547003",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "",
+      "genre": [
+        "에세이",
+        "시",
+        "예술"
+      ],
+      "publisher": [],
+      "book_type": [
+        "시리즈"
+      ],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:395547003",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:c3203f231c80:20260612",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
       "event_model": "award_signal",
       "title": "아코디언/천명관 지음/창비",
       "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395539828&rssType=1&type=item",
@@ -2079,6 +2130,56 @@
       "canonical_key": "book_edition:100638",
       "canonical_key_status": "complete",
       "event_key": "award_signal:1b172bc7359c:20260612",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "박뽕남 할머니의 수상한 외출/윤정 지음, 유영근 그림/내일도맑음",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395520575&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395520575&rssType=1&type=item",
+      "event_at": "2026-06-12T02:28:00+00:00",
+      "isbn": "395520575",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "여행",
+        "어린이",
+        "동화"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:395520575",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:9cd6cce011d6:20260612",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -5684,526 +5785,6 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "Tonight the Music Seems So Loud by Sathnam Sanghera review – a heartbreaking portrait of George Michael",
-      "url": "https://www.theguardian.com/books/2026/jun/02/tonight-the-music-seems-so-loud-by-sathnam-sanghera-review-a-heartbreaking-portrait-of-george-michael",
-      "source_url": "https://www.theguardian.com/books/2026/jun/02/tonight-the-music-seems-so-loud-by-sathnam-sanghera-review-a-heartbreaking-portrait-of-george-michael",
-      "event_at": "2026-06-02T06:00:40+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "award",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "writer"
-      ],
-      "award": [
-        "award"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:title:3e6247524bbc",
-      "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:a5a6ed13dfda:20260602",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "프랑스 아빠, 한국 엄마, 독일 쌍둥이/이연실 지음/향출판사",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394520040&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394520040&rssType=1&type=item",
-      "event_at": "2026-06-02T05:24:00+00:00",
-      "isbn": "394520040",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "도서전",
-      "award_name": "",
-      "genre": [
-        "에세이",
-        "시",
-        "교육",
-        "어린이",
-        "그림책",
-        "육아"
-      ],
-      "publisher": [
-        "출판사"
-      ],
-      "book_type": [],
-      "author": [
-        "작가",
-        "저자"
-      ],
-      "award": [],
-      "book_event": [
-        "도서전"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:394520040",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:370b4b8b7004:20260602",
-      "required_field_proxy": {
-        "author_name": true,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "라키비움 J 12호 : 그림책은 어린이/전은주 외 지음/제이포럼",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394498272&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394498272&rssType=1&type=item",
-      "event_at": "2026-06-02T02:51:00+00:00",
-      "isbn": "394498272",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "도서전",
-      "award_name": "",
-      "genre": [
-        "시",
-        "문학",
-        "인문학",
-        "건강",
-        "교육",
-        "영어",
-        "어린이",
-        "청소년",
-        "그림책"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [],
-      "book_event": [
-        "도서전"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:394498272",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:6c41d1e05e44:20260602",
-      "required_field_proxy": {
-        "author_name": true,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "만일 그대가 나보다 먼저 간다면 (미니 에디션 더 쏙)/허수경 지음/난다",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394497362&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394497362&rssType=1&type=item",
-      "event_at": "2026-06-02T02:42:00+00:00",
-      "isbn": "394497362",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "여행",
-        "동화"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "번역"
-      ],
-      "award": [
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:394497362",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:dc7b704b5b44:20260602",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "할아버지의 한 달/도현순 지음, 고정순 그림/곰세마리",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394494914&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394494914&rssType=1&type=item",
-      "event_at": "2026-06-02T02:35:00+00:00",
-      "isbn": "394494914",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "도서전",
-      "award_name": "",
-      "genre": [
-        "시",
-        "어린이",
-        "그림책"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "도서전"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:394494914",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:981f9305478a:20260602",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "만일 그대가 나보다 먼저 간다면/허수경 지음/난다",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394493838&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394493838&rssType=1&type=item",
-      "event_at": "2026-06-02T02:31:00+00:00",
-      "isbn": "394493838",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "여행",
-        "동화"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "번역"
-      ],
-      "award": [
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:394493838",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:a0f847e0163d:20260602",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "오밀조밀 마을 사전/로트라우트 주자네 베르너 지음, 윤혜정 옮김/윌북주니어",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394487190&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394487190&rssType=1&type=item",
-      "event_at": "2026-06-02T00:57:00+00:00",
-      "isbn": "394487190",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "도서전",
-      "award_name": "수상",
-      "genre": [
-        "문학",
-        "영어",
-        "어린이",
-        "그림책"
-      ],
-      "publisher": [
-        "사계절"
-      ],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [
-        "도서전"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:394487190",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:938fea0e1f29:20260602",
-      "required_field_proxy": {
-        "author_name": true,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "오밀조밀 마을 사전/로트라우트 주자네 베르너 지음, 윤혜정 옮김/윌북주니어",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394487190&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394487190&rssType=1&type=item",
-      "event_at": "2026-06-02T00:57:00+00:00",
-      "isbn": "394487190",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "도서전",
-      "award_name": "수상",
-      "genre": [
-        "문학",
-        "영어",
-        "어린이",
-        "그림책"
-      ],
-      "publisher": [
-        "사계절"
-      ],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [
-        "도서전"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:394487190",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:938fea0e1f29:20260602",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "New York Times Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "28 New Books to Read in June: Ann Patchett, Maggie O’Farrell, Daniel Kraus and More",
-      "url": "https://www.nytimes.com/2026/06/01/books/new-books-june.html",
-      "source_url": "https://www.nytimes.com/2026/06/01/books/new-books-june.html",
-      "event_at": "2026-06-01T17:56:20+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "pulitzer",
-      "genre": [],
-      "publisher": [],
-      "book_type": [
-        "new books"
-      ],
-      "author": [],
-      "award": [
-        "pulitzer",
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:new-york-times-books:6f65546d8824",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:e70e317fbcfd:20260601",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "인류는 정지했습니다/김쿠만 지음/다산책방",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394464148&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394464148&rssType=1&type=item",
-      "event_at": "2026-06-01T07:09:00+00:00",
-      "isbn": "394464148",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "문학상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "과학"
-      ],
-      "publisher": [],
-      "book_type": [
-        "시리즈"
-      ],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "문학상",
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:394464148",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:d54fe962ad1d:20260601",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
       "title": "‘I refuse to be a second-class citizen in my own land’: Taiwanese International Booker winner Yáng Shuāng-zǐ",
       "url": "https://www.theguardian.com/books/2026/may/21/yang-shuang-zi-interview-lin-king-taiwan-travelogue-international-booker",
       "source_url": "https://www.theguardian.com/books/2026/may/21/yang-shuang-zi-interview-lin-king-taiwan-travelogue-international-booker",
@@ -6339,6 +5920,52 @@
         "source_url": true
       },
       "required_field_gaps": []
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Tonight the Music Seems So Loud by Sathnam Sanghera review – a heartbreaking portrait of George Michael",
+      "url": "https://www.theguardian.com/books/2026/jun/02/tonight-the-music-seems-so-loud-by-sathnam-sanghera-review-a-heartbreaking-portrait-of-george-michael",
+      "source_url": "https://www.theguardian.com/books/2026/jun/02/tonight-the-music-seems-so-loud-by-sathnam-sanghera-review-a-heartbreaking-portrait-of-george-michael",
+      "event_at": "2026-06-02T06:00:40+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "writer"
+      ],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:3e6247524bbc",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:a5a6ed13dfda:20260602",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
     },
     {
       "source": "알라딘 베스트셀러",
@@ -7245,6 +6872,480 @@
       ]
     },
     {
+      "source": "New York Times Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "28 New Books to Read in June: Ann Patchett, Maggie O’Farrell, Daniel Kraus and More",
+      "url": "https://www.nytimes.com/2026/06/01/books/new-books-june.html",
+      "source_url": "https://www.nytimes.com/2026/06/01/books/new-books-june.html",
+      "event_at": "2026-06-01T17:56:20+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "pulitzer",
+      "genre": [],
+      "publisher": [],
+      "book_type": [
+        "new books"
+      ],
+      "author": [],
+      "award": [
+        "pulitzer",
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:new-york-times-books:6f65546d8824",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:e70e317fbcfd:20260601",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "프랑스 아빠, 한국 엄마, 독일 쌍둥이/이연실 지음/향출판사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394520040&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394520040&rssType=1&type=item",
+      "event_at": "2026-06-02T05:24:00+00:00",
+      "isbn": "394520040",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "",
+      "genre": [
+        "에세이",
+        "시",
+        "교육",
+        "어린이",
+        "그림책",
+        "육아"
+      ],
+      "publisher": [
+        "출판사"
+      ],
+      "book_type": [],
+      "author": [
+        "작가",
+        "저자"
+      ],
+      "award": [],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394520040",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:370b4b8b7004:20260602",
+      "required_field_proxy": {
+        "author_name": true,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "라키비움 J 12호 : 그림책은 어린이/전은주 외 지음/제이포럼",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394498272&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394498272&rssType=1&type=item",
+      "event_at": "2026-06-02T02:51:00+00:00",
+      "isbn": "394498272",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "",
+      "genre": [
+        "시",
+        "문학",
+        "인문학",
+        "건강",
+        "교육",
+        "영어",
+        "어린이",
+        "청소년",
+        "그림책"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394498272",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:6c41d1e05e44:20260602",
+      "required_field_proxy": {
+        "author_name": true,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "만일 그대가 나보다 먼저 간다면 (미니 에디션 더 쏙)/허수경 지음/난다",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394497362&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394497362&rssType=1&type=item",
+      "event_at": "2026-06-02T02:42:00+00:00",
+      "isbn": "394497362",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "여행",
+        "동화"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "번역"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394497362",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:dc7b704b5b44:20260602",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "할아버지의 한 달/도현순 지음, 고정순 그림/곰세마리",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394494914&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394494914&rssType=1&type=item",
+      "event_at": "2026-06-02T02:35:00+00:00",
+      "isbn": "394494914",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "",
+      "genre": [
+        "시",
+        "어린이",
+        "그림책"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394494914",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:981f9305478a:20260602",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "만일 그대가 나보다 먼저 간다면/허수경 지음/난다",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394493838&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394493838&rssType=1&type=item",
+      "event_at": "2026-06-02T02:31:00+00:00",
+      "isbn": "394493838",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "여행",
+        "동화"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "번역"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394493838",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:a0f847e0163d:20260602",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "오밀조밀 마을 사전/로트라우트 주자네 베르너 지음, 윤혜정 옮김/윌북주니어",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394487190&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394487190&rssType=1&type=item",
+      "event_at": "2026-06-02T00:57:00+00:00",
+      "isbn": "394487190",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "수상",
+      "genre": [
+        "문학",
+        "영어",
+        "어린이",
+        "그림책"
+      ],
+      "publisher": [
+        "사계절"
+      ],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394487190",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:938fea0e1f29:20260602",
+      "required_field_proxy": {
+        "author_name": true,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "오밀조밀 마을 사전/로트라우트 주자네 베르너 지음, 윤혜정 옮김/윌북주니어",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394487190&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394487190&rssType=1&type=item",
+      "event_at": "2026-06-02T00:57:00+00:00",
+      "isbn": "394487190",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "수상",
+      "genre": [
+        "문학",
+        "영어",
+        "어린이",
+        "그림책"
+      ],
+      "publisher": [
+        "사계절"
+      ],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394487190",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:938fea0e1f29:20260602",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "인류는 정지했습니다/김쿠만 지음/다산책방",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394464148&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394464148&rssType=1&type=item",
+      "event_at": "2026-06-01T07:09:00+00:00",
+      "isbn": "394464148",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "문학상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "과학"
+      ],
+      "publisher": [],
+      "book_type": [
+        "시리즈"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "문학상",
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:394464148",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:d54fe962ad1d:20260601",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
       "source": "알라딘 신간",
       "source_type": "rss",
       "trust_tier": "T1_official",
@@ -7500,157 +7601,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "요아킴 트리에의 영화/요아킴 트리에 지음, 안네 옐스비크 글, 강탄우 옮김/코프키노",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394263444&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394263444&rssType=1&type=item",
-      "event_at": "2026-05-29T07:16:00+00:00",
-      "isbn": "394263444",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "과학",
-        "예술"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가",
-        "데뷔"
-      ],
-      "award": [
-        "수상",
-        "후보"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:394263444",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:6d137c8ddecc:20260529",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "사건/아니 에르노 지음, 윤석헌 옮김/민음사",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394240791&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394240791&rssType=1&type=item",
-      "event_at": "2026-05-29T02:57:00+00:00",
-      "isbn": "394240791",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "에세이",
-        "문학",
-        "과학",
-        "역사"
-      ],
-      "publisher": [
-        "민음사"
-      ],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:394240791",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:5b04214a0cbf:20260529",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "얼음산 빙수 가게 (여름 에디션)/정현진 지음/올리",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394238626&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394238626&rssType=1&type=item",
-      "event_at": "2026-05-29T02:26:00+00:00",
-      "isbn": "394238626",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "시",
-        "과학",
-        "그림책"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:394238626",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:e210fb089cce:20260529",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
@@ -7721,6 +7671,16 @@
       "source": "The Guardian Books",
       "title": "‘We can’t give up on Afghans’: Lyse Doucet on the remarkable ‘people’s history’ that won her the Women’s prize",
       "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "알라딘 신간",
+      "title": "휴민트 각본집/류승완 지음/무제",
+      "canonical_key": "book_edition:395547003",
+      "required_field_gaps": [
+        "author_name"
+      ]
     },
     {
       "reason": "missing_required_fields",
@@ -8017,50 +7977,6 @@
       "reason": "missing_required_fields",
       "event_model": "award_signal",
       "source": "The Guardian Books",
-      "title": "Tonight the Music Seems So Loud by Sathnam Sanghera review – a heartbreaking portrait of George Michael",
-      "canonical_key": "book_edition:title:3e6247524bbc",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "Tonight the Music Seems So Loud by Sathnam Sanghera review – a heartbreaking portrait of George Michael",
-      "canonical_key_status": "title_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "알라딘 신간",
-      "title": "할아버지의 한 달/도현순 지음, 고정순 그림/곰세마리",
-      "canonical_key": "book_edition:394494914",
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "28 New Books to Read in June: Ann Patchett, Maggie O’Farrell, Daniel Kraus and More",
-      "canonical_key": "book_source:new-york-times-books:6f65546d8824",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "28 New Books to Read in June: Ann Patchett, Maggie O’Farrell, Daniel Kraus and More",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
       "title": "‘I refuse to be a second-class citizen in my own land’: Taiwanese International Booker winner Yáng Shuāng-zǐ",
       "canonical_key": "book_edition:title:1a41e3993fd1",
       "required_field_gaps": [
@@ -8090,6 +8006,40 @@
       "source": "The Guardian Books",
       "title": "‘I’m so grateful I got to live these days’: A Ghost in the Throat author Doireann Ní Ghríofa on recovering from depression",
       "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Tonight the Music Seems So Loud by Sathnam Sanghera review – a heartbreaking portrait of George Michael",
+      "canonical_key": "book_edition:title:3e6247524bbc",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Tonight the Music Seems So Loud by Sathnam Sanghera review – a heartbreaking portrait of George Michael",
+      "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Submissions open for 4thWrite short story prize",
+      "canonical_key": "book_source:the-guardian-books:98feca2975d5",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Submissions open for 4thWrite short story prize",
+      "canonical_key_status": "source_proxy"
     }
   ],
   "source_backlog": {
