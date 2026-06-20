@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-06-19T06:22:56.352483+00:00",
+  "generated_at": "2026-06-20T05:16:36.385993+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -19,17 +19,17 @@
     "author_event_events": 14,
     "award_signal_events": 81,
     "book_signal_event_count": 140,
-    "official_or_operational_event_count": 110,
+    "official_or_operational_event_count": 111,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 117,
-    "proxy_canonical_key_count": 23,
+    "complete_canonical_key_count": 118,
+    "proxy_canonical_key_count": 22,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 117,
-    "author_present_count": 78,
-    "publisher_present_count": 37,
-    "rank_present_count": 60,
+    "isbn_present_count": 118,
+    "author_present_count": 81,
+    "publisher_present_count": 38,
+    "rank_present_count": 61,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 32,
+    "event_required_field_gap_count": 29,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 293,
+      "article_count": 296,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 45,
       "event_count": 45,
       "latest_event_at": "2026-06-14T22:00:57+00:00",
-      "age_days": 4.35,
+      "age_days": 5.3,
       "latest_title": "3위 장송의 프리렌 15 (한정판)",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395444467&radar_rank=3&radar_ranking_date=20260614220057&rssType=5&type=item",
       "latest_source_signal": [
@@ -240,7 +240,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 113,
+      "article_count": 122,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -286,7 +286,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 24,
+      "article_count": 25,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -332,7 +332,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 104,
+      "article_count": 107,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -378,7 +378,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 66,
+      "article_count": 64,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -781,6 +781,266 @@
     }
   ],
   "events": [
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "그만두지 않는 독서/김승호 지음/엑스북스(xbooks)",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396098920&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396098920&rssType=1&type=item",
+      "event_at": "2026-06-18T07:33:00+00:00",
+      "isbn": "396098920",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "독서모임",
+      "award_name": "",
+      "genre": [
+        "에세이",
+        "시",
+        "문학",
+        "인문학"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "저자"
+      ],
+      "award": [],
+      "book_event": [
+        "독서모임",
+        "북클럽"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:396098920",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:36ddcee63baf:20260618",
+      "required_field_proxy": {
+        "author_name": true,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "조폭 감독/허미래 지음/밥북",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396092977&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396092977&rssType=1&type=item",
+      "event_at": "2026-06-18T06:39:00+00:00",
+      "isbn": "396092977",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "작가와의 만남",
+      "award_name": "",
+      "genre": [
+        "시",
+        "예술"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [],
+      "book_event": [
+        "작가와의 만남"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:396092977",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:cb941d856659:20260618",
+      "required_field_proxy": {
+        "author_name": true,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "기억을 태우다/찬와이 지음, 배문주 옮김/민음사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396087560&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396087560&rssType=1&type=item",
+      "event_at": "2026-06-18T05:55:00+00:00",
+      "isbn": "396087560",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "역사",
+        "여행",
+        "개발",
+        "로맨스"
+      ],
+      "publisher": [
+        "민음사"
+      ],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:396087560",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:74bbf2ec9962:20260618",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "기억을 지키다/찬와이 지음, 배문주 옮김/민음사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396086216&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396086216&rssType=1&type=item",
+      "event_at": "2026-06-18T05:44:00+00:00",
+      "isbn": "396086216",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "역사"
+      ],
+      "publisher": [
+        "민음사"
+      ],
+      "book_type": [
+        "초판"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:396086216",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:9300fea9db99:20260618",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "예민한 날엔 화학을 삼킨다/장홍제 지음/휴머니스트",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396069258&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396069258&rssType=1&type=item",
+      "event_at": "2026-06-18T03:10:00+00:00",
+      "isbn": "396069258",
+      "rank": 1,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "강연",
+      "award_name": "",
+      "genre": [
+        "시",
+        "과학"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "강연"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:396069258",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:d6316eb2ad8c:20260618",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
     {
       "source": "알라딘 신간",
       "source_type": "rss",
@@ -5904,143 +6164,6 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "The best recent poetry – review roundup",
-      "url": "https://www.theguardian.com/books/2026/jun/05/the-best-recent-poetry-review-roundup",
-      "source_url": "https://www.theguardian.com/books/2026/jun/05/the-best-recent-poetry-review-roundup",
-      "event_at": "2026-06-05T11:00:33+00:00",
-      "isbn": "9781526683380",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "winner",
-      "genre": [
-        "poetry"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:9781526683380",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:6c7fdf92e08f:20260605",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "Book Riot",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "The Late Stan Lee’s Voice and Likeness Being Resurrected by AI",
-      "url": "https://bookriot.com/stan-lees-likeness-resurrected-by-ai",
-      "source_url": "https://bookriot.com/stan-lees-likeness-resurrected-by-ai",
-      "event_at": "2026-06-05T10:11:00+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "award",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "award"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_source:book-riot:fea98fd376d3",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:6415ba706b8f:20260605",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "넘버블록스 매직 워터 매트/펭귄랜덤하우스코리아 편집부 지음/펭귄랜덤하우스코리아",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395017796&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395017796&rssType=1&type=item",
-      "event_at": "2026-06-05T08:21:00+00:00",
-      "isbn": "395017796",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "예술",
-        "교육"
-      ],
-      "publisher": [],
-      "book_type": [
-        "시리즈"
-      ],
-      "author": [],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:395017796",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:db4eed4039ed:20260605",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
       "title": "‘I refuse to be a second-class citizen in my own land’: Taiwanese International Booker winner Yáng Shuāng-zǐ",
       "url": "https://www.theguardian.com/books/2026/may/21/yang-shuang-zi-interview-lin-king-taiwan-travelogue-international-booker",
       "source_url": "https://www.theguardian.com/books/2026/may/21/yang-shuang-zi-interview-lin-king-taiwan-travelogue-international-booker",
@@ -6186,6 +6309,50 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
+      "title": "The best recent poetry – review roundup",
+      "url": "https://www.theguardian.com/books/2026/jun/05/the-best-recent-poetry-review-roundup",
+      "source_url": "https://www.theguardian.com/books/2026/jun/05/the-best-recent-poetry-review-roundup",
+      "event_at": "2026-06-05T11:00:33+00:00",
+      "isbn": "9781526683380",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "winner",
+      "genre": [
+        "poetry"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:9781526683380",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:6c7fdf92e08f:20260605",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
       "title": "Tonight the Music Seems So Loud by Sathnam Sanghera review – a heartbreaking portrait of George Michael",
       "url": "https://www.theguardian.com/books/2026/jun/02/tonight-the-music-seems-so-loud-by-sathnam-sanghera-review-a-heartbreaking-portrait-of-george-michael",
       "source_url": "https://www.theguardian.com/books/2026/jun/02/tonight-the-music-seems-so-loud-by-sathnam-sanghera-review-a-heartbreaking-portrait-of-george-michael",
@@ -6266,6 +6433,55 @@
       "required_field_gaps": [
         "isbn"
       ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "넘버블록스 매직 워터 매트/펭귄랜덤하우스코리아 편집부 지음/펭귄랜덤하우스코리아",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395017796&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395017796&rssType=1&type=item",
+      "event_at": "2026-06-05T08:21:00+00:00",
+      "isbn": "395017796",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "예술",
+        "교육"
+      ],
+      "publisher": [],
+      "book_type": [
+        "시리즈"
+      ],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:395017796",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:db4eed4039ed:20260605",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "알라딘 신간",
@@ -6537,6 +6753,50 @@
         "source_url": true
       },
       "required_field_gaps": []
+    },
+    {
+      "source": "Book Riot",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "The Late Stan Lee’s Voice and Likeness Being Resurrected by AI",
+      "url": "https://bookriot.com/stan-lees-likeness-resurrected-by-ai",
+      "source_url": "https://bookriot.com/stan-lees-likeness-resurrected-by-ai",
+      "event_at": "2026-06-05T10:11:00+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:book-riot:fea98fd376d3",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:6415ba706b8f:20260605",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
     },
     {
       "source": "알라딘 신간",
@@ -7450,261 +7710,19 @@
         "retailer": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Submissions open for 4thWrite short story prize",
-      "url": "https://www.theguardian.com/books/2026/may/29/submissions-open-for-4thwrite-short-story-prize-for-writers-of-colour",
-      "source_url": "https://www.theguardian.com/books/2026/may/29/submissions-open-for-4thwrite-short-story-prize-for-writers-of-colour",
-      "event_at": "2026-05-29T11:00:48+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "winner",
-      "genre": [],
-      "publisher": [
-        "publisher"
-      ],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:the-guardian-books:98feca2975d5",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:75839e7b81a9:20260529",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "건축무한육면각체의 비밀 1/장용민 지음/재담",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394796002&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394796002&rssType=1&type=item",
-      "event_at": "2026-06-04T07:04:00+00:00",
-      "isbn": "394796002",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "역사",
-        "스릴러"
-      ],
-      "publisher": [],
-      "book_type": [
-        "신간",
-        "개정판"
-      ],
-      "author": [
-        "작가",
-        "데뷔"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:394796002",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:22dbbf3a7350:20260604",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "안녕, 나는 금성이야!/스테이시 매카널티 지음, 스티비 루이스 그림, 조은영 옮김/현암주니어",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394704538&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394704538&rssType=1&type=item",
-      "event_at": "2026-06-04T02:54:00+00:00",
-      "isbn": "394704538",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "도서전",
-      "award_name": "",
-      "genre": [
-        "시",
-        "과학",
-        "어린이",
-        "그림책"
-      ],
-      "publisher": [],
-      "book_type": [
-        "시리즈"
-      ],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "도서전"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:394704538",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:d99efef61e42:20260604",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "솔품씨의 대단한 하루/김상균 지음/국민서관",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394703366&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394703366&rssType=1&type=item",
-      "event_at": "2026-06-04T02:48:00+00:00",
-      "isbn": "394703366",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "도서전",
-      "award_name": "",
-      "genre": [
-        "시",
-        "어린이",
-        "그림책"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "도서전"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:394703366",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:459a37b7a52f:20260604",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "장난감이 되고 싶은 당근/이와카미 아이 지음, 고향옥 옮김/길벗스쿨",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394700272&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394700272&rssType=1&type=item",
-      "event_at": "2026-06-04T02:09:00+00:00",
-      "isbn": "394700272",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "도서전",
-      "award_name": "",
-      "genre": [
-        "시",
-        "어린이",
-        "그림책"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "도서전"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:394700272",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:1065ed49de07:20260604",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
-      ]
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "알라딘 신간",
+      "title": "예민한 날엔 화학을 삼킨다/장홍제 지음/휴머니스트",
+      "canonical_key": "book_edition:396069258",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "author_event",
@@ -8057,23 +8075,6 @@
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "The Late Stan Lee’s Voice and Likeness Being Resurrected by AI",
-      "canonical_key": "book_source:book-riot:fea98fd376d3",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "The Late Stan Lee’s Voice and Likeness Being Resurrected by AI",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
       "source": "The Guardian Books",
       "title": "‘I refuse to be a second-class citizen in my own land’: Taiwanese International Booker winner Yáng Shuāng-zǐ",
       "canonical_key": "book_edition:title:1a41e3993fd1",
@@ -8138,6 +8139,16 @@
       "source": "New York Times Books",
       "title": "Caissie Levy, Tony Awards Contender and ‘Ragtime’ Star, Is Having a Moment",
       "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "The Late Stan Lee’s Voice and Likeness Being Resurrected by AI",
+      "canonical_key": "book_source:book-riot:fea98fd376d3",
+      "required_field_gaps": [
+        "isbn"
+      ]
     }
   ],
   "source_backlog": {
