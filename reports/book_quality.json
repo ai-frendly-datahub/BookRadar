@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-06-22T06:31:14.007956+00:00",
+  "generated_at": "2026-06-23T05:06:38.809069+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,20 +16,20 @@
     "collection_error_count": 0,
     "sales_ranking_events": 45,
     "library_lending_events": 0,
-    "author_event_events": 15,
-    "award_signal_events": 82,
-    "book_signal_event_count": 142,
+    "author_event_events": 16,
+    "award_signal_events": 83,
+    "book_signal_event_count": 144,
     "official_or_operational_event_count": 113,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 120,
-    "proxy_canonical_key_count": 22,
+    "complete_canonical_key_count": 121,
+    "proxy_canonical_key_count": 23,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 120,
-    "author_present_count": 87,
+    "isbn_present_count": 121,
+    "author_present_count": 88,
     "publisher_present_count": 45,
     "rank_present_count": 60,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 29,
+    "event_required_field_gap_count": 31,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
@@ -75,7 +75,7 @@
       "article_count": 45,
       "event_count": 45,
       "latest_event_at": "2026-06-21T22:00:40+00:00",
-      "age_days": 0.35,
+      "age_days": 1.3,
       "latest_title": "11위 신 퇴마록 신세편 3",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396140676&radar_rank=11&radar_ranking_date=20260621220040&rssType=5&type=item",
       "latest_source_signal": [
@@ -240,7 +240,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 112,
+      "article_count": 117,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 70,
+      "article_count": 75,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -286,7 +286,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 28,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -309,7 +309,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 92,
+      "article_count": 102,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -332,7 +332,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 102,
+      "article_count": 108,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -378,7 +378,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 65,
+      "article_count": 66,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -781,6 +781,100 @@
     }
   ],
   "events": [
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Richer than Musk: Joyce Carol Oates on her 88 years of watching, writing, feeling and loving",
+      "url": "https://www.theguardian.com/books/2026/jun/22/joyce-carol-oates-richer-than-elon-musk-interview",
+      "source_url": "https://www.theguardian.com/books/2026/jun/22/joyce-carol-oates-richer-than-elon-musk-interview",
+      "event_at": "2026-06-22T04:00:49+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "pulitzer",
+      "genre": [
+        "memoir"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author",
+        "writer"
+      ],
+      "award": [
+        "pulitzer",
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:8323bc10b26f",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:2a92c204c4be:20260622",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Publishers Weekly",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "Beijing International Book Fair Highlights Digital Publishing, Cross-Media Adaptations",
+      "url": "http://www.publishersweekly.com/pw/by-topic/international/trade-shows/article/100677-beijing-2026-focuses-on-publishing-transformation-ai-and-reading.html",
+      "source_url": "http://www.publishersweekly.com/pw/by-topic/international/trade-shows/article/100677-beijing-2026-focuses-on-publishing-transformation-ai-and-reading.html",
+      "event_at": "2026-06-22T04:00:00+00:00",
+      "isbn": "100677",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "book fair",
+      "award_name": "",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "book fair"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:100677",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:2977e8687c63:20260622",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
     {
       "source": "알라딘 베스트셀러",
       "source_type": "rss",
@@ -5568,394 +5662,6 @@
       "required_field_gaps": []
     },
     {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "수상한 이웃집 시노다 9/도미야스 요코 지음, 오바 켄야 그림, 송지현 옮김/다산어린이",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395260266&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395260266&rssType=1&type=item",
-      "event_at": "2026-06-09T04:41:00+00:00",
-      "isbn": "395260266",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "여행",
-        "어린이",
-        "동화"
-      ],
-      "publisher": [],
-      "book_type": [
-        "베스트셀러",
-        "시리즈"
-      ],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:395260266",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:e40abb230032:20260609",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "거짓말의 색깔/김화요 지음, 다나 그림/오늘책",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395251184&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395251184&rssType=1&type=item",
-      "event_at": "2026-06-09T03:13:00+00:00",
-      "isbn": "395251184",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "시",
-        "교육",
-        "어린이",
-        "청소년",
-        "그림책",
-        "동화"
-      ],
-      "publisher": [],
-      "book_type": [
-        "추천도서"
-      ],
-      "author": [],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:395251184",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:4ad133b8f518:20260609",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "한여름의 노이즈/김현철 외 지음/황금가지",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395241340&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395241340&rssType=1&type=item",
-      "event_at": "2026-06-09T01:23:00+00:00",
-      "isbn": "395241340",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "문학상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "추리"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:395241340",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:c69e31e04aaa:20260609",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "AI 에이전트 실행 세계 2 : 설계편/조쉬(이주환) 지음/로드북",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395237119&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395237119&rssType=1&type=item",
-      "event_at": "2026-06-09T00:06:00+00:00",
-      "isbn": "395237119",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "후보",
-      "genre": [
-        "시",
-        "컴퓨터"
-      ],
-      "publisher": [],
-      "book_type": [
-        "완결"
-      ],
-      "author": [
-        "저자"
-      ],
-      "award": [
-        "후보"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:395237119",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:d70413aedf68:20260609",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "New York Times Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Robert Coles, Pulitzer-Winning Child Psychiatrist, Is Dead at 97",
-      "url": "https://www.nytimes.com/2026/06/07/us/robert-coles-dead.html",
-      "source_url": "https://www.nytimes.com/2026/06/07/us/robert-coles-dead.html",
-      "event_at": "2026-06-08T20:58:45+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "pulitzer",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "pulitzer"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:new-york-times-books:faa4dfc87ad8",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:7262b7c1ee26:20260608",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "Book Riot",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "The Nebula and Bram Stoker Award Winners Have Been Announced",
-      "url": "https://bookriot.com/nebula-and-bram-stoker-award-winners-have-been-announced",
-      "source_url": "https://bookriot.com/nebula-and-bram-stoker-award-winners-have-been-announced",
-      "event_at": "2026-06-08T20:14:48+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "nebula",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "nebula",
-        "award"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_source:book-riot:d0bc18763859",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:ef78f86dd6cd:20260608",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "Literary Hub",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Here are the winners of the 61st Annual Nebula Awards.",
-      "url": "https://lithub.com/here-are-the-winners-of-the-61st-annual-nebula-awards",
-      "source_url": "https://lithub.com/here-are-the-winners-of-the-61st-annual-nebula-awards",
-      "event_at": "2026-06-08T13:27:29+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "nebula",
-      "genre": [
-        "fiction",
-        "fantasy"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "nebula"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:literary-hub:6db756d785e1",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:276f1e2bee63:20260608",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "Literary Hub",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Silent Springs, Windswept Seas: On the Environmental Vision of Rachel Carson",
-      "url": "https://lithub.com/silent-springs-windswept-seas-on-the-environmental-vision-of-rachel-carson",
-      "source_url": "https://lithub.com/silent-springs-windswept-seas-on-the-environmental-vision-of-rachel-carson",
-      "event_at": "2026-06-08T08:59:59+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "award",
-      "genre": [
-        "poetry"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "author"
-      ],
-      "award": [
-        "award"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:title:3b385321332c",
-      "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:c65f58c4c85f:20260608",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -5964,92 +5670,34 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "Villa Coco by Andrew Sean Greer review – fun in the Tuscan sun",
-      "url": "https://www.theguardian.com/books/2026/jun/08/villa-coco-by-andrew-sean-greer-review-fun-in-the-tuscan-sun",
-      "source_url": "https://www.theguardian.com/books/2026/jun/08/villa-coco-by-andrew-sean-greer-review-fun-in-the-tuscan-sun",
-      "event_at": "2026-06-08T08:00:03+00:00",
-      "isbn": "",
+      "title": "Children and teens roundup – the best new picture books and novels",
+      "url": "https://www.theguardian.com/books/2026/apr/24/children-and-teens-roundup-the-best-new-picture-books-and-novels",
+      "source_url": "https://www.theguardian.com/books/2026/apr/24/children-and-teens-roundup-the-best-new-picture-books-and-novels",
+      "event_at": "2026-04-24T11:00:39+00:00",
+      "isbn": "9781646866311",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
       "venue": "",
-      "award_name": "pulitzer",
+      "award_name": "winner",
       "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "author"
+      "publisher": [
+        "publisher"
       ],
+      "book_type": [],
+      "author": [],
       "award": [
-        "pulitzer"
+        "winner"
       ],
       "book_event": [],
       "source_signal": [
         "book_review_source",
         "editorial_coverage"
       ],
-      "canonical_key": "book_edition:title:bc5fa630d790",
-      "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:03bd9dba2723:20260608",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "야생의 눈과 눈 안쪽의 야생/김리윤 지음/문학과지성사",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395199979&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395199979&rssType=1&type=item",
-      "event_at": "2026-06-08T07:15:00+00:00",
-      "isbn": "395199979",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "인문학"
-      ],
-      "publisher": [
-        "문학과지성사"
-      ],
-      "book_type": [
-        "완결"
-      ],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:395199979",
+      "canonical_key": "book_edition:9781646866311",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:358c85da866d:20260608",
+      "event_key": "award_signal:6ea6cfdca6b6:20260424",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -6118,50 +5766,6 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "Children and teens roundup – the best new picture books and novels",
-      "url": "https://www.theguardian.com/books/2026/apr/24/children-and-teens-roundup-the-best-new-picture-books-and-novels",
-      "source_url": "https://www.theguardian.com/books/2026/apr/24/children-and-teens-roundup-the-best-new-picture-books-and-novels",
-      "event_at": "2026-04-24T11:00:39+00:00",
-      "isbn": "9781646866311",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "winner",
-      "genre": [],
-      "publisher": [
-        "publisher"
-      ],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:9781646866311",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:6ea6cfdca6b6:20260424",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
       "title": "‘I’m so grateful I got to live these days’: A Ghost in the Throat author Doireann Ní Ghríofa on recovering from depression",
       "url": "https://www.theguardian.com/books/2026/may/16/im-so-grateful-i-got-to-live-these-days-a-ghost-in-the-throat-author-doireann-ni-ghriofa-on-recovering-from-depression",
       "source_url": "https://www.theguardian.com/books/2026/may/16/im-so-grateful-i-got-to-live-these-days-a-ghost-in-the-throat-author-doireann-ni-ghriofa-on-recovering-from-depression",
@@ -6193,6 +5797,96 @@
       "canonical_key": "book_edition:title:9b0ab879e2e1",
       "canonical_key_status": "title_proxy",
       "event_key": "award_signal:e61e7ba8c474:20260516",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Villa Coco by Andrew Sean Greer review – fun in the Tuscan sun",
+      "url": "https://www.theguardian.com/books/2026/jun/08/villa-coco-by-andrew-sean-greer-review-fun-in-the-tuscan-sun",
+      "source_url": "https://www.theguardian.com/books/2026/jun/08/villa-coco-by-andrew-sean-greer-review-fun-in-the-tuscan-sun",
+      "event_at": "2026-06-08T08:00:03+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "pulitzer",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author"
+      ],
+      "award": [
+        "pulitzer"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:bc5fa630d790",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:03bd9dba2723:20260608",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "New York Times Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Robert Coles, Pulitzer-Winning Child Psychiatrist, Is Dead at 97",
+      "url": "https://www.nytimes.com/2026/06/07/us/robert-coles-dead.html",
+      "source_url": "https://www.nytimes.com/2026/06/07/us/robert-coles-dead.html",
+      "event_at": "2026-06-08T20:58:45+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "pulitzer",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "pulitzer"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:new-york-times-books:faa4dfc87ad8",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:7262b7c1ee26:20260608",
       "required_field_proxy": {
         "isbn": false,
         "award_name": true,
@@ -7276,6 +6970,210 @@
       ]
     },
     {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "수상한 이웃집 시노다 9/도미야스 요코 지음, 오바 켄야 그림, 송지현 옮김/다산어린이",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395260266&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395260266&rssType=1&type=item",
+      "event_at": "2026-06-09T04:41:00+00:00",
+      "isbn": "395260266",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "여행",
+        "어린이",
+        "동화"
+      ],
+      "publisher": [],
+      "book_type": [
+        "베스트셀러",
+        "시리즈"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:395260266",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:e40abb230032:20260609",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "거짓말의 색깔/김화요 지음, 다나 그림/오늘책",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395251184&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395251184&rssType=1&type=item",
+      "event_at": "2026-06-09T03:13:00+00:00",
+      "isbn": "395251184",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "시",
+        "교육",
+        "어린이",
+        "청소년",
+        "그림책",
+        "동화"
+      ],
+      "publisher": [],
+      "book_type": [
+        "추천도서"
+      ],
+      "author": [],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:395251184",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:4ad133b8f518:20260609",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "한여름의 노이즈/김현철 외 지음/황금가지",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395241340&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395241340&rssType=1&type=item",
+      "event_at": "2026-06-09T01:23:00+00:00",
+      "isbn": "395241340",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "문학상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "추리"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:395241340",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:c69e31e04aaa:20260609",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "AI 에이전트 실행 세계 2 : 설계편/조쉬(이주환) 지음/로드북",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395237119&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395237119&rssType=1&type=item",
+      "event_at": "2026-06-09T00:06:00+00:00",
+      "isbn": "395237119",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "후보",
+      "genre": [
+        "시",
+        "컴퓨터"
+      ],
+      "publisher": [],
+      "book_type": [
+        "완결"
+      ],
+      "author": [
+        "저자"
+      ],
+      "award": [
+        "후보"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:395237119",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:d70413aedf68:20260609",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
       "source": "New York Times Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -7318,6 +7216,62 @@
       "required_field_gaps": [
         "isbn"
       ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "야생의 눈과 눈 안쪽의 야생/김리윤 지음/문학과지성사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395199979&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395199979&rssType=1&type=item",
+      "event_at": "2026-06-08T07:15:00+00:00",
+      "isbn": "395199979",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "인문학"
+      ],
+      "publisher": [
+        "문학과지성사"
+      ],
+      "book_type": [
+        "완결"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:395199979",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:358c85da866d:20260608",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "알라딘 신간",
@@ -7527,6 +7481,146 @@
         "source_url": true
       },
       "required_field_gaps": []
+    },
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Silent Springs, Windswept Seas: On the Environmental Vision of Rachel Carson",
+      "url": "https://lithub.com/silent-springs-windswept-seas-on-the-environmental-vision-of-rachel-carson",
+      "source_url": "https://lithub.com/silent-springs-windswept-seas-on-the-environmental-vision-of-rachel-carson",
+      "event_at": "2026-06-08T08:59:59+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [
+        "poetry"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author"
+      ],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:3b385321332c",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:c65f58c4c85f:20260608",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Here are the winners of the 61st Annual Nebula Awards.",
+      "url": "https://lithub.com/here-are-the-winners-of-the-61st-annual-nebula-awards",
+      "source_url": "https://lithub.com/here-are-the-winners-of-the-61st-annual-nebula-awards",
+      "event_at": "2026-06-08T13:27:29+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "nebula",
+      "genre": [
+        "fiction",
+        "fantasy"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "nebula"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:literary-hub:6db756d785e1",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:276f1e2bee63:20260608",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Book Riot",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "The Nebula and Bram Stoker Award Winners Have Been Announced",
+      "url": "https://bookriot.com/nebula-and-bram-stoker-award-winners-have-been-announced",
+      "source_url": "https://bookriot.com/nebula-and-bram-stoker-award-winners-have-been-announced",
+      "event_at": "2026-06-08T20:14:48+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "nebula",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "nebula",
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:book-riot:d0bc18763859",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:ef78f86dd6cd:20260608",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
     },
     {
       "source": "알라딘 신간",
@@ -7854,6 +7948,33 @@
       "reason": "missing_required_fields",
       "event_model": "award_signal",
       "source": "The Guardian Books",
+      "title": "Richer than Musk: Joyce Carol Oates on her 88 years of watching, writing, feeling and loving",
+      "canonical_key": "book_edition:title:8323bc10b26f",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Richer than Musk: Joyce Carol Oates on her 88 years of watching, writing, feeling and loving",
+      "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "Publishers Weekly",
+      "title": "Beijing International Book Fair Highlights Digital Publishing, Cross-Media Adaptations",
+      "canonical_key": "book_edition:100677",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
       "title": "Granta stops publishing short story award winners over AI controversy",
       "canonical_key": "book_source:the-guardian-books:ab9facf0aa77",
       "required_field_gaps": [
@@ -8134,91 +8255,6 @@
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "Robert Coles, Pulitzer-Winning Child Psychiatrist, Is Dead at 97",
-      "canonical_key": "book_source:new-york-times-books:faa4dfc87ad8",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "Robert Coles, Pulitzer-Winning Child Psychiatrist, Is Dead at 97",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "The Nebula and Bram Stoker Award Winners Have Been Announced",
-      "canonical_key": "book_source:book-riot:d0bc18763859",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "The Nebula and Bram Stoker Award Winners Have Been Announced",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Here are the winners of the 61st Annual Nebula Awards.",
-      "canonical_key": "book_source:literary-hub:6db756d785e1",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Here are the winners of the 61st Annual Nebula Awards.",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Silent Springs, Windswept Seas: On the Environmental Vision of Rachel Carson",
-      "canonical_key": "book_edition:title:3b385321332c",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Silent Springs, Windswept Seas: On the Environmental Vision of Rachel Carson",
-      "canonical_key_status": "title_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "Villa Coco by Andrew Sean Greer review – fun in the Tuscan sun",
-      "canonical_key": "book_edition:title:bc5fa630d790",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "Villa Coco by Andrew Sean Greer review – fun in the Tuscan sun",
-      "canonical_key_status": "title_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
       "source": "The Guardian Books",
       "title": "‘I refuse to be a second-class citizen in my own land’: Taiwanese International Booker winner Yáng Shuāng-zǐ",
       "canonical_key": "book_edition:title:1a41e3993fd1",
@@ -8254,6 +8290,40 @@
       "reason": "missing_required_fields",
       "event_model": "award_signal",
       "source": "The Guardian Books",
+      "title": "Villa Coco by Andrew Sean Greer review – fun in the Tuscan sun",
+      "canonical_key": "book_edition:title:bc5fa630d790",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Villa Coco by Andrew Sean Greer review – fun in the Tuscan sun",
+      "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "New York Times Books",
+      "title": "Robert Coles, Pulitzer-Winning Child Psychiatrist, Is Dead at 97",
+      "canonical_key": "book_source:new-york-times-books:faa4dfc87ad8",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "New York Times Books",
+      "title": "Robert Coles, Pulitzer-Winning Child Psychiatrist, Is Dead at 97",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
       "title": "Tonight the Music Seems So Loud by Sathnam Sanghera review – a heartbreaking portrait of George Michael",
       "canonical_key": "book_edition:title:3e6247524bbc",
       "required_field_gaps": [
@@ -8283,6 +8353,33 @@
       "source": "New York Times Books",
       "title": "Caissie Levy, Tony Awards Contender and ‘Ragtime’ Star, Is Having a Moment",
       "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "알라딘 신간",
+      "title": "미디엄 핫: 발열 시대의 이미지/히토 슈타이얼 지음, 이계성 옮김/워크룸프레스",
+      "canonical_key": "book_edition:395193595",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Silent Springs, Windswept Seas: On the Environmental Vision of Rachel Carson",
+      "canonical_key": "book_edition:title:3b385321332c",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Silent Springs, Windswept Seas: On the Environmental Vision of Rachel Carson",
+      "canonical_key_status": "title_proxy"
     }
   ],
   "source_backlog": {
