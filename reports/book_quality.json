@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-06-28T05:19:40.609219+00:00",
+  "generated_at": "2026-06-29T05:52:17.005721+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,24 +16,24 @@
     "collection_error_count": 0,
     "sales_ranking_events": 45,
     "library_lending_events": 0,
-    "author_event_events": 19,
-    "award_signal_events": 73,
-    "book_signal_event_count": 137,
-    "official_or_operational_event_count": 112,
+    "author_event_events": 17,
+    "award_signal_events": 69,
+    "book_signal_event_count": 131,
+    "official_or_operational_event_count": 108,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 119,
-    "proxy_canonical_key_count": 18,
+    "complete_canonical_key_count": 115,
+    "proxy_canonical_key_count": 16,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 119,
-    "author_present_count": 83,
-    "publisher_present_count": 44,
-    "rank_present_count": 57,
+    "isbn_present_count": 115,
+    "author_present_count": 78,
+    "publisher_present_count": 45,
+    "rank_present_count": 53,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 29,
+    "event_required_field_gap_count": 27,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 50
+    "daily_review_item_count": 48
   },
   "sources": [
     {
@@ -74,10 +74,10 @@
       "status": "fresh",
       "article_count": 45,
       "event_count": 45,
-      "latest_event_at": "2026-06-21T22:00:40+00:00",
-      "age_days": 6.3,
-      "latest_title": "11위 신 퇴마록 신세편 3",
-      "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396140676&radar_rank=11&radar_ranking_date=20260621220040&rssType=5&type=item",
+      "latest_event_at": "2026-06-28T22:01:31+00:00",
+      "age_days": 0.33,
+      "latest_title": "1위 포켓몬 생태도감 특별판",
+      "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396644572&radar_rank=1&radar_ranking_date=20260628220131&rssType=5&type=item",
       "latest_source_signal": [
         "official_book_source",
         "sales_ranking"
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 70,
+      "article_count": 73,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -286,7 +286,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 24,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -781,6 +781,774 @@
     }
   ],
   "events": [
+    {
+      "source": "알라딘 베스트셀러",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "bestseller",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "sales_ranking",
+      "title": "1위 포켓몬 생태도감 특별판",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396644572&radar_rank=1&radar_ranking_date=20260628220131&rssType=5&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396644572&radar_rank=1&radar_ranking_date=20260628220131&rssType=5&type=item",
+      "event_at": "2026-06-28T22:01:31+00:00",
+      "isbn": "9791142356087",
+      "rank": 1,
+      "retailer": "알라딘 베스트셀러",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "",
+      "genre": [
+        "시",
+        "어린이"
+      ],
+      "publisher": [],
+      "book_type": [
+        "한정판"
+      ],
+      "author": [],
+      "award": [],
+      "book_event": [],
+      "source_signal": [
+        "official_book_source",
+        "sales_ranking"
+      ],
+      "canonical_key": "book_edition:9791142356087",
+      "canonical_key_status": "complete",
+      "event_key": "sales_ranking:a0c076850a23:20260628",
+      "required_field_proxy": {
+        "isbn": true,
+        "rank": true,
+        "retailer": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 베스트셀러",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "bestseller",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "sales_ranking",
+      "title": "11위 매스커레이드 라이프",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396568327&radar_rank=11&radar_ranking_date=20260628220131&rssType=5&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396568327&radar_rank=11&radar_ranking_date=20260628220131&rssType=5&type=item",
+      "event_at": "2026-06-28T22:01:31+00:00",
+      "isbn": "9791167903662",
+      "rank": 11,
+      "retailer": "알라딘 베스트셀러",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "",
+      "genre": [
+        "시",
+        "문학"
+      ],
+      "publisher": [
+        "현대문학"
+      ],
+      "book_type": [
+        "시리즈"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [],
+      "book_event": [],
+      "source_signal": [
+        "official_book_source",
+        "sales_ranking"
+      ],
+      "canonical_key": "book_edition:9791167903662",
+      "canonical_key_status": "complete",
+      "event_key": "sales_ranking:5f834aa6eddf:20260628",
+      "required_field_proxy": {
+        "isbn": true,
+        "rank": true,
+        "retailer": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 베스트셀러",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "bestseller",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "sales_ranking",
+      "title": "10위 신 퇴마록 신세편 3",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396140676&radar_rank=10&radar_ranking_date=20260628220131&rssType=5&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396140676&radar_rank=10&radar_ranking_date=20260628220131&rssType=5&type=item",
+      "event_at": "2026-06-28T22:01:31+00:00",
+      "isbn": "9791175773394",
+      "rank": 10,
+      "retailer": "알라딘 베스트셀러",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "",
+      "genre": [
+        "시",
+        "문학",
+        "역사"
+      ],
+      "publisher": [],
+      "book_type": [
+        "세트",
+        "시리즈",
+        "완결"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [],
+      "book_event": [],
+      "source_signal": [
+        "official_book_source",
+        "sales_ranking"
+      ],
+      "canonical_key": "book_edition:9791175773394",
+      "canonical_key_status": "complete",
+      "event_key": "sales_ranking:584264111da0:20260628",
+      "required_field_proxy": {
+        "isbn": true,
+        "rank": true,
+        "retailer": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 베스트셀러",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "bestseller",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "sales_ranking",
+      "title": "9위 신 퇴마록 신세편 2",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396139274&radar_rank=9&radar_ranking_date=20260628220131&rssType=5&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396139274&radar_rank=9&radar_ranking_date=20260628220131&rssType=5&type=item",
+      "event_at": "2026-06-28T22:01:31+00:00",
+      "isbn": "9791175773387",
+      "rank": 9,
+      "retailer": "알라딘 베스트셀러",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "",
+      "genre": [
+        "시",
+        "문학",
+        "역사"
+      ],
+      "publisher": [],
+      "book_type": [
+        "세트",
+        "시리즈",
+        "완결"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [],
+      "book_event": [],
+      "source_signal": [
+        "official_book_source",
+        "sales_ranking"
+      ],
+      "canonical_key": "book_edition:9791175773387",
+      "canonical_key_status": "complete",
+      "event_key": "sales_ranking:0b41522eb70a:20260628",
+      "required_field_proxy": {
+        "isbn": true,
+        "rank": true,
+        "retailer": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 베스트셀러",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "bestseller",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "sales_ranking",
+      "title": "4위 신 퇴마록 신세편 1",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396138909&radar_rank=4&radar_ranking_date=20260628220131&rssType=5&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396138909&radar_rank=4&radar_ranking_date=20260628220131&rssType=5&type=item",
+      "event_at": "2026-06-28T22:01:31+00:00",
+      "isbn": "9791175773370",
+      "rank": 4,
+      "retailer": "알라딘 베스트셀러",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "",
+      "genre": [
+        "시",
+        "문학",
+        "역사"
+      ],
+      "publisher": [],
+      "book_type": [
+        "세트",
+        "시리즈",
+        "완결"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [],
+      "book_event": [],
+      "source_signal": [
+        "official_book_source",
+        "sales_ranking"
+      ],
+      "canonical_key": "book_edition:9791175773370",
+      "canonical_key_status": "complete",
+      "event_key": "sales_ranking:be3f9447174b:20260628",
+      "required_field_proxy": {
+        "isbn": true,
+        "rank": true,
+        "retailer": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 베스트셀러",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "bestseller",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "sales_ranking",
+      "title": "8위 패밀리 레스토랑 가자. 下",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396103290&radar_rank=8&radar_ranking_date=20260628220131&rssType=5&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396103290&radar_rank=8&radar_ranking_date=20260628220131&rssType=5&type=item",
+      "event_at": "2026-06-28T22:01:31+00:00",
+      "isbn": "9791141616878",
+      "rank": 8,
+      "retailer": "알라딘 베스트셀러",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "",
+      "genre": [
+        "문학",
+        "만화",
+        "라이트노벨"
+      ],
+      "publisher": [
+        "문학동네"
+      ],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [],
+      "source_signal": [
+        "official_book_source",
+        "sales_ranking"
+      ],
+      "canonical_key": "book_edition:9791141616878",
+      "canonical_key_status": "complete",
+      "event_key": "sales_ranking:8d036032483d:20260628",
+      "required_field_proxy": {
+        "isbn": true,
+        "rank": true,
+        "retailer": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 베스트셀러",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "bestseller",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "sales_ranking",
+      "title": "7위 집밥력",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396098327&radar_rank=7&radar_ranking_date=20260628220131&rssType=5&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396098327&radar_rank=7&radar_ranking_date=20260628220131&rssType=5&type=item",
+      "event_at": "2026-06-28T22:01:31+00:00",
+      "isbn": "9791124336557",
+      "rank": 7,
+      "retailer": "알라딘 베스트셀러",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "",
+      "genre": [
+        "시",
+        "철학",
+        "요리",
+        "건강"
+      ],
+      "publisher": [],
+      "book_type": [
+        "신간"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [],
+      "book_event": [],
+      "source_signal": [
+        "official_book_source",
+        "sales_ranking"
+      ],
+      "canonical_key": "book_edition:9791124336557",
+      "canonical_key_status": "complete",
+      "event_key": "sales_ranking:749b0ea66b48:20260628",
+      "required_field_proxy": {
+        "isbn": true,
+        "rank": true,
+        "retailer": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 베스트셀러",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "bestseller",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "sales_ranking",
+      "title": "12위 원피스 114",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395946461&radar_rank=12&radar_ranking_date=20260628220131&rssType=5&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395946461&radar_rank=12&radar_ranking_date=20260628220131&rssType=5&type=item",
+      "event_at": "2026-06-28T22:01:31+00:00",
+      "isbn": "9791142355851",
+      "rank": 12,
+      "retailer": "알라딘 베스트셀러",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "",
+      "genre": [
+        "시",
+        "만화",
+        "라이트노벨"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [],
+      "source_signal": [
+        "official_book_source",
+        "sales_ranking"
+      ],
+      "canonical_key": "book_edition:9791142355851",
+      "canonical_key_status": "complete",
+      "event_key": "sales_ranking:7798cce758e7:20260628",
+      "required_field_proxy": {
+        "isbn": true,
+        "rank": true,
+        "retailer": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 베스트셀러",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "bestseller",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "sales_ranking",
+      "title": "2위 인비인",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395812549&radar_rank=2&radar_ranking_date=20260628220131&rssType=5&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395812549&radar_rank=2&radar_ranking_date=20260628220131&rssType=5&type=item",
+      "event_at": "2026-06-28T22:01:31+00:00",
+      "isbn": "9791172134297",
+      "rank": 2,
+      "retailer": "알라딘 베스트셀러",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "",
+      "genre": [
+        "소설",
+        "시",
+        "역사"
+      ],
+      "publisher": [
+        "한겨레출판"
+      ],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [],
+      "book_event": [],
+      "source_signal": [
+        "official_book_source",
+        "sales_ranking"
+      ],
+      "canonical_key": "book_edition:9791172134297",
+      "canonical_key_status": "complete",
+      "event_key": "sales_ranking:240092535611:20260628",
+      "required_field_proxy": {
+        "isbn": true,
+        "rank": true,
+        "retailer": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 베스트셀러",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "bestseller",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "sales_ranking",
+      "title": "3위 아코디언",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395539828&radar_rank=3&radar_ranking_date=20260628220131&rssType=5&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395539828&radar_rank=3&radar_ranking_date=20260628220131&rssType=5&type=item",
+      "event_at": "2026-06-28T22:01:31+00:00",
+      "isbn": "9788936439965",
+      "rank": 3,
+      "retailer": "알라딘 베스트셀러",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "부커상",
+      "genre": [
+        "소설",
+        "시",
+        "문학"
+      ],
+      "publisher": [
+        "창비",
+        "문학동네"
+      ],
+      "book_type": [],
+      "author": [
+        "천명관"
+      ],
+      "award": [
+        "부커상",
+        "후보"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "official_book_source",
+        "sales_ranking"
+      ],
+      "canonical_key": "book_edition:9788936439965",
+      "canonical_key_status": "complete",
+      "event_key": "sales_ranking:042313a71fe2:20260628",
+      "required_field_proxy": {
+        "isbn": true,
+        "rank": true,
+        "retailer": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 베스트셀러",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "bestseller",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "3위 아코디언",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395539828&radar_rank=3&radar_ranking_date=20260628220131&rssType=5&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395539828&radar_rank=3&radar_ranking_date=20260628220131&rssType=5&type=item",
+      "event_at": "2026-06-28T22:01:31+00:00",
+      "isbn": "9788936439965",
+      "rank": 3,
+      "retailer": "알라딘 베스트셀러",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "부커상",
+      "genre": [
+        "소설",
+        "시",
+        "문학"
+      ],
+      "publisher": [
+        "창비",
+        "문학동네"
+      ],
+      "book_type": [],
+      "author": [
+        "천명관"
+      ],
+      "award": [
+        "부커상",
+        "후보"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "official_book_source",
+        "sales_ranking"
+      ],
+      "canonical_key": "book_edition:9788936439965",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:042313a71fe2:20260628",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 베스트셀러",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "bestseller",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "sales_ranking",
+      "title": "5위 출근 인사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394730162&radar_rank=5&radar_ranking_date=20260628220131&rssType=5&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394730162&radar_rank=5&radar_ranking_date=20260628220131&rssType=5&type=item",
+      "event_at": "2026-06-28T22:01:31+00:00",
+      "isbn": "9791199801271",
+      "rank": 5,
+      "retailer": "알라딘 베스트셀러",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "",
+      "genre": [
+        "에세이",
+        "시"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [],
+      "source_signal": [
+        "official_book_source",
+        "sales_ranking"
+      ],
+      "canonical_key": "book_edition:9791199801271",
+      "canonical_key_status": "complete",
+      "event_key": "sales_ranking:a34f23f87ac3:20260628",
+      "required_field_proxy": {
+        "isbn": true,
+        "rank": true,
+        "retailer": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 베스트셀러",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "bestseller",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "sales_ranking",
+      "title": "13위 부의 갈림길",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394438909&radar_rank=13&radar_ranking_date=20260628220131&rssType=5&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394438909&radar_rank=13&radar_ranking_date=20260628220131&rssType=5&type=item",
+      "event_at": "2026-06-28T22:01:31+00:00",
+      "isbn": "9791124591048",
+      "rank": 13,
+      "retailer": "알라딘 베스트셀러",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "",
+      "genre": [
+        "시",
+        "경제경영",
+        "역사"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "저자"
+      ],
+      "award": [],
+      "book_event": [],
+      "source_signal": [
+        "official_book_source",
+        "sales_ranking"
+      ],
+      "canonical_key": "book_edition:9791124591048",
+      "canonical_key_status": "complete",
+      "event_key": "sales_ranking:6da85e1c8b62:20260628",
+      "required_field_proxy": {
+        "isbn": true,
+        "rank": true,
+        "retailer": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 베스트셀러",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "bestseller",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "sales_ranking",
+      "title": "15위 2026 큰별쌤 최태성의 별★별한국사 한국사능력검정시험 심화(1, 2, 3급) 상",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=378969369&radar_rank=15&radar_ranking_date=20260628220131&rssType=5&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=378969369&radar_rank=15&radar_ranking_date=20260628220131&rssType=5&type=item",
+      "event_at": "2026-06-28T22:01:31+00:00",
+      "isbn": "9791138934428",
+      "rank": 15,
+      "retailer": "알라딘 베스트셀러",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "",
+      "genre": [
+        "시",
+        "역사"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [],
+      "source_signal": [
+        "official_book_source",
+        "sales_ranking"
+      ],
+      "canonical_key": "book_edition:9791138934428",
+      "canonical_key_status": "complete",
+      "event_key": "sales_ranking:92437e546f4e:20260628",
+      "required_field_proxy": {
+        "isbn": true,
+        "rank": true,
+        "retailer": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 베스트셀러",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "bestseller",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "sales_ranking",
+      "title": "6위 싯다르타",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=329596&radar_rank=6&radar_ranking_date=20260628220131&rssType=5&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=329596&radar_rank=6&radar_ranking_date=20260628220131&rssType=5&type=item",
+      "event_at": "2026-06-28T22:01:31+00:00",
+      "isbn": "9788937460586",
+      "rank": 6,
+      "retailer": "알라딘 베스트셀러",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "",
+      "genre": [
+        "소설",
+        "시",
+        "문학",
+        "종교",
+        "철학"
+      ],
+      "publisher": [
+        "민음사"
+      ],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [],
+      "source_signal": [
+        "official_book_source",
+        "sales_ranking"
+      ],
+      "canonical_key": "book_edition:9788937460586",
+      "canonical_key_status": "complete",
+      "event_key": "sales_ranking:c5b2b87799e8:20260628",
+      "required_field_proxy": {
+        "isbn": true,
+        "rank": true,
+        "retailer": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 베스트셀러",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "bestseller",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "sales_ranking",
+      "title": "14위 프로젝트 헤일메리",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=270454373&radar_rank=14&radar_ranking_date=20260628220131&rssType=5&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=270454373&radar_rank=14&radar_ranking_date=20260628220131&rssType=5&type=item",
+      "event_at": "2026-06-28T22:01:31+00:00",
+      "isbn": "9788925588735",
+      "rank": 14,
+      "retailer": "알라딘 베스트셀러",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "",
+      "genre": [
+        "시",
+        "과학",
+        "sf"
+      ],
+      "publisher": [
+        "알에이치코리아",
+        "rhk",
+        "출판사"
+      ],
+      "book_type": [
+        "베스트셀러"
+      ],
+      "author": [
+        "작가",
+        "데뷔"
+      ],
+      "award": [],
+      "book_event": [],
+      "source_signal": [
+        "official_book_source",
+        "sales_ranking"
+      ],
+      "canonical_key": "book_edition:9788925588735",
+      "canonical_key_status": "complete",
+      "event_key": "sales_ranking:46cea548c21c:20260628",
+      "required_field_proxy": {
+        "isbn": true,
+        "rank": true,
+        "retailer": true
+      },
+      "required_field_gaps": []
+    },
     {
       "source": "Book Riot",
       "source_type": "rss",
@@ -4717,53 +5485,42 @@
       "required_field_gaps": []
     },
     {
-      "source": "알라딘 신간",
+      "source": "The Guardian Books",
       "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "압록강은 흐른다/이미륵 지음, 안삼환 옮김/민음사",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395751250&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395751250&rssType=1&type=item",
-      "event_at": "2026-06-15T01:59:00+00:00",
-      "isbn": "395751250",
+      "title": "Children and teens roundup – the best new picture books and novels",
+      "url": "https://www.theguardian.com/books/2026/apr/24/children-and-teens-roundup-the-best-new-picture-books-and-novels",
+      "source_url": "https://www.theguardian.com/books/2026/apr/24/children-and-teens-roundup-the-best-new-picture-books-and-novels",
+      "event_at": "2026-04-24T11:00:39+00:00",
+      "isbn": "9781646866311",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
       "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학"
-      ],
+      "award_name": "winner",
+      "genre": [],
       "publisher": [
-        "민음사",
-        "출판사"
+        "publisher"
       ],
-      "book_type": [
-        "초판"
-      ],
-      "author": [
-        "작가"
-      ],
+      "book_type": [],
+      "author": [],
       "award": [
-        "선정"
+        "winner"
       ],
       "book_event": [],
       "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
+        "book_review_source",
+        "editorial_coverage"
       ],
-      "canonical_key": "book_edition:395751250",
+      "canonical_key": "book_edition:9781646866311",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:29a32ce47c45:20260615",
+      "event_key": "award_signal:6ea6cfdca6b6:20260424",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -4772,56 +5529,149 @@
       "required_field_gaps": []
     },
     {
-      "source": "알라딘 신간",
+      "source": "The Guardian Books",
       "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "소맥거핀 일상 만화 6/소맥거핀 원작, 이종혁 지음, 샌드박스네트워크 감수/위즈덤하우스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395751166&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395751166&rssType=1&type=item",
-      "event_at": "2026-06-15T01:57:00+00:00",
-      "isbn": "395751166",
+      "title": "‘We can’t give up on Afghans’: Lyse Doucet on the remarkable ‘people’s history’ that won her the Women’s prize",
+      "url": "https://www.theguardian.com/books/2026/jun/12/lyse-doucet-womens-prize-for-non-fiction-the-finest-hotel-in-kabul-afghanistan",
+      "source_url": "https://www.theguardian.com/books/2026/jun/12/lyse-doucet-womens-prize-for-non-fiction-the-finest-hotel-in-kabul-afghanistan",
+      "event_at": "2026-06-12T15:59:34+00:00",
+      "isbn": "",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
       "venue": "",
-      "award_name": "수상",
+      "award_name": "award",
       "genre": [
-        "시",
-        "만화",
-        "어린이"
+        "fiction"
       ],
-      "publisher": [
-        "위즈덤하우스"
-      ],
-      "book_type": [
-        "베스트셀러",
-        "시리즈"
-      ],
+      "publisher": [],
+      "book_type": [],
       "author": [],
       "award": [
-        "수상"
+        "award"
       ],
       "book_event": [],
       "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
+        "book_review_source",
+        "editorial_coverage"
       ],
-      "canonical_key": "book_edition:395751166",
+      "canonical_key": "book_source:the-guardian-books:d10f136e0514",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:1ab3ce800936:20260612",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "‘Failure was my thing’: Women’s prize winner Virginia Evans on her long journey to success",
+      "url": "https://www.theguardian.com/books/2026/jun/12/failure-was-my-thing-womens-prize-winner-virginia-evans-on-coping-with-years-of-rejection",
+      "source_url": "https://www.theguardian.com/books/2026/jun/12/failure-was-my-thing-womens-prize-winner-virginia-evans-on-coping-with-years-of-rejection",
+      "event_at": "2026-06-12T19:30:02+00:00",
+      "isbn": "1236758315",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "winner",
+      "genre": [
+        "fiction",
+        "novel"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author"
+      ],
+      "award": [
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:1236758315",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:8aac16673ede:20260615",
+      "event_key": "award_signal:ba422d4f2da0:20260612",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
         "source_url": true
       },
       "required_field_gaps": []
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "‘I refuse to be a second-class citizen in my own land’: Taiwanese International Booker winner Yáng Shuāng-zǐ",
+      "url": "https://www.theguardian.com/books/2026/may/21/yang-shuang-zi-interview-lin-king-taiwan-travelogue-international-booker",
+      "source_url": "https://www.theguardian.com/books/2026/may/21/yang-shuang-zi-interview-lin-king-taiwan-travelogue-international-booker",
+      "event_at": "2026-05-21T17:50:32+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [
+        "novel",
+        "literature"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author",
+        "writer",
+        "translator"
+      ],
+      "award": [
+        "booker",
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:1a41e3993fd1",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:32c6266f5513:20260521",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
     },
     {
       "source": "알라딘 베스트셀러",
@@ -5708,239 +6558,111 @@
       "required_field_gaps": []
     },
     {
-      "source": "Book Riot",
+      "source": "알라딘 신간",
       "source_type": "rss",
-      "trust_tier": "T3_professional",
+      "trust_tier": "T1_official",
       "content_type": "news",
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "The Book News We Covered This Week",
-      "url": "https://bookriot.com/today-in-books-june-14-2026",
-      "source_url": "https://bookriot.com/today-in-books-june-14-2026",
-      "event_at": "2026-06-14T15:00:00+00:00",
-      "isbn": "",
+      "title": "압록강은 흐른다/이미륵 지음, 안삼환 옮김/민음사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395751250&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395751250&rssType=1&type=item",
+      "event_at": "2026-06-15T01:59:00+00:00",
+      "isbn": "395751250",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
       "venue": "",
-      "award_name": "award",
-      "genre": [],
-      "publisher": [],
-      "book_type": [
-        "book news"
+      "award_name": "선정",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학"
       ],
-      "author": [],
+      "publisher": [
+        "민음사",
+        "출판사"
+      ],
+      "book_type": [
+        "초판"
+      ],
+      "author": [
+        "작가"
+      ],
       "award": [
-        "award"
+        "선정"
       ],
       "book_event": [],
       "source_signal": [
         "editorial_coverage",
+        "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_source:book-riot:a6ff98387eb7",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:f62d74a47052:20260614",
+      "canonical_key": "book_edition:395751250",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:29a32ce47c45:20260615",
       "required_field_proxy": {
-        "isbn": false,
+        "isbn": true,
         "award_name": true,
         "source_url": true
       },
-      "required_field_gaps": [
-        "isbn"
-      ]
+      "required_field_gaps": []
     },
     {
-      "source": "The Guardian Books",
+      "source": "알라딘 신간",
       "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
+      "trust_tier": "T1_official",
+      "content_type": "news",
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "Children and teens roundup – the best new picture books and novels",
-      "url": "https://www.theguardian.com/books/2026/apr/24/children-and-teens-roundup-the-best-new-picture-books-and-novels",
-      "source_url": "https://www.theguardian.com/books/2026/apr/24/children-and-teens-roundup-the-best-new-picture-books-and-novels",
-      "event_at": "2026-04-24T11:00:39+00:00",
-      "isbn": "9781646866311",
+      "title": "소맥거핀 일상 만화 6/소맥거핀 원작, 이종혁 지음, 샌드박스네트워크 감수/위즈덤하우스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395751166&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395751166&rssType=1&type=item",
+      "event_at": "2026-06-15T01:57:00+00:00",
+      "isbn": "395751166",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
       "venue": "",
-      "award_name": "winner",
-      "genre": [],
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "만화",
+        "어린이"
+      ],
       "publisher": [
-        "publisher"
+        "위즈덤하우스"
       ],
-      "book_type": [],
+      "book_type": [
+        "베스트셀러",
+        "시리즈"
+      ],
       "author": [],
       "award": [
-        "winner"
+        "수상"
       ],
       "book_event": [],
       "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
       ],
-      "canonical_key": "book_edition:9781646866311",
+      "canonical_key": "book_edition:395751166",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:6ea6cfdca6b6:20260424",
+      "event_key": "award_signal:8aac16673ede:20260615",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "‘We can’t give up on Afghans’: Lyse Doucet on the remarkable ‘people’s history’ that won her the Women’s prize",
-      "url": "https://www.theguardian.com/books/2026/jun/12/lyse-doucet-womens-prize-for-non-fiction-the-finest-hotel-in-kabul-afghanistan",
-      "source_url": "https://www.theguardian.com/books/2026/jun/12/lyse-doucet-womens-prize-for-non-fiction-the-finest-hotel-in-kabul-afghanistan",
-      "event_at": "2026-06-12T15:59:34+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "award",
-      "genre": [
-        "fiction"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "award"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:the-guardian-books:d10f136e0514",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:1ab3ce800936:20260612",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "‘Failure was my thing’: Women’s prize winner Virginia Evans on her long journey to success",
-      "url": "https://www.theguardian.com/books/2026/jun/12/failure-was-my-thing-womens-prize-winner-virginia-evans-on-coping-with-years-of-rejection",
-      "source_url": "https://www.theguardian.com/books/2026/jun/12/failure-was-my-thing-womens-prize-winner-virginia-evans-on-coping-with-years-of-rejection",
-      "event_at": "2026-06-12T19:30:02+00:00",
-      "isbn": "1236758315",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "winner",
-      "genre": [
-        "fiction",
-        "novel"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "author"
-      ],
-      "award": [
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:1236758315",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:ba422d4f2da0:20260612",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "‘I refuse to be a second-class citizen in my own land’: Taiwanese International Booker winner Yáng Shuāng-zǐ",
-      "url": "https://www.theguardian.com/books/2026/may/21/yang-shuang-zi-interview-lin-king-taiwan-travelogue-international-booker",
-      "source_url": "https://www.theguardian.com/books/2026/may/21/yang-shuang-zi-interview-lin-king-taiwan-travelogue-international-booker",
-      "event_at": "2026-05-21T17:50:32+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [
-        "novel",
-        "literature"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "author",
-        "writer",
-        "translator"
-      ],
-      "award": [
-        "booker",
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:title:1a41e3993fd1",
-      "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:32c6266f5513:20260521",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
     },
     {
       "source": "The Guardian Books",
@@ -6075,6 +6797,52 @@
       "canonical_key": "book_edition:title:bc5fa630d790",
       "canonical_key_status": "title_proxy",
       "event_key": "award_signal:03bd9dba2723:20260608",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Book Riot",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "The Book News We Covered This Week",
+      "url": "https://bookriot.com/today-in-books-june-14-2026",
+      "source_url": "https://bookriot.com/today-in-books-june-14-2026",
+      "event_at": "2026-06-14T15:00:00+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [],
+      "publisher": [],
+      "book_type": [
+        "book news"
+      ],
+      "author": [],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:book-riot:a6ff98387eb7",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:f62d74a47052:20260614",
       "required_field_proxy": {
         "isbn": false,
         "award_name": true,
@@ -6570,1077 +7338,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "New York Times Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Gordon S. Wood, Pioneering Historian of Early America, Dies at 92",
-      "url": "https://www.nytimes.com/2026/06/08/books/gordon-s-wood-dead.html",
-      "source_url": "https://www.nytimes.com/2026/06/08/books/gordon-s-wood-dead.html",
-      "event_at": "2026-06-09T15:35:06+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "pulitzer",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "pulitzer"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:new-york-times-books:d54833411f77",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:a246beb8cf60:20260609",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "New York Times Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Robert Coles, Pulitzer-Winning Child Psychiatrist, Is Dead at 97",
-      "url": "https://www.nytimes.com/2026/06/07/us/robert-coles-dead.html",
-      "source_url": "https://www.nytimes.com/2026/06/07/us/robert-coles-dead.html",
-      "event_at": "2026-06-08T20:58:45+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "pulitzer",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "pulitzer"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:new-york-times-books:faa4dfc87ad8",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:7262b7c1ee26:20260608",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "알라딘 베스트셀러",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "bestseller",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "sales_ranking",
-      "title": "1위 나의 첫 번째 부동산 교과서",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394433203&radar_rank=1&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394433203&radar_rank=1&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "event_at": "2026-06-07T22:00:09+00:00",
-      "isbn": "9791193904435",
-      "rank": 1,
-      "retailer": "알라딘 베스트셀러",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "강연",
-      "award_name": "",
-      "genre": [
-        "소설",
-        "시",
-        "개발"
-      ],
-      "publisher": [],
-      "book_type": [
-        "베스트셀러"
-      ],
-      "author": [
-        "작가",
-        "저자"
-      ],
-      "award": [],
-      "book_event": [
-        "강연"
-      ],
-      "source_signal": [
-        "official_book_source",
-        "sales_ranking"
-      ],
-      "canonical_key": "book_edition:9791193904435",
-      "canonical_key_status": "complete",
-      "event_key": "sales_ranking:efa492bc4fe4:20260607",
-      "required_field_proxy": {
-        "isbn": true,
-        "rank": true,
-        "retailer": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 베스트셀러",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "bestseller",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "1위 나의 첫 번째 부동산 교과서",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394433203&radar_rank=1&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394433203&radar_rank=1&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "event_at": "2026-06-07T22:00:09+00:00",
-      "isbn": "9791193904435",
-      "rank": 1,
-      "retailer": "알라딘 베스트셀러",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "강연",
-      "award_name": "",
-      "genre": [
-        "소설",
-        "시",
-        "개발"
-      ],
-      "publisher": [],
-      "book_type": [
-        "베스트셀러"
-      ],
-      "author": [
-        "작가",
-        "저자"
-      ],
-      "award": [],
-      "book_event": [
-        "강연"
-      ],
-      "source_signal": [
-        "official_book_source",
-        "sales_ranking"
-      ],
-      "canonical_key": "book_edition:9791193904435",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:efa492bc4fe4:20260607",
-      "required_field_proxy": {
-        "author_name": true,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 베스트셀러",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "bestseller",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "sales_ranking",
-      "title": "15위 박곰희 연금 부자 수업 (25만 부 기념 리미티드 에디션)",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394106481&radar_rank=15&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394106481&radar_rank=15&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "event_at": "2026-06-07T22:00:09+00:00",
-      "isbn": "9791168342941",
-      "rank": 15,
-      "retailer": "알라딘 베스트셀러",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "",
-      "genre": [
-        "시",
-        "과학",
-        "여행"
-      ],
-      "publisher": [
-        "인플루엔셜"
-      ],
-      "book_type": [
-        "베스트셀러",
-        "한정판"
-      ],
-      "author": [
-        "저자"
-      ],
-      "award": [],
-      "book_event": [],
-      "source_signal": [
-        "official_book_source",
-        "sales_ranking"
-      ],
-      "canonical_key": "book_edition:9791168342941",
-      "canonical_key_status": "complete",
-      "event_key": "sales_ranking:1decf3eef5be:20260607",
-      "required_field_proxy": {
-        "isbn": true,
-        "rank": true,
-        "retailer": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 베스트셀러",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "bestseller",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "sales_ranking",
-      "title": "2위 멜로우TV 팀나빠 1 : 나사 빠진 친구들",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394084297&radar_rank=2&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394084297&radar_rank=2&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "event_at": "2026-06-07T22:00:09+00:00",
-      "isbn": "9791141186210",
-      "rank": 2,
-      "retailer": "알라딘 베스트셀러",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "판타지",
-        "어린이"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "official_book_source",
-        "sales_ranking"
-      ],
-      "canonical_key": "book_edition:9791141186210",
-      "canonical_key_status": "complete",
-      "event_key": "sales_ranking:caad73d650a2:20260607",
-      "required_field_proxy": {
-        "isbn": true,
-        "rank": true,
-        "retailer": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 베스트셀러",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "bestseller",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "2위 멜로우TV 팀나빠 1 : 나사 빠진 친구들",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394084297&radar_rank=2&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=394084297&radar_rank=2&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "event_at": "2026-06-07T22:00:09+00:00",
-      "isbn": "9791141186210",
-      "rank": 2,
-      "retailer": "알라딘 베스트셀러",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "판타지",
-        "어린이"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "official_book_source",
-        "sales_ranking"
-      ],
-      "canonical_key": "book_edition:9791141186210",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:caad73d650a2:20260607",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 베스트셀러",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "bestseller",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "sales_ranking",
-      "title": "14위 김미경의 플러스 휴먼",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393490963&radar_rank=14&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393490963&radar_rank=14&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "event_at": "2026-06-07T22:00:09+00:00",
-      "isbn": "9791199624993",
-      "rank": 14,
-      "retailer": "알라딘 베스트셀러",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "강연",
-      "award_name": "",
-      "genre": [
-        "시"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "저자"
-      ],
-      "award": [],
-      "book_event": [
-        "강연"
-      ],
-      "source_signal": [
-        "official_book_source",
-        "sales_ranking"
-      ],
-      "canonical_key": "book_edition:9791199624993",
-      "canonical_key_status": "complete",
-      "event_key": "sales_ranking:0e32a7d71cc4:20260607",
-      "required_field_proxy": {
-        "isbn": true,
-        "rank": true,
-        "retailer": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 베스트셀러",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "bestseller",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "14위 김미경의 플러스 휴먼",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393490963&radar_rank=14&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=393490963&radar_rank=14&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "event_at": "2026-06-07T22:00:09+00:00",
-      "isbn": "9791199624993",
-      "rank": 14,
-      "retailer": "알라딘 베스트셀러",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "강연",
-      "award_name": "",
-      "genre": [
-        "시"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "저자"
-      ],
-      "award": [],
-      "book_event": [
-        "강연"
-      ],
-      "source_signal": [
-        "official_book_source",
-        "sales_ranking"
-      ],
-      "canonical_key": "book_edition:9791199624993",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:0e32a7d71cc4:20260607",
-      "required_field_proxy": {
-        "author_name": true,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 베스트셀러",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "bestseller",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "sales_ranking",
-      "title": "5위 품격 있는 대화를 위한 지식 브리핑",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=392447560&radar_rank=5&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=392447560&radar_rank=5&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "event_at": "2026-06-07T22:00:09+00:00",
-      "isbn": "9791124038413",
-      "rank": 5,
-      "retailer": "알라딘 베스트셀러",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "",
-      "genre": [
-        "시",
-        "과학",
-        "사회과학",
-        "정치"
-      ],
-      "publisher": [],
-      "book_type": [
-        "화제의 책"
-      ],
-      "author": [
-        "저자"
-      ],
-      "award": [],
-      "book_event": [],
-      "source_signal": [
-        "official_book_source",
-        "sales_ranking"
-      ],
-      "canonical_key": "book_edition:9791124038413",
-      "canonical_key_status": "complete",
-      "event_key": "sales_ranking:d1cfb3d8fbe3:20260607",
-      "required_field_proxy": {
-        "isbn": true,
-        "rank": true,
-        "retailer": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 베스트셀러",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "bestseller",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "sales_ranking",
-      "title": "8위 말하지 않고 말하기",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=391826086&radar_rank=8&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=391826086&radar_rank=8&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "event_at": "2026-06-07T22:00:09+00:00",
-      "isbn": "9791173579721",
-      "rank": 8,
-      "retailer": "알라딘 베스트셀러",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "",
-      "genre": [
-        "시",
-        "심리"
-      ],
-      "publisher": [
-        "21세기북스"
-      ],
-      "book_type": [
-        "화제의 책"
-      ],
-      "author": [
-        "저자"
-      ],
-      "award": [],
-      "book_event": [],
-      "source_signal": [
-        "official_book_source",
-        "sales_ranking"
-      ],
-      "canonical_key": "book_edition:9791173579721",
-      "canonical_key_status": "complete",
-      "event_key": "sales_ranking:81a3d81438d0:20260607",
-      "required_field_proxy": {
-        "isbn": true,
-        "rank": true,
-        "retailer": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 베스트셀러",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "bestseller",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "sales_ranking",
-      "title": "9위 팔레스타인 번역가의 이중생활",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=391664647&radar_rank=9&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=391664647&radar_rank=9&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "event_at": "2026-06-07T22:00:09+00:00",
-      "isbn": "9791169095587",
-      "rank": 9,
-      "retailer": "알라딘 베스트셀러",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "",
-      "genre": [
-        "에세이",
-        "시",
-        "문학",
-        "영어"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "저자",
-        "번역"
-      ],
-      "award": [],
-      "book_event": [],
-      "source_signal": [
-        "official_book_source",
-        "sales_ranking"
-      ],
-      "canonical_key": "book_edition:9791169095587",
-      "canonical_key_status": "complete",
-      "event_key": "sales_ranking:d95748d11554:20260607",
-      "required_field_proxy": {
-        "isbn": true,
-        "rank": true,
-        "retailer": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 베스트셀러",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "bestseller",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "sales_ranking",
-      "title": "12위 흔한남매 22",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=391347886&radar_rank=12&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=391347886&radar_rank=12&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "event_at": "2026-06-07T22:00:09+00:00",
-      "isbn": "9791175487802",
-      "rank": 12,
-      "retailer": "알라딘 베스트셀러",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "",
-      "genre": [
-        "시",
-        "만화",
-        "어린이"
-      ],
-      "publisher": [],
-      "book_type": [
-        "시리즈"
-      ],
-      "author": [],
-      "award": [],
-      "book_event": [],
-      "source_signal": [
-        "official_book_source",
-        "sales_ranking"
-      ],
-      "canonical_key": "book_edition:9791175487802",
-      "canonical_key_status": "complete",
-      "event_key": "sales_ranking:4945321a93f8:20260607",
-      "required_field_proxy": {
-        "isbn": true,
-        "rank": true,
-        "retailer": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 베스트셀러",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "bestseller",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "sales_ranking",
-      "title": "7위 사춘기 엄마의 오장육부",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=390672114&radar_rank=7&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=390672114&radar_rank=7&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "event_at": "2026-06-07T22:00:09+00:00",
-      "isbn": "9791124497029",
-      "rank": 7,
-      "retailer": "알라딘 베스트셀러",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "",
-      "genre": [
-        "시",
-        "청소년"
-      ],
-      "publisher": [],
-      "book_type": [
-        "신간"
-      ],
-      "author": [
-        "저자"
-      ],
-      "award": [],
-      "book_event": [],
-      "source_signal": [
-        "official_book_source",
-        "sales_ranking"
-      ],
-      "canonical_key": "book_edition:9791124497029",
-      "canonical_key_status": "complete",
-      "event_key": "sales_ranking:647289feeb12:20260607",
-      "required_field_proxy": {
-        "isbn": true,
-        "rank": true,
-        "retailer": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 베스트셀러",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "bestseller",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "sales_ranking",
-      "title": "10위 1938 타이완 여행기",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=377713049&radar_rank=10&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=377713049&radar_rank=10&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "event_at": "2026-06-07T22:00:09+00:00",
-      "isbn": "9791199242531",
-      "rank": 10,
-      "retailer": "알라딘 베스트셀러",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "부커상",
-      "genre": [
-        "소설",
-        "시",
-        "여행"
-      ],
-      "publisher": [],
-      "book_type": [
-        "화제의 책"
-      ],
-      "author": [
-        "작가",
-        "번역"
-      ],
-      "award": [
-        "부커상",
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "official_book_source",
-        "sales_ranking"
-      ],
-      "canonical_key": "book_edition:9791199242531",
-      "canonical_key_status": "complete",
-      "event_key": "sales_ranking:9e959474b860:20260607",
-      "required_field_proxy": {
-        "isbn": true,
-        "rank": true,
-        "retailer": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 베스트셀러",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "bestseller",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "10위 1938 타이완 여행기",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=377713049&radar_rank=10&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=377713049&radar_rank=10&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "event_at": "2026-06-07T22:00:09+00:00",
-      "isbn": "9791199242531",
-      "rank": 10,
-      "retailer": "알라딘 베스트셀러",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "부커상",
-      "genre": [
-        "소설",
-        "시",
-        "여행"
-      ],
-      "publisher": [],
-      "book_type": [
-        "화제의 책"
-      ],
-      "author": [
-        "작가",
-        "번역"
-      ],
-      "award": [
-        "부커상",
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "official_book_source",
-        "sales_ranking"
-      ],
-      "canonical_key": "book_edition:9791199242531",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:9e959474b860:20260607",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 베스트셀러",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "bestseller",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "sales_ranking",
-      "title": "13위 자몽살구클럽",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=368083714&radar_rank=13&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=368083714&radar_rank=13&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "event_at": "2026-06-07T22:00:09+00:00",
-      "isbn": "9791199305304",
-      "rank": 13,
-      "retailer": "알라딘 베스트셀러",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "",
-      "genre": [
-        "소설",
-        "시",
-        "문학"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [],
-      "book_event": [],
-      "source_signal": [
-        "official_book_source",
-        "sales_ranking"
-      ],
-      "canonical_key": "book_edition:9791199305304",
-      "canonical_key_status": "complete",
-      "event_key": "sales_ranking:d9878257b64b:20260607",
-      "required_field_proxy": {
-        "isbn": true,
-        "rank": true,
-        "retailer": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 베스트셀러",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "bestseller",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "sales_ranking",
-      "title": "6위 안녕이라 그랬어",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=365665217&radar_rank=6&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=365665217&radar_rank=6&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "event_at": "2026-06-07T22:00:09+00:00",
-      "isbn": "9791141602376",
-      "rank": 6,
-      "retailer": "알라딘 베스트셀러",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "여행"
-      ],
-      "publisher": [
-        "문학동네"
-      ],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "official_book_source",
-        "sales_ranking"
-      ],
-      "canonical_key": "book_edition:9791141602376",
-      "canonical_key_status": "complete",
-      "event_key": "sales_ranking:fe0d2de7395c:20260607",
-      "required_field_proxy": {
-        "isbn": true,
-        "rank": true,
-        "retailer": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 베스트셀러",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "bestseller",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "6위 안녕이라 그랬어",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=365665217&radar_rank=6&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=365665217&radar_rank=6&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "event_at": "2026-06-07T22:00:09+00:00",
-      "isbn": "9791141602376",
-      "rank": 6,
-      "retailer": "알라딘 베스트셀러",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "여행"
-      ],
-      "publisher": [
-        "문학동네"
-      ],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "official_book_source",
-        "sales_ranking"
-      ],
-      "canonical_key": "book_edition:9791141602376",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:fe0d2de7395c:20260607",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 베스트셀러",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "bestseller",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "sales_ranking",
-      "title": "4위 싯다르타",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=329596&radar_rank=4&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=329596&radar_rank=4&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "event_at": "2026-06-07T22:00:09+00:00",
-      "isbn": "9788937460586",
-      "rank": 4,
-      "retailer": "알라딘 베스트셀러",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "",
-      "genre": [
-        "소설",
-        "시",
-        "자기계발",
-        "종교",
-        "철학"
-      ],
-      "publisher": [
-        "민음사"
-      ],
-      "book_type": [],
-      "author": [],
-      "award": [],
-      "book_event": [],
-      "source_signal": [
-        "official_book_source",
-        "sales_ranking"
-      ],
-      "canonical_key": "book_edition:9788937460586",
-      "canonical_key_status": "complete",
-      "event_key": "sales_ranking:c5b2b87799e8:20260607",
-      "required_field_proxy": {
-        "isbn": true,
-        "rank": true,
-        "retailer": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 베스트셀러",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "bestseller",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "sales_ranking",
-      "title": "3위 프로젝트 헤일메리",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=270454373&radar_rank=3&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=270454373&radar_rank=3&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "event_at": "2026-06-07T22:00:09+00:00",
-      "isbn": "9788925588735",
-      "rank": 3,
-      "retailer": "알라딘 베스트셀러",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "",
-      "genre": [
-        "소설",
-        "시",
-        "과학",
-        "sf"
-      ],
-      "publisher": [
-        "알에이치코리아",
-        "rhk",
-        "출판사"
-      ],
-      "book_type": [
-        "베스트셀러"
-      ],
-      "author": [
-        "작가",
-        "데뷔"
-      ],
-      "award": [],
-      "book_event": [],
-      "source_signal": [
-        "official_book_source",
-        "sales_ranking"
-      ],
-      "canonical_key": "book_edition:9788925588735",
-      "canonical_key_status": "complete",
-      "event_key": "sales_ranking:46cea548c21c:20260607",
-      "required_field_proxy": {
-        "isbn": true,
-        "rank": true,
-        "retailer": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 베스트셀러",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "bestseller",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "sales_ranking",
-      "title": "11위 모순",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=25843736&radar_rank=11&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=25843736&radar_rank=11&radar_ranking_date=20260607220009&rssType=5&type=item",
-      "event_at": "2026-06-07T22:00:09+00:00",
-      "isbn": "9788998441012",
-      "rank": 11,
-      "retailer": "알라딘 베스트셀러",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "",
-      "genre": [
-        "소설",
-        "시",
-        "자기계발"
-      ],
-      "publisher": [],
-      "book_type": [
-        "베스트셀러",
-        "개정판",
-        "양장본",
-        "초판"
-      ],
-      "author": [
-        "작가"
-      ],
-      "award": [],
-      "book_event": [],
-      "source_signal": [
-        "official_book_source",
-        "sales_ranking"
-      ],
-      "canonical_key": "book_edition:9788998441012",
-      "canonical_key_status": "complete",
-      "event_key": "sales_ranking:a79f4f08d407:20260607",
-      "required_field_proxy": {
-        "isbn": true,
-        "rank": true,
-        "retailer": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
@@ -7880,23 +7577,6 @@
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "The Book News We Covered This Week",
-      "canonical_key": "book_source:book-riot:a6ff98387eb7",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "The Book News We Covered This Week",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
       "source": "The Guardian Books",
       "title": "‘We can’t give up on Afghans’: Lyse Doucet on the remarkable ‘people’s history’ that won her the Women’s prize",
       "canonical_key": "book_source:the-guardian-books:d10f136e0514",
@@ -7964,6 +7644,23 @@
     },
     {
       "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "The Book News We Covered This Week",
+      "canonical_key": "book_source:book-riot:a6ff98387eb7",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "The Book News We Covered This Week",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
       "event_model": "author_event",
       "source": "알라딘 신간",
       "title": "휴민트 각본집/류승완 지음/무제",
@@ -8027,40 +7724,6 @@
       ]
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "Gordon S. Wood, Pioneering Historian of Early America, Dies at 92",
-      "canonical_key": "book_source:new-york-times-books:d54833411f77",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "Gordon S. Wood, Pioneering Historian of Early America, Dies at 92",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "Robert Coles, Pulitzer-Winning Child Psychiatrist, Is Dead at 97",
-      "canonical_key": "book_source:new-york-times-books:faa4dfc87ad8",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "Robert Coles, Pulitzer-Winning Child Psychiatrist, Is Dead at 97",
-      "canonical_key_status": "source_proxy"
-    },
-    {
       "reason": "missing_event_model",
       "event_model": "library_lending"
     },
@@ -8075,6 +7738,18 @@
       "source": "YES24 bestseller ranking history",
       "signal_type": "sales_ranking",
       "activation_gate": "parser stability, ISBN mapping, and duplicate edition handling"
+    },
+    {
+      "reason": "source_backlog_pending",
+      "source": "Korea library bigdata lending statistics",
+      "signal_type": "library_lending",
+      "activation_gate": "API key, date granularity, ISBN coverage, and source attribution"
+    },
+    {
+      "reason": "source_backlog_pending",
+      "source": "Publisher/bookstore author event calendars",
+      "signal_type": "author_event",
+      "activation_gate": "venue canonicalization, event date parsing, and duplicate event handling"
     }
   ],
   "source_backlog": {
