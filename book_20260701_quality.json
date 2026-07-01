@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-06-30T05:05:48.784949+00:00",
+  "generated_at": "2026-07-01T05:23:15.038137+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -17,23 +17,23 @@
     "sales_ranking_events": 45,
     "library_lending_events": 0,
     "author_event_events": 16,
-    "award_signal_events": 67,
-    "book_signal_event_count": 128,
+    "award_signal_events": 62,
+    "book_signal_event_count": 123,
     "official_or_operational_event_count": 108,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 114,
-    "proxy_canonical_key_count": 14,
+    "complete_canonical_key_count": 112,
+    "proxy_canonical_key_count": 11,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 114,
-    "author_present_count": 79,
-    "publisher_present_count": 45,
-    "rank_present_count": 53,
+    "isbn_present_count": 112,
+    "author_present_count": 80,
+    "publisher_present_count": 46,
+    "rank_present_count": 54,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 24,
+    "event_required_field_gap_count": 19,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 43
+    "daily_review_item_count": 35
   },
   "sources": [
     {
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 314,
+      "article_count": 313,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 45,
       "event_count": 45,
       "latest_event_at": "2026-06-28T22:01:31+00:00",
-      "age_days": 1.29,
+      "age_days": 2.31,
       "latest_title": "1위 포켓몬 생태도감 특별판",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396644572&radar_rank=1&radar_ranking_date=20260628220131&rssType=5&type=item",
       "latest_source_signal": [
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 73,
+      "article_count": 71,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -286,7 +286,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 23,
+      "article_count": 22,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -309,7 +309,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 98,
+      "article_count": 89,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -332,7 +332,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 103,
+      "article_count": 96,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -378,7 +378,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 68,
+      "article_count": 63,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -781,6 +781,339 @@
     }
   ],
   "events": [
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "주와 연/청예 지음/래빗홀",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397049636&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397049636&rssType=1&type=item",
+      "event_at": "2026-06-29T06:36:00+00:00",
+      "isbn": "397049636",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "과학",
+        "철학",
+        "판타지",
+        "로맨스",
+        "추리",
+        "스릴러"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:397049636",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:44299e56d738:20260629",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "먼 거울/바바라 터크먼 지음, 박중서 옮김/원더박스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397048998&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397048998&rssType=1&type=item",
+      "event_at": "2026-06-29T06:28:00+00:00",
+      "isbn": "397048998",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "강연",
+      "award_name": "퓰리처",
+      "genre": [
+        "시",
+        "문학",
+        "인문학",
+        "역사",
+        "심리"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "저자"
+      ],
+      "award": [
+        "퓰리처",
+        "수상"
+      ],
+      "book_event": [
+        "강연"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:397048998",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:285c10646ee1:20260629",
+      "required_field_proxy": {
+        "author_name": true,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "먼 거울/바바라 터크먼 지음, 박중서 옮김/원더박스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397048998&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397048998&rssType=1&type=item",
+      "event_at": "2026-06-29T06:28:00+00:00",
+      "isbn": "397048998",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "강연",
+      "award_name": "퓰리처",
+      "genre": [
+        "시",
+        "문학",
+        "인문학",
+        "역사",
+        "심리"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "저자"
+      ],
+      "award": [
+        "퓰리처",
+        "수상"
+      ],
+      "book_event": [
+        "강연"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:397048998",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:285c10646ee1:20260629",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "두 도시 이야기/찰스 디킨스 지음, 이인규 옮김/문학동네",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397047614&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397047614&rssType=1&type=item",
+      "event_at": "2026-06-29T06:09:00+00:00",
+      "isbn": "397047614",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "낭독회",
+      "award_name": "",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "역사"
+      ],
+      "publisher": [
+        "문학동네"
+      ],
+      "book_type": [],
+      "author": [
+        "작가",
+        "저자"
+      ],
+      "award": [],
+      "book_event": [
+        "낭독회"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:397047614",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:bba07a2db513:20260629",
+      "required_field_proxy": {
+        "author_name": true,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "블러디 머더/줄리안 시먼스 지음, 김명남 옮김/우연한지식",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397045887&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397045887&rssType=1&type=item",
+      "event_at": "2026-06-29T05:47:00+00:00",
+      "isbn": "397045887",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "역사",
+        "추리",
+        "스릴러"
+      ],
+      "publisher": [],
+      "book_type": [
+        "개정판",
+        "시리즈",
+        "초판"
+      ],
+      "author": [
+        "작가",
+        "번역",
+        "역자"
+      ],
+      "award": [
+        "수상",
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:397045887",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:4aca3a39d393:20260629",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "굿바이, 재버워크/이사카 고타로 지음, 민경욱 옮김/인플루엔셜(주)",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397030746&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397030746&rssType=1&type=item",
+      "event_at": "2026-06-29T03:00:00+00:00",
+      "isbn": "397030746",
+      "rank": 1,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "후보",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "추리"
+      ],
+      "publisher": [
+        "인플루엔셜"
+      ],
+      "book_type": [],
+      "author": [
+        "작가",
+        "데뷔"
+      ],
+      "award": [
+        "후보"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:397030746",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:89db756e36f0:20260629",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
     {
       "source": "알라딘 베스트셀러",
       "source_type": "rss",
@@ -1742,61 +2075,6 @@
       "canonical_key": "book_edition:396795074",
       "canonical_key_status": "complete",
       "event_key": "award_signal:164ff591ec54:20260626",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "여름/이디스 워튼 지음, 김가원 옮김/책깃",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396771867&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396771867&rssType=1&type=item",
-      "event_at": "2026-06-26T01:45:00+00:00",
-      "isbn": "396771867",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "퓰리처",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "교육"
-      ],
-      "publisher": [],
-      "book_type": [
-        "신간",
-        "시리즈"
-      ],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "퓰리처",
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:396771867",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:31e2e911f7d4:20260626",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -4784,349 +5062,6 @@
       "required_field_gaps": []
     },
     {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "엄마 아빠를 진정시키는 최고의 방법/가브리엘라 발린 지음, 안나 아파리시오 카탈라 그림, 김여진 옮김/나무말미",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395964818&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395964818&rssType=1&type=item",
-      "event_at": "2026-06-17T03:27:00+00:00",
-      "isbn": "395964818",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "도서전",
-      "award_name": "",
-      "genre": [
-        "시",
-        "어린이",
-        "그림책"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "도서전"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:395964818",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:7879d267d7ae:20260617",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "천사의 위스키/에릭 오 지음/민음사",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395963287&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395963287&rssType=1&type=item",
-      "event_at": "2026-06-17T03:09:00+00:00",
-      "isbn": "395963287",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "후보",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "예술",
-        "철학"
-      ],
-      "publisher": [
-        "민음사"
-      ],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "후보"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:395963287",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:7dafdf3dc68d:20260617",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "Literary Hub",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Kazuo Ishiguro’s next novel, out next year, will be a 1930s spy caper.",
-      "url": "https://lithub.com/kazuo-ishiguros-next-novel-out-next-year-will-be-a-1930s-spy-caper",
-      "source_url": "https://lithub.com/kazuo-ishiguros-next-novel-out-next-year-will-be-a-1930s-spy-caper",
-      "event_at": "2026-06-16T15:36:46+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "nobel",
-      "genre": [
-        "novel"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "nobel"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:literary-hub:52da196633cb",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:a4f60090856c:20260616",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Kazuo Ishiguro announces 1930s spy caper to be published next year",
-      "url": "https://www.theguardian.com/books/2026/jun/16/kazuo-ishiguro-new-1930s-spy-caper-novel",
-      "source_url": "https://www.theguardian.com/books/2026/jun/16/kazuo-ishiguro-new-1930s-spy-caper-novel",
-      "event_at": "2026-06-16T13:08:23+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "nobel",
-      "genre": [
-        "novel"
-      ],
-      "publisher": [
-        "publisher"
-      ],
-      "book_type": [],
-      "author": [
-        "author"
-      ],
-      "award": [
-        "nobel"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:title:fbb96b6bb064",
-      "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:6f6a90ccde55:20260616",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "Literary Hub",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Carrie R. Moore has won the 2026 Young Lions Fiction Award.",
-      "url": "https://lithub.com/carrie-r-moore-has-won-the-2026-young-lions-fiction-award",
-      "source_url": "https://lithub.com/carrie-r-moore-has-won-the-2026-young-lions-fiction-award",
-      "event_at": "2026-06-16T11:30:43+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "award",
-      "genre": [
-        "fiction"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "award",
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:literary-hub:1e276e6f60e3",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:86aef2e16f64:20260616",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "퍼펙트 데이즈 다이어리 (각본집 & 메이킹북)/다카사키 다쿠마 지음, 이지수 옮김/공드리",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395878995&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395878995&rssType=1&type=item",
-      "event_at": "2026-06-16T07:29:00+00:00",
-      "isbn": "395878995",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "에세이",
-        "시",
-        "예술",
-        "영어",
-        "일본어"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:395878995",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:06100b38b313:20260616",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "나의 통역사/리 랑그바드 지음, 손화수 옮김/푸른숲",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395834504&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395834504&rssType=1&type=item",
-      "event_at": "2026-06-16T05:11:00+00:00",
-      "isbn": "395834504",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "역사"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:395834504",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:f9afbf73a0fb:20260616",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -6207,6 +6142,206 @@
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
+      "event_model": "author_event",
+      "title": "엄마 아빠를 진정시키는 최고의 방법/가브리엘라 발린 지음, 안나 아파리시오 카탈라 그림, 김여진 옮김/나무말미",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395964818&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395964818&rssType=1&type=item",
+      "event_at": "2026-06-17T03:27:00+00:00",
+      "isbn": "395964818",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "",
+      "genre": [
+        "시",
+        "어린이",
+        "그림책"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:395964818",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:7879d267d7ae:20260617",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "천사의 위스키/에릭 오 지음/민음사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395963287&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395963287&rssType=1&type=item",
+      "event_at": "2026-06-17T03:09:00+00:00",
+      "isbn": "395963287",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "후보",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "예술",
+        "철학"
+      ],
+      "publisher": [
+        "민음사"
+      ],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "후보"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:395963287",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:7dafdf3dc68d:20260617",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "퍼펙트 데이즈 다이어리 (각본집 & 메이킹북)/다카사키 다쿠마 지음, 이지수 옮김/공드리",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395878995&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395878995&rssType=1&type=item",
+      "event_at": "2026-06-16T07:29:00+00:00",
+      "isbn": "395878995",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "에세이",
+        "시",
+        "예술",
+        "영어",
+        "일본어"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:395878995",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:06100b38b313:20260616",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "나의 통역사/리 랑그바드 지음, 손화수 옮김/푸른숲",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395834504&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395834504&rssType=1&type=item",
+      "event_at": "2026-06-16T05:11:00+00:00",
+      "isbn": "395834504",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "역사"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:395834504",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:f9afbf73a0fb:20260616",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
       "event_model": "award_signal",
       "title": "광고 불변의 법칙/데이비드 오길비 지음, 최경남 옮김/21세기북스",
       "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395820661&rssType=1&type=item",
@@ -6449,6 +6584,149 @@
         "source_url": true
       },
       "required_field_gaps": []
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Kazuo Ishiguro announces 1930s spy caper to be published next year",
+      "url": "https://www.theguardian.com/books/2026/jun/16/kazuo-ishiguro-new-1930s-spy-caper-novel",
+      "source_url": "https://www.theguardian.com/books/2026/jun/16/kazuo-ishiguro-new-1930s-spy-caper-novel",
+      "event_at": "2026-06-16T13:08:23+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "nobel",
+      "genre": [
+        "novel"
+      ],
+      "publisher": [
+        "publisher"
+      ],
+      "book_type": [],
+      "author": [
+        "author"
+      ],
+      "award": [
+        "nobel"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:fbb96b6bb064",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:6f6a90ccde55:20260616",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Kazuo Ishiguro’s next novel, out next year, will be a 1930s spy caper.",
+      "url": "https://lithub.com/kazuo-ishiguros-next-novel-out-next-year-will-be-a-1930s-spy-caper",
+      "source_url": "https://lithub.com/kazuo-ishiguros-next-novel-out-next-year-will-be-a-1930s-spy-caper",
+      "event_at": "2026-06-16T15:36:46+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "nobel",
+      "genre": [
+        "novel"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "nobel"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:literary-hub:52da196633cb",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:a4f60090856c:20260616",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Carrie R. Moore has won the 2026 Young Lions Fiction Award.",
+      "url": "https://lithub.com/carrie-r-moore-has-won-the-2026-young-lions-fiction-award",
+      "source_url": "https://lithub.com/carrie-r-moore-has-won-the-2026-young-lions-fiction-award",
+      "event_at": "2026-06-16T11:30:43+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [
+        "fiction"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "award",
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:literary-hub:1e276e6f60e3",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:86aef2e16f64:20260616",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
     },
     {
       "source": "알라딘 신간",
@@ -6718,497 +6996,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "‘I’m so grateful I got to live these days’: A Ghost in the Throat author Doireann Ní Ghríofa on recovering from depression",
-      "url": "https://www.theguardian.com/books/2026/may/16/im-so-grateful-i-got-to-live-these-days-a-ghost-in-the-throat-author-doireann-ni-ghriofa-on-recovering-from-depression",
-      "source_url": "https://www.theguardian.com/books/2026/may/16/im-so-grateful-i-got-to-live-these-days-a-ghost-in-the-throat-author-doireann-ni-ghriofa-on-recovering-from-depression",
-      "event_at": "2026-05-16T08:01:04+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "award",
-      "genre": [
-        "poetry",
-        "memoir"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "author"
-      ],
-      "award": [
-        "award"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:title:9b0ab879e2e1",
-      "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:e61e7ba8c474:20260516",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "What to read this summer by Mark Haddon, Samantha Harvey, Zadie Smith and more",
-      "url": "https://www.theguardian.com/books/2026/jun/13/what-to-read-this-summer-by-mark-haddon-samantha-harvey-zadie-smith-and-more",
-      "source_url": "https://www.theguardian.com/books/2026/jun/13/what-to-read-this-summer-by-mark-haddon-samantha-harvey-zadie-smith-and-more",
-      "event_at": "2026-06-13T08:00:09+00:00",
-      "isbn": "9780241686782",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [
-        "novel",
-        "literature",
-        "horror"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "booker",
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:9780241686782",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:dacb7fa1ad46:20260613",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Villa Coco by Andrew Sean Greer review – fun in the Tuscan sun",
-      "url": "https://www.theguardian.com/books/2026/jun/08/villa-coco-by-andrew-sean-greer-review-fun-in-the-tuscan-sun",
-      "source_url": "https://www.theguardian.com/books/2026/jun/08/villa-coco-by-andrew-sean-greer-review-fun-in-the-tuscan-sun",
-      "event_at": "2026-06-08T08:00:03+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "pulitzer",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "author"
-      ],
-      "award": [
-        "pulitzer"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:title:bc5fa630d790",
-      "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:03bd9dba2723:20260608",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "Book Riot",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "The Book News We Covered This Week",
-      "url": "https://bookriot.com/today-in-books-june-14-2026",
-      "source_url": "https://bookriot.com/today-in-books-june-14-2026",
-      "event_at": "2026-06-14T15:00:00+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "award",
-      "genre": [],
-      "publisher": [],
-      "book_type": [
-        "book news"
-      ],
-      "author": [],
-      "award": [
-        "award"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_source:book-riot:a6ff98387eb7",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:f62d74a47052:20260614",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "Publishers Weekly",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "How ‘Cool Machine’ by Colson Whitehead Got Made",
-      "url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/100623-how-cool-machine-by-colson-whitehead-got-made.html",
-      "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/100623-how-cool-machine-by-colson-whitehead-got-made.html",
-      "event_at": "2026-06-12T04:00:00+00:00",
-      "isbn": "100623",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "pulitzer",
-      "genre": [
-        "novel"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "pulitzer",
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:100623",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:cf663c283fdb:20260612",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "휴민트 각본집/류승완 지음/무제",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395547003&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395547003&rssType=1&type=item",
-      "event_at": "2026-06-12T06:49:00+00:00",
-      "isbn": "395547003",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "도서전",
-      "award_name": "",
-      "genre": [
-        "에세이",
-        "시",
-        "예술"
-      ],
-      "publisher": [],
-      "book_type": [
-        "시리즈"
-      ],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "도서전"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:395547003",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:c3203f231c80:20260612",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "아코디언/천명관 지음/창비",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395539828&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395539828&rssType=1&type=item",
-      "event_at": "2026-06-12T05:40:00+00:00",
-      "isbn": "395539828",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "부커상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학"
-      ],
-      "publisher": [
-        "창비"
-      ],
-      "book_type": [],
-      "author": [
-        "천명관",
-        "작가"
-      ],
-      "award": [
-        "부커상",
-        "후보"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:395539828",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:f1b7d67425ea:20260612",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "박뽕남 할머니의 수상한 외출/윤정 지음, 유영근 그림/내일도맑음",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395520575&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395520575&rssType=1&type=item",
-      "event_at": "2026-06-12T02:28:00+00:00",
-      "isbn": "395520575",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "여행",
-        "어린이",
-        "동화"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:395520575",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:9cd6cce011d6:20260612",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "만화 한국 신화 11 : 풍요를 꽃피우는 자청비/박정효 지음, 권수영 외 그림, 이경덕 기획/다산어린이",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395511356&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395511356&rssType=1&type=item",
-      "event_at": "2026-06-12T00:33:00+00:00",
-      "isbn": "395511356",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "시",
-        "역사",
-        "종교",
-        "철학",
-        "만화",
-        "어린이"
-      ],
-      "publisher": [],
-      "book_type": [
-        "시리즈"
-      ],
-      "author": [],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:395511356",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:40fc2b52cdd6:20260612",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "중국 AI 미래 지도/임선영 지음/책만",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395472428&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395472428&rssType=1&type=item",
-      "event_at": "2026-06-11T05:38:00+00:00",
-      "isbn": "395472428",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "북토크",
-      "award_name": "",
-      "genre": [
-        "시",
-        "경제경영",
-        "교육",
-        "정치",
-        "컴퓨터"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "북토크"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:395472428",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:9ec4e950f861:20260611",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
-      ]
     }
   ],
   "daily_review_items": [
@@ -7386,67 +7173,6 @@
     },
     {
       "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "알라딘 신간",
-      "title": "엄마 아빠를 진정시키는 최고의 방법/가브리엘라 발린 지음, 안나 아파리시오 카탈라 그림, 김여진 옮김/나무말미",
-      "canonical_key": "book_edition:395964818",
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Kazuo Ishiguro’s next novel, out next year, will be a 1930s spy caper.",
-      "canonical_key": "book_source:literary-hub:52da196633cb",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Kazuo Ishiguro’s next novel, out next year, will be a 1930s spy caper.",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "Kazuo Ishiguro announces 1930s spy caper to be published next year",
-      "canonical_key": "book_edition:title:fbb96b6bb064",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "Kazuo Ishiguro announces 1930s spy caper to be published next year",
-      "canonical_key_status": "title_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Carrie R. Moore has won the 2026 Young Lions Fiction Award.",
-      "canonical_key": "book_source:literary-hub:1e276e6f60e3",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Carrie R. Moore has won the 2026 Young Lions Fiction Award.",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
       "event_model": "award_signal",
       "source": "The Guardian Books",
       "title": "‘We can’t give up on Afghans’: Lyse Doucet on the remarkable ‘people’s history’ that won her the Women’s prize",
@@ -7481,27 +7207,20 @@
     },
     {
       "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "‘I’m so grateful I got to live these days’: A Ghost in the Throat author Doireann Ní Ghríofa on recovering from depression",
-      "canonical_key": "book_edition:title:9b0ab879e2e1",
+      "event_model": "author_event",
+      "source": "알라딘 신간",
+      "title": "엄마 아빠를 진정시키는 최고의 방법/가브리엘라 발린 지음, 안나 아파리시오 카탈라 그림, 김여진 옮김/나무말미",
+      "canonical_key": "book_edition:395964818",
       "required_field_gaps": [
-        "isbn"
+        "author_name"
       ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "‘I’m so grateful I got to live these days’: A Ghost in the Throat author Doireann Ní Ghríofa on recovering from depression",
-      "canonical_key_status": "title_proxy"
     },
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
       "source": "The Guardian Books",
-      "title": "Villa Coco by Andrew Sean Greer review – fun in the Tuscan sun",
-      "canonical_key": "book_edition:title:bc5fa630d790",
+      "title": "Kazuo Ishiguro announces 1930s spy caper to be published next year",
+      "canonical_key": "book_edition:title:fbb96b6bb064",
       "required_field_gaps": [
         "isbn"
       ]
@@ -7510,15 +7229,15 @@
       "reason": "proxy_canonical_key",
       "event_model": "award_signal",
       "source": "The Guardian Books",
-      "title": "Villa Coco by Andrew Sean Greer review – fun in the Tuscan sun",
+      "title": "Kazuo Ishiguro announces 1930s spy caper to be published next year",
       "canonical_key_status": "title_proxy"
     },
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "The Book News We Covered This Week",
-      "canonical_key": "book_source:book-riot:a6ff98387eb7",
+      "source": "Literary Hub",
+      "title": "Kazuo Ishiguro’s next novel, out next year, will be a 1930s spy caper.",
+      "canonical_key": "book_source:literary-hub:52da196633cb",
       "required_field_gaps": [
         "isbn"
       ]
@@ -7526,29 +7245,26 @@
     {
       "reason": "proxy_canonical_key",
       "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "The Book News We Covered This Week",
+      "source": "Literary Hub",
+      "title": "Kazuo Ishiguro’s next novel, out next year, will be a 1930s spy caper.",
       "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "알라딘 신간",
-      "title": "휴민트 각본집/류승완 지음/무제",
-      "canonical_key": "book_edition:395547003",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Carrie R. Moore has won the 2026 Young Lions Fiction Award.",
+      "canonical_key": "book_source:literary-hub:1e276e6f60e3",
       "required_field_gaps": [
-        "author_name"
+        "isbn"
       ]
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "알라딘 신간",
-      "title": "중국 AI 미래 지도/임선영 지음/책만",
-      "canonical_key": "book_edition:395472428",
-      "required_field_gaps": [
-        "author_name"
-      ]
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Carrie R. Moore has won the 2026 Young Lions Fiction Award.",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_event_model",
