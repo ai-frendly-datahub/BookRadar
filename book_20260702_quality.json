@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-07-01T05:23:15.038137+00:00",
+  "generated_at": "2026-07-02T04:59:15.262193+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,24 +16,24 @@
     "collection_error_count": 0,
     "sales_ranking_events": 45,
     "library_lending_events": 0,
-    "author_event_events": 16,
-    "award_signal_events": 62,
-    "book_signal_event_count": 123,
-    "official_or_operational_event_count": 108,
+    "author_event_events": 14,
+    "award_signal_events": 58,
+    "book_signal_event_count": 117,
+    "official_or_operational_event_count": 104,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 112,
-    "proxy_canonical_key_count": 11,
+    "complete_canonical_key_count": 108,
+    "proxy_canonical_key_count": 9,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 112,
-    "author_present_count": 80,
-    "publisher_present_count": 46,
-    "rank_present_count": 54,
+    "isbn_present_count": 108,
+    "author_present_count": 75,
+    "publisher_present_count": 45,
+    "rank_present_count": 53,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 19,
+    "event_required_field_gap_count": 17,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 35
+    "daily_review_item_count": 31
   },
   "sources": [
     {
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 313,
+      "article_count": 283,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 45,
       "event_count": 45,
       "latest_event_at": "2026-06-28T22:01:31+00:00",
-      "age_days": 2.31,
+      "age_days": 3.29,
       "latest_title": "1위 포켓몬 생태도감 특별판",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396644572&radar_rank=1&radar_ranking_date=20260628220131&rssType=5&type=item",
       "latest_source_signal": [
@@ -240,7 +240,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 129,
+      "article_count": 131,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 71,
+      "article_count": 68,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -309,7 +309,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 89,
+      "article_count": 79,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -332,7 +332,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 96,
+      "article_count": 87,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -378,7 +378,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 63,
+      "article_count": 65,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -782,6 +782,52 @@
   ],
   "events": [
     {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Short story accused of being AI-written wins overall Commonwealth prize",
+      "url": "https://www.theguardian.com/books/2026/jul/01/judges-claims-ai-use-commonwealth-short-story-prize-jamir-nazir",
+      "source_url": "https://www.theguardian.com/books/2026/jul/01/judges-claims-ai-use-commonwealth-short-story-prize-jamir-nazir",
+      "event_at": "2026-07-01T12:44:11+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "winner",
+      "genre": [
+        "literary"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:the-guardian-books:d10dfb463945",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:7500518e4948:20260701",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
       "source": "알라딘 신간",
       "source_type": "rss",
       "trust_tier": "T1_official",
@@ -790,11 +836,162 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "주와 연/청예 지음/래빗홀",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397049636&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397049636&rssType=1&type=item",
-      "event_at": "2026-06-29T06:36:00+00:00",
-      "isbn": "397049636",
+      "title": "연애 시대의 종말/비비언 고닉 지음, 홍한별 옮김/엘리",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397091999&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397091999&rssType=1&type=item",
+      "event_at": "2026-06-30T02:19:00+00:00",
+      "isbn": "397091999",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "후보",
+      "genre": [
+        "소설",
+        "에세이",
+        "시",
+        "희곡",
+        "문학",
+        "예술",
+        "영어"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "번역"
+      ],
+      "award": [
+        "후보"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:397091999",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:77c99fb6d555:20260630",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "흰흑/김뉘연 지음/열림원",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397089390&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397089390&rssType=1&type=item",
+      "event_at": "2026-06-30T01:47:00+00:00",
+      "isbn": "397089390",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:397089390",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:6680b5853999:20260630",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "주기율표/DK 『주기율표』 편집 위원회 지음, 이경아 옮김, 이정모 감수/사이언스북스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397087725&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397087725&rssType=1&type=item",
+      "event_at": "2026-06-30T01:25:00+00:00",
+      "isbn": "397087725",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "시",
+        "과학",
+        "역사"
+      ],
+      "publisher": [],
+      "book_type": [
+        "세트"
+      ],
+      "author": [],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:397087725",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:d8a5f355ecd7:20260630",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "좋겠다, 아무것도 안 하고 월급 받으면/박선영 지음/허블",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397087579&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397087579&rssType=1&type=item",
+      "event_at": "2026-06-30T01:23:00+00:00",
+      "isbn": "397087579",
       "rank": null,
       "retailer": "",
       "library_network": "",
@@ -807,13 +1004,11 @@
         "희곡",
         "문학",
         "과학",
-        "철학",
-        "판타지",
-        "로맨스",
-        "추리",
-        "스릴러"
+        "sf"
       ],
-      "publisher": [],
+      "publisher": [
+        "출판사"
+      ],
       "book_type": [],
       "author": [
         "작가"
@@ -828,9 +1023,9 @@
         "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:397049636",
+      "canonical_key": "book_edition:397087579",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:44299e56d738:20260629",
+      "event_key": "award_signal:1f70620d7341:20260630",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -846,174 +1041,12 @@
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
-      "event_model": "author_event",
-      "title": "먼 거울/바바라 터크먼 지음, 박중서 옮김/원더박스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397048998&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397048998&rssType=1&type=item",
-      "event_at": "2026-06-29T06:28:00+00:00",
-      "isbn": "397048998",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "강연",
-      "award_name": "퓰리처",
-      "genre": [
-        "시",
-        "문학",
-        "인문학",
-        "역사",
-        "심리"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "저자"
-      ],
-      "award": [
-        "퓰리처",
-        "수상"
-      ],
-      "book_event": [
-        "강연"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:397048998",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:285c10646ee1:20260629",
-      "required_field_proxy": {
-        "author_name": true,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
       "event_model": "award_signal",
-      "title": "먼 거울/바바라 터크먼 지음, 박중서 옮김/원더박스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397048998&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397048998&rssType=1&type=item",
-      "event_at": "2026-06-29T06:28:00+00:00",
-      "isbn": "397048998",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "강연",
-      "award_name": "퓰리처",
-      "genre": [
-        "시",
-        "문학",
-        "인문학",
-        "역사",
-        "심리"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "저자"
-      ],
-      "award": [
-        "퓰리처",
-        "수상"
-      ],
-      "book_event": [
-        "강연"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:397048998",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:285c10646ee1:20260629",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "두 도시 이야기/찰스 디킨스 지음, 이인규 옮김/문학동네",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397047614&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397047614&rssType=1&type=item",
-      "event_at": "2026-06-29T06:09:00+00:00",
-      "isbn": "397047614",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "낭독회",
-      "award_name": "",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "역사"
-      ],
-      "publisher": [
-        "문학동네"
-      ],
-      "book_type": [],
-      "author": [
-        "작가",
-        "저자"
-      ],
-      "award": [],
-      "book_event": [
-        "낭독회"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:397047614",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:bba07a2db513:20260629",
-      "required_field_proxy": {
-        "author_name": true,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "블러디 머더/줄리안 시먼스 지음, 김명남 옮김/우연한지식",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397045887&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397045887&rssType=1&type=item",
-      "event_at": "2026-06-29T05:47:00+00:00",
-      "isbn": "397045887",
+      "title": "0000 (리커버)/임선우 지음/위즈덤하우스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397085072&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397085072&rssType=1&type=item",
+      "event_at": "2026-06-30T00:47:00+00:00",
+      "isbn": "397085072",
       "rank": null,
       "retailer": "",
       "library_network": "",
@@ -1024,25 +1057,19 @@
         "소설",
         "시",
         "희곡",
-        "문학",
-        "역사",
-        "추리",
-        "스릴러"
+        "문학"
       ],
-      "publisher": [],
+      "publisher": [
+        "위즈덤하우스"
+      ],
       "book_type": [
-        "개정판",
-        "시리즈",
-        "초판"
+        "시리즈"
       ],
       "author": [
-        "작가",
-        "번역",
-        "역자"
+        "작가"
       ],
       "award": [
-        "수상",
-        "선정"
+        "수상"
       ],
       "book_event": [],
       "source_signal": [
@@ -1050,9 +1077,9 @@
         "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:397045887",
+      "canonical_key": "book_edition:397085072",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:4aca3a39d393:20260629",
+      "event_key": "award_signal:db98afff3ec9:20260630",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -1069,34 +1096,37 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "굿바이, 재버워크/이사카 고타로 지음, 민경욱 옮김/인플루엔셜(주)",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397030746&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397030746&rssType=1&type=item",
-      "event_at": "2026-06-29T03:00:00+00:00",
-      "isbn": "397030746",
-      "rank": 1,
+      "title": "소란한 속삭임 (리커버)/예소연 지음/위즈덤하우스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397084642&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397084642&rssType=1&type=item",
+      "event_at": "2026-06-30T00:39:00+00:00",
+      "isbn": "397084642",
+      "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
       "venue": "",
-      "award_name": "후보",
+      "award_name": "이상문학상",
       "genre": [
         "소설",
         "시",
         "희곡",
-        "문학",
-        "추리"
+        "문학"
       ],
       "publisher": [
-        "인플루엔셜"
+        "위즈덤하우스"
       ],
-      "book_type": [],
+      "book_type": [
+        "시리즈"
+      ],
       "author": [
         "작가",
-        "데뷔"
+        "저자"
       ],
       "award": [
-        "후보"
+        "이상문학상",
+        "수상",
+        "문학상"
       ],
       "book_event": [],
       "source_signal": [
@@ -1104,9 +1134,63 @@
         "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:397030746",
+      "canonical_key": "book_edition:397084642",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:89db756e36f0:20260629",
+      "event_key": "award_signal:1fac3a6cee25:20260630",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "계화의 여름 (리커버)/배명은 지음/위즈덤하우스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397084512&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397084512&rssType=1&type=item",
+      "event_at": "2026-06-30T00:36:00+00:00",
+      "isbn": "397084512",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학"
+      ],
+      "publisher": [
+        "위즈덤하우스"
+      ],
+      "book_type": [
+        "시리즈"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:397084512",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:c68ad3354876:20260630",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -4910,158 +4994,6 @@
       "required_field_gaps": []
     },
     {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "예민한 날엔 화학을 삼킨다/장홍제 지음/휴머니스트",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396069258&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396069258&rssType=1&type=item",
-      "event_at": "2026-06-18T03:10:00+00:00",
-      "isbn": "396069258",
-      "rank": 1,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "강연",
-      "award_name": "",
-      "genre": [
-        "시",
-        "과학"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "강연"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:396069258",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:d6316eb2ad8c:20260618",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "축구 월클 도감/장민석 지음, 익뚜 그림/후즈갓마이테일",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395999769&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395999769&rssType=1&type=item",
-      "event_at": "2026-06-17T07:58:00+00:00",
-      "isbn": "395999769",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "역사",
-        "예술",
-        "만화",
-        "어린이"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상",
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:395999769",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:d6e695b8489a:20260617",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "잘되는 사람의 뇌과학/사비나 브레넌 지음, 유윤한 옮김/동아엠앤비",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395978049&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395978049&rssType=1&type=item",
-      "event_at": "2026-06-17T05:25:00+00:00",
-      "isbn": "395978049",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "시",
-        "문학",
-        "자기계발",
-        "인문학",
-        "과학",
-        "심리"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "저자"
-      ],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:395978049",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:577f5ea7f583:20260617",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -6143,6 +6075,158 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "author_event",
+      "title": "예민한 날엔 화학을 삼킨다/장홍제 지음/휴머니스트",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396069258&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396069258&rssType=1&type=item",
+      "event_at": "2026-06-18T03:10:00+00:00",
+      "isbn": "396069258",
+      "rank": 1,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "강연",
+      "award_name": "",
+      "genre": [
+        "시",
+        "과학"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "강연"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:396069258",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:d6316eb2ad8c:20260618",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "축구 월클 도감/장민석 지음, 익뚜 그림/후즈갓마이테일",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395999769&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395999769&rssType=1&type=item",
+      "event_at": "2026-06-17T07:58:00+00:00",
+      "isbn": "395999769",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "역사",
+        "예술",
+        "만화",
+        "어린이"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상",
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:395999769",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:d6e695b8489a:20260617",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "잘되는 사람의 뇌과학/사비나 브레넌 지음, 유윤한 옮김/동아엠앤비",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395978049&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395978049&rssType=1&type=item",
+      "event_at": "2026-06-17T05:25:00+00:00",
+      "isbn": "395978049",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "시",
+        "문학",
+        "자기계발",
+        "인문학",
+        "과학",
+        "심리"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "저자"
+      ],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:395978049",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:577f5ea7f583:20260617",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
       "title": "엄마 아빠를 진정시키는 최고의 방법/가브리엘라 발린 지음, 안나 아파리시오 카탈라 그림, 김여진 옮김/나무말미",
       "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395964818&rssType=1&type=item",
       "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395964818&rssType=1&type=item",
@@ -6584,421 +6668,26 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Kazuo Ishiguro announces 1930s spy caper to be published next year",
-      "url": "https://www.theguardian.com/books/2026/jun/16/kazuo-ishiguro-new-1930s-spy-caper-novel",
-      "source_url": "https://www.theguardian.com/books/2026/jun/16/kazuo-ishiguro-new-1930s-spy-caper-novel",
-      "event_at": "2026-06-16T13:08:23+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "nobel",
-      "genre": [
-        "novel"
-      ],
-      "publisher": [
-        "publisher"
-      ],
-      "book_type": [],
-      "author": [
-        "author"
-      ],
-      "award": [
-        "nobel"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:title:fbb96b6bb064",
-      "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:6f6a90ccde55:20260616",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "Literary Hub",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Kazuo Ishiguro’s next novel, out next year, will be a 1930s spy caper.",
-      "url": "https://lithub.com/kazuo-ishiguros-next-novel-out-next-year-will-be-a-1930s-spy-caper",
-      "source_url": "https://lithub.com/kazuo-ishiguros-next-novel-out-next-year-will-be-a-1930s-spy-caper",
-      "event_at": "2026-06-16T15:36:46+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "nobel",
-      "genre": [
-        "novel"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "nobel"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:literary-hub:52da196633cb",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:a4f60090856c:20260616",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "Literary Hub",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Carrie R. Moore has won the 2026 Young Lions Fiction Award.",
-      "url": "https://lithub.com/carrie-r-moore-has-won-the-2026-young-lions-fiction-award",
-      "source_url": "https://lithub.com/carrie-r-moore-has-won-the-2026-young-lions-fiction-award",
-      "event_at": "2026-06-16T11:30:43+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "award",
-      "genre": [
-        "fiction"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "award",
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:literary-hub:1e276e6f60e3",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:86aef2e16f64:20260616",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "콘크리트 유토피아/박해천 지음/워크룸프레스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395778394&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395778394&rssType=1&type=item",
-      "event_at": "2026-06-15T07:35:00+00:00",
-      "isbn": "395778394",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "소설",
-        "시",
-        "문학",
-        "인문학",
-        "과학",
-        "사회과학",
-        "종교",
-        "정치",
-        "개발"
-      ],
-      "publisher": [],
-      "book_type": [
-        "개정판",
-        "초판"
-      ],
-      "author": [
-        "한강",
-        "저자"
-      ],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:395778394",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:7ad8ddf2aab0:20260615",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "밤하늘을 헤엄치는 초콜릿구라미/마치다 소노코 지음, 이정민 옮김/하빌리스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395776510&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395776510&rssType=1&type=item",
-      "event_at": "2026-06-15T07:12:00+00:00",
-      "isbn": "395776510",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학"
-      ],
-      "publisher": [],
-      "book_type": [
-        "시리즈"
-      ],
-      "author": [
-        "작가",
-        "데뷔"
-      ],
-      "award": [
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:395776510",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:5ef8be544b1a:20260615",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "공부나 하라고요? 세상이 이 모양인데?/토끼풀 지음, 방상호 그림/풀빛",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395770957&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395770957&rssType=1&type=item",
-      "event_at": "2026-06-15T06:09:00+00:00",
-      "isbn": "395770957",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "후보",
-      "genre": [
-        "시",
-        "역사",
-        "교육",
-        "정치",
-        "청소년"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "후보"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:395770957",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:1b44b41955d5:20260615",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "압록강은 흐른다/이미륵 지음, 안삼환 옮김/민음사",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395751250&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395751250&rssType=1&type=item",
-      "event_at": "2026-06-15T01:59:00+00:00",
-      "isbn": "395751250",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학"
-      ],
-      "publisher": [
-        "민음사",
-        "출판사"
-      ],
-      "book_type": [
-        "초판"
-      ],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:395751250",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:29a32ce47c45:20260615",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "소맥거핀 일상 만화 6/소맥거핀 원작, 이종혁 지음, 샌드박스네트워크 감수/위즈덤하우스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395751166&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395751166&rssType=1&type=item",
-      "event_at": "2026-06-15T01:57:00+00:00",
-      "isbn": "395751166",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "만화",
-        "어린이"
-      ],
-      "publisher": [
-        "위즈덤하우스"
-      ],
-      "book_type": [
-        "베스트셀러",
-        "시리즈"
-      ],
-      "author": [],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:395751166",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:8aac16673ede:20260615",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Short story accused of being AI-written wins overall Commonwealth prize",
+      "canonical_key": "book_source:the-guardian-books:d10dfb463945",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Short story accused of being AI-written wins overall Commonwealth prize",
+      "canonical_key_status": "source_proxy"
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
@@ -7163,16 +6852,6 @@
     },
     {
       "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "알라딘 신간",
-      "title": "예민한 날엔 화학을 삼킨다/장홍제 지음/휴머니스트",
-      "canonical_key": "book_edition:396069258",
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
       "event_model": "award_signal",
       "source": "The Guardian Books",
       "title": "‘We can’t give up on Afghans’: Lyse Doucet on the remarkable ‘people’s history’ that won her the Women’s prize",
@@ -7209,62 +6888,21 @@
       "reason": "missing_required_fields",
       "event_model": "author_event",
       "source": "알라딘 신간",
-      "title": "엄마 아빠를 진정시키는 최고의 방법/가브리엘라 발린 지음, 안나 아파리시오 카탈라 그림, 김여진 옮김/나무말미",
-      "canonical_key": "book_edition:395964818",
+      "title": "예민한 날엔 화학을 삼킨다/장홍제 지음/휴머니스트",
+      "canonical_key": "book_edition:396069258",
       "required_field_gaps": [
         "author_name"
       ]
     },
     {
       "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "Kazuo Ishiguro announces 1930s spy caper to be published next year",
-      "canonical_key": "book_edition:title:fbb96b6bb064",
+      "event_model": "author_event",
+      "source": "알라딘 신간",
+      "title": "엄마 아빠를 진정시키는 최고의 방법/가브리엘라 발린 지음, 안나 아파리시오 카탈라 그림, 김여진 옮김/나무말미",
+      "canonical_key": "book_edition:395964818",
       "required_field_gaps": [
-        "isbn"
+        "author_name"
       ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "Kazuo Ishiguro announces 1930s spy caper to be published next year",
-      "canonical_key_status": "title_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Kazuo Ishiguro’s next novel, out next year, will be a 1930s spy caper.",
-      "canonical_key": "book_source:literary-hub:52da196633cb",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Kazuo Ishiguro’s next novel, out next year, will be a 1930s spy caper.",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Carrie R. Moore has won the 2026 Young Lions Fiction Award.",
-      "canonical_key": "book_source:literary-hub:1e276e6f60e3",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Carrie R. Moore has won the 2026 Young Lions Fiction Award.",
-      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_event_model",
