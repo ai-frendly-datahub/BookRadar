@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-07-03T04:43:17.014384+00:00",
+  "generated_at": "2026-07-04T04:36:57.214047+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,24 +16,24 @@
     "collection_error_count": 0,
     "sales_ranking_events": 45,
     "library_lending_events": 0,
-    "author_event_events": 17,
-    "award_signal_events": 48,
+    "author_event_events": 15,
+    "award_signal_events": 50,
     "book_signal_event_count": 110,
-    "official_or_operational_event_count": 95,
+    "official_or_operational_event_count": 94,
     "community_proxy_event_count": 0,
     "complete_canonical_key_count": 100,
     "proxy_canonical_key_count": 10,
     "missing_canonical_key_count": 0,
     "isbn_present_count": 100,
-    "author_present_count": 73,
+    "author_present_count": 74,
     "publisher_present_count": 41,
     "rank_present_count": 53,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 20,
+    "event_required_field_gap_count": 17,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 35
+    "daily_review_item_count": 32
   },
   "sources": [
     {
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 253,
+      "article_count": 218,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 45,
       "event_count": 45,
       "latest_event_at": "2026-06-28T22:01:31+00:00",
-      "age_days": 4.28,
+      "age_days": 5.27,
       "latest_title": "1위 포켓몬 생태도감 특별판",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396644572&radar_rank=1&radar_ranking_date=20260628220131&rssType=5&type=item",
       "latest_source_signal": [
@@ -240,7 +240,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 131,
+      "article_count": 122,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 67,
+      "article_count": 69,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -309,7 +309,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 69,
+      "article_count": 68,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -332,7 +332,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 77,
+      "article_count": 70,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -790,7 +790,51 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "Long Wave By Daisy Johnson review – a sublime novel of motherhood and loss",
+      "title": "The best recent poetry – review roundup",
+      "url": "https://www.theguardian.com/books/2026/jul/03/the-best-recent-poetry-review-roundup",
+      "source_url": "https://www.theguardian.com/books/2026/jul/03/the-best-recent-poetry-review-roundup",
+      "event_at": "2026-07-03T11:00:27+00:00",
+      "isbn": "9781804272022",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "nobel",
+      "genre": [
+        "poetry"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "nobel"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:9781804272022",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:de777217f5f0:20260703",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Long Wave by Daisy Johnson review – a sublime novel of motherhood and loss",
       "url": "https://www.theguardian.com/books/2026/jul/02/long-wave-by-daisy-johnson-review-a-sublime-novel-of-motherhood-and-loss",
       "source_url": "https://www.theguardian.com/books/2026/jul/02/long-wave-by-daisy-johnson-review-a-sublime-novel-of-motherhood-and-loss",
       "event_at": "2026-07-02T09:48:02+00:00",
@@ -831,6 +875,114 @@
       ]
     },
     {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "독서라는 사건/밀리의서재.정유라 지음/오리지널스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397294330&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397294330&rssType=1&type=item",
+      "event_at": "2026-07-02T06:39:00+00:00",
+      "isbn": "397294330",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "서울국제도서전",
+      "award_name": "",
+      "genre": [
+        "에세이",
+        "시",
+        "경제경영"
+      ],
+      "publisher": [
+        "민음사",
+        "출판사"
+      ],
+      "book_type": [],
+      "author": [
+        "작가",
+        "번역"
+      ],
+      "award": [],
+      "book_event": [
+        "서울국제도서전",
+        "북클럽",
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:397294330",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:047f0bbb8feb:20260702",
+      "required_field_proxy": {
+        "author_name": true,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "텅 빈 마음 가진 채로/김화진 지음/문학과지성사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397292803&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397292803&rssType=1&type=item",
+      "event_at": "2026-07-02T06:25:00+00:00",
+      "isbn": "397292803",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학"
+      ],
+      "publisher": [
+        "문학과지성사"
+      ],
+      "book_type": [],
+      "author": [
+        "작가",
+        "데뷔"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:397292803",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:4d3bad583fc7:20260702",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
       "source": "Publishers Weekly",
       "source_type": "rss",
       "trust_tier": "T3_professional",
@@ -865,6 +1017,320 @@
       "canonical_key": "book_edition:100760",
       "canonical_key_status": "complete",
       "event_key": "award_signal:2051b683e04d:20260702",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "알로하, 나의 엄마들 (특별 한정판)/이금이 지음/창비",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397266606&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397266606&rssType=1&type=item",
+      "event_at": "2026-07-02T02:26:00+00:00",
+      "isbn": "397266606",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "역사"
+      ],
+      "publisher": [
+        "창비"
+      ],
+      "book_type": [
+        "한정판"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상",
+        "후보"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:397266606",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:980f83d747cc:20260702",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "읽고 싶은 소설이 생겼다/문화라 지음/바틀비",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397264136&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397264136&rssType=1&type=item",
+      "event_at": "2026-07-02T02:10:00+00:00",
+      "isbn": "397264136",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "부커상",
+      "genre": [
+        "소설",
+        "시",
+        "문학",
+        "인문학",
+        "역사",
+        "여행",
+        "심리",
+        "영어",
+        "추리"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "한강",
+        "김영하",
+        "정세랑",
+        "김초엽",
+        "저자",
+        "번역"
+      ],
+      "award": [
+        "부커상",
+        "맨부커",
+        "수상",
+        "문학상",
+        "선정",
+        "후보"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:397264136",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:85762429f1c7:20260702",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "우리는 어쩌다 과학을 믿게 되었을까/이근희.김갑진 지음/모어사이언스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397263867&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397263867&rssType=1&type=item",
+      "event_at": "2026-07-02T02:07:00+00:00",
+      "isbn": "397263867",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "과학"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "저자"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:397263867",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:84d0780ee41d:20260702",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "한눈에 오를 주식만 골라내는 현금흐름표 읽는 법/이강연 지음/비즈니스북스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397255401&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397255401&rssType=1&type=item",
+      "event_at": "2026-07-02T00:34:00+00:00",
+      "isbn": "397255401",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "강연",
+      "award_name": "",
+      "genre": [
+        "시",
+        "경제경영"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "저자"
+      ],
+      "award": [],
+      "book_event": [
+        "강연"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:397255401",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:4ebbf475a650:20260702",
+      "required_field_proxy": {
+        "author_name": true,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "썰레임 꿈의 악마 : 꿈을 파는 가게 5/김언정 지음, 정수영 그림, 썰레임 원작/학산문화사(단행본)",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397254256&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397254256&rssType=1&type=item",
+      "event_at": "2026-07-02T00:04:00+00:00",
+      "isbn": "397254256",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "심리",
+        "만화",
+        "어린이"
+      ],
+      "publisher": [],
+      "book_type": [
+        "시리즈"
+      ],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:397254256",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:a68938aafe90:20260702",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "스타듀 밸리 공식 레시피북/에릭 바론(컨선드에이프).라이언 노박 지음, 정연주 옮김/영진.com(영진닷컴)",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397253421&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397253421&rssType=1&type=item",
+      "event_at": "2026-07-01T23:33:00+00:00",
+      "isbn": "397253421",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "요리",
+        "건강"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:397253421",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:8143de8121df:20260701",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -916,276 +1382,6 @@
       },
       "required_field_gaps": [
         "isbn"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "초등 상위 1%를 만드는 위대한 고전 맛보기 세트 - 전3권/양화당 지음, 김잔디 외 그림, 이준기 추천/책읽는곰",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397206684&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397206684&rssType=1&type=item",
-      "event_at": "2026-07-01T06:24:00+00:00",
-      "isbn": "397206684",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "문학",
-        "인문학",
-        "과학",
-        "역사",
-        "종교",
-        "철학",
-        "여행",
-        "요리",
-        "정치",
-        "컴퓨터",
-        "만화",
-        "어린이",
-        "동화"
-      ],
-      "publisher": [],
-      "book_type": [
-        "세트"
-      ],
-      "author": [
-        "저자"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:397206684",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:51b485a3ad3c:20260701",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "삼구의 사과 맛 소원/신동섭 지음, 지승희 그림/문학동네",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397206217&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397206217&rssType=1&type=item",
-      "event_at": "2026-07-01T06:22:00+00:00",
-      "isbn": "397206217",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "문학",
-        "역사",
-        "어린이",
-        "동화"
-      ],
-      "publisher": [
-        "문학동네",
-        "비룡소"
-      ],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:397206217",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:adb699fa50dd:20260701",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "풍성한 삶으로 초대 워크북/김형국 지음/이미아직",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397204594&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397204594&rssType=1&type=item",
-      "event_at": "2026-07-01T06:16:00+00:00",
-      "isbn": "397204594",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "강연",
-      "award_name": "",
-      "genre": [
-        "시",
-        "종교",
-        "여행"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "저자"
-      ],
-      "award": [],
-      "book_event": [
-        "강연"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:397204594",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:4f63108acde7:20260701",
-      "required_field_proxy": {
-        "author_name": true,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "햇생강이 나오면/강우근 외 지음, 박준 외 엮음/창비",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397166093&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397166093&rssType=1&type=item",
-      "event_at": "2026-07-01T01:58:00+00:00",
-      "isbn": "397166093",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "서울국제도서전",
-      "award_name": "",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학"
-      ],
-      "publisher": [
-        "창비"
-      ],
-      "book_type": [],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "서울국제도서전",
-        "도서전"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:397166093",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:d097d2396ca6:20260701",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "터틀넥프레스 사업일기 3 : MEETS/김보희 지음/터틀넥프레스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397166075&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397166075&rssType=1&type=item",
-      "event_at": "2026-07-01T01:58:00+00:00",
-      "isbn": "397166075",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "서울국제도서전",
-      "award_name": "",
-      "genre": [
-        "문학",
-        "경제경영",
-        "인문학",
-        "과학",
-        "사회과학"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "서울국제도서전",
-        "북토크",
-        "도서전"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:397166075",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:906502c3edec:20260701",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
       ]
     },
     {
@@ -4615,110 +4811,6 @@
       ]
     },
     {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "고전물리학의 창시자들을 찾아서/에밀리오 세그레 지음, 노봉환 옮김/전파과학사",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396174606&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396174606&rssType=1&type=item",
-      "event_at": "2026-06-19T05:52:00+00:00",
-      "isbn": "396174606",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "과학",
-        "역사"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "저자"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:396174606",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:619ca261db99:20260619",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "악마는 열심히 산다/김화진 지음/민음사",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396171846&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396171846&rssType=1&type=item",
-      "event_at": "2026-06-19T05:28:00+00:00",
-      "isbn": "396171846",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "오늘의 작가상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학"
-      ],
-      "publisher": [
-        "민음사"
-      ],
-      "book_type": [
-        "시리즈"
-      ],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "오늘의 작가상",
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:396171846",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:6a4a7e249648:20260619",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -4906,6 +4998,110 @@
       "required_field_gaps": [
         "isbn"
       ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "고전물리학의 창시자들을 찾아서/에밀리오 세그레 지음, 노봉환 옮김/전파과학사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396174606&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396174606&rssType=1&type=item",
+      "event_at": "2026-06-19T05:52:00+00:00",
+      "isbn": "396174606",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "과학",
+        "역사"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "저자"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:396174606",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:619ca261db99:20260619",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "악마는 열심히 산다/김화진 지음/민음사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396171846&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396171846&rssType=1&type=item",
+      "event_at": "2026-06-19T05:28:00+00:00",
+      "isbn": "396171846",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "오늘의 작가상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학"
+      ],
+      "publisher": [
+        "민음사"
+      ],
+      "book_type": [
+        "시리즈"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "오늘의 작가상",
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:396171846",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:6a4a7e249648:20260619",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "알라딘 신간",
@@ -6103,211 +6299,6 @@
       "required_field_gaps": [
         "author_name"
       ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "축구 월클 도감/장민석 지음, 익뚜 그림/후즈갓마이테일",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395999769&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395999769&rssType=1&type=item",
-      "event_at": "2026-06-17T07:58:00+00:00",
-      "isbn": "395999769",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "역사",
-        "예술",
-        "만화",
-        "어린이"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상",
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:395999769",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:d6e695b8489a:20260617",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "잘되는 사람의 뇌과학/사비나 브레넌 지음, 유윤한 옮김/동아엠앤비",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395978049&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395978049&rssType=1&type=item",
-      "event_at": "2026-06-17T05:25:00+00:00",
-      "isbn": "395978049",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "시",
-        "문학",
-        "자기계발",
-        "인문학",
-        "과학",
-        "심리"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "저자"
-      ],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:395978049",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:577f5ea7f583:20260617",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "엄마 아빠를 진정시키는 최고의 방법/가브리엘라 발린 지음, 안나 아파리시오 카탈라 그림, 김여진 옮김/나무말미",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395964818&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395964818&rssType=1&type=item",
-      "event_at": "2026-06-17T03:27:00+00:00",
-      "isbn": "395964818",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "도서전",
-      "award_name": "",
-      "genre": [
-        "시",
-        "어린이",
-        "그림책"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "도서전"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:395964818",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:7879d267d7ae:20260617",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "천사의 위스키/에릭 오 지음/민음사",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395963287&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=395963287&rssType=1&type=item",
-      "event_at": "2026-06-17T03:09:00+00:00",
-      "isbn": "395963287",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "후보",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "예술",
-        "철학"
-      ],
-      "publisher": [
-        "민음사"
-      ],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "후보"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:395963287",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:7dafdf3dc68d:20260617",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
@@ -6315,7 +6306,7 @@
       "reason": "missing_required_fields",
       "event_model": "award_signal",
       "source": "The Guardian Books",
-      "title": "Long Wave By Daisy Johnson review – a sublime novel of motherhood and loss",
+      "title": "Long Wave by Daisy Johnson review – a sublime novel of motherhood and loss",
       "canonical_key": "book_edition:title:891522b28206",
       "required_field_gaps": [
         "isbn"
@@ -6325,7 +6316,7 @@
       "reason": "proxy_canonical_key",
       "event_model": "award_signal",
       "source": "The Guardian Books",
-      "title": "Long Wave By Daisy Johnson review – a sublime novel of motherhood and loss",
+      "title": "Long Wave by Daisy Johnson review – a sublime novel of motherhood and loss",
       "canonical_key_status": "title_proxy"
     },
     {
@@ -6344,26 +6335,6 @@
       "source": "The Guardian Books",
       "title": "Short story accused of being AI-written wins overall Commonwealth prize",
       "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "알라딘 신간",
-      "title": "햇생강이 나오면/강우근 외 지음, 박준 외 엮음/창비",
-      "canonical_key": "book_edition:397166093",
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "알라딘 신간",
-      "title": "터틀넥프레스 사업일기 3 : MEETS/김보희 지음/터틀넥프레스",
-      "canonical_key": "book_edition:397166075",
-      "required_field_gaps": [
-        "author_name"
-      ]
     },
     {
       "reason": "missing_required_fields",
@@ -6567,16 +6538,6 @@
       "source": "알라딘 신간",
       "title": "예민한 날엔 화학을 삼킨다/장홍제 지음/휴머니스트",
       "canonical_key": "book_edition:396069258",
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "알라딘 신간",
-      "title": "엄마 아빠를 진정시키는 최고의 방법/가브리엘라 발린 지음, 안나 아파리시오 카탈라 그림, 김여진 옮김/나무말미",
-      "canonical_key": "book_edition:395964818",
       "required_field_gaps": [
         "author_name"
       ]
