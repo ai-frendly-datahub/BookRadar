@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-07-04T04:36:57.214047+00:00",
+  "generated_at": "2026-07-05T04:58:26.670742+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,24 +16,24 @@
     "collection_error_count": 0,
     "sales_ranking_events": 45,
     "library_lending_events": 0,
-    "author_event_events": 15,
-    "award_signal_events": 50,
-    "book_signal_event_count": 110,
-    "official_or_operational_event_count": 94,
+    "author_event_events": 11,
+    "award_signal_events": 45,
+    "book_signal_event_count": 101,
+    "official_or_operational_event_count": 85,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 100,
+    "complete_canonical_key_count": 91,
     "proxy_canonical_key_count": 10,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 100,
-    "author_present_count": 74,
-    "publisher_present_count": 41,
-    "rank_present_count": 53,
+    "isbn_present_count": 91,
+    "author_present_count": 68,
+    "publisher_present_count": 40,
+    "rank_present_count": 52,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 17,
+    "event_required_field_gap_count": 16,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 32
+    "daily_review_item_count": 31
   },
   "sources": [
     {
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 218,
+      "article_count": 188,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 45,
       "event_count": 45,
       "latest_event_at": "2026-06-28T22:01:31+00:00",
-      "age_days": 5.27,
+      "age_days": 6.29,
       "latest_title": "1위 포켓몬 생태도감 특별판",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396644572&radar_rank=1&radar_ranking_date=20260628220131&rssType=5&type=item",
       "latest_source_signal": [
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 69,
+      "article_count": 70,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -309,7 +309,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 68,
+      "article_count": 67,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -332,7 +332,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 70,
+      "article_count": 67,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -378,7 +378,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 63,
+      "article_count": 62,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -826,6 +826,122 @@
       "required_field_gaps": []
     },
     {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "라스트 젤리 샷/청예 지음/허블",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397362260&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397362260&rssType=1&type=item",
+      "event_at": "2026-07-03T00:55:00+00:00",
+      "isbn": "397362260",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "과학",
+        "예술",
+        "종교",
+        "sf"
+      ],
+      "publisher": [
+        "출판사"
+      ],
+      "book_type": [
+        "개정판"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:397362260",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:a281a71e7605:20260703",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "오렌지와 빵칼/청예 지음/허블",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397362039&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397362039&rssType=1&type=item",
+      "event_at": "2026-07-03T00:52:00+00:00",
+      "isbn": "397362039",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "과학",
+        "심리",
+        "추리",
+        "sf"
+      ],
+      "publisher": [
+        "출판사"
+      ],
+      "book_type": [
+        "개정판"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:397362039",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:e03897a76b97:20260703",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -1017,320 +1133,6 @@
       "canonical_key": "book_edition:100760",
       "canonical_key_status": "complete",
       "event_key": "award_signal:2051b683e04d:20260702",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "알로하, 나의 엄마들 (특별 한정판)/이금이 지음/창비",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397266606&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397266606&rssType=1&type=item",
-      "event_at": "2026-07-02T02:26:00+00:00",
-      "isbn": "397266606",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "역사"
-      ],
-      "publisher": [
-        "창비"
-      ],
-      "book_type": [
-        "한정판"
-      ],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상",
-        "후보"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:397266606",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:980f83d747cc:20260702",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "읽고 싶은 소설이 생겼다/문화라 지음/바틀비",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397264136&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397264136&rssType=1&type=item",
-      "event_at": "2026-07-02T02:10:00+00:00",
-      "isbn": "397264136",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "부커상",
-      "genre": [
-        "소설",
-        "시",
-        "문학",
-        "인문학",
-        "역사",
-        "여행",
-        "심리",
-        "영어",
-        "추리"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "한강",
-        "김영하",
-        "정세랑",
-        "김초엽",
-        "저자",
-        "번역"
-      ],
-      "award": [
-        "부커상",
-        "맨부커",
-        "수상",
-        "문학상",
-        "선정",
-        "후보"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:397264136",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:85762429f1c7:20260702",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "우리는 어쩌다 과학을 믿게 되었을까/이근희.김갑진 지음/모어사이언스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397263867&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397263867&rssType=1&type=item",
-      "event_at": "2026-07-02T02:07:00+00:00",
-      "isbn": "397263867",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "과학"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "저자"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:397263867",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:84d0780ee41d:20260702",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "한눈에 오를 주식만 골라내는 현금흐름표 읽는 법/이강연 지음/비즈니스북스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397255401&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397255401&rssType=1&type=item",
-      "event_at": "2026-07-02T00:34:00+00:00",
-      "isbn": "397255401",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "강연",
-      "award_name": "",
-      "genre": [
-        "시",
-        "경제경영"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "저자"
-      ],
-      "award": [],
-      "book_event": [
-        "강연"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:397255401",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:4ebbf475a650:20260702",
-      "required_field_proxy": {
-        "author_name": true,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "썰레임 꿈의 악마 : 꿈을 파는 가게 5/김언정 지음, 정수영 그림, 썰레임 원작/학산문화사(단행본)",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397254256&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397254256&rssType=1&type=item",
-      "event_at": "2026-07-02T00:04:00+00:00",
-      "isbn": "397254256",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "심리",
-        "만화",
-        "어린이"
-      ],
-      "publisher": [],
-      "book_type": [
-        "시리즈"
-      ],
-      "author": [],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:397254256",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:a68938aafe90:20260702",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "스타듀 밸리 공식 레시피북/에릭 바론(컨선드에이프).라이언 노박 지음, 정연주 옮김/영진.com(영진닷컴)",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397253421&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397253421&rssType=1&type=item",
-      "event_at": "2026-07-01T23:33:00+00:00",
-      "isbn": "397253421",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "요리",
-        "건강"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:397253421",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:8143de8121df:20260701",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -4773,52 +4575,6 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "Granta stops publishing short story award winners over AI controversy",
-      "url": "https://www.theguardian.com/books/2026/jun/20/granta-magazine-commonwealth-short-story-prize-ai",
-      "source_url": "https://www.theguardian.com/books/2026/jun/20/granta-magazine-commonwealth-short-story-prize-ai",
-      "event_at": "2026-06-20T09:00:04+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "award",
-      "genre": [
-        "literary"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "award"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:the-guardian-books:ab9facf0aa77",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:5b925d171251:20260620",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
       "title": "Children and teens roundup – the best new picture books and novels",
       "url": "https://www.theguardian.com/books/2026/apr/24/children-and-teens-roundup-the-best-new-picture-books-and-novels",
       "source_url": "https://www.theguardian.com/books/2026/apr/24/children-and-teens-roundup-the-best-new-picture-books-and-novels",
@@ -4990,6 +4746,52 @@
       "canonical_key": "book_edition:title:1a41e3993fd1",
       "canonical_key_status": "title_proxy",
       "event_key": "award_signal:32c6266f5513:20260521",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Granta stops publishing short story award winners over AI controversy",
+      "url": "https://www.theguardian.com/books/2026/jun/20/granta-magazine-commonwealth-short-story-prize-ai",
+      "source_url": "https://www.theguardian.com/books/2026/jun/20/granta-magazine-commonwealth-short-story-prize-ai",
+      "event_at": "2026-06-20T09:00:04+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [
+        "literary"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:the-guardian-books:ab9facf0aa77",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:5b925d171251:20260620",
       "required_field_proxy": {
         "isbn": false,
         "award_name": true,
@@ -6039,266 +5841,6 @@
         "retailer": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "그만두지 않는 독서/김승호 지음/엑스북스(xbooks)",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396098920&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396098920&rssType=1&type=item",
-      "event_at": "2026-06-18T07:33:00+00:00",
-      "isbn": "396098920",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "독서모임",
-      "award_name": "",
-      "genre": [
-        "에세이",
-        "시",
-        "문학",
-        "인문학"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "저자"
-      ],
-      "award": [],
-      "book_event": [
-        "독서모임",
-        "북클럽"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:396098920",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:36ddcee63baf:20260618",
-      "required_field_proxy": {
-        "author_name": true,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "조폭 감독/허미래 지음/밥북",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396092977&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396092977&rssType=1&type=item",
-      "event_at": "2026-06-18T06:39:00+00:00",
-      "isbn": "396092977",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "작가와의 만남",
-      "award_name": "",
-      "genre": [
-        "시",
-        "예술"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [],
-      "book_event": [
-        "작가와의 만남"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:396092977",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:cb941d856659:20260618",
-      "required_field_proxy": {
-        "author_name": true,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "기억을 태우다/찬와이 지음, 배문주 옮김/민음사",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396087560&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396087560&rssType=1&type=item",
-      "event_at": "2026-06-18T05:55:00+00:00",
-      "isbn": "396087560",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "역사",
-        "여행",
-        "개발",
-        "로맨스"
-      ],
-      "publisher": [
-        "민음사"
-      ],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:396087560",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:74bbf2ec9962:20260618",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "기억을 지키다/찬와이 지음, 배문주 옮김/민음사",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396086216&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396086216&rssType=1&type=item",
-      "event_at": "2026-06-18T05:44:00+00:00",
-      "isbn": "396086216",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "역사"
-      ],
-      "publisher": [
-        "민음사"
-      ],
-      "book_type": [
-        "초판"
-      ],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:396086216",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:9300fea9db99:20260618",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "예민한 날엔 화학을 삼킨다/장홍제 지음/휴머니스트",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396069258&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396069258&rssType=1&type=item",
-      "event_at": "2026-06-18T03:10:00+00:00",
-      "isbn": "396069258",
-      "rank": 1,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "강연",
-      "award_name": "",
-      "genre": [
-        "시",
-        "과학"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "강연"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:396069258",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:d6316eb2ad8c:20260618",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
-      ]
     }
   ],
   "daily_review_items": [
@@ -6485,23 +6027,6 @@
       "reason": "missing_required_fields",
       "event_model": "award_signal",
       "source": "The Guardian Books",
-      "title": "Granta stops publishing short story award winners over AI controversy",
-      "canonical_key": "book_source:the-guardian-books:ab9facf0aa77",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "Granta stops publishing short story award winners over AI controversy",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
       "title": "‘We can’t give up on Afghans’: Lyse Doucet on the remarkable ‘people’s history’ that won her the Women’s prize",
       "canonical_key": "book_source:the-guardian-books:d10f136e0514",
       "required_field_gaps": [
@@ -6534,13 +6059,20 @@
     },
     {
       "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "알라딘 신간",
-      "title": "예민한 날엔 화학을 삼킨다/장홍제 지음/휴머니스트",
-      "canonical_key": "book_edition:396069258",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Granta stops publishing short story award winners over AI controversy",
+      "canonical_key": "book_source:the-guardian-books:ab9facf0aa77",
       "required_field_gaps": [
-        "author_name"
+        "isbn"
       ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Granta stops publishing short story award winners over AI controversy",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_event_model",
