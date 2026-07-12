@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-07-11T04:13:48.130513+00:00",
+  "generated_at": "2026-07-12T04:26:30.728678+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,24 +16,24 @@
     "collection_error_count": 0,
     "sales_ranking_events": 45,
     "library_lending_events": 0,
-    "author_event_events": 6,
-    "award_signal_events": 23,
+    "author_event_events": 5,
+    "award_signal_events": 24,
     "book_signal_event_count": 74,
-    "official_or_operational_event_count": 63,
+    "official_or_operational_event_count": 62,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 69,
-    "proxy_canonical_key_count": 5,
+    "complete_canonical_key_count": 68,
+    "proxy_canonical_key_count": 6,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 69,
-    "author_present_count": 50,
-    "publisher_present_count": 32,
+    "isbn_present_count": 68,
+    "author_present_count": 47,
+    "publisher_present_count": 30,
     "rank_present_count": 51,
     "lending_count_present_count": 0,
     "event_required_field_gap_count": 8,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 18
+    "daily_review_item_count": 19
   },
   "sources": [
     {
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 78,
+      "article_count": 50,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 45,
       "event_count": 45,
       "latest_event_at": "2026-07-05T22:01:23+00:00",
-      "age_days": 5.26,
+      "age_days": 6.27,
       "latest_title": "11위 만화 데뷔 못 하면 죽는 병 걸림 4 (한정판)",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397162753&radar_rank=11&radar_ranking_date=20260705220123&rssType=5&type=item",
       "latest_source_signal": [
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 59,
+      "article_count": 58,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -286,7 +286,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 20,
+      "article_count": 21,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -309,7 +309,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 31,
+      "article_count": 30,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -332,7 +332,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 34,
+      "article_count": 32,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -378,7 +378,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 66,
+      "article_count": 63,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -790,6 +790,52 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
+      "title": "Pressed for time? 20 brilliant books you can read in a day",
+      "url": "https://www.theguardian.com/books/ng-interactive/2026/jul/11/pressed-for-time-20-brilliant-books-you-can-read-in-a-day",
+      "source_url": "https://www.theguardian.com/books/ng-interactive/2026/jul/11/pressed-for-time-20-brilliant-books-you-can-read-in-a-day",
+      "event_at": "2026-07-11T08:00:44+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [
+        "novel"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:the-guardian-books:f415f330e925",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:a71e9e0b88b9:20260711",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
       "title": "The best recent science fiction, fantasy and horror – review roundup",
       "url": "https://www.theguardian.com/books/2026/jul/10/the-best-recent-science-fiction-fantasy-and-horror-review-roundup",
       "source_url": "https://www.theguardian.com/books/2026/jul/10/the-best-recent-science-fiction-fantasy-and-horror-review-roundup",
@@ -825,6 +871,104 @@
       "canonical_key": "book_edition:9781035065523",
       "canonical_key_status": "complete",
       "event_key": "award_signal:29ffb760b1e1:20260710",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "한구석의 기억 2/키요나가 타마고 지음, 유은비 옮김/빗금",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398010173&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398010173&rssType=1&type=item",
+      "event_at": "2026-07-10T05:20:00+00:00",
+      "isbn": "398010173",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "만화",
+        "라이트노벨"
+      ],
+      "publisher": [],
+      "book_type": [
+        "완결"
+      ],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:398010173",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:16b737807ee2:20260710",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "한구석의 기억 1/키요나가 타마고 지음, 유은비 옮김/빗금",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398009982&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398009982&rssType=1&type=item",
+      "event_at": "2026-07-10T05:16:00+00:00",
+      "isbn": "398009982",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "만화",
+        "라이트노벨"
+      ],
+      "publisher": [],
+      "book_type": [
+        "완결"
+      ],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:398009982",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:bb524f5b99fa:20260710",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -885,11 +1029,11 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "분재/알레한드로 삼브라 지음, 엄지영 옮김/민음사",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397919951&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397919951&rssType=1&type=item",
-      "event_at": "2026-07-09T03:27:00+00:00",
-      "isbn": "397919951",
+      "title": "괴물 푸코의 꼬마 요리법/강경수 지음/비룡소",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397997365&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397997365&rssType=1&type=item",
+      "event_at": "2026-07-10T01:30:00+00:00",
+      "isbn": "397997365",
       "rank": null,
       "retailer": "",
       "library_network": "",
@@ -899,19 +1043,23 @@
       "genre": [
         "소설",
         "시",
-        "희곡",
-        "문학"
+        "요리",
+        "어린이",
+        "청소년",
+        "그림책",
+        "동화"
       ],
       "publisher": [
-        "민음사"
+        "비룡소"
       ],
-      "book_type": [],
+      "book_type": [
+        "시리즈"
+      ],
       "author": [
         "작가"
       ],
       "award": [
-        "수상",
-        "문학상"
+        "수상"
       ],
       "book_event": [],
       "source_signal": [
@@ -919,9 +1067,58 @@
         "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:397919951",
+      "canonical_key": "book_edition:397997365",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:67345b4a17b5:20260709",
+      "event_key": "award_signal:075cae011a05:20260710",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "수상한 경찰 2 (더블특전판)/무키시츠 지음/대원씨아이(만화)",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397995094&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397995094&rssType=1&type=item",
+      "event_at": "2026-07-10T00:43:00+00:00",
+      "isbn": "397995094",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "만화",
+        "라이트노벨"
+      ],
+      "publisher": [],
+      "book_type": [
+        "세트"
+      ],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:397995094",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:4a21835d2f3c:20260710",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -4196,227 +4393,26 @@
         "retailer": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "마지막 친구가 되어 줄게/에런 베커 지음/웅진주니어",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396687812&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396687812&rssType=1&type=item",
-      "event_at": "2026-06-25T05:27:00+00:00",
-      "isbn": "396687812",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "문학",
-        "과학",
-        "여행",
-        "어린이",
-        "그림책"
-      ],
-      "publisher": [],
-      "book_type": [
-        "신간"
-      ],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상",
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:396687812",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:58432cb77093:20260625",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "나무 꼭대기를 여행하다/란융샹 지음, 강영희 옮김/사계절",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396663426&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396663426&rssType=1&type=item",
-      "event_at": "2026-06-25T02:57:00+00:00",
-      "isbn": "396663426",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "문학",
-        "과학",
-        "역사",
-        "여행",
-        "건강"
-      ],
-      "publisher": [
-        "사계절"
-      ],
-      "book_type": [
-        "신간"
-      ],
-      "author": [
-        "저자"
-      ],
-      "award": [
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:396663426",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:58f3d60306b7:20260625",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "의자 게임/유소정 지음, 오삼이 그림/비룡소",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396656086&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396656086&rssType=1&type=item",
-      "event_at": "2026-06-25T01:57:00+00:00",
-      "isbn": "396656086",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "문학",
-        "판타지",
-        "추리",
-        "어린이",
-        "청소년",
-        "동화"
-      ],
-      "publisher": [
-        "비룡소"
-      ],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상",
-        "문학상",
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:396656086",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:5ca7968076df:20260625",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "상자 속의 양/고레에다 히로카즈 지음/대원씨아이(단행본)",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396654494&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=396654494&rssType=1&type=item",
-      "event_at": "2026-06-25T01:40:00+00:00",
-      "isbn": "396654494",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "도서전",
-      "award_name": "",
-      "genre": [
-        "시",
-        "예술"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "도서전"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:396654494",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:8929f18b87ab:20260625",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
-      ]
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Pressed for time? 20 brilliant books you can read in a day",
+      "canonical_key": "book_source:the-guardian-books:f415f330e925",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Pressed for time? 20 brilliant books you can read in a day",
+      "canonical_key_status": "source_proxy"
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "author_event",
@@ -4518,16 +4514,6 @@
       "source": "알라딘 신간",
       "title": "의학 톡! 톡! 사대 천왕/이억주.송은영 지음, 박우희 그림/한솔수북",
       "canonical_key": "book_edition:396770046",
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "알라딘 신간",
-      "title": "상자 속의 양/고레에다 히로카즈 지음/대원씨아이(단행본)",
-      "canonical_key": "book_edition:396654494",
       "required_field_gaps": [
         "author_name"
       ]
