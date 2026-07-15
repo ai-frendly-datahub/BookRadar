@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-07-14T03:58:07.628935+00:00",
+  "generated_at": "2026-07-15T04:06:15.929658+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,24 +16,24 @@
     "collection_error_count": 0,
     "sales_ranking_events": 15,
     "library_lending_events": 0,
-    "author_event_events": 1,
-    "award_signal_events": 17,
-    "book_signal_event_count": 33,
-    "official_or_operational_event_count": 20,
+    "author_event_events": 5,
+    "award_signal_events": 14,
+    "book_signal_event_count": 34,
+    "official_or_operational_event_count": 25,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 26,
-    "proxy_canonical_key_count": 7,
+    "complete_canonical_key_count": 30,
+    "proxy_canonical_key_count": 4,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 26,
-    "author_present_count": 12,
-    "publisher_present_count": 7,
+    "isbn_present_count": 30,
+    "author_present_count": 17,
+    "publisher_present_count": 9,
     "rank_present_count": 16,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 8,
+    "event_required_field_gap_count": 7,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 20
+    "daily_review_item_count": 16
   },
   "sources": [
     {
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 30,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 15,
       "event_count": 15,
       "latest_event_at": "2026-07-12T22:00:43+00:00",
-      "age_days": 1.25,
+      "age_days": 2.25,
       "latest_title": "14위 복숭아와 애벌레",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397259032&radar_rank=14&radar_ranking_date=20260712220043&rssType=5&type=item",
       "latest_source_signal": [
@@ -286,7 +286,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 15,
+      "article_count": 16,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -790,10 +790,10 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "Tegan Nia Swanson has won the 2026 DAG Prize for Literature.",
-      "url": "https://lithub.com/tegan-nia-swanson-has-won-the-2026-dag-prize-for-literature",
-      "source_url": "https://lithub.com/tegan-nia-swanson-has-won-the-2026-dag-prize-for-literature",
-      "event_at": "2026-07-13T16:00:09+00:00",
+      "title": "Sigrid Nunez Thinks Every Writer Should Connect to Their Inner Child",
+      "url": "https://lithub.com/sigrid-nunez-thinks-every-writer-should-connect-to-their-inner-child",
+      "source_url": "https://lithub.com/sigrid-nunez-thinks-every-writer-should-connect-to-their-inner-child",
+      "event_at": "2026-07-14T09:10:31+00:00",
       "isbn": "",
       "rank": null,
       "retailer": "",
@@ -801,25 +801,24 @@
       "lending_count": null,
       "venue": "",
       "award_name": "award",
-      "genre": [
-        "literature"
-      ],
+      "genre": [],
       "publisher": [],
       "book_type": [],
       "author": [
         "writer"
       ],
       "award": [
-        "award"
+        "award",
+        "winner"
       ],
       "book_event": [],
       "source_signal": [
         "book_review_source",
         "editorial_coverage"
       ],
-      "canonical_key": "book_edition:title:2cd8fe48204e",
+      "canonical_key": "book_edition:title:fcfe36047d03",
       "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:8707e4e53972:20260713",
+      "event_key": "award_signal:60c46fd3f092:20260714",
       "required_field_proxy": {
         "isbn": false,
         "award_name": true,
@@ -876,96 +875,472 @@
       ]
     },
     {
-      "source": "Book Riot",
+      "source": "알라딘 신간",
       "source_type": "rss",
-      "trust_tier": "T3_professional",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "집-궁전/르 코르뷔지에 지음, 이관석 옮김/경희대학교출판문화원(경희대학교출판부)",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398227328&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398227328&rssType=1&type=item",
+      "event_at": "2026-07-13T06:13:00+00:00",
+      "isbn": "398227328",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "강연",
+      "award_name": "선정",
+      "genre": [
+        "역사",
+        "예술"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "번역"
+      ],
+      "award": [
+        "선정"
+      ],
+      "book_event": [
+        "강연"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:398227328",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:da779a5f383e:20260713",
+      "required_field_proxy": {
+        "author_name": true,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
       "content_type": "news",
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "The 2025 Shirley Jackson Award Winners",
-      "url": "https://bookriot.com/the-2025-shirley-jackson-award-winners",
-      "source_url": "https://bookriot.com/the-2025-shirley-jackson-award-winners",
-      "event_at": "2026-07-13T10:53:05+00:00",
-      "isbn": "",
+      "title": "집-궁전/르 코르뷔지에 지음, 이관석 옮김/경희대학교출판문화원(경희대학교출판부)",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398227328&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398227328&rssType=1&type=item",
+      "event_at": "2026-07-13T06:13:00+00:00",
+      "isbn": "398227328",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
-      "venue": "",
-      "award_name": "award",
+      "venue": "강연",
+      "award_name": "선정",
       "genre": [
-        "horror",
-        "fantasy"
+        "역사",
+        "예술"
       ],
       "publisher": [],
       "book_type": [],
-      "author": [],
-      "award": [
-        "award"
+      "author": [
+        "번역"
       ],
-      "book_event": [],
+      "award": [
+        "선정"
+      ],
+      "book_event": [
+        "강연"
+      ],
       "source_signal": [
         "editorial_coverage",
+        "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_source:book-riot:8554af08e0e4",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:599e87990ff7:20260713",
+      "canonical_key": "book_edition:398227328",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:da779a5f383e:20260713",
       "required_field_proxy": {
-        "isbn": false,
+        "isbn": true,
         "award_name": true,
         "source_url": true
       },
-      "required_field_gaps": [
-        "isbn"
-      ]
+      "required_field_gaps": []
     },
     {
-      "source": "Literary Hub",
+      "source": "알라딘 신간",
       "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "review",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "사랑이 문제야!/김희현 지음/길벗어린이",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398224047&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398224047&rssType=1&type=item",
+      "event_at": "2026-07-13T05:45:00+00:00",
+      "isbn": "398224047",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "",
+      "genre": [
+        "시",
+        "어린이",
+        "그림책"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:398224047",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:01e040824221:20260713",
+      "required_field_proxy": {
+        "author_name": true,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "“A Person Should Be in Love Most of the Time.” An[other] Ode to Grace Paley",
-      "url": "https://lithub.com/a-person-should-be-in-love-most-of-the-time-another-ode-to-grace-paley",
-      "source_url": "https://lithub.com/a-person-should-be-in-love-most-of-the-time-another-ode-to-grace-paley",
-      "event_at": "2026-07-13T09:10:55+00:00",
-      "isbn": "",
+      "title": "반쪽의 방에서/카슨 엘리스 지음, 김지은 옮김/봄볕",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398219234&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398219234&rssType=1&type=item",
+      "event_at": "2026-07-13T04:58:00+00:00",
+      "isbn": "398219234",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
       "venue": "",
-      "award_name": "booker",
+      "award_name": "수상",
       "genre": [
-        "novel"
+        "시",
+        "철학",
+        "교육",
+        "어린이",
+        "그림책"
       ],
       "publisher": [],
       "book_type": [],
-      "author": [],
+      "author": [
+        "작가"
+      ],
       "award": [
-        "booker"
+        "수상",
+        "선정"
       ],
       "book_event": [],
       "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
       ],
-      "canonical_key": "book_source:literary-hub:361d29b838e9",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:fef1045477a5:20260713",
+      "canonical_key": "book_edition:398219234",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:d5bca55308df:20260713",
       "required_field_proxy": {
-        "isbn": false,
+        "isbn": true,
         "award_name": true,
         "source_url": true
       },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "소맥거핀의 인체 친구들 7/김기수 그림, 서후 글, 박상민.샌드박스네트워크 감수, 소맥거핀 원작/위즈덤하우스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398205414&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398205414&rssType=1&type=item",
+      "event_at": "2026-07-13T02:30:00+00:00",
+      "isbn": "398205414",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "",
+      "genre": [
+        "시",
+        "과학",
+        "컴퓨터",
+        "만화",
+        "어린이"
+      ],
+      "publisher": [
+        "위즈덤하우스"
+      ],
+      "book_type": [
+        "시리즈"
+      ],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:398205414",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:667397339ff4:20260713",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
       "required_field_gaps": [
-        "isbn"
+        "author_name"
+      ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "큰 새에게 사로잡히지 않도록/가와카미 히로미 지음, 이지수 옮김/디플롯",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398201048&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398201048&rssType=1&type=item",
+      "event_at": "2026-07-13T01:36:00+00:00",
+      "isbn": "398201048",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "부커상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "과학",
+        "sf"
+      ],
+      "publisher": [
+        "현대문학"
+      ],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "부커상",
+        "문학상",
+        "후보"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:398201048",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:87ea181f4ba2:20260713",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "행복한 소설가/임현 지음/창비",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398201009&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398201009&rssType=1&type=item",
+      "event_at": "2026-07-13T01:35:00+00:00",
+      "isbn": "398201009",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡"
+      ],
+      "publisher": [
+        "창비"
+      ],
+      "book_type": [
+        "신간"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:398201009",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:80d0e8b837e5:20260713",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "섬뜩한 코바늘/에런 레이놀즈 지음, 피터 브라운 그림, 홍연미 옮김/토토북",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398198227&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398198227&rssType=1&type=item",
+      "event_at": "2026-07-13T00:58:00+00:00",
+      "isbn": "398198227",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "",
+      "genre": [
+        "시",
+        "어린이",
+        "그림책",
+        "동화"
+      ],
+      "publisher": [],
+      "book_type": [
+        "베스트셀러",
+        "시리즈"
+      ],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:398198227",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:bd17174cbb8e:20260713",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "책 산책시키는 사람 (키링북)/쩜(신시연) 지음/세미콜론",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398198038&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398198038&rssType=1&type=item",
+      "event_at": "2026-07-13T00:54:00+00:00",
+      "isbn": "398198038",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "서울국제도서전",
+      "award_name": "",
+      "genre": [
+        "에세이",
+        "시"
+      ],
+      "publisher": [],
+      "book_type": [
+        "한정판"
+      ],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "서울국제도서전",
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:398198038",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:6ea48c0de331:20260713",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
       ]
     },
     {
@@ -1729,52 +2104,6 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "Pressed for time? 20 brilliant books you can read in a day",
-      "url": "https://www.theguardian.com/books/ng-interactive/2026/jul/11/pressed-for-time-20-brilliant-books-you-can-read-in-a-day",
-      "source_url": "https://www.theguardian.com/books/ng-interactive/2026/jul/11/pressed-for-time-20-brilliant-books-you-can-read-in-a-day",
-      "event_at": "2026-07-11T08:00:44+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [
-        "novel"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "booker"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:the-guardian-books:f415f330e925",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:a71e9e0b88b9:20260711",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
       "title": "The best recent science fiction, fantasy and horror – review roundup",
       "url": "https://www.theguardian.com/books/2026/jul/10/the-best-recent-science-fiction-fantasy-and-horror-review-roundup",
       "source_url": "https://www.theguardian.com/books/2026/jul/10/the-best-recent-science-fiction-fantasy-and-horror-review-roundup",
@@ -1810,254 +2139,6 @@
       "canonical_key": "book_edition:9781035065523",
       "canonical_key_status": "complete",
       "event_key": "award_signal:29ffb760b1e1:20260710",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "한구석의 기억 2/키요나가 타마고 지음, 유은비 옮김/빗금",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398010173&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398010173&rssType=1&type=item",
-      "event_at": "2026-07-10T05:20:00+00:00",
-      "isbn": "398010173",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "만화",
-        "라이트노벨"
-      ],
-      "publisher": [],
-      "book_type": [
-        "초판"
-      ],
-      "author": [],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:398010173",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:16b737807ee2:20260710",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "한구석의 기억 1/키요나가 타마고 지음, 유은비 옮김/빗금",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398009982&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398009982&rssType=1&type=item",
-      "event_at": "2026-07-10T05:16:00+00:00",
-      "isbn": "398009982",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "만화",
-        "라이트노벨"
-      ],
-      "publisher": [],
-      "book_type": [
-        "초판"
-      ],
-      "author": [],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:398009982",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:bb524f5b99fa:20260710",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "Publishers Weekly",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "Frankfurt Book Fair Forced to Close Hall 6, Reshuffles Exhibitors, Agents",
-      "url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/100810-frankfurt-book-fair-forced-to-close-hall-6-reshuffles-exhibitors-agents.html",
-      "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/100810-frankfurt-book-fair-forced-to-close-hall-6-reshuffles-exhibitors-agents.html",
-      "event_at": "2026-07-10T04:00:00+00:00",
-      "isbn": "100810",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "book fair",
-      "award_name": "",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "book fair"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:100810",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:47ad6f5b2e65:20260710",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "괴물 푸코의 꼬마 요리법/강경수 지음/비룡소",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397997365&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397997365&rssType=1&type=item",
-      "event_at": "2026-07-10T01:30:00+00:00",
-      "isbn": "397997365",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "요리",
-        "어린이",
-        "청소년",
-        "그림책",
-        "동화"
-      ],
-      "publisher": [
-        "비룡소"
-      ],
-      "book_type": [
-        "시리즈"
-      ],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:397997365",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:075cae011a05:20260710",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "수상한 경찰 2 (더블특전판)/무키시츠 지음/대원씨아이(만화)",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397995094&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397995094&rssType=1&type=item",
-      "event_at": "2026-07-10T00:43:00+00:00",
-      "isbn": "397995094",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "만화",
-        "라이트노벨"
-      ],
-      "publisher": [],
-      "book_type": [
-        "세트"
-      ],
-      "author": [],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:397995094",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:4a21835d2f3c:20260710",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -2338,8 +2419,8 @@
       "reason": "missing_required_fields",
       "event_model": "award_signal",
       "source": "Literary Hub",
-      "title": "Tegan Nia Swanson has won the 2026 DAG Prize for Literature.",
-      "canonical_key": "book_edition:title:2cd8fe48204e",
+      "title": "Sigrid Nunez Thinks Every Writer Should Connect to Their Inner Child",
+      "canonical_key": "book_edition:title:fcfe36047d03",
       "required_field_gaps": [
         "isbn"
       ]
@@ -2348,7 +2429,7 @@
       "reason": "proxy_canonical_key",
       "event_model": "award_signal",
       "source": "Literary Hub",
-      "title": "Tegan Nia Swanson has won the 2026 DAG Prize for Literature.",
+      "title": "Sigrid Nunez Thinks Every Writer Should Connect to Their Inner Child",
       "canonical_key_status": "title_proxy"
     },
     {
@@ -2370,61 +2451,30 @@
     },
     {
       "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "The 2025 Shirley Jackson Award Winners",
-      "canonical_key": "book_source:book-riot:8554af08e0e4",
+      "event_model": "author_event",
+      "source": "알라딘 신간",
+      "title": "소맥거핀의 인체 친구들 7/김기수 그림, 서후 글, 박상민.샌드박스네트워크 감수, 소맥거핀 원작/위즈덤하우스",
+      "canonical_key": "book_edition:398205414",
       "required_field_gaps": [
-        "isbn"
+        "author_name"
       ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "The 2025 Shirley Jackson Award Winners",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "“A Person Should Be in Love Most of the Time.” An[other] Ode to Grace Paley",
-      "canonical_key": "book_source:literary-hub:361d29b838e9",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "“A Person Should Be in Love Most of the Time.” An[other] Ode to Grace Paley",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "Pressed for time? 20 brilliant books you can read in a day",
-      "canonical_key": "book_source:the-guardian-books:f415f330e925",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "Pressed for time? 20 brilliant books you can read in a day",
-      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
       "event_model": "author_event",
-      "source": "Publishers Weekly",
-      "title": "Frankfurt Book Fair Forced to Close Hall 6, Reshuffles Exhibitors, Agents",
-      "canonical_key": "book_edition:100810",
+      "source": "알라딘 신간",
+      "title": "섬뜩한 코바늘/에런 레이놀즈 지음, 피터 브라운 그림, 홍연미 옮김/토토북",
+      "canonical_key": "book_edition:398198227",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "알라딘 신간",
+      "title": "책 산책시키는 사람 (키링북)/쩜(신시연) 지음/세미콜론",
+      "canonical_key": "book_edition:398198038",
       "required_field_gaps": [
         "author_name"
       ]
