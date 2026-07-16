@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-07-15T04:06:15.929658+00:00",
+  "generated_at": "2026-07-16T04:10:12.100076+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,24 +16,24 @@
     "collection_error_count": 0,
     "sales_ranking_events": 15,
     "library_lending_events": 0,
-    "author_event_events": 5,
-    "award_signal_events": 14,
-    "book_signal_event_count": 34,
-    "official_or_operational_event_count": 25,
+    "author_event_events": 0,
+    "award_signal_events": 15,
+    "book_signal_event_count": 30,
+    "official_or_operational_event_count": 21,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 30,
+    "complete_canonical_key_count": 26,
     "proxy_canonical_key_count": 4,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 30,
-    "author_present_count": 17,
+    "isbn_present_count": 26,
+    "author_present_count": 14,
     "publisher_present_count": 9,
     "rank_present_count": 16,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 7,
+    "event_required_field_gap_count": 4,
     "tracked_source_gap_count": 0,
-    "missing_event_model_count": 1,
+    "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 16
+    "daily_review_item_count": 14
   },
   "sources": [
     {
@@ -75,7 +75,7 @@
       "article_count": 15,
       "event_count": 15,
       "latest_event_at": "2026-07-12T22:00:43+00:00",
-      "age_days": 2.25,
+      "age_days": 3.26,
       "latest_title": "14위 복숭아와 애벌레",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397259032&radar_rank=14&radar_ranking_date=20260712220043&rssType=5&type=item",
       "latest_source_signal": [
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 44,
+      "article_count": 46,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -286,7 +286,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 16,
+      "article_count": 17,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -782,43 +782,42 @@
   ],
   "events": [
     {
-      "source": "Literary Hub",
+      "source": "The Guardian Books",
       "source_type": "rss",
-      "trust_tier": "T3_professional",
+      "trust_tier": "T2_institutional",
       "content_type": "review",
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "Sigrid Nunez Thinks Every Writer Should Connect to Their Inner Child",
-      "url": "https://lithub.com/sigrid-nunez-thinks-every-writer-should-connect-to-their-inner-child",
-      "source_url": "https://lithub.com/sigrid-nunez-thinks-every-writer-should-connect-to-their-inner-child",
-      "event_at": "2026-07-14T09:10:31+00:00",
+      "title": "The First House by Avni Doshi review – an intense portrait of marriage and freedom",
+      "url": "https://www.theguardian.com/books/2026/jul/15/the-first-house-by-avni-doshi-review-an-intense-portrait-of-marriage-and-freedom",
+      "source_url": "https://www.theguardian.com/books/2026/jul/15/the-first-house-by-avni-doshi-review-an-intense-portrait-of-marriage-and-freedom",
+      "event_at": "2026-07-15T06:00:48+00:00",
       "isbn": "",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
       "venue": "",
-      "award_name": "award",
-      "genre": [],
+      "award_name": "booker",
+      "genre": [
+        "novel"
+      ],
       "publisher": [],
       "book_type": [],
-      "author": [
-        "writer"
-      ],
+      "author": [],
       "award": [
-        "award",
-        "winner"
+        "booker"
       ],
       "book_event": [],
       "source_signal": [
         "book_review_source",
         "editorial_coverage"
       ],
-      "canonical_key": "book_edition:title:fcfe36047d03",
-      "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:60c46fd3f092:20260714",
+      "canonical_key": "book_source:the-guardian-books:6e62084cbb13",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:8395c9daa054:20260715",
       "required_field_proxy": {
         "isbn": false,
         "award_name": true,
@@ -827,6 +826,277 @@
       "required_field_gaps": [
         "isbn"
       ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "소리를 듣는 사람들/조던 태너힐 지음, 김산 옮김/문학동네",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398305637&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398305637&rssType=1&type=item",
+      "event_at": "2026-07-14T05:31:00+00:00",
+      "isbn": "398305637",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "예술"
+      ],
+      "publisher": [
+        "문학동네"
+      ],
+      "book_type": [
+        "베스트셀러"
+      ],
+      "author": [
+        "작가",
+        "데뷔"
+      ],
+      "award": [
+        "수상",
+        "문학상",
+        "후보"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:398305637",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:c1931ac0f769:20260714",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "혹시 나한테 화났나?/멕 조지프슨 지음, 신동숙 옮김/인플루엔셜(주)",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398304145&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398304145&rssType=1&type=item",
+      "event_at": "2026-07-14T05:14:00+00:00",
+      "isbn": "398304145",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "올해의 책",
+      "genre": [
+        "시",
+        "문학",
+        "인문학",
+        "건강",
+        "심리"
+      ],
+      "publisher": [
+        "인플루엔셜"
+      ],
+      "book_type": [
+        "베스트셀러"
+      ],
+      "author": [
+        "저자",
+        "번역"
+      ],
+      "award": [
+        "올해의 책",
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:398304145",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:8092ed9caa7f:20260714",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "타키포오 허징의 수상한 만물상점 7/김기수 그림, 김혜련 글, 캐릭온TV 원작/대원키즈",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398289648&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398289648&rssType=1&type=item",
+      "event_at": "2026-07-14T02:26:00+00:00",
+      "isbn": "398289648",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "만화",
+        "어린이"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:398289648",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:69630f2c90c6:20260714",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "그늘의 계절/요코야마 히데오 지음, 민경욱 옮김/더픽션",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398289183&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398289183&rssType=1&type=item",
+      "event_at": "2026-07-14T02:23:00+00:00",
+      "isbn": "398289183",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "심리",
+        "정치",
+        "추리"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:398289183",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:0365708d57f2:20260714",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "지리의 기원/제리 브로턴 지음, 박세연 옮김/알에이치코리아(RHK)",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398288109&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398288109&rssType=1&type=item",
+      "event_at": "2026-07-14T02:09:00+00:00",
+      "isbn": "398288109",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "문학",
+        "인문학",
+        "과학",
+        "역사",
+        "사회과학",
+        "정치"
+      ],
+      "publisher": [
+        "알에이치코리아",
+        "rhk"
+      ],
+      "book_type": [],
+      "author": [
+        "저자"
+      ],
+      "award": [
+        "수상",
+        "후보"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:398288109",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:b7f3922114d7:20260714",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "New York Times Books",
@@ -872,475 +1142,6 @@
       },
       "required_field_gaps": [
         "isbn"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "집-궁전/르 코르뷔지에 지음, 이관석 옮김/경희대학교출판문화원(경희대학교출판부)",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398227328&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398227328&rssType=1&type=item",
-      "event_at": "2026-07-13T06:13:00+00:00",
-      "isbn": "398227328",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "강연",
-      "award_name": "선정",
-      "genre": [
-        "역사",
-        "예술"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "번역"
-      ],
-      "award": [
-        "선정"
-      ],
-      "book_event": [
-        "강연"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:398227328",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:da779a5f383e:20260713",
-      "required_field_proxy": {
-        "author_name": true,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "집-궁전/르 코르뷔지에 지음, 이관석 옮김/경희대학교출판문화원(경희대학교출판부)",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398227328&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398227328&rssType=1&type=item",
-      "event_at": "2026-07-13T06:13:00+00:00",
-      "isbn": "398227328",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "강연",
-      "award_name": "선정",
-      "genre": [
-        "역사",
-        "예술"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "번역"
-      ],
-      "award": [
-        "선정"
-      ],
-      "book_event": [
-        "강연"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:398227328",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:da779a5f383e:20260713",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "사랑이 문제야!/김희현 지음/길벗어린이",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398224047&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398224047&rssType=1&type=item",
-      "event_at": "2026-07-13T05:45:00+00:00",
-      "isbn": "398224047",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "도서전",
-      "award_name": "",
-      "genre": [
-        "시",
-        "어린이",
-        "그림책"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [],
-      "book_event": [
-        "도서전"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:398224047",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:01e040824221:20260713",
-      "required_field_proxy": {
-        "author_name": true,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "반쪽의 방에서/카슨 엘리스 지음, 김지은 옮김/봄볕",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398219234&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398219234&rssType=1&type=item",
-      "event_at": "2026-07-13T04:58:00+00:00",
-      "isbn": "398219234",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "철학",
-        "교육",
-        "어린이",
-        "그림책"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상",
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:398219234",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:d5bca55308df:20260713",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "소맥거핀의 인체 친구들 7/김기수 그림, 서후 글, 박상민.샌드박스네트워크 감수, 소맥거핀 원작/위즈덤하우스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398205414&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398205414&rssType=1&type=item",
-      "event_at": "2026-07-13T02:30:00+00:00",
-      "isbn": "398205414",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "도서전",
-      "award_name": "",
-      "genre": [
-        "시",
-        "과학",
-        "컴퓨터",
-        "만화",
-        "어린이"
-      ],
-      "publisher": [
-        "위즈덤하우스"
-      ],
-      "book_type": [
-        "시리즈"
-      ],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "도서전"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:398205414",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:667397339ff4:20260713",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "큰 새에게 사로잡히지 않도록/가와카미 히로미 지음, 이지수 옮김/디플롯",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398201048&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398201048&rssType=1&type=item",
-      "event_at": "2026-07-13T01:36:00+00:00",
-      "isbn": "398201048",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "부커상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "과학",
-        "sf"
-      ],
-      "publisher": [
-        "현대문학"
-      ],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "부커상",
-        "문학상",
-        "후보"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:398201048",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:87ea181f4ba2:20260713",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "행복한 소설가/임현 지음/창비",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398201009&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398201009&rssType=1&type=item",
-      "event_at": "2026-07-13T01:35:00+00:00",
-      "isbn": "398201009",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡"
-      ],
-      "publisher": [
-        "창비"
-      ],
-      "book_type": [
-        "신간"
-      ],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:398201009",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:80d0e8b837e5:20260713",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "섬뜩한 코바늘/에런 레이놀즈 지음, 피터 브라운 그림, 홍연미 옮김/토토북",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398198227&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398198227&rssType=1&type=item",
-      "event_at": "2026-07-13T00:58:00+00:00",
-      "isbn": "398198227",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "도서전",
-      "award_name": "",
-      "genre": [
-        "시",
-        "어린이",
-        "그림책",
-        "동화"
-      ],
-      "publisher": [],
-      "book_type": [
-        "베스트셀러",
-        "시리즈"
-      ],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "도서전"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:398198227",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:bd17174cbb8e:20260713",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "책 산책시키는 사람 (키링북)/쩜(신시연) 지음/세미콜론",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398198038&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398198038&rssType=1&type=item",
-      "event_at": "2026-07-13T00:54:00+00:00",
-      "isbn": "398198038",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "서울국제도서전",
-      "award_name": "",
-      "genre": [
-        "에세이",
-        "시"
-      ],
-      "publisher": [],
-      "book_type": [
-        "한정판"
-      ],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "서울국제도서전",
-        "도서전"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:398198038",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:6ea48c0de331:20260713",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
       ]
     },
     {
@@ -2328,48 +2129,6 @@
       ]
     },
     {
-      "source": "Publishers Weekly",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "International Booker Prize Doubles Purse, Changes Name",
-      "url": "http://www.publishersweekly.com/pw/by-topic/industry-news/awards-and-prizes/article/100760-international-booker-prize-doubles-purse-changes-name.html",
-      "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/awards-and-prizes/article/100760-international-booker-prize-doubles-purse-changes-name.html",
-      "event_at": "2026-07-02T04:00:00+00:00",
-      "isbn": "100760",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "booker"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:100760",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:2051b683e04d:20260702",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -2412,15 +2171,57 @@
         "source_url": true
       },
       "required_field_gaps": []
+    },
+    {
+      "source": "Publishers Weekly",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "International Booker Prize Doubles Purse, Changes Name",
+      "url": "http://www.publishersweekly.com/pw/by-topic/industry-news/awards-and-prizes/article/100760-international-booker-prize-doubles-purse-changes-name.html",
+      "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/awards-and-prizes/article/100760-international-booker-prize-doubles-purse-changes-name.html",
+      "event_at": "2026-07-02T04:00:00+00:00",
+      "isbn": "100760",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:100760",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:2051b683e04d:20260702",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Sigrid Nunez Thinks Every Writer Should Connect to Their Inner Child",
-      "canonical_key": "book_edition:title:fcfe36047d03",
+      "source": "The Guardian Books",
+      "title": "The First House by Avni Doshi review – an intense portrait of marriage and freedom",
+      "canonical_key": "book_source:the-guardian-books:6e62084cbb13",
       "required_field_gaps": [
         "isbn"
       ]
@@ -2428,9 +2229,9 @@
     {
       "reason": "proxy_canonical_key",
       "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Sigrid Nunez Thinks Every Writer Should Connect to Their Inner Child",
-      "canonical_key_status": "title_proxy"
+      "source": "The Guardian Books",
+      "title": "The First House by Avni Doshi review – an intense portrait of marriage and freedom",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -2448,36 +2249,6 @@
       "source": "New York Times Books",
       "title": "Shahrnush Parsipur, Iranian Writer Imprisoned for Her Novels, Dies at 80",
       "canonical_key_status": "title_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "알라딘 신간",
-      "title": "소맥거핀의 인체 친구들 7/김기수 그림, 서후 글, 박상민.샌드박스네트워크 감수, 소맥거핀 원작/위즈덤하우스",
-      "canonical_key": "book_edition:398205414",
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "알라딘 신간",
-      "title": "섬뜩한 코바늘/에런 레이놀즈 지음, 피터 브라운 그림, 홍연미 옮김/토토북",
-      "canonical_key": "book_edition:398198227",
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "알라딘 신간",
-      "title": "책 산책시키는 사람 (키링북)/쩜(신시연) 지음/세미콜론",
-      "canonical_key": "book_edition:398198038",
-      "required_field_gaps": [
-        "author_name"
-      ]
     },
     {
       "reason": "missing_required_fields",
@@ -2516,6 +2287,10 @@
     {
       "reason": "missing_event_model",
       "event_model": "library_lending"
+    },
+    {
+      "reason": "missing_event_model",
+      "event_model": "author_event"
     },
     {
       "reason": "source_backlog_pending",
