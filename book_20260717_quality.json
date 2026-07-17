@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-07-16T04:10:12.100076+00:00",
+  "generated_at": "2026-07-17T04:08:04.837862+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,24 +16,24 @@
     "collection_error_count": 0,
     "sales_ranking_events": 15,
     "library_lending_events": 0,
-    "author_event_events": 0,
+    "author_event_events": 4,
     "award_signal_events": 15,
-    "book_signal_event_count": 30,
-    "official_or_operational_event_count": 21,
+    "book_signal_event_count": 34,
+    "official_or_operational_event_count": 26,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 26,
-    "proxy_canonical_key_count": 4,
+    "complete_canonical_key_count": 31,
+    "proxy_canonical_key_count": 3,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 26,
-    "author_present_count": 14,
+    "isbn_present_count": 31,
+    "author_present_count": 12,
     "publisher_present_count": 9,
     "rank_present_count": 16,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 4,
+    "event_required_field_gap_count": 7,
     "tracked_source_gap_count": 0,
-    "missing_event_model_count": 2,
+    "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 14
+    "daily_review_item_count": 15
   },
   "sources": [
     {
@@ -75,7 +75,7 @@
       "article_count": 15,
       "event_count": 15,
       "latest_event_at": "2026-07-12T22:00:43+00:00",
-      "age_days": 3.26,
+      "age_days": 4.26,
       "latest_title": "14위 복숭아와 애벌레",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=397259032&radar_rank=14&radar_ranking_date=20260712220043&rssType=5&type=item",
       "latest_source_signal": [
@@ -286,7 +286,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 17,
+      "article_count": 19,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -782,52 +782,6 @@
   ],
   "events": [
     {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "The First House by Avni Doshi review – an intense portrait of marriage and freedom",
-      "url": "https://www.theguardian.com/books/2026/jul/15/the-first-house-by-avni-doshi-review-an-intense-portrait-of-marriage-and-freedom",
-      "source_url": "https://www.theguardian.com/books/2026/jul/15/the-first-house-by-avni-doshi-review-an-intense-portrait-of-marriage-and-freedom",
-      "event_at": "2026-07-15T06:00:48+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [
-        "novel"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "booker"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:the-guardian-books:6e62084cbb13",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:8395c9daa054:20260715",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
       "source": "알라딘 신간",
       "source_type": "rss",
       "trust_tier": "T1_official",
@@ -836,11 +790,11 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "소리를 듣는 사람들/조던 태너힐 지음, 김산 옮김/문학동네",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398305637&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398305637&rssType=1&type=item",
-      "event_at": "2026-07-14T05:31:00+00:00",
-      "isbn": "398305637",
+      "title": "더 레이어 The Layer Vol.02/해냄에듀 《더 레이어》 편집부 지음/해냄에듀(단행본)",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398383229&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398383229&rssType=1&type=item",
+      "event_at": "2026-07-15T06:28:00+00:00",
+      "isbn": "398383229",
       "rank": null,
       "retailer": "",
       "library_network": "",
@@ -848,123 +802,11 @@
       "venue": "",
       "award_name": "수상",
       "genre": [
-        "소설",
         "시",
-        "희곡",
-        "문학",
-        "예술"
-      ],
-      "publisher": [
-        "문학동네"
-      ],
-      "book_type": [
-        "베스트셀러"
-      ],
-      "author": [
-        "작가",
-        "데뷔"
-      ],
-      "award": [
-        "수상",
-        "문학상",
-        "후보"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:398305637",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:c1931ac0f769:20260714",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "혹시 나한테 화났나?/멕 조지프슨 지음, 신동숙 옮김/인플루엔셜(주)",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398304145&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398304145&rssType=1&type=item",
-      "event_at": "2026-07-14T05:14:00+00:00",
-      "isbn": "398304145",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "올해의 책",
-      "genre": [
-        "시",
-        "문학",
-        "인문학",
-        "건강",
-        "심리"
-      ],
-      "publisher": [
-        "인플루엔셜"
-      ],
-      "book_type": [
-        "베스트셀러"
-      ],
-      "author": [
-        "저자",
-        "번역"
-      ],
-      "award": [
-        "올해의 책",
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:398304145",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:8092ed9caa7f:20260714",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "타키포오 허징의 수상한 만물상점 7/김기수 그림, 김혜련 글, 캐릭온TV 원작/대원키즈",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398289648&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398289648&rssType=1&type=item",
-      "event_at": "2026-07-14T02:26:00+00:00",
-      "isbn": "398289648",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "만화",
-        "어린이"
+        "역사",
+        "예술",
+        "철학",
+        "교육"
       ],
       "publisher": [],
       "book_type": [],
@@ -978,9 +820,9 @@
         "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:398289648",
+      "canonical_key": "book_edition:398383229",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:69630f2c90c6:20260714",
+      "event_key": "award_signal:15fbf58af19f:20260715",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -997,11 +839,207 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "그늘의 계절/요코야마 히데오 지음, 민경욱 옮김/더픽션",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398289183&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398289183&rssType=1&type=item",
-      "event_at": "2026-07-14T02:23:00+00:00",
-      "isbn": "398289183",
+      "title": "AI 시대, 질문 잘하는 아이가 미래를 바꾼다/이성혜 외 지음, 조에스더 그림/김영사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398380709&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398380709&rssType=1&type=item",
+      "event_at": "2026-07-15T06:08:00+00:00",
+      "isbn": "398380709",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "시",
+        "과학",
+        "교육"
+      ],
+      "publisher": [
+        "김영사"
+      ],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:398380709",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:4a9f1c08655a:20260715",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "알면 알수록 너무 재밌어서 위험한 명화 1/조희애 지음, 고야 그림, 위험한 명화 원작/탐탐북스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398375532&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398375532&rssType=1&type=item",
+      "event_at": "2026-07-15T05:20:00+00:00",
+      "isbn": "398375532",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "수상",
+      "genre": [
+        "예술",
+        "어린이"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:398375532",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:366f97c2f0bc:20260715",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "알면 알수록 너무 재밌어서 위험한 명화 1/조희애 지음, 고야 그림, 위험한 명화 원작/탐탐북스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398375532&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398375532&rssType=1&type=item",
+      "event_at": "2026-07-15T05:20:00+00:00",
+      "isbn": "398375532",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "수상",
+      "genre": [
+        "예술",
+        "어린이"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:398375532",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:366f97c2f0bc:20260715",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "오닭 상담소 2/정선애 지음, 윤동 그림/키위북스(어린이)",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398361842&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398361842&rssType=1&type=item",
+      "event_at": "2026-07-15T02:24:00+00:00",
+      "isbn": "398361842",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "",
+      "genre": [
+        "시",
+        "어린이",
+        "동화"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:398361842",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:c6c0b8589303:20260715",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "코드 탐정단과 수상한 박물관 2/지샤오미 지음, 이지수 옮김/아이스크림북스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398356098&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398356098&rssType=1&type=item",
+      "event_at": "2026-07-15T01:44:00+00:00",
+      "isbn": "398356098",
       "rank": null,
       "retailer": "",
       "library_network": "",
@@ -1009,16 +1047,169 @@
       "venue": "",
       "award_name": "수상",
       "genre": [
-        "소설",
         "시",
-        "희곡",
-        "문학",
-        "심리",
-        "정치",
-        "추리"
+        "역사",
+        "예술",
+        "추리",
+        "어린이",
+        "동화"
+      ],
+      "publisher": [],
+      "book_type": [
+        "시리즈"
+      ],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:398356098",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:e088f77071a8:20260715",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "백 원만 빌려줘/김민정 지음, 건빈 그림/머스트비",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398349653&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398349653&rssType=1&type=item",
+      "event_at": "2026-07-15T01:26:00+00:00",
+      "isbn": "398349653",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "",
+      "genre": [
+        "시",
+        "어린이",
+        "동화"
+      ],
+      "publisher": [],
+      "book_type": [
+        "신간",
+        "시리즈"
+      ],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:398349653",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:5e1789713261:20260715",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "초등 공부력/손병목 지음/서유재",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398345346&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398345346&rssType=1&type=item",
+      "event_at": "2026-07-15T00:38:00+00:00",
+      "isbn": "398345346",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "강연",
+      "award_name": "",
+      "genre": [
+        "시",
+        "역사",
+        "철학",
+        "교육"
       ],
       "publisher": [],
       "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "강연"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:398345346",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:8852907a347b:20260715",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "할머니의 여름휴가 (10주년 기념 리커버 한정판)/안녕달 글.그림/창비",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398344124&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398344124&rssType=1&type=item",
+      "event_at": "2026-07-14T23:43:00+00:00",
+      "isbn": "398344124",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "그림책"
+      ],
+      "publisher": [
+        "창비"
+      ],
+      "book_type": [
+        "한정판"
+      ],
       "author": [
         "작가"
       ],
@@ -1031,9 +1222,9 @@
         "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:398289183",
+      "canonical_key": "book_edition:398344124",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:0365708d57f2:20260714",
+      "event_key": "award_signal:c30f3c9e01a2:20260714",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -1050,36 +1241,37 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "지리의 기원/제리 브로턴 지음, 박세연 옮김/알에이치코리아(RHK)",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398288109&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398288109&rssType=1&type=item",
-      "event_at": "2026-07-14T02:09:00+00:00",
-      "isbn": "398288109",
+      "title": "지푸라기 왕관을 쓴 여자/박상영 지음/래빗홀",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398344057&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398344057&rssType=1&type=item",
+      "event_at": "2026-07-14T23:35:00+00:00",
+      "isbn": "398344057",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
       "venue": "",
-      "award_name": "수상",
+      "award_name": "부커상",
       "genre": [
+        "소설",
         "시",
+        "희곡",
         "문학",
-        "인문학",
-        "과학",
-        "역사",
-        "사회과학",
-        "정치"
+        "추리",
+        "스릴러"
       ],
       "publisher": [
-        "알에이치코리아",
-        "rhk"
+        "문학동네"
       ],
       "book_type": [],
       "author": [
-        "저자"
+        "작가",
+        "데뷔"
       ],
       "award": [
+        "부커상",
         "수상",
+        "문학상",
         "후보"
       ],
       "book_event": [],
@@ -1088,9 +1280,9 @@
         "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:398288109",
+      "canonical_key": "book_edition:398344057",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:b7f3922114d7:20260714",
+      "event_key": "award_signal:eb511bd390c8:20260714",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -2088,6 +2280,50 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
+      "title": "Children and teens roundup – the best new picture books and novels",
+      "url": "https://www.theguardian.com/books/2026/apr/24/children-and-teens-roundup-the-best-new-picture-books-and-novels",
+      "source_url": "https://www.theguardian.com/books/2026/apr/24/children-and-teens-roundup-the-best-new-picture-books-and-novels",
+      "event_at": "2026-04-24T11:00:39+00:00",
+      "isbn": "9781646866311",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "winner",
+      "genre": [],
+      "publisher": [
+        "publisher"
+      ],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:9781646866311",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:6ea6cfdca6b6:20260424",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
       "title": "Long Wave by Daisy Johnson review – a sublime novel of motherhood and loss",
       "url": "https://www.theguardian.com/books/2026/jul/02/long-wave-by-daisy-johnson-review-a-sublime-novel-of-motherhood-and-loss",
       "source_url": "https://www.theguardian.com/books/2026/jul/02/long-wave-by-daisy-johnson-review-a-sublime-novel-of-motherhood-and-loss",
@@ -2127,50 +2363,6 @@
       "required_field_gaps": [
         "isbn"
       ]
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Children and teens roundup – the best new picture books and novels",
-      "url": "https://www.theguardian.com/books/2026/apr/24/children-and-teens-roundup-the-best-new-picture-books-and-novels",
-      "source_url": "https://www.theguardian.com/books/2026/apr/24/children-and-teens-roundup-the-best-new-picture-books-and-novels",
-      "event_at": "2026-04-24T11:00:39+00:00",
-      "isbn": "9781646866311",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "winner",
-      "genre": [],
-      "publisher": [
-        "publisher"
-      ],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:9781646866311",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:6ea6cfdca6b6:20260424",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     },
     {
       "source": "Publishers Weekly",
@@ -2218,20 +2410,43 @@
   "daily_review_items": [
     {
       "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "The First House by Avni Doshi review – an intense portrait of marriage and freedom",
-      "canonical_key": "book_source:the-guardian-books:6e62084cbb13",
+      "event_model": "author_event",
+      "source": "알라딘 신간",
+      "title": "알면 알수록 너무 재밌어서 위험한 명화 1/조희애 지음, 고야 그림, 위험한 명화 원작/탐탐북스",
+      "canonical_key": "book_edition:398375532",
       "required_field_gaps": [
-        "isbn"
+        "author_name"
       ]
     },
     {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "The First House by Avni Doshi review – an intense portrait of marriage and freedom",
-      "canonical_key_status": "source_proxy"
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "알라딘 신간",
+      "title": "오닭 상담소 2/정선애 지음, 윤동 그림/키위북스(어린이)",
+      "canonical_key": "book_edition:398361842",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "알라딘 신간",
+      "title": "백 원만 빌려줘/김민정 지음, 건빈 그림/머스트비",
+      "canonical_key": "book_edition:398349653",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "알라딘 신간",
+      "title": "초등 공부력/손병목 지음/서유재",
+      "canonical_key": "book_edition:398345346",
+      "required_field_gaps": [
+        "author_name"
+      ]
     },
     {
       "reason": "missing_required_fields",
@@ -2287,10 +2502,6 @@
     {
       "reason": "missing_event_model",
       "event_model": "library_lending"
-    },
-    {
-      "reason": "missing_event_model",
-      "event_model": "author_event"
     },
     {
       "reason": "source_backlog_pending",
