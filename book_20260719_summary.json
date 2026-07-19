@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-18",
+  "date": "2026-07-19",
   "category": "book",
   "article_count": 148,
   "source_count": 8,
@@ -11,11 +11,11 @@
     },
     {
       "name": "Genre",
-      "count": 199
+      "count": 207
     },
     {
       "name": "Author",
-      "count": 39
+      "count": 40
     },
     {
       "name": "BookType",
@@ -23,11 +23,11 @@
     },
     {
       "name": "Publisher",
-      "count": 20
+      "count": 19
     },
     {
       "name": "Award",
-      "count": 15
+      "count": 16
     },
     {
       "name": "BookEvent",
@@ -35,17 +35,107 @@
     }
   ],
   "sources": {
-    "NPR Books": 10,
     "New York Times Books": 21,
     "Book Riot": 10,
-    "The Guardian Books": 27,
     "Literary Hub": 10,
+    "The Guardian Books": 27,
+    "NPR Books": 10,
     "Publishers Weekly": 30,
     "알라딘 신간": 25,
     "알라딘 베스트셀러": 15
   },
-  "generated_at": "2026-07-18T12:56:15.305122+09:00",
+  "generated_at": "2026-07-19T13:22:50.535700+09:00",
   "articles": [
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "The Rediscovery of Country Original Gary Stewart",
+        "source_url": "https://www.nytimes.com/2026/07/17/arts/music/gary-stewart-country-music.html",
+        "published_at": "2026-07-19T03:25:32+00:00",
+        "summary": "Gary Stewart spent a few years on top, but was largely forgotten after his tragic death in 2003. Now a new generation is rediscovering the onetime “king of honky-tonk.”"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Walt Odets, Who Delved Into the Minds of Gay Men, Dies at 79",
+        "source_url": "https://www.nytimes.com/2026/07/18/health/walt-odets-dead.html",
+        "published_at": "2026-07-18T19:48:00+00:00",
+        "summary": "A psychologist, he wrote during the AIDS crisis about survivor’s guilt and depression in his H.I.V.-negative patients."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "‘Heartstopper Forever’: What to Know Before Seeing the Movie",
+        "source_url": "https://www.nytimes.com/2026/07/17/movies/heartstopper-forever-movie-what-to-know.html",
+        "published_at": "2026-07-18T19:45:48+00:00",
+        "summary": "The Netflix series and its feature-length finale are based on the graphic novels by Alice Oseman. Here’s a reminder of the events of the characters and where their stories left off."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "All the Biggest New LGBTQ Books of 2026 (So Far)",
+        "source_url": "https://bookriot.com/new-lgbtq-books-of-2026-so-far/",
+        "published_at": "2026-07-18T11:00:00+00:00",
+        "summary": "Browse 100+ of the most exciting new LGBTQ books out in 2026 (so far), including M/M romance, trans sci-fi, sapphic fantasy, and more."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "Book Riot’s Deals of the Day for July 18, 2026",
+        "source_url": "https://bookriot.com/book-riots-deals-of-the-day-for-july-18-2026/",
+        "published_at": "2026-07-18T11:00:00+00:00",
+        "summary": "WICKED, a bestselling romance/mystery mashup, one of the best books of 2025, Satanic Panic, and more in today's best book deals."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "The Biggest Science Fiction Books of 2026",
+        "source_url": "https://bookriot.com/the-biggest-science-fiction-books-of-2026/",
+        "published_at": "2026-07-18T11:00:00+00:00",
+        "summary": "Browse 22 of the most exciting new science fiction books out in 2026 so far and add them to your own custom collections."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Literary Hub",
+        "headline": "Lit Hub Weekly: July 13 – 17, 2026",
+        "source_url": "https://lithub.com/lit-hub-weekly-july-13-17-2026/",
+        "published_at": "2026-07-18T10:30:03+00:00",
+        "summary": "On the rise (and fall) of the Japanese cell phone novel in the early 2000s (and the its attendant moral panic). | Lit Hub Technology Josh Cook, bookseller and founder of the Porter Square Review of Books, explores why booksellers"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "What to Know Before Seeing ‘The Odyssey’: Plot, Characters and More",
+        "source_url": "https://www.nytimes.com/2026/07/18/movies/the-odyssey-plot-characters-trojan-war.html",
+        "published_at": "2026-07-18T09:00:46+00:00",
+        "summary": "Christopher Nolan’s adaptation of Homer’s epic poem has monster battles, a sorceress and dozens of thirsty suitors. Here’s a primer."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Book Review: ‘Yellow Pine,’ by Claire Vaye Watkins",
+        "source_url": "https://www.nytimes.com/2026/07/18/books/review/yellow-pine-claire-vaye-watkins.html",
+        "published_at": "2026-07-18T09:00:39+00:00",
+        "summary": "In Claire Vaye Watkins’s novel “Yellow Pine,” a single woman having an existential crisis decides now is the time to have a child."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Hagitude author Sharon Blackie: ‘At 60 I wasn’t ready to give up, I was just starting’",
+        "source_url": "https://www.theguardian.com/books/2026/jul/18/hagitude-author-sharon-blackie-at-60-i-wasnt-ready-to-give-up-i-was-just-starting",
+        "published_at": "2026-07-18T08:00:52+00:00",
+        "summary": "<p>The writer of cult hit If Women Rose Rooted is on a mission to bring folklore to modern readers. She talks about confronting her fears, communing with nature – and the power that comes with age</p><p>Like many of the wise women in her books, Sharon Blackie lives miles from anyone. Hers is the only house on the road winding through a valley deep in the Yorkshire Dales. The River Eden runs along the bottom of her garden, which overlooks the ruins of a castle built, as legend has it, by King Arthur’s father. The writer shares this romantic idyll with three border collies, six sheep, nine hens and her husband, David Knowles, a former RAF Tornado pilot.</p><p>It seems an appropriate setting for an author who is on a mission to bring fairytales to modern readers. Blackie runs <a href=\"https://nostos.institute/the-nostos-retreat/\">spiritual retreats and workshops</a> at the nearby Broughton Sanctuary and publishes a popular Substack called <a href=\"https://sharonblackie.substack.com/\">The Art of Enchantment</a>. Her books, including word-of-mouth hits such as <a href=\"https://sharonblackie.net/if-women-rose-rooted/\">If Women Rose Rooted</a> and <a href=\"https://www.thetimes.com/culture/books/article/hagitude-by-sharon-blackie-review-busting-the-menopause-myth-dl0n6bbjx?eafs_enabled=false\">Hagitude</a>, are a beguiling mix of memoir, mythology and eco-feminism – manifestos for a better way of living.</p> <a href=\"https://www.theguardian.com/books/2026/jul/18/hagitude-author-sharon-blackie-at-60-i-wasnt-ready-to-give-up-i-was-just-starting\">Continue reading...</a>"
+      }
+    },
     {
       "event_model_payload": {
         "source_name": "NPR Books",
@@ -246,33 +336,6 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Literary Hub",
-        "headline": "Labor of Love: On Editing and the Rewards of Collaborative Effort",
-        "source_url": "https://lithub.com/labor-of-love-on-editing-and-the-rewards-of-collaborative-effort/",
-        "published_at": "2026-07-17T09:06:10+00:00",
-        "summary": "From July to December 2024, Adam Vitcavage and I sent 68 emails back and forth. We were collaborating on a project that was a big deal for both of us: my first book, the anthology Living, Together: Reimagining Community in"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "New York Times Books",
-        "headline": "The Rediscovery of Country Original Gary Stewart",
-        "source_url": "https://www.nytimes.com/2026/07/17/arts/music/gary-stewart-country-music.html",
-        "published_at": "2026-07-17T09:00:58+00:00",
-        "summary": "Gary Stewart spent a few years on top, but was largely forgotten after his tragic death in 2003. Now a new generation is rediscovering the onetime “king of honky-tonk.”"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "New York Times Books",
-        "headline": "‘Heartstopper Forever’: What to Know Before Seeing the Movie",
-        "source_url": "https://www.nytimes.com/2026/07/17/movies/heartstopper-forever-movie-what-to-know.html",
-        "published_at": "2026-07-17T09:00:49+00:00",
-        "summary": "The Netflix series and its feature-length finale are based on the graphic novels by Alice Oseman. Here’s a reminder of the events of the characters and where their stories left of."
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "New York Times Books",
         "headline": "The Children’s Books of Seymour Chwast",
         "source_url": "https://www.nytimes.com/2026/07/17/books/review/seymour-chwast-childrens-picture-books-steven-heller.html",
@@ -301,136 +364,10 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "Early and Elementary Reader Comics Spotlight",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/adult-announcements/article/100848-early-and-elementary-reader-comics-spotlight.html",
-        "published_at": "2026-07-17T04:00:00+00:00",
-        "summary": "For emerging readers and elementary age fans who can’t get enough comics, this season’s highlights include new releases by John Gallagher, Cathy G. Johnson, Jeremy Lambert, and Kaeti Vandorn, plus fresh graphic adaptations of kid-pleasers like the Boxcar Children series."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
         "headline": "Fall 2026 Writers to Watch: Manuia Heinrich",
         "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/100875-fall-2026-writers-to-watch-manuia-heinrich.html",
         "published_at": "2026-07-17T04:00:00+00:00",
         "summary": "In her YA debut, 'Salt Water Blood,' the Tahitian Chinese author looks behind the postcard surface of a fictional French Polynesian island."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Falll 2026 Writers to Watch: Eloise Rodger",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/100871-falll-2026-writers-to-watch-eloise-rodger.html",
-        "published_at": "2026-07-17T04:00:00+00:00",
-        "summary": "In the recent Trinity College graduate’s debut novel, 'Death’s a Bitch,' a young woman strikes a strange bargain with the grim reaper."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "At War in the Stars: PW Talks with Garth Nix",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/authors/interviews/article/100838-at-war-in-the-stars-pw-talks-with-garth-nix.html",
-        "published_at": "2026-07-17T04:00:00+00:00",
-        "summary": "At War in the Stars: PW Talks with Garth Nix"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Lit With Pics: 13 Graphic Adaptations for Fall 2026",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/adult-announcements/article/100846-lit-with-pics-13-graphic-adaptations-for-fall-2026.html",
-        "published_at": "2026-07-17T04:00:00+00:00",
-        "summary": "This season’s crop of literary adaptations spans many genres and subgenres."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Fall 2026 Preview: Adult Comics",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/adult-announcements/article/100844-fall-2026-preview-adult-comics.html",
-        "published_at": "2026-07-17T04:00:00+00:00",
-        "summary": "This season’s rockstar lineup includes Derf Backderf, Roz Chast, Kelly Sue DeConnick, Lisa Hanawalt, Joe Sacco, and James Tynion IV."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Manga for the Mini",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/adult-announcements/article/100851-manga-for-the-mini.html",
-        "published_at": "2026-07-17T04:00:00+00:00",
-        "summary": "Manga is big with tweens and teens, but younger readers are manga-curious too, and booksellers, librarians, and parents are all eager for age-appropriate titles to put in their hands. Here are five new kids’ and all-ages manga, featuring samurai cats, interstellar baseball stars, heroic ballet dancers, and more."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Falll 2026 Writers to Watch: Devyn Defoe",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/100868-falll-2026-writers-to-watch-devyn-defoe.html",
-        "published_at": "2026-07-17T04:00:00+00:00",
-        "summary": "For her surreal debut novel, 'Burnside,' the author drew on the history of serial killers connected to her hometown of Sacramento."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Falll 2026 Writers to Watch: K Chiucarello",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/100867-falll-2026-writers-to-watch-k-chiucarello.html",
-        "published_at": "2026-07-17T04:00:00+00:00",
-        "summary": "A nanny for the rich and powerful contends with baby fever and an abusive ex in 'Nanny Nanny.'"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Fall 2026 Writers to Watch",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/100863-fall-2026-writers-to-watch.html",
-        "published_at": "2026-07-17T04:00:00+00:00",
-        "summary": "The season’s most promising fiction debuts are distinguished by their authors’ singular creations, including an eerily cute cat, a phantasmagoric city, and an immaculately dressed grim reaper."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Children’s Fall 2026 Writers to Watch",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/100864-children-s-fall-2026-writers-to-watch.html",
-        "published_at": "2026-07-17T04:00:00+00:00",
-        "summary": "Children’s Fall 2026 Writers to Watch"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Genocide Is Not Inevitable: PW Talks with Dana Mashoian Walrath",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/authors/interviews/article/100836-genocide-is-not-inevitable-pw-talks-with-dana-mashoian-walrath.html",
-        "published_at": "2026-07-17T04:00:00+00:00",
-        "summary": "Genocide Is Not Inevitable: PW Talks with Dana Mashoian Walrath"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Falll 2026 Writers to Watch: Claire Carusillo",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/100866-falll-2026-writers-to-watch-claire-carusillo.html",
-        "published_at": "2026-07-17T04:00:00+00:00",
-        "summary": "The author embellishes her family’s tragic history in 'The Responsible Party,' about a mother and daughter who miraculously survive two shipwrecks."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "This Week’s Bestsellers: July 20, 2026",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/bookselling/article/100865-this-week-s-bestsellers-july-20-2026.html",
-        "published_at": "2026-07-17T04:00:00+00:00",
-        "summary": "This Week’s Bestsellers: July 20, 2026"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Falll 2026 Writers to Watch: Stacey Yu",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/100872-falll-2026-writers-to-watch-stacey-yu.html",
-        "published_at": "2026-07-17T04:00:00+00:00",
-        "summary": "The debut author spins a story of a floundering young woman’s feline fixation in 'Kitten.'"
       }
     },
     {
@@ -445,82 +382,10 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "Fall 2026 Comics & Graphic Novels Preview",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/adult-announcements/article/100842-fall-2026-comics-graphic-novels-preview.html",
-        "published_at": "2026-07-17T04:00:00+00:00",
-        "summary": "Fall 2026 Comics & Graphic Novels Preview"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Fall 2026 Preview: Manga",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/adult-announcements/article/100850-fall-2026-preview-manga.html",
-        "published_at": "2026-07-17T04:00:00+00:00",
-        "summary": "Manga gets personal this season, with affecting memoirs, semi-autobiographical dramas, and historical fiction."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "17 Ultraviolent Comics Hitting Hard This Fall",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/adult-announcements/article/100845-17-ultraviolent-comics-hitting-hard-this-fall.html",
-        "published_at": "2026-07-17T04:00:00+00:00",
-        "summary": "Comics keep battling to outdo one another in ridiculousness (cue the Florida Hippopotamus Cocaine Massacre series). Here comes a new season’s round of campy, spoofy Tarantino-esque titles entering the ring"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Falll 2026 Writers to Watch: Keletso Mopai",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/100869-falll-2026-writers-to-watch-keletso-mopai.html",
-        "published_at": "2026-07-17T04:00:00+00:00",
-        "summary": "The legacy of apartheid in South Africa shaped the author’s debut novel, 'We Belong to the Trees.'"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Fall 2026 Preview: Middle Grade Comics",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/childrens-announcements/article/100847-fall-2026-preview-middle-grade-comics.html",
-        "published_at": "2026-07-17T04:00:00+00:00",
-        "summary": "Meg Cabot, Eoin Colfer, Sina Grace, Victoria Jamieson, Thien Pham, and Shaun Tan headline a star-studded season for tween readers."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
         "headline": "Kelly Sue DeConnick Keeps it Close to Home",
         "source_url": "http://www.publishersweekly.com/pw/by-topic/authors/profiles/article/100839-kelly-sue-deconnick-keeps-it-close-to-home.html",
         "published_at": "2026-07-17T04:00:00+00:00",
         "summary": "In her latest comics series, the comics author mixes monstrous magic into a timely family dramedy."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Fall 2026 Preview: Young Adult Comics",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/childrens-announcements/article/100849-fall-2026-preview-young-adult-comics.html",
-        "published_at": "2026-07-17T04:00:00+00:00",
-        "summary": "Romance, horror, fantasy, and all manner of genre mash-ups are in store for teen comics fans this season."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Fall 2026 Writers to Watch: Seán Farrelly",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/100873-fall-2026-writers-to-watch-se-n-farrelly.html",
-        "published_at": "2026-07-17T04:00:00+00:00",
-        "summary": "Fall 2026 Writers to Watch: Seán Farrelly"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Fall 2026 Comics Preview Cover Artist: Lucas Harari",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/authors/profiles/article/100843-fall-2026-comics-preview-cover-artist-lucas-harari.html",
-        "published_at": "2026-07-17T04:00:00+00:00",
-        "summary": "To Kick off our Fall Comics preview Issue, We spoke with the artist about his latest graphic novel, An existential mystery set in paris and one of our top picks of the season."
       }
     },
     {
@@ -535,10 +400,64 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
+        "headline": "This Week’s Bestsellers: July 20, 2026",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/bookselling/article/100865-this-week-s-bestsellers-july-20-2026.html",
+        "published_at": "2026-07-17T04:00:00+00:00",
+        "summary": "This Week’s Bestsellers: July 20, 2026"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Fall 2026 Comics & Graphic Novels Preview",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/adult-announcements/article/100842-fall-2026-comics-graphic-novels-preview.html",
+        "published_at": "2026-07-17T04:00:00+00:00",
+        "summary": "Fall 2026 Comics & Graphic Novels Preview"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Falll 2026 Writers to Watch: Devyn Defoe",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/100868-falll-2026-writers-to-watch-devyn-defoe.html",
+        "published_at": "2026-07-17T04:00:00+00:00",
+        "summary": "For her surreal debut novel, 'Burnside,' the author drew on the history of serial killers connected to her hometown of Sacramento."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
         "headline": "Fall 2026 Writers to Watch: Fernanda Frick H.",
         "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/100874-fall-2026-writers-to-watch-fernanda-frick-h.html",
         "published_at": "2026-07-17T04:00:00+00:00",
         "summary": "What started out in the 2010s as an idea for a Netflix series is now the Chilean animator's empowering middle grade graphic novel debut, 'Raise the Bar.'"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Fall 2026 Writers to Watch",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/100863-fall-2026-writers-to-watch.html",
+        "published_at": "2026-07-17T04:00:00+00:00",
+        "summary": "The season’s most promising fiction debuts are distinguished by their authors’ singular creations, including an eerily cute cat, a phantasmagoric city, and an immaculately dressed grim reaper."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Manga for the Mini",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/adult-announcements/article/100851-manga-for-the-mini.html",
+        "published_at": "2026-07-17T04:00:00+00:00",
+        "summary": "Manga is big with tweens and teens, but younger readers are manga-curious too, and booksellers, librarians, and parents are all eager for age-appropriate titles to put in their hands. Here are five new kids’ and all-ages manga, featuring samurai cats, interstellar baseball stars, heroic ballet dancers, and more."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Fall 2026 Preview: Manga",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/adult-announcements/article/100850-fall-2026-preview-manga.html",
+        "published_at": "2026-07-17T04:00:00+00:00",
+        "summary": "Manga gets personal this season, with affecting memoirs, semi-autobiographical dramas, and historical fiction."
       }
     },
     {
@@ -553,6 +472,33 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
+        "headline": "Fall 2026 Preview: Adult Comics",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/adult-announcements/article/100844-fall-2026-preview-adult-comics.html",
+        "published_at": "2026-07-17T04:00:00+00:00",
+        "summary": "This season’s rockstar lineup includes Derf Backderf, Roz Chast, Kelly Sue DeConnick, Lisa Hanawalt, Joe Sacco, and James Tynion IV."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Lit With Pics: 13 Graphic Adaptations for Fall 2026",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/adult-announcements/article/100846-lit-with-pics-13-graphic-adaptations-for-fall-2026.html",
+        "published_at": "2026-07-17T04:00:00+00:00",
+        "summary": "This season’s crop of literary adaptations spans many genres and subgenres."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Fall 2026 Preview: Middle Grade Comics",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/childrens-announcements/article/100847-fall-2026-preview-middle-grade-comics.html",
+        "published_at": "2026-07-17T04:00:00+00:00",
+        "summary": "Meg Cabot, Eoin Colfer, Sina Grace, Victoria Jamieson, Thien Pham, and Shaun Tan headline a star-studded season for tween readers."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
         "headline": "Falll 2026 Writers to Watch: Leila Renee",
         "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/100870-falll-2026-writers-to-watch-leila-renee.html",
         "published_at": "2026-07-17T04:00:00+00:00",
@@ -562,10 +508,127 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
+        "headline": "Fall 2026 Preview: Young Adult Comics",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/childrens-announcements/article/100849-fall-2026-preview-young-adult-comics.html",
+        "published_at": "2026-07-17T04:00:00+00:00",
+        "summary": "Romance, horror, fantasy, and all manner of genre mash-ups are in store for teen comics fans this season."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Genocide Is Not Inevitable: PW Talks with Dana Mashoian Walrath",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/authors/interviews/article/100836-genocide-is-not-inevitable-pw-talks-with-dana-mashoian-walrath.html",
+        "published_at": "2026-07-17T04:00:00+00:00",
+        "summary": "Genocide Is Not Inevitable: PW Talks with Dana Mashoian Walrath"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Falll 2026 Writers to Watch: Stacey Yu",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/100872-falll-2026-writers-to-watch-stacey-yu.html",
+        "published_at": "2026-07-17T04:00:00+00:00",
+        "summary": "The debut author spins a story of a floundering young woman’s feline fixation in 'Kitten.'"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Falll 2026 Writers to Watch: Eloise Rodger",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/100871-falll-2026-writers-to-watch-eloise-rodger.html",
+        "published_at": "2026-07-17T04:00:00+00:00",
+        "summary": "In the recent Trinity College graduate’s debut novel, 'Death’s a Bitch,' a young woman strikes a strange bargain with the grim reaper."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Children’s Fall 2026 Writers to Watch",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/100864-children-s-fall-2026-writers-to-watch.html",
+        "published_at": "2026-07-17T04:00:00+00:00",
+        "summary": "Children’s Fall 2026 Writers to Watch"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "At War in the Stars: PW Talks with Garth Nix",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/authors/interviews/article/100838-at-war-in-the-stars-pw-talks-with-garth-nix.html",
+        "published_at": "2026-07-17T04:00:00+00:00",
+        "summary": "At War in the Stars: PW Talks with Garth Nix"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Fall 2026 Comics Preview Cover Artist: Lucas Harari",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/authors/profiles/article/100843-fall-2026-comics-preview-cover-artist-lucas-harari.html",
+        "published_at": "2026-07-17T04:00:00+00:00",
+        "summary": "To Kick off our Fall Comics preview Issue, We spoke with the artist about his latest graphic novel, An existential mystery set in paris and one of our top picks of the season."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Falll 2026 Writers to Watch: K Chiucarello",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/100867-falll-2026-writers-to-watch-k-chiucarello.html",
+        "published_at": "2026-07-17T04:00:00+00:00",
+        "summary": "A nanny for the rich and powerful contends with baby fever and an abusive ex in 'Nanny Nanny.'"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Falll 2026 Writers to Watch: Claire Carusillo",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/100866-falll-2026-writers-to-watch-claire-carusillo.html",
+        "published_at": "2026-07-17T04:00:00+00:00",
+        "summary": "The author embellishes her family’s tragic history in 'The Responsible Party,' about a mother and daughter who miraculously survive two shipwrecks."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Falll 2026 Writers to Watch: Keletso Mopai",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/100869-falll-2026-writers-to-watch-keletso-mopai.html",
+        "published_at": "2026-07-17T04:00:00+00:00",
+        "summary": "The legacy of apartheid in South Africa shaped the author’s debut novel, 'We Belong to the Trees.'"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
         "headline": "Comics for Your “Inner Kid”: PW Talks with Cassandra Pelham Fulton",
         "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/100835-comics-for-your-inner-kid-pw-talks-with-cassandra-pelham-fulton.html",
         "published_at": "2026-07-17T04:00:00+00:00",
         "summary": "After nearly two decades at Scholastic’s comics imprint, Graphix, Fulton stepped into the role of associate publisher earlier this year amid continued growth in demand for graphic novels for young readers."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "17 Ultraviolent Comics Hitting Hard This Fall",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/adult-announcements/article/100845-17-ultraviolent-comics-hitting-hard-this-fall.html",
+        "published_at": "2026-07-17T04:00:00+00:00",
+        "summary": "Comics keep battling to outdo one another in ridiculousness (cue the Florida Hippopotamus Cocaine Massacre series). Here comes a new season’s round of campy, spoofy Tarantino-esque titles entering the ring"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Early and Elementary Reader Comics Spotlight",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/adult-announcements/article/100848-early-and-elementary-reader-comics-spotlight.html",
+        "published_at": "2026-07-17T04:00:00+00:00",
+        "summary": "For emerging readers and elementary age fans who can’t get enough comics, this season’s highlights include new releases by John Gallagher, Cathy G. Johnson, Jeremy Lambert, and Kaeti Vandorn, plus fresh graphic adaptations of kid-pleasers like the Boxcar Children series."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Fall 2026 Writers to Watch: Seán Farrelly",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/100873-fall-2026-writers-to-watch-se-n-farrelly.html",
+        "published_at": "2026-07-17T04:00:00+00:00",
+        "summary": "Fall 2026 Writers to Watch: Seán Farrelly"
       }
     },
     {
@@ -606,29 +669,11 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Book Riot",
-        "headline": "New Fourth Wing Book Announced",
-        "source_url": "https://bookriot.com/new-fourth-wing-book-announced/",
-        "published_at": "2026-07-16T17:05:42+00:00",
-        "summary": "Rebecca Yarros has announced a new Fourth Wing book on Instagram, but it's different from the others: it's not quite a sequel."
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "NPR Books",
         "headline": "An eco-journalist takes on Big Tech in this modern twist on the heist novel",
         "source_url": "https://www.npr.org/2026/07/16/nx-s1-5895124/cloudthief-review-nathaniel-rich-data-centers",
         "published_at": "2026-07-16T16:23:47+00:00",
         "summary": "Nathaniel Rich's literary thriller centers on a young couple who strike out against a data center.<em> Cloudthief</em> wraps a smart exploration of our data-dominated society inside an entertaining heist yarn."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Book Riot",
-        "headline": "Book Riot’s Deals of the Day for July 16, 2026",
-        "source_url": "https://bookriot.com/book-riots-deals-of-the-day-for-july-16-2026/",
-        "published_at": "2026-07-16T16:19:34+00:00",
-        "summary": "A mysterious sisterly bond, a librarian + archaeologist rom-com, the sorceress of The Odyssey, and more of today's best book deals"
       }
     },
     {
@@ -647,15 +692,6 @@
         "source_url": "https://www.nytimes.com/2026/07/16/books/review/new-romance-books.html",
         "published_at": "2026-07-16T13:40:46+00:00",
         "summary": "Our columnist on three of the year’s most anticipated books."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Book Riot",
-        "headline": "Go Easy on Me: 5 Great New Books For Sci-Fi and Fantasy Beginners",
-        "source_url": "https://bookriot.com/great-new-books-for-sci-fi-and-fantasy-beginners/",
-        "published_at": "2026-07-16T10:10:00+00:00",
-        "summary": "Looking to get into science fiction and fantasy books? Here are five great starting points!"
       }
     },
     {
@@ -683,6 +719,15 @@
         "source_url": "https://www.nytimes.com/2026/07/16/books/review/shiva-naipaul-journey-to-nowhere.html",
         "published_at": "2026-07-16T09:00:10+00:00",
         "summary": "In “Journey to Nowhere,” Shiva Naipaul reports on the aftermath of a cult’s disastrous turn away from idealism."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 신간",
+        "headline": "아무것도 없는 잡화점 1/왕위칭 지음, 린롄언 그림, 조은 옮김/한경키즈",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=398450297",
+        "published_at": "2026-07-16T06:58:00+00:00",
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=398450297\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/39845/2/cover200/8947502952_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=398450297\">아무것도 없는 잡화점 1</a></h2>왕위칭 지음, 린롄언 그림, 조은 옮김 / 한경키즈 / 2026년 07월 / ISBN:<span class=\"isbn13\">9788947502955</span><br />정가: <span style=\"color: #FF0202;\">14,000</span>원 / 판매가: <span style=\"color: #FF0202;\">12,600</span>원 / 마일리지: <span style=\"color: #FF0202;\">700</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 27주년 특별 선물. 키캡 무드등 · 런던자연사박물관 북커버<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=398450297&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=398450297&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/intro_t.gif\" /><br />대만에서 큰 사랑을 받은 《아무것도 없는 잡화점》 시리즈가 드디어 국내 정식 출간되었다. 대만 베스트셀러 작가 왕위칭이 글을 쓰고, 아동문학계 노벨상으로 알려진 볼로냐 라가치상 수상자 린롄언 작가가 그림을 그렸다. 이 시리즈는 잡화점이라는 특별한 공간을 배경으로 전통적이고 포근한 인간관계를 그려내어 꾸준히 대만 어린이와 학부모에게 사랑받아온 스테디셀러이다. 책을 바탕으로 한 드라마가 금종상 혁신상을 수상하며 다시 한번 화제를 모으기도 했다. 1권 《초록 괴물의 정체》는 주인공 효재가 낯선 동네로 이사해 '희왕래 잡화점'의 주인 왕수 할아버지를 만나 서서히 변화하는 이야기를 담고 있다.<br />\n<br />\n5학년 효재는 원래 경제적으로 여유가 있는 유복한 가정이었으나, 아버지의 사업이 실패하면서 엄마와 단둘이 낯선 동네로 이사한다. 아버지의 부재로 어머니가 생활 전선에 뛰어들게 되면서, 효재는 혼자 지내는 시간이 늘었다. 새로운 학교에서 친구를 사귀지 못한 효재의 유일한 취미는 편의점에서 끼니를 해결하고 공포 소설을 읽는 것이다. 여느 날처럼 《식인 잡화점》을 읽으며 귀가하던 중 동네 지리에 아직 익숙하지 않아 그만 길을 잃는다. 잘못 든 골목에는 왠지 으스스한 느낌을 풍기는 낡은 잡화점이 있었다. 호기심에 가게 안을 둘러보려던 그 순간 정체불명의 괴상한 털 뭉치와 눈이 마주치는데!<br />\n<br />\n이 사건을 계기로 효재는 희왕래 잡화점의 주인 왕수 할아버지와 친해지게 된다. 할아버지가 요리해주시는 음식을 같이 먹고, 가게 일을 도우며 낯선 동네에서 처음으로 따뜻함과 소속감을 느낀다. 잡화점에서 사귄 친구 아라와도 처음에는 티격태격하지만, 속마음을 터놓고 친해지면서 둘도 없는 단짝이 된다. 왕수 할아버지가 이웃과 아이들에게 베푸는 친절과 관심은 오늘날 찾기 어려운 공동체의 가치와 의의를 상기시킨다. 이 책은 어린이 독자에게 타인을 위하는 마음이 왜 중요한지 가르쳐주는 인성 동화이다.<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br /><p>추천사 <br />\n1. 식인 괴물이 사는 잡화점<br />\n2. 무섭지만 궁금한 괴물의 정체<br />\n3. 럭키와 아라의 사연<br />\n4. 발길은 다시 잡화점으로<br />\n5. 혼자보다 함께가 좋아<br />\n6. 주는 즐거움, 받는 고마움<br />\n7. 나의 첫 배달 서비스<br />\n희왕래의 맛있는 레시피</p><br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1108\">어린이</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48804\">초등3~4학년</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48837&BrowseTarget=List\"><b>동화/명작/고전</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1108\">어린이</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48805\">초등5~6학년</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48846&BrowseTarget=List\"><b>동화/명작/고전</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1108\">어린이</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48810\">동화/명작/고전</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48877&BrowseTarget=List\"><b>외국창작동화</b></a><br /><br /></td></tr></table>"
       }
     },
     {
@@ -787,6 +832,15 @@
     {
       "event_model_payload": {
         "source_name": "알라딘 신간",
+        "headline": "쓱 보면 쏙 이해되는 밈고사성어/김환타(김미경) 지음/제이펍",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=398423527",
+        "published_at": "2026-07-16T01:49:00+00:00",
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=398423527\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/39842/35/cover200/k752130117_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=398423527\">쓱 보면 쏙 이해되는 밈고사성어</a></h2>김환타(김미경) 지음 / 제이펍 / 2026년 07월 / ISBN:<span class=\"isbn13\">9791124205761</span><br />정가: <span style=\"color: #FF0202;\">19,800</span>원 / 판매가: <span style=\"color: #FF0202;\">17,820</span>원 / 마일리지: <span style=\"color: #FF0202;\">990</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 27주년 특별 선물. 키캡 무드등 · 런던자연사박물관 북커버<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=398423527&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=398423527&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/intro_t.gif\" /><br />'존버', '갓생', '노답'... 시대마다 사람들은 상황과 감정을 짧은 말로 표현해 왔다. 오늘날에 '밈(meme)'이 있다면, 옛사람들에게는 '고사성어'가 있었다. 《쓱 보면 쏙 이해되는 밈고사성어》는 현대의 밈과 고사성어를 연결해 어렵게만 느껴졌던 한자와 역사 이야기를 쉽게 이해할 수 있도록 재미난 만화로 풀어냈다. <br />\n<br />\n고사성어를 무작정 외우기보다는 이야기를 통해 왜 그런 말이 생겨났는지, 지금 우리의 삶에 어떤 교훈을 주는지까지 생각하도록 구성했다. 비슷한 말과 반대되는 말, 예문까지 모두 75가지 사자성어를 함께 담아 읽는 재미는 물론 어휘력과 문해력까지 자연스럽게 성장하도록 도왔다.<br />\n<br />\n우리 아이가 또래의 밈 문화를 넘어 세상과 더 깊게 소통하며 자라기 위해서는 한자어의 사용이 많은 한국어의 특성을 잘 이해할 필요가 있다. 고사성어는 이러한 한자어 이해력을 키우는 좋은 출발점이 된다. 단 네 글자 속에 담겨있는 뜻, 역사, 삶과 교훈은 어린이의 성장에 든든한 받침목이 되어 줄 것이다. <br />\n<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br /><p>추천사 _4<br />\n머리말 _5<br />\n알고보면 더 재미난 밈고사성어 _8<br />\n\t<br />\n<br />\n제1장 지혜와 마음을 키우는 밈고사성어<br />\n지록위마 _12<br />\n백견불여일각 _22<br />\n낭중지추 _32<br />\n삼고초려 _42<br />\n화씨지벽 _52<br />\n[부록] 드라마로 떠나는 중국 여행 _62<br />\n<br />\n제2장 의지와 노력을 다지는 밈고사성어<br />\n와신상담 _66<br />\n형설지공 _76<br />\n칠종칠금 _86<br />\n결초보은 _96<br />\n맹모삼천지교 _106<br />\n[부록] 드라마로 떠나는 중국 패션 _116<br />\n<br />\n제3장 성격과 행동이 자라나는 밈고사성어<br />\n안하무인 _120<br />\n구밀복검 _130<br />\n견원지간 _140<br />\n작법자폐 _150<br />\n괄목상대 _160<br />\n[부록] 밈고사성어 중간고사 _170<br />\n<br />\n제4장 우애와 인간관계를 상징하는 밈고사성어<br />\n관포지교 _174<br />\n문전성시 _184<br />\n계명구도 _194<br />\n[부록] 드디어 가봤다! 중국 서안 여행 _204<br />\n<br />\n제5장 곤란하고 난처한 상황을 표현한 밈고사성어<br />\n사면초가 _208<br />\n계륵 _218<br />\n함흥차사 _228 <br />\n새옹지마 _238<br />\n[부록] 밈고사성어 기말고사 _248<br />\n<br />\n제6장 욕심과 절제를 의미하는 밈고사성어<br />\n주지육림 _252<br />\n토사구팽 _262<br />\n역린 _272<br />\n<br />\n찾아보기 _283</p><br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1108\">어린이</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48804\">초등3~4학년</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48839&BrowseTarget=List\"><b>상식/교양</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1108\">어린이</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48804\">초등3~4학년</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48843&BrowseTarget=List\"><b>학습만화</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1108\">어린이</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48819\">어린이 한자</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48940&BrowseTarget=List\"><b>사자성어/고사성어</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1108\">어린이</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=112080&BrowseTarget=List\"><b>학습만화</b></a><br /><br /></td></tr></table>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 신간",
         "headline": "마음 딸기/나승현 지음/바우솔",
         "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=398422752",
         "published_at": "2026-07-16T01:37:00+00:00",
@@ -800,15 +854,6 @@
         "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=398422733",
         "published_at": "2026-07-16T01:36:00+00:00",
         "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=398422733\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/39842/27/cover200/k162130117_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=398422733\">완전히 새로운 인문학 글쓰기</a></h2>아베 고다이 지음, 지비원 옮김 / 다다서재 / 2026년 07월 / ISBN:<span class=\"isbn13\">9791191716467</span><br />정가: <span style=\"color: #FF0202;\">18,000</span>원 / 판매가: <span style=\"color: #FF0202;\">16,200</span>원 / 마일리지: <span style=\"color: #FF0202;\">900</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 27주년 특별 선물. 키캡 무드등 · 런던자연사박물관 북커버<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=398422733&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=398422733&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/intro_t.gif\" /><br />정해진 작법이 없는 탓에 글쓰기 중에서도 특히 까다롭고 어렵다고 오해받는 ‘인문학 글쓰기’에 관한 ‘완전히 새로운’ 방법론을 제시하는 『완전히 새로운 인문학 글쓰기』가 출간되었다. 주로 미국에서 활동해온 인문학 연구자 아베 고다이는 ‘재능 있는 사람만 잘 쓸 수 있다’는 맹신이 퍼져 있는 인문학 글쓰기의 오랜 신화를 해체한다. <br />\n<br />\n저자는 인문학 글쓰기의 대표적인 사례인 ‘논문 쓰기’를 최소 단위까지 해체·분석하는 작업을 통해 논문은 물론이고 보고서, 논술을 비롯한 세상의 모든 ‘논리적 글쓰기’를 위한 가장 실용적인 방법론을 제시한다. ‘재능’, ‘흥미’, ‘참신함’ 등 인문학 글쓰기를 둘러싼 애매모호한 수사를 걷어내고, 인문학에서 폄하하는 ‘가성비’와 ‘효율’을 중심으로 독해 기술, 주제 추출, 논증 훈련, 문단 쓰기 등 당장 시작할 수 있는 실질적인 기법을 알려준다. <br />\n<br />\n이어 ‘우리는 왜 인문학을 공부하는가?’라는 화두로 저자 자신의 삶과 연구에 대한 진솔한 고백을 통해 독자로 하여금 자신이 하는 공부에 대해 고민하게 하고, 나아가 자신의 인생과 이 세계에 대한 진지한 질문을 던지게 한다. 이 지점에서 이 책은 다른 글쓰기 책과 차별화되는 인문서로서의 독자적인 가치를 구축한다. 이 책이 글쓰기 지침서로는 이례적으로 평단의 찬사를 받으며 기노쿠니야 인문대상 5위에 오른 이유다. 일본에서 출간과 동시에 베스트셀러에 오르며 도쿄대, 교토대를 비롯해 전국 대학생들이 가장 많이 읽은 책 1위를 2년째 이어가고 있다.<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br /><p><b>시작하며</b><br />\n<br />\n<b>원리편</b><br />\n제1장 아규먼트 만들기<br />\n칼럼 | 논문 심사에 대하여 <br />\n제2장 학술적인 가치 만들기<br />\n제3장 문단 만들기<br />\n<br />\n<b>실천편</b><br />\n제4장 문단을 해석하기<br />\n제5장 긴 문단 만들기<br />\n제6장 선행 연구 인용하기<br />\n칼럼 | 통독과 서평에 대하여 <br />\n제7장 서론에 모든 것을 쓰기<br />\n제8장 결론 내리기<br />\n<br />\n<b>발전편 </b><br />\n제9장 연구와 세계를 잇다<br />\n제10장 연구와 인생을 잇다<br />\n<br />\n<b>연습편</b><br />\n<br />\n<b>마치며</b></p><br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=656\">인문학</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51378&BrowseTarget=List\"><b>교양 인문학</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=656\">인문학</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51403\">책읽기/글쓰기</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51538&BrowseTarget=List\"><b>글쓰기</b></a><br /><br /></td></tr></table>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "The Guardian Books",
-        "headline": "Five arrested in Hong Kong bookstore raids in ‘seditious’ materials crackdown",
-        "source_url": "https://www.theguardian.com/world/2026/jul/16/hong-kong-bookstore-bookshop-raids-arrests",
-        "published_at": "2026-07-16T01:27:00+00:00",
-        "summary": "<p>Third round of arrests linked to independent bookshops widely regarded as clampdown on dissent in territory</p><p>Hong Kong authorities have raided two bookstores and arrested five people on suspicion of selling allegedly seditious publications, in the latest step targeting independent booksellers.</p><p>Videos and photos from multiple media outlets on Wednesday showed officers wearing vests marked with “police” seizing boxes from the building that houses Have A Nice Stay, a bookshop founded by former journalists. AFP reporters saw officers also lead away a woman in handcuffs to a van.</p> <a href=\"https://www.theguardian.com/world/2026/jul/16/hong-kong-bookstore-bookshop-raids-arrests\">Continue reading...</a>"
       }
     },
     {
@@ -836,6 +881,15 @@
         "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=398419423",
         "published_at": "2026-07-16T00:45:00+00:00",
         "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=398419423\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/39841/94/cover200/k292130115_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=398419423\">우리는 서로가 기도이고 꽃이다</a></h2>나태주 지음 / 열림원(도서출판) / 2026년 07월 / ISBN:<span class=\"isbn13\">9791170403876</span><br />정가: <span style=\"color: #FF0202;\">17,800</span>원 / 판매가: <span style=\"color: #FF0202;\">16,020</span>원 / 마일리지: <span style=\"color: #FF0202;\">890</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 한국문학 사랑 : 2026년 7월 15일, 이소호 소설 <이자만큼 성실하게> 인터뷰<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=398419423&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=398419423&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/intro_t.gif\" /><br />‘자세히 보아야 예쁘다. 오래 보아야 사랑스럽다. 너도 그렇다.’ 단 세 줄의 시 「풀꽃」으로 수많은 독자의 마음을 울리며 ‘풀꽃 시인’이라는 이름으로 사랑받아 온 나태주. 1971년 《서울신문》 신춘문예로 등단한 이후 반세기가 넘는 시간 동안 그는 꽃과 풀, 바람과 하늘 같은 일상의 풍경을 통해 삶과 사랑, 사람의 존재를 노래해 왔다. 교단에서 아이들과 함께한 사십삼 년의 시간은 그의 시를 더욱 따뜻하고 단단하게 만들었고, 어렵지 않은 언어 속에 깊은 울림을 담아내는 나태주만의 시 세계를 완성했다. 그에게 꽃은 단순한 자연의 풍경이 아니라, 보이지 않는 자리에서도 끝내 자신의 때를 기다려 피어나는 모든 존재의 다른 이름이었다.<br />\n<br />\n이번 꽃시집은 나태주 시인이 오랜 세월 써 온 꽃 시편들을 봄, 여름, 가을, 겨울의 사계절에 따라 새롭게 엮은 시선집이다. 계절마다 피어나는 꽃들이 저마다 다른 빛깔과 향기를 품듯, 사람의 삶 또한 피어나는 때와 무르익는 때, 스러지는 때와 다시 기다리는 시간을 지나 완성된다. 이 시집은 꽃의 사계를 따라가며 결국 한 사람의 생애를 읽게 하고, 지금 어느 계절을 살아가고 있든 그 또한 삶의 아름다운 한순간임을 조용히 일깨운다. 꽃을 바라보는 일이 곧 자신의 삶을 돌아보는 일이 되기를, 그리고 계절이 바뀌듯 삶 또한 다시 피어날 수 있다는 믿음을 전하고자 나태주 시인이 독자들에게 건네는 따뜻한 위로의 선물이다.<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br /><p>서문_시님에게 꾸뻑, 꽃님에게 꾸뻑<br />\n서시_꽃을 피우자<br />\n<br />\n<b>1부 봄꽃―보이지 않는 꽃처럼</b><br />\n자목련꽃 필 무렵<br />\n산수유<br />\n제비꽃 옆에<br />\n제비꽃 1<br />\n제비꽃 2<br />\n다시 제비꽃<br />\n벚꽃 만개<br />\n노랑<br />\n앵초꽃<br />\n꽃구경<br />\n수선화<br />\n수선화 2<br />\n수선화 3<br />\n은방울꽃<br />\n산버찌나무 아래서<br />\n붓꽃 새로 필 때<br />\n모란꽃 지네<br />\n동백 1<br />\n동백 2<br />\n동백 3<br />\n제비꽃 사랑<br />\n산철쭉을 캐려고<br />\n봄날에<br />\n서러운 봄날<br />\n민들레 시학<br />\n영산홍<br />\n목련꽃 낙화<br />\n노래로<br />\n벚꽃 이별<br />\n팬지꽃<br />\n오랑캐꽃<br />\n족도리꽃<br />\n새싹<br />\n산란초<br />\n민들레<br />\n팬지 1<br />\n서양 붓꽃<br />\n새봄의 전갈<br />\n매화꽃 달밤<br />\n자운영꽃<br />\n봄의 사람<br />\n민들레꽃<br />\n누군가 울고 있다<br />\n카네이션<br />\n카네이션을 어머니께<br />\n전학 간 친구 그리워<br />\n<br />\n<b>2부 여름꽃―보이지 않는 풀잎처럼</b><br />\n백년초<br />\n싸리꽃<br />\n찔레꽃<br />\n능소화 두벌 꽃<br />\n능소화 지다<br />\n능소화 아래<br />\n프리지어<br />\n아카시아꽃<br />\n저 혼자 아름답다<br />\n채송화<br />\n감꽃<br />\n달맞이꽃<br />\n꽃들아 안녕<br />\n딸<br />\n물봉선<br />\n오늘의 꽃<br />\n붉은 꽃<br />\n꽃 1<br />\n꽃 2<br />\n꽃 3<br />\n꽃 4<br />\n안개가 짙은들<br />\n꽃에 대한 감격<br />\n누이야 누이야<br />\n붉은 꽃 한 송이<br />\n노루발풀꽃<br />\n무지개<br />\n꽃밭 귀퉁이<br />\n개망초<br />\n연인<br />\n들길<br />\n패랭이꽃빛<br />\n까닭<br />\n능소화 1<br />\n능소화 2<br />\n석류꽃<br />\n메꽃<br />\n나팔꽃<br />\n달개비꽃<br />\n봉숭아<br />\n풀꽃과 놀다<br />\n플라워 바스켓<br />\n일년초<br />\n백두산의 꽃<br />\n<br />\n<b>3부 가을꽃―가을이다, 부디 아프지 마라</b><br />\n천일홍<br />\n꽃밭<br />\n맥문동을 캐면서<br />\n피안<br />\n꽃들에게 미안하다<br />\n마른 꽃<br />\n들국화 1<br />\n들꽃<br />\n단풍<br />\n풀잎을 닮기 위하여<br />\n칸나<br />\n난쟁이나팔꽃을 보며<br />\n풀꽃 엄마<br />\n하늘 아이<br />\n꽃나무 아래<br />\n꽃을 꺾지 못하다<br />\n메밀꽃이 폈드라<br />\n풀꽃 1<br />\n풀꽃 2<br />\n풀꽃 3<br />\n낙화 앞에<br />\n그래서 꽃이다<br />\n멀리서 빈다<br />\n야생화<br />\n혼자서<br />\n꽃필 날<br />\n꽃그늘<br />\n하루만 못 봐도<br />\n둘이서<br />\n꽃<br />\n개화<br />\n백일...<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1\">소설/시/희곡</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=50940\">시</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51167&BrowseTarget=List\"><b>한국시</b></a><br /><br /></td></tr></table>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 신간",
+        "headline": "아무도 몰래 바나나핫도그/최인정 지음, 윤소진 그림/반달서재",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=398419437",
+        "published_at": "2026-07-16T00:45:00+00:00",
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=398419437\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/39841/94/cover200/k232130115_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=398419437\">아무도 몰래 바나나핫도그</a></h2>최인정 지음, 윤소진 그림 / 반달서재 / 2026년 07월 / ISBN:<span class=\"isbn13\">9791199597624</span><br />정가: <span style=\"color: #FF0202;\">14,000</span>원 / 판매가: <span style=\"color: #FF0202;\">12,600</span>원 / 마일리지: <span style=\"color: #FF0202;\">700</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 27주년 특별 선물. 키캡 무드등 · 런던자연사박물관 북커버<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=398419437&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=398419437&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/intro_t.gif\" /><br />제13회 정채봉문학상 대상 최인정 작가가 우리의 사소한 일상과 가장 어린이다운 마음을 조명한 두 편의 이야기를 들려준다. 일명 구멍가게라 불리는 자그마한 슈퍼 ‘부근상회’를 배경으로, 맛있는 간식과 얽힌 송이와 민호의 서로 다른 이야기가 단단하게 연결된다. 바나나핫도그와 짝꿍바가 만들어 주는 특별한 경험과 즐거운 상상이 따스하게 펼쳐진다.<br />\n<br />\n송이는 엄마가 잠시 가게를 비운 사이 진열대에 하나 남은 바나나핫도그를 몰래 먹고, 민호는 낯선 동네에서 느끼는 외로움을 엉뚱한 심술로 표출한다. 두 어린이는 솔직하지 못했던 순간과 오해 속에서 부끄러움과 미안함, 고마움을 배워 간다. 송이와 민호가 사소하면서도 공감을 불러일으키는 일상 속에서 용기를 내고 한 걸음 성장해 가는 모습이 따스하게 그려진다.<br />\n<br />\n현실과 상상이 즐겁게 교차하는 장면도 이야기의 매력을 더한다. 바나나핫도그를 타고 하늘을 나는 송이와 우주인이 되어 드넓은 우주를 날아다니는 민호의 상상은 불안과 외로움을 녹이는 놀이가 된다. 윤소진 작가는 두 어린이의 마음과 달콤한 상상을 그림으로 표현했으며, 가족과 친구가 서로의 이야기를 나누는 부근상회는 우리들의 소소한 일상과 성장의 순간을 담은 보물 상자처럼 다가온다.<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br /><p><b>이야기 하나. 아무도 몰래 바나나핫도그</b><br />\n초콜릿을 품은 바나나핫도그 ----- 8<br />\n몰래 먹어 버릴 거야! ----- 13<br />\n과자 봉지가 팔랑팔랑 ----- 21<br />\n눈물의 스마일콘 ----- 33<br />\n<br />\n<b>이야기 둘. 짝꿍바 먹는 방법</b><br />\n마음에 안 드는 동네 ----- 42<br />\n우주인 아이스크림 ----- 49<br />\n나사 빠진 소리 아니거든! ----- 60<br />\n반달이 더 맛있는 이유 ----- 69</p><br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1108\">어린이</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48803\">초등1~2학년</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48825&BrowseTarget=List\"><b>동화/명작/고전</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1108\">어린이</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48810\">동화/명작/고전</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48874&BrowseTarget=List\"><b>국내창작동화</b></a><br /><br /></td></tr></table>"
       }
     },
     {
@@ -903,24 +957,6 @@
     },
     {
       "event_model_payload": {
-        "source_name": "알라딘 신간",
-        "headline": "수상한 그림책방/김종민 지음/찰리북",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=398417032",
-        "published_at": "2026-07-15T23:03:00+00:00",
-        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=398417032\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/39841/70/cover200/k552130113_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=398417032\">수상한 그림책방</a></h2>김종민 지음 / 찰리북 / 2026년 07월 / ISBN:<span class=\"isbn13\">9791164521210</span><br />정가: <span style=\"color: #FF0202;\">16,800</span>원 / 판매가: <span style=\"color: #FF0202;\">15,120</span>원 / 마일리지: <span style=\"color: #FF0202;\">840</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 27주년 특별 선물. 키캡 무드등 · 런던자연사박물관 북커버<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=398417032&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=398417032&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/intro_t.gif\" /><br />그림책들로 둘러싸인 책방에서 한 아이는 핸드폰 게임에 푹 빠져 있다. 그런 아이를 책방지기 아빠는 걱정스러운 눈길로 바라본다. 그런데 아이가 깜빡 잠든 사이, 뿔 달린 이상한 새가 핸드폰을 가져가 버린다. 잠에서 깬 아이는 황급히 새를 쫓아가는데….<br />\n<br />\n이후 아이는 신비롭고 환상적인 세상으로 들어선다. 그곳에는 우리가 익히 알고 있는 『백설공주와 일곱 난쟁이』, 『빨간 모자』, 『미녀와 야수』, 『잠자는 숲속의 공주』, 『행복한 왕자』, 『성냥팔이 소녀』, 『눈의 여왕』, 『어린 왕자』, 『이상한 나라의 앨리스』 속 인물들이 살아간다.<br />\n<br />\n동화의 줄거리를 잘 알고 있는 아이는 그들을 도우며 신나는 모험을 펼쳐 나간다. 때로는 새를 찾으러 왔다는 사실조차 잊어버릴 만큼 말이다. 과연 아이는 이상한 새를 찾아 핸드폰을 되찾고, 무사히 책방으로 돌아갈 수 있을까?<br />\n<br />\n이야기에 등장하는 책방은 실제 김종민 작가가 운영하는 책방을 모델로 했으며, 아이의 아빠이자 책방지기 역시 작가의 모습을 닮아 있다. 이러한 설정은 이야기의 재미를 더하고 독자에게 생생한 몰입감을 선사한다.<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1108\">어린이</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48803\">초등1~2학년</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48825&BrowseTarget=List\"><b>동화/명작/고전</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1108\">어린이</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48804\">초등3~4학년</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48837&BrowseTarget=List\"><b>동화/명작/고전</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1108\">어린이</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48810\">동화/명작/고전</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48874&BrowseTarget=List\"><b>국내창작동화</b></a><br /><br /></td></tr></table>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "New York Times Books",
-        "headline": "Book Review: ‘Catch the Devil,’ by Pamela Colloff",
-        "source_url": "https://www.nytimes.com/2026/07/13/books/review/catch-the-devil-pamela-colloff.html",
-        "published_at": "2026-07-15T19:39:27+00:00",
-        "summary": "In “Catch the Devil,” Pamela Colloff vividly tells the true story of the con man who traded on other prisoners’ “confessions” for clemency."
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "NPR Books",
         "headline": "Trump relished in being compared to dictators like Hitler and Stalin, journalist says",
         "source_url": "https://www.npr.org/2026/07/15/nx-s1-5893633/trump-regime-change-jonathan-swan-maggie-haberman",
@@ -966,24 +1002,6 @@
     },
     {
       "event_model_payload": {
-        "source_name": "알라딘 신간",
-        "headline": "티니핑 소나티나/양소영 편저/세광음악출판사",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=398389809",
-        "published_at": "2026-07-15T07:24:00+00:00",
-        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=398389809\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/39838/98/cover200/8903351231_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=398389809\">티니핑 소나티나</a></h2>양소영 편저 / 세광음악출판사 / 2026년 07월 / ISBN:<span class=\"isbn13\">9788903315230</span><br />정가: <span style=\"color: #FF0202;\">9,000</span>원 / 판매가: <span style=\"color: #FF0202;\">8,100</span>원 / 마일리지: <span style=\"color: #FF0202;\">450</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 27주년 특별 선물. 키캡 무드등 · 런던자연사박물관 북커버<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=398389809&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=398389809&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/intro_t.gif\" /><br />원곡의 깊이는 살리면서 어린이 눈높이에 맞게 다듬어, 클래식을 처음 시작하는 아이들도 완벽한 첫걸음을 뗄 수 있다. 요즘 필수인 인기 소나티나부터 저자만의 신선하고 매력적인 레퍼토리까지 알차게 담았다. 기초부터 콩쿠르, 고전 소나티네까지 이어지는 체계적인 3단계 구성으로 클래식 테크닉을 탄탄하게 다져준다. 딱딱한 소나티나 학습을 귀여운 티니핑 캐릭터들과 함께 떠나는 동화 같은 음악 여행으로 풀어내 학습의 재미를 더했다.<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br /><p><b>Part 1 | 티니핑 소나티나</b><br />\n01 In May / F. Behr <br />\n02 When the Rain Stops / J. Schmitt <br />\n03 Sonatina Op. 210 No. 3 / C. Gurlitt<br />\n04 Quick March / F. X. Chwatal<br />\n05 Little Sonata Op. 5 No. 1, 2nd mov / C. H. Wilton <br />\n06 Sonatina in C / W. Duncombe <br />\n07 Sonatina in C / C. Gurlitt<br />\n08 Little Sonata Op. 5 No. 1, 1st mov / C. H. Wilton <br />\n09 Sonatina in C / F. L. Couppey <br />\n10 Serenade / G. Bachmann <br />\n11 Sonatina Op. 57 No. 1, 1st mov / A. Biehl<br />\n12 Sonatina Op. 57 No. 1, 2nd mov / A. Biehl <br />\n13 Sonatina Op. 39 No. 1, 1st mov / F. Lynes<br />\n14 Gavotte / C. Gurlitt <br />\n15 Sonatina Op. 210 No. 7 / C. Gurlitt <br />\n16 Sonatina Op. 33 No. 1 / D. Steibelt <br />\n17 Durch Wald und Feld / C. Gurlitt <br />\n18 Melody / Fr. Thome <br />\n19 Happy Moment / N. Ladoukhin <br />\n20 Merry / P. Zilcher <br />\n21 Sonatina in F / A. Diabelli <br />\n22 Sonatina Op. 227 No. 21 / C. Gurlitt <br />\n23 Chasing Butterflies / L. Streabbog <br />\n24 Sonatina Op. 151 No. 1, 2nd mov / A. Diabelli <br />\n<br />\n<b>Part 2 | 콩쿠르 소나티나</b><br />\n01 Ecossaise / L. van Beethoven <br />\n02 Bagatelle in C Major / A. Diabelli <br />\n03 Le Cabri / V. Dolidze <br />\n04 Sonatina in F Major / L. van Beethoven<br />\n<br />\n<b>Part 3 | 클래식 소나티나</b><br />\n01 Sonatine Op. 36 No. 1, 3rd mov / M. Clementi <br />\n02 Sonatine Op. 36 No. 1, 1st mov / M. Clementi<br />\n03 Sonatine Op. 36 No. 3, 3rd mov / M. Clementi</p><br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=13789\">유아</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=35089\">4~7세</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=35100&BrowseTarget=List\"><b>유아놀이</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=13789\">유아</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=35094\">유아 교양/학습</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=35121\">유아 문화/예술</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=35146&BrowseTarget=List\"><b>음악</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=517\">예술/대중문화</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=50966\">음악</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51034\">악보/작곡</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51195&BrowseTarget=List\"><b>피아노 및 건반악기 악보</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=13789\">유아</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=4298\">애니메이션/캐릭터</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=194023&BrowseTarget=List\"><b>_캐치! 티니핑</b></a><br /><br /></td></tr></table>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 신간",
-        "headline": "사고력을 키우는 수학의 힘/장허 지음, 김지혜 옮김, 신재호 감수/미디어숲",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=398388738",
-        "published_at": "2026-07-15T07:12:00+00:00",
-        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=398388738\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/39838/87/cover200/k252130016_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=398388738\">사고력을 키우는 수학의 힘</a></h2>장허 지음, 김지혜 옮김, 신재호 감수 / 미디어숲 / 2026년 08월 / ISBN:<span class=\"isbn13\">9791158749385</span><br />정가: <span style=\"color: #FF0202;\">19,800</span>원 / 판매가: <span style=\"color: #FF0202;\">17,820</span>원 / 마일리지: <span style=\"color: #FF0202;\">990</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 27주년 특별 선물. 키캡 무드등 · 런던자연사박물관 북커버<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=398388738&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=398388738&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/intro_t.gif\" /><br />많은 사람이 학창 시절 가장 어려웠던 과목으로 수학을 꼽는다. 처음에는 무난하게 따라가던 사람도 학년이 올라갈수록 수학이 낯설고 어렵게 느껴져 서서히 흥미를 잃는다. 시간을 들여 문제를 풀고 공식을 외워도 실력은 기대만큼 늘지 않고, 조금만 형태가 다른 문제를 만나면 어디서부터 접근해야 할지 막막해진다. 이로 인해 이른바 ‘수포자’, 수학을 포기한 사람도 적지 않을 것이다. <br />\n<br />\n이는 단순히 공부량이 부족해서 생기는 문제가 아니다. 우리는 오랫동안 수학을 ‘생각하는 학문’이라기보다 ‘암기해야 하는 과목’으로 배웠다. 무작정 공식과 풀이법만 줄줄 외워, 정작 그 공식이 어떻게 성립하는지, 어떤 원리로 문제가 전개되는지 충분히 이해하지 못한 경우가 많다. 그래서 익숙한 문제는 쉽게 풀어도 조금만 조건이 달라지면 배운 내용을 활용하지 못한다. 아무리 문제를 많이 풀어도 사고력은 충분히 성장하지 않는 이유가 바로 여기에 있다.<br />\n<br />\n『사고력을 키우는 수학의 힘』은 이러한 문제의식에서 출발한다. 이 책은 중·고등학교 교육과정의 핵심 내용을 바탕으로 구성한 18개의 주제를 통해 수학을 새로운 시각에서 바라보도록 이끈다. 단순히 정답을 구하는 방법을 설명하는 데 그치지 않고, 왜 그런 답이 나오는지, 그 과정에서 어떤 사고가 이루어지는지를 함께 탐구한다. 도형과 식, 함수와 그래프를 ‘기하’와 ‘대수’라는 두 가지 관점에서 살펴보며 문제의 본질을 이해하도록 돕고, 수학 속에 숨어 있는 사고의 원리를 자연스럽게 발견하도록 안내한다.<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br /><p>프롤로그_어떻게 하면 수학을 잘할까요? <br />\n<br />\n<b>PART 1  생각을 움직이는 수학의 열쇠들 </b><br />\n생각은 힘이다: ��와 2-��로부터<br />\n도형=식: 좌표평면이라는 무대에서<br />\n도형을 생각하라: 삼각형 내각의 크기의 합이 180°인 이유?<br />\n두 함수의 관계: 왼쪽은 더하고 오른쪽은 뺀다?<br />\n함수의 성질: 부호와 그래프에 숨겨진 생각<br />\n상상의 나래를 펼쳐라: 생각으로 가득 찬 정육면체<br />\n‘움직인다’와 ‘움직이지 않는다’: 점으로 만들어진 도형<br />\n<br />\n어떻게 하면 생각이 움직일까?: 운동 변화에 숨겨진 사고 문제<br />\n생각 채널을 바꾸는 연습: 대수적 사고와 기하적 사고<br />\n<br />\n<b>PART 2  어떻게 풀까? </b><br />\n원으로 기하를 말하다<br />\n문제해결은 생각의 결과다<br />\n숨겨진 논리를 읽어라<br />\n함수의 그래프를 어떻게 그릴까?<br />\n대상의 본질 : 너는 누구냐?<br />\n대수적 방법으로 기하 문제를 풀어라<br />\n<br />\n<b>PART 3  수학과 통하다 </b><br />\n왜 7+5=12일까?<br />\n함수적 사고와 관점은 정말 쓸모가 있을까?<br />\n수학 공부는 수와 형태의 결합이다</p><br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=987\">과학</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51033\">수학</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51324&BrowseTarget=List\"><b>쉽게 배우는 수학</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=987\">과학</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51033\">수학</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51334&BrowseTarget=List\"><b>수학 일반</b></a><br /><br /></td></tr></table>"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "The Guardian Books",
         "headline": "The First House by Avni Doshi review – an intense portrait of marriage and freedom",
         "source_url": "https://www.theguardian.com/books/2026/jul/15/the-first-house-by-avni-doshi-review-an-intense-portrait-of-marriage-and-freedom",
@@ -1002,15 +1020,6 @@
     },
     {
       "event_model_payload": {
-        "source_name": "New York Times Books",
-        "headline": "Sizzling, Sexy Age-Gap Romance Novels",
-        "source_url": "https://www.nytimes.com/2026/07/13/books/age-gap-romance-books.html",
-        "published_at": "2026-07-14T18:22:54+00:00",
-        "summary": "The best-selling author Rachel Lynn Solomon recommends forbidden love stories full of fiery desire, shifting power dynamics and so-wrong-it’s-right drama."
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "NPR Books",
         "headline": "'The Trojan Teddy Bear': The promise and peril of childhood in the age of AI",
         "source_url": "https://www.npr.org/sections/planet-money/2026/07/14/g-s1-133066/the-trojan-teddy-bear-the-promise-and-peril-of-childhood-in-the-age-of-ai",
@@ -1021,19 +1030,19 @@
     {
       "event_model_payload": {
         "source_name": "New York Times Books",
-        "headline": "Book Review: ‘Cloudthief,’ by Nathaniel Rich",
-        "source_url": "https://www.nytimes.com/2026/07/14/books/review/nathaniel-rich-cloudthief.html",
+        "headline": "Book Review: ‘Famous Men,’ by Julie Buntin",
+        "source_url": "https://www.nytimes.com/2026/07/14/books/review/julie-buntin-famous-men.html",
         "published_at": "2026-07-14T09:01:00+00:00",
-        "summary": "“Cloudthief,” by Nathaniel Rich, follows a dispirited writer into a scheme to get rich and find romance along the way."
+        "summary": "Julie Buntin’s novel “Famous Men” complicates an old story with questions of ambition and consent."
       }
     },
     {
       "event_model_payload": {
         "source_name": "New York Times Books",
-        "headline": "Book Review: ‘Famous Men,’ by Julie Buntin",
-        "source_url": "https://www.nytimes.com/2026/07/14/books/review/julie-buntin-famous-men.html",
+        "headline": "Book Review: ‘Cloudthief,’ by Nathaniel Rich",
+        "source_url": "https://www.nytimes.com/2026/07/14/books/review/nathaniel-rich-cloudthief.html",
         "published_at": "2026-07-14T09:01:00+00:00",
-        "summary": "Julie Buntin’s novel “Famous Men” complicates an old story with questions of ambition and consent."
+        "summary": "“Cloudthief,” by Nathaniel Rich, follows a dispirited writer into a scheme to get rich and find romance along the way."
       }
     },
     {
@@ -1083,15 +1092,6 @@
     },
     {
       "event_model_payload": {
-        "source_name": "New York Times Books",
-        "headline": "Book Review: ‘Aging Out,’ by Lucy Schiller",
-        "source_url": "https://www.nytimes.com/2026/07/13/books/review/aging-out-lucy-schiller.html",
-        "published_at": "2026-07-13T09:00:42+00:00",
-        "summary": "From assisted living to elder activism and her own experience as a caregiver, Lucy Schiller investigates aging’s myriad challenges in her first book."
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "The Guardian Books",
         "headline": "The Brexit Effect, 2016-2026 edited by Anthony Seldon review – life without EU",
         "source_url": "https://www.theguardian.com/books/2026/jul/13/the-brexit-effect-2016-2026-edited-by-anthony-seldon-review-life-without-eu",
@@ -1111,10 +1111,10 @@
     {
       "event_model_payload": {
         "source_name": "알라딘 베스트셀러",
-        "headline": "14위 복숭아와 애벌레",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=397259032&radar_rank=14&radar_ranking_date=20260712220043",
+        "headline": "15위 시화, 마침내 빛날",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=395524898&radar_rank=15&radar_ranking_date=20260712220043",
         "published_at": "2026-07-12T22:00:43+00:00",
-        "summary": "복숭아와 애벌레 안녕달 지음 / 창비 / 2026년 07월 / ISBN: 9788936429690 정가: 16,800 원 / 판매가: 15,120 원 / 마일리지: 840 원 이벤트 : 안녕달 <복숭아와 애벌레> + 트레이 안녕달 작가의 신작 그림책 『복숭아와 애벌레』가 출간되었다. 작가는 2015년 첫 창작 그림책 『수박 수영장』을 펴낸 이후, 『당근 유치원』 『겨울 이불』 『별에게』 등 온 세대의 사랑을 받는 작품을 꾸준히 선보이며 우리 시대 대표 그림책 작가로 자리매김했다. 신작 『복숭아와 애벌레』는 작가가 『할머니의 여름휴가』 이후 10년 만에 선보이는 반가운 여름 이야기이다. 아이가 복숭아 속 애벌레와 몸을 바꾸면서 벌어지는 꿈결 같은 이야기를 그렸다. 서정적인 여름 풍경과 익숙한 세상이 새롭게 다가오는 즐거움을 섬세하게 담아냈다. 어린이에게는 한껏 상상하고 놀이하는 기쁨을, 어른에게는 무엇이든 될 수 있었던 유년의 감각을 떠올리게 한다. 마이리뷰(0) 평점: | Sales Point : 37,290 복숭아 속 애벌레와의 대화라니요?! - isuin"
+        "summary": "시화, 마침내 빛날 공계진 지음 / 교유서가 / 2026년 07월 / ISBN: 9791124128961 정가: 18,800 원 / 판매가: 16,920 원 / 마일리지: 560 원 이벤트 : 화제의 책 + 알라딘 굿즈 (이벤트 도서 포함, 국내도서 3만원 이상) 작은 공장 노동자들의 노동권이 왜 오랫동안 사각지대에 놓여 있었는지를 살펴본다. 하청에서 하청으로 이어지는 다단계 구조 속에서 기업의 손실은 작은 공장으로 전가되고, 작은 공장 노동자들은 저임금과 장시간 노동, 인격 모독까지 감내해야 하는 현실에 놓여 있다. 2024년 30인 미만 사업장의 노조조직률이 0.1퍼센트에 불과한 현실을 통해 작은 공장 노동자의 목소리가 왜 들리지 않는지 묻는다. 노동권이 유예되고 노조가 먼 나라 이야기처럼 여겨지는 구조적 원인과 문제의 본질을 짚어낸다. 작은 공장 노조 건설을 위해 25년 동안 현장을 지켜온 저자의 경험과 반성을 담았다. 외부의 차별뿐 아니라 내부의 무관심과 포기까지 성찰하며, 작은 공장 노동자들의 노동권 회복과 앞으로 나아가야 할 방향을 모색하는 책이다."
       }
     },
     {
@@ -1129,19 +1129,28 @@
     {
       "event_model_payload": {
         "source_name": "알라딘 베스트셀러",
-        "headline": "2위 프로젝트 헤일메리 (알라딘 리커버 특별판)",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=396798366&radar_rank=2&radar_ranking_date=20260712220043",
+        "headline": "4위 2026 큰별쌤 최태성의 별★별한국사 한국사능력검정시험 심화(1, 2, 3급) 상",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=378969369&radar_rank=4&radar_ranking_date=20260712220043",
         "published_at": "2026-07-12T22:00:43+00:00",
-        "summary": "프로젝트 헤일메리 (알라딘 리커버 특별판) 앤디 위어 지음, 강동혁 옮김 / 알에이치코리아(RHK) / 2026년 07월 / ISBN: 9788925568645 정가: 22,000 원 / 판매가: 19,800 원 / 마일리지: 1,100 원 이벤트 : 어나더커버 프로젝트 102탄. 앤디 위어 우주 3부작 영화 〈프로젝트 헤일메리〉 원작. 《마션》과 《아르테미스》에 이어 발표한 작품마다 뉴욕 타임스와 아마존 베스트셀러에 이름을 올린 앤디 위어의 장편소설이다. 과학적 사실을 조사하고 검증하는 것으로 정평이 난 작가의 탄탄한 과학적 지식과 낙관적 감수성이 어우러진 SF다. 긴 수면 끝에 우주 한가운데서 눈을 뜬 남성은 자신의 이름조차 기억하지 못한 채 홀로 우주선에 남아 있다. 동료들은 모두 사망했고, 기억을 더듬어가던 그는 자신이 인류를 구할 마지막 희망이자 지구로 돌아가지 못할 과학자라는 사실을 깨닫는다. 태양의 온도를 떨어뜨리는 미지의 생명체 ‘아스트로파지’로 인해 멸망 위기에 처한 지구를 살리려 그는 ‘편도행’ 우주선에 몸을 실었다. 과학적 정밀함 위에 쉼 없이 위기가 쌓이고 해결되는 페이지터너이자, 공생과 연대, 종을 넘어서는 우정에 관한 이야기다. 오일러 공식부터 공기역학, 골디락스 존까지 치밀하게 작동하는 설정 속에서 절망 속에서도 농담을 잃지 않는 주인공과 작가 특유의 낙관이 소설을 끝까지 이끈다. 마이리뷰(0) 평점: | Sales Point : 491,234 강요된 영웅 - 프링크리 외계인과의 만남 - 닷슈 그레이스와 로키의 우정에서 읽은 것들 - 책판다 다정을 주고 받을 때 생기는 우주적 관계 - 노루귀 [마이리뷰] 프로젝트 헤일메리 - 후앙"
+        "summary": "2026 큰별쌤 최태성의 별★별한국사 한국사능력검정시험 심화(1, 2, 3급) 상 최태성 지음 / 이투스북 / 2025년 12월 / ISBN: 9791138934428 정가: 19,000 원 / 판매가: 17,100 원 / 마일리지: 950 원 이벤트 : 반도체·공사공단 취업 대비, 합격을 위한 올인원 + 아크릴 볼펜 <2026 큰별쌤 최태성의 별별한국사 한국사능력검정시험 심화 상> 오랜 연구와 검증으로 한국사에 기초가 전혀 없는 사람도 단기간에 한능검에 합격할 수 있는 최적의 구성을 완성하였습니다. 판서의 장인 큰별쌤 최태성이 핵심만을 모아 만든 아트 판서를 수록하고, 시험에 자주 등장하는 사료, 사진, 지도 등을 모아 해설하여 합격을 위한 필수 개념을 익히기 쉽게 하였습니다. 또한, 한능검 기출문제를 모두 분석한 후, 기출 선택지를 이용한 별 채우기 문제를 수록하여 자연스럽게 기출 선택지가 기억될 수 있도록 하였고, 반복적으로 출제되는 주제의 최신 기출문제를 꼼꼼하고 친절한 해설과 함께 담아 실전에 대비할 수 있도록 하였습니다. 여기에 한국사 연표와 지역의 역사를 담은 지도를 통해 한국사 흐름잡기가 더욱 쉬울 것입니다. 제시된 이미지는 책의 뒷표지입니다. <2026 큰별쌤 최태성의 별별한국사 한국사능력검정시험 심화(1·2·3급) 상>의 앞표지는 1억원 기부를 통해 사랑의 열매 '아너 소사이어티'에 가입되도록 함께 지원해 주신 최태성 1, 2TV 별님들로 구성되었습니다."
       }
     },
     {
       "event_model_payload": {
         "source_name": "알라딘 베스트셀러",
-        "headline": "4위 2026 큰별쌤 최태성의 별★별한국사 한국사능력검정시험 심화(1, 2, 3급) 상",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=378969369&radar_rank=4&radar_ranking_date=20260712220043",
+        "headline": "12위 마션 (알라딘 리커버 특별판)",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=396798422&radar_rank=12&radar_ranking_date=20260712220043",
         "published_at": "2026-07-12T22:00:43+00:00",
-        "summary": "2026 큰별쌤 최태성의 별★별한국사 한국사능력검정시험 심화(1, 2, 3급) 상 최태성 지음 / 이투스북 / 2025년 12월 / ISBN: 9791138934428 정가: 19,000 원 / 판매가: 17,100 원 / 마일리지: 950 원 이벤트 : 반도체·공사공단 취업 대비, 합격을 위한 올인원 + 아크릴 볼펜 <2026 큰별쌤 최태성의 별별한국사 한국사능력검정시험 심화 상> 오랜 연구와 검증으로 한국사에 기초가 전혀 없는 사람도 단기간에 한능검에 합격할 수 있는 최적의 구성을 완성하였습니다. 판서의 장인 큰별쌤 최태성이 핵심만을 모아 만든 아트 판서를 수록하고, 시험에 자주 등장하는 사료, 사진, 지도 등을 모아 해설하여 합격을 위한 필수 개념을 익히기 쉽게 하였습니다. 또한, 한능검 기출문제를 모두 분석한 후, 기출 선택지를 이용한 별 채우기 문제를 수록하여 자연스럽게 기출 선택지가 기억될 수 있도록 하였고, 반복적으로 출제되는 주제의 최신 기출문제를 꼼꼼하고 친절한 해설과 함께 담아 실전에 대비할 수 있도록 하였습니다. 여기에 한국사 연표와 지역의 역사를 담은 지도를 통해 한국사 흐름잡기가 더욱 쉬울 것입니다. 제시된 이미지는 책의 뒷표지입니다. <2026 큰별쌤 최태성의 별별한국사 한국사능력검정시험 심화(1·2·3급) 상>의 앞표지는 1억원 기부를 통해 사랑의 열매 '아너 소사이어티'에 가입되도록 함께 지원해 주신 최태성 1, 2TV 별님들로 구성되었습니다."
+        "summary": "마션 (알라딘 리커버 특별판) 앤디 위어 지음, 박아람 옮김 / 알에이치코리아(RHK) / 2026년 07월 / ISBN: 9788925568683 정가: 19,800 원 / 판매가: 17,820 원 / 마일리지: 990 원 이벤트 : 어나더커버 프로젝트 102탄. 앤디 위어 우주 3부작 《마션》은 인류의 화성 탐사라는 현실적 과학 프로젝트 위에 한 인간의 처절한 생존기를 결합한 작품이다. 정교한 과학적 상상력과 압도적인 서사적 흡인력으로 출간 직후 세계적인 화제를 모았으며, 74주 동안 베스트셀러 목록에 머물며 지금까지도 꾸준한 사랑을 받고 있다. 하루하루 이어지는 생존의 기록은 긴박하게 전개되면서도 놀라울 만큼 설득력 있게 짜여 있다. 이러한 독창적인 이야기는 우주와 과학을 사랑한 한 프로그래머의 상상력에서 출발했다. 앤디 위어는 15세에 미국 국립연구소에서 일했으며, 이후 다양한 연구 개발 프로젝트에 참여한 프로그래머 출신 작가다. 이러한 이력은 《마션》 곳곳에 녹아 있는 치밀한 과학적 설정의 바탕이 되었다. 이 작품은 2009년 앤디 위어가 취미로 자신의 블로그에 연재하기 시작한 소설에서 출발했으며, 독자들의 요청에 힘입어 2011년 전자책으로 먼저 출간되었다. 이후 입소문을 타고 미국 출판사 크라운의 눈에 띄어 2014년 정식 출간에 이르렀다. 정교한 과학적 상상력과 압도적인 이야기의 힘, 그리고 끝내 사람을 향하는 따뜻한 시선까지. 《마션》은 SF를 좋아하는 독자는 물론, 뛰어난 모험담을 찾는 독자에게도 오래도록 사랑받을 작품이다. 마이리뷰(0) 평점: | Sales Point : 132,249 [리뷰] 시네마가 편집한 디테일을 텍스트로 복원하다: <마션> N차 관람러의 원작 역주행기 - 지식주머니 [마이리뷰] 마션 - 똘망토끼 마션 - 앤디 위어 - RSsun 마션 - 루루 마션 - 앤디 위어 - hellas"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "2위 프로젝트 헤일메리 (알라딘 리커버 특별판)",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=396798366&radar_rank=2&radar_ranking_date=20260712220043",
+        "published_at": "2026-07-12T22:00:43+00:00",
+        "summary": "프로젝트 헤일메리 (알라딘 리커버 특별판) 앤디 위어 지음, 강동혁 옮김 / 알에이치코리아(RHK) / 2026년 07월 / ISBN: 9788925568645 정가: 22,000 원 / 판매가: 19,800 원 / 마일리지: 1,100 원 이벤트 : 어나더커버 프로젝트 102탄. 앤디 위어 우주 3부작 영화 〈프로젝트 헤일메리〉 원작. 《마션》과 《아르테미스》에 이어 발표한 작품마다 뉴욕 타임스와 아마존 베스트셀러에 이름을 올린 앤디 위어의 장편소설이다. 과학적 사실을 조사하고 검증하는 것으로 정평이 난 작가의 탄탄한 과학적 지식과 낙관적 감수성이 어우러진 SF다. 긴 수면 끝에 우주 한가운데서 눈을 뜬 남성은 자신의 이름조차 기억하지 못한 채 홀로 우주선에 남아 있다. 동료들은 모두 사망했고, 기억을 더듬어가던 그는 자신이 인류를 구할 마지막 희망이자 지구로 돌아가지 못할 과학자라는 사실을 깨닫는다. 태양의 온도를 떨어뜨리는 미지의 생명체 ‘아스트로파지’로 인해 멸망 위기에 처한 지구를 살리려 그는 ‘편도행’ 우주선에 몸을 실었다. 과학적 정밀함 위에 쉼 없이 위기가 쌓이고 해결되는 페이지터너이자, 공생과 연대, 종을 넘어서는 우정에 관한 이야기다. 오일러 공식부터 공기역학, 골디락스 존까지 치밀하게 작동하는 설정 속에서 절망 속에서도 농담을 잃지 않는 주인공과 작가 특유의 낙관이 소설을 끝까지 이끈다. 마이리뷰(0) 평점: | Sales Point : 491,234 강요된 영웅 - 프링크리 외계인과의 만남 - 닷슈 그레이스와 로키의 우정에서 읽은 것들 - 책판다 다정을 주고 받을 때 생기는 우주적 관계 - 노루귀 [마이리뷰] 프로젝트 헤일메리 - 후앙"
       }
     },
     {
@@ -1156,10 +1165,10 @@
     {
       "event_model_payload": {
         "source_name": "알라딘 베스트셀러",
-        "headline": "13위 주와 연",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=397049636&radar_rank=13&radar_ranking_date=20260712220043",
+        "headline": "3위 싯다르타",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=329596&radar_rank=3&radar_ranking_date=20260712220043",
         "published_at": "2026-07-12T22:00:43+00:00",
-        "summary": "주와 연 청예 지음 / 래빗홀 / 2026년 06월 / ISBN: 9791168343887 정가: 17,500 원 / 판매가: 15,750 원 / 마일리지: 870 원 이벤트 : <다가올 시간에 윙크 윙크> + <소설 보다> 유리 문진 , 보름에 한 번 계절 특선 한국문학 한국과학문학상 대상, K-스토리 공모전 2회 연속 최우수상 등 2021년 활동 시작 이래 각종 공모전에서 두각을 드러내온 청예의 장편소설 《주와 연》이 출간되었다. 《오렌지와 빵칼》 《일억 번째 여름》 등을 선보이며 강렬하고 환상적인 이야기로 주목받은 청예는 그만의 탁월한 작품 세계를 입증해왔다. 그간 SF와 오컬트, 로맨스, 미스터리, 판타지 등 장르의 구애 없이 서사의 가능성을 끊임없이 갱신하며 철학적 화두와 특유의 재미를 동시에 담보해온 청예. 그가 이번에는 죽음과 환생, 삶의 본질을 되묻는 오컬트미스터리로 독자들과 만난다. 17세 ‘오주희’는 아버지의 외도로 가정이 파탄 난 후 무당의 힘을 빌려 아버지와 계모의 딸 ‘오연린’으로 환생한다. 오직 복수라는 두 번째 삶의 목표를 끈질기게 실행해나가던 연린. 그의 앞에 자신과 유사한 결핍을 지닌 ‘박은정’이 나타나고, 두 사람은 서로의 가정을 필사적으로 파괴하며 점차 비틀린 관계를 맺는다. 그토록 바라던 복수가 완성된 후 좀처럼 행복감을 느끼지 못하는 연린 앞에, 예기치 못한 인연이 등장하면서 연린은 복수의 끝에서 또 다른 생을 꿈꾸기 시작한다. 《주와 연》은 ‘복수와 사랑’이라는 오랜 시간 사랑받아온 주제로 독자들을 끌어당기며, 복수를 마친 이후 생의 의미는 무엇인지, 용서의 완성은 어디까지인지를 다시금 자문해보게 한다. 여기에 전작에서도 다루었던 무속신앙과 인간의 원형적인 욕망이라는 요소는 이번 작품에서 한층 더 과감한 방식으로 활용됨으로써 소설에 뚜렷한 깊이와 몰입감을 더한다. 마이리뷰(0) 평점: | Sales Point : 34,490 복수하기 위해 악이 된 소녀 - 잴잴 복수 - 감자 연린의 찬란한 복수극 - 0108345680tuy [청예/주와 연] 환생으로 시작된 가장 잔인한 복수이야기, 인연의 끝은 어디일까 - NONAME 영상화 해주세요! - eunmi4864"
+        "summary": "싯다르타 헤르만 헤세 지음, 박병덕 옮김 / 민음사 / 2002년 01월 / ISBN: 9788937460586 정가: 8,000 원 / 판매가: 7,200 원 / 마일리지: 400 원 이벤트 : 상반기 베스트셀러 총 결산 + 작가 이름 가방 헤세가 거의 일 년 반 동안 창작이 거의 불가능할 정도로 심한 우울증을 앓다가 정신 치료를 받은 후 발표한 작품이다. 동서양의 정신적 유산을 시적으로 승화한 일종의 종교적 성장소설로 볼 수 있는데 영원을 향한 갈망과 인간의 내면을 깊이 파고드는 초월에 대한 의지를 단순하고도 서정적인 문체로 담아냈다. 정형화된 종교 교리와 자족적인 영혼의 성찰 사이의 고뇌를 섬세하게 그리며 자아 발견을 위한 길이 하나로 정해져 있지 않음을 시사하고 철학이나 종교, 그 밖의 모든 신념에 맹목적으로 의지하고자 하는 고정관념에 도전한 작품이다. 마이리뷰(0) 평점: | Sales Point : 250,380 싯다르타 - miseong.books 결국 삶은 답이 아닌 흐름일지도 - 짱고아빠 [마이리뷰] 싯다르타 - 쏠라시도 불교 사상을 잘 형상화한 소설 - 우비소녀 이상을 꿈꾸기 전에 나라는 존재의 본질을 깨닫 - 제럽"
       }
     },
     {
@@ -1174,10 +1183,10 @@
     {
       "event_model_payload": {
         "source_name": "알라딘 베스트셀러",
-        "headline": "3위 싯다르타",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=329596&radar_rank=3&radar_ranking_date=20260712220043",
+        "headline": "5위 2026 큰별쌤 최태성의 별★별한국사 한국사능력검정시험 심화(1, 2, 3급) 하",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=378969617&radar_rank=5&radar_ranking_date=20260712220043",
         "published_at": "2026-07-12T22:00:43+00:00",
-        "summary": "싯다르타 헤르만 헤세 지음, 박병덕 옮김 / 민음사 / 2002년 01월 / ISBN: 9788937460586 정가: 8,000 원 / 판매가: 7,200 원 / 마일리지: 400 원 이벤트 : 상반기 베스트셀러 총 결산 + 작가 이름 가방 헤세가 거의 일 년 반 동안 창작이 거의 불가능할 정도로 심한 우울증을 앓다가 정신 치료를 받은 후 발표한 작품이다. 동서양의 정신적 유산을 시적으로 승화한 일종의 종교적 성장소설로 볼 수 있는데 영원을 향한 갈망과 인간의 내면을 깊이 파고드는 초월에 대한 의지를 단순하고도 서정적인 문체로 담아냈다. 정형화된 종교 교리와 자족적인 영혼의 성찰 사이의 고뇌를 섬세하게 그리며 자아 발견을 위한 길이 하나로 정해져 있지 않음을 시사하고 철학이나 종교, 그 밖의 모든 신념에 맹목적으로 의지하고자 하는 고정관념에 도전한 작품이다. 마이리뷰(0) 평점: | Sales Point : 250,380 싯다르타 - miseong.books 결국 삶은 답이 아닌 흐름일지도 - 짱고아빠 [마이리뷰] 싯다르타 - 쏠라시도 불교 사상을 잘 형상화한 소설 - 우비소녀 이상을 꿈꾸기 전에 나라는 존재의 본질을 깨닫 - 제럽"
+        "summary": "2026 큰별쌤 최태성의 별★별한국사 한국사능력검정시험 심화(1, 2, 3급) 하 최태성 지음 / 이투스북 / 2025년 12월 / ISBN: 9791138934442 정가: 18,500 원 / 판매가: 16,650 원 / 마일리지: 920 원 이벤트 : 반도체·공사공단 취업 대비, 합격을 위한 올인원 + 아크릴 볼펜 수험생 700만이 선택한 이유는 오랜 연구와 검증을 바탕으로 한 실력 UP 시스템 덕분이다. 시대 흐름을 한눈에 보여주는 아트 판서, 사진·도표·사료로 구성한 핵심 개념 정리, 표로 복습하는 내용 정돈, 최신 기출과 해설로 실전 감각을 익히는 구조가 한국사능력검정 대비에 최적화되어 있다. 기출 선택지 기반의 ‘별 채우기’는 핵심 키워드를 빠르게 익힐 수 있게 돕는다. 작은 부분도 놓치지 않도록 대표 기출을 선별해 구성한 기출 모의고사와 흐름을 정리하는 한국사 연표를 제공하며, 시험장에 꼭 필요한 아트 판서·별 채우기 단권화 노트로 마지막 점검까지 지원한다. 유튜브 ‘최태성 1TV’와 모두의 별별 한국사 홈페이지에서 전 강의를 무료로 제공해 누구나 부담 없이 공부할 수 있도록 한 점도 큰 강점이다."
       }
     },
     {
@@ -1201,28 +1210,19 @@
     {
       "event_model_payload": {
         "source_name": "알라딘 베스트셀러",
-        "headline": "12위 마션 (알라딘 리커버 특별판)",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=396798422&radar_rank=12&radar_ranking_date=20260712220043",
+        "headline": "13위 주와 연",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=397049636&radar_rank=13&radar_ranking_date=20260712220043",
         "published_at": "2026-07-12T22:00:43+00:00",
-        "summary": "마션 (알라딘 리커버 특별판) 앤디 위어 지음, 박아람 옮김 / 알에이치코리아(RHK) / 2026년 07월 / ISBN: 9788925568683 정가: 19,800 원 / 판매가: 17,820 원 / 마일리지: 990 원 이벤트 : 어나더커버 프로젝트 102탄. 앤디 위어 우주 3부작 《마션》은 인류의 화성 탐사라는 현실적 과학 프로젝트 위에 한 인간의 처절한 생존기를 결합한 작품이다. 정교한 과학적 상상력과 압도적인 서사적 흡인력으로 출간 직후 세계적인 화제를 모았으며, 74주 동안 베스트셀러 목록에 머물며 지금까지도 꾸준한 사랑을 받고 있다. 하루하루 이어지는 생존의 기록은 긴박하게 전개되면서도 놀라울 만큼 설득력 있게 짜여 있다. 이러한 독창적인 이야기는 우주와 과학을 사랑한 한 프로그래머의 상상력에서 출발했다. 앤디 위어는 15세에 미국 국립연구소에서 일했으며, 이후 다양한 연구 개발 프로젝트에 참여한 프로그래머 출신 작가다. 이러한 이력은 《마션》 곳곳에 녹아 있는 치밀한 과학적 설정의 바탕이 되었다. 이 작품은 2009년 앤디 위어가 취미로 자신의 블로그에 연재하기 시작한 소설에서 출발했으며, 독자들의 요청에 힘입어 2011년 전자책으로 먼저 출간되었다. 이후 입소문을 타고 미국 출판사 크라운의 눈에 띄어 2014년 정식 출간에 이르렀다. 정교한 과학적 상상력과 압도적인 이야기의 힘, 그리고 끝내 사람을 향하는 따뜻한 시선까지. 《마션》은 SF를 좋아하는 독자는 물론, 뛰어난 모험담을 찾는 독자에게도 오래도록 사랑받을 작품이다. 마이리뷰(0) 평점: | Sales Point : 132,249 [리뷰] 시네마가 편집한 디테일을 텍스트로 복원하다: <마션> N차 관람러의 원작 역주행기 - 지식주머니 [마이리뷰] 마션 - 똘망토끼 마션 - 앤디 위어 - RSsun 마션 - 루루 마션 - 앤디 위어 - hellas"
+        "summary": "주와 연 청예 지음 / 래빗홀 / 2026년 06월 / ISBN: 9791168343887 정가: 17,500 원 / 판매가: 15,750 원 / 마일리지: 870 원 이벤트 : <다가올 시간에 윙크 윙크> + <소설 보다> 유리 문진 , 보름에 한 번 계절 특선 한국문학 한국과학문학상 대상, K-스토리 공모전 2회 연속 최우수상 등 2021년 활동 시작 이래 각종 공모전에서 두각을 드러내온 청예의 장편소설 《주와 연》이 출간되었다. 《오렌지와 빵칼》 《일억 번째 여름》 등을 선보이며 강렬하고 환상적인 이야기로 주목받은 청예는 그만의 탁월한 작품 세계를 입증해왔다. 그간 SF와 오컬트, 로맨스, 미스터리, 판타지 등 장르의 구애 없이 서사의 가능성을 끊임없이 갱신하며 철학적 화두와 특유의 재미를 동시에 담보해온 청예. 그가 이번에는 죽음과 환생, 삶의 본질을 되묻는 오컬트미스터리로 독자들과 만난다. 17세 ‘오주희’는 아버지의 외도로 가정이 파탄 난 후 무당의 힘을 빌려 아버지와 계모의 딸 ‘오연린’으로 환생한다. 오직 복수라는 두 번째 삶의 목표를 끈질기게 실행해나가던 연린. 그의 앞에 자신과 유사한 결핍을 지닌 ‘박은정’이 나타나고, 두 사람은 서로의 가정을 필사적으로 파괴하며 점차 비틀린 관계를 맺는다. 그토록 바라던 복수가 완성된 후 좀처럼 행복감을 느끼지 못하는 연린 앞에, 예기치 못한 인연이 등장하면서 연린은 복수의 끝에서 또 다른 생을 꿈꾸기 시작한다. 《주와 연》은 ‘복수와 사랑’이라는 오랜 시간 사랑받아온 주제로 독자들을 끌어당기며, 복수를 마친 이후 생의 의미는 무엇인지, 용서의 완성은 어디까지인지를 다시금 자문해보게 한다. 여기에 전작에서도 다루었던 무속신앙과 인간의 원형적인 욕망이라는 요소는 이번 작품에서 한층 더 과감한 방식으로 활용됨으로써 소설에 뚜렷한 깊이와 몰입감을 더한다. 마이리뷰(0) 평점: | Sales Point : 34,490 복수하기 위해 악이 된 소녀 - 잴잴 복수 - 감자 연린의 찬란한 복수극 - 0108345680tuy [청예/주와 연] 환생으로 시작된 가장 잔인한 복수이야기, 인연의 끝은 어디일까 - NONAME 영상화 해주세요! - eunmi4864"
       }
     },
     {
       "event_model_payload": {
         "source_name": "알라딘 베스트셀러",
-        "headline": "5위 2026 큰별쌤 최태성의 별★별한국사 한국사능력검정시험 심화(1, 2, 3급) 하",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=378969617&radar_rank=5&radar_ranking_date=20260712220043",
+        "headline": "14위 복숭아와 애벌레",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=397259032&radar_rank=14&radar_ranking_date=20260712220043",
         "published_at": "2026-07-12T22:00:43+00:00",
-        "summary": "2026 큰별쌤 최태성의 별★별한국사 한국사능력검정시험 심화(1, 2, 3급) 하 최태성 지음 / 이투스북 / 2025년 12월 / ISBN: 9791138934442 정가: 18,500 원 / 판매가: 16,650 원 / 마일리지: 920 원 이벤트 : 반도체·공사공단 취업 대비, 합격을 위한 올인원 + 아크릴 볼펜 수험생 700만이 선택한 이유는 오랜 연구와 검증을 바탕으로 한 실력 UP 시스템 덕분이다. 시대 흐름을 한눈에 보여주는 아트 판서, 사진·도표·사료로 구성한 핵심 개념 정리, 표로 복습하는 내용 정돈, 최신 기출과 해설로 실전 감각을 익히는 구조가 한국사능력검정 대비에 최적화되어 있다. 기출 선택지 기반의 ‘별 채우기’는 핵심 키워드를 빠르게 익힐 수 있게 돕는다. 작은 부분도 놓치지 않도록 대표 기출을 선별해 구성한 기출 모의고사와 흐름을 정리하는 한국사 연표를 제공하며, 시험장에 꼭 필요한 아트 판서·별 채우기 단권화 노트로 마지막 점검까지 지원한다. 유튜브 ‘최태성 1TV’와 모두의 별별 한국사 홈페이지에서 전 강의를 무료로 제공해 누구나 부담 없이 공부할 수 있도록 한 점도 큰 강점이다."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "7위 수족관",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=330811810&radar_rank=7&radar_ranking_date=20260712220043",
-        "published_at": "2026-07-12T22:00:43+00:00",
-        "summary": "수족관 유래혁 지음 / 포스터샵 / 2023년 12월 / ISBN: 9791198547514 정가: 17,700 원 / 판매가: 15,930 원 / 마일리지: 880 원 이벤트 : <다가올 시간에 윙크 윙크> + <소설 보다> 유리 문진 , 보름에 한 번 계절 특선 한국문학 유래혁 소설. 보육 시설에서 자라난 인물 ‘류이치’가, 먼저 보육 시설에서 도망쳐나온 인물 ‘아카리’를 만나 겪게 되는 일들을 그려낸다. 이 두 인물은 자신들이 가진 뿌리 깊은 과거와 상처, 그 이야기가 만들어낸 수족관에서 만나 입을 맞추고, 서로의 숨을 훔쳐가면서도 언젠가 오키나와의 너른 바다에 도착하는 꿈을 나눈다. 이 둘은 수족관을 벗어나 눈부신 햇살 아래 들려오는 파도 소리를 들을 수 있을까. 마이리뷰(0) 평점: | Sales Point : 75,375 [마이리뷰] 수족관 - 제로북_서재 꼭 여름에 읽으시길. - - [소설] 우리에게 이름이란 어떤 의미를 가지고 있을까_수족관 - - 한 편의 일본 만화영화를 본 것 같다 - you2883 수족관 - HEY"
+        "summary": "복숭아와 애벌레 안녕달 지음 / 창비 / 2026년 07월 / ISBN: 9788936429690 정가: 16,800 원 / 판매가: 15,120 원 / 마일리지: 840 원 이벤트 : 안녕달 <복숭아와 애벌레> + 트레이 안녕달 작가의 신작 그림책 『복숭아와 애벌레』가 출간되었다. 작가는 2015년 첫 창작 그림책 『수박 수영장』을 펴낸 이후, 『당근 유치원』 『겨울 이불』 『별에게』 등 온 세대의 사랑을 받는 작품을 꾸준히 선보이며 우리 시대 대표 그림책 작가로 자리매김했다. 신작 『복숭아와 애벌레』는 작가가 『할머니의 여름휴가』 이후 10년 만에 선보이는 반가운 여름 이야기이다. 아이가 복숭아 속 애벌레와 몸을 바꾸면서 벌어지는 꿈결 같은 이야기를 그렸다. 서정적인 여름 풍경과 익숙한 세상이 새롭게 다가오는 즐거움을 섬세하게 담아냈다. 어린이에게는 한껏 상상하고 놀이하는 기쁨을, 어른에게는 무엇이든 될 수 있었던 유년의 감각을 떠올리게 한다. 마이리뷰(0) 평점: | Sales Point : 37,290 복숭아 속 애벌레와의 대화라니요?! - isuin"
       }
     },
     {
@@ -1237,10 +1237,10 @@
     {
       "event_model_payload": {
         "source_name": "알라딘 베스트셀러",
-        "headline": "15위 시화, 마침내 빛날",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=395524898&radar_rank=15&radar_ranking_date=20260712220043",
+        "headline": "7위 수족관",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=330811810&radar_rank=7&radar_ranking_date=20260712220043",
         "published_at": "2026-07-12T22:00:43+00:00",
-        "summary": "시화, 마침내 빛날 공계진 지음 / 교유서가 / 2026년 07월 / ISBN: 9791124128961 정가: 18,800 원 / 판매가: 16,920 원 / 마일리지: 560 원 이벤트 : 화제의 책 + 알라딘 굿즈 (이벤트 도서 포함, 국내도서 3만원 이상) 작은 공장 노동자들의 노동권이 왜 오랫동안 사각지대에 놓여 있었는지를 살펴본다. 하청에서 하청으로 이어지는 다단계 구조 속에서 기업의 손실은 작은 공장으로 전가되고, 작은 공장 노동자들은 저임금과 장시간 노동, 인격 모독까지 감내해야 하는 현실에 놓여 있다. 2024년 30인 미만 사업장의 노조조직률이 0.1퍼센트에 불과한 현실을 통해 작은 공장 노동자의 목소리가 왜 들리지 않는지 묻는다. 노동권이 유예되고 노조가 먼 나라 이야기처럼 여겨지는 구조적 원인과 문제의 본질을 짚어낸다. 작은 공장 노조 건설을 위해 25년 동안 현장을 지켜온 저자의 경험과 반성을 담았다. 외부의 차별뿐 아니라 내부의 무관심과 포기까지 성찰하며, 작은 공장 노동자들의 노동권 회복과 앞으로 나아가야 할 방향을 모색하는 책이다."
+        "summary": "수족관 유래혁 지음 / 포스터샵 / 2023년 12월 / ISBN: 9791198547514 정가: 17,700 원 / 판매가: 15,930 원 / 마일리지: 880 원 이벤트 : <다가올 시간에 윙크 윙크> + <소설 보다> 유리 문진 , 보름에 한 번 계절 특선 한국문학 유래혁 소설. 보육 시설에서 자라난 인물 ‘류이치’가, 먼저 보육 시설에서 도망쳐나온 인물 ‘아카리’를 만나 겪게 되는 일들을 그려낸다. 이 두 인물은 자신들이 가진 뿌리 깊은 과거와 상처, 그 이야기가 만들어낸 수족관에서 만나 입을 맞추고, 서로의 숨을 훔쳐가면서도 언젠가 오키나와의 너른 바다에 도착하는 꿈을 나눈다. 이 둘은 수족관을 벗어나 눈부신 햇살 아래 들려오는 파도 소리를 들을 수 있을까. 마이리뷰(0) 평점: | Sales Point : 75,375 [마이리뷰] 수족관 - 제로북_서재 꼭 여름에 읽으시길. - - [소설] 우리에게 이름이란 어떤 의미를 가지고 있을까_수족관 - - 한 편의 일본 만화영화를 본 것 같다 - you2883 수족관 - HEY"
       }
     },
     {
@@ -1268,15 +1268,6 @@
         "source_url": "https://www.theguardian.com/books/2026/jul/12/why-do-free-speech-debates-make-us-so-angry",
         "published_at": "2026-07-12T11:00:16+00:00",
         "summary": "<p>We try to pin down definitions and enforce rules – but often what we’re really arguing about is character</p><p>In January 2015, <a href=\"https://www.theguardian.com/world/2025/jan/06/charlie-hebdo-marks-10-years-after-terror-attack-with-special-issue\">two members of al-Qaida gunned down cartoonists</a> at the satirical French magazine Charlie Hebdo in retaliation for their publication of cartoons of the prophet Muhammad. In the following weeks, my Facebook page split in two. Many of my childhood friends (I grew up in France and went to school near Paris) expressed their sadness at the death of artists they had been familiar with for decades, their anger over religious extremism and their fear about the waning of free speech.</p><p>Meanwhile, many of my British and American academic colleagues, who were discovering Charlie Hebdo and its garishly offensive cartoons for the first time, worried about the stigmatisation of French Muslims and cast doubt on the wisdom of publishing the images in the first place; one reposted a link to a blog that described the murdered cartoonists as “racist assholes”.</p> <a href=\"https://www.theguardian.com/books/2026/jul/12/why-do-free-speech-debates-make-us-so-angry\">Continue reading...</a>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "NPR Books",
-        "headline": "Are we living through the end of reading?",
-        "source_url": "https://www.npr.org/2026/07/11/nx-s1-5886268/are-we-living-through-the-end-of-reading",
-        "published_at": "2026-07-11T21:08:26+00:00",
-        "summary": "People are reading fewer and fewer books. The Atlantic's Rose Horowitch discusses what a post-literate world might look like."
       }
     },
     {
@@ -1358,6 +1349,15 @@
         "source_url": "https://www.theguardian.com/books/2026/apr/24/children-and-teens-roundup-the-best-new-picture-books-and-novels",
         "published_at": "2026-04-24T11:00:39+00:00",
         "summary": "<p>An imposter monkey, an underworld princess, art’s female trailblazers, and YA tales of fear, family and friendship</p><p><strong><a href=\"https://www.guardianbookshop.com/our-world-nigeria-9781646866311?utm_source=editoriallink&utm_medium=merch&utm_campaign=article\">Our World: Nigeria</a> by Bunmi Emenanjo and Diana Ejaita, Barefoot Books, £7.99</strong><strong><br /></strong>Part of a delightful educational series from a brilliant inclusive publisher, this colourful, joyous board book whisks babies away to spend a day in Nigeria, learning to say hello in three languages and feasting on porridge, akara and plantain.</p><p><strong><a href=\"https://guardianbookshop.com/monkeypig-9780241684412/?utm_source=editoriallink&utm_medium=merch&utm_campaign=article\">Monkeypig</a> by Huw Aaron, </strong><strong>Puffin, £7.99</strong><strong><br /></strong>What makes a <em>real</em> monkey? This rapturously silly picture book from the Waterstones prize winner follows Molly, a pig who blends in with her simian friends – despite head monkey Norman’s best efforts to detect the impostor.</p> <a href=\"https://www.theguardian.com/books/2026/apr/24/children-and-teens-roundup-the-best-new-picture-books-and-novels\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "NPR Books",
+        "headline": "Are we living through the end of reading?",
+        "source_url": "https://www.npr.org/2026/07/11/nx-s1-5886268/are-we-living-through-the-end-of-reading",
+        "published_at": "2026-07-11T21:08:26+00:00",
+        "summary": "People are reading fewer and fewer books. The Atlantic's Rose Horowitch discusses what a post-literate world might look like."
       }
     },
     {
