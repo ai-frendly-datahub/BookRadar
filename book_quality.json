@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-07-22T04:17:39.040937+00:00",
+  "generated_at": "2026-07-23T04:16:27.544025+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,16 +16,16 @@
     "collection_error_count": 0,
     "sales_ranking_events": 15,
     "library_lending_events": 0,
-    "author_event_events": 4,
-    "award_signal_events": 14,
-    "book_signal_event_count": 33,
-    "official_or_operational_event_count": 31,
+    "author_event_events": 1,
+    "award_signal_events": 6,
+    "book_signal_event_count": 22,
+    "official_or_operational_event_count": 19,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 32,
-    "proxy_canonical_key_count": 1,
+    "complete_canonical_key_count": 20,
+    "proxy_canonical_key_count": 2,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 32,
-    "author_present_count": 16,
+    "isbn_present_count": 20,
+    "author_present_count": 10,
     "publisher_present_count": 6,
     "rank_present_count": 18,
     "lending_count_present_count": 0,
@@ -33,7 +33,7 @@
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 8
+    "daily_review_item_count": 9
   },
   "sources": [
     {
@@ -75,7 +75,7 @@
       "article_count": 15,
       "event_count": 15,
       "latest_event_at": "2026-07-19T22:00:40+00:00",
-      "age_days": 2.26,
+      "age_days": 3.26,
       "latest_title": "7위 지푸라기 왕관을 쓴 여자",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398344057&radar_rank=7&radar_ranking_date=20260719220040&rssType=5&type=item",
       "latest_source_signal": [
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 27,
+      "article_count": 28,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -782,162 +782,49 @@
   ],
   "events": [
     {
-      "source": "알라딘 신간",
+      "source": "Book Riot",
       "source_type": "rss",
-      "trust_tier": "T1_official",
+      "trust_tier": "T3_professional",
       "content_type": "news",
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "법의학자 유성호의 인체 탐구 프로젝트 2/류미정 지음, 김래현 그림, 유성호 기획/아울북",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398769685&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398769685&rssType=1&type=item",
-      "event_at": "2026-07-20T08:56:00+00:00",
-      "isbn": "398769685",
+      "title": "A Timeless Novel Turns 10",
+      "url": "https://bookriot.com/zero-to-well-read-the-underground-railroad",
+      "source_url": "https://bookriot.com/zero-to-well-read-the-underground-railroad",
+      "event_at": "2026-07-22T10:05:00+00:00",
+      "isbn": "",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
       "venue": "",
-      "award_name": "수상",
+      "award_name": "award",
       "genre": [
-        "시",
-        "과학",
-        "건강",
-        "컴퓨터",
-        "어린이",
-        "동화"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "저자"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:398769685",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:6ea3a385bb95:20260720",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "물리박사 김상욱의 수상한 연구실 0 : 물리 이데아의 탄생/김상욱 지음, 정순규 그림, 김하연 글, 강신철 자문/아울북",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398769512&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398769512&rssType=1&type=item",
-      "event_at": "2026-07-20T08:54:00+00:00",
-      "isbn": "398769512",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "과학",
-        "역사",
-        "여행",
-        "컴퓨터",
-        "어린이",
-        "동화"
-      ],
-      "publisher": [],
-      "book_type": [
-        "시리즈"
-      ],
-      "author": [
-        "저자"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:398769512",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:e2de730184a1:20260720",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "서울대 신종호 교수의 엉덩이 공부법/신종호 지음/포르체",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398764542&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398764542&rssType=1&type=item",
-      "event_at": "2026-07-20T07:42:00+00:00",
-      "isbn": "398764542",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "강연",
-      "award_name": "",
-      "genre": [
-        "시",
-        "자기계발",
-        "과학",
-        "심리",
-        "교육",
-        "청소년"
+        "novel"
       ],
       "publisher": [],
       "book_type": [],
       "author": [],
-      "award": [],
-      "book_event": [
-        "강연"
+      "award": [
+        "award"
       ],
+      "book_event": [],
       "source_signal": [
         "editorial_coverage",
-        "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:398764542",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:ef4e17444398:20260720",
+      "canonical_key": "book_source:book-riot:4d3417a2947c",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:3f0c0c559d43:20260722",
       "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
+        "isbn": false,
+        "award_name": true,
         "source_url": true
       },
       "required_field_gaps": [
-        "author_name"
+        "isbn"
       ]
     },
     {
@@ -949,11 +836,11 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "문해내공/신종호.김윤정 지음/상상스퀘어",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398761872&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398761872&rssType=1&type=item",
-      "event_at": "2026-07-20T07:16:00+00:00",
-      "isbn": "398761872",
+      "title": "나를 우습게 봤겠지만/베라 쿠리안 지음, 강동혁 옮김/문학동네",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398823226&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398823226&rssType=1&type=item",
+      "event_at": "2026-07-21T03:49:00+00:00",
+      "isbn": "398823226",
       "rank": null,
       "retailer": "",
       "library_network": "",
@@ -961,481 +848,34 @@
       "venue": "",
       "award_name": "선정",
       "genre": [
+        "소설",
         "시",
+        "희곡",
         "문학",
-        "인문학",
-        "과학",
         "심리",
-        "교육",
-        "동화"
+        "스릴러"
       ],
-      "publisher": [],
+      "publisher": [
+        "문학동네"
+      ],
       "book_type": [],
       "author": [
         "작가",
-        "저자"
+        "데뷔"
       ],
       "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:398761872",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:87abab86c2c4:20260720",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "읽고 읽고 말하다/아사쿠라 가스미 지음, 전화윤 옮김/현암사",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398760171&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398760171&rssType=1&type=item",
-      "event_at": "2026-07-20T06:58:00+00:00",
-      "isbn": "398760171",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "독서모임",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상",
+        "선정",
         "후보"
       ],
-      "book_event": [
-        "독서모임"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:398760171",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:82bcdd73a74e:20260720",
-      "required_field_proxy": {
-        "author_name": true,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "읽고 읽고 말하다/아사쿠라 가스미 지음, 전화윤 옮김/현암사",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398760171&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398760171&rssType=1&type=item",
-      "event_at": "2026-07-20T06:58:00+00:00",
-      "isbn": "398760171",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "독서모임",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상",
-        "후보"
-      ],
-      "book_event": [
-        "독서모임"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:398760171",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:82bcdd73a74e:20260720",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "나민애의 국어 대모험 1/이정태 그림, 김혜련 글, 나민애 기획/겜툰",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398758471&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398758471&rssType=1&type=item",
-      "event_at": "2026-07-20T06:44:00+00:00",
-      "isbn": "398758471",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "개발",
-        "만화",
-        "어린이"
-      ],
-      "publisher": [],
-      "book_type": [
-        "시리즈"
-      ],
-      "author": [],
-      "award": [
-        "수상"
-      ],
       "book_event": [],
       "source_signal": [
         "editorial_coverage",
         "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:398758471",
+      "canonical_key": "book_edition:398823226",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:cfc8c4eb9bd0:20260720",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "구약성서를 읽다/엘런 F. 데이비스 지음, 손승우 옮김/복있는사람",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398756524&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398756524&rssType=1&type=item",
-      "event_at": "2026-07-20T06:23:00+00:00",
-      "isbn": "398756524",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "강연",
-      "award_name": "",
-      "genre": [
-        "시",
-        "역사",
-        "예술",
-        "종교"
-      ],
-      "publisher": [
-        "출판사"
-      ],
-      "book_type": [],
-      "author": [
-        "저자"
-      ],
-      "award": [],
-      "book_event": [
-        "강연"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:398756524",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:10bf36d361e2:20260720",
-      "required_field_proxy": {
-        "author_name": true,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "흔한남매 이무기 4/도니패밀리 그림, 이종혁 글, 흔한컴퍼니 감수, 흔한남매 원작/미래엔아이세움",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398753368&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398753368&rssType=1&type=item",
-      "event_at": "2026-07-20T05:51:00+00:00",
-      "isbn": "398753368",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "만화",
-        "어린이"
-      ],
-      "publisher": [],
-      "book_type": [
-        "시리즈"
-      ],
-      "author": [],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:398753368",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:b853e3d5499b:20260720",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "어린이집 안전사고 사례집 Vol.4/어린이집안전공제회 지음/앤제이BOOKS",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398751062&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398751062&rssType=1&type=item",
-      "event_at": "2026-07-20T05:26:00+00:00",
-      "isbn": "398751062",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "시",
-        "건강",
-        "교육",
-        "어린이"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:398751062",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:52af5c87d227:20260720",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "그 녀석이 왔다/이선주 지음/현북스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398750981&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398750981&rssType=1&type=item",
-      "event_at": "2026-07-20T05:25:00+00:00",
-      "isbn": "398750981",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "그림책"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:398750981",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:0847ff5af9d5:20260720",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "사람의 마음을 움직이는 스토리/로빈 랜다.그레그 브라운 지음, 최은아 옮김/알레",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398747290&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398747290&rssType=1&type=item",
-      "event_at": "2026-07-20T04:45:00+00:00",
-      "isbn": "398747290",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "시",
-        "경제경영"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:398747290",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:f8d985bd535e:20260720",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "사탄탱고 (블랙 에디션)/크러스너호르커이 라슬로 지음, 조원규 옮김/알마",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398746598&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398746598&rssType=1&type=item",
-      "event_at": "2026-07-20T04:37:00+00:00",
-      "isbn": "398746598",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "노벨문학상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "예술"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "노벨문학상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:398746598",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:d0a2a8709d17:20260720",
+      "event_key": "award_signal:25ee48924097:20260721",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -2390,13 +1830,20 @@
   "daily_review_items": [
     {
       "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "알라딘 신간",
-      "title": "서울대 신종호 교수의 엉덩이 공부법/신종호 지음/포르체",
-      "canonical_key": "book_edition:398764542",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "A Timeless Novel Turns 10",
+      "canonical_key": "book_source:book-riot:4d3417a2947c",
       "required_field_gaps": [
-        "author_name"
+        "isbn"
       ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "A Timeless Novel Turns 10",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
