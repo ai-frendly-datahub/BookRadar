@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-07-23T04:16:27.544025+00:00",
+  "generated_at": "2026-07-24T04:16:00.916443+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,24 +16,24 @@
     "collection_error_count": 0,
     "sales_ranking_events": 15,
     "library_lending_events": 0,
-    "author_event_events": 1,
+    "author_event_events": 7,
     "award_signal_events": 6,
-    "book_signal_event_count": 22,
-    "official_or_operational_event_count": 19,
+    "book_signal_event_count": 28,
+    "official_or_operational_event_count": 27,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 20,
-    "proxy_canonical_key_count": 2,
+    "complete_canonical_key_count": 27,
+    "proxy_canonical_key_count": 1,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 20,
-    "author_present_count": 10,
-    "publisher_present_count": 6,
+    "isbn_present_count": 27,
+    "author_present_count": 13,
+    "publisher_present_count": 10,
     "rank_present_count": 18,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 2,
+    "event_required_field_gap_count": 5,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 9
+    "daily_review_item_count": 11
   },
   "sources": [
     {
@@ -75,7 +75,7 @@
       "article_count": 15,
       "event_count": 15,
       "latest_event_at": "2026-07-19T22:00:40+00:00",
-      "age_days": 3.26,
+      "age_days": 4.26,
       "latest_title": "7위 지푸라기 왕관을 쓴 여자",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398344057&radar_rank=7&radar_ranking_date=20260719220040&rssType=5&type=item",
       "latest_source_signal": [
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 28,
+      "article_count": 26,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -782,49 +782,99 @@
   ],
   "events": [
     {
-      "source": "Book Riot",
+      "source": "알라딘 신간",
       "source_type": "rss",
-      "trust_tier": "T3_professional",
+      "trust_tier": "T1_official",
       "content_type": "news",
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "A Timeless Novel Turns 10",
-      "url": "https://bookriot.com/zero-to-well-read-the-underground-railroad",
-      "source_url": "https://bookriot.com/zero-to-well-read-the-underground-railroad",
-      "event_at": "2026-07-22T10:05:00+00:00",
-      "isbn": "",
+      "title": "이말리 수사대 미션 2. 방방조이의 비밀을 밝혀라/이혜정 지음, BF. 그림/책읽는곰",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398911299&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398911299&rssType=1&type=item",
+      "event_at": "2026-07-22T07:46:00+00:00",
+      "isbn": "398911299",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
       "venue": "",
-      "award_name": "award",
+      "award_name": "수상",
       "genre": [
-        "novel"
+        "시",
+        "어린이",
+        "동화"
       ],
       "publisher": [],
       "book_type": [],
       "author": [],
       "award": [
-        "award"
+        "수상"
       ],
       "book_event": [],
       "source_signal": [
         "editorial_coverage",
+        "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_source:book-riot:4d3417a2947c",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:3f0c0c559d43:20260722",
+      "canonical_key": "book_edition:398911299",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:6ec44197048c:20260722",
       "required_field_proxy": {
-        "isbn": false,
+        "isbn": true,
         "award_name": true,
         "source_url": true
       },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "실패도 쓸모가 있다고요?/조성호 지음, 김푸른 그림/현암주니어",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398904280&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398904280&rssType=1&type=item",
+      "event_at": "2026-07-22T06:30:00+00:00",
+      "isbn": "398904280",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "강연",
+      "award_name": "",
+      "genre": [
+        "시",
+        "자기계발",
+        "어린이"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "강연"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:398904280",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:ae1444a76326:20260722",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
       "required_field_gaps": [
-        "isbn"
+        "author_name"
       ]
     },
     {
@@ -836,36 +886,32 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "나를 우습게 봤겠지만/베라 쿠리안 지음, 강동혁 옮김/문학동네",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398823226&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398823226&rssType=1&type=item",
-      "event_at": "2026-07-21T03:49:00+00:00",
-      "isbn": "398823226",
+      "title": "태양 아래 올리브/김초엽 지음/자이언트북스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398900892&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398900892&rssType=1&type=item",
+      "event_at": "2026-07-22T05:48:00+00:00",
+      "isbn": "398900892",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
       "venue": "",
-      "award_name": "선정",
+      "award_name": "수상",
       "genre": [
         "소설",
         "시",
         "희곡",
-        "문학",
-        "심리",
-        "스릴러"
+        "과학",
+        "sf"
       ],
-      "publisher": [
-        "문학동네"
-      ],
+      "publisher": [],
       "book_type": [],
       "author": [
-        "작가",
-        "데뷔"
+        "김초엽",
+        "작가"
       ],
       "award": [
-        "선정",
-        "후보"
+        "수상"
       ],
       "book_event": [],
       "source_signal": [
@@ -873,9 +919,337 @@
         "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:398823226",
+      "canonical_key": "book_edition:398900892",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:25ee48924097:20260721",
+      "event_key": "award_signal:9dc89956d24d:20260722",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "사이언스 리더스 LEVEL 2 볼수록 놀라운 도마뱀/로라 마시 지음, 김아림 옮김/비룡소",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398888307&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398888307&rssType=1&type=item",
+      "event_at": "2026-07-22T03:08:00+00:00",
+      "isbn": "398888307",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "",
+      "genre": [
+        "시",
+        "과학",
+        "컴퓨터",
+        "어린이"
+      ],
+      "publisher": [
+        "비룡소"
+      ],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:398888307",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:00ff161057f8:20260722",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "사이언스 리더스 LEVEL 1 자연의 낮과 밤/시라 에반스 지음, 송지혜 옮김/비룡소",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398888027&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398888027&rssType=1&type=item",
+      "event_at": "2026-07-22T03:04:00+00:00",
+      "isbn": "398888027",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "",
+      "genre": [
+        "시",
+        "과학",
+        "컴퓨터",
+        "어린이"
+      ],
+      "publisher": [
+        "비룡소"
+      ],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:398888027",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:d9bde7b0f24c:20260722",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "사이언스 리더스 LEVEL 3 나비의 대이동/로라 마시 지음, 조은영 옮김/비룡소",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398887785&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398887785&rssType=1&type=item",
+      "event_at": "2026-07-22T03:01:00+00:00",
+      "isbn": "398887785",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "",
+      "genre": [
+        "시",
+        "과학",
+        "여행",
+        "컴퓨터",
+        "어린이"
+      ],
+      "publisher": [
+        "비룡소"
+      ],
+      "book_type": [
+        "시리즈"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:398887785",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:3e945758dacb:20260722",
+      "required_field_proxy": {
+        "author_name": true,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "사이언스 리더스 LEVEL 3 지구를 움직이는 화산 활동/조앤 마리 갤러트 지음, 조은영 옮김/비룡소",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398887445&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398887445&rssType=1&type=item",
+      "event_at": "2026-07-22T02:57:00+00:00",
+      "isbn": "398887445",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "",
+      "genre": [
+        "시",
+        "과학",
+        "역사",
+        "컴퓨터",
+        "어린이"
+      ],
+      "publisher": [
+        "비룡소"
+      ],
+      "book_type": [
+        "시리즈"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:398887445",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:49d46bad6788:20260722",
+      "required_field_proxy": {
+        "author_name": true,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "사이언스 리더스 LEVEL 1 비밀의 무덤 피라미드/로라 마시 지음, 송지혜 옮김/비룡소",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398887051&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398887051&rssType=1&type=item",
+      "event_at": "2026-07-22T02:53:00+00:00",
+      "isbn": "398887051",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "",
+      "genre": [
+        "시",
+        "과학",
+        "컴퓨터",
+        "어린이"
+      ],
+      "publisher": [
+        "비룡소"
+      ],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:398887051",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:bfcdc29dfb7a:20260722",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "철학카페에서 문학읽기/김용규 지음/웅진지식하우스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398877896&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398877896&rssType=1&type=item",
+      "event_at": "2026-07-22T01:42:00+00:00",
+      "isbn": "398877896",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "노벨문학상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "인문학",
+        "역사",
+        "종교",
+        "철학"
+      ],
+      "publisher": [
+        "웅진지식하우스"
+      ],
+      "book_type": [
+        "초판"
+      ],
+      "author": [
+        "한강",
+        "작가",
+        "저자"
+      ],
+      "award": [
+        "노벨문학상",
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:398877896",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:ee51c41b60d9:20260722",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -1781,69 +2155,48 @@
       "required_field_gaps": [
         "isbn"
       ]
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Children and teens roundup – the best new picture books and novels",
-      "url": "https://www.theguardian.com/books/2026/apr/24/children-and-teens-roundup-the-best-new-picture-books-and-novels",
-      "source_url": "https://www.theguardian.com/books/2026/apr/24/children-and-teens-roundup-the-best-new-picture-books-and-novels",
-      "event_at": "2026-04-24T11:00:39+00:00",
-      "isbn": "9781646866311",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "winner",
-      "genre": [],
-      "publisher": [
-        "publisher"
-      ],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:9781646866311",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:6ea6cfdca6b6:20260424",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
     {
       "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "A Timeless Novel Turns 10",
-      "canonical_key": "book_source:book-riot:4d3417a2947c",
+      "event_model": "author_event",
+      "source": "알라딘 신간",
+      "title": "실패도 쓸모가 있다고요?/조성호 지음, 김푸른 그림/현암주니어",
+      "canonical_key": "book_edition:398904280",
       "required_field_gaps": [
-        "isbn"
+        "author_name"
       ]
     },
     {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "A Timeless Novel Turns 10",
-      "canonical_key_status": "source_proxy"
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "알라딘 신간",
+      "title": "사이언스 리더스 LEVEL 2 볼수록 놀라운 도마뱀/로라 마시 지음, 김아림 옮김/비룡소",
+      "canonical_key": "book_edition:398888307",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "알라딘 신간",
+      "title": "사이언스 리더스 LEVEL 1 자연의 낮과 밤/시라 에반스 지음, 송지혜 옮김/비룡소",
+      "canonical_key": "book_edition:398888027",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "알라딘 신간",
+      "title": "사이언스 리더스 LEVEL 1 비밀의 무덤 피라미드/로라 마시 지음, 송지혜 옮김/비룡소",
+      "canonical_key": "book_edition:398887051",
+      "required_field_gaps": [
+        "author_name"
+      ]
     },
     {
       "reason": "missing_required_fields",
