@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-07-25T04:12:22.904900+00:00",
+  "generated_at": "2026-07-26T04:28:02.066712+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,24 +16,24 @@
     "collection_error_count": 0,
     "sales_ranking_events": 15,
     "library_lending_events": 0,
-    "author_event_events": 2,
-    "award_signal_events": 9,
-    "book_signal_event_count": 26,
-    "official_or_operational_event_count": 25,
+    "author_event_events": 5,
+    "award_signal_events": 8,
+    "book_signal_event_count": 28,
+    "official_or_operational_event_count": 27,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 25,
+    "complete_canonical_key_count": 27,
     "proxy_canonical_key_count": 1,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 25,
-    "author_present_count": 15,
-    "publisher_present_count": 6,
-    "rank_present_count": 20,
+    "isbn_present_count": 27,
+    "author_present_count": 9,
+    "publisher_present_count": 8,
+    "rank_present_count": 18,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 1,
+    "event_required_field_gap_count": 5,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 7
+    "daily_review_item_count": 11
   },
   "sources": [
     {
@@ -75,7 +75,7 @@
       "article_count": 15,
       "event_count": 15,
       "latest_event_at": "2026-07-19T22:00:40+00:00",
-      "age_days": 5.26,
+      "age_days": 6.27,
       "latest_title": "7위 지푸라기 왕관을 쓴 여자",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398344057&radar_rank=7&radar_ranking_date=20260719220040&rssType=5&type=item",
       "latest_source_signal": [
@@ -790,87 +790,33 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "기억의 무늬/백희성 지음/북로망스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398993923&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398993923&rssType=1&type=item",
-      "event_at": "2026-07-23T06:53:00+00:00",
-      "isbn": "398993923",
+      "title": "한글로고 Vol. 1/최종원 지음/아크루파이",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399073389&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399073389&rssType=1&type=item",
+      "event_at": "2026-07-24T05:51:00+00:00",
+      "isbn": "399073389",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
       "venue": "",
-      "award_name": "수상",
+      "award_name": "선정",
       "genre": [
-        "소설",
         "시",
-        "희곡",
-        "추리"
+        "문학",
+        "인문학",
+        "역사",
+        "예술",
+        "여행",
+        "요리",
+        "어린이",
+        "동화"
       ],
       "publisher": [],
-      "book_type": [
-        "신간",
-        "베스트셀러"
-      ],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:398993923",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:25efc786b3b0:20260723",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "새들의 사회성/편혜영 지음/문학동네",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398981314&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398981314&rssType=1&type=item",
-      "event_at": "2026-07-23T05:24:00+00:00",
-      "isbn": "398981314",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "심리"
-      ],
-      "publisher": [
-        "문학동네"
-      ],
       "book_type": [],
-      "author": [
-        "작가"
-      ],
+      "author": [],
       "award": [
-        "수상",
-        "문학상"
+        "선정"
       ],
       "book_event": [],
       "source_signal": [
@@ -878,9 +824,9 @@
         "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:398981314",
+      "canonical_key": "book_edition:399073389",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:f1e6fdb97595:20260723",
+      "event_key": "award_signal:6f12799fa797:20260724",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -897,12 +843,12 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "author_event",
-      "title": "공부가 결국 너를 지켜줄 거야/임민찬 지음, 이로 그림/퍼스트펭귄",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398963931&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398963931&rssType=1&type=item",
-      "event_at": "2026-07-23T02:31:00+00:00",
-      "isbn": "398963931",
-      "rank": 1,
+      "title": "고객제표로 경영하라/김형수 지음/매일경제신문사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399059360&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399059360&rssType=1&type=item",
+      "event_at": "2026-07-24T03:14:00+00:00",
+      "isbn": "399059360",
+      "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
@@ -910,13 +856,11 @@
       "award_name": "",
       "genre": [
         "시",
-        "청소년"
+        "경제경영"
       ],
       "publisher": [],
       "book_type": [],
-      "author": [
-        "작가"
-      ],
+      "author": [],
       "award": [],
       "book_event": [
         "강연"
@@ -926,15 +870,17 @@
         "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:398963931",
+      "canonical_key": "book_edition:399059360",
       "canonical_key_status": "complete",
-      "event_key": "author_event:8cc16b2199e0:20260723",
+      "event_key": "author_event:08dfb844cfda:20260724",
       "required_field_proxy": {
-        "author_name": true,
+        "author_name": false,
         "venue": true,
         "source_url": true
       },
-      "required_field_gaps": []
+      "required_field_gaps": [
+        "author_name"
+      ]
     },
     {
       "source": "알라딘 신간",
@@ -944,142 +890,245 @@
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "오늘부터 나도 가드너/마이클 홀랜드 지음, 마리아 덱 그림, 오경아 옮김/주니어RHK(주니어랜덤)",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398959218&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398959218&rssType=1&type=item",
-      "event_at": "2026-07-23T01:45:00+00:00",
-      "isbn": "398959218",
+      "event_model": "author_event",
+      "title": "[세트] No. 1만 살아남는 최강 동물 빅매치 라운드 1~2 세트 - 전2권/에밀리 크리거 지음, 송지혜 옮김/비룡소",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399058973&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399058973&rssType=1&type=item",
+      "event_at": "2026-07-24T03:08:00+00:00",
+      "isbn": "399058973",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
+      "venue": "도서전",
+      "award_name": "",
+      "genre": [
+        "과학",
+        "컴퓨터",
+        "어린이"
+      ],
+      "publisher": [
+        "비룡소"
+      ],
+      "book_type": [
+        "세트"
+      ],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:399058973",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:bc7eac803637:20260724",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "No. 1만 살아남는 최강 동물 빅매치 라운드 2/에밀리 크리거 지음, 송지혜 옮김/비룡소",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399057998&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399057998&rssType=1&type=item",
+      "event_at": "2026-07-24T02:51:00+00:00",
+      "isbn": "399057998",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "후보",
       "genre": [
         "시",
         "과학",
-        "교육",
         "컴퓨터",
-        "어린이",
-        "그림책"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가",
-        "번역",
-        "역자"
-      ],
-      "award": [
-        "수상",
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:398959218",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:ac3b0f55bf14:20260723",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "인 더 메가처치/아사이 료 지음, 송태욱 옮김/은행나무",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398957541&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398957541&rssType=1&type=item",
-      "event_at": "2026-07-23T01:28:00+00:00",
-      "isbn": "398957541",
-      "rank": 1,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학"
-      ],
-      "publisher": [],
-      "book_type": [
-        "베스트셀러"
-      ],
-      "author": [
-        "작가",
-        "저자"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:398957541",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:d998c23acabc:20260723",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "아스파라거스/김양미 지음/문학동네",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398954395&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398954395&rssType=1&type=item",
-      "event_at": "2026-07-23T01:02:00+00:00",
-      "isbn": "398954395",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "문학",
-        "청소년"
+        "어린이"
       ],
       "publisher": [
-        "문학동네"
+        "비룡소"
       ],
-      "book_type": [],
-      "author": [
-        "작가"
+      "book_type": [
+        "시리즈"
       ],
+      "author": [],
       "award": [
-        "수상",
-        "문학상"
+        "후보"
+      ],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:399057998",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:818ff0072c0f:20260724",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "No. 1만 살아남는 최강 동물 빅매치 라운드 2/에밀리 크리거 지음, 송지혜 옮김/비룡소",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399057998&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399057998&rssType=1&type=item",
+      "event_at": "2026-07-24T02:51:00+00:00",
+      "isbn": "399057998",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "후보",
+      "genre": [
+        "시",
+        "과학",
+        "컴퓨터",
+        "어린이"
+      ],
+      "publisher": [
+        "비룡소"
+      ],
+      "book_type": [
+        "시리즈"
+      ],
+      "author": [],
+      "award": [
+        "후보"
+      ],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:399057998",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:818ff0072c0f:20260724",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "No. 1만 살아남는 최강 동물 빅매치 라운드 1/에밀리 크리거 지음, 송지혜 옮김/비룡소",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399057941&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399057941&rssType=1&type=item",
+      "event_at": "2026-07-24T02:50:00+00:00",
+      "isbn": "399057941",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "",
+      "genre": [
+        "시",
+        "과학",
+        "컴퓨터",
+        "어린이"
+      ],
+      "publisher": [
+        "비룡소"
+      ],
+      "book_type": [
+        "시리즈"
+      ],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:399057941",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:cdbd07ad22aa:20260724",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "고등학교 선택의 기준/김창식 지음/반니출판",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399057374&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399057374&rssType=1&type=item",
+      "event_at": "2026-07-24T02:39:00+00:00",
+      "isbn": "399057374",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "후보",
+      "genre": [
+        "시",
+        "과학",
+        "교육"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "후보"
       ],
       "book_event": [],
       "source_signal": [
@@ -1087,9 +1136,9 @@
         "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:398954395",
+      "canonical_key": "book_edition:399057374",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:ac2c33476ac8:20260723",
+      "event_key": "award_signal:2834b22fee58:20260724",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -1106,11 +1155,11 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "싸모스 쌈벤저스 1/김기수.민승기 그림, 서후 글, 싸모스 원작/학산키즈",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398950761&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398950761&rssType=1&type=item",
-      "event_at": "2026-07-23T00:06:00+00:00",
-      "isbn": "398950761",
+      "title": "굿뉴스 각본집/변성현 지음/프리즘오브 프레스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399047297&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399047297&rssType=1&type=item",
+      "event_at": "2026-07-24T00:28:00+00:00",
+      "isbn": "399047297",
       "rank": null,
       "retailer": "",
       "library_network": "",
@@ -1119,9 +1168,7 @@
       "award_name": "수상",
       "genre": [
         "시",
-        "만화",
-        "판타지",
-        "어린이"
+        "예술"
       ],
       "publisher": [],
       "book_type": [],
@@ -1135,9 +1182,61 @@
         "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:398950761",
+      "canonical_key": "book_edition:399047297",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:cba2aab7b689:20260723",
+      "event_key": "award_signal:67be145f2c94:20260724",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "레몬나무의 바다/마리아 돌로레스 아길라 지음, 김난령 옮김/밝은미래",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399046562&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399046562&rssType=1&type=item",
+      "event_at": "2026-07-24T00:17:00+00:00",
+      "isbn": "399046562",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "문학",
+        "역사",
+        "교육",
+        "어린이",
+        "청소년",
+        "동화"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:399046562",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:14f8b9af30a9:20260724",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -2046,6 +2145,46 @@
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "알라딘 신간",
+      "title": "고객제표로 경영하라/김형수 지음/매일경제신문사",
+      "canonical_key": "book_edition:399059360",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "알라딘 신간",
+      "title": "[세트] No. 1만 살아남는 최강 동물 빅매치 라운드 1~2 세트 - 전2권/에밀리 크리거 지음, 송지혜 옮김/비룡소",
+      "canonical_key": "book_edition:399058973",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "알라딘 신간",
+      "title": "No. 1만 살아남는 최강 동물 빅매치 라운드 2/에밀리 크리거 지음, 송지혜 옮김/비룡소",
+      "canonical_key": "book_edition:399057998",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "알라딘 신간",
+      "title": "No. 1만 살아남는 최강 동물 빅매치 라운드 1/에밀리 크리거 지음, 송지혜 옮김/비룡소",
+      "canonical_key": "book_edition:399057941",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
