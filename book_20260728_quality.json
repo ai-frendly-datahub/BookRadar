@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-07-27T04:37:36.482449+00:00",
+  "generated_at": "2026-07-28T04:11:51.908663+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -17,23 +17,23 @@
     "sales_ranking_events": 15,
     "library_lending_events": 0,
     "author_event_events": 5,
-    "award_signal_events": 9,
-    "book_signal_event_count": 29,
+    "award_signal_events": 8,
+    "book_signal_event_count": 28,
     "official_or_operational_event_count": 28,
     "community_proxy_event_count": 0,
     "complete_canonical_key_count": 28,
-    "proxy_canonical_key_count": 1,
+    "proxy_canonical_key_count": 0,
     "missing_canonical_key_count": 0,
     "isbn_present_count": 28,
-    "author_present_count": 13,
-    "publisher_present_count": 9,
-    "rank_present_count": 19,
+    "author_present_count": 15,
+    "publisher_present_count": 11,
+    "rank_present_count": 20,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 5,
+    "event_required_field_gap_count": 4,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 11
+    "daily_review_item_count": 9
   },
   "sources": [
     {
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 30,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 15,
       "event_count": 15,
       "latest_event_at": "2026-07-26T22:03:04+00:00",
-      "age_days": 0.27,
+      "age_days": 1.26,
       "latest_title": "2위 주술회전 모듈로 1",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398962987&radar_rank=2&radar_ranking_date=20260726220304&rssType=5&type=item",
       "latest_source_signal": [
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 26,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1755,6 +1755,59 @@
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "매거진 조이 Vol.3 : 가비지타임/2사장 지음/다산코믹스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399067587&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399067587&rssType=1&type=item",
+      "event_at": "2026-07-24T04:54:00+00:00",
+      "isbn": "399067587",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "시",
+        "만화",
+        "라이트노벨"
+      ],
+      "publisher": [
+        "다산북스"
+      ],
+      "book_type": [
+        "한정판"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:399067587",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:89c966785b7e:20260724",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
       "event_model": "author_event",
       "title": "고객제표로 경영하라/김형수 지음/매일경제신문사",
       "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399059360&rssType=1&type=item",
@@ -1847,6 +1900,62 @@
       "required_field_gaps": [
         "author_name"
       ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "오뒷세이아, 어떻게 읽을 것인가/김태진 지음/민음사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399058681&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399058681&rssType=1&type=item",
+      "event_at": "2026-07-24T03:03:00+00:00",
+      "isbn": "399058681",
+      "rank": 1,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "시",
+        "문학",
+        "인문학",
+        "역사",
+        "예술",
+        "종교",
+        "철학",
+        "교육"
+      ],
+      "publisher": [
+        "민음사"
+      ],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:399058681",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:aab63d426549:20260724",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "알라딘 신간",
@@ -2058,150 +2167,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "굿뉴스 각본집/변성현 지음/프리즘오브 프레스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399047297&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399047297&rssType=1&type=item",
-      "event_at": "2026-07-24T00:28:00+00:00",
-      "isbn": "399047297",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "예술"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:399047297",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:67be145f2c94:20260724",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "레몬나무의 바다/마리아 돌로레스 아길라 지음, 김난령 옮김/밝은미래",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399046562&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399046562&rssType=1&type=item",
-      "event_at": "2026-07-24T00:17:00+00:00",
-      "isbn": "399046562",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "문학",
-        "역사",
-        "교육",
-        "어린이",
-        "청소년",
-        "동화"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:399046562",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:14f8b9af30a9:20260724",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "The First House by Avni Doshi review – an intense portrait of marriage and freedom",
-      "url": "https://www.theguardian.com/books/2026/jul/15/the-first-house-by-avni-doshi-review-an-intense-portrait-of-marriage-and-freedom",
-      "source_url": "https://www.theguardian.com/books/2026/jul/15/the-first-house-by-avni-doshi-review-an-intense-portrait-of-marriage-and-freedom",
-      "event_at": "2026-07-15T06:00:48+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [
-        "novel"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "booker"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:the-guardian-books:6e62084cbb13",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:8395c9daa054:20260715",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
     }
   ],
   "daily_review_items": [
@@ -2244,23 +2209,6 @@
       "required_field_gaps": [
         "author_name"
       ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "The First House by Avni Doshi review – an intense portrait of marriage and freedom",
-      "canonical_key": "book_source:the-guardian-books:6e62084cbb13",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "The First House by Avni Doshi review – an intense portrait of marriage and freedom",
-      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_event_model",
