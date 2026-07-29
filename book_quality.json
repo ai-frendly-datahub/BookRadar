@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-07-28T04:11:51.908663+00:00",
+  "generated_at": "2026-07-29T04:13:55.105229+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,24 +16,24 @@
     "collection_error_count": 0,
     "sales_ranking_events": 15,
     "library_lending_events": 0,
-    "author_event_events": 5,
-    "award_signal_events": 8,
-    "book_signal_event_count": 28,
-    "official_or_operational_event_count": 28,
+    "author_event_events": 1,
+    "award_signal_events": 15,
+    "book_signal_event_count": 31,
+    "official_or_operational_event_count": 24,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 28,
-    "proxy_canonical_key_count": 0,
+    "complete_canonical_key_count": 26,
+    "proxy_canonical_key_count": 5,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 28,
-    "author_present_count": 15,
-    "publisher_present_count": 11,
-    "rank_present_count": 20,
+    "isbn_present_count": 26,
+    "author_present_count": 18,
+    "publisher_present_count": 6,
+    "rank_present_count": 19,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 4,
+    "event_required_field_gap_count": 5,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 9
+    "daily_review_item_count": 15
   },
   "sources": [
     {
@@ -75,7 +75,7 @@
       "article_count": 15,
       "event_count": 15,
       "latest_event_at": "2026-07-26T22:03:04+00:00",
-      "age_days": 1.26,
+      "age_days": 2.26,
       "latest_title": "2위 주술회전 모듈로 1",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398962987&radar_rank=2&radar_ranking_date=20260726220304&rssType=5&type=item",
       "latest_source_signal": [
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 26,
+      "article_count": 27,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -781,6 +781,580 @@
     }
   ],
   "events": [
+    {
+      "source": "New York Times Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Booker Prize 2026 Nominees: Marlon James, Elizabeth Strout and More",
+      "url": "https://www.nytimes.com/2026/07/28/books/booker-prize-longlist.html",
+      "source_url": "https://www.nytimes.com/2026/07/28/books/booker-prize-longlist.html",
+      "event_at": "2026-07-28T16:16:45+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [
+        "literary"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker",
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:new-york-times-books:816ac4e95d01",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:e6b5e0336de7:20260728",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Book Riot",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "The 2026 Booker Prize Longlist Is Here",
+      "url": "https://bookriot.com/2026-booker-prize-longlist",
+      "source_url": "https://bookriot.com/2026-booker-prize-longlist",
+      "event_at": "2026-07-28T13:44:24+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [
+        "literature"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:book-riot:9e03fc1b48bd",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:8339ea3c6a66:20260728",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Here’s the longlist for the 2026 Booker Prize.",
+      "url": "https://lithub.com/heres-the-longlist-for-the-2026-booker-prize",
+      "source_url": "https://lithub.com/heres-the-longlist-for-the-2026-booker-prize",
+      "event_at": "2026-07-28T13:19:11+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [
+        "fiction",
+        "literary"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:literary-hub:bcd9e19395b6",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:e2532d513f54:20260728",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "NPR Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Here are the 13 books that made the Booker Prize longlist",
+      "url": "https://www.npr.org/2026/07/28/nx-s1-5874638/2026-booker-prize-longlist-fiction",
+      "source_url": "https://www.npr.org/2026/07/28/nx-s1-5874638/2026-booker-prize-longlist-fiction",
+      "event_at": "2026-07-28T13:05:31+00:00",
+      "isbn": "5874638",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:5874638",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:556204d29b8a:20260728",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "This Booker longlist may have two previous winners, but it’s keen to experiment",
+      "url": "https://www.theguardian.com/books/2026/jul/28/this-booker-longlist-may-have-two-previous-winners-but-its-keen-to-experiment",
+      "source_url": "https://www.theguardian.com/books/2026/jul/28/this-booker-longlist-may-have-two-previous-winners-but-its-keen-to-experiment",
+      "event_at": "2026-07-28T13:00:04+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [
+        "literature"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author"
+      ],
+      "award": [
+        "booker"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:58574f32391c",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:d36b3b5b4f12:20260728",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Previous winners Douglas Stuart and Marlon James lead Booker prize longlist",
+      "url": "https://www.theguardian.com/books/2026/jul/28/previous-winners-douglas-stuart-and-marlon-james-lead-a-brit-heavy-booker-prize-longlist",
+      "source_url": "https://www.theguardian.com/books/2026/jul/28/previous-winners-douglas-stuart-and-marlon-james-lead-a-brit-heavy-booker-prize-longlist",
+      "event_at": "2026-07-28T13:00:04+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker",
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:the-guardian-books:8f1a1794af72",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:a7bccf4d2394:20260728",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Publishers Weekly",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "2026 Booker Prize Longlist Announced",
+      "url": "http://www.publishersweekly.com/pw/by-topic/industry-news/awards-and-prizes/article/100927-2026-booker-prize-longlist-announced.html",
+      "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/awards-and-prizes/article/100927-2026-booker-prize-longlist-announced.html",
+      "event_at": "2026-07-28T04:00:00+00:00",
+      "isbn": "1009272026",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:1009272026",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:eb871b7f4d7e:20260728",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "계약 친구/이향안 지음, 유경화 그림/웅진주니어",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399333058&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399333058&rssType=1&type=item",
+      "event_at": "2026-07-27T07:44:00+00:00",
+      "isbn": "399333058",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "문학",
+        "어린이",
+        "동화"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:399333058",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:23b62f2d1027:20260727",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "딱 두 시간만 일할게요/선인장 지음/휴머니스트",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399330159&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399330159&rssType=1&type=item",
+      "event_at": "2026-07-27T07:18:00+00:00",
+      "isbn": "399330159",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "에세이",
+        "시"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상",
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:399330159",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:3c992f711333:20260727",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "장동선의 미래 과학 프로젝트 3/노지영 지음, 김지인 그림, 장동선.전진수 기획, 송석리 정보글/아울북",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399320263&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399320263&rssType=1&type=item",
+      "event_at": "2026-07-27T05:49:00+00:00",
+      "isbn": "399320263",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "과학",
+        "교육",
+        "컴퓨터",
+        "어린이",
+        "동화"
+      ],
+      "publisher": [],
+      "book_type": [
+        "시리즈",
+        "초판"
+      ],
+      "author": [
+        "저자"
+      ],
+      "award": [
+        "수상",
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:399320263",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:2b72bef66e9d:20260727",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "[세트] 가비지타임 세트 5종 + 매거진 조이 Vol.3 : 가비지타임 - 전21권/2사장 지음/다산코믹스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399317197&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399317197&rssType=1&type=item",
+      "event_at": "2026-07-27T05:23:00+00:00",
+      "isbn": "399317197",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "시",
+        "만화",
+        "라이트노벨"
+      ],
+      "publisher": [
+        "다산북스"
+      ],
+      "book_type": [
+        "세트"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:399317197",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:e8b6c6797387:20260727",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "창조적 습관/크리스티안 바예스테로스 지음, 윤승진 옮김/페이지2(page2)",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399302663&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399302663&rssType=1&type=item",
+      "event_at": "2026-07-27T03:04:00+00:00",
+      "isbn": "399302663",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "소설",
+        "시",
+        "자기계발",
+        "과학"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:399302663",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:0b7eae59d9c9:20260727",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
     {
       "source": "알라딘 베스트셀러",
       "source_type": "rss",
@@ -1693,522 +2267,93 @@
         "retailer": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "한글로고 Vol. 1/최종원 지음/아크루파이",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399073389&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399073389&rssType=1&type=item",
-      "event_at": "2026-07-24T05:51:00+00:00",
-      "isbn": "399073389",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "시",
-        "문학",
-        "인문학",
-        "역사",
-        "예술",
-        "여행",
-        "요리",
-        "어린이",
-        "동화"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:399073389",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:6f12799fa797:20260724",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "매거진 조이 Vol.3 : 가비지타임/2사장 지음/다산코믹스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399067587&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399067587&rssType=1&type=item",
-      "event_at": "2026-07-24T04:54:00+00:00",
-      "isbn": "399067587",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "시",
-        "만화",
-        "라이트노벨"
-      ],
-      "publisher": [
-        "다산북스"
-      ],
-      "book_type": [
-        "한정판"
-      ],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:399067587",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:89c966785b7e:20260724",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "고객제표로 경영하라/김형수 지음/매일경제신문사",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399059360&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399059360&rssType=1&type=item",
-      "event_at": "2026-07-24T03:14:00+00:00",
-      "isbn": "399059360",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "강연",
-      "award_name": "",
-      "genre": [
-        "시",
-        "경제경영"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "강연"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:399059360",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:08dfb844cfda:20260724",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "[세트] No. 1만 살아남는 최강 동물 빅매치 라운드 1~2 세트 - 전2권/에밀리 크리거 지음, 송지혜 옮김/비룡소",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399058973&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399058973&rssType=1&type=item",
-      "event_at": "2026-07-24T03:08:00+00:00",
-      "isbn": "399058973",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "도서전",
-      "award_name": "",
-      "genre": [
-        "과학",
-        "컴퓨터",
-        "어린이"
-      ],
-      "publisher": [
-        "비룡소"
-      ],
-      "book_type": [
-        "세트"
-      ],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "도서전"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:399058973",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:bc7eac803637:20260724",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "오뒷세이아, 어떻게 읽을 것인가/김태진 지음/민음사",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399058681&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399058681&rssType=1&type=item",
-      "event_at": "2026-07-24T03:03:00+00:00",
-      "isbn": "399058681",
-      "rank": 1,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "시",
-        "문학",
-        "인문학",
-        "역사",
-        "예술",
-        "종교",
-        "철학",
-        "교육"
-      ],
-      "publisher": [
-        "민음사"
-      ],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:399058681",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:aab63d426549:20260724",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "No. 1만 살아남는 최강 동물 빅매치 라운드 2/에밀리 크리거 지음, 송지혜 옮김/비룡소",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399057998&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399057998&rssType=1&type=item",
-      "event_at": "2026-07-24T02:51:00+00:00",
-      "isbn": "399057998",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "도서전",
-      "award_name": "후보",
-      "genre": [
-        "시",
-        "과학",
-        "컴퓨터",
-        "어린이"
-      ],
-      "publisher": [
-        "비룡소"
-      ],
-      "book_type": [
-        "시리즈"
-      ],
-      "author": [],
-      "award": [
-        "후보"
-      ],
-      "book_event": [
-        "도서전"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:399057998",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:818ff0072c0f:20260724",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "No. 1만 살아남는 최강 동물 빅매치 라운드 2/에밀리 크리거 지음, 송지혜 옮김/비룡소",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399057998&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399057998&rssType=1&type=item",
-      "event_at": "2026-07-24T02:51:00+00:00",
-      "isbn": "399057998",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "도서전",
-      "award_name": "후보",
-      "genre": [
-        "시",
-        "과학",
-        "컴퓨터",
-        "어린이"
-      ],
-      "publisher": [
-        "비룡소"
-      ],
-      "book_type": [
-        "시리즈"
-      ],
-      "author": [],
-      "award": [
-        "후보"
-      ],
-      "book_event": [
-        "도서전"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:399057998",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:818ff0072c0f:20260724",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "No. 1만 살아남는 최강 동물 빅매치 라운드 1/에밀리 크리거 지음, 송지혜 옮김/비룡소",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399057941&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399057941&rssType=1&type=item",
-      "event_at": "2026-07-24T02:50:00+00:00",
-      "isbn": "399057941",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "도서전",
-      "award_name": "",
-      "genre": [
-        "시",
-        "과학",
-        "컴퓨터",
-        "어린이"
-      ],
-      "publisher": [
-        "비룡소"
-      ],
-      "book_type": [
-        "시리즈"
-      ],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "도서전"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:399057941",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:cdbd07ad22aa:20260724",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "고등학교 선택의 기준/김창식 지음/반니출판",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399057374&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399057374&rssType=1&type=item",
-      "event_at": "2026-07-24T02:39:00+00:00",
-      "isbn": "399057374",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "후보",
-      "genre": [
-        "시",
-        "과학",
-        "교육"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "후보"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:399057374",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:2834b22fee58:20260724",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
     {
       "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "알라딘 신간",
-      "title": "고객제표로 경영하라/김형수 지음/매일경제신문사",
-      "canonical_key": "book_edition:399059360",
+      "event_model": "award_signal",
+      "source": "New York Times Books",
+      "title": "Booker Prize 2026 Nominees: Marlon James, Elizabeth Strout and More",
+      "canonical_key": "book_source:new-york-times-books:816ac4e95d01",
       "required_field_gaps": [
-        "author_name"
+        "isbn"
       ]
     },
     {
-      "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "알라딘 신간",
-      "title": "[세트] No. 1만 살아남는 최강 동물 빅매치 라운드 1~2 세트 - 전2권/에밀리 크리거 지음, 송지혜 옮김/비룡소",
-      "canonical_key": "book_edition:399058973",
-      "required_field_gaps": [
-        "author_name"
-      ]
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "New York Times Books",
+      "title": "Booker Prize 2026 Nominees: Marlon James, Elizabeth Strout and More",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "알라딘 신간",
-      "title": "No. 1만 살아남는 최강 동물 빅매치 라운드 2/에밀리 크리거 지음, 송지혜 옮김/비룡소",
-      "canonical_key": "book_edition:399057998",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "The 2026 Booker Prize Longlist Is Here",
+      "canonical_key": "book_source:book-riot:9e03fc1b48bd",
       "required_field_gaps": [
-        "author_name"
+        "isbn"
       ]
     },
     {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "The 2026 Booker Prize Longlist Is Here",
+      "canonical_key_status": "source_proxy"
+    },
+    {
       "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "알라딘 신간",
-      "title": "No. 1만 살아남는 최강 동물 빅매치 라운드 1/에밀리 크리거 지음, 송지혜 옮김/비룡소",
-      "canonical_key": "book_edition:399057941",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Here’s the longlist for the 2026 Booker Prize.",
+      "canonical_key": "book_source:literary-hub:bcd9e19395b6",
       "required_field_gaps": [
-        "author_name"
+        "isbn"
       ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Here’s the longlist for the 2026 Booker Prize.",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "This Booker longlist may have two previous winners, but it’s keen to experiment",
+      "canonical_key": "book_edition:title:58574f32391c",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "This Booker longlist may have two previous winners, but it’s keen to experiment",
+      "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Previous winners Douglas Stuart and Marlon James lead Booker prize longlist",
+      "canonical_key": "book_source:the-guardian-books:8f1a1794af72",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Previous winners Douglas Stuart and Marlon James lead Booker prize longlist",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_event_model",
