@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-07-29T04:13:55.105229+00:00",
+  "generated_at": "2026-07-30T03:58:21.677748+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,16 +16,16 @@
     "collection_error_count": 0,
     "sales_ranking_events": 15,
     "library_lending_events": 0,
-    "author_event_events": 1,
-    "award_signal_events": 15,
+    "author_event_events": 3,
+    "award_signal_events": 13,
     "book_signal_event_count": 31,
     "official_or_operational_event_count": 24,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 26,
-    "proxy_canonical_key_count": 5,
+    "complete_canonical_key_count": 27,
+    "proxy_canonical_key_count": 4,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 26,
-    "author_present_count": 18,
+    "isbn_present_count": 27,
+    "author_present_count": 19,
     "publisher_present_count": 6,
     "rank_present_count": 19,
     "lending_count_present_count": 0,
@@ -33,7 +33,7 @@
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 15
+    "daily_review_item_count": 14
   },
   "sources": [
     {
@@ -75,7 +75,7 @@
       "article_count": 15,
       "event_count": 15,
       "latest_event_at": "2026-07-26T22:03:04+00:00",
-      "age_days": 2.26,
+      "age_days": 3.25,
       "latest_title": "2위 주술회전 모듈로 1",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398962987&radar_rank=2&radar_ranking_date=20260726220304&rssType=5&type=item",
       "latest_source_signal": [
@@ -378,7 +378,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 21,
+      "article_count": 20,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -782,6 +782,100 @@
   ],
   "events": [
     {
+      "source": "NPR Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "'Taiwan Travelogue' rethinks history, colonialism, and identity",
+      "url": "https://www.npr.org/2026/07/29/g-s1-136110/taiwan-travelogue-rethinks-history-colonialism-and-identity",
+      "source_url": "https://www.npr.org/2026/07/29/g-s1-136110/taiwan-travelogue-rethinks-history-colonialism-and-identity",
+      "event_at": "2026-07-29T16:55:54+00:00",
+      "isbn": "136110",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author",
+        "translator"
+      ],
+      "award": [
+        "booker",
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:136110",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:f061485b4920:20260729",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Dua Lipa to interview Zadie Smith at London Literature festival",
+      "url": "https://www.theguardian.com/books/2026/jul/29/dua-lipa-to-interview-zadie-smith-at-london-literature-festival",
+      "source_url": "https://www.theguardian.com/books/2026/jul/29/dua-lipa-to-interview-zadie-smith-at-london-literature-festival",
+      "event_at": "2026-07-29T09:00:29+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [
+        "literature"
+      ],
+      "publisher": [],
+      "book_type": [
+        "book club"
+      ],
+      "author": [],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:the-guardian-books:4fd78ba263cc",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:f7f3b09fda59:20260729",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
       "source": "New York Times Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -819,99 +913,6 @@
       "canonical_key": "book_source:new-york-times-books:816ac4e95d01",
       "canonical_key_status": "source_proxy",
       "event_key": "award_signal:e6b5e0336de7:20260728",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "Book Riot",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "The 2026 Booker Prize Longlist Is Here",
-      "url": "https://bookriot.com/2026-booker-prize-longlist",
-      "source_url": "https://bookriot.com/2026-booker-prize-longlist",
-      "event_at": "2026-07-28T13:44:24+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [
-        "literature"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "booker"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_source:book-riot:9e03fc1b48bd",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:8339ea3c6a66:20260728",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "Literary Hub",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Here’s the longlist for the 2026 Booker Prize.",
-      "url": "https://lithub.com/heres-the-longlist-for-the-2026-booker-prize",
-      "source_url": "https://lithub.com/heres-the-longlist-for-the-2026-booker-prize",
-      "event_at": "2026-07-28T13:19:11+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [
-        "fiction",
-        "literary"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "booker"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:literary-hub:bcd9e19395b6",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:e2532d513f54:20260728",
       "required_field_proxy": {
         "isbn": false,
         "award_name": true,
@@ -1057,6 +1058,211 @@
       ]
     },
     {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "야수의 산/홍진희 지음/클레이하우스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399425637&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399425637&rssType=1&type=item",
+      "event_at": "2026-07-28T07:53:00+00:00",
+      "isbn": "399425637",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "추리"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:399425637",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:ab62199151e3:20260728",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "호아/강진아 지음/민음사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399423901&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399423901&rssType=1&type=item",
+      "event_at": "2026-07-28T07:36:00+00:00",
+      "isbn": "399423901",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "스릴러"
+      ],
+      "publisher": [
+        "민음사"
+      ],
+      "book_type": [],
+      "author": [
+        "작가",
+        "데뷔"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:399423901",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:bd381eb5c69b:20260728",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "밤의 교실/김규아 지음/북스그라운드",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399412848&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399412848&rssType=1&type=item",
+      "event_at": "2026-07-28T06:12:00+00:00",
+      "isbn": "399412848",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "만화",
+        "어린이",
+        "동화"
+      ],
+      "publisher": [],
+      "book_type": [
+        "초판"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:399412848",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:bc5c4326f8b0:20260728",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "내 마음도 있지!/조현숙 지음/길벗어린이",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399408322&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399408322&rssType=1&type=item",
+      "event_at": "2026-07-28T05:35:00+00:00",
+      "isbn": "399408322",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "",
+      "genre": [
+        "시",
+        "어린이",
+        "그림책"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:399408322",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:f089525a91fb:20260728",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
       "source": "Publishers Weekly",
       "source_type": "rss",
       "trust_tier": "T3_professional",
@@ -1106,251 +1312,43 @@
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "계약 친구/이향안 지음, 유경화 그림/웅진주니어",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399333058&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399333058&rssType=1&type=item",
-      "event_at": "2026-07-27T07:44:00+00:00",
-      "isbn": "399333058",
+      "event_model": "author_event",
+      "title": "조선범죄실록/정명섭 지음/교보문고(단행본)",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399391551&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399391551&rssType=1&type=item",
+      "event_at": "2026-07-28T02:35:00+00:00",
+      "isbn": "399391551",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "문학",
-        "어린이",
-        "동화"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:399333058",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:23b62f2d1027:20260727",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "딱 두 시간만 일할게요/선인장 지음/휴머니스트",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399330159&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399330159&rssType=1&type=item",
-      "event_at": "2026-07-27T07:18:00+00:00",
-      "isbn": "399330159",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "에세이",
-        "시"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상",
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:399330159",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:3c992f711333:20260727",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "장동선의 미래 과학 프로젝트 3/노지영 지음, 김지인 그림, 장동선.전진수 기획, 송석리 정보글/아울북",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399320263&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399320263&rssType=1&type=item",
-      "event_at": "2026-07-27T05:49:00+00:00",
-      "isbn": "399320263",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
+      "venue": "북토크",
+      "award_name": "",
       "genre": [
         "시",
         "과학",
-        "교육",
-        "컴퓨터",
-        "어린이",
-        "동화"
-      ],
-      "publisher": [],
-      "book_type": [
-        "시리즈",
-        "초판"
-      ],
-      "author": [
-        "저자"
-      ],
-      "award": [
-        "수상",
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:399320263",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:2b72bef66e9d:20260727",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "[세트] 가비지타임 세트 5종 + 매거진 조이 Vol.3 : 가비지타임 - 전21권/2사장 지음/다산코믹스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399317197&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399317197&rssType=1&type=item",
-      "event_at": "2026-07-27T05:23:00+00:00",
-      "isbn": "399317197",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "시",
-        "만화",
-        "라이트노벨"
-      ],
-      "publisher": [
-        "다산북스"
-      ],
-      "book_type": [
-        "세트"
-      ],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:399317197",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:e8b6c6797387:20260727",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "창조적 습관/크리스티안 바예스테로스 지음, 윤승진 옮김/페이지2(page2)",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399302663&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399302663&rssType=1&type=item",
-      "event_at": "2026-07-27T03:04:00+00:00",
-      "isbn": "399302663",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "소설",
-        "시",
-        "자기계발",
-        "과학"
+        "역사"
       ],
       "publisher": [],
       "book_type": [],
-      "author": [],
-      "award": [
-        "선정"
+      "author": [
+        "작가"
       ],
-      "book_event": [],
+      "award": [],
+      "book_event": [
+        "북토크"
+      ],
       "source_signal": [
         "editorial_coverage",
         "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:399302663",
+      "canonical_key": "book_edition:399391551",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:0b7eae59d9c9:20260727",
+      "event_key": "author_event:e15f8347d104:20260728",
       "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
+        "author_name": true,
+        "venue": true,
         "source_url": true
       },
       "required_field_gaps": []
@@ -2273,6 +2271,23 @@
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Dua Lipa to interview Zadie Smith at London Literature festival",
+      "canonical_key": "book_source:the-guardian-books:4fd78ba263cc",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Dua Lipa to interview Zadie Smith at London Literature festival",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
       "source": "New York Times Books",
       "title": "Booker Prize 2026 Nominees: Marlon James, Elizabeth Strout and More",
       "canonical_key": "book_source:new-york-times-books:816ac4e95d01",
@@ -2285,40 +2300,6 @@
       "event_model": "award_signal",
       "source": "New York Times Books",
       "title": "Booker Prize 2026 Nominees: Marlon James, Elizabeth Strout and More",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "The 2026 Booker Prize Longlist Is Here",
-      "canonical_key": "book_source:book-riot:9e03fc1b48bd",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "The 2026 Booker Prize Longlist Is Here",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Here’s the longlist for the 2026 Booker Prize.",
-      "canonical_key": "book_source:literary-hub:bcd9e19395b6",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Here’s the longlist for the 2026 Booker Prize.",
       "canonical_key_status": "source_proxy"
     },
     {
@@ -2354,6 +2335,16 @@
       "source": "The Guardian Books",
       "title": "Previous winners Douglas Stuart and Marlon James lead Booker prize longlist",
       "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "알라딘 신간",
+      "title": "내 마음도 있지!/조현숙 지음/길벗어린이",
+      "canonical_key": "book_edition:399408322",
+      "required_field_gaps": [
+        "author_name"
+      ]
     },
     {
       "reason": "missing_event_model",
