@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-07-30T03:58:21.677748+00:00",
+  "generated_at": "2026-07-31T04:24:05.215263+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,24 +16,24 @@
     "collection_error_count": 0,
     "sales_ranking_events": 15,
     "library_lending_events": 0,
-    "author_event_events": 3,
-    "award_signal_events": 13,
-    "book_signal_event_count": 31,
-    "official_or_operational_event_count": 24,
+    "author_event_events": 1,
+    "award_signal_events": 16,
+    "book_signal_event_count": 32,
+    "official_or_operational_event_count": 23,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 27,
-    "proxy_canonical_key_count": 4,
+    "complete_canonical_key_count": 26,
+    "proxy_canonical_key_count": 6,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 27,
+    "isbn_present_count": 26,
     "author_present_count": 19,
     "publisher_present_count": 6,
     "rank_present_count": 19,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 5,
+    "event_required_field_gap_count": 6,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 14
+    "daily_review_item_count": 17
   },
   "sources": [
     {
@@ -75,7 +75,7 @@
       "article_count": 15,
       "event_count": 15,
       "latest_event_at": "2026-07-26T22:03:04+00:00",
-      "age_days": 3.25,
+      "age_days": 4.26,
       "latest_title": "2위 주술회전 모듈로 1",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=398962987&radar_rank=2&radar_ranking_date=20260726220304&rssType=5&type=item",
       "latest_source_signal": [
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 27,
+      "article_count": 26,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -378,7 +378,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 20,
+      "article_count": 21,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -782,6 +782,100 @@
   ],
   "events": [
     {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "What Is the Difference Between Exile and Exiles?",
+      "url": "https://lithub.com/what-is-the-difference-between-exile-and-exiles",
+      "source_url": "https://lithub.com/what-is-the-difference-between-exile-and-exiles",
+      "event_at": "2026-07-30T09:06:27+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "nobel",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "nobel"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:literary-hub:362b75c585e7",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:7df7bc346765:20260730",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Mario Vargas Llosa by Gerald Martin review – the Peruvian leftist who fell in love with Margaret Thatcher",
+      "url": "https://www.theguardian.com/books/2026/jul/30/mario-vargas-llosa-by-gerald-martin-review-the-passions-and-politics-of-perus-nobel-laureate",
+      "source_url": "https://www.theguardian.com/books/2026/jul/30/mario-vargas-llosa-by-gerald-martin-review-the-passions-and-politics-of-perus-nobel-laureate",
+      "event_at": "2026-07-30T06:00:54+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "nobel",
+      "genre": [
+        "fiction",
+        "literary"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author",
+        "writer"
+      ],
+      "award": [
+        "nobel"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:dbf6597e8e53",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:43ef3597a557:20260730",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
       "source": "NPR Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -874,6 +968,211 @@
       "required_field_gaps": [
         "isbn"
       ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "칵테일을 마시는 철학자들/사라 베이크웰 지음, 조영 옮김/다산초당",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399460405&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399460405&rssType=1&type=item",
+      "event_at": "2026-07-29T02:36:00+00:00",
+      "isbn": "399460405",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "문학",
+        "인문학",
+        "철학"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가",
+        "번역"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:399460405",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:252b8f6f362d:20260729",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "라스트 화이트맨/모신 하미드 지음, 권상미 옮김/문학수첩",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399457342&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399457342&rssType=1&type=item",
+      "event_at": "2026-07-29T02:06:00+00:00",
+      "isbn": "399457342",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "부커상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "부커상",
+        "올해의 책",
+        "선정",
+        "후보"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:399457342",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:b2e1912c0615:20260729",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "슬픔은 다 거짓이야/대니얼 나예리 지음, 김래경 옮김/해피북스투유",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399455679&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399455679&rssType=1&type=item",
+      "event_at": "2026-07-29T01:41:00+00:00",
+      "isbn": "399455679",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "청소년"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:399455679",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:5d06c6750e89:20260729",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "나무 해설 도감/윤주복 지음/진선북스(진선출판사)",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399454109&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399454109&rssType=1&type=item",
+      "event_at": "2026-07-29T01:16:00+00:00",
+      "isbn": "399454109",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "시",
+        "과학"
+      ],
+      "publisher": [
+        "출판사"
+      ],
+      "book_type": [
+        "개정판"
+      ],
+      "author": [],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:399454109",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:b3c3cae6239b:20260729",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "New York Times Books",
@@ -1058,211 +1357,6 @@
       ]
     },
     {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "야수의 산/홍진희 지음/클레이하우스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399425637&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399425637&rssType=1&type=item",
-      "event_at": "2026-07-28T07:53:00+00:00",
-      "isbn": "399425637",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "추리"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:399425637",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:ab62199151e3:20260728",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "호아/강진아 지음/민음사",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399423901&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399423901&rssType=1&type=item",
-      "event_at": "2026-07-28T07:36:00+00:00",
-      "isbn": "399423901",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "스릴러"
-      ],
-      "publisher": [
-        "민음사"
-      ],
-      "book_type": [],
-      "author": [
-        "작가",
-        "데뷔"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:399423901",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:bd381eb5c69b:20260728",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "밤의 교실/김규아 지음/북스그라운드",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399412848&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399412848&rssType=1&type=item",
-      "event_at": "2026-07-28T06:12:00+00:00",
-      "isbn": "399412848",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "만화",
-        "어린이",
-        "동화"
-      ],
-      "publisher": [],
-      "book_type": [
-        "초판"
-      ],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:399412848",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:bc5c4326f8b0:20260728",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "내 마음도 있지!/조현숙 지음/길벗어린이",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399408322&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399408322&rssType=1&type=item",
-      "event_at": "2026-07-28T05:35:00+00:00",
-      "isbn": "399408322",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "도서전",
-      "award_name": "",
-      "genre": [
-        "시",
-        "어린이",
-        "그림책"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "도서전"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:399408322",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:f089525a91fb:20260728",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
       "source": "Publishers Weekly",
       "source_type": "rss",
       "trust_tier": "T3_professional",
@@ -1300,55 +1394,6 @@
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "조선범죄실록/정명섭 지음/교보문고(단행본)",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399391551&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399391551&rssType=1&type=item",
-      "event_at": "2026-07-28T02:35:00+00:00",
-      "isbn": "399391551",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "북토크",
-      "award_name": "",
-      "genre": [
-        "시",
-        "과학",
-        "역사"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [],
-      "book_event": [
-        "북토크"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:399391551",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:e15f8347d104:20260728",
-      "required_field_proxy": {
-        "author_name": true,
-        "venue": true,
         "source_url": true
       },
       "required_field_gaps": []
@@ -2271,6 +2316,40 @@
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "What Is the Difference Between Exile and Exiles?",
+      "canonical_key": "book_source:literary-hub:362b75c585e7",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "What Is the Difference Between Exile and Exiles?",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Mario Vargas Llosa by Gerald Martin review – the Peruvian leftist who fell in love with Margaret Thatcher",
+      "canonical_key": "book_edition:title:dbf6597e8e53",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Mario Vargas Llosa by Gerald Martin review – the Peruvian leftist who fell in love with Margaret Thatcher",
+      "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
       "source": "The Guardian Books",
       "title": "Dua Lipa to interview Zadie Smith at London Literature festival",
       "canonical_key": "book_source:the-guardian-books:4fd78ba263cc",
@@ -2335,16 +2414,6 @@
       "source": "The Guardian Books",
       "title": "Previous winners Douglas Stuart and Marlon James lead Booker prize longlist",
       "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "알라딘 신간",
-      "title": "내 마음도 있지!/조현숙 지음/길벗어린이",
-      "canonical_key": "book_edition:399408322",
-      "required_field_gaps": [
-        "author_name"
-      ]
     },
     {
       "reason": "missing_event_model",
