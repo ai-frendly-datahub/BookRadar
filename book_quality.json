@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-08-06T04:14:35.396744+00:00",
+  "generated_at": "2026-08-07T03:50:36.083888+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,8 +16,8 @@
     "collection_error_count": 0,
     "sales_ranking_events": 15,
     "library_lending_events": 0,
-    "author_event_events": 2,
-    "award_signal_events": 11,
+    "author_event_events": 1,
+    "award_signal_events": 12,
     "book_signal_event_count": 28,
     "official_or_operational_event_count": 25,
     "community_proxy_event_count": 0,
@@ -25,7 +25,7 @@
     "proxy_canonical_key_count": 2,
     "missing_canonical_key_count": 0,
     "isbn_present_count": 26,
-    "author_present_count": 21,
+    "author_present_count": 19,
     "publisher_present_count": 6,
     "rank_present_count": 19,
     "lending_count_present_count": 0,
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 30,
+      "article_count": 25,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 15,
       "event_count": 15,
       "latest_event_at": "2026-08-02T22:00:15+00:00",
-      "age_days": 3.26,
+      "age_days": 4.24,
       "latest_title": "12위 명탐정 코난 108",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399539936&radar_rank=12&radar_ranking_date=20260802220015&rssType=5&type=item",
       "latest_source_signal": [
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 27,
+      "article_count": 25,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -782,6 +782,264 @@
   ],
   "events": [
     {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "서쪽 숲에 갔다/편혜영 지음/문학과지성사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399928827&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399928827&rssType=1&type=item",
+      "event_at": "2026-08-05T06:54:00+00:00",
+      "isbn": "399928827",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "심리",
+        "판타지"
+      ],
+      "publisher": [
+        "문학과지성사"
+      ],
+      "book_type": [
+        "신간",
+        "개정판",
+        "초판"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:399928827",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:fbca216b64d6:20260805",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "호메로스 불멸의 서사시 세트 - 전2권/니콜라 친퀘티 지음, 데시데리아 귀치아르디니 그림, 이승수 옮김, 호메로스 원작/마음이음",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399926252&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399926252&rssType=1&type=item",
+      "event_at": "2026-08-05T06:25:00+00:00",
+      "isbn": "399926252",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "문학",
+        "어린이",
+        "청소년",
+        "동화"
+      ],
+      "publisher": [],
+      "book_type": [
+        "세트",
+        "시리즈"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:399926252",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:82b300bb73fe:20260805",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "괴테는 모든 것을 말했다 (여름 에디션)/스즈키 유이 지음, 이지수 옮김/리프",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399902905&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399902905&rssType=1&type=item",
+      "event_at": "2026-08-05T01:01:00+00:00",
+      "isbn": "399902905",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "인문학"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가",
+        "저자"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:399902905",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:3d9cdc23f09c:20260805",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "경이로운 개구리 팝업북/벤 호어 지음, 재스민 플로이드 그림, 조은영 옮김/북극곰",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399900969&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399900969&rssType=1&type=item",
+      "event_at": "2026-08-05T00:06:00+00:00",
+      "isbn": "399900969",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "과학",
+        "컴퓨터",
+        "어린이"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:399900969",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:6a4fd7dcf7a4:20260805",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "경이로운 문어 팝업북/벤 호어 지음, 재스민 플로이드 그림, 조은영 옮김/북극곰",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399900784&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399900784&rssType=1&type=item",
+      "event_at": "2026-08-04T23:53:00+00:00",
+      "isbn": "399900784",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "과학",
+        "컴퓨터",
+        "어린이"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:399900784",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:140ba9ad69e3:20260804",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -875,281 +1133,6 @@
       "canonical_key": "book_edition:399880422",
       "canonical_key_status": "complete",
       "event_key": "award_signal:8132b5b5c0d6:20260804",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "희망 없는 낙관주의/토미 비링하 지음, 유동익 옮김/어크로스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399853406&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399853406&rssType=1&type=item",
-      "event_at": "2026-08-04T02:31:00+00:00",
-      "isbn": "399853406",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "강연",
-      "award_name": "선정",
-      "genre": [
-        "에세이",
-        "시",
-        "문학",
-        "인문학",
-        "철학",
-        "정치"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가",
-        "저자"
-      ],
-      "award": [
-        "선정"
-      ],
-      "book_event": [
-        "강연"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:399853406",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:339506bde07c:20260804",
-      "required_field_proxy": {
-        "author_name": true,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "희망 없는 낙관주의/토미 비링하 지음, 유동익 옮김/어크로스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399853406&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399853406&rssType=1&type=item",
-      "event_at": "2026-08-04T02:31:00+00:00",
-      "isbn": "399853406",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "강연",
-      "award_name": "선정",
-      "genre": [
-        "에세이",
-        "시",
-        "문학",
-        "인문학",
-        "철학",
-        "정치"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가",
-        "저자"
-      ],
-      "award": [
-        "선정"
-      ],
-      "book_event": [
-        "강연"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:399853406",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:339506bde07c:20260804",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "저주받은 고양이 펠리스/김명철 지음, 최연주 그림/다산책방",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399851250&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399851250&rssType=1&type=item",
-      "event_at": "2026-08-04T01:59:00+00:00",
-      "isbn": "399851250",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "판타지",
-        "그림책",
-        "동화"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:399851250",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:b23d93166862:20260804",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "언어화를 위한 소설 사고/오가와 사토시 지음, 박대겸 옮김/황금가지",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399849853&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399849853&rssType=1&type=item",
-      "event_at": "2026-08-04T01:36:00+00:00",
-      "isbn": "399849853",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "문학상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "인문학",
-        "법률",
-        "sf"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가",
-        "저자",
-        "역자",
-        "데뷔"
-      ],
-      "award": [
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:399849853",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:fe82e4ed5e8b:20260804",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "서성이다/장강명 지음/현대문학",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399849346&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399849346&rssType=1&type=item",
-      "event_at": "2026-08-04T01:29:00+00:00",
-      "isbn": "399849346",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "심리"
-      ],
-      "publisher": [
-        "현대문학"
-      ],
-      "book_type": [
-        "시리즈",
-        "초판"
-      ],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:399849346",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:e71a4179f0ce:20260804",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
