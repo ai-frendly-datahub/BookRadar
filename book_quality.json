@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-08-07T03:50:36.083888+00:00",
+  "generated_at": "2026-08-08T02:55:08.355502+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,24 +16,24 @@
     "collection_error_count": 0,
     "sales_ranking_events": 15,
     "library_lending_events": 0,
-    "author_event_events": 1,
+    "author_event_events": 2,
     "award_signal_events": 12,
-    "book_signal_event_count": 28,
-    "official_or_operational_event_count": 25,
+    "book_signal_event_count": 29,
+    "official_or_operational_event_count": 24,
     "community_proxy_event_count": 0,
     "complete_canonical_key_count": 26,
-    "proxy_canonical_key_count": 2,
+    "proxy_canonical_key_count": 3,
     "missing_canonical_key_count": 0,
     "isbn_present_count": 26,
-    "author_present_count": 19,
+    "author_present_count": 20,
     "publisher_present_count": 6,
     "rank_present_count": 19,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 2,
+    "event_required_field_gap_count": 3,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 9
+    "daily_review_item_count": 11
   },
   "sources": [
     {
@@ -75,7 +75,7 @@
       "article_count": 15,
       "event_count": 15,
       "latest_event_at": "2026-08-02T22:00:15+00:00",
-      "age_days": 4.24,
+      "age_days": 5.2,
       "latest_title": "12위 명탐정 코난 108",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399539936&radar_rank=12&radar_ranking_date=20260802220015&rssType=5&type=item",
       "latest_source_signal": [
@@ -782,6 +782,260 @@
   ],
   "events": [
     {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "The best recent science fiction, fantasy and horror – review roundup",
+      "url": "https://www.theguardian.com/books/2026/aug/07/the-best-recent-science-fiction-fantasy-and-horror-review-roundup",
+      "source_url": "https://www.theguardian.com/books/2026/aug/07/the-best-recent-science-fiction-fantasy-and-horror-review-roundup",
+      "event_at": "2026-08-07T11:00:17+00:00",
+      "isbn": "9781399632966",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "hugo",
+      "genre": [
+        "fiction",
+        "novel",
+        "horror",
+        "fantasy",
+        "mystery"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author"
+      ],
+      "award": [
+        "hugo",
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:9781399632966",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:977bd3c00832:20260807",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "What Happened to Liberal Democracy? by Daron Acemoglu review – how to fix the system",
+      "url": "https://www.theguardian.com/books/2026/aug/07/what-happened-to-liberal-democracy-by-daron-acemoglu-review-how-to-fix-the-system",
+      "source_url": "https://www.theguardian.com/books/2026/aug/07/what-happened-to-liberal-democracy-by-daron-acemoglu-review-how-to-fix-the-system",
+      "event_at": "2026-08-07T06:00:09+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "nobel",
+      "genre": [
+        "essay"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "nobel"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:the-guardian-books:11277838e186",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:a90eab101214:20260807",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "코리아타운의 핫 칙 샤먼/전효원 지음/반타",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399984674&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399984674&rssType=1&type=item",
+      "event_at": "2026-08-06T09:03:00+00:00",
+      "isbn": "399984674",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡"
+      ],
+      "publisher": [],
+      "book_type": [
+        "신간"
+      ],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:399984674",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:368fb930a543:20260806",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "엄마를 만나러 가는 길/김영리 글, 고먕 원작/다산어린이",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399984150&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399984150&rssType=1&type=item",
+      "event_at": "2026-08-06T08:53:00+00:00",
+      "isbn": "399984150",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "서울국제도서전",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "만화",
+        "어린이",
+        "동화"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상",
+        "선정"
+      ],
+      "book_event": [
+        "서울국제도서전",
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:399984150",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:74507c5477be:20260806",
+      "required_field_proxy": {
+        "author_name": true,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "엄마를 만나러 가는 길/김영리 글, 고먕 원작/다산어린이",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399984150&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399984150&rssType=1&type=item",
+      "event_at": "2026-08-06T08:53:00+00:00",
+      "isbn": "399984150",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "서울국제도서전",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "만화",
+        "어린이",
+        "동화"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상",
+        "선정"
+      ],
+      "book_event": [
+        "서울국제도서전",
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:399984150",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:74507c5477be:20260806",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
       "source": "알라딘 신간",
       "source_type": "rss",
       "trust_tier": "T1_official",
@@ -894,152 +1148,6 @@
       "required_field_gaps": []
     },
     {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "괴테는 모든 것을 말했다 (여름 에디션)/스즈키 유이 지음, 이지수 옮김/리프",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399902905&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399902905&rssType=1&type=item",
-      "event_at": "2026-08-05T01:01:00+00:00",
-      "isbn": "399902905",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "인문학"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가",
-        "저자"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:399902905",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:3d9cdc23f09c:20260805",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "경이로운 개구리 팝업북/벤 호어 지음, 재스민 플로이드 그림, 조은영 옮김/북극곰",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399900969&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399900969&rssType=1&type=item",
-      "event_at": "2026-08-05T00:06:00+00:00",
-      "isbn": "399900969",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "과학",
-        "컴퓨터",
-        "어린이"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:399900969",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:6a4fd7dcf7a4:20260805",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "경이로운 문어 팝업북/벤 호어 지음, 재스민 플로이드 그림, 조은영 옮김/북극곰",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399900784&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399900784&rssType=1&type=item",
-      "event_at": "2026-08-04T23:53:00+00:00",
-      "isbn": "399900784",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "과학",
-        "컴퓨터",
-        "어린이"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:399900784",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:140ba9ad69e3:20260804",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -1085,60 +1193,6 @@
       "required_field_gaps": [
         "isbn"
       ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "사랑에는 돈이 들어/박하익 외 지음/나비클럽",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399880422&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399880422&rssType=1&type=item",
-      "event_at": "2026-08-04T07:40:00+00:00",
-      "isbn": "399880422",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "로맨스",
-        "추리",
-        "동화"
-      ],
-      "publisher": [],
-      "book_type": [
-        "신간"
-      ],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:399880422",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:8132b5b5c0d6:20260804",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     },
     {
       "source": "알라딘 베스트셀러",
@@ -2160,6 +2214,23 @@
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "What Happened to Liberal Democracy? by Daron Acemoglu review – how to fix the system",
+      "canonical_key": "book_source:the-guardian-books:11277838e186",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "What Happened to Liberal Democracy? by Daron Acemoglu review – how to fix the system",
+      "canonical_key_status": "source_proxy"
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
