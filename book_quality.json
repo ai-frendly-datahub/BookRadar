@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-08-08T02:55:08.355502+00:00",
+  "generated_at": "2026-08-09T03:02:52.730482+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -25,7 +25,7 @@
     "proxy_canonical_key_count": 3,
     "missing_canonical_key_count": 0,
     "isbn_present_count": 26,
-    "author_present_count": 20,
+    "author_present_count": 19,
     "publisher_present_count": 6,
     "rank_present_count": 19,
     "lending_count_present_count": 0,
@@ -75,7 +75,7 @@
       "article_count": 15,
       "event_count": 15,
       "latest_event_at": "2026-08-02T22:00:15+00:00",
-      "age_days": 5.2,
+      "age_days": 6.21,
       "latest_title": "12위 명탐정 코난 108",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399539936&radar_rank=12&radar_ranking_date=20260802220015&rssType=5&type=item",
       "latest_source_signal": [
@@ -887,6 +887,110 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
+      "title": "공백이라 하기에는/황혜경 지음/문학과지성사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400019301&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400019301&rssType=1&type=item",
+      "event_at": "2026-08-07T05:32:00+00:00",
+      "isbn": "400019301",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "인문학"
+      ],
+      "publisher": [
+        "문학과지성사"
+      ],
+      "book_type": [],
+      "author": [
+        "데뷔"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:400019301",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:fe2b91d0ce78:20260807",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "자유민주주의에 무슨 일이 일어났는가?/대런 아세모글루 지음, 김승진 옮김/생각의힘",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400008857&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400008857&rssType=1&type=item",
+      "event_at": "2026-08-07T03:20:00+00:00",
+      "isbn": "400008857",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "과학",
+        "사회과학",
+        "정치"
+      ],
+      "publisher": [],
+      "book_type": [
+        "신간"
+      ],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:400008857",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:11ce6305e90d:20260807",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
       "title": "코리아타운의 핫 칙 샤먼/전효원 지음/반타",
       "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399984674&rssType=1&type=item",
       "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399984674&rssType=1&type=item",
@@ -1028,118 +1132,6 @@
       "canonical_key": "book_edition:399984150",
       "canonical_key_status": "complete",
       "event_key": "award_signal:74507c5477be:20260806",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "서쪽 숲에 갔다/편혜영 지음/문학과지성사",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399928827&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399928827&rssType=1&type=item",
-      "event_at": "2026-08-05T06:54:00+00:00",
-      "isbn": "399928827",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "심리",
-        "판타지"
-      ],
-      "publisher": [
-        "문학과지성사"
-      ],
-      "book_type": [
-        "신간",
-        "개정판",
-        "초판"
-      ],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:399928827",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:fbca216b64d6:20260805",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "호메로스 불멸의 서사시 세트 - 전2권/니콜라 친퀘티 지음, 데시데리아 귀치아르디니 그림, 이승수 옮김, 호메로스 원작/마음이음",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399926252&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=399926252&rssType=1&type=item",
-      "event_at": "2026-08-05T06:25:00+00:00",
-      "isbn": "399926252",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "문학",
-        "어린이",
-        "청소년",
-        "동화"
-      ],
-      "publisher": [],
-      "book_type": [
-        "세트",
-        "시리즈"
-      ],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:399926252",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:82b300bb73fe:20260805",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
