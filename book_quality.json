@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-08-12T03:23:58.451364+00:00",
+  "generated_at": "2026-08-13T03:27:08.176903+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,24 +16,24 @@
     "collection_error_count": 0,
     "sales_ranking_events": 15,
     "library_lending_events": 0,
-    "author_event_events": 2,
-    "award_signal_events": 10,
-    "book_signal_event_count": 27,
-    "official_or_operational_event_count": 21,
+    "author_event_events": 3,
+    "award_signal_events": 13,
+    "book_signal_event_count": 31,
+    "official_or_operational_event_count": 23,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 23,
-    "proxy_canonical_key_count": 4,
+    "complete_canonical_key_count": 25,
+    "proxy_canonical_key_count": 6,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 23,
-    "author_present_count": 18,
-    "publisher_present_count": 5,
-    "rank_present_count": 18,
+    "isbn_present_count": 25,
+    "author_present_count": 20,
+    "publisher_present_count": 7,
+    "rank_present_count": 19,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 4,
+    "event_required_field_gap_count": 6,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 13
+    "daily_review_item_count": 17
   },
   "sources": [
     {
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 30,
+      "article_count": 27,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 15,
       "event_count": 15,
       "latest_event_at": "2026-08-09T22:00:24+00:00",
-      "age_days": 2.22,
+      "age_days": 3.23,
       "latest_title": "14위 오뒷세이아",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=686827&radar_rank=14&radar_ranking_date=20260809220024&rssType=5&type=item",
       "latest_source_signal": [
@@ -782,6 +782,100 @@
   ],
   "events": [
     {
+      "source": "New York Times Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Johanna Fernández, Historian of the Young Lords, Dies at 55",
+      "url": "https://www.nytimes.com/2026/08/12/us/johanna-fernandez-dead.html",
+      "source_url": "https://www.nytimes.com/2026/08/12/us/johanna-fernandez-dead.html",
+      "event_at": "2026-08-12T21:05:00+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:new-york-times-books:01b05af5ea10",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:ba4856a851f7:20260812",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "EJ Swift wins the 2026 Arthur C Clarke award for science fiction",
+      "url": "https://www.theguardian.com/books/2026/aug/12/ej-swift-wins-the-2026-arthur-c-clarke-award-for-science-fiction",
+      "source_url": "https://www.theguardian.com/books/2026/aug/12/ej-swift-wins-the-2026-arthur-c-clarke-award-for-science-fiction",
+      "event_at": "2026-08-12T20:00:38+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [
+        "fiction",
+        "novel"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "writer"
+      ],
+      "award": [
+        "award",
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:fbc7085f2b86",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:0d0444db80d7:20260812",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -882,29 +976,33 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "미래를 설계하는 기술기획/임현 지음/더봄",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400153251&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400153251&rssType=1&type=item",
-      "event_at": "2026-08-10T05:12:00+00:00",
-      "isbn": "400153251",
+      "title": "캔버스에 유채/이기리 지음/문학동네",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400207818&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400207818&rssType=1&type=item",
+      "event_at": "2026-08-11T05:07:00+00:00",
+      "isbn": "400207818",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
       "venue": "",
-      "award_name": "선정",
+      "award_name": "수상",
       "genre": [
+        "소설",
         "시",
-        "과학",
-        "교육"
+        "희곡",
+        "문학"
       ],
-      "publisher": [],
+      "publisher": [
+        "민음사",
+        "문학동네",
+        "문학과지성사"
+      ],
       "book_type": [],
-      "author": [
-        "저자"
-      ],
+      "author": [],
       "award": [
-        "선정"
+        "수상",
+        "문학상"
       ],
       "book_event": [],
       "source_signal": [
@@ -912,9 +1010,9 @@
         "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:400153251",
+      "canonical_key": "book_edition:400207818",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:79e72e60be65:20260810",
+      "event_key": "award_signal:35a033d58734:20260811",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -930,33 +1028,89 @@
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "지지 않는 인생 설계의 기술/대릴 페어웨더 지음, 김고명 옮김/더퀘스트",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400151757&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400151757&rssType=1&type=item",
-      "event_at": "2026-08-10T04:50:00+00:00",
-      "isbn": "400151757",
+      "event_model": "author_event",
+      "title": "강원국의 말하기 고충 상담소/강원국 지음/메디치미디어",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400196696&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400196696&rssType=1&type=item",
+      "event_at": "2026-08-11T02:38:00+00:00",
+      "isbn": "400196696",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
+      "venue": "강연",
+      "award_name": "",
       "genre": [
         "시",
-        "경제경영",
         "자기계발"
       ],
-      "publisher": [
-        "더퀘스트"
-      ],
+      "publisher": [],
       "book_type": [],
       "author": [
         "작가",
         "저자"
       ],
+      "award": [],
+      "book_event": [
+        "강연"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:400196696",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:f1d5e716f8b0:20260811",
+      "required_field_proxy": {
+        "author_name": true,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "잊기 좋은 이름/김애란 지음/문학동네",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400193720&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400193720&rssType=1&type=item",
+      "event_at": "2026-08-11T02:03:00+00:00",
+      "isbn": "400193720",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "황순원문학상",
+      "genre": [
+        "소설",
+        "에세이",
+        "시",
+        "문학"
+      ],
+      "publisher": [
+        "창비",
+        "문학동네"
+      ],
+      "book_type": [
+        "개정판",
+        "초판"
+      ],
+      "author": [
+        "박완서",
+        "작가"
+      ],
       "award": [
-        "선정"
+        "황순원문학상",
+        "수상",
+        "문학상"
       ],
       "book_event": [],
       "source_signal": [
@@ -964,9 +1118,9 @@
         "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:400151757",
+      "canonical_key": "book_edition:400193720",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:a7c6c2f2ccb9:20260810",
+      "event_key": "award_signal:4587255763db:20260811",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -983,31 +1137,33 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "토지 투자 무작정 따라하기/전은규(대박땅꾼) 지음/길벗",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400143566&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400143566&rssType=1&type=item",
-      "event_at": "2026-08-10T02:39:00+00:00",
-      "isbn": "400143566",
+      "title": "그랬다고 적었다/김애란 지음/문학동네",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400193697&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400193697&rssType=1&type=item",
+      "event_at": "2026-08-11T02:03:00+00:00",
+      "isbn": "400193697",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
       "venue": "",
-      "award_name": "후보",
+      "award_name": "수상",
       "genre": [
+        "소설",
+        "에세이",
         "시",
-        "경제경영",
-        "개발"
+        "문학",
+        "예술"
       ],
-      "publisher": [],
-      "book_type": [
-        "개정판"
+      "publisher": [
+        "문학동네"
       ],
+      "book_type": [],
       "author": [
-        "저자"
+        "작가"
       ],
       "award": [
-        "후보"
+        "수상"
       ],
       "book_event": [],
       "source_signal": [
@@ -1015,9 +1171,64 @@
         "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:400143566",
+      "canonical_key": "book_edition:400193697",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:ca66d0f502f7:20260810",
+      "event_key": "award_signal:19961288961e:20260811",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "슬로 호시스/믹 헤런 지음, 권영주 옮김/비채",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400187576&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400187576&rssType=1&type=item",
+      "event_at": "2026-08-10T23:25:00+00:00",
+      "isbn": "400187576",
+      "rank": 9,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "정치",
+        "스릴러"
+      ],
+      "publisher": [],
+      "book_type": [
+        "시리즈"
+      ],
+      "author": [
+        "작가",
+        "번역"
+      ],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:400187576",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:68f5065f4014:20260810",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -2066,6 +2277,40 @@
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "New York Times Books",
+      "title": "Johanna Fernández, Historian of the Young Lords, Dies at 55",
+      "canonical_key": "book_source:new-york-times-books:01b05af5ea10",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "New York Times Books",
+      "title": "Johanna Fernández, Historian of the Young Lords, Dies at 55",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "EJ Swift wins the 2026 Arthur C Clarke award for science fiction",
+      "canonical_key": "book_edition:title:fbc7085f2b86",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "EJ Swift wins the 2026 Arthur C Clarke award for science fiction",
+      "canonical_key_status": "title_proxy"
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
