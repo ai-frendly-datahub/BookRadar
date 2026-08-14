@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-08-13T03:27:08.176903+00:00",
+  "generated_at": "2026-08-14T03:24:39.093818+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,24 +16,24 @@
     "collection_error_count": 0,
     "sales_ranking_events": 15,
     "library_lending_events": 0,
-    "author_event_events": 3,
-    "award_signal_events": 13,
-    "book_signal_event_count": 31,
-    "official_or_operational_event_count": 23,
+    "author_event_events": 4,
+    "award_signal_events": 14,
+    "book_signal_event_count": 33,
+    "official_or_operational_event_count": 25,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 25,
+    "complete_canonical_key_count": 27,
     "proxy_canonical_key_count": 6,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 25,
+    "isbn_present_count": 27,
     "author_present_count": 20,
     "publisher_present_count": 7,
     "rank_present_count": 19,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 6,
+    "event_required_field_gap_count": 7,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 17
+    "daily_review_item_count": 18
   },
   "sources": [
     {
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 27,
+      "article_count": 30,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 15,
       "event_count": 15,
       "latest_event_at": "2026-08-09T22:00:24+00:00",
-      "age_days": 3.23,
+      "age_days": 4.23,
       "latest_title": "14위 오뒷세이아",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=686827&radar_rank=14&radar_ranking_date=20260809220024&rssType=5&type=item",
       "latest_source_signal": [
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 26,
+      "article_count": 25,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -793,7 +793,7 @@
       "title": "Johanna Fernández, Historian of the Young Lords, Dies at 55",
       "url": "https://www.nytimes.com/2026/08/12/us/johanna-fernandez-dead.html",
       "source_url": "https://www.nytimes.com/2026/08/12/us/johanna-fernandez-dead.html",
-      "event_at": "2026-08-12T21:05:00+00:00",
+      "event_at": "2026-08-13T14:40:00+00:00",
       "isbn": "",
       "rank": null,
       "retailer": "",
@@ -815,7 +815,55 @@
       ],
       "canonical_key": "book_source:new-york-times-books:01b05af5ea10",
       "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:ba4856a851f7:20260812",
+      "event_key": "award_signal:ba4856a851f7:20260813",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "The Annotated Nightstand: What Ed Park is Reading Now, and Next",
+      "url": "https://lithub.com/the-annotated-nightstand-what-ed-park-is-reading-now-and-next",
+      "source_url": "https://lithub.com/the-annotated-nightstand-what-ed-park-is-reading-now-and-next",
+      "event_at": "2026-08-13T09:06:26+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "pulitzer",
+      "genre": [
+        "novel"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "writer"
+      ],
+      "award": [
+        "pulitzer"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:79e9084e0034",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:f2607fc54779:20260813",
       "required_field_proxy": {
         "isbn": false,
         "award_name": true,
@@ -874,6 +922,363 @@
       "required_field_gaps": [
         "isbn"
       ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "타키 포오 네버 다이 과학 어드벤처 4 : AI·로봇이 온다!/박시연 지음, 팀키즈 그림, 김덕진 감수, 캐릭온TV 원작/대원키즈",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400279377&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400279377&rssType=1&type=item",
+      "event_at": "2026-08-12T07:25:00+00:00",
+      "isbn": "400279377",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "과학",
+        "컴퓨터",
+        "만화",
+        "어린이"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:400279377",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:e5032c8b102c:20260812",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "우기유니 세계 1위 부자 1/박동명 지음, 정주연 그림, 우기유니 원작/대원키즈",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400278651&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400278651&rssType=1&type=item",
+      "event_at": "2026-08-12T07:16:00+00:00",
+      "isbn": "400278651",
+      "rank": 1,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "만화",
+        "어린이"
+      ],
+      "publisher": [],
+      "book_type": [
+        "초판"
+      ],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:400278651",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:48e2c05945a3:20260812",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "미국을 만든 세계/유재일 지음/김영사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400259271&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400259271&rssType=1&type=item",
+      "event_at": "2026-08-12T03:22:00+00:00",
+      "isbn": "400259271",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "북토크",
+      "award_name": "",
+      "genre": [
+        "시",
+        "과학",
+        "역사",
+        "사회과학",
+        "정치"
+      ],
+      "publisher": [
+        "김영사"
+      ],
+      "book_type": [
+        "독점"
+      ],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "북토크"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:400259271",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:6125bf3e46d8:20260812",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "빨간 점점이/린롄언 지음, 이지은 옮김/섬드레",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400250458&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400250458&rssType=1&type=item",
+      "event_at": "2026-08-12T01:49:00+00:00",
+      "isbn": "400250458",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "그림책"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:400250458",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:1a5e57d9ce4c:20260812",
+      "required_field_proxy": {
+        "author_name": true,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "빨간 점점이/린롄언 지음, 이지은 옮김/섬드레",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400250458&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400250458&rssType=1&type=item",
+      "event_at": "2026-08-12T01:49:00+00:00",
+      "isbn": "400250458",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "그림책"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:400250458",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:1a5e57d9ce4c:20260812",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "노무현 평전/윤태영 지음, 사람사는세상 노무현재단 기획/위즈덤하우스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400248429&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400248429&rssType=1&type=item",
+      "event_at": "2026-08-12T01:15:00+00:00",
+      "isbn": "400248429",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "후보",
+      "genre": [
+        "시",
+        "과학",
+        "역사",
+        "사회과학",
+        "철학",
+        "정치"
+      ],
+      "publisher": [
+        "위즈덤하우스"
+      ],
+      "book_type": [],
+      "author": [
+        "저자"
+      ],
+      "award": [
+        "후보"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:400248429",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:761d048a3495:20260812",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "손잡아 주려고 왔지/서정홍 지음, 김명 그림/창비",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400248371&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400248371&rssType=1&type=item",
+      "event_at": "2026-08-12T01:14:00+00:00",
+      "isbn": "400248371",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "문학",
+        "어린이"
+      ],
+      "publisher": [
+        "창비"
+      ],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:400248371",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:b924c8f977dc:20260812",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "The Guardian Books",
@@ -966,275 +1371,6 @@
       "required_field_gaps": [
         "isbn"
       ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "캔버스에 유채/이기리 지음/문학동네",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400207818&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400207818&rssType=1&type=item",
-      "event_at": "2026-08-11T05:07:00+00:00",
-      "isbn": "400207818",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학"
-      ],
-      "publisher": [
-        "민음사",
-        "문학동네",
-        "문학과지성사"
-      ],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:400207818",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:35a033d58734:20260811",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "강원국의 말하기 고충 상담소/강원국 지음/메디치미디어",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400196696&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400196696&rssType=1&type=item",
-      "event_at": "2026-08-11T02:38:00+00:00",
-      "isbn": "400196696",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "강연",
-      "award_name": "",
-      "genre": [
-        "시",
-        "자기계발"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가",
-        "저자"
-      ],
-      "award": [],
-      "book_event": [
-        "강연"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:400196696",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:f1d5e716f8b0:20260811",
-      "required_field_proxy": {
-        "author_name": true,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "잊기 좋은 이름/김애란 지음/문학동네",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400193720&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400193720&rssType=1&type=item",
-      "event_at": "2026-08-11T02:03:00+00:00",
-      "isbn": "400193720",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "황순원문학상",
-      "genre": [
-        "소설",
-        "에세이",
-        "시",
-        "문학"
-      ],
-      "publisher": [
-        "창비",
-        "문학동네"
-      ],
-      "book_type": [
-        "개정판",
-        "초판"
-      ],
-      "author": [
-        "박완서",
-        "작가"
-      ],
-      "award": [
-        "황순원문학상",
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:400193720",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:4587255763db:20260811",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "그랬다고 적었다/김애란 지음/문학동네",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400193697&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400193697&rssType=1&type=item",
-      "event_at": "2026-08-11T02:03:00+00:00",
-      "isbn": "400193697",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "에세이",
-        "시",
-        "문학",
-        "예술"
-      ],
-      "publisher": [
-        "문학동네"
-      ],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:400193697",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:19961288961e:20260811",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "슬로 호시스/믹 헤런 지음, 권영주 옮김/비채",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400187576&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400187576&rssType=1&type=item",
-      "event_at": "2026-08-10T23:25:00+00:00",
-      "isbn": "400187576",
-      "rank": 9,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "정치",
-        "스릴러"
-      ],
-      "publisher": [],
-      "book_type": [
-        "시리즈"
-      ],
-      "author": [
-        "작가",
-        "번역"
-      ],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:400187576",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:68f5065f4014:20260810",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     },
     {
       "source": "알라딘 베스트셀러",
@@ -2183,53 +2319,6 @@
       ]
     },
     {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Children of the Wild by Kevin Powers review – gripping tale of a friendship forged in war",
-      "url": "https://www.theguardian.com/books/2026/aug/04/children-of-the-wild-by-kevin-powers-review-gripping-tale-of-a-friendship-forged-in-war",
-      "source_url": "https://www.theguardian.com/books/2026/aug/04/children-of-the-wild-by-kevin-powers-review-gripping-tale-of-a-friendship-forged-in-war",
-      "event_at": "2026-08-04T09:00:54+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "award",
-      "genre": [
-        "novel"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "award",
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:the-guardian-books:09be32181654",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:f7e894449453:20260804",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
       "source": "NPR Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -2297,6 +2386,23 @@
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "The Annotated Nightstand: What Ed Park is Reading Now, and Next",
+      "canonical_key": "book_edition:title:79e9084e0034",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "The Annotated Nightstand: What Ed Park is Reading Now, and Next",
+      "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
       "source": "The Guardian Books",
       "title": "EJ Swift wins the 2026 Arthur C Clarke award for science fiction",
       "canonical_key": "book_edition:title:fbc7085f2b86",
@@ -2310,6 +2416,16 @@
       "source": "The Guardian Books",
       "title": "EJ Swift wins the 2026 Arthur C Clarke award for science fiction",
       "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "알라딘 신간",
+      "title": "미국을 만든 세계/유재일 지음/김영사",
+      "canonical_key": "book_edition:400259271",
+      "required_field_gaps": [
+        "author_name"
+      ]
     },
     {
       "reason": "missing_required_fields",
@@ -2360,23 +2476,6 @@
       "event_model": "award_signal",
       "source": "The Guardian Books",
       "title": "What Happened to Liberal Democracy? by Daron Acemoglu review – how to fix the system",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "Children of the Wild by Kevin Powers review – gripping tale of a friendship forged in war",
-      "canonical_key": "book_source:the-guardian-books:09be32181654",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "Children of the Wild by Kevin Powers review – gripping tale of a friendship forged in war",
       "canonical_key_status": "source_proxy"
     },
     {
