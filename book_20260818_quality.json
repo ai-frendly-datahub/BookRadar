@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-08-17T02:20:10.892404+00:00",
+  "generated_at": "2026-08-18T02:15:56.777154+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -17,23 +17,23 @@
     "sales_ranking_events": 15,
     "library_lending_events": 0,
     "author_event_events": 0,
-    "award_signal_events": 9,
-    "book_signal_event_count": 24,
+    "award_signal_events": 8,
+    "book_signal_event_count": 23,
     "official_or_operational_event_count": 18,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 20,
-    "proxy_canonical_key_count": 4,
+    "complete_canonical_key_count": 18,
+    "proxy_canonical_key_count": 5,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 20,
-    "author_present_count": 13,
+    "isbn_present_count": 18,
+    "author_present_count": 12,
     "publisher_present_count": 9,
     "rank_present_count": 17,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 4,
+    "event_required_field_gap_count": 5,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 14
+    "daily_review_item_count": 16
   },
   "sources": [
     {
@@ -75,7 +75,7 @@
       "article_count": 15,
       "event_count": 15,
       "latest_event_at": "2026-08-16T22:00:50+00:00",
-      "age_days": 0.18,
+      "age_days": 1.18,
       "latest_title": "9위 사카모토 데이즈 27 (더블 특전판)",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400365190&radar_rank=9&radar_ranking_date=20260816220050&rssType=5&type=item",
       "latest_source_signal": [
@@ -781,6 +781,96 @@
     }
   ],
   "events": [
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Everything But the Burden: Greg Tate, John Henryism, and the Cost of Solidarity",
+      "url": "https://lithub.com/everything-but-the-burden-greg-tate-john-henryism-and-the-cost-of-solidarity",
+      "source_url": "https://lithub.com/everything-but-the-burden-greg-tate-john-henryism-and-the-cost-of-solidarity",
+      "event_at": "2026-08-17T09:08:33+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "pulitzer",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "pulitzer"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:literary-hub:070a510ff781",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:dba4226adfaf:20260817",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Read an Original Review of All the King’s Men on Its 80th Anniversary",
+      "url": "https://lithub.com/read-an-original-review-of-all-the-kings-men-on-its-80th-anniversary",
+      "source_url": "https://lithub.com/read-an-original-review-of-all-the-kings-men-on-its-80th-anniversary",
+      "event_at": "2026-08-17T09:08:17+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "pulitzer",
+      "genre": [
+        "novel"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "pulitzer"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:literary-hub:318414048dca",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:aa2ce5e85b0d:20260817",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
     {
       "source": "알라딘 베스트셀러",
       "source_type": "rss",
@@ -1592,54 +1682,6 @@
       "required_field_gaps": []
     },
     {
-      "source": "Book Riot",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Book Riot’s Deals of the Day for August 16, 2026",
-      "url": "https://bookriot.com/book-riots-deals-of-the-day-for-august-16-2026",
-      "source_url": "https://bookriot.com/book-riots-deals-of-the-day-for-august-16-2026",
-      "event_at": "2026-08-16T10:30:00+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "award",
-      "genre": [
-        "fantasy",
-        "romance",
-        "mystery"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "award"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_source:book-riot:bc1b1c95b049",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:d2d22ece13ef:20260816",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
       "source": "알라딘 신간",
       "source_type": "rss",
       "trust_tier": "T1_official",
@@ -1745,6 +1787,54 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
+      "title": "I Give You My Silence by Mario Vargas Llosa review – Nobel laureate’s final novel is a love letter to Peru",
+      "url": "https://www.theguardian.com/books/2026/aug/11/i-give-you-my-silence-by-mario-vargas-llosa-review-nobel-laureates-final-novel-is-a-love-letter-to-peru",
+      "source_url": "https://www.theguardian.com/books/2026/aug/11/i-give-you-my-silence-by-mario-vargas-llosa-review-nobel-laureates-final-novel-is-a-love-letter-to-peru",
+      "event_at": "2026-08-11T10:56:35+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "nobel",
+      "genre": [
+        "novel"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author"
+      ],
+      "award": [
+        "nobel"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:7212a3ec8fe6",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:5c30112b2279:20260811",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
       "title": "You Won’t Get Free of It by Rachel Aviv review – a subtle study of the mother-daughter bond",
       "url": "https://www.theguardian.com/books/2026/aug/11/you-wont-get-free-of-it-by-rachel-aviv-review-a-subtle-study-of-the-mother-daughter-bond",
       "source_url": "https://www.theguardian.com/books/2026/aug/11/you-wont-get-free-of-it-by-rachel-aviv-review-a-subtle-study-of-the-mother-daughter-bond",
@@ -1779,158 +1869,15 @@
       "required_field_gaps": [
         "isbn"
       ]
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "The best recent science fiction, fantasy and horror – review roundup",
-      "url": "https://www.theguardian.com/books/2026/aug/07/the-best-recent-science-fiction-fantasy-and-horror-review-roundup",
-      "source_url": "https://www.theguardian.com/books/2026/aug/07/the-best-recent-science-fiction-fantasy-and-horror-review-roundup",
-      "event_at": "2026-08-07T11:00:17+00:00",
-      "isbn": "9781399632966",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "hugo",
-      "genre": [
-        "fiction",
-        "novel",
-        "horror",
-        "fantasy",
-        "mystery"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "author"
-      ],
-      "award": [
-        "hugo",
-        "award"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:9781399632966",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:977bd3c00832:20260807",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "What Happened to Liberal Democracy? by Daron Acemoglu review – how to fix the system",
-      "url": "https://www.theguardian.com/books/2026/aug/07/what-happened-to-liberal-democracy-by-daron-acemoglu-review-how-to-fix-the-system",
-      "source_url": "https://www.theguardian.com/books/2026/aug/07/what-happened-to-liberal-democracy-by-daron-acemoglu-review-how-to-fix-the-system",
-      "event_at": "2026-08-07T06:00:09+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "nobel",
-      "genre": [
-        "essay"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "nobel"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:the-guardian-books:11277838e186",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:a90eab101214:20260807",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "NPR Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "'Taiwan Travelogue' rethinks history, colonialism, and identity",
-      "url": "https://www.npr.org/2026/07/29/g-s1-136110/taiwan-travelogue-rethinks-history-colonialism-and-identity",
-      "source_url": "https://www.npr.org/2026/07/29/g-s1-136110/taiwan-travelogue-rethinks-history-colonialism-and-identity",
-      "event_at": "2026-07-29T16:55:54+00:00",
-      "isbn": "136110",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "author",
-        "translator"
-      ],
-      "award": [
-        "booker",
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:136110",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:f061485b4920:20260729",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "Book Riot’s Deals of the Day for August 16, 2026",
-      "canonical_key": "book_source:book-riot:bc1b1c95b049",
+      "source": "Literary Hub",
+      "title": "Everything But the Burden: Greg Tate, John Henryism, and the Cost of Solidarity",
+      "canonical_key": "book_source:literary-hub:070a510ff781",
       "required_field_gaps": [
         "isbn"
       ]
@@ -1938,8 +1885,25 @@
     {
       "reason": "proxy_canonical_key",
       "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "Book Riot’s Deals of the Day for August 16, 2026",
+      "source": "Literary Hub",
+      "title": "Everything But the Burden: Greg Tate, John Henryism, and the Cost of Solidarity",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Read an Original Review of All the King’s Men on Its 80th Anniversary",
+      "canonical_key": "book_source:literary-hub:318414048dca",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Read an Original Review of All the King’s Men on Its 80th Anniversary",
       "canonical_key_status": "source_proxy"
     },
     {
@@ -1963,6 +1927,23 @@
       "reason": "missing_required_fields",
       "event_model": "award_signal",
       "source": "The Guardian Books",
+      "title": "I Give You My Silence by Mario Vargas Llosa review – Nobel laureate’s final novel is a love letter to Peru",
+      "canonical_key": "book_edition:title:7212a3ec8fe6",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "I Give You My Silence by Mario Vargas Llosa review – Nobel laureate’s final novel is a love letter to Peru",
+      "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
       "title": "You Won’t Get Free of It by Rachel Aviv review – a subtle study of the mother-daughter bond",
       "canonical_key": "book_source:the-guardian-books:7d2b4cbfff9d",
       "required_field_gaps": [
@@ -1974,23 +1955,6 @@
       "event_model": "award_signal",
       "source": "The Guardian Books",
       "title": "You Won’t Get Free of It by Rachel Aviv review – a subtle study of the mother-daughter bond",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "What Happened to Liberal Democracy? by Daron Acemoglu review – how to fix the system",
-      "canonical_key": "book_source:the-guardian-books:11277838e186",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "What Happened to Liberal Democracy? by Daron Acemoglu review – how to fix the system",
       "canonical_key_status": "source_proxy"
     },
     {

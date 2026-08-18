@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-17",
+  "date": "2026-08-18",
   "category": "book",
   "article_count": 145,
   "source_count": 8,
@@ -11,44 +11,305 @@
     },
     {
       "name": "Genre",
-      "count": 190
+      "count": 175
     },
     {
       "name": "Author",
-      "count": 49
+      "count": 46
     },
     {
       "name": "BookType",
-      "count": 28
-    },
-    {
-      "name": "Award",
-      "count": 13
+      "count": 27
     },
     {
       "name": "Publisher",
       "count": 12
+    },
+    {
+      "name": "Award",
+      "count": 10
     }
   ],
   "sources": {
-    "알라딘 베스트셀러": 15,
     "New York Times Books": 21,
-    "The Guardian Books": 24,
+    "NPR Books": 10,
     "Book Riot": 10,
     "Literary Hub": 10,
-    "알라딘 신간": 25,
+    "The Guardian Books": 24,
     "Publishers Weekly": 30,
-    "NPR Books": 10
+    "알라딘 베스트셀러": 15,
+    "알라딘 신간": 25
   },
-  "generated_at": "2026-08-17T11:20:09.226169+09:00",
+  "generated_at": "2026-08-18T11:15:55.234713+09:00",
   "articles": [
     {
       "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "5위 오디세이아 (국내 유일 명화 104점 수록 완역본)",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=362390080&radar_rank=5&radar_ranking_date=20260816220050",
-        "published_at": "2026-08-16T22:00:50+00:00",
-        "summary": "오디세이아 (국내 유일 명화 104점 수록 완역본) 호메로스 지음, 페테르 파울 루벤스 외 그림, 박문재 옮김 / 현대지성 / 2025년 04월 / ISBN: 9791139721973 정가: 27,000 원 / 판매가: 24,300 원 / 마일리지: 1,350 원 이벤트 : The odyssey + 티셔츠(대상도서 포함 국내도서 3만 5천 원 이상) 트로이아 전쟁의 영웅 오디세우스는 전쟁에서 승리한 후 고향 이타카로 돌아가려 하지만, 그의 여정은 결코 평탄치 않았다. 포세이돈의 분노, 신들의 장난, 인간의 오만과 약함은 그의 여정을 가로막고, 그는 무려 10년에 걸쳐 바다를 떠돌며 인간의 한계에 맞서 싸운다. 호메로스는 이 위대한 방랑을 통해 신과 인간이 얽힌 세계의 진실을 보여준다. 『오디세이아』는 ‘귀향’이라는 단순한 이야기 구조 속에 고대 그리스인의 세계관과 삶의 가치, 그리고 인간다운 삶의 의미를 농축시킨 작품이다. 외눈박이 거인 폴리페모스와의 대결, 마녀 키르케의 유혹, 바다의 요정 칼립소와의 시간, 바다의 신과 하늘의 신들의 끊임없는 개입 속에서 오디세우스는 단순한 영웅이 아니라, 인간의 약함과 강함을 동시에 지닌 존재로 그려진다. 현대지성 클래식의 완역본은 3,000년 전부터 구전으로 전해지던 이 서사시를, 오늘날의 독자가 온전히 음미할 수 있도록 섬세하고 충실하게 옮겼다. 104점의 명화와 이미지는 상상력을 자극하며 당시 상황과 영웅의 생애를 생생히 보여주고, 303개의 정밀한 각주와 해설은 고대 그리스의 지리, 신화, 문화적 맥락을 입체적으로 그려낸다. 특히 주요 인물과 사건의 계보, 시대적 배경까지 촘촘히 짚어내며, 단순한 독서를 넘어 깊은 통찰을 가능하게 한다. 마이리뷰(0) 평점: | Sales Point : 62,710 삼천 년을 건너온 인간의 마음 - 장지원 [마이리뷰] 오디세이아 (고대 그리스어 완역본) - 제로북_서재 인류를 사로잡은 최고의 모험담. 세심한 번역과 아름다운 삽화와 함께. - 박칼럼 서평_오디세이아_호메로스_현대 지성 - lkth3 시간과 공간을 넘어 사랑받는 고전 『오디세이아』 - 로렌"
+        "source_name": "New York Times Books",
+        "headline": "When Is It OK to Give Up on a Book? Our Readers Have Thoughts.",
+        "source_url": "https://www.nytimes.com/2026/08/14/books/review/dnf-reader-comments.html",
+        "published_at": "2026-08-17T20:35:26+00:00",
+        "summary": "From carefree dabblers to book group die-hards, everyone, it seems, has an opinion. Just don’t tell them theirs is wrong."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "NPR Books",
+        "headline": "In 'Etna,' a canine narrator delivers a poignant anti-war message",
+        "source_url": "https://www.npr.org/2026/08/17/nx-s1-5935270/etna-paul-yoon-review",
+        "published_at": "2026-08-17T19:13:57+00:00",
+        "summary": "Paul Yoon's new novel follows a dog conscripted into an unnamed war in an unnamed country. From the very first page, Etna's voice is somber and poetic in its simplicity.<br /><br />"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Book Review: ‘Dèy,’ by Edwidge Danticat",
+        "source_url": "https://www.nytimes.com/2026/08/17/books/review/edwidge-danticat-dey.html",
+        "published_at": "2026-08-17T18:50:18+00:00",
+        "summary": "In Edwidge Danticat’s new novel, “Dèy,” a Haitian American mother in Miami experiences the numbing aftershocks of a random act of violence."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "Check Out the Covers of A Court of Thorns and Roses Books 6 and 7",
+        "source_url": "https://bookriot.com/covers-of-a-court-of-thorns-and-roses-books-6-and-7/",
+        "published_at": "2026-08-17T18:39:45+00:00",
+        "summary": "Sarah J. Maas has revealed the titles and covers of books six and seven in the A Court of Thorns and Roses series."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "NPR Books",
+        "headline": "'Fed Up' author explains how evolution impacts eating, dieting and fat",
+        "source_url": "https://www.npr.org/2026/08/17/nx-s1-5928230/fed-up-author-explains-how-evolution-impacts-eating-dieting-and-fat",
+        "published_at": "2026-08-17T17:23:55+00:00",
+        "summary": "Paleoanthropologist Daniel Lieberman talks about diets he's tested, and contradictory information about what's healthy to eat and what's not. He says evolution often works against weight-loss efforts."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "The Most Anticipated Fall Books, According to Goodreads Readers",
+        "source_url": "https://bookriot.com/goodreads-anticipated-fall-2026-books/",
+        "published_at": "2026-08-17T17:08:20+00:00",
+        "summary": "Goodreads readers’ most anticipated fall 2026 books presents a packed season featuring major comebacks, big names, and series finales."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Literary Hub",
+        "headline": "Now Amazon is destroying rare books to train its AI.",
+        "source_url": "https://lithub.com/now-amazon-is-destroying-rare-books-to-train-its-ai/",
+        "published_at": "2026-08-17T17:06:03+00:00",
+        "summary": "Per a 404 Media report published this morning, Amazon, that evil empire, “is buying massive quantities of books, scanning them for AI training data, and destroying them in the process.” This news follows slow-creeping revelations that other AI companies have"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "Claude to Add Watermarks, and More AI Publishing News",
+        "source_url": "https://bookriot.com/claude-to-add-watermarks-and-more-ai-publishing-news/",
+        "published_at": "2026-08-17T14:42:43+00:00",
+        "summary": "Claude introduces watermarks, Substack introduces Pangram, and more AI-related publishing news."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "Disney Romantasy Webcomic Series Announced at D23",
+        "source_url": "https://bookriot.com/disney-romantasy-webcomic/",
+        "published_at": "2026-08-17T14:29:22+00:00",
+        "summary": "Disney Publishing announced a new Disney romantasy webcomic launching on Webtoon and inspired by their most iconic love stories."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Book Review: ‘The Maltese Version,’ by Katy Simpson Smith",
+        "source_url": "https://www.nytimes.com/2026/08/16/books/review/the-maltese-version-katy-simpson-smith.html",
+        "published_at": "2026-08-17T14:02:09+00:00",
+        "summary": "Are the 30-somethings in Katy Simpson Smith’s “The Maltese Version” in love? That depends on how you define it."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "Book Riot’s Deals of the Day for August 17, 2026",
+        "source_url": "https://bookriot.com/book-riots-deals-of-the-day-for-august-17-2026/",
+        "published_at": "2026-08-17T13:00:00+00:00",
+        "summary": "Beauty that hides a deadly purpose, a mysterious benefactor, a woman fighting accusations of being a witch, and more of today's deals."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "As the Old Files Open, One Family Confronts Another’s Dark Nazi Past",
+        "source_url": "https://www.nytimes.com/2026/08/16/arts/zilversmit-netherlands-podcast-book-holocaust-nazi.html",
+        "published_at": "2026-08-17T12:36:23+00:00",
+        "summary": "A woman who secured the criminal file of her grandmother, a collaborator, offered to share it with a Jewish family that had been betrayed. Then she balked and a new dispute ensued."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Literary Hub",
+        "headline": "Lit Hub Daily: August 17, 2026",
+        "source_url": "https://lithub.com/lit-hub-daily-august-17-2026/",
+        "published_at": "2026-08-17T10:30:51+00:00",
+        "summary": "What did Jodi Picoult decide she needed to commemorate turning 60 and writing 30 novels? A tattoo. | Lit Hub Craft Steven W. Thrasher explores what we can learn about solidarity from Greg Tate’s recently reissued Flyboy in the Buttermilk."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "It’s Getting Kind of Culty: Must-Read Books About Cults",
+        "source_url": "https://bookriot.com/must-read-books-about-cults/",
+        "published_at": "2026-08-17T10:05:00+00:00",
+        "summary": "These must-read books about cults include fictional takes on real cults, a survivor's memoir, and a look at the language of fanaticism."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "Best New Books Out This Month, BIPOC Edition",
+        "source_url": "https://bookriot.com/best-new-bipoc-books-out-august-2026/",
+        "published_at": "2026-08-17T10:04:00+00:00",
+        "summary": "The best BIPOC book releases of August include some of the year's most anticipated works, from Claudia Rankine, Chang-rae Lee, and others."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "6 Culinary Cozy Mystery Series to Curl Up With",
+        "source_url": "https://bookriot.com/culinary-cozy-mystery-series/",
+        "published_at": "2026-08-17T10:03:00+00:00",
+        "summary": "These culinary cozy mystery series feature foodie sleuths who specialize in cuisines ranging from French to Chinese to Soul Food and beyond."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "8 Terrific Middle Grade Books to Look Forward to this Fall",
+        "source_url": "https://bookriot.com/fall-2026-middle-grade-books/",
+        "published_at": "2026-08-17T10:02:00+00:00",
+        "summary": "These eight middle grade books coming out in fall 2026 will be great on any young–or not-so-young–book lover's TBR."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "YA Series Books Where The Sequel Is Better Than The First",
+        "source_url": "https://bookriot.com/ya-series-books-where-the-sequel-is-better/",
+        "published_at": "2026-08-17T10:01:00+00:00",
+        "summary": "Sometimes the first book in a new series isn't the best book. Sometimes, it's the second, as is the case with these YA series."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Literary Hub",
+        "headline": "Why Thoreau and Walden Resonate With Chinese Youth",
+        "source_url": "https://lithub.com/why-thoreau-and-walden-resonate-with-chinese-youth/",
+        "published_at": "2026-08-17T09:10:55+00:00",
+        "summary": "When I translated Walden in 2012, I was not a Thoreau scholar. I was an immigrant chasing the American dream: two kids, two cars, two houses, a long commute to a corporate job. Translating Walden became my escape hatch. While"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Literary Hub",
+        "headline": "Reinventing the Slave Narrative: Ishmael Reed on Flight to Canada at 50",
+        "source_url": "https://lithub.com/reinventing-the-slave-narrative-ishmael-reed-on-flight-to-canada-at-50/",
+        "published_at": "2026-08-17T09:10:33+00:00",
+        "summary": "I was fourteen when my interest in history began. I placed third in Buffalo’s citywide Richmond Speaking Contest. All three of us winners received certificates for book purchases, and I bought a picture book about Stalin’s regime. I became so"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Literary Hub",
+        "headline": "After Six Decades and Thirty Novels Jodi Picoult Was Missing One Thing: A Tattoo",
+        "source_url": "https://lithub.com/after-six-decades-and-thirty-novels-jodi-picoult-was-missing-one-thing-a-tattoo/",
+        "published_at": "2026-08-17T09:10:18+00:00",
+        "summary": "I didn’t care about turning forty. When fifty rolled around, I celebrated. At 55, my neighbor took a picture of me under a matching speed limit sign and we both laughed. Then came sixty. Several months before my birthday I"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Literary Hub",
+        "headline": "On Good Fat, Bad Fat, and the Problems With BMI",
+        "source_url": "https://lithub.com/on-good-fat-bad-fat-and-the-problems-with-bmi/",
+        "published_at": "2026-08-17T09:09:43+00:00",
+        "summary": "Today, the terms “obese” and “overweight” have precise medical definitions based on how much someone weighs relative to their height, but this is a modern formulation. Until recently, people knew their height but almost no one could measure their weight,"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Literary Hub",
+        "headline": "Rebecca Solnit: When Penelope Tried to Spin Her Own Fate",
+        "source_url": "https://lithub.com/rebecca-solnit-when-penelope-tried-to-spin-her-own-fate/",
+        "published_at": "2026-08-17T09:08:53+00:00",
+        "summary": "From long before the time of Homer until the recent past—and in the present in some traditional societies—turning an amorphous mass of wool into thread via spinning and then weaving that into fabric was both an important skill and a"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Literary Hub",
+        "headline": "Everything But the Burden: Greg Tate, John Henryism, and the Cost of Solidarity",
+        "source_url": "https://lithub.com/everything-but-the-burden-greg-tate-john-henryism-and-the-cost-of-solidarity/",
+        "published_at": "2026-08-17T09:08:33+00:00",
+        "summary": "Praise be to Akhenaten, to Cleopatra, to Ra, Sun Ra, Iris, Osiris and all the ancestors and ancestresses: Flyboy in the Buttermilk, by the late, great Greg Tate—that posthumous Pulitzer Prize-winning polymorphous polymath, the heppest cat to ever done bee"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Literary Hub",
+        "headline": "Read an Original Review of All the King’s Men on Its 80th Anniversary",
+        "source_url": "https://lithub.com/read-an-original-review-of-all-the-kings-men-on-its-80th-anniversary/",
+        "published_at": "2026-08-17T09:08:17+00:00",
+        "summary": "Perhaps you’ve recently been feeling a call to reread Robert Penn Warren’s Pulitzer Prize-winning novel, All the King’s Men. It could be because our world is a disturbing mirror to that dystopian tale of populism. It could be because we"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Literary Hub",
+        "headline": "This Week in Literary History: Joseph Conrad Becomes a British Subject",
+        "source_url": "https://lithub.com/this-week-in-literary-history-joseph-conrad-becomes-a-british-subject/",
+        "published_at": "2026-08-17T09:07:30+00:00",
+        "summary": "This first appeared in Lit Hub’s Literary History newsletter—sign up here. Joseph Conrad was born in Berdychiv, in Russian-controlled Ukraine, in an area that had once been Poland, as Józef Teodor Konrad Korzeniowski. When he was eleven, both his parents died from"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Edwidge Danticat Explores the “Precarity of Life” in Her New Novel",
+        "source_url": "https://www.nytimes.com/2026/08/17/books/review/edwidge-danticat-dey-miami.html",
+        "published_at": "2026-08-17T09:00:09+00:00",
+        "summary": "A terrifying personal experience inspired Edwidge Danticat’s fifth novel, which is set in Miami and Brooklyn, but with Haiti always in mind."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "The Ego Trip by Kimon de Greef review – a bizarre tale of psychedelic toads and hair-raising treatments",
+        "source_url": "https://www.theguardian.com/books/2026/aug/17/the-ego-trip-by-kimon-de-greef-review-a-bizarre-tale-of-psychedelic-toads-and-hair-raising-treatments",
+        "published_at": "2026-08-17T08:00:49+00:00",
+        "summary": "<p>A journalist investigates the unsettling world of a charismatic shaman and the people who trusted him</p><p>Which, in your opinion, is the worst current cultural trend: social media influencers; unregulated wellness practitioners; macho manosphere posturers; psychedelic bores; cultural appropriators? The good news is that, with Octavio Rettig, the central character in Kimon de Greef’s The Ego Trip, you don’t have to choose between them. He’s all five wrapped into one objectionable package, and so much more besides.</p><p>The tale begins with the Sonoran desert toad, an improbable amphibian that spends most of its life hiding underground in the baking badlands along the Mexico-Arizona border, and has done so blamelessly for millions of years. Whenever it rains, the toads emerge from their hiding places to mate, laying strings of eggs wherever water has pooled.</p> <a href=\"https://www.theguardian.com/books/2026/aug/17/the-ego-trip-by-kimon-de-greef-review-a-bizarre-tale-of-psychedelic-toads-and-hair-raising-treatments\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Agrippa by Robert Harris review – persuasive portrait of rivalry in ancient Rome",
+        "source_url": "https://www.theguardian.com/books/2026/aug/17/agrippa-by-robert-harris-review-persuasive-portrait-of-rivalry-in-ancient-rome",
+        "published_at": "2026-08-17T06:00:46+00:00",
+        "summary": "<p>This fictional memoir by Octavius’s right-hand man shows us bloodshed, betrayal and hectic jockeying for power</p><p>If you’re one of those people who thinks about the Roman empire several times a week, Robert Harris has you covered. He follows his trilogy of novels about the life of Cicero and his one-off about the unpleasantness in Pompeii with a narrative that takes us from civil war through the assassination of Julius Caesar, with all the bickering and bloodshed that follows, on to the decisive battle of Actium and Octavius’s apotheosis as Caesar Augustus. We meet Cicero, Fulvia, Lepidus, two Caesars and a burly Antony (“Imagine, if you will, a statue of Hercules with a club in one hand, a wineskin in the other”).</p><p>Here’s the clever bit: he narrates it all from the point of view of Octavius’s right-hand man, Agrippa, a much less well-remembered figure. Harris tells us he “left behind no speeches, few letters and only a couple of sentences of direct quotation”. Yet Agrippa was “effective co-ruler of the Roman world for many years” and “the greatest general of the period”. Octavius couldn’t have risen without him, but he seems to have done his best to write him out of the story afterwards, according him only two passing mentions in the Res Gestae Divi Augusti.</p> <a href=\"https://www.theguardian.com/books/2026/aug/17/agrippa-by-robert-harris-review-persuasive-portrait-of-rivalry-in-ancient-rome\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Ingram’s Covered Launches for Booksellers and Librarians",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101063-ingram-s-covered-begins-offering-drcs-to-booksellers-and-librarians.html",
+        "published_at": "2026-08-17T04:00:00+00:00",
+        "summary": "Ingram’s Covered Launches for Booksellers and Librarians"
       }
     },
     {
@@ -63,73 +324,10 @@
     {
       "event_model_payload": {
         "source_name": "알라딘 베스트셀러",
-        "headline": "15위 고양이는 고양이가 알려 드림",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=398737853&radar_rank=15&radar_ranking_date=20260816220050",
+        "headline": "3위 싯다르타",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=329596&radar_rank=3&radar_ranking_date=20260816220050",
         "published_at": "2026-08-16T22:00:50+00:00",
-        "summary": "고양이는 고양이가 알려 드림 이용한 지음, 스노우캣 그림, 김명철 감수 / 책읽는곰 / 2026년 08월 / ISBN: 9791158366346 정가: 16,800 원 / 판매가: 15,120 원 / 마일리지: 840 원 이벤트 : 가장 주목받는 어린이 화제의 책 + 캐리어·백 리플렉터 택 세트(택1, 대상도서 15,000원 이상) 대한민국 대표 고양이 작가의 어린이를 위한 첫 번째 고양이 안내서. 고양이를 좋아하는 마음을 제대로, 올바르게 표현할 수 있도록 아홉 마리 고양이가 어린이에게 말을 건넨다. 고양이의 역사는 도서관 고양이가, 고양이의 신체 특징은 요가 학원 고양이가, 고양이의 건강 관리는 동물병원 고양이가 저마다 아는 대로 가르쳐 준다. 상황에 꼭 맞는 고양이들의 절묘한 사진과 개성 있는 고양이 캐릭터들이 정보를 전하는 한편 고양이의 매력을 한껏 보여 준다. 각 장이 끝날 때마다 나타나는 궁금냥이는 고양이가 나오는 속담, 고양이가 먹으면 안 되는 음식 등 지나치기 아쉬운 정보를 물어봐 준다. 골골송, 우다다, 냥냥펀치 같은 고양이 용어도 한데 모아 특별 부록으로 담았다. 고양이를 귀여워하는 마음에서 시작된 호기심을 정확한 지식으로 채워 주고, 더 나아가 생명을 존중하는 마음과 반려동물에 대한 책임감까지 길러 줄 고양이 책이다."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "7위 원소 원정대",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=393526281&radar_rank=7&radar_ranking_date=20260816220050",
-        "published_at": "2026-08-16T22:00:50+00:00",
-        "summary": "원소 원정대 아게도리도리 지음, 박재현 옮김, 장홍제 감수 / 윌북주니어 / 2026년 05월 / ISBN: 9791155819326 정가: 19,800 원 / 판매가: 17,820 원 / 마일리지: 990 원 이벤트 : 화제의 책 + 알라딘 굿즈 (이벤트 도서 포함, 국내도서 3만원 이상) 원소 주기율표 속 원소들을 생동감 넘치는 캐릭터와 웅장한 세계관으로 만날 수 있는 신개념 화학책 『원소 원정대 : 118개 캐릭터로 마스터하는 주기율표 공략집』이 윌북주니어에서 출간되었다. 『원소 원정대』는 원소 주기율표와 각 원소들의 특성, 상호 작용 등을 게임 공략집처럼 재미있고 자연스럽게 익힐 수 있는 과학책이다. 어릴 적 공룡 이름을 달달 외던 것처럼, 원소들이 가진 장대한 서사와 광활한 대륙을 탐험하며 게임 공략집 보듯이 원소에 대해 익힐 수 있다. 이 책은 창세기전, 블레이드 앤 소울 등 판타지 게임과 높은 퀄리티의 극장판 애니메이션 작화를 떠오르게 하는 세련된 일러스트, 화려하고 흥미진진한 구성으로 얼핏 보아도 눈이 즐거운 책이다. 또한 원소를 단순하게 의인화하는 데에서 그치지 않고 원소 주기율표를 바탕으로 원소들이 사는 세상을 창조했다. 이렇게 탄생한 원소 캐릭터들이 족과 주기에 따라 때로는 함께 활동하고 때로는 반목하는 모습을 보며 생동감과 서사를 느낄 수 있다. 다양한 원소 캐릭터를 만나고 주기율표의 세계를 탐험하다 보면 아무리 화학을 어려워하는 독자라도 이 세계에 푹 빠져든다. 새로운 사실이 발견되면 수정되는 것이 과학 지식이다. 이 책은 11만 화학 유튜버이자 매드 사이언티스트로 불리는 광운대학교 화학과 장홍제 교수가 꼼꼼히 감수해 지금 이 순간 가장 정확한 과학 지식을 담았다. 또한 학교에서도 가르쳐 주지 않는 화학의 심연까지 들여다볼 수 있다. 『원소 원정대』와 함께 세상에서 가장 작은 존재인 원소들이 만드는 거대한 이야기로 떠나 보자. 마이리뷰(0) 평점: | Sales Point : 52,290 원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집 - pukaka71 원소 원정대 - pinkpcl 게임처럼 즐기는 원소 이야기 - 루나 원소 원정대 너무 재밌어서 밤새 보네요 - 푸카콕 원소 원정대 -118개 캐릭터로 게임처럼 마스터하는 주기율표 - 댄스는 맨홀"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "12위 수족관",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=330811810&radar_rank=12&radar_ranking_date=20260816220050",
-        "published_at": "2026-08-16T22:00:50+00:00",
-        "summary": "수족관 유래혁 지음 / 포스터샵 / 2023년 12월 / ISBN: 9791198547514 정가: 17,700 원 / 판매가: 15,930 원 / 마일리지: 880 원 이벤트 : 유래혁 <수족관> 성률 일러스트 투명 책갈피 (소설 2만원 이상) 유래혁 소설. 보육 시설에서 자라난 인물 ‘류이치’가, 먼저 보육 시설에서 도망쳐나온 인물 ‘아카리’를 만나 겪게 되는 일들을 그려낸다. 이 두 인물은 자신들이 가진 뿌리 깊은 과거와 상처, 그 이야기가 만들어낸 수족관에서 만나 입을 맞추고, 서로의 숨을 훔쳐가면서도 언젠가 오키나와의 너른 바다에 도착하는 꿈을 나눈다. 이 둘은 수족관을 벗어나 눈부신 햇살 아래 들려오는 파도 소리를 들을 수 있을까. 마이리뷰(0) 평점: | Sales Point : 124,965 [마이리뷰] 수족관 - 89700326 헉생이 쓴 팬픽 읽는 느낌.. - Collins_swag [마이리뷰] 수족관 - JYOH 💙<<수족관 _ 유래혁 장편소설>>💙 - 윤딩 [마이리뷰] 수족관 - 제로북_서재"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "6위 찌니주의보",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=400137507&radar_rank=6&radar_ranking_date=20260816220050",
-        "published_at": "2026-08-16T22:00:50+00:00",
-        "summary": "찌니주의보 정지아 지음 / 창비 / 2026년 08월 / ISBN: 9788936439996 정가: 16,800 원 / 판매가: 15,120 원 / 마일리지: 840 원 이벤트 : 정지아 장편소설 <찌니주의보> 멜라민 트레이 (국내도서 2만원 이상) 한국현대사의 굵은 상흔을 남도의 구수한 입말과 뜨거운 인간애로 풀어내며 40만 독자의 마음을 사로잡은 『아버지의 해방일지』(창비 2022). 그 신드롬의 주인공 정지아가 4년 만의 신작 장편소설 『찌니주의보』로 돌아왔다. 전작에서 이념과 역사의 비극을 눈물겨운 해학으로 승화시키며 독보적인 이야기꾼으로 자리매김한 그가 이번에 펼쳐 보이는 무대는 평균 연령 일흔여덟살의 산골 ‘수평마을’이다. 『아버지의 해방일지』가 아버지의 장례식을 통해 역사와 이념 너머 한 인간의 전모를 발견하는 소설이었다면, 『찌니주의보』는 낯선 이웃과 밥을 나누며 정체성과 편견 너머 사람을 다시 바라보는 이야기다. 전작이 거침없는 웃음 뒤에 묵직한 슬픔을 남겼다면, 이번 작품은 좀더 빠르고 경쾌한 소동 속에서 더 풍성한 감정의 파고를 만들어낸다. 이성애자와 성소수자, 토박이와 귀촌인, 한국인과 이주여성, 도시의 젊은이와 농촌의 노인들…… 살아온 시간도 사랑의 방식도 전혀 다른 이들이 한마을에 모여 흉을 보고 싸우고 밥을 먹이며 어느새 이웃이 되어가는 과정이 생생하게 펄떡인다. 정지아 특유의 천연덕스러운 유머는 한층 능청스러워졌고, 인간의 모순과 상처를 헤아리는 다정한 시선은 더욱 섬세해졌다. 익숙한 마을의 정서와 오늘의 첨예한 문제를 한데 품은 이 소설은 전작의 팬부터 처음 정지아를 만나는 독자까지, 세대와 취향 차이를 넘어 한자리에서 웃게 하는 힘을 지녔다. 마이리뷰(0) 평점: | Sales Point : 37,370 밥은 멕여야하는 시골 인심 - ayayeun [마이리뷰] 찌니주의보 - JYOH 서로 다른 사람들이 함께 살아간다는 것 - 남문서점 [마이리뷰] 찌니주의보 - mailbird 당신은 선 밖의 사람인가? 선 안의 사람인가? - spumante"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "9위 사카모토 데이즈 27 (더블 특전판)",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=400365190&radar_rank=9&radar_ranking_date=20260816220050",
-        "published_at": "2026-08-16T22:00:50+00:00",
-        "summary": "사카모토 데이즈 27 (더블 특전판) 스즈키 유우토 지음 / 대원씨아이(만화) / 2026년 08월 / ISBN: 9791142361241 정가: 6,500 원 / 판매가: 5,850 원 / 마일리지: 320 원 이벤트 : <사카모토 데이즈 27> 증명사진 아크릴 스탠드 (만화.라노벨 1만 5천원 이상 구매 시)"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "10위 프로젝트 헤일메리 (알라딘 리커버 특별판)",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=396798366&radar_rank=10&radar_ranking_date=20260816220050",
-        "published_at": "2026-08-16T22:00:50+00:00",
-        "summary": "프로젝트 헤일메리 (알라딘 리커버 특별판) 앤디 위어 지음, 강동혁 옮김 / 알에이치코리아(RHK) / 2026년 07월 / ISBN: 9788925568645 정가: 22,000 원 / 판매가: 19,800 원 / 마일리지: 1,100 원 이벤트 : 어나더커버 프로젝트 102탄. 앤디 위어 우주 3부작 영화 〈프로젝트 헤일메리〉 원작. 《마션》과 《아르테미스》에 이어 발표한 작품마다 뉴욕 타임스와 아마존 베스트셀러에 이름을 올린 앤디 위어의 장편소설이다. 과학적 사실을 조사하고 검증하는 것으로 정평이 난 작가의 탄탄한 과학적 지식과 낙관적 감수성이 어우러진 SF다. 긴 수면 끝에 우주 한가운데서 눈을 뜬 남성은 자신의 이름조차 기억하지 못한 채 홀로 우주선에 남아 있다. 동료들은 모두 사망했고, 기억을 더듬어가던 그는 자신이 인류를 구할 마지막 희망이자 지구로 돌아가지 못할 과학자라는 사실을 깨닫는다. 태양의 온도를 떨어뜨리는 미지의 생명체 ‘아스트로파지’로 인해 멸망 위기에 처한 지구를 살리려 그는 ‘편도행’ 우주선에 몸을 실었다. 과학적 정밀함 위에 쉼 없이 위기가 쌓이고 해결되는 페이지터너이자, 공생과 연대, 종을 넘어서는 우정에 관한 이야기다. 오일러 공식부터 공기역학, 골디락스 존까지 치밀하게 작동하는 설정 속에서 절망 속에서도 농담을 잃지 않는 주인공과 작가 특유의 낙관이 소설을 끝까지 이끈다. 마이리뷰(0) 평점: | Sales Point : 411,854 프로젝트 헤일메리 - 패스파인더 강요된 영웅 - 프링크리 외계인과의 만남 - 닷슈 그레이스와 로키의 우정에서 읽은 것들 - 책판다 다정을 주고 받을 때 생기는 우주적 관계 - 노루귀"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "14위 오디세이 각본집",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=399454100&radar_rank=14&radar_ranking_date=20260816220050",
-        "published_at": "2026-08-16T22:00:50+00:00",
-        "summary": "오디세이 각본집 크리스토퍼 놀란 지음, 김은주 옮김 / 웅진지식하우스 / 2026년 08월 / ISBN: 9788901300412 정가: 21,000 원 / 판매가: 18,900 원 / 마일리지: 1,050 원 이벤트 : <오디세이 각본집> 기대평 + 영화예매권 (1인 1매, 추첨) 글로벌 흥행 수익 11억 달러를 돌파하며 크리스토퍼 놀란 감독 역대 최고 흥행작에 오른 〈오디세이〉 오리지널 각본집이 국내에 정식 출간됐다. 고대 그리스 작가 호메로스의 대서사시 『오디세이아』를 각색한 이번 작품은 끝없는 망망대해, 대규모 전투, 괴물과 신들이 등장하는 신화적 세계를 생생하게 재현해낸다. 동시에 끝없는 유혹과 시련, 고난 속에서도 재회를 위해 고군분투하는 한 가족의 인간적인 이야기를 감동적으로 전한다. 특히 『오디세이 각본집』은 놀란 감독의 의도와 열망이 가장 선명하게 담긴 영화의 청사진이다. 스크린과 상영시간이라는 물리적 한계를 벗어나, 놀란 감독의 마음을 사로잡았던 오디세우스의 이야기를 원형 그대로 만날 수 있는 〈오디세이〉의 ‘무삭제 감독판’인 셈이다. 독자는 이 책에서 1만 2천여 행, 24권에 달하는 『오디세이아』 원전을 약 3시간 분량의 현대적 대서사시로 응축해낸 놀라운 구성력과 인간의 의지와 운명에 관한 깊이 있는 통찰을 모두 만나게 된다. 영화 포스터 이미지로 디자인된 ‘스페셜 양면 커버’와 국내 번역판에 단독으로 실린 ‘영화 공식 스틸컷’은 각본집의 소장 가치를 한층 높인다. 영화를 본 독자에게는 읽는 재미를 곁들인 새로운 N차 관람의 묘미로, 영화를 보기 전 독자에게는 극장에서의 몰입을 더욱 깊게 만들어줄 마중물로 손색이 없을 것이다. 마이리뷰(0) 평점: | Sales Point : 38,850 [마이리뷰] 오디세이 각본집 - 머리쓰기&글쓰기"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "8위 투명한 나선",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=398021172&radar_rank=8&radar_ranking_date=20260816220050",
-        "published_at": "2026-08-16T22:00:50+00:00",
-        "summary": "투명한 나선 히가시노 게이고 지음, 김선영 옮김 / 북다 / 2026년 07월 / ISBN: 9791170614043 정가: 22,000 원 / 판매가: 19,800 원 / 마일리지: 1,100 원 이벤트 : <투명한 나선> + 변색 유리컵 ‘오늘의 일본을 대표하는 작가’, ‘동아시아에서 가장 사랑받는 미스터리 작가’, ‘한국인이 제일 좋아하는 일본 장르소설 작가’ 히가시노 게이고의 장편소설. 1996년 일본에서 처음 연재되어 2026년 30주년을 맞이한 갈릴레오 시리즈의 열 번째 작품인 『투명한 나선』은 2021년 일본 출간 즉시 토한 종합 1위를 비롯하여 각종 서점 베스트셀러 랭킹되며 여전한 인기를 증명했다. 그동안 베일에 싸여 있던 주인공 유카와 마나부의 비밀이 처음 밝혀지는 『투명한 나선』은 갈릴레오 시리즈의 새로운 전환점이 되는 작품이다. 도쿄 인근 지바현 바다에서 등에 총상을 입은 남성의 시신이 떠오른다. 그의 신원이 확인되는 동시에 남성을 실종 신고한 동거 여성이 자취를 감춘다. 사건을 맡은 형사 구사나기와 우쓰미는 수사 과정에서 뜻밖에 유카와의 이름을 발견한다. 구사나기는 오랜 친구를 찾아가 도움을 요청하나 유카와는 그의 청을 단번에 거절한다. 그런데 구사나기를 배웅하던 유카와가 돌연 다른 방식으로 수사에 협조하겠다고 말한다. 이후 유카와와 사건 관련 장소를 방문한 우쓰미는 이 물리학자가 무언가를 숨기고 있음을 직감한다. 그러나 수사는 좀처럼 진전되지 않고 경찰은 번번이 실마리를 놓치고 만다. 이에 유카와는 마침내 오랫동안 간직해 온 비밀을 스스로 밝히게 되는데……. 유카와는 긴 세월 어떤 진실을 혼자 끌어안고 살아온 걸까? 그것이 이 사건과 무슨 연관성이 있는 걸까? 그가 스스로 사건에 관여한 이유는 무엇일까? 『투명한 나선』에 대해 작가는 “한마디로 설명할 수 없는 작품입니다. 오랫동안 작가만이 간직했던 이야기를 비로소 풀어냈습니다. 갈릴레오 팬이라면 분명 놀랄 것이고, 히가시노 팬이라면 더욱 놀랄 것입니다”라고 말했다. 전혀 다른 두 개의 사건이 우연한 계기로 겹쳐짐으로써 드러나는 진실. 이것을 과학으로만 설명할 수 있을까? 마이리뷰(0) 평점: | Sales Point : 124,135 <투명한 나선>을 읽고 - 플라뇌르 한 남자로서의 유카와 마나부 - 이지현 투명한 나선 책 줄거리 서평 히가시노게이고추천 추리소설 - 지유 유카와의 비밀이 수록된 갈릴레오 시리즈 최신작 <투명한 나선> - 마법사의도시 투명한 나선 - 히가시노 게이고 - 김권호"
+        "summary": "싯다르타 헤르만 헤세 지음, 박병덕 옮김 / 민음사 / 2002년 01월 / ISBN: 9788937460586 정가: 8,000 원 / 판매가: 7,200 원 / 마일리지: 400 원 이벤트 : SNS 화제의 책 + 알라딘 굿즈 (이벤트 도서 포함, 국내도서 3만원 이상) 헤세가 거의 일 년 반 동안 창작이 거의 불가능할 정도로 심한 우울증을 앓다가 정신 치료를 받은 후 발표한 작품이다. 동서양의 정신적 유산을 시적으로 승화한 일종의 종교적 성장소설로 볼 수 있는데 영원을 향한 갈망과 인간의 내면을 깊이 파고드는 초월에 대한 의지를 단순하고도 서정적인 문체로 담아냈다. 정형화된 종교 교리와 자족적인 영혼의 성찰 사이의 고뇌를 섬세하게 그리며 자아 발견을 위한 길이 하나로 정해져 있지 않음을 시사하고 철학이나 종교, 그 밖의 모든 신념에 맹목적으로 의지하고자 하는 고정관념에 도전한 작품이다. 마이리뷰(0) 평점: | Sales Point : 298,311 싯다르타. 내 삶에서 - pleasetrust800604 삶의 깨달음을 찾아가는 여정 <싯다르타> - 우끼끼양 싯다르타 - miseong.books 결국 삶은 답이 아닌 흐름일지도 - 짱고아빠 [마이리뷰] 싯다르타 - 쏠라시도"
       }
     },
     {
@@ -153,10 +351,46 @@
     {
       "event_model_payload": {
         "source_name": "알라딘 베스트셀러",
-        "headline": "11위 태양 아래 올리브",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=399872461&radar_rank=11&radar_ranking_date=20260816220050",
+        "headline": "14위 오디세이 각본집",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=399454100&radar_rank=14&radar_ranking_date=20260816220050",
         "published_at": "2026-08-16T22:00:50+00:00",
-        "summary": "태양 아래 올리브 김초엽 지음 / 자이언트북스 / 2026년 08월 / ISBN: 9791191824582 정가: 19,800 원 / 판매가: 17,820 원 / 마일리지: 990 원 이벤트 : 책 모양 클릭커/투명 책갈피 (김초엽 장편소설 <태양 아래 올리브> 포함 국내도서 2만원 이상) 『지구 끝의 온실』과 『파견자들』에서 낯선 세계를 열고 인간과 비인간의 경계를 탐색해온 김초엽이 세 번째 장편소설 『태양 아래 올리브』로 돌아왔다. 장편으로는 『파견자들』 이후 3년 만이다. 이번에 작가의 시선은 신앙과 과학, 믿음과 의심이 맞부딪치는 자리로 향한다. 그 길 위에 수녀와 과학 유튜버라는, 좀처럼 한 팀이 될 것 같지 않은 두 사람을 세운다. 기후 재난 현장을 누비는 수녀 이레는 처음 만난 사람의 사정에도 금세 귀를 기울이고, 도움이 필요한 곳이라면 몸이 먼저 나간다. 과학기술 정책 매거진의 에디터이자 익명 채널 ‘미놋’을 운영하는 솔민은 말과 행동 사이의 모순을 놓치지 않고, 과학의 이름을 빌린 허위 주장과 맹신을 집요하게 저격한다. 이레에게 믿음은 숨 쉬듯 몸에 밴 삶의 방식이고, 솔민에게 신앙은 근거를 통해 검증해야 할 대상이다. 그토록 다른 두 사람은 한때 가족처럼 가까웠다. 가장 아픈 말을 남긴 채 헤어진 지 8년, 수상한 전화가 둘을 다시 같은 길 위에 올려놓는다. 한국에서 시작된 이야기는 하노이 공항과 라오스로 향하는 열차를 거쳐 메콩강과 태국 북부의 산길까지 쉼 없이 나아간다. 계획은 어긋나고, 단서는 꼬리를 물고, 두 사람은 사사건건 부딪친다. 하지만 바로 그 엇박자가 이 소설의 엔진이다. 이레는 눈앞의 사람부터 구하고, 솔민은 빠져나갈 경로부터 계산한다. 서로의 방식은 위기를 만들기도 하고, 다시 그 위기에서 빠져나올 열쇠가 되기도 한다. [ more... ] 마이리뷰(0) 평점: | Sales Point : 75,620 태양아래 올리브 - 플라뇌르 인간을 인간으로 규정하는 것은? - 책수집가 태양 아래 올리브 가제본 서평 - 읽는사이에_수수 태양 아래 올리브 - 타인에게말걸기 좋습니다^^ - 김가희"
+        "summary": "오디세이 각본집 크리스토퍼 놀란 지음, 김은주 옮김 / 웅진지식하우스 / 2026년 08월 / ISBN: 9788901300412 정가: 21,000 원 / 판매가: 18,900 원 / 마일리지: 1,050 원 이벤트 : <오디세이 각본집> 기대평 + 영화예매권 (1인 1매, 추첨) 글로벌 흥행 수익 11억 달러를 돌파하며 크리스토퍼 놀란 감독 역대 최고 흥행작에 오른 〈오디세이〉 오리지널 각본집이 국내에 정식 출간됐다. 고대 그리스 작가 호메로스의 대서사시 『오디세이아』를 각색한 이번 작품은 끝없는 망망대해, 대규모 전투, 괴물과 신들이 등장하는 신화적 세계를 생생하게 재현해낸다. 동시에 끝없는 유혹과 시련, 고난 속에서도 재회를 위해 고군분투하는 한 가족의 인간적인 이야기를 감동적으로 전한다. 특히 『오디세이 각본집』은 놀란 감독의 의도와 열망이 가장 선명하게 담긴 영화의 청사진이다. 스크린과 상영시간이라는 물리적 한계를 벗어나, 놀란 감독의 마음을 사로잡았던 오디세우스의 이야기를 원형 그대로 만날 수 있는 〈오디세이〉의 ‘무삭제 감독판’인 셈이다. 독자는 이 책에서 1만 2천여 행, 24권에 달하는 『오디세이아』 원전을 약 3시간 분량의 현대적 대서사시로 응축해낸 놀라운 구성력과 인간의 의지와 운명에 관한 깊이 있는 통찰을 모두 만나게 된다. 영화 포스터 이미지로 디자인된 ‘스페셜 양면 커버’와 국내 번역판에 단독으로 실린 ‘영화 공식 스틸컷’은 각본집의 소장 가치를 한층 높인다. 영화를 본 독자에게는 읽는 재미를 곁들인 새로운 N차 관람의 묘미로, 영화를 보기 전 독자에게는 극장에서의 몰입을 더욱 깊게 만들어줄 마중물로 손색이 없을 것이다. 마이리뷰(0) 평점: | Sales Point : 38,850 [마이리뷰] 오디세이 각본집 - 머리쓰기&글쓰기"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "6위 찌니주의보",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=400137507&radar_rank=6&radar_ranking_date=20260816220050",
+        "published_at": "2026-08-16T22:00:50+00:00",
+        "summary": "찌니주의보 정지아 지음 / 창비 / 2026년 08월 / ISBN: 9788936439996 정가: 16,800 원 / 판매가: 15,120 원 / 마일리지: 840 원 이벤트 : 정지아 장편소설 <찌니주의보> 멜라민 트레이 (국내도서 2만원 이상) 한국현대사의 굵은 상흔을 남도의 구수한 입말과 뜨거운 인간애로 풀어내며 40만 독자의 마음을 사로잡은 『아버지의 해방일지』(창비 2022). 그 신드롬의 주인공 정지아가 4년 만의 신작 장편소설 『찌니주의보』로 돌아왔다. 전작에서 이념과 역사의 비극을 눈물겨운 해학으로 승화시키며 독보적인 이야기꾼으로 자리매김한 그가 이번에 펼쳐 보이는 무대는 평균 연령 일흔여덟살의 산골 ‘수평마을’이다. 『아버지의 해방일지』가 아버지의 장례식을 통해 역사와 이념 너머 한 인간의 전모를 발견하는 소설이었다면, 『찌니주의보』는 낯선 이웃과 밥을 나누며 정체성과 편견 너머 사람을 다시 바라보는 이야기다. 전작이 거침없는 웃음 뒤에 묵직한 슬픔을 남겼다면, 이번 작품은 좀더 빠르고 경쾌한 소동 속에서 더 풍성한 감정의 파고를 만들어낸다. 이성애자와 성소수자, 토박이와 귀촌인, 한국인과 이주여성, 도시의 젊은이와 농촌의 노인들…… 살아온 시간도 사랑의 방식도 전혀 다른 이들이 한마을에 모여 흉을 보고 싸우고 밥을 먹이며 어느새 이웃이 되어가는 과정이 생생하게 펄떡인다. 정지아 특유의 천연덕스러운 유머는 한층 능청스러워졌고, 인간의 모순과 상처를 헤아리는 다정한 시선은 더욱 섬세해졌다. 익숙한 마을의 정서와 오늘의 첨예한 문제를 한데 품은 이 소설은 전작의 팬부터 처음 정지아를 만나는 독자까지, 세대와 취향 차이를 넘어 한자리에서 웃게 하는 힘을 지녔다. 마이리뷰(0) 평점: | Sales Point : 37,370 밥은 멕여야하는 시골 인심 - ayayeun [마이리뷰] 찌니주의보 - JYOH 서로 다른 사람들이 함께 살아간다는 것 - 남문서점 [마이리뷰] 찌니주의보 - mailbird 당신은 선 밖의 사람인가? 선 안의 사람인가? - spumante"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "15위 고양이는 고양이가 알려 드림",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=398737853&radar_rank=15&radar_ranking_date=20260816220050",
+        "published_at": "2026-08-16T22:00:50+00:00",
+        "summary": "고양이는 고양이가 알려 드림 이용한 지음, 스노우캣 그림, 김명철 감수 / 책읽는곰 / 2026년 08월 / ISBN: 9791158366346 정가: 16,800 원 / 판매가: 15,120 원 / 마일리지: 840 원 이벤트 : 가장 주목받는 어린이 화제의 책 + 캐리어·백 리플렉터 택 세트(택1, 대상도서 15,000원 이상) 대한민국 대표 고양이 작가의 어린이를 위한 첫 번째 고양이 안내서. 고양이를 좋아하는 마음을 제대로, 올바르게 표현할 수 있도록 아홉 마리 고양이가 어린이에게 말을 건넨다. 고양이의 역사는 도서관 고양이가, 고양이의 신체 특징은 요가 학원 고양이가, 고양이의 건강 관리는 동물병원 고양이가 저마다 아는 대로 가르쳐 준다. 상황에 꼭 맞는 고양이들의 절묘한 사진과 개성 있는 고양이 캐릭터들이 정보를 전하는 한편 고양이의 매력을 한껏 보여 준다. 각 장이 끝날 때마다 나타나는 궁금냥이는 고양이가 나오는 속담, 고양이가 먹으면 안 되는 음식 등 지나치기 아쉬운 정보를 물어봐 준다. 골골송, 우다다, 냥냥펀치 같은 고양이 용어도 한데 모아 특별 부록으로 담았다. 고양이를 귀여워하는 마음에서 시작된 호기심을 정확한 지식으로 채워 주고, 더 나아가 생명을 존중하는 마음과 반려동물에 대한 책임감까지 길러 줄 고양이 책이다."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "9위 사카모토 데이즈 27 (더블 특전판)",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=400365190&radar_rank=9&radar_ranking_date=20260816220050",
+        "published_at": "2026-08-16T22:00:50+00:00",
+        "summary": "사카모토 데이즈 27 (더블 특전판) 스즈키 유우토 지음 / 대원씨아이(만화) / 2026년 08월 / ISBN: 9791142361241 정가: 6,500 원 / 판매가: 5,850 원 / 마일리지: 320 원 이벤트 : <사카모토 데이즈 27> 증명사진 아크릴 스탠드 (만화.라노벨 1만 5천원 이상 구매 시)"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "5위 오디세이아 (국내 유일 명화 104점 수록 완역본)",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=362390080&radar_rank=5&radar_ranking_date=20260816220050",
+        "published_at": "2026-08-16T22:00:50+00:00",
+        "summary": "오디세이아 (국내 유일 명화 104점 수록 완역본) 호메로스 지음, 페테르 파울 루벤스 외 그림, 박문재 옮김 / 현대지성 / 2025년 04월 / ISBN: 9791139721973 정가: 27,000 원 / 판매가: 24,300 원 / 마일리지: 1,350 원 이벤트 : The odyssey + 티셔츠(대상도서 포함 국내도서 3만 5천 원 이상) 트로이아 전쟁의 영웅 오디세우스는 전쟁에서 승리한 후 고향 이타카로 돌아가려 하지만, 그의 여정은 결코 평탄치 않았다. 포세이돈의 분노, 신들의 장난, 인간의 오만과 약함은 그의 여정을 가로막고, 그는 무려 10년에 걸쳐 바다를 떠돌며 인간의 한계에 맞서 싸운다. 호메로스는 이 위대한 방랑을 통해 신과 인간이 얽힌 세계의 진실을 보여준다. 『오디세이아』는 ‘귀향’이라는 단순한 이야기 구조 속에 고대 그리스인의 세계관과 삶의 가치, 그리고 인간다운 삶의 의미를 농축시킨 작품이다. 외눈박이 거인 폴리페모스와의 대결, 마녀 키르케의 유혹, 바다의 요정 칼립소와의 시간, 바다의 신과 하늘의 신들의 끊임없는 개입 속에서 오디세우스는 단순한 영웅이 아니라, 인간의 약함과 강함을 동시에 지닌 존재로 그려진다. 현대지성 클래식의 완역본은 3,000년 전부터 구전으로 전해지던 이 서사시를, 오늘날의 독자가 온전히 음미할 수 있도록 섬세하고 충실하게 옮겼다. 104점의 명화와 이미지는 상상력을 자극하며 당시 상황과 영웅의 생애를 생생히 보여주고, 303개의 정밀한 각주와 해설은 고대 그리스의 지리, 신화, 문화적 맥락을 입체적으로 그려낸다. 특히 주요 인물과 사건의 계보, 시대적 배경까지 촘촘히 짚어내며, 단순한 독서를 넘어 깊은 통찰을 가능하게 한다. 마이리뷰(0) 평점: | Sales Point : 62,710 삼천 년을 건너온 인간의 마음 - 장지원 [마이리뷰] 오디세이아 (고대 그리스어 완역본) - 제로북_서재 인류를 사로잡은 최고의 모험담. 세심한 번역과 아름다운 삽화와 함께. - 박칼럼 서평_오디세이아_호메로스_현대 지성 - lkth3 시간과 공간을 넘어 사랑받는 고전 『오디세이아』 - 로렌"
       }
     },
     {
@@ -171,10 +405,46 @@
     {
       "event_model_payload": {
         "source_name": "알라딘 베스트셀러",
-        "headline": "3위 싯다르타",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=329596&radar_rank=3&radar_ranking_date=20260816220050",
+        "headline": "7위 원소 원정대",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=393526281&radar_rank=7&radar_ranking_date=20260816220050",
         "published_at": "2026-08-16T22:00:50+00:00",
-        "summary": "싯다르타 헤르만 헤세 지음, 박병덕 옮김 / 민음사 / 2002년 01월 / ISBN: 9788937460586 정가: 8,000 원 / 판매가: 7,200 원 / 마일리지: 400 원 이벤트 : SNS 화제의 책 + 알라딘 굿즈 (이벤트 도서 포함, 국내도서 3만원 이상) 헤세가 거의 일 년 반 동안 창작이 거의 불가능할 정도로 심한 우울증을 앓다가 정신 치료를 받은 후 발표한 작품이다. 동서양의 정신적 유산을 시적으로 승화한 일종의 종교적 성장소설로 볼 수 있는데 영원을 향한 갈망과 인간의 내면을 깊이 파고드는 초월에 대한 의지를 단순하고도 서정적인 문체로 담아냈다. 정형화된 종교 교리와 자족적인 영혼의 성찰 사이의 고뇌를 섬세하게 그리며 자아 발견을 위한 길이 하나로 정해져 있지 않음을 시사하고 철학이나 종교, 그 밖의 모든 신념에 맹목적으로 의지하고자 하는 고정관념에 도전한 작품이다. 마이리뷰(0) 평점: | Sales Point : 298,311 싯다르타. 내 삶에서 - pleasetrust800604 삶의 깨달음을 찾아가는 여정 <싯다르타> - 우끼끼양 싯다르타 - miseong.books 결국 삶은 답이 아닌 흐름일지도 - 짱고아빠 [마이리뷰] 싯다르타 - 쏠라시도"
+        "summary": "원소 원정대 아게도리도리 지음, 박재현 옮김, 장홍제 감수 / 윌북주니어 / 2026년 05월 / ISBN: 9791155819326 정가: 19,800 원 / 판매가: 17,820 원 / 마일리지: 990 원 이벤트 : 화제의 책 + 알라딘 굿즈 (이벤트 도서 포함, 국내도서 3만원 이상) 원소 주기율표 속 원소들을 생동감 넘치는 캐릭터와 웅장한 세계관으로 만날 수 있는 신개념 화학책 『원소 원정대 : 118개 캐릭터로 마스터하는 주기율표 공략집』이 윌북주니어에서 출간되었다. 『원소 원정대』는 원소 주기율표와 각 원소들의 특성, 상호 작용 등을 게임 공략집처럼 재미있고 자연스럽게 익힐 수 있는 과학책이다. 어릴 적 공룡 이름을 달달 외던 것처럼, 원소들이 가진 장대한 서사와 광활한 대륙을 탐험하며 게임 공략집 보듯이 원소에 대해 익힐 수 있다. 이 책은 창세기전, 블레이드 앤 소울 등 판타지 게임과 높은 퀄리티의 극장판 애니메이션 작화를 떠오르게 하는 세련된 일러스트, 화려하고 흥미진진한 구성으로 얼핏 보아도 눈이 즐거운 책이다. 또한 원소를 단순하게 의인화하는 데에서 그치지 않고 원소 주기율표를 바탕으로 원소들이 사는 세상을 창조했다. 이렇게 탄생한 원소 캐릭터들이 족과 주기에 따라 때로는 함께 활동하고 때로는 반목하는 모습을 보며 생동감과 서사를 느낄 수 있다. 다양한 원소 캐릭터를 만나고 주기율표의 세계를 탐험하다 보면 아무리 화학을 어려워하는 독자라도 이 세계에 푹 빠져든다. 새로운 사실이 발견되면 수정되는 것이 과학 지식이다. 이 책은 11만 화학 유튜버이자 매드 사이언티스트로 불리는 광운대학교 화학과 장홍제 교수가 꼼꼼히 감수해 지금 이 순간 가장 정확한 과학 지식을 담았다. 또한 학교에서도 가르쳐 주지 않는 화학의 심연까지 들여다볼 수 있다. 『원소 원정대』와 함께 세상에서 가장 작은 존재인 원소들이 만드는 거대한 이야기로 떠나 보자. 마이리뷰(0) 평점: | Sales Point : 52,290 원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집 - pukaka71 원소 원정대 - pinkpcl 게임처럼 즐기는 원소 이야기 - 루나 원소 원정대 너무 재밌어서 밤새 보네요 - 푸카콕 원소 원정대 -118개 캐릭터로 게임처럼 마스터하는 주기율표 - 댄스는 맨홀"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "10위 프로젝트 헤일메리 (알라딘 리커버 특별판)",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=396798366&radar_rank=10&radar_ranking_date=20260816220050",
+        "published_at": "2026-08-16T22:00:50+00:00",
+        "summary": "프로젝트 헤일메리 (알라딘 리커버 특별판) 앤디 위어 지음, 강동혁 옮김 / 알에이치코리아(RHK) / 2026년 07월 / ISBN: 9788925568645 정가: 22,000 원 / 판매가: 19,800 원 / 마일리지: 1,100 원 이벤트 : 어나더커버 프로젝트 102탄. 앤디 위어 우주 3부작 영화 〈프로젝트 헤일메리〉 원작. 《마션》과 《아르테미스》에 이어 발표한 작품마다 뉴욕 타임스와 아마존 베스트셀러에 이름을 올린 앤디 위어의 장편소설이다. 과학적 사실을 조사하고 검증하는 것으로 정평이 난 작가의 탄탄한 과학적 지식과 낙관적 감수성이 어우러진 SF다. 긴 수면 끝에 우주 한가운데서 눈을 뜬 남성은 자신의 이름조차 기억하지 못한 채 홀로 우주선에 남아 있다. 동료들은 모두 사망했고, 기억을 더듬어가던 그는 자신이 인류를 구할 마지막 희망이자 지구로 돌아가지 못할 과학자라는 사실을 깨닫는다. 태양의 온도를 떨어뜨리는 미지의 생명체 ‘아스트로파지’로 인해 멸망 위기에 처한 지구를 살리려 그는 ‘편도행’ 우주선에 몸을 실었다. 과학적 정밀함 위에 쉼 없이 위기가 쌓이고 해결되는 페이지터너이자, 공생과 연대, 종을 넘어서는 우정에 관한 이야기다. 오일러 공식부터 공기역학, 골디락스 존까지 치밀하게 작동하는 설정 속에서 절망 속에서도 농담을 잃지 않는 주인공과 작가 특유의 낙관이 소설을 끝까지 이끈다. 마이리뷰(0) 평점: | Sales Point : 411,854 프로젝트 헤일메리 - 패스파인더 강요된 영웅 - 프링크리 외계인과의 만남 - 닷슈 그레이스와 로키의 우정에서 읽은 것들 - 책판다 다정을 주고 받을 때 생기는 우주적 관계 - 노루귀"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "12위 수족관",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=330811810&radar_rank=12&radar_ranking_date=20260816220050",
+        "published_at": "2026-08-16T22:00:50+00:00",
+        "summary": "수족관 유래혁 지음 / 포스터샵 / 2023년 12월 / ISBN: 9791198547514 정가: 17,700 원 / 판매가: 15,930 원 / 마일리지: 880 원 이벤트 : 유래혁 <수족관> 성률 일러스트 투명 책갈피 (소설 2만원 이상) 유래혁 소설. 보육 시설에서 자라난 인물 ‘류이치’가, 먼저 보육 시설에서 도망쳐나온 인물 ‘아카리’를 만나 겪게 되는 일들을 그려낸다. 이 두 인물은 자신들이 가진 뿌리 깊은 과거와 상처, 그 이야기가 만들어낸 수족관에서 만나 입을 맞추고, 서로의 숨을 훔쳐가면서도 언젠가 오키나와의 너른 바다에 도착하는 꿈을 나눈다. 이 둘은 수족관을 벗어나 눈부신 햇살 아래 들려오는 파도 소리를 들을 수 있을까. 마이리뷰(0) 평점: | Sales Point : 124,965 [마이리뷰] 수족관 - 89700326 헉생이 쓴 팬픽 읽는 느낌.. - Collins_swag [마이리뷰] 수족관 - JYOH 💙<<수족관 _ 유래혁 장편소설>>💙 - 윤딩 [마이리뷰] 수족관 - 제로북_서재"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "8위 투명한 나선",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=398021172&radar_rank=8&radar_ranking_date=20260816220050",
+        "published_at": "2026-08-16T22:00:50+00:00",
+        "summary": "투명한 나선 히가시노 게이고 지음, 김선영 옮김 / 북다 / 2026년 07월 / ISBN: 9791170614043 정가: 22,000 원 / 판매가: 19,800 원 / 마일리지: 1,100 원 이벤트 : <투명한 나선> + 변색 유리컵 ‘오늘의 일본을 대표하는 작가’, ‘동아시아에서 가장 사랑받는 미스터리 작가’, ‘한국인이 제일 좋아하는 일본 장르소설 작가’ 히가시노 게이고의 장편소설. 1996년 일본에서 처음 연재되어 2026년 30주년을 맞이한 갈릴레오 시리즈의 열 번째 작품인 『투명한 나선』은 2021년 일본 출간 즉시 토한 종합 1위를 비롯하여 각종 서점 베스트셀러 랭킹되며 여전한 인기를 증명했다. 그동안 베일에 싸여 있던 주인공 유카와 마나부의 비밀이 처음 밝혀지는 『투명한 나선』은 갈릴레오 시리즈의 새로운 전환점이 되는 작품이다. 도쿄 인근 지바현 바다에서 등에 총상을 입은 남성의 시신이 떠오른다. 그의 신원이 확인되는 동시에 남성을 실종 신고한 동거 여성이 자취를 감춘다. 사건을 맡은 형사 구사나기와 우쓰미는 수사 과정에서 뜻밖에 유카와의 이름을 발견한다. 구사나기는 오랜 친구를 찾아가 도움을 요청하나 유카와는 그의 청을 단번에 거절한다. 그런데 구사나기를 배웅하던 유카와가 돌연 다른 방식으로 수사에 협조하겠다고 말한다. 이후 유카와와 사건 관련 장소를 방문한 우쓰미는 이 물리학자가 무언가를 숨기고 있음을 직감한다. 그러나 수사는 좀처럼 진전되지 않고 경찰은 번번이 실마리를 놓치고 만다. 이에 유카와는 마침내 오랫동안 간직해 온 비밀을 스스로 밝히게 되는데……. 유카와는 긴 세월 어떤 진실을 혼자 끌어안고 살아온 걸까? 그것이 이 사건과 무슨 연관성이 있는 걸까? 그가 스스로 사건에 관여한 이유는 무엇일까? 『투명한 나선』에 대해 작가는 “한마디로 설명할 수 없는 작품입니다. 오랫동안 작가만이 간직했던 이야기를 비로소 풀어냈습니다. 갈릴레오 팬이라면 분명 놀랄 것이고, 히가시노 팬이라면 더욱 놀랄 것입니다”라고 말했다. 전혀 다른 두 개의 사건이 우연한 계기로 겹쳐짐으로써 드러나는 진실. 이것을 과학으로만 설명할 수 있을까? 마이리뷰(0) 평점: | Sales Point : 124,135 <투명한 나선>을 읽고 - 플라뇌르 한 남자로서의 유카와 마나부 - 이지현 투명한 나선 책 줄거리 서평 히가시노게이고추천 추리소설 - 지유 유카와의 비밀이 수록된 갈릴레오 시리즈 최신작 <투명한 나선> - 마법사의도시 투명한 나선 - 히가시노 게이고 - 김권호"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "11위 태양 아래 올리브",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=399872461&radar_rank=11&radar_ranking_date=20260816220050",
+        "published_at": "2026-08-16T22:00:50+00:00",
+        "summary": "태양 아래 올리브 김초엽 지음 / 자이언트북스 / 2026년 08월 / ISBN: 9791191824582 정가: 19,800 원 / 판매가: 17,820 원 / 마일리지: 990 원 이벤트 : 책 모양 클릭커/투명 책갈피 (김초엽 장편소설 <태양 아래 올리브> 포함 국내도서 2만원 이상) 『지구 끝의 온실』과 『파견자들』에서 낯선 세계를 열고 인간과 비인간의 경계를 탐색해온 김초엽이 세 번째 장편소설 『태양 아래 올리브』로 돌아왔다. 장편으로는 『파견자들』 이후 3년 만이다. 이번에 작가의 시선은 신앙과 과학, 믿음과 의심이 맞부딪치는 자리로 향한다. 그 길 위에 수녀와 과학 유튜버라는, 좀처럼 한 팀이 될 것 같지 않은 두 사람을 세운다. 기후 재난 현장을 누비는 수녀 이레는 처음 만난 사람의 사정에도 금세 귀를 기울이고, 도움이 필요한 곳이라면 몸이 먼저 나간다. 과학기술 정책 매거진의 에디터이자 익명 채널 ‘미놋’을 운영하는 솔민은 말과 행동 사이의 모순을 놓치지 않고, 과학의 이름을 빌린 허위 주장과 맹신을 집요하게 저격한다. 이레에게 믿음은 숨 쉬듯 몸에 밴 삶의 방식이고, 솔민에게 신앙은 근거를 통해 검증해야 할 대상이다. 그토록 다른 두 사람은 한때 가족처럼 가까웠다. 가장 아픈 말을 남긴 채 헤어진 지 8년, 수상한 전화가 둘을 다시 같은 길 위에 올려놓는다. 한국에서 시작된 이야기는 하노이 공항과 라오스로 향하는 열차를 거쳐 메콩강과 태국 북부의 산길까지 쉼 없이 나아간다. 계획은 어긋나고, 단서는 꼬리를 물고, 두 사람은 사사건건 부딪친다. 하지만 바로 그 엇박자가 이 소설의 엔진이다. 이레는 눈앞의 사람부터 구하고, 솔민은 빠져나갈 경로부터 계산한다. 서로의 방식은 위기를 만들기도 하고, 다시 그 위기에서 빠져나올 열쇠가 되기도 한다. [ more... ] 마이리뷰(0) 평점: | Sales Point : 75,620 태양아래 올리브 - 플라뇌르 인간을 인간으로 규정하는 것은? - 책수집가 태양 아래 올리브 가제본 서평 - 읽는사이에_수수 태양 아래 올리브 - 타인에게말걸기 좋습니다^^ - 김가희"
       }
     },
     {
@@ -184,15 +454,6 @@
         "source_url": "https://www.nytimes.com/video/books/100000011051376/how-thrillers-hook-you-with-their-first-sentence.html",
         "published_at": "2026-08-16T21:22:46+00:00",
         "summary": "Can our Book Review editor, Tina Jordan, guess thrillers from their first sentence? In this game we explore a few of the books from The New York Times’s “50 Best Thrillers of the 21st Century” list; and learn a bit more about why opening sentences are so important to get people reading."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "New York Times Books",
-        "headline": "As the Old Files Open, One Family Confronts Another’s Dark Nazi Past",
-        "source_url": "https://www.nytimes.com/2026/08/16/arts/zilversmit-netherlands-podcast-book-holocaust-nazi.html",
-        "published_at": "2026-08-16T18:22:42+00:00",
-        "summary": "A woman who secured the criminal file of her grandmother, a collaborator, offered to share it with a Jewish family that had been betrayed. Then she balked and a new dispute ensued."
       }
     },
     {
@@ -211,60 +472,6 @@
         "source_url": "https://www.theguardian.com/books/2026/aug/16/it-is-not-only-a-future-certainty-the-disaster-is-already-here-why-we-need-climate-fiction",
         "published_at": "2026-08-16T11:00:24+00:00",
         "summary": "<p>As wildfires rage across Europe and Britain swelters through its hottest summer on record, literary fiction has a vital role to play in capturing the severe consequences of climate crisis</p><p>Earlier this summer, I travelled through Europe on a book tour. Everywhere I went, the heat broke records. In Italy, Germany and Spain, I sought refuge from the afternoon sun in air-conditioned hotels. In normally temperate Zurich, it averaged 37 degrees. I jumped into the Limmat for relief. On my final day in Warsaw, Poland had never been hotter – one of 14 countries to hit a historic high. In June, when I left to return to the US, Europe was scorching. At the end of July, as I write this, it is burning.</p><p>Since the heatwaves began, there have been more than 10,000 excess deaths. Yet for many, myself included, the high temperatures brought nothing more than inconvenience – uncomfortable commutes, heat rash, less time outdoors. This seems to be a defining feature of today’s climate crisis; deadly for some, banal for others. Even when the world is on fire, it somehow doesn’t feel like an emergency for everyone.</p> <a href=\"https://www.theguardian.com/books/2026/aug/16/it-is-not-only-a-future-certainty-the-disaster-is-already-here-why-we-need-climate-fiction\">Continue reading...</a>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "New York Times Books",
-        "headline": "When Is It OK to Give Up on a Book? Our Readers Have Thoughts.",
-        "source_url": "https://www.nytimes.com/2026/08/14/books/review/dnf-reader-comments.html",
-        "published_at": "2026-08-16T11:00:02+00:00",
-        "summary": "From carefree dabblers to book group die-hards, everyone, it seems, has an opinion. Just don’t tell them theirs is wrong."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Book Riot",
-        "headline": "Book Riot’s Deals of the Day for August 16, 2026",
-        "source_url": "https://bookriot.com/book-riots-deals-of-the-day-for-august-16-2026/",
-        "published_at": "2026-08-16T10:30:00+00:00",
-        "summary": "A bestselling cozy Filipina mystery, a rockstar, fairy tale romance, a dark rom-com, award-winning fantasy, and more."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "New York Times Books",
-        "headline": "Book Review: ‘The Maltese Version,’ by Katy Simpson Smith",
-        "source_url": "https://www.nytimes.com/2026/08/16/books/review/the-maltese-version-katy-simpson-smith.html",
-        "published_at": "2026-08-16T09:00:19+00:00",
-        "summary": "Are the 30-somethings in Katy Simpson Smith’s “The Maltese Version” in love? That depends on how you define it."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Book Riot",
-        "headline": "39 of the Best YA Graphic Novels and Comics of 2026",
-        "source_url": "https://bookriot.com/ya-graphic-novels-of-2026/",
-        "published_at": "2026-08-15T11:00:00+00:00",
-        "summary": "Browse 39 of the best YA graphic novels, graphic memoir, and comics out in 2026 (so far) and add them to your own themed collections."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Literary Hub",
-        "headline": "Lit Hub Weekly: August 10 – 14, 2026",
-        "source_url": "https://lithub.com/lit-hub-weekly-august-10-14-2026/",
-        "published_at": "2026-08-15T10:30:06+00:00",
-        "summary": "When a wealthy university donor can silence one of the world’s leading genocide scholars, it exposes the problem with for-profit higher education. | Lit Hub Politics On The Catcher in the Rye at 75, Hemingway, and the influence of war"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Book Riot",
-        "headline": "Book Riot’s Deals of the Day for August 15, 2026",
-        "source_url": "https://bookriot.com/book-riots-deals-of-the-day-for-august-15-2026/",
-        "published_at": "2026-08-15T10:30:00+00:00",
-        "summary": "A memoir by the trailblazing Shonda Rhimes, amateur Japanese detectives in early 1900s California, Isabel Allende, and more of today's best book deals."
       }
     },
     {
@@ -314,137 +521,11 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Book Riot",
-        "headline": "Book Riot’s Deals of the Day for August 14, 2026",
-        "source_url": "https://bookriot.com/book-riots-deals-of-the-day-for-august-14-2026/",
-        "published_at": "2026-08-14T15:29:00+00:00",
-        "summary": "Searching for Vlad the Impaler, an action-packed thriller in Long Beach, witchy sisters and the curse that haunts their home, and more of today's best book deals"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Literary Hub",
-        "headline": "The Rumpus is launching a Spanish-language magazine.",
-        "source_url": "https://lithub.com/the-rumpus-is-launching-a-spanish-language-magazine/",
-        "published_at": "2026-08-14T14:36:44+00:00",
-        "summary": "The Rumpus—that most enduring of indie online lit mags—is launching a new editorial initiative. El Arboroto is a new vertical catering to Spanish-language readers and writers. Per the press release, the new publication will be dedicated to publishing original work"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Literary Hub",
-        "headline": "Before We Are Erased: Why I Founded Gaza Publications During the Genocide",
-        "source_url": "https://lithub.com/before-we-are-erased-why-i-founded-gaza-publications-during-the-genocide/",
-        "published_at": "2026-08-14T12:16:18+00:00",
-        "summary": "During the early days of the genocide, I was in the city of Rafah, displaced, sleeping under a roof that I didn’t know would still be there by morning. Shells were falling around the building where I had taken refuge"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Literary Hub",
-        "headline": "Miranda July, Jamel Brinkley, and More on Their Favorite (Re)reads",
-        "source_url": "https://lithub.com/miranda-july-jamel-brinkley-and-more-on-their-favorite-rereads/",
-        "published_at": "2026-08-14T11:25:56+00:00",
-        "summary": "This first appeared in Lit Hub’s Craft of Writing newsletter—sign up here. Ed Park I am eternally dipping into the world of Charles Portis (especially The Dog of the South and True Grit), Nicholson Baker’s U and I, Renata Adler’s Speedboat, The Memoirs of Lady Hyegyöng. Sebald, too—mainly The Rings"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "The Guardian Books",
         "headline": "The best recent crime and thrillers – review roundup",
         "source_url": "https://www.theguardian.com/books/2026/aug/14/the-best-recent-and-thrillers-review-roundup",
         "published_at": "2026-08-14T11:00:25+00:00",
         "summary": "<p>The Amateur by Chris Bohjalian; Claws Out! by Bella Mackie; Plant Lady by Minyoung Kang;<strong> </strong>Children of Wolves by Lawrence Osborne; Mad Mabel by Sally Hepworth</p><p><strong><a href=\"https://guardianbookshop.com/the-amateur-9781529996555/?utm_source=editoriallink&utm_medium=merch&utm_campaign=article\">The Amateur</a> by Chris Bohjalian (Hutchinson Heinemann, £18.99)</strong><br />\n American bestseller Bohjalian deserves to be far better known in the UK, although, as the first line of his 26th novel points out, “It is neither virtue nor might that rules the world; it’s luck”. Mira Winston’s luck began early, as she was born into a rich family, clever enough to secure a place at Yale, and a talented enough golfer to consider turning pro, but things change dramatically in 1978 when, at the age of 18, a ball she hits on a driving range smashes the temporal bone of a young caddy, killing him almost instantly. The freak accident turns out to be rather more complicated than first thought, not least because it becomes karmically conflated, in Mira’s mind, with her relationship with a married man twice her age. Told as a memoir, with Mira looking back on the derailment of her life and chronicling society’s changing perceptions of agency and privilege, this literary thriller is a masterfully executed ace.</p><p><strong><a href=\"https://guardianbookshop.com/claws-out-9780008545581/?utm_source=editoriallink&utm_medium=merch&utm_campaign=article\">Claws Out!</a> by Bella Mackie (Borough, £20)</strong><strong><br /></strong>Mackie’s third novel centres on Diana, a manipulative grifter whose previous three husbands have died, apparently of natural causes. She’s in the process of getting her feet under the fourth mark’s prosperous Hampstead table when she encounters opposition. David Farrand’s “entitled but otherwise entirely average” daughter Catriona isn’t going to give up her father or her inheritance without a fight, and when she starts investigating Diana’s past, she discovers that her former stepchildren are convinced of foul play. Meanwhile, Diana’s own son, a feckless charmer, is also hoping to benefit from his mother’s matrimonial plans. Some readers may find the arch authorial tone grating, and the sharp-eyed will spot at least one major plot development before it occurs, but the incisive social satire, vinegary humour and expert pacing will keep you laughing as you turn the pages.</p> <a href=\"https://www.theguardian.com/books/2026/aug/14/the-best-recent-and-thrillers-review-roundup\">Continue reading...</a>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Literary Hub",
-        "headline": "Lit Hub Daily: August 14, 2026",
-        "source_url": "https://lithub.com/lit-hub-daily-august-14-2026/",
-        "published_at": "2026-08-14T10:30:38+00:00",
-        "summary": "“We were trapped within a single moment: always in danger, always waiting, and always struggling to survive.” Husam Maarouf on why he founded Gaza Publications.​| Lit Hub How following Octavia Butler’s advice guided Clarence A. Haynes to write a novel."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Book Riot",
-        "headline": "Censorship in Prison: Fulfilling the Writ of Librarianship: Book Censorship News, August 14, 2026",
-        "source_url": "https://bookriot.com/internal-censorship-in-prisons/",
-        "published_at": "2026-08-14T10:15:00+00:00",
-        "summary": "Prisons are rife with censorship. How can librarians provide strong service to those experiencing incarceration?"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Book Riot",
-        "headline": "The Most Read Books on Goodreads This Week",
-        "source_url": "https://bookriot.com/most-read-books-on-goodreads-august-14-2026/",
-        "published_at": "2026-08-14T10:06:00+00:00",
-        "summary": "The most read books on Goodreads this week include popular book club picks, historical fiction, a tradwife thriller, and more."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Book Riot",
-        "headline": "Martin Scorsese’s Next Film is an Adaptation of WHAT HAPPENS AT NIGHT",
-        "source_url": "https://bookriot.com/what-happens-at-night-adaptation/",
-        "published_at": "2026-08-14T10:03:00+00:00",
-        "summary": "What to know about the forthcoming Martin Scorsese adaptation of What Happens at Night."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Book Riot",
-        "headline": "Readers Give Higher Ratings to AI Stories and More News for Library Workers",
-        "source_url": "https://bookriot.com/library-news-updates-august-2026/",
-        "published_at": "2026-08-14T10:01:00+00:00",
-        "summary": "From AI invading HEATED RIVALRY fanfiction to the growth of mysteries in Christian fiction, catch up with the latest news for libraries."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Book Riot",
-        "headline": "Travel the World With These Comics in Translation",
-        "source_url": "https://bookriot.com/global-comics-in-translation/",
-        "published_at": "2026-08-14T10:00:00+00:00",
-        "summary": "Read your way into excellent comics from across the globe with these comics in translation."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Literary Hub",
-        "headline": "What Should You Read Next? Here Are the Best Reviewed Books of the Week",
-        "source_url": "https://lithub.com/what-should-you-read-next-here-are-the-best-reviewed-books-of-the-week-8-13-2026/",
-        "published_at": "2026-08-14T09:09:24+00:00",
-        "summary": "Chang-Rae Lee’s A Tender Age, Virginia Eubanks’s A Guide to Open Water Lifesaving, and Téa Obreht’s Sunrise all feature among the best reviewed books of the week. Brought to you by Book Marks, Lit Hub’s home for book reviews. * Fiction 1. A Tender Age by"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Literary Hub",
-        "headline": "Inside the Rise of America’s Oligarch Class—And What It Means For All of Us",
-        "source_url": "https://lithub.com/inside-the-rise-of-americas-oligarch-class-and-what-it-means-for-all-of-us/",
-        "published_at": "2026-08-14T09:09:22+00:00",
-        "summary": "In early 2014, a pair of political scientists published a striking study on the health, or lack thereof, of American democracy. Authored by Princeton University’s Martin Gilens and Northwestern Univesity’s Benjamin Page, the study combed through decades of data to"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Literary Hub",
-        "headline": "Where Does the Will To Live Come From… in Humans and Nonhumans Alike?",
-        "source_url": "https://lithub.com/where-does-the-will-to-live-come-from-in-humans-and-nonhumans-alike/",
-        "published_at": "2026-08-14T09:08:32+00:00",
-        "summary": "The English word “agency” comes from the Latin agere, meaning “to do” or “to drive,” and goes back to the Proto-Indo-European root *ag-, meaning “to lead or move.” In the 1600s, there was a shift in its sense. The word"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Literary Hub",
-        "headline": "How Octavia Butler Encouraged Me to Write My Novel",
-        "source_url": "https://lithub.com/how-octavia-butler-encouraged-me-to-write-my-novel/",
-        "published_at": "2026-08-14T09:07:12+00:00",
-        "summary": "For most of my life, I’ve harbored a deep, abiding passion for speculative fiction, and like so many folks in the know about sci-fi and fantasy, I hold iconic Afrofuturist author Octavia E. Butler as an all-time hero. Ever since"
       }
     },
     {
@@ -463,15 +544,6 @@
         "source_url": "https://www.theguardian.com/books/2026/aug/14/rebecca-perry-lorca-hit-me-like-a-bolt-of-lightning",
         "published_at": "2026-08-14T09:00:23+00:00",
         "summary": "<p>The poet and novelist on the power of fairytales, being inspired by Frank O’Hara and the joys of Doris Lessing</p><p><strong>My earliest reading memory</strong><br />\n Reading On the Ning Nang Nong by Spike Milligan, aged five or so, sitting on the floor of the bedroom I shared with my brother – who, in my memory, was sitting on the carpet next to me.</p><p><strong>My favourite book growing up</strong><br />\n I had a collection of fairytales in a big yellow hardback, which I was totally entranced by from around the age of seven to 10. I’ll never forget the feeling of despair on turning the page and discovering that the Little Mermaid had become foam on the surface of the water; it was a very early lesson in the helplessness of the reader in the face of a story’s destiny. In particular, though, I loved a Scottish fairytale called The Black Bull of Norroway, which I think, in many ways, has been under the surface of everything I’ve ever written.</p> <a href=\"https://www.theguardian.com/books/2026/aug/14/rebecca-perry-lorca-hit-me-like-a-bolt-of-lightning\">Continue reading...</a>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Literary Hub",
-        "headline": "The Depopulation",
-        "source_url": "https://lithub.com/the-depopulation/",
-        "published_at": "2026-08-14T08:51:02+00:00",
-        "summary": "Among all the far-off places, and all the deserted and unknown cities, among all the lawless, godless regions, the Guayrá was an oasis. A small, lush country under a torn and tattered sunset, out in the middle of the most"
       }
     },
     {
@@ -549,10 +621,19 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "“We’re Still on That Hurtling Train”: PW Talks with Nathaniel Philbrick",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/authors/interviews/article/101049-we-re-still-on-that-hurtling-train-pw-talks-with-nathaniel-philbrick.html",
+        "headline": "Vintage Wants You to Reread Ian McEwan",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101054-knopf-wants-you-to-re-read-ian-mcewan.html",
         "published_at": "2026-08-14T04:00:00+00:00",
-        "summary": "“We’re Still on That Hurtling Train”: PW Talks with Nathaniel Philbrick"
+        "summary": "Vintage Wants You to Reread Ian McEwan"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Return to Roots: PW Talks with Joe Biel",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101048-return-to-roots-pw-talks-with-joe-biel.html",
+        "published_at": "2026-08-14T04:00:00+00:00",
+        "summary": "Return to Roots: PW Talks with Joe Biel"
       }
     },
     {
@@ -567,60 +648,6 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "Family Dinner: PW Talks with Tony Shalhoub",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/authors/interviews/article/101050-family-dinner-pw-talks-with-tony-shalhoub.html",
-        "published_at": "2026-08-14T04:00:00+00:00",
-        "summary": "Family Dinner: PW Talks with Tony Shalhoub"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Life Stories with Spirit and Purpose",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/religion-listings/article/101058-life-stories-with-spirit-and-purpose.html",
-        "published_at": "2026-08-14T04:00:00+00:00",
-        "summary": "Religion publishers are seeking personal narratives and biographies that pack punches."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "How ‘Hollow Bones’ by Jodi Picoult Got Made",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101052-how-hollow-bones-by-jodi-picoult-got-made.html",
-        "published_at": "2026-08-14T04:00:00+00:00",
-        "summary": "An inside look at the publication process for the bestselling author’s 13th novel."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Hot Activity Book Sector Offers Screen-Free Fun",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101056-hot-activity-book-sector-offers-screen-free-fun.html",
-        "published_at": "2026-08-14T04:00:00+00:00",
-        "summary": "Cozy coloring books, licensed titles, and early learning workbooks are driving sales."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Rakuten Kobo Returns to U.S. Retail as Sales Double",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/digital/content-and-e-books/article/101053-rakuten-kobo-re-enters-u-s-retail-as-sales-double.html",
-        "published_at": "2026-08-14T04:00:00+00:00",
-        "summary": "Rakuten Kobo Returns to U.S. Retail as Sales Double"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Jemar Tisby’s Memoir Is a Warning",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/religion-listings/article/101060-jemar-tisby-s-memoir-is-a-warning.html",
-        "published_at": "2026-08-14T04:00:00+00:00",
-        "summary": "Jemar Tisby’s Memoir Is a Warning"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
         "headline": "Jasper Fforde Has Series Business",
         "source_url": "http://www.publishersweekly.com/pw/by-topic/authors/profiles/article/101051-jasper-fforde-has-series-business.html",
         "published_at": "2026-08-14T04:00:00+00:00",
@@ -630,10 +657,10 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "Cook Like a K-Pop Idol",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/adult-announcements/article/101062-cook-like-a-k-pop-idol.html",
+        "headline": "Family Dinner: PW Talks with Tony Shalhoub",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/authors/interviews/article/101050-family-dinner-pw-talks-with-tony-shalhoub.html",
         "published_at": "2026-08-14T04:00:00+00:00",
-        "summary": "Cook Like a K-Pop Idol"
+        "summary": "Family Dinner: PW Talks with Tony Shalhoub"
       }
     },
     {
@@ -648,10 +675,46 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "Return to Roots: PW Talks with Joe Biel",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101048-return-to-roots-pw-talks-with-joe-biel.html",
+        "headline": "How ‘Hollow Bones’ by Jodi Picoult Got Made",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101052-how-hollow-bones-by-jodi-picoult-got-made.html",
         "published_at": "2026-08-14T04:00:00+00:00",
-        "summary": "PW Talks with Microcosm Publishing founder and CEO Joe Biel"
+        "summary": "An inside look at the publication process for the bestselling author’s 30th novel."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "“We’re Still on That Hurtling Train”: PW Talks with Nathaniel Philbrick",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/authors/interviews/article/101049-we-re-still-on-that-hurtling-train-pw-talks-with-nathaniel-philbrick.html",
+        "published_at": "2026-08-14T04:00:00+00:00",
+        "summary": "“We’re Still on That Hurtling Train”: PW Talks with Nathaniel Philbrick"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Rakuten Kobo Returns to U.S. Retail as Sales Double",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/digital/content-and-e-books/article/101053-rakuten-kobo-re-enters-u-s-retail-as-sales-double.html",
+        "published_at": "2026-08-14T04:00:00+00:00",
+        "summary": "Rakuten Kobo Returns to U.S. Retail as Sales Double"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Cook Like a K-Pop Idol",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/adult-announcements/article/101062-cook-like-a-k-pop-idol.html",
+        "published_at": "2026-08-14T04:00:00+00:00",
+        "summary": "Cook Like a K-Pop Idol"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Hot Activity Book Sector Offers Screen-Free Fun",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101056-hot-activity-book-sector-offers-screen-free-fun.html",
+        "published_at": "2026-08-14T04:00:00+00:00",
+        "summary": "Cozy coloring books, licensed titles, and early learning workbooks are driving growth in the children’s market as screen fatigue afflicts readers of all ages."
       }
     },
     {
@@ -666,10 +729,19 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "Vintage Wants You to Reread Ian McEwan",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101054-knopf-wants-you-to-re-read-ian-mcewan.html",
+        "headline": "Jemar Tisby’s Memoir Is a Warning",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/religion-listings/article/101060-jemar-tisby-s-memoir-is-a-warning.html",
         "published_at": "2026-08-14T04:00:00+00:00",
-        "summary": "Vintage Wants You to Reread Ian McEwan"
+        "summary": "Jemar Tisby’s Memoir Is a Warning"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Life Stories with Spirit and Purpose",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/religion-listings/article/101058-life-stories-with-spirit-and-purpose.html",
+        "published_at": "2026-08-14T04:00:00+00:00",
+        "summary": "Religion publishers are seeking personal narratives and biographies that pack punches."
       }
     },
     {
@@ -702,19 +774,19 @@
     {
       "event_model_payload": {
         "source_name": "알라딘 신간",
-        "headline": "위스퍼맨/알렉스 노스 지음, 김지선 옮김/다산책방",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400370371",
+        "headline": "초등 어휘력 무작정 따라하기 : 한자어 편 1/올바른초등교육연구소 지음/길벗스쿨",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400370353",
         "published_at": "2026-08-14T01:23:00+00:00",
-        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400370371\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40037/3/cover200/k822130748_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400370371\">위스퍼맨</a></h2>알렉스 노스 지음, 김지선 옮김 / 다산책방 / 2026년 08월 / ISBN:<span class=\"isbn13\">9791130682884</span><br />정가: <span style=\"color: #FF0202;\">19,000</span>원 / 판매가: <span style=\"color: #FF0202;\">17,100</span>원 / 마일리지: <span style=\"color: #FF0202;\">950</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 8월 특별 선물. 원통형 가방 · 책 키링 카드지갑<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=400370371&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=400370371&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/intro_t.gif\" /><br />2018년 초여름, 할리우드에 출판사 로고도 인쇄되지 않은 원고 하나가 떠돌았다. 정식 출간한 이력 하나 없어 이름조차 생소한 신인 작가의 장편소설 데뷔작 원고. 하지만 영화 제작사들의 반응은 가히 폭발적이었다. 금세 벌어진 치열한 판권 경쟁, 그 끝에서 미소를 지은 최종 승자는 영화 <어벤져스: 엔드게임>을 연출한 세계적인 영화감독 루소 형제였다. 한 언론은 이 소식을 다음과 같이 전했다. “할리우드가 낚아채 간 스릴러.” 신인 작가의 미출간 원고가 ‘스타 감독’을 매료시켰다는 사실은 세간의 기대감을 한껏 끌어올리기에 충분했으리라. <br />\n<br />\n그로부터 꼬박 1년이 지난 2019년 여름, 정식 출간한 『위스퍼맨』은 루소 형제의 과감한 베팅이 틀리지 않았음을 증명한다. 영국 출판권을 놓고 쟁쟁한 출판사 다섯 곳이 참여한 ‘오퍼 전쟁’에서 세계적인 출판사 펭귄북스가 최종 낙찰을 받았다는 사실만으로도 흥행은 기실 예견되어 있었다. 정식 출간 후 《뉴욕타임스》 《선데이 타임스》 베스트셀러에 이름을 올린 책은 지금까지 전 세계 30개국에서 출간되었다. 그리고 2026년 8월 28일, 무려 8년간의 기다림 끝에 찾아온 넷플릭스 영화 공개를 맞아 『위스퍼맨』이 새롭게 한국 독자를 만난다.<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br /><p>제1부 7월\t011<br />\n제2부 9월\t065<br />\n제3부\t\t181<br />\n제4부\t\t293<br />\n제5부\t\t413<br />\n제6부\t\t501<br />\n감사의 말\t\t523<br />\n옮긴이의 말\t525</p><br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1\">소설/시/희곡</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=50919&BrowseTarget=List\"><b>영미소설</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1\">소설/시/희곡</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=50953\">테마문학</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51239&BrowseTarget=List\"><b>영화소설</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1\">소설/시/희곡</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=50955\">세계의 문학</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51259&BrowseTarget=List\"><b>영국문학</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1\">소설/시/희곡</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=50933\">액션/스릴러소설</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=107436&BrowseTarget=List\"><b>외국 액션/스릴러소설</b></a><br /><br /></td></tr></table>"
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400370353\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40037/3/cover200/k892130748_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400370353\">초등 어휘력 무작정 따라하기 : 한자어 편 1</a></h2>올바른초등교육연구소 지음 / 길벗스쿨 / 2026년 08월 / ISBN:<span class=\"isbn13\">9791174672032</span><br />정가: <span style=\"color: #FF0202;\">17,500</span>원 / 판매가: <span style=\"color: #FF0202;\">15,750</span>원 / 마일리지: <span style=\"color: #FF0202;\">870</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: <초등 어휘력 무작정 따라하기 : 한자어 편 1,2> + 적립금 1천원 추첨<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=400370353&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=400370353&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/intro_t.gif\" /><br />우리말 어휘의 약 70%는 한자어로 이루어져 있어, 한자어를 제대로 이해하지 않고서는 어휘력을 효과적으로 키우기 어렵다. 중요한 것은 한자어를 이루는 한자의 뜻을 정확히 이해하고, 이를 바탕으로 처음 보는 한자어의 뜻까지 유추해 내는 힘을 기르는 것이다. 이 책은 한자어에 담긴 대표 한자의 생성 원리를 그림으로 쉽고 정확하게 이해하도록 구성했다.<br />\n<br />\n한자의 뜻을 익힌 뒤에는 관련된 한자어를 함께 학습하여 한자어의 의미를 자연스럽게 확장해 나갈 수 있도록 했다. 다양한 문제를 풀며 이해한 내용을 확인하고, 지문 속에서 한자어의 뜻을 스스로 유추해 보는 연습을 한다. 나아가 배운 한자어를 활용해 직접 글을 써 봄으로써 어휘력은 물론 문해력과 글쓰기 실력까지 함께 향상시킬 수 있다.<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br /><p>머리말\t\t\t\t\t\t\t\t\t003<br />\n이 책은 구성과 활용 방법\t\t\t\t\t\t004<br />\n한자의 종류에는 어떤 것들이 있나요?\t\t\t\t\t009<br />\n학습 계획표\t\t\t\t\t\t\t\t010<br />\n<br />\n<b>1장 사람과 가족 1</b><br />\n<br />\n01 人 사람 인\t\t인권\t인간\t인생\t인물\t상인\t\t012<br />\n02 生 날 생\t\t야생\t생활\t생수\t생산\t학생\t\t016<br />\n03 心 마음 심\t\t관심\t진심\t욕심\t안심\t중심\t\t020<br />\n04 男 사내 남\t\t남자\t남녀\t남편\t남매\t장남\t\t024<br />\n<br />\n<더 알아봐요 1> 위치 1: 동(東) ∙ 서(西) ∙ 남(南) ∙ 북(北)\t\t\t028<br />\n<br />\n<b>2장 사람과 가족 2</b><br />\n<br />\n05 父 아비 부\t\t부친\t조부\t사부\t부성애\t학부모\t\t030<br />\n06 母 어미 모\t\t모친\t이모\t모성애\t모국어\t모교\t\t034\t<br />\n07 子 아들 자\t\t자녀\t손자\t왕자\t박자\t자손\t\t038<br />\n08 女 여자 여\t\t여왕\t여군\t해녀\t미녀\t장녀\t\t042<br />\n<br />\n<더 알아봐요 2> 위치 2: 상(上) ∙ 하(下) ∙ 좌(左) ∙ 우(右)\t\t\t046<br />\n<br />\n<b>3장 자연과 존재 1</b><br />\n<br />\n09 木 나무 목\t\t목마\t목재\t수목\t벌목\t묘목\t\t048\t<br />\n10 雨 비 우\t\t폭우\t호우\t우의\t우산\t우기\t\t052<br />\n11 水 물 수\t\t수영\t수심\t수분\t수해\t강수량\t\t056<br />\n12 火 불 화\t\t화재\t화력\t화약\t화산\t분화구\t\t060<br />\n<br />\n<더 알아봐요 3> 숫자 1: 일(一) ∙ 이(二) ∙ 삼(三) ∙ 사(四)\t\t\t064<br />\n<br />\n<b>4장 자연과 존재 2</b><br />\n<br />\n13 土 토지 토\t\t토양\t토기\t토지\t국토\t본토\t\t066<br />\n14 山 뫼 산\t\t등산\t광산\t강산\t산촌\t산맥\t\t070<br />\n15 川 내 천\t\t하천\t대천\t산천\t천변\t자생천\t\t074<br />\n16 有 있을 유\t\t유료\t유해\t유명\t유죄\t보유\t\t078<br />\n<br />\n<더 알아봐요 4> 숫자 2: 오(五) ∙ 륙(六) ∙ 칠(七) ∙ 만(萬)\t\t\t082<br />\n<br />\n<b>5장 사회와 제도 1</b><br />\n<br />\n17 市 저자 시\t\t도시\t시내\t시민\t시청\t시립\t\t084<br />\n18 家 집 가\t\t국가\t가출\t가축\t가업\t가족\t\t088<br />\n19 主 주인 주\t\t주권\t주장\t주제\t주인공\t주관식\t\t092<br />\n20 世 세상 세\t\t세상\t후세\t출세\t별세\t세계\t\t096<br />\n<br />\n<더 알아봐요 5> 시간 1: 춘(春) ∙ 하(夏) ∙ 추(秋) ∙ 동(冬)\t\t\t100<br />\n<br />\n<b>6장 사회와 제도 2</b><br />\n<br />\n21 村 마을 촌\t\t농촌\t어촌\t촌락\t민속촌\t지구촌\t\t102<br />\n22 合 합할 합\t\t통합\t합계\t합창\t합격\t합법\t\t106<br />\n23 社 회사 사\t\t회사\t입사\t사장\t사원\t사회\t\t110<br />\n24 士 선비 사\t\t신사\t박사\t...<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1108\">어린이</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48808\">초등 전학년</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48864&BrowseTarget=List\"><b>어린이 한자</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1108\">어린이</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48819\">어린이 한자</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48943&BrowseTarget=List\"><b>한자학습 일반</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1108\">어린이</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48820\">책읽기/글쓰기</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48944&BrowseTarget=List\"><b>글쓰기 일반</b></a><br /><br /></td></tr></table>"
       }
     },
     {
       "event_model_payload": {
         "source_name": "알라딘 신간",
-        "headline": "초등 어휘력 무작정 따라하기 : 한자어 편 1/올바른초등교육연구소 지음/길벗스쿨",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400370353",
+        "headline": "위스퍼맨/알렉스 노스 지음, 김지선 옮김/다산책방",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400370371",
         "published_at": "2026-08-14T01:23:00+00:00",
-        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400370353\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40037/3/cover200/k892130748_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400370353\">초등 어휘력 무작정 따라하기 : 한자어 편 1</a></h2>올바른초등교육연구소 지음 / 길벗스쿨 / 2026년 08월 / ISBN:<span class=\"isbn13\">9791174672032</span><br />정가: <span style=\"color: #FF0202;\">17,500</span>원 / 판매가: <span style=\"color: #FF0202;\">15,750</span>원 / 마일리지: <span style=\"color: #FF0202;\">870</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: <초등 어휘력 무작정 따라하기 : 한자어 편 1,2> + 적립금 1천원 추첨<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=400370353&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=400370353&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/intro_t.gif\" /><br />우리말 어휘의 약 70%는 한자어로 이루어져 있어, 한자어를 제대로 이해하지 않고서는 어휘력을 효과적으로 키우기 어렵다. 중요한 것은 한자어를 이루는 한자의 뜻을 정확히 이해하고, 이를 바탕으로 처음 보는 한자어의 뜻까지 유추해 내는 힘을 기르는 것이다. 이 책은 한자어에 담긴 대표 한자의 생성 원리를 그림으로 쉽고 정확하게 이해하도록 구성했다.<br />\n<br />\n한자의 뜻을 익힌 뒤에는 관련된 한자어를 함께 학습하여 한자어의 의미를 자연스럽게 확장해 나갈 수 있도록 했다. 다양한 문제를 풀며 이해한 내용을 확인하고, 지문 속에서 한자어의 뜻을 스스로 유추해 보는 연습을 한다. 나아가 배운 한자어를 활용해 직접 글을 써 봄으로써 어휘력은 물론 문해력과 글쓰기 실력까지 함께 향상시킬 수 있다.<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br /><p>머리말\t\t\t\t\t\t\t\t\t003<br />\n이 책은 구성과 활용 방법\t\t\t\t\t\t004<br />\n한자의 종류에는 어떤 것들이 있나요?\t\t\t\t\t009<br />\n학습 계획표\t\t\t\t\t\t\t\t010<br />\n<br />\n<b>1장 사람과 가족 1</b><br />\n<br />\n01 人 사람 인\t\t인권\t인간\t인생\t인물\t상인\t\t012<br />\n02 生 날 생\t\t야생\t생활\t생수\t생산\t학생\t\t016<br />\n03 心 마음 심\t\t관심\t진심\t욕심\t안심\t중심\t\t020<br />\n04 男 사내 남\t\t남자\t남녀\t남편\t남매\t장남\t\t024<br />\n<br />\n<더 알아봐요 1> 위치 1: 동(東) ∙ 서(西) ∙ 남(南) ∙ 북(北)\t\t\t028<br />\n<br />\n<b>2장 사람과 가족 2</b><br />\n<br />\n05 父 아비 부\t\t부친\t조부\t사부\t부성애\t학부모\t\t030<br />\n06 母 어미 모\t\t모친\t이모\t모성애\t모국어\t모교\t\t034\t<br />\n07 子 아들 자\t\t자녀\t손자\t왕자\t박자\t자손\t\t038<br />\n08 女 여자 여\t\t여왕\t여군\t해녀\t미녀\t장녀\t\t042<br />\n<br />\n<더 알아봐요 2> 위치 2: 상(上) ∙ 하(下) ∙ 좌(左) ∙ 우(右)\t\t\t046<br />\n<br />\n<b>3장 자연과 존재 1</b><br />\n<br />\n09 木 나무 목\t\t목마\t목재\t수목\t벌목\t묘목\t\t048\t<br />\n10 雨 비 우\t\t폭우\t호우\t우의\t우산\t우기\t\t052<br />\n11 水 물 수\t\t수영\t수심\t수분\t수해\t강수량\t\t056<br />\n12 火 불 화\t\t화재\t화력\t화약\t화산\t분화구\t\t060<br />\n<br />\n<더 알아봐요 3> 숫자 1: 일(一) ∙ 이(二) ∙ 삼(三) ∙ 사(四)\t\t\t064<br />\n<br />\n<b>4장 자연과 존재 2</b><br />\n<br />\n13 土 토지 토\t\t토양\t토기\t토지\t국토\t본토\t\t066<br />\n14 山 뫼 산\t\t등산\t광산\t강산\t산촌\t산맥\t\t070<br />\n15 川 내 천\t\t하천\t대천\t산천\t천변\t자생천\t\t074<br />\n16 有 있을 유\t\t유료\t유해\t유명\t유죄\t보유\t\t078<br />\n<br />\n<더 알아봐요 4> 숫자 2: 오(五) ∙ 륙(六) ∙ 칠(七) ∙ 만(萬)\t\t\t082<br />\n<br />\n<b>5장 사회와 제도 1</b><br />\n<br />\n17 市 저자 시\t\t도시\t시내\t시민\t시청\t시립\t\t084<br />\n18 家 집 가\t\t국가\t가출\t가축\t가업\t가족\t\t088<br />\n19 主 주인 주\t\t주권\t주장\t주제\t주인공\t주관식\t\t092<br />\n20 世 세상 세\t\t세상\t후세\t출세\t별세\t세계\t\t096<br />\n<br />\n<더 알아봐요 5> 시간 1: 춘(春) ∙ 하(夏) ∙ 추(秋) ∙ 동(冬)\t\t\t100<br />\n<br />\n<b>6장 사회와 제도 2</b><br />\n<br />\n21 村 마을 촌\t\t농촌\t어촌\t촌락\t민속촌\t지구촌\t\t102<br />\n22 合 합할 합\t\t통합\t합계\t합창\t합격\t합법\t\t106<br />\n23 社 회사 사\t\t회사\t입사\t사장\t사원\t사회\t\t110<br />\n24 士 선비 사\t\t신사\t박사\t...<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1108\">어린이</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48808\">초등 전학년</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48864&BrowseTarget=List\"><b>어린이 한자</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1108\">어린이</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48819\">어린이 한자</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48943&BrowseTarget=List\"><b>한자학습 일반</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1108\">어린이</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48820\">책읽기/글쓰기</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48944&BrowseTarget=List\"><b>글쓰기 일반</b></a><br /><br /></td></tr></table>"
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400370371\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40037/3/cover200/k822130748_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400370371\">위스퍼맨</a></h2>알렉스 노스 지음, 김지선 옮김 / 다산책방 / 2026년 08월 / ISBN:<span class=\"isbn13\">9791130682884</span><br />정가: <span style=\"color: #FF0202;\">19,000</span>원 / 판매가: <span style=\"color: #FF0202;\">17,100</span>원 / 마일리지: <span style=\"color: #FF0202;\">950</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 8월 특별 선물. 원통형 가방 · 책 키링 카드지갑<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=400370371&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=400370371&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/intro_t.gif\" /><br />2018년 초여름, 할리우드에 출판사 로고도 인쇄되지 않은 원고 하나가 떠돌았다. 정식 출간한 이력 하나 없어 이름조차 생소한 신인 작가의 장편소설 데뷔작 원고. 하지만 영화 제작사들의 반응은 가히 폭발적이었다. 금세 벌어진 치열한 판권 경쟁, 그 끝에서 미소를 지은 최종 승자는 영화 <어벤져스: 엔드게임>을 연출한 세계적인 영화감독 루소 형제였다. 한 언론은 이 소식을 다음과 같이 전했다. “할리우드가 낚아채 간 스릴러.” 신인 작가의 미출간 원고가 ‘스타 감독’을 매료시켰다는 사실은 세간의 기대감을 한껏 끌어올리기에 충분했으리라. <br />\n<br />\n그로부터 꼬박 1년이 지난 2019년 여름, 정식 출간한 『위스퍼맨』은 루소 형제의 과감한 베팅이 틀리지 않았음을 증명한다. 영국 출판권을 놓고 쟁쟁한 출판사 다섯 곳이 참여한 ‘오퍼 전쟁’에서 세계적인 출판사 펭귄북스가 최종 낙찰을 받았다는 사실만으로도 흥행은 기실 예견되어 있었다. 정식 출간 후 《뉴욕타임스》 《선데이 타임스》 베스트셀러에 이름을 올린 책은 지금까지 전 세계 30개국에서 출간되었다. 그리고 2026년 8월 28일, 무려 8년간의 기다림 끝에 찾아온 넷플릭스 영화 공개를 맞아 『위스퍼맨』이 새롭게 한국 독자를 만난다.<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br /><p>제1부 7월\t011<br />\n제2부 9월\t065<br />\n제3부\t\t181<br />\n제4부\t\t293<br />\n제5부\t\t413<br />\n제6부\t\t501<br />\n감사의 말\t\t523<br />\n옮긴이의 말\t525</p><br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1\">소설/시/희곡</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=50919&BrowseTarget=List\"><b>영미소설</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1\">소설/시/희곡</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=50953\">테마문학</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51239&BrowseTarget=List\"><b>영화소설</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1\">소설/시/희곡</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=50955\">세계의 문학</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51259&BrowseTarget=List\"><b>영국문학</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1\">소설/시/희곡</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=50933\">액션/스릴러소설</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=107436&BrowseTarget=List\"><b>외국 액션/스릴러소설</b></a><br /><br /></td></tr></table>"
       }
     },
     {
@@ -836,15 +908,6 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Book Riot",
-        "headline": "Book Riot’s Deals of the Day for August 13, 2026",
-        "source_url": "https://bookriot.com/book-riots-deals-of-the-day-for-august-13-2026/",
-        "published_at": "2026-08-13T15:35:36+00:00",
-        "summary": "Genre-bending near-future tech horror, rural noir in a small Michigan town, the woman who kicked off the Harlem Renaissance, and more of today's best book deals"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "New York Times Books",
         "headline": "Johanna Fernández, Historian of the Young Lords, Dies at 55",
         "source_url": "https://www.nytimes.com/2026/08/12/us/johanna-fernandez-dead.html",
@@ -909,28 +972,10 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "In Brief: August 13, 2026",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101046-in-brief-august-13-2026.html",
+        "headline": "Rights Report: Week of August 10, 2026",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101031-rights-report-week-of-august-10-2026.html",
         "published_at": "2026-08-13T04:00:00+00:00",
-        "summary": "In Brief: August 13, 2026"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "New Voices New Rooms: Children’s Book Authors Channeling Their Younger Selves",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101045-new-voices-new-rooms-children-s-book-authors-channeling-their-younger-selves.html",
-        "published_at": "2026-08-13T04:00:00+00:00",
-        "summary": "New Voices New Rooms: Children’s Book Authors Channeling Their Younger Selves"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Book Club Picks: August 2026",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/bookselling/article/101035-book-club-picks-august-2026.html",
-        "published_at": "2026-08-13T04:00:00+00:00",
-        "summary": "Book Club Picks: August 2026"
+        "summary": "Rights Report: Week of August 10, 2026"
       }
     },
     {
@@ -945,37 +990,10 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "McGraw Hill Touts AI in Improving First Quarter Results",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/financial-reporting/article/101040-mcgraw-hill-touts-ai-in-improving-first-quarter-results.html",
+        "headline": "A Timely Venezuelan Novel Comes Stateside, Thanks Partly to Serendipity",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101030-a-timely-venezuelan-novel-comes-stateside-partly-thanks-to-serendipity.html",
         "published_at": "2026-08-13T04:00:00+00:00",
-        "summary": "McGraw Hill Touts AI in Improving First Quarter Results"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "New E.B. White Picture Book Continues Author’s Legacy",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101037-new-e-b-white-picture-book-continues-author-s-legacy.html",
-        "published_at": "2026-08-13T04:00:00+00:00",
-        "summary": "New E.B. White Picture Book Continues Author’s Legacy"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Middle Grade Novels Get a Glow-Up",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101039-middle-grade-novels-get-a-glow-up.html",
-        "published_at": "2026-08-13T04:00:00+00:00",
-        "summary": "Middle Grade Novels Get a Glow-Up"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Three on a Theme: Girls Bite Back",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101042-three-on-a-theme-girls-bite-back.html",
-        "published_at": "2026-08-13T04:00:00+00:00",
-        "summary": "Three on a Theme: Girls Bite Back"
+        "summary": "A Timely Venezuelan Novel Comes Stateside, Thanks Partly to Serendipity"
       }
     },
     {
@@ -990,10 +1008,37 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "A Timely Venezuelan Novel Comes Stateside, Thanks Partly to Serendipity",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101030-a-timely-venezuelan-novel-comes-stateside-partly-thanks-to-serendipity.html",
+        "headline": "A.J. Symon on Paying Tribute to a Beloved Dog in His Middle Grade Debut",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101038-a-j-symon-on-paying-tribute-to-a-beloved-dog-in-his-middle-grade-debut.html",
         "published_at": "2026-08-13T04:00:00+00:00",
-        "summary": "A Timely Venezuelan Novel Comes Stateside, Thanks Partly to Serendipity"
+        "summary": "A.J. Symon on Paying Tribute to a Beloved Dog in His Middle Grade Debut"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "McGraw Hill Touts AI in Improving First Quarter Results",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/financial-reporting/article/101040-mcgraw-hill-touts-ai-in-improving-first-quarter-results.html",
+        "published_at": "2026-08-13T04:00:00+00:00",
+        "summary": "McGraw Hill Touts AI in Improving First Quarter Results"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Middle Grade Novels Get a Glow-Up",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101039-middle-grade-novels-get-a-glow-up.html",
+        "published_at": "2026-08-13T04:00:00+00:00",
+        "summary": "Middle Grade Novels Get a Glow-Up"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "New E.B. White Picture Book Continues Author’s Legacy",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101037-new-e-b-white-picture-book-continues-author-s-legacy.html",
+        "published_at": "2026-08-13T04:00:00+00:00",
+        "summary": "New E.B. White Picture Book Continues Author’s Legacy"
       }
     },
     {
@@ -1008,19 +1053,37 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "A.J. Symon on Paying Tribute to a Beloved Dog in His Middle Grade Debut",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101038-a-j-symon-on-paying-tribute-to-a-beloved-dog-in-his-middle-grade-debut.html",
+        "headline": "Book Club Picks: August 2026",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/bookselling/article/101035-book-club-picks-august-2026.html",
         "published_at": "2026-08-13T04:00:00+00:00",
-        "summary": "A.J. Symon on Paying Tribute to a Beloved Dog in His Middle Grade Debut"
+        "summary": "Book Club Picks: August 2026"
       }
     },
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "Rights Report: Week of August 10, 2026",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101031-rights-report-week-of-august-10-2026.html",
+        "headline": "Three on a Theme: Girls Bite Back",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101042-three-on-a-theme-girls-bite-back.html",
         "published_at": "2026-08-13T04:00:00+00:00",
-        "summary": "Rights Report: Week of August 10, 2026"
+        "summary": "Three on a Theme: Girls Bite Back"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "In Brief: August 13, 2026",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101046-in-brief-august-13-2026.html",
+        "published_at": "2026-08-13T04:00:00+00:00",
+        "summary": "In Brief: August 13, 2026"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "New Voices New Rooms: Children’s Book Authors Channeling Their Younger Selves",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101045-new-voices-new-rooms-children-s-book-authors-channeling-their-younger-selves.html",
+        "published_at": "2026-08-13T04:00:00+00:00",
+        "summary": "New Voices New Rooms: Children’s Book Authors Channeling Their Younger Selves"
       }
     },
     {
@@ -1052,11 +1115,20 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Panel Mania: ‘A Better World Is Possible’ by Meera Subramanian and Danica Novgorodoff",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/comics/article/101023-panel-mania-a-better-world-is-possible-by-meera-subramanian-and-danica-novgorodoff.html",
-        "published_at": "2026-08-12T04:00:00+00:00",
-        "summary": "Panel Mania: ‘A Better World Is Possible’ by Meera Subramanian and Danica Novgorodoff"
+        "source_name": "The Guardian Books",
+        "headline": "Something Like Happiness by Tom Newlands review – a tender take on hard times, anger and autism",
+        "source_url": "https://www.theguardian.com/books/2026/aug/12/something-like-happiness-by-tom-newlands-review-a-tender-take-on-hard-times-anger-and-autism",
+        "published_at": "2026-08-12T08:00:22+00:00",
+        "summary": "<p>A twentysomething Scottish couple care for their autistic son in the bleak follow-up to Only Here, Only Now</p><p>Frazer and Caitlin have been emotionally entwined since schooldays. Now in their mid-20s, and parents of a five-year-old, they live in a grotty flat in a Scottish new town – the faded posters read “Happiness, Here” – that has crumbled into decay. Jobs are scarce and unrewarding; little Jamie, who has autism, is silent; and the pressure is starting to tell.</p><p>Frazer’s adored Caitlin is “beautiful and driven”, fit, petite – and a rageaholic. At her mildest she’s irritated and unreasonable, at her worst violent and intimidating. She is incensed at Frazer’s refusal to move from their mould-infested block to the new council house they’ve been assigned. Apex Court is where he was brought up, filled with relics of his dead parents, and it’s the only home his son has ever known. “You’ve become the sad sack guardian of a bunch of shite that belonged to your parents, including their hovel of a flat,” Cait sneers.</p> <a href=\"https://www.theguardian.com/books/2026/aug/12/something-like-happiness-by-tom-newlands-review-a-tender-take-on-hard-times-anger-and-autism\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "A History of the Novel in Britain by Philip Hensher review – a masterpiece of criticism",
+        "source_url": "https://www.theguardian.com/books/2026/aug/12/a-history-of-the-novel-in-britain-by-philip-hensher-review-a-masterpiece-of-criticism",
+        "published_at": "2026-08-12T06:00:21+00:00",
+        "summary": "<p>This joyous book takes readers on a literary adventure across 300 years of fiction, from Defoe to Zadie Smith</p><p></p><p>In his opening paragraph, Philip Hensher declares that a novel not only “tells a good story” but is a good story in itself. We could extend that neat formula to include this book, which is not only a masterful account of fiction since 1719, when Daniel Defoe set Robinson Crusoe down on his desert island, but is itself a wonderful read. There is nothing dreary here; no sense of being back in the seminar room taking notes. Instead it is 600 pages of deep pleasure, an excuse to revisit old literary loves and be reminded of ones that have slipped from view.</p><p>Hensher is smart enough to know why his book works so well and vain enough to tell us. The usual methodology for a survey is to assemble a roster of academics and invite them to trot out a chapter on their specialism, whether that be “Thomas Hardy” or “High Modernism”. The result is a series of silos, with little sense of historical connection or intellectual unfolding. Hensher, by contrast, gives us a joined-up account of creative call and response. Equally crucial to this project’s success is Hensher’s own experience as a novelist. He brings a practitioner’s informed eye to such questions as why some chapters in Dickens’s Dombey and Son are in the present tense or how Henry James pulls off free indirect speech in What Maisie Knew.</p> <a href=\"https://www.theguardian.com/books/2026/aug/12/a-history-of-the-novel-in-britain-by-philip-hensher-review-a-masterpiece-of-criticism\">Continue reading...</a>"
       }
     },
     {
@@ -1071,10 +1143,10 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "In an Online Era, Digital Comics Are Still Loading Up",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/comics/article/101029-in-an-online-era-digital-comics-are-still-loading-up.html",
+        "headline": "Panel Mania: ‘A Better World Is Possible’ by Meera Subramanian and Danica Novgorodoff",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/comics/article/101023-panel-mania-a-better-world-is-possible-by-meera-subramanian-and-danica-novgorodoff.html",
         "published_at": "2026-08-12T04:00:00+00:00",
-        "summary": "In an Online Era, Digital Comics Are Still Loading Up"
+        "summary": "Panel Mania: ‘A Better World Is Possible’ by Meera Subramanian and Danica Novgorodoff"
       }
     },
     {
@@ -1088,11 +1160,11 @@
     },
     {
       "event_model_payload": {
-        "source_name": "New York Times Books",
-        "headline": "Book Review: ‘A Tender Age,’ by Chang-rae Lee",
-        "source_url": "https://www.nytimes.com/2026/08/11/books/review/chang-rae-lee-tender-age.html",
-        "published_at": "2026-08-11T14:18:07+00:00",
-        "summary": "In his new book, Chang-rae Lee follows a 10-year-old into the social powder kegs of schoolyards and summer camps."
+        "source_name": "The Guardian Books",
+        "headline": "I Give You My Silence by Mario Vargas Llosa review – Nobel laureate’s final novel is a love letter to Peru",
+        "source_url": "https://www.theguardian.com/books/2026/aug/11/i-give-you-my-silence-by-mario-vargas-llosa-review-nobel-laureates-final-novel-is-a-love-letter-to-peru",
+        "published_at": "2026-08-11T10:56:35+00:00",
+        "summary": "<p>This fascinating, eccentric book becomes a quirky primer on Peruvian music and culture</p><p>When I Give You My Silence was published in Spanish in 2023 its author, the Peruvian Nobel laureate Mario Vargas Llosa, rightly predicted that it would be his final novel. He died last year at the age of 89. I Give You My Silence may have been completed with the spectre of death approaching, but there is nothing morbid about this book, which is an eccentric love letter to Vargas Llosa’s native country and, in particular, its music.</p><p>The novel’s quixotic hero is a music journalist called Toño Azpilcueta. Toño always hoped to be a professor of Peruvian music, but as the novel opens, he’s earning a meagre living teaching at a girls’ school and writing articles for specialist magazines. Luckily, he’s subsidised by his longsuffering wife, Matilde. Toño is a recognisable type: the impecunious cultural obsessive. If he were British, he would be fanatical about free jazz, or some obscure Delta bluesman. But this is Peru and Toño’s particular infatuation is the <em>vals</em><em>, </em>a Peruvian musical style that fuses the European waltz with African and indigenous Latin American traditions.</p> <a href=\"https://www.theguardian.com/books/2026/aug/11/i-give-you-my-silence-by-mario-vargas-llosa-review-nobel-laureates-final-novel-is-a-love-letter-to-peru\">Continue reading...</a>"
       }
     },
     {
@@ -1106,47 +1178,11 @@
     },
     {
       "event_model_payload": {
-        "source_name": "New York Times Books",
-        "headline": "Book Review: ‘Under the Falls,’ by Richard Russo",
-        "source_url": "https://www.nytimes.com/2026/08/11/books/review/richard-russo-under-the-falls.html",
-        "published_at": "2026-08-11T09:00:43+00:00",
-        "summary": "In Richard Russo’s new novel, “Under the Falls,” a singer reckons with his troubled past and the community he left behind."
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "The Guardian Books",
         "headline": "You Won’t Get Free of It by Rachel Aviv review – a subtle study of the mother-daughter bond",
         "source_url": "https://www.theguardian.com/books/2026/aug/11/you-wont-get-free-of-it-by-rachel-aviv-review-a-subtle-study-of-the-mother-daughter-bond",
         "published_at": "2026-08-11T08:00:07+00:00",
         "summary": "<p>The most complex of female relationships is thrown into sharp relief in this moving series of essays</p><p>Rachel Aviv has a profound interest in the vagaries of human psychology: Strangers to Ourselves, her last book, profiled five people whose psychiatric states resisted straightforward explanation, testing the limits of the mental health system. A Pulitzer finalist, Aviv has become known for rigorous, penetrating journalism that is as empathic as it is insightful. Now comes You Won’t Get Free of It, six stories of mothers and daughters, all originally published in the New Yorker.</p><p>Madness runs through this book, too, in the stories of Linda Bishop, a woman who, upon discharge from hospital after a psychotic break, holed up in an abandoned farmhouse and tried to subsist on apples alone, and of Mary, a woman whose delusions and paranoia were only seemingly cured as a side-effect of chemotherapy. It’s also there in the childhood memories of the psychologist Elizabeth Loftus – a professional court witness for those who have been accused of abuse, one of whom was Harvey Weinstein. Loftus’s mother was found drowned, perhaps as a result of suicide. In Aviv’s masterly profile, she teases out a conclusion that leaves you pondering the extent to which this memory expert can rely on her own recollections, and what that says about her particular line of work.</p> <a href=\"https://www.theguardian.com/books/2026/aug/11/you-wont-get-free-of-it-by-rachel-aviv-review-a-subtle-study-of-the-mother-daughter-bond\">Continue reading...</a>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "NPR Books",
-        "headline": "'The Nerd Reich' tracks the 'unmasking of Silicon Valley's true politics'",
-        "source_url": "https://www.npr.org/2026/08/10/nx-s1-5925350/the-nerd-reich-tracks-the-unmasking-of-silicon-valleys-true-politics",
-        "published_at": "2026-08-10T17:38:12+00:00",
-        "summary": "Journalist Gil Durán argues that a small circle of Silicon Valley billionaires and venture capitalists have concluded that democracy is in their way — and that they should be governing in its place."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "The Guardian Books",
-        "headline": "Is Beauty Good by Rosalind Belben review – the literary equivalent of free jazz",
-        "source_url": "https://www.theguardian.com/books/2026/aug/10/is-beauty-good-by-rosalind-belben-review-the-literary-equivalent-of-free-jazz",
-        "published_at": "2026-08-10T08:00:38+00:00",
-        "summary": "<p>Combining hilarious detail with harsh observation, this rediscovered novel takes the reader on an exhilaratingly strange journey </p><p>‘But after all, writing is nothing more than a guided dream,” wrote Jorge Luis Borges. Dreams and dreaming are fertile concerns for Rosalind Belben, too. Her fourth book, originally published in 1979 and <a href=\"https://www.theguardian.com/books/2025/jul/31/dreaming-of-dead-people-by-rosalind-belben-review\">reissued last yea</a>r, was titled Dreaming of Dead People. It was followed, a decade later, by Is Beauty Good. Now available in a new edition from the Sheffield indie And Other Stories, this eccentric polyphonic novel contains dozens of considerations of dreams, including dogs’ dreams and horses’ dreams as well as human beings’. Yet what makes it extraordinary is Belben’s ability to capture in words the slippery state that is neither dreaming nor sleeping nor waking, but somewhere in the edgelands between all three.</p><p>“I fall awake and think, I want to go home. But there is no home.” So begins the chapter entitled Exile, a deliciously elusive story that is, most of the time at least, narrated in the first person by someone who is probably a woman, “a grizzled, cropped person”, and probably quite old and alone. They might be travelling through mountains somewhere, perhaps on a bus. They aren’t sure: “I am quite lost, wherever I am. I want to surrender. I wish to retire. I am tired.” Swishing about are uncertain memories of a childhood “shrouded” in nightmares: there was an orchard with an abundance of flora and fauna, and larks and swallows and “swifts to scream”. Like the author, the narrator was “born in the mud month” of February, and longs to disappear into marshlands to “be touched and stroked by plants”. But Belben never lets us rest in one place for long. Slipping in and out of sleep, “suffering glimpses”, the narrator stares at “a pink and blue angel” in the plaster of the wall. Which wall, you wonder, and how did we get here? This is the lure of Belben’s hypnagogia, the dizzying space into which she writes.</p> <a href=\"https://www.theguardian.com/books/2026/aug/10/is-beauty-good-by-rosalind-belben-review-the-literary-equivalent-of-free-jazz\">Continue reading...</a>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "The Guardian Books",
-        "headline": "John Berger: From Life by Tom Overton review – a vibrant biography of the pioneering critic",
-        "source_url": "https://www.theguardian.com/books/2026/aug/10/john-berger-from-life-by-tom-overton-review-a-vibrant-biography-of-the-pioneering-critic",
-        "published_at": "2026-08-10T06:00:37+00:00",
-        "summary": "<p>This multi-layered portrait is a fitting tribute to the man behind Ways of Seeing</p><p>The cultural critic John Berger was still alive and kicking when he donated his literary archive – heaped boxes of letters and notepads, sketches and scripts – to the British Library in 2009. From his home in the Alps, he proceeded to liaise with the collection’s curator, Tom Overton, sorting each item and recounting the wild stories behind them. When Overton sought permission to write Berger’s biography, though, the critic insisted that he wait a few years. Death changes the relationship between the writer and his subject. More often than not, it complicates and enriches it. Berger – who spent much of his career in passionate conversation with the past – probably knew that better than anyone.</p><p>Berger typically described himself as a storyteller, an elastic job title which allowed him to swing between fiction and poetry, essays and screenplays. Implicitly, too, the term helped frame his criticism as something propulsive and inclusive, an invitation to dance as opposed to a judgment from on high. Berger had no time for the “great man” theory of art as espoused by the popular historian Kenneth Clark and instead urged his audience to view each piece as a manifestation of society and politics: the tainted fruit of capitalism, inseparable from the marketplace. Oil paintings were status symbols. Nudes were the product of the lusty male gaze. Looking itself was a political act. “You cannot reply to me,” he would tell 1970s TV viewers, breaking the fourth wall to highlight the medium’s limitations. He liked pointing out the mechanics behind the manufacture of art, demystifying the process to better appreciate its results.</p> <a href=\"https://www.theguardian.com/books/2026/aug/10/john-berger-from-life-by-tom-overton-review-a-vibrant-biography-of-the-pioneering-critic\">Continue reading...</a>"
       }
     },
     {
@@ -1215,6 +1251,24 @@
     {
       "event_model_payload": {
         "source_name": "The Guardian Books",
+        "headline": "John Berger: From Life by Tom Overton review – a vibrant biography of the pioneering critic",
+        "source_url": "https://www.theguardian.com/books/2026/aug/10/john-berger-from-life-by-tom-overton-review-a-vibrant-biography-of-the-pioneering-critic",
+        "published_at": "2026-08-10T06:00:37+00:00",
+        "summary": "<p>This multi-layered portrait is a fitting tribute to the man behind Ways of Seeing</p><p>The cultural critic John Berger was still alive and kicking when he donated his literary archive – heaped boxes of letters and notepads, sketches and scripts – to the British Library in 2009. From his home in the Alps, he proceeded to liaise with the collection’s curator, Tom Overton, sorting each item and recounting the wild stories behind them. When Overton sought permission to write Berger’s biography, though, the critic insisted that he wait a few years. Death changes the relationship between the writer and his subject. More often than not, it complicates and enriches it. Berger – who spent much of his career in passionate conversation with the past – probably knew that better than anyone.</p><p>Berger typically described himself as a storyteller, an elastic job title which allowed him to swing between fiction and poetry, essays and screenplays. Implicitly, too, the term helped frame his criticism as something propulsive and inclusive, an invitation to dance as opposed to a judgment from on high. Berger had no time for the “great man” theory of art as espoused by the popular historian Kenneth Clark and instead urged his audience to view each piece as a manifestation of society and politics: the tainted fruit of capitalism, inseparable from the marketplace. Oil paintings were status symbols. Nudes were the product of the lusty male gaze. Looking itself was a political act. “You cannot reply to me,” he would tell 1970s TV viewers, breaking the fourth wall to highlight the medium’s limitations. He liked pointing out the mechanics behind the manufacture of art, demystifying the process to better appreciate its results.</p> <a href=\"https://www.theguardian.com/books/2026/aug/10/john-berger-from-life-by-tom-overton-review-a-vibrant-biography-of-the-pioneering-critic\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Is Beauty Good by Rosalind Belben review – the literary equivalent of free jazz",
+        "source_url": "https://www.theguardian.com/books/2026/aug/10/is-beauty-good-by-rosalind-belben-review-the-literary-equivalent-of-free-jazz",
+        "published_at": "2026-08-10T08:00:38+00:00",
+        "summary": "<p>Combining hilarious detail with harsh observation, this rediscovered novel takes the reader on an exhilaratingly strange journey </p><p>‘But after all, writing is nothing more than a guided dream,” wrote Jorge Luis Borges. Dreams and dreaming are fertile concerns for Rosalind Belben, too. Her fourth book, originally published in 1979 and <a href=\"https://www.theguardian.com/books/2025/jul/31/dreaming-of-dead-people-by-rosalind-belben-review\">reissued last yea</a>r, was titled Dreaming of Dead People. It was followed, a decade later, by Is Beauty Good. Now available in a new edition from the Sheffield indie And Other Stories, this eccentric polyphonic novel contains dozens of considerations of dreams, including dogs’ dreams and horses’ dreams as well as human beings’. Yet what makes it extraordinary is Belben’s ability to capture in words the slippery state that is neither dreaming nor sleeping nor waking, but somewhere in the edgelands between all three.</p><p>“I fall awake and think, I want to go home. But there is no home.” So begins the chapter entitled Exile, a deliciously elusive story that is, most of the time at least, narrated in the first person by someone who is probably a woman, “a grizzled, cropped person”, and probably quite old and alone. They might be travelling through mountains somewhere, perhaps on a bus. They aren’t sure: “I am quite lost, wherever I am. I want to surrender. I wish to retire. I am tired.” Swishing about are uncertain memories of a childhood “shrouded” in nightmares: there was an orchard with an abundance of flora and fauna, and larks and swallows and “swifts to scream”. Like the author, the narrator was “born in the mud month” of February, and longs to disappear into marshlands to “be touched and stroked by plants”. But Belben never lets us rest in one place for long. Slipping in and out of sleep, “suffering glimpses”, the narrator stares at “a pink and blue angel” in the plaster of the wall. Which wall, you wonder, and how did we get here? This is the lure of Belben’s hypnagogia, the dizzying space into which she writes.</p> <a href=\"https://www.theguardian.com/books/2026/aug/10/is-beauty-good-by-rosalind-belben-review-the-literary-equivalent-of-free-jazz\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
         "headline": "We know sleep, exercise and diet are vital for health. But why?",
         "source_url": "https://www.theguardian.com/books/2026/aug/09/we-know-sleep-exercise-and-diet-are-vital-for-health-but-why",
         "published_at": "2026-08-09T11:00:15+00:00",
@@ -1223,47 +1277,11 @@
     },
     {
       "event_model_payload": {
-        "source_name": "The Guardian Books",
-        "headline": "What Happened to Liberal Democracy? by Daron Acemoglu review – how to fix the system",
-        "source_url": "https://www.theguardian.com/books/2026/aug/07/what-happened-to-liberal-democracy-by-daron-acemoglu-review-how-to-fix-the-system",
-        "published_at": "2026-08-07T06:00:09+00:00",
-        "summary": "<p>The Nobel-winning economist takes aim at elites for no longer meeting the needs of the masses</p><p>In 2009, the tech billionaire Peter Thiel published an essay with the portentous title The Education of a Libertarian, in which he announced: “I no longer believe that freedom and democracy are compatible.” Since the 1920s, he wrote, “the vast increase in welfare beneficiaries and the extension of the franchise to women” had rendered the notion of “capitalist democracy” an oxymoron. To be fair, Thiel still seems happy to exercise his freedom to extract money from democracies, via his co-founding of <a href=\"https://www.theguardian.com/commentisfree/2026/jul/15/palantir-british-state-political-access-us-tech-firm-nhs\">Palantir</a>, which was lately given lots of money by the NHS.</p><p>Thiel calls himself, as many such do, a “classical liberal”, but Daron Acemoglu argues that his ilk still has much in common with left-liberals. All of them, he writes, agree on “the desirability of basic individual rights and freedoms (including the right not to be coerced and the freedoms of expression, religion, association, and choice); constraints on power, especially political power; and broad protections for equality before the law”. On his telling, by the mid-20th century democracy with liberal characteristics had amply proved its worth: blue-collar labour was generously rewarded, and there was a sense of “shared prosperity”.</p> <a href=\"https://www.theguardian.com/books/2026/aug/07/what-happened-to-liberal-democracy-by-daron-acemoglu-review-how-to-fix-the-system\">Continue reading...</a>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "The Guardian Books",
-        "headline": "The best recent science fiction, fantasy and horror – review roundup",
-        "source_url": "https://www.theguardian.com/books/2026/aug/07/the-best-recent-science-fiction-fantasy-and-horror-review-roundup",
-        "published_at": "2026-08-07T11:00:17+00:00",
-        "summary": "<p>The Salt King by Natasha Pulley; A Trade of Blood by Robert Jackson Bennett; Netherwood by Jake Arnott; Fawn by CN Vair</p><p><strong><a href=\"https://guardianbookshop.com/the-salt-king-9781399632966/?utm_source=editoriallink&utm_medium=merch&utm_campaign=article\">The Salt King by</a> by Natasha Pulley (Gollancz, £22)</strong><strong><br /></strong>The latest from the author of The Watchmaker of Filigree Street blends an apocalyptic end-of-the-world tale with folk horror and two slowly developing love stories. Avelyn Brocken is a trainee priest at the Vatican, sent to check out a possible miracle in the fens of East Anglia. His only qualification for the job is that he was born and raised in Hreodwater, a strange community based around a salt mine with its own language, religion and rituals. But what begins in Hreodwater, involving the mysterious salt light and a sleeping king deep in the mine, threatens civilisations. An original, rich and gripping tale that’s also an interesting exploration of the power of faith.</p><p><strong><a href=\"https://guardianbookshop.com/a-trade-of-blood-9781399725507/?utm_source=editoriallink&utm_medium=merch&utm_campaign=article\">A Trade of Blood</a> by Robert Jackson Bennett (Hodderscape, £25)</strong><strong><br /></strong>A new case for Ana and Din, the crime-solving team introduced in the Hugo and World Fantasy award-winning novel The Tainted Cup, focuses on a murder among the cattle-ranching gentry of the Empire of Khanum. The murderer has been caught red-handed, unable to remember what happened. The victim was his lover, and their families were enemies; he is the last of his line, and fears his family is cursed. The detectives suspect a more material and dangerous adversary behind the scenes, with access to a terrifying weapon. This is the sort of other-world fantasy with close ties to speculative fiction, based on natural laws and science rather than any magical system, and some of the issues it raises are of immediate concern in today’s world of shrinking resources. Great world-building and a masterfully conceived mystery make for a compelling cross-genre blend.</p> <a href=\"https://www.theguardian.com/books/2026/aug/07/the-best-recent-science-fiction-fantasy-and-horror-review-roundup\">Continue reading...</a>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "The Guardian Books",
-        "headline": "Sky City by Jacqueline Crooks review – an ambitious, lyrical portrait of trauma",
-        "source_url": "https://www.theguardian.com/books/2026/aug/06/sky-city-by-jacqueline-crooks-review-an-ambitious-lyrical-portrait-of-trauma",
-        "published_at": "2026-08-06T06:00:41+00:00",
-        "summary": "<p>A young woman is haunted by her childhood in this forcefully imaginative and unapologetically bleak novel from the author of Fire Rush</p><p>The world of Sky City never quite settles beneath your feet. The action of Jacqueline Crooks’s second novel unfolds in a recognisable 1990s London, yet everything seems subtly untethered from reality: a council estate suspended above the city, voices drifting in and out through pirate radio, ghosts walking beside the living. The narrative floats just above the surface of the everyday, a world where trauma transforms the mundane into something uncanny.</p><p>We first meet protagonist Jaycee as a child, trapped in a west London housing estate she calls the Cyborg House. Her stepfather subjects her to horrific sexual abuse while her mother turns a blind eye, exercising her own brand of cruelty. Families, Jaycee comes to believe, are “dangerous places … like nests of poisonous spiders, huddled in dark, undisturbed corners, their venom, a single drop enough to rot the body inside out”. Eventually taken into care, she finds an unlikely lifeline in Ella-G, another damaged girl whose exuberance masks wounds as profound as Jaycee’s own; both feel “on the outside of the world”. The care home turns out to be similarly brutal, and the pair survive together, forging a friendship that becomes the novel’s emotional anchor.</p> <a href=\"https://www.theguardian.com/books/2026/aug/06/sky-city-by-jacqueline-crooks-review-an-ambitious-lyrical-portrait-of-trauma\">Continue reading...</a>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "The Guardian Books",
-        "headline": "The Ghost of the Mountains by Kulbhushansingh Suryawanshi review – the secrets of the snow leopard",
-        "source_url": "https://www.theguardian.com/books/2026/aug/05/the-ghost-of-the-mountains-by-kulbhushansingh-suryawanshi-review-the-secrets-of-the-snow-leopard",
-        "published_at": "2026-08-05T06:00:10+00:00",
-        "summary": "<p>An Indian mountaineer follows in the footsteps of explorers and conservationists in search of an enigmatic animal</p><p>When bored, try the following game – I call it “Purr or Roar?”. Take any feline and guess whether it can purr or roar (it cannot do both because purring and roaring require different anatomical structures). Some candidates are easy: any child knows that lions and tigers roar and that a tabby does not. But between the great cats and our pets are numerous other species, from lynxes to panthers, whose anatomy is not so easy to infer. A leopard, for instance? Roar (or growl). The discreet, mountain-dwelling snow leopard? Purr.</p><p>The snow leopard is the protagonist of Kulbhushansingh Suryawanshi’s first book, a compelling and intimate look at this elusive mountain specialist. An Indian conservationist and mountaineer, Suryawanshi pursues the creature through the Himalayas and Gobi desert. This is a gritty and detailed portrait of an often misunderstood and endangered species in an increasingly hostile, crowded and hot environment.</p> <a href=\"https://www.theguardian.com/books/2026/aug/05/the-ghost-of-the-mountains-by-kulbhushansingh-suryawanshi-review-the-secrets-of-the-snow-leopard\">Continue reading...</a>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "The Guardian Books",
-        "headline": "A Sense of Occasion by Brodie Crellin review – a surprising and darkly funny debut",
-        "source_url": "https://www.theguardian.com/books/2026/aug/05/a-sense-of-occasion-by-brodie-crellin-review-a-surprising-and-darkly-funny-debut",
-        "published_at": "2026-08-05T08:00:13+00:00",
-        "summary": "<p>A dysfunctional family comes together for a funeral in this heartfelt, keenly observed novel </p><p>Most of us come upon our family’s dysfunctions gradually, like a door that opens a little wider each year. This uncle, you find out, has had an affair; grandma has a hoarding problem. The cremation of the nuclear family illusion is a cornerstone of literature, especially when it’s hastened by one of those unavoidable core gatherings: weddings, births, funerals. But what happens when there was never any illusion to start with; when the story begins in the ashes? <br /><br />\n The delight of Brodie Crellin’s accomplished, surprising debut lies in the way it wrestles with this question, and in its depiction of a family that fails to meet any conventional definition of the word. With a cutting eye and wry humour, Crellin finds fantastic power in the story of three maladjusted people reeling in the face of death, whose relationships to one another are endlessly confronting and complex.<br /><br />\n There is friendless Patch, riddled with anxiety, who bursts into tears at the memory of the postman’s suicide and falls victim to a terrible haircut. There is Patch’s father, Robin, who is “gay, yes, mostly, but mutable”. And there is Jude, her domineering, malevolently competent cousin, a playwright who “loves to make an entrance”. They’re bound by the newly deceased Mary: Robin’s ex, Patch’s mother, and Jude’s aunt – a woman who “[didn’t] have a problem with gay men” but was lukewarm on lesbians. Orbiting this “isosceles”, as Jude calls it, is Juliette, Jude’s gleefully moneyed mother, and Mel, Mary’s neighbour. Various other characters swing in and out, all fully realised no matter how brief their appearances, my favourite of which was Mary’s poor, forgotten “empath” labrador, Leonard.</p><p>The stage is set, as Jude cruises in from Naples, for a fraught collision of past and present. As the funeral draws closer and tensions simmer, Crellin juggles the minutiae of death – chopping vegetables, arranging memorial photos – with fragmented recollections of messy family history. It’s rare to read a novel that can skip in and out of so many points of view and keep the different styles of narration intact. Yet even with regular flashbacks, A Sense of Occasion feels remarkably natural thanks to Crellin’s light touch, especially in the arch, zippy dialogue. There are shades of classic mid-century stories, particularly Dorothy Baker’s Cassandra at the Wedding, and some of the caustic social wit of Edward St Aubyn’s Melrose chronicles, but the boldness feels entirely modern.<br /><br />\n It’s a joy, too, to read fiction that understands sex so well, and is neither sentimental nor sleazy. Crellin conveys the importance of sex as a vehicle for each character’s foibles and desires; as a shadowy place where so much can be manipulated and communicated. The book summons up a kaleidoscope of erotic experience across the spectrum, sometimes hot and sometimes ridiculous, including a quasi-incestuous relationship rendered with nuance and consideration.<br /><br />\n If the novel leans a little hard on Jude and her mother, Juliette, for its class critiques, it’s easily forgiven on account of just how much fun it is to watch these characters crash into each other, and for the deftly nasty one-liners that they toss out. “Patch lacked the confidence conferred by a private education,” Jude thinks smugly. “But she could also say that Patch was simply less intelligent.” And yet the story never veers into mean-spirited satire, largely thanks to Patch herself, the grief-stricken daughter, who is the heartbeat of the novel. Perennially misunderstood and underestimated – including by her own mother, when she was alive – Patch is awkward but raw, a keen observer of herself and others.<br /><br />\n There is immense pleasure and vitality – and ultimately a great deal of tenderness – in A Sense of Occasion’s depiction of flawed, strange people who love badly, and can’t help but get in the way of themselves over and over again. After all, as George Bernard Shaw wrote, “If you cannot get rid of the family skeleton, you may as well make it dance.”</p> <a href=\"https://www.theguardian.com/books/2026/aug/05/a-sense-of-occasion-by-brodie-crellin-review-a-surprising-and-darkly-funny-debut\">Continue reading...</a>"
+        "source_name": "NPR Books",
+        "headline": "'The Nerd Reich' tracks the 'unmasking of Silicon Valley's true politics'",
+        "source_url": "https://www.npr.org/2026/08/10/nx-s1-5925350/the-nerd-reich-tracks-the-unmasking-of-silicon-valleys-true-politics",
+        "published_at": "2026-08-10T17:38:12+00:00",
+        "summary": "Journalist Gil Durán argues that a small circle of Silicon Valley billionaires and venture capitalists have concluded that democracy is in their way — and that they should be governing in its place."
       }
     },
     {
@@ -1327,24 +1345,6 @@
         "source_url": "https://www.npr.org/2026/08/03/nx-s1-5906474/how-the-miss-america-pageant-ignited-a-battle-over-beauty-race-and-power",
         "published_at": "2026-08-03T19:45:48+00:00",
         "summary": "Historian Micki McElya revisits one September afternoon in 1968, Atlantic City, when the Miss America pageant collided with a changing country. Her new book is <em>Liberation Summer.</em>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "NPR Books",
-        "headline": "NPR staffers recommend their favorite fiction books of the year so far",
-        "source_url": "https://www.npr.org/2026/08/02/nx-s1-5872432/npr-staffers-recommend-their-favorite-fiction-books-of-the-year-so-far",
-        "published_at": "2026-08-02T12:36:44+00:00",
-        "summary": "NPR's Books We Love is back with some staff recommendations for novels."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "NPR Books",
-        "headline": "'Taiwan Travelogue' rethinks history, colonialism, and identity",
-        "source_url": "https://www.npr.org/2026/07/29/g-s1-136110/taiwan-travelogue-rethinks-history-colonialism-and-identity",
-        "published_at": "2026-07-29T16:55:54+00:00",
-        "summary": "The author and translator of <em>Taiwan Travelogue, </em>the winner of the 2026 International Booker Prize, discuss identity and history amid the debate over Taiwan's colonial ties to Japan and escalating geopolitical pressure from China."
       }
     }
   ],
