@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-08-18T02:15:56.777154+00:00",
+  "generated_at": "2026-08-19T02:19:01.999747+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -17,23 +17,23 @@
     "sales_ranking_events": 15,
     "library_lending_events": 0,
     "author_event_events": 0,
-    "award_signal_events": 8,
-    "book_signal_event_count": 23,
-    "official_or_operational_event_count": 18,
+    "award_signal_events": 7,
+    "book_signal_event_count": 22,
+    "official_or_operational_event_count": 19,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 18,
-    "proxy_canonical_key_count": 5,
+    "complete_canonical_key_count": 19,
+    "proxy_canonical_key_count": 3,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 18,
+    "isbn_present_count": 19,
     "author_present_count": 12,
     "publisher_present_count": 9,
-    "rank_present_count": 17,
+    "rank_present_count": 18,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 5,
+    "event_required_field_gap_count": 3,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 16
+    "daily_review_item_count": 12
   },
   "sources": [
     {
@@ -75,7 +75,7 @@
       "article_count": 15,
       "event_count": 15,
       "latest_event_at": "2026-08-16T22:00:50+00:00",
-      "age_days": 1.18,
+      "age_days": 2.18,
       "latest_title": "9위 사카모토 데이즈 27 (더블 특전판)",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400365190&radar_rank=9&radar_ranking_date=20260816220050&rssType=5&type=item",
       "latest_source_signal": [
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 24,
+      "article_count": 25,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -781,96 +781,6 @@
     }
   ],
   "events": [
-    {
-      "source": "Literary Hub",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Everything But the Burden: Greg Tate, John Henryism, and the Cost of Solidarity",
-      "url": "https://lithub.com/everything-but-the-burden-greg-tate-john-henryism-and-the-cost-of-solidarity",
-      "source_url": "https://lithub.com/everything-but-the-burden-greg-tate-john-henryism-and-the-cost-of-solidarity",
-      "event_at": "2026-08-17T09:08:33+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "pulitzer",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "pulitzer"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:literary-hub:070a510ff781",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:dba4226adfaf:20260817",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "Literary Hub",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Read an Original Review of All the King’s Men on Its 80th Anniversary",
-      "url": "https://lithub.com/read-an-original-review-of-all-the-kings-men-on-its-80th-anniversary",
-      "source_url": "https://lithub.com/read-an-original-review-of-all-the-kings-men-on-its-80th-anniversary",
-      "event_at": "2026-08-17T09:08:17+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "pulitzer",
-      "genre": [
-        "novel"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "pulitzer"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:literary-hub:318414048dca",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:aa2ce5e85b0d:20260817",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
     {
       "source": "알라딘 베스트셀러",
       "source_type": "rss",
@@ -1710,7 +1620,9 @@
       "publisher": [
         "문학동네"
       ],
-      "book_type": [],
+      "book_type": [
+        "신간"
+      ],
       "author": [
         "작가"
       ],
@@ -1727,6 +1639,63 @@
       "canonical_key": "book_edition:400383070",
       "canonical_key_status": "complete",
       "event_key": "award_signal:49ee457a4d7f:20260814",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "세상에 단 하나뿐인 아이반 (양장 특별판)/캐서린 애플게이트 지음, 정성원 옮김/다른어린이",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400372031&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400372031&rssType=1&type=item",
+      "event_at": "2026-08-14T01:45:00+00:00",
+      "isbn": "400372031",
+      "rank": 1,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "문학",
+        "예술",
+        "어린이",
+        "동화"
+      ],
+      "publisher": [],
+      "book_type": [
+        "베스트셀러",
+        "화제의 책",
+        "세트"
+      ],
+      "author": [],
+      "award": [
+        "수상",
+        "문학상",
+        "올해의 책",
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:400372031",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:3b84995168ad:20260814",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -1872,40 +1841,6 @@
     }
   ],
   "daily_review_items": [
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Everything But the Burden: Greg Tate, John Henryism, and the Cost of Solidarity",
-      "canonical_key": "book_source:literary-hub:070a510ff781",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Everything But the Burden: Greg Tate, John Henryism, and the Cost of Solidarity",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Read an Original Review of All the King’s Men on Its 80th Anniversary",
-      "canonical_key": "book_source:literary-hub:318414048dca",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Read an Original Review of All the King’s Men on Its 80th Anniversary",
-      "canonical_key_status": "source_proxy"
-    },
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
