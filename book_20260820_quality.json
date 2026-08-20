@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-08-19T02:19:01.999747+00:00",
+  "generated_at": "2026-08-20T02:17:55.810360+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -17,23 +17,23 @@
     "sales_ranking_events": 15,
     "library_lending_events": 0,
     "author_event_events": 0,
-    "award_signal_events": 7,
-    "book_signal_event_count": 22,
-    "official_or_operational_event_count": 19,
+    "award_signal_events": 5,
+    "book_signal_event_count": 20,
+    "official_or_operational_event_count": 18,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 19,
-    "proxy_canonical_key_count": 3,
+    "complete_canonical_key_count": 18,
+    "proxy_canonical_key_count": 2,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 19,
-    "author_present_count": 12,
+    "isbn_present_count": 18,
+    "author_present_count": 11,
     "publisher_present_count": 9,
-    "rank_present_count": 18,
+    "rank_present_count": 17,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 3,
+    "event_required_field_gap_count": 2,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 12
+    "daily_review_item_count": 10
   },
   "sources": [
     {
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 30,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 15,
       "event_count": 15,
       "latest_event_at": "2026-08-16T22:00:50+00:00",
-      "age_days": 2.18,
+      "age_days": 3.18,
       "latest_title": "9위 사카모토 데이즈 27 (더블 특전판)",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400365190&radar_rank=9&radar_ranking_date=20260816220050&rssType=5&type=item",
       "latest_source_signal": [
@@ -378,7 +378,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 21,
+      "article_count": 19,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -781,6 +781,105 @@
     }
   ],
   "events": [
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "The Rise and Fall of the Artificial State by Jill Lepore review – an ominous warning of tech takeover",
+      "url": "https://www.theguardian.com/books/2026/aug/19/the-rise-and-fall-of-the-artificial-state-by-jill-lepore-review-an-ominous-warning-of-tech-takeover",
+      "source_url": "https://www.theguardian.com/books/2026/aug/19/the-rise-and-fall-of-the-artificial-state-by-jill-lepore-review-an-ominous-warning-of-tech-takeover",
+      "event_at": "2026-08-19T08:00:09+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "pulitzer",
+      "genre": [
+        "fantasy"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "pulitzer"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:the-guardian-books:e68d2bb7690f",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:813e719b1920:20260819",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "건축/황인찬 지음, 이지후 그림/배드베드북스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400556995&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400556995&rssType=1&type=item",
+      "event_at": "2026-08-18T05:23:00+00:00",
+      "isbn": "400556995",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "그림책"
+      ],
+      "publisher": [
+        "창비"
+      ],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:400556995",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:06d1a3e162c5:20260818",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
     {
       "source": "알라딘 베스트셀러",
       "source_type": "rss",
@@ -1592,210 +1691,6 @@
       "required_field_gaps": []
     },
     {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "도그 스타 (영화 포스터 북커버 에디션)/피터 헬러 지음, 이진 옮김/문학동네",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400383070&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400383070&rssType=1&type=item",
-      "event_at": "2026-08-14T04:47:00+00:00",
-      "isbn": "400383070",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "올해의 책",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학"
-      ],
-      "publisher": [
-        "문학동네"
-      ],
-      "book_type": [
-        "신간"
-      ],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "올해의 책",
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:400383070",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:49ee457a4d7f:20260814",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "세상에 단 하나뿐인 아이반 (양장 특별판)/캐서린 애플게이트 지음, 정성원 옮김/다른어린이",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400372031&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400372031&rssType=1&type=item",
-      "event_at": "2026-08-14T01:45:00+00:00",
-      "isbn": "400372031",
-      "rank": 1,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "문학",
-        "예술",
-        "어린이",
-        "동화"
-      ],
-      "publisher": [],
-      "book_type": [
-        "베스트셀러",
-        "화제의 책",
-        "세트"
-      ],
-      "author": [],
-      "award": [
-        "수상",
-        "문학상",
-        "올해의 책",
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:400372031",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:3b84995168ad:20260814",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "New York Times Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Johanna Fernández, Historian of the Young Lords, Dies at 55",
-      "url": "https://www.nytimes.com/2026/08/12/us/johanna-fernandez-dead.html",
-      "source_url": "https://www.nytimes.com/2026/08/12/us/johanna-fernandez-dead.html",
-      "event_at": "2026-08-13T14:40:00+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "award",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "award"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:new-york-times-books:01b05af5ea10",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:ba4856a851f7:20260813",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "I Give You My Silence by Mario Vargas Llosa review – Nobel laureate’s final novel is a love letter to Peru",
-      "url": "https://www.theguardian.com/books/2026/aug/11/i-give-you-my-silence-by-mario-vargas-llosa-review-nobel-laureates-final-novel-is-a-love-letter-to-peru",
-      "source_url": "https://www.theguardian.com/books/2026/aug/11/i-give-you-my-silence-by-mario-vargas-llosa-review-nobel-laureates-final-novel-is-a-love-letter-to-peru",
-      "event_at": "2026-08-11T10:56:35+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "nobel",
-      "genre": [
-        "novel"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "author"
-      ],
-      "award": [
-        "nobel"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:title:7212a3ec8fe6",
-      "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:5c30112b2279:20260811",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -1844,9 +1739,9 @@
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "Johanna Fernández, Historian of the Young Lords, Dies at 55",
-      "canonical_key": "book_source:new-york-times-books:01b05af5ea10",
+      "source": "The Guardian Books",
+      "title": "The Rise and Fall of the Artificial State by Jill Lepore review – an ominous warning of tech takeover",
+      "canonical_key": "book_source:the-guardian-books:e68d2bb7690f",
       "required_field_gaps": [
         "isbn"
       ]
@@ -1854,26 +1749,9 @@
     {
       "reason": "proxy_canonical_key",
       "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "Johanna Fernández, Historian of the Young Lords, Dies at 55",
+      "source": "The Guardian Books",
+      "title": "The Rise and Fall of the Artificial State by Jill Lepore review – an ominous warning of tech takeover",
       "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "I Give You My Silence by Mario Vargas Llosa review – Nobel laureate’s final novel is a love letter to Peru",
-      "canonical_key": "book_edition:title:7212a3ec8fe6",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "I Give You My Silence by Mario Vargas Llosa review – Nobel laureate’s final novel is a love letter to Peru",
-      "canonical_key_status": "title_proxy"
     },
     {
       "reason": "missing_required_fields",
