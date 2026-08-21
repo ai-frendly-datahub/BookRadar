@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-08-20T02:17:55.810360+00:00",
+  "generated_at": "2026-08-21T02:23:47.338560+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,24 +16,24 @@
     "collection_error_count": 0,
     "sales_ranking_events": 15,
     "library_lending_events": 0,
-    "author_event_events": 0,
-    "award_signal_events": 5,
-    "book_signal_event_count": 20,
-    "official_or_operational_event_count": 18,
+    "author_event_events": 1,
+    "award_signal_events": 11,
+    "book_signal_event_count": 27,
+    "official_or_operational_event_count": 22,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 18,
-    "proxy_canonical_key_count": 2,
+    "complete_canonical_key_count": 23,
+    "proxy_canonical_key_count": 4,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 18,
-    "author_present_count": 11,
+    "isbn_present_count": 23,
+    "author_present_count": 15,
     "publisher_present_count": 9,
     "rank_present_count": 17,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 2,
+    "event_required_field_gap_count": 4,
     "tracked_source_gap_count": 0,
-    "missing_event_model_count": 2,
+    "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 10
+    "daily_review_item_count": 13
   },
   "sources": [
     {
@@ -75,7 +75,7 @@
       "article_count": 15,
       "event_count": 15,
       "latest_event_at": "2026-08-16T22:00:50+00:00",
-      "age_days": 3.18,
+      "age_days": 4.18,
       "latest_title": "9위 사카모토 데이즈 27 (더블 특전판)",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400365190&radar_rank=9&radar_ranking_date=20260816220050&rssType=5&type=item",
       "latest_source_signal": [
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 22,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -378,7 +378,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 19,
+      "article_count": 15,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -782,6 +782,140 @@
   ],
   "events": [
     {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Tony Tulathimutte has won one America’s largest (and newest) literary prizes.",
+      "url": "https://lithub.com/tony-tulathimutte-has-won-one-americas-largest-and-newest-literary-prizes",
+      "source_url": "https://lithub.com/tony-tulathimutte-has-won-one-americas-largest-and-newest-literary-prizes",
+      "event_at": "2026-08-20T18:18:24+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [
+        "literary"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:literary-hub:d942edaa98dc",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:ce1e870c860f:20260820",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Here’s the winner of the 2026 Inside Literary Prize.",
+      "url": "https://lithub.com/heres-the-winner-of-the-the-2026-inside-literary-prize",
+      "source_url": "https://lithub.com/heres-the-winner-of-the-the-2026-inside-literary-prize",
+      "event_at": "2026-08-20T13:01:50+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "winner",
+      "genre": [
+        "literary"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:literary-hub:b5a33a049020",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:574d620af73f:20260820",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Publishers Weekly",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "WNBA Relaunches Pannell Award for 2026",
+      "url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101085-wnba-relaunches-pannell-award-for-2026.html",
+      "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101085-wnba-relaunches-pannell-award-for-2026.html",
+      "event_at": "2026-08-20T04:00:00+00:00",
+      "isbn": "101085",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:101085",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:a0f7180ebacf:20260820",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -836,11 +970,11 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "건축/황인찬 지음, 이지후 그림/배드베드북스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400556995&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400556995&rssType=1&type=item",
-      "event_at": "2026-08-18T05:23:00+00:00",
-      "isbn": "400556995",
+      "title": "환호성/구소현 지음/문학과지성사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400622237&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400622237&rssType=1&type=item",
+      "event_at": "2026-08-19T07:51:00+00:00",
+      "isbn": "400622237",
       "rank": null,
       "retailer": "",
       "library_network": "",
@@ -852,11 +986,66 @@
         "시",
         "희곡",
         "문학",
-        "그림책"
+        "인문학"
       ],
       "publisher": [
-        "창비"
+        "문학과지성사"
       ],
+      "book_type": [
+        "신간"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상",
+        "문학상",
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:400622237",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:c3444cb877f2:20260819",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "어리석은 자의 독 (애장판)/우사미 마코토 지음, 이연승 옮김/블루홀식스(블루홀6)",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400617008&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400617008&rssType=1&type=item",
+      "event_at": "2026-08-19T07:05:00+00:00",
+      "isbn": "400617008",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "추리"
+      ],
+      "publisher": [],
       "book_type": [],
       "author": [
         "작가"
@@ -870,9 +1059,164 @@
         "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:400556995",
+      "canonical_key": "book_edition:400617008",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:06d1a3e162c5:20260818",
+      "event_key": "award_signal:3cfb25e2b844:20260819",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "절룩거리며 찾아나선 정화의 순간들/김신록 지음/글항아리",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400614039&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400614039&rssType=1&type=item",
+      "event_at": "2026-08-19T06:35:00+00:00",
+      "isbn": "400614039",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "북토크",
+      "award_name": "",
+      "genre": [
+        "에세이",
+        "시",
+        "예술"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가",
+        "저자"
+      ],
+      "award": [],
+      "book_event": [
+        "북토크"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:400614039",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:587ef5f17f95:20260819",
+      "required_field_proxy": {
+        "author_name": true,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "크로싱/벤 골드파브 지음, 조은영 옮김/곰출판",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400596916&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400596916&rssType=1&type=item",
+      "event_at": "2026-08-19T03:11:00+00:00",
+      "isbn": "400596916",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "과학",
+        "여행",
+        "개발",
+        "청소년"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "저자"
+      ],
+      "award": [
+        "수상",
+        "올해의 책"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:400596916",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:87107b0ea506:20260819",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "몸과 몸/장희원 지음/은행나무",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400595268&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400595268&rssType=1&type=item",
+      "event_at": "2026-08-19T02:49:00+00:00",
+      "isbn": "400595268",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학"
+      ],
+      "publisher": [],
+      "book_type": [
+        "시리즈"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:400595268",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:b2957d492ea5:20260819",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -1739,6 +2083,40 @@
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Tony Tulathimutte has won one America’s largest (and newest) literary prizes.",
+      "canonical_key": "book_source:literary-hub:d942edaa98dc",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Tony Tulathimutte has won one America’s largest (and newest) literary prizes.",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Here’s the winner of the 2026 Inside Literary Prize.",
+      "canonical_key": "book_source:literary-hub:b5a33a049020",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Here’s the winner of the 2026 Inside Literary Prize.",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
       "source": "The Guardian Books",
       "title": "The Rise and Fall of the Artificial State by Jill Lepore review – an ominous warning of tech takeover",
       "canonical_key": "book_source:the-guardian-books:e68d2bb7690f",
@@ -1773,10 +2151,6 @@
     {
       "reason": "missing_event_model",
       "event_model": "library_lending"
-    },
-    {
-      "reason": "missing_event_model",
-      "event_model": "author_event"
     },
     {
       "reason": "source_backlog_pending",
