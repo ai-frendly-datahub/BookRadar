@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-08-22T02:16:17.095270+00:00",
+  "generated_at": "2026-08-23T02:24:08.994694+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,24 +16,24 @@
     "collection_error_count": 0,
     "sales_ranking_events": 15,
     "library_lending_events": 0,
-    "author_event_events": 1,
-    "award_signal_events": 13,
-    "book_signal_event_count": 29,
-    "official_or_operational_event_count": 25,
+    "author_event_events": 0,
+    "award_signal_events": 7,
+    "book_signal_event_count": 22,
+    "official_or_operational_event_count": 18,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 26,
-    "proxy_canonical_key_count": 3,
+    "complete_canonical_key_count": 20,
+    "proxy_canonical_key_count": 2,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 26,
-    "author_present_count": 14,
-    "publisher_present_count": 9,
+    "isbn_present_count": 20,
+    "author_present_count": 12,
+    "publisher_present_count": 8,
     "rank_present_count": 17,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 3,
+    "event_required_field_gap_count": 2,
     "tracked_source_gap_count": 0,
-    "missing_event_model_count": 1,
+    "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 11
+    "daily_review_item_count": 10
   },
   "sources": [
     {
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 30,
+      "article_count": 25,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 15,
       "event_count": 15,
       "latest_event_at": "2026-08-16T22:00:50+00:00",
-      "age_days": 5.18,
+      "age_days": 6.18,
       "latest_title": "9위 사카모토 데이즈 27 (더블 특전판)",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400365190&radar_rank=9&radar_ranking_date=20260816220050&rssType=5&type=item",
       "latest_source_signal": [
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 21,
+      "article_count": 22,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -378,7 +378,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 17,
+      "article_count": 20,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -782,6 +782,54 @@
   ],
   "events": [
     {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "From Booker-listed Marlon James to a memoir by Michael Douglas – the biggest books this autumn",
+      "url": "https://www.theguardian.com/books/ng-interactive/2026/aug/22/new-autumn-fiction-nonfiction-marlon-james-emma-cline-michael-douglas-dustin-hoffman-judi-dench-yiyun-li",
+      "source_url": "https://www.theguardian.com/books/ng-interactive/2026/aug/22/new-autumn-fiction-nonfiction-marlon-james-emma-cline-michael-douglas-dustin-hoffman-judi-dench-yiyun-li",
+      "event_at": "2026-08-22T08:00:58+00:00",
+      "isbn": "9780241714409",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [
+        "fiction",
+        "memoir",
+        "fantasy"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author"
+      ],
+      "award": [
+        "booker"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:9780241714409",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:9e4a9602ae80:20260822",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
       "source": "Literary Hub",
       "source_type": "rss",
       "trust_tier": "T3_professional",
@@ -826,52 +874,6 @@
       ]
     },
     {
-      "source": "Literary Hub",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Tony Tulathimutte has won one America’s largest (and newest) literary prizes.",
-      "url": "https://lithub.com/tony-tulathimutte-has-won-one-americas-largest-and-newest-literary-prizes",
-      "source_url": "https://lithub.com/tony-tulathimutte-has-won-one-americas-largest-and-newest-literary-prizes",
-      "event_at": "2026-08-20T18:18:24+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "award",
-      "genre": [
-        "literary"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "award"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:literary-hub:d942edaa98dc",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:ce1e870c860f:20260820",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
       "source": "알라딘 신간",
       "source_type": "rss",
       "trust_tier": "T1_official",
@@ -880,33 +882,32 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "지중해의 탄생/사이프리언 브루드뱅크 지음, 이청규 옮김/사회평론아카데미",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400682012&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400682012&rssType=1&type=item",
-      "event_at": "2026-08-20T06:59:00+00:00",
-      "isbn": "400682012",
+      "title": "수학이 사랑한 음악/니키타 브라긴스키 지음, 박은지 옮김/생각지도",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400708539&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400708539&rssType=1&type=item",
+      "event_at": "2026-08-21T00:26:00+00:00",
+      "isbn": "400708539",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
       "venue": "",
-      "award_name": "수상",
+      "award_name": "선정",
       "genre": [
         "시",
         "과학",
-        "역사"
+        "역사",
+        "예술",
+        "컴퓨터"
       ],
       "publisher": [],
-      "book_type": [
-        "개정판",
-        "초판"
-      ],
+      "book_type": [],
       "author": [
         "저자",
         "번역"
       ],
       "award": [
-        "수상"
+        "선정"
       ],
       "book_event": [],
       "source_signal": [
@@ -914,9 +915,9 @@
         "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:400682012",
+      "canonical_key": "book_edition:400708539",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:8f6154ba3503:20260820",
+      "event_key": "award_signal:a6cae184b1cf:20260821",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -959,370 +960,6 @@
       "canonical_key": "book_edition:101085",
       "canonical_key_status": "complete",
       "event_key": "award_signal:a0f7180ebacf:20260820",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "한숨이/채소 지음/웅진주니어",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400661963&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400661963&rssType=1&type=item",
-      "event_at": "2026-08-20T03:08:00+00:00",
-      "isbn": "400661963",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "여행",
-        "그림책"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:400661963",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:8c17d0d44531:20260820",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "짜장 팡팡/김혜란 지음/웅진주니어",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400661352&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400661352&rssType=1&type=item",
-      "event_at": "2026-08-20T03:01:00+00:00",
-      "isbn": "400661352",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "요리",
-        "그림책"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:400661352",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:c2c4a16d3008:20260820",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "즐거운 나의 집/김도경 지음/웅진주니어",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400660960&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400660960&rssType=1&type=item",
-      "event_at": "2026-08-20T02:56:00+00:00",
-      "isbn": "400660960",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "그림책"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:400660960",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:fe80c953d885:20260820",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "영광 없는 영웅들/퍼디아 레넌 지음, 최리외 옮김/다산책방",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400652425&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400652425&rssType=1&type=item",
-      "event_at": "2026-08-20T01:44:00+00:00",
-      "isbn": "400652425",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "역사",
-        "예술"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "데뷔"
-      ],
-      "award": [
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:400652425",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:b9991d79b2c0:20260820",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "생각을 바꾸는 생각들 (확장판)/비카스 샤 지음, 임경은 옮김/인플루엔셜(주)",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400651935&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400651935&rssType=1&type=item",
-      "event_at": "2026-08-20T01:38:00+00:00",
-      "isbn": "400651935",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "문학",
-        "인문학",
-        "과학",
-        "역사",
-        "예술",
-        "종교",
-        "심리",
-        "교육"
-      ],
-      "publisher": [
-        "인플루엔셜"
-      ],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:400651935",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:884f550159cc:20260820",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "저 지금 탑승합니다/정보라 지음/위고",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400650216&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400650216&rssType=1&type=item",
-      "event_at": "2026-08-20T01:14:00+00:00",
-      "isbn": "400650216",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "도서전",
-      "award_name": "부커상",
-      "genre": [
-        "소설",
-        "에세이",
-        "시",
-        "문학",
-        "역사"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "한강",
-        "작가",
-        "번역"
-      ],
-      "award": [
-        "부커상",
-        "맨부커",
-        "수상",
-        "문학상",
-        "후보"
-      ],
-      "book_event": [
-        "도서전"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:400650216",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:ab87b49cc21c:20260820",
-      "required_field_proxy": {
-        "author_name": true,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "저 지금 탑승합니다/정보라 지음/위고",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400650216&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400650216&rssType=1&type=item",
-      "event_at": "2026-08-20T01:14:00+00:00",
-      "isbn": "400650216",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "도서전",
-      "award_name": "부커상",
-      "genre": [
-        "소설",
-        "에세이",
-        "시",
-        "문학",
-        "역사"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "한강",
-        "작가",
-        "번역"
-      ],
-      "award": [
-        "부커상",
-        "맨부커",
-        "수상",
-        "문학상",
-        "후보"
-      ],
-      "book_event": [
-        "도서전"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:400650216",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:ab87b49cc21c:20260820",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -2206,23 +1843,6 @@
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Tony Tulathimutte has won one America’s largest (and newest) literary prizes.",
-      "canonical_key": "book_source:literary-hub:d942edaa98dc",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Tony Tulathimutte has won one America’s largest (and newest) literary prizes.",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
       "source": "The Guardian Books",
       "title": "You Won’t Get Free of It by Rachel Aviv review – a subtle study of the mother-daughter bond",
       "canonical_key": "book_source:the-guardian-books:7d2b4cbfff9d",
@@ -2240,6 +1860,10 @@
     {
       "reason": "missing_event_model",
       "event_model": "library_lending"
+    },
+    {
+      "reason": "missing_event_model",
+      "event_model": "author_event"
     },
     {
       "reason": "source_backlog_pending",
