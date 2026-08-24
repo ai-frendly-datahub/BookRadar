@@ -1,47 +1,213 @@
 {
-  "date": "2026-08-23",
+  "date": "2026-08-24",
   "category": "book",
-  "article_count": 142,
+  "article_count": 141,
   "source_count": 8,
-  "matched_count": 142,
+  "matched_count": 141,
   "top_entities": [
     {
       "name": "SourceSignal",
-      "count": 309
+      "count": 307
     },
     {
       "name": "Genre",
-      "count": 186
+      "count": 180
     },
     {
       "name": "Author",
-      "count": 45
+      "count": 41
     },
     {
       "name": "BookType",
-      "count": 29
+      "count": 30
     },
     {
       "name": "Publisher",
-      "count": 12
+      "count": 9
     },
     {
       "name": "Award",
-      "count": 8
+      "count": 5
+    },
+    {
+      "name": "BookEvent",
+      "count": 2
     }
   ],
   "sources": {
+    "알라딘 베스트셀러": 14,
     "New York Times Books": 20,
+    "The Guardian Books": 22,
     "Book Riot": 10,
     "NPR Books": 10,
     "Literary Hub": 10,
-    "The Guardian Books": 22,
     "알라딘 신간": 25,
-    "Publishers Weekly": 30,
-    "알라딘 베스트셀러": 15
+    "Publishers Weekly": 30
   },
-  "generated_at": "2026-08-23T11:24:07.354525+09:00",
+  "generated_at": "2026-08-24T11:23:02.689842+09:00",
   "articles": [
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "9위 오뒷세이아",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=399401298&radar_rank=9&radar_ranking_date=20260823220003",
+        "published_at": "2026-08-23T22:00:03+00:00",
+        "summary": "오뒷세이아 호메로스 지음, 김헌 옮김 / 을유문화사 / 2026년 08월 / ISBN: 9788932476469 정가: 25,000 원 / 판매가: 22,500 원 / 마일리지: 1,250 원 이벤트 : 화제의 책 + 알라딘 굿즈 (이벤트 도서 포함, 국내도서 3만원 이상) 『오뒷세이아』는 ‘오뒷세우스의 노래’라는 뜻이다. 그러나 제목이 적나라하게 보여 주는 것과는 달리, 이 작품은 그의 이름을 꼭꼭 숨기며 시작한다. 신들이 그의 귀향을 결정했다는 사실이 밝혀진 후에야 마침내 그의 이름은 작품에 등장한다. 고난과 역경을 거친 영웅이 복수에 성공하는 순간, ‘오뒷세우스’는 한 남자의 이름에 머물지 않고 우리 모두의 이름이 된다. 보르헤스는 인류에게 무한한 시간이 있다면 『오뒷세이아』가 적어도 한 번 이상 쓰이지 않는다는 게 불가능하다고 말했다. 오뒷세우스의 방황과 고뇌, 귀향이라는 대서사시는 한 인간이 태어나서 여러 고난을 관통하며 결국 자신을 찾아가는 과정과 유사하다. 즉, 우리는 모두 태어나는 순간 또 한 명의 오딧세우스다. 마이리뷰(0) 평점: | Sales Point : 82,600 이라고? 번역 이게. - 구름스 정말재미있어요! - qus1985 노래하니, 들으소서. 한 남자의 이야기를. - 뫕 \"돌아온다는 것, 그리고 끝내 나 자신에게 닿는다는 것.\" - 하얀사과 3,000년을 버텨낸 서사의 힘, 영화보다 더 영화 같은 고전 [오뒷세이아] - narino55"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "4위 브레인 악셀",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=400622139&radar_rank=4&radar_ranking_date=20260823220003",
+        "published_at": "2026-08-23T22:00:03+00:00",
+        "summary": "브레인 악셀 이진우 지음 / 바른뇌연구소 / 2026년 09월 / ISBN: 9791122075106 정가: 22,000 원 / 판매가: 19,800 원 / 마일리지: 1,100 원 이벤트 : 8월 특별 선물. 원통형 가방 · 책 키링 카드지갑"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "10위 수족관",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=330811810&radar_rank=10&radar_ranking_date=20260823220003",
+        "published_at": "2026-08-23T22:00:03+00:00",
+        "summary": "수족관 유래혁 지음 / 포스터샵 / 2023년 12월 / ISBN: 9791198547514 정가: 17,700 원 / 판매가: 15,930 원 / 마일리지: 880 원 이벤트 : 유래혁 <수족관> 성률 일러스트 투명 책갈피 (소설 2만원 이상) 유래혁 소설. 보육 시설에서 자라난 인물 ‘류이치’가, 먼저 보육 시설에서 도망쳐나온 인물 ‘아카리’를 만나 겪게 되는 일들을 그려낸다. 이 두 인물은 자신들이 가진 뿌리 깊은 과거와 상처, 그 이야기가 만들어낸 수족관에서 만나 입을 맞추고, 서로의 숨을 훔쳐가면서도 언젠가 오키나와의 너른 바다에 도착하는 꿈을 나눈다. 이 둘은 수족관을 벗어나 눈부신 햇살 아래 들려오는 파도 소리를 들을 수 있을까. 마이리뷰(0) 평점: | Sales Point : 135,680 부서진 마음에 건네는 우산, <수족관>(유래혁) - 프리즘 [마이리뷰] 수족관 - 89700326 헉생이 쓴 팬픽 읽는 느낌.. - Collins_swag [마이리뷰] 수족관 - JYOH 💙<<수족관 _ 유래혁 장편소설>>💙 - 윤딩"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "15위 오디세이아",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=399852434&radar_rank=15&radar_ranking_date=20260823220003",
+        "published_at": "2026-08-23T22:00:03+00:00",
+        "summary": "오디세이아 안나 밀버른 지음, 세바스티안 판 도닝크 그림, 양혜진 옮김, 호메로스 원작 / 비룡소 / 2026년 08월 / ISBN: 9788949142005 정가: 17,500 원 / 판매가: 15,750 원 / 마일리지: 870 원 이벤트 : 가장 주목받는 어린이 화제의 책 + 캐리어·백 리플렉터 택 세트(택1, 대상도서 15,000원 이상) 호메로스의 『오디세이아』가 비룡소에서 출간되었다. 말이 필요 없는 고전 중의 고전, 세상 모든 모험 서사의 모델이 된 고대 그리스의 대서사시를 어린이부터 어른까지 모든 세대가 함께 즐길 수 있는 판본이다. 오랜 세월 다양한 판본과 영상물로 끊임없이 재생산되고 있는 만큼 가치 있고 큰 의미가 있는 놀라운 작품을 가장 쉽고도 재미있게, 제대로 만나는 방법으로 비룡소 주니어 클래식 『오디세이아』를 소개한다. 서양 문학의 출발점이자 ‘모험 서사의 원조’로서 『오디세이아』는 인생의 한 번은 완역본을 읽어 봄 직한 고전 중의 고전이지만, 마음먹고 도전하기란 쉽지 않다. 그렇다고 해서 어린이와 청소년 독자들이 좀 더 성장한 뒤에 읽기로 미루기에는 너무 아까울 정도로, 상상력을 자극하는 놀랍고 신비한 세계와 손에 땀을 쥐게 하는 스릴, 흥미진진함이 가득한 작품이다. 비룡소 주니어 클래식 『오디세이아』는 가벼운 한 권으로 이 고전을 쉽고 재미있게 읽을 수 있으면서도, 어린 독자들뿐 아니라 성인들도 몰입하게 될 만큼 탄탄하게 짜여진 책이다. 마이리뷰(0) 평점: | Sales Point : 32,350 오디세이아 - 엄딱곤쥬 자녀와 함께 읽기 좋은 비룡소 [오디세이아] 추천👍 - soulnote 아이도 어른도 함께 읽는 오디세이아 - happywitch77 오디세이아 - novemvy 호메르스, 《오디세이아》 - 양다인"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "8위 오디세이아 (국내 유일 명화 104점 수록 완역본)",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=362390080&radar_rank=8&radar_ranking_date=20260823220003",
+        "published_at": "2026-08-23T22:00:03+00:00",
+        "summary": "오디세이아 (국내 유일 명화 104점 수록 완역본) 호메로스 지음, 페테르 파울 루벤스 외 그림, 박문재 옮김 / 현대지성 / 2025년 04월 / ISBN: 9791139721973 정가: 27,000 원 / 판매가: 24,300 원 / 마일리지: 1,350 원 이벤트 : 화제의 책 + 알라딘 굿즈 (이벤트 도서 포함, 국내도서 3만원 이상) 트로이아 전쟁의 영웅 오디세우스는 전쟁에서 승리한 후 고향 이타카로 돌아가려 하지만, 그의 여정은 결코 평탄치 않았다. 포세이돈의 분노, 신들의 장난, 인간의 오만과 약함은 그의 여정을 가로막고, 그는 무려 10년에 걸쳐 바다를 떠돌며 인간의 한계에 맞서 싸운다. 호메로스는 이 위대한 방랑을 통해 신과 인간이 얽힌 세계의 진실을 보여준다. 『오디세이아』는 ‘귀향’이라는 단순한 이야기 구조 속에 고대 그리스인의 세계관과 삶의 가치, 그리고 인간다운 삶의 의미를 농축시킨 작품이다. 외눈박이 거인 폴리페모스와의 대결, 마녀 키르케의 유혹, 바다의 요정 칼립소와의 시간, 바다의 신과 하늘의 신들의 끊임없는 개입 속에서 오디세우스는 단순한 영웅이 아니라, 인간의 약함과 강함을 동시에 지닌 존재로 그려진다. 현대지성 클래식의 완역본은 3,000년 전부터 구전으로 전해지던 이 서사시를, 오늘날의 독자가 온전히 음미할 수 있도록 섬세하고 충실하게 옮겼다. 104점의 명화와 이미지는 상상력을 자극하며 당시 상황과 영웅의 생애를 생생히 보여주고, 303개의 정밀한 각주와 해설은 고대 그리스의 지리, 신화, 문화적 맥락을 입체적으로 그려낸다. 특히 주요 인물과 사건의 계보, 시대적 배경까지 촘촘히 짚어내며, 단순한 독서를 넘어 깊은 통찰을 가능하게 한다. 마이리뷰(0) 평점: | Sales Point : 76,980 호메로스 오디세이아 책 줄거리 요약 영화원작 고전문학 - 지유 [마이리뷰] 오디세이아 (고대 그리스어 완역본) - vooc 삼천 년을 건너온 인간의 마음 - 장지원 [마이리뷰] 오디세이아 (고대 그리스어 완역본) - 제로북_서재 인류를 사로잡은 최고의 모험담. 세심한 번역과 아름다운 삽화와 함께. - 박칼럼"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "14위 스킵과 로퍼 12",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=400652795&radar_rank=14&radar_ranking_date=20260823220003",
+        "published_at": "2026-08-23T22:00:03+00:00",
+        "summary": "스킵과 로퍼 12 타카마츠 미사키 지음, 신혜선 옮김 / YNK MEDIA(만화) / 2026년 08월 / ISBN: 9791175890336 정가: 6,000 원 / 판매가: 5,400 원 / 마일리지: 300 원 이벤트 : <스킵과 로퍼 12>아크릴 DIY 키링(대상도서 포함 만화.라노벨 분야 1만 5천원 이상 구매 시)"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "6위 봇치·더·록! 외전 히로이 키쿠리의 과음일기 6",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=400587114&radar_rank=6&radar_ranking_date=20260823220003",
+        "published_at": "2026-08-23T22:00:03+00:00",
+        "summary": "봇치·더·록! 외전 히로이 키쿠리의 과음일기 6 하마지 아키, 쿠미쵸 지음 / 대원씨아이(만화) / 2026년 08월 / ISBN: 9791142361258 정가: 9,000 원 / 판매가: 8,100 원 / 마일리지: 450 원 이벤트 : <봇치 더 록! 외전 히로이 키쿠리의 과음일기 6> 한입 맥주잔(만화.라노벨 분야 1만 5천원 이상 구매 시)"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "11위 투명한 나선",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=398021172&radar_rank=11&radar_ranking_date=20260823220003",
+        "published_at": "2026-08-23T22:00:03+00:00",
+        "summary": "투명한 나선 히가시노 게이고 지음, 김선영 옮김 / 북다 / 2026년 07월 / ISBN: 9791170614043 정가: 22,000 원 / 판매가: 19,800 원 / 마일리지: 1,100 원 이벤트 : <투명한 나선> + 띠지 카피 공모전 (~8/31) ‘오늘의 일본을 대표하는 작가’, ‘동아시아에서 가장 사랑받는 미스터리 작가’, ‘한국인이 제일 좋아하는 일본 장르소설 작가’ 히가시노 게이고의 장편소설. 1996년 일본에서 처음 연재되어 2026년 30주년을 맞이한 갈릴레오 시리즈의 열 번째 작품인 『투명한 나선』은 2021년 일본 출간 즉시 토한 종합 1위를 비롯하여 각종 서점 베스트셀러 랭킹되며 여전한 인기를 증명했다. 그동안 베일에 싸여 있던 주인공 유카와 마나부의 비밀이 처음 밝혀지는 『투명한 나선』은 갈릴레오 시리즈의 새로운 전환점이 되는 작품이다. 도쿄 인근 지바현 바다에서 등에 총상을 입은 남성의 시신이 떠오른다. 그의 신원이 확인되는 동시에 남성을 실종 신고한 동거 여성이 자취를 감춘다. 사건을 맡은 형사 구사나기와 우쓰미는 수사 과정에서 뜻밖에 유카와의 이름을 발견한다. 구사나기는 오랜 친구를 찾아가 도움을 요청하나 유카와는 그의 청을 단번에 거절한다. 그런데 구사나기를 배웅하던 유카와가 돌연 다른 방식으로 수사에 협조하겠다고 말한다. 이후 유카와와 사건 관련 장소를 방문한 우쓰미는 이 물리학자가 무언가를 숨기고 있음을 직감한다. 그러나 수사는 좀처럼 진전되지 않고 경찰은 번번이 실마리를 놓치고 만다. 이에 유카와는 마침내 오랫동안 간직해 온 비밀을 스스로 밝히게 되는데……. 유카와는 긴 세월 어떤 진실을 혼자 끌어안고 살아온 걸까? 그것이 이 사건과 무슨 연관성이 있는 걸까? 그가 스스로 사건에 관여한 이유는 무엇일까? 『투명한 나선』에 대해 작가는 “한마디로 설명할 수 없는 작품입니다. 오랫동안 작가만이 간직했던 이야기를 비로소 풀어냈습니다. 갈릴레오 팬이라면 분명 놀랄 것이고, 히가시노 팬이라면 더욱 놀랄 것입니다”라고 말했다. 전혀 다른 두 개의 사건이 우연한 계기로 겹쳐짐으로써 드러나는 진실. 이것을 과학으로만 설명할 수 있을까? 마이리뷰(0) 평점: | Sales Point : 119,745 이 작품 정말 좋네요.. - 잴잴 차가운 물리학자의 제일 뜨거운 고백, 폭력의 사슬을 끊어내는 여성들의 연대 - Ravenz_76 복잡하지 않은 추미스 - 다니 투명한 나선 - 토토엄마 투명한 나선 - rinob_ooks"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "2위 그랬다고 적었다",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=400193697&radar_rank=2&radar_ranking_date=20260823220003",
+        "published_at": "2026-08-23T22:00:03+00:00",
+        "summary": "그랬다고 적었다 김애란 지음 / 문학동네 / 2026년 08월 / ISBN: 9791141618575 정가: 17,000 원 / 판매가: 15,300 원 / 마일리지: 850 원 이벤트 : 아크릴 참 키링 (대상 도서 포함 국내도서 2만 원 이상 구매 시) 소설가 김애란이 새 책과 함께 여름 인사를 건넨다. 최근 장편소설 『이중 하나는 거짓말』(2024)과 소설집 『안녕이라 그랬어』(2025)를 펴내며 허구의 세계 안에서 지금 한국사회의 풍경을 세밀하게 그리는 데 집중해온 작가가 이번에 새 이야기를 담아낸 그릇은 소설이 아니라 산문이다. 소설 속 화자가 아니라 작가 자신의 목소리가 나직하게 울려퍼지는 바로 그 장르를 통해 우리는 우리가 오랫동안 사랑해온 작품을 써낸 작가 김애란의 생생한 다면(多面)과 만난다. 그 면면은 생활인이자 창작자, 사회인의 모습으로 이루어져 있다. 생활인으로서 김애란은 제주도의 너른 쉼터를 뛰어다니는 강아지를 바라보며 대도시에서와 다른 초록의 풍경을 눈에 담기도 하고, 오랜 시간 오해했던 누군가의 면모를 새롭게 발견하기도 한다. 창작자로서 인공지능 챗봇 챗지피티의 등장을 지켜보며 인간이라는 존재 자체를 성찰하기도 하고, 사회인으로서 우리 모두가 함께 겪은 코로나 시기를 돌아보며 진정한 자립과 타인의 의미를 되새기기도 한다. 이 면면은 엄밀히 구분되기보다 서로 섞이고 간섭하며 영향을 주고받는다. 그 바탕에는 공통적으로 몸과 마음의 한계를 지닌 사람으로서의 스스로를 인정하는 겸허하고 유연한 태도가 깔려 있다. 마이리뷰(0) 평점: | Sales Point : 112,760 [마이리뷰] 그랬다고 적었다 - JYOH 애란언니 아이러브유🩷 - 푸른달"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "5위 싯다르타",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=329596&radar_rank=5&radar_ranking_date=20260823220003",
+        "published_at": "2026-08-23T22:00:03+00:00",
+        "summary": "싯다르타 헤르만 헤세 지음, 박병덕 옮김 / 민음사 / 2002년 01월 / ISBN: 9788937460586 정가: 8,000 원 / 판매가: 7,200 원 / 마일리지: 400 원 이벤트 : SNS 화제의 책 + 알라딘 굿즈 (이벤트 도서 포함, 국내도서 3만원 이상) 헤세가 거의 일 년 반 동안 창작이 거의 불가능할 정도로 심한 우울증을 앓다가 정신 치료를 받은 후 발표한 작품이다. 동서양의 정신적 유산을 시적으로 승화한 일종의 종교적 성장소설로 볼 수 있는데 영원을 향한 갈망과 인간의 내면을 깊이 파고드는 초월에 대한 의지를 단순하고도 서정적인 문체로 담아냈다. 정형화된 종교 교리와 자족적인 영혼의 성찰 사이의 고뇌를 섬세하게 그리며 자아 발견을 위한 길이 하나로 정해져 있지 않음을 시사하고 철학이나 종교, 그 밖의 모든 신념에 맹목적으로 의지하고자 하는 고정관념에 도전한 작품이다. 마이리뷰(0) 평점: | Sales Point : 239,082 싯다르타는 부처인가 아닌가 [외국소설-싯다르타] - 바람개비 싯다르타. 내 삶에서 - pleasetrust800604 삶의 깨달음을 찾아가는 여정 <싯다르타> - 우끼끼양 싯다르타 - miseong.books 결국 삶은 답이 아닌 흐름일지도 - 짱고아빠"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "1위 세네카, 오늘을 빼앗기고 있는 당신에게",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=396404956&radar_rank=1&radar_ranking_date=20260823220003",
+        "published_at": "2026-08-23T22:00:03+00:00",
+        "summary": "세네카, 오늘을 빼앗기고 있는 당신에게 루키우스 안나이우스 세네카 지음, 하와이 대저택 편역 / 논픽션 / 2026년 07월 / ISBN: 9791199489561 정가: 18,000 원 / 판매가: 16,200 원 / 마일리지: 900 원 이벤트 : 화제의 책 + 알라딘 굿즈 (이벤트 도서 포함, 국내도서 3만원 이상) 『세네카, 오늘을 빼앗기고 있는 당신에게』는 로마 제정기의 스토아 철학자 세네카의 대화편 다섯 편에서 핵심 사유를 선별해 55편의 짧은 글로 재구성한 편역서다. 세네카는 네로 황제의 스승이자 고문으로 제국의 운명을 좌우하면서, 누구보다 바쁜 삶 한가운데에서 시간의 본질을 꿰뚫었다. \"삶은 짧지 않다. 우리가 짧게 만들 뿐이다.\" 그의 진단은 2000년이 지난 지금도 한 글자도 고칠 필요가 없다. 이 책은 시간에 쫓기며 살아가는 현대인에게 시간을 되찾는 것이 곧 자기 자신을 되찾는 것임을 일깨운다. 순서대로 읽어도 좋고 아무 페이지나 펼쳐 읽어도 좋은 55편의 글이, 바쁘게 낭비되는 하루를 정면으로 겨냥한다. 마이리뷰(0) 평점: | Sales Point : 236,490 처음 쓰는 리뷰 - 월아책방 내 시간의 점검표. - mieun0418 천천히 곱씹으며 읽기 좋은 책, 『Life is not short』 - judyorient 세네카를 곁에 둔 위인들처럼 나에게도 한줄기 깨달음이 내렸으면 좋겠다 - 덤플링 세네카, 오늘을 빼앗기고 있는 당신에게 - jmaria05"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "13위 빵충 사육 준수 사항",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=398726639&radar_rank=13&radar_ranking_date=20260823220003",
+        "published_at": "2026-08-23T22:00:03+00:00",
+        "summary": "빵충 사육 준수 사항 김혜영 지음 / 안전가옥 / 2026년 07월 / ISBN: 9791194891178 정가: 16,800 원 / 판매가: 15,120 원 / 마일리지: 840 원 이벤트 : <목소리가 들린다> + <소설 보다> 유리 문진 , 보름에 한 번 계절 특선 한국문학 김혜영의 장편소설 『빵충 사육 준수 사항』이 안전가옥 오리지널로 출간되었다. 작가가 처음 선보이는 장편소설로, 2026 서울국제도서전에서 먼저 독자를 만나며 준비한 초판이 현장에서 모두 소진됐다. 제목의 ‘사육 준수 사항’은 작품 속에 실제로 등장하는 규칙의 이름이다. 그것을 어기는 순간부터 이 소설은 조금씩 다른 얼굴을 꺼내 든다. 주인공 정한은 무명 트럼펫터로 살다 빚에 쫓겨 귀농하지만, 야심 차게 시작한 딸기 농사마저 처참히 실패한다. 바닥까지 내려간 그에게 찾아온 마지막 기회가 신종 식용 애벌레 ‘빵충’ 사육 사업이다. 갓 구운 소금빵과 외형도 맛도 똑같은 빵충은 NO 밀가루, 고단백 식품으로 전국적인 디저트 열풍을 타고 정한을 고수익자 반열에 앉힌다. 그러나 인생 역전은 그리 오래, 순조로이 흘러가지 않는다. 공급 과잉과 가격 폭락 그리고 사람들이 미처 헤아리지 못한 규칙 위반은 농촌을 예기치 못한 국면으로 밀어 넣는다. 『빵충 사육 준수 사항』은 인간의 탐욕이 만든 달콤한 풍요가 어긋나고 미끄러지는 과정을 생생히 그려낸다. 마이리뷰(0) 평점: | Sales Point : 66,750 빵충 사육 준수 사항 - 리나 [서평]빵충 사육 준수 사항 - 빨간머리앤 [장편소설/마지막기회/안전가옥/SF소설] 빵충 사육 준수 사항 - gazahbs 서평] 2026년 서울국제도서전 최다판매도서 “빵충 사육 준수 사항” - 찌워니 빵충 사육 준수 사항 - 세상의지혜"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "12위 스파이 패밀리 17",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=400315663&radar_rank=12&radar_ranking_date=20260823220003",
+        "published_at": "2026-08-23T22:00:03+00:00",
+        "summary": "스파이 패밀리 17 엔도 타츠야 지음 / 학산문화사(만화) / 2026년 08월 / ISBN: 9791141187699 정가: 6,000 원 / 판매가: 5,400 원 / 마일리지: 300 원 이벤트 : 만사모 테마 5 : 오싹한 만화의 계절"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "3위 찌니주의보",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=400137507&radar_rank=3&radar_ranking_date=20260823220003",
+        "published_at": "2026-08-23T22:00:03+00:00",
+        "summary": "찌니주의보 정지아 지음 / 창비 / 2026년 08월 / ISBN: 9788936439996 정가: 16,800 원 / 판매가: 15,120 원 / 마일리지: 840 원 이벤트 : 정지아 장편소설 <찌니주의보> 멜라민 트레이 (국내도서 2만원 이상) 한국현대사의 굵은 상흔을 남도의 구수한 입말과 뜨거운 인간애로 풀어내며 40만 독자의 마음을 사로잡은 『아버지의 해방일지』(창비 2022). 그 신드롬의 주인공 정지아가 4년 만의 신작 장편소설 『찌니주의보』로 돌아왔다. 전작에서 이념과 역사의 비극을 눈물겨운 해학으로 승화시키며 독보적인 이야기꾼으로 자리매김한 그가 이번에 펼쳐 보이는 무대는 평균 연령 일흔여덟살의 산골 ‘수평마을’이다. 『아버지의 해방일지』가 아버지의 장례식을 통해 역사와 이념 너머 한 인간의 전모를 발견하는 소설이었다면, 『찌니주의보』는 낯선 이웃과 밥을 나누며 정체성과 편견 너머 사람을 다시 바라보는 이야기다. 전작이 거침없는 웃음 뒤에 묵직한 슬픔을 남겼다면, 이번 작품은 좀더 빠르고 경쾌한 소동 속에서 더 풍성한 감정의 파고를 만들어낸다. 이성애자와 성소수자, 토박이와 귀촌인, 한국인과 이주여성, 도시의 젊은이와 농촌의 노인들…… 살아온 시간도 사랑의 방식도 전혀 다른 이들이 한마을에 모여 흉을 보고 싸우고 밥을 먹이며 어느새 이웃이 되어가는 과정이 생생하게 펄떡인다. 정지아 특유의 천연덕스러운 유머는 한층 능청스러워졌고, 인간의 모순과 상처를 헤아리는 다정한 시선은 더욱 섬세해졌다. 익숙한 마을의 정서와 오늘의 첨예한 문제를 한데 품은 이 소설은 전작의 팬부터 처음 정지아를 만나는 독자까지, 세대와 취향 차이를 넘어 한자리에서 웃게 하는 힘을 지녔다. 마이리뷰(0) 평점: | Sales Point : 79,040 고달파도 산다 - 찐빵 사램 사는 거사 다 제각각이제! - jeanie 밥은 멕여야하는 시골 인심 - ayayeun [마이리뷰] 찌니주의보 - JYOH 서로 다른 사람들이 함께 살아간다는 것 - 남문서점"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "The Best Books to Read on American Identity",
+        "source_url": "https://www.nytimes.com/2026/08/23/books/review/best-books-american-identity.html",
+        "published_at": "2026-08-23T12:23:29+00:00",
+        "summary": "Four authors grapple with the fight over American identity, from the colonial era to the modern day."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Book Review: ‘Up on Cove Mountain,’ by Earl Swift",
+        "source_url": "https://www.nytimes.com/2026/08/23/books/review/earl-swift-up-on-cove-mountain.html",
+        "published_at": "2026-08-23T11:21:03+00:00",
+        "summary": "In “Up on Cove Mountain” Earl Swift confronts a place — and a tragedy — that haunts him."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "‘I was scared I was going mad’: Meg Mason speaks to fellow authors about the parasocial relationships that begin on the page",
+        "source_url": "https://www.theguardian.com/books/2026/aug/23/meg-mason-author-literary-parasocial-relationships-sorrow-bliss-books-nancy-mitford",
+        "published_at": "2026-08-23T11:00:31+00:00",
+        "summary": "<p>As a lonely teenager, the novels of Nancy Mitford offered the Sorrow and Bliss author a lifeline - and an imaginary friend. She explores why reading can create a particularly intense bond with a favourite writer</p><p>In the summer before university, my mother gave me a copy of <a href=\"https://guardianbookshop.com/the-pursuit-of-love-9780241984079/\">The Pursuit of Love</a>. We’d moved countries at the beginning of my A-levels and those months in between had been defined by a level of loneliness I had never known in my life. The sort of loneliness so acute and pervasive it feels like panic, and on top of all that, so shaming to be 17 with nowhere to go and nothing to do on a Saturday night.</p><p>Growing up, my mother – a great reader – would say: “When you’ve got a book, you’ve got a friend,” which is why, presumably, I wasn’t a great reader. Then, I’d always had actual friends. And suddenly I didn’t and presumably that is why I accepted the Nancy Mitford paperback and started to read it.</p> <a href=\"https://www.theguardian.com/books/2026/aug/23/meg-mason-author-literary-parasocial-relationships-sorrow-bliss-books-nancy-mitford\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "Book Riot’s Deals of the Day for August 23, 2026",
+        "source_url": "https://bookriot.com/book-riots-deals-of-the-day-for-august-23-2026/",
+        "published_at": "2026-08-23T11:00:00+00:00",
+        "summary": "Tayari Jones' modern-day classic, a Costa Rican family saga, a Syrian girl's magical sketchbook, and more of today's best deals"
+      }
+    },
     {
       "event_model_payload": {
         "source_name": "New York Times Books",
@@ -80,20 +246,20 @@
     },
     {
       "event_model_payload": {
-        "source_name": "NPR Books",
-        "headline": "In which 'Winnie-the-Pooh' turns 100",
-        "source_url": "https://www.npr.org/2026/08/22/nx-s1-5697049/how-a-bear-became-a-book-annette-bay-pimentel-faith-pray",
-        "published_at": "2026-08-22T11:00:00+00:00",
-        "summary": "In 1926, author A.A. Milne and illustrator Ernest H. Shepard published <em>Winnie-the-Pooh</em>. Now, a new kids' book — <em>How a Bear Became a Book —  </em>celebrates their collaboration."
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "Book Riot",
         "headline": "Book Riot’s Deals of the Day for August 22, 2026",
         "source_url": "https://bookriot.com/book-riots-deals-of-the-day-for-august-22-2026/",
         "published_at": "2026-08-22T11:00:00+00:00",
         "summary": "A trilogy from the father of modern African lit, a sizzling summer romance, an alien invasion by a sci-fi giant, and more of today's best book deals"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "NPR Books",
+        "headline": "In which 'Winnie-the-Pooh' turns 100",
+        "source_url": "https://www.npr.org/2026/08/22/nx-s1-5697049/how-a-bear-became-a-book-annette-bay-pimentel-faith-pray",
+        "published_at": "2026-08-22T11:00:00+00:00",
+        "summary": "In 1926, author A.A. Milne and illustrator Ernest H. Shepard published <em>Winnie-the-Pooh</em>. Now, a new kids' book — <em>How a Bear Became a Book —  </em>celebrates their collaboration."
       }
     },
     {
@@ -110,7 +276,7 @@
         "source_name": "New York Times Books",
         "headline": "An Expert on Conflict Says Your Relationships Are Doomed Without It",
         "source_url": "https://www.nytimes.com/2026/08/22/magazine/priya-parker-interview.html",
-        "published_at": "2026-08-22T09:15:06+00:00",
+        "published_at": "2026-08-22T09:15:07+00:00",
         "summary": "The author Priya Parker says the key to human connection is to lean into the fight."
       }
     },
@@ -468,10 +634,55 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
+        "headline": "Amazon Exec to Head Online Sales at HarperCollins",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/people/article/101089-amazon-exec-joining-hc-as-head-of-online-sales.html",
+        "published_at": "2026-08-21T04:00:00+00:00",
+        "summary": "Amazon Exec to Head Online Sales at HarperCollins"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
         "headline": "Regional Bookseller Organizations Emphasize Authors and Books",
         "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/trade-shows-events/article/101096-regional-bookseller-organizations-emphasize-authors-and-books.html",
         "published_at": "2026-08-21T04:00:00+00:00",
         "summary": "This year’s regional shows are hosting scores of authors."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Indie Spotlight: August 2026",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/authors/pw-select/article/101104-indie-spotlight-august-2026.html",
+        "published_at": "2026-08-21T04:00:00+00:00",
+        "summary": "In this edition of our monthly thematic roundup of BookLife titles, we feature sci-fi and fantasy."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Bad Behavior: PW Talks with Nafissa Thompson-Spires",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/authors/interviews/article/101088-bad-behavior-pw-talks-with-nafissa-thompson-spires.html",
+        "published_at": "2026-08-21T04:00:00+00:00",
+        "summary": "Bad Behavior: PW Talks with Nafissa Thompson-Spires"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "America’s Game: PW Talks with Peter King",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/authors/interviews/article/101083-america-s-game-pw-talks-with-peter-king.html",
+        "published_at": "2026-08-21T04:00:00+00:00",
+        "summary": "America’s Game: PW Talks with Peter King"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Publishing’s “Hot Labor Summer”",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101098-publishing-s-hot-labor-summer.html",
+        "published_at": "2026-08-21T04:00:00+00:00",
+        "summary": "With a string of recent union victories, book workers are addressing what some see as subpar labor conditions in the industry."
       }
     },
     {
@@ -486,10 +697,10 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "America’s Game: PW Talks with Peter King",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/authors/interviews/article/101083-america-s-game-pw-talks-with-peter-king.html",
+        "headline": "Indie Booksellers Prepare to Attend Regional Associations’ Trade Shows",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/trade-shows-events/article/101095-indie-booksellers-prepare-to-attend-regional-associations-trade-shows.html",
         "published_at": "2026-08-21T04:00:00+00:00",
-        "summary": "America’s Game: PW Talks with Peter King"
+        "summary": "Approximately 1,500 booksellers around the U.S. are expected to attend this fall’s conferences."
       }
     },
     {
@@ -508,15 +719,6 @@
         "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/bookselling/article/101103-this-week-s-bestsellers-august-24-2026.html",
         "published_at": "2026-08-21T04:00:00+00:00",
         "summary": "This Week’s Bestsellers: August 24, 2026"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Indie Booksellers Prepare to Attend Regional Associations’ Trade Shows",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/trade-shows-events/article/101095-indie-booksellers-prepare-to-attend-regional-associations-trade-shows.html",
-        "published_at": "2026-08-21T04:00:00+00:00",
-        "summary": "Approximately 1,500 booksellers around the U.S. are expected to attend this fall’s conferences."
       }
     },
     {
@@ -549,33 +751,6 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "Amazon Exec to Head Online Sales at HarperCollins",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/people/article/101089-amazon-exec-joining-hc-as-head-of-online-sales.html",
-        "published_at": "2026-08-21T04:00:00+00:00",
-        "summary": "Amazon Exec to Head Online Sales at HarperCollins"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Bad Behavior: PW Talks with Nafissa Thompson-Spires",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/authors/interviews/article/101088-bad-behavior-pw-talks-with-nafissa-thompson-spires.html",
-        "published_at": "2026-08-21T04:00:00+00:00",
-        "summary": "Bad Behavior: PW Talks with Nafissa Thompson-Spires"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Publishing’s “Hot Labor Summer”",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101098-publishing-s-hot-labor-summer.html",
-        "published_at": "2026-08-21T04:00:00+00:00",
-        "summary": "With a string of recent union victories, book workers are addressing what some see as subpar labor conditions in the industry."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
         "headline": "LOC’s National Book Festival Expands Cultural Programming",
         "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/trade-shows-events/article/101100-loc-s-national-book-festival-expands-cultural-programming.html",
         "published_at": "2026-08-21T04:00:00+00:00",
@@ -593,15 +768,6 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Indie Spotlight: August 2026",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/authors/pw-select/article/101104-indie-spotlight-august-2026.html",
-        "published_at": "2026-08-21T04:00:00+00:00",
-        "summary": "In this edition of our monthly thematic roundup of BookLife titles, we feature sci-fi and fantasy."
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "알라딘 신간",
         "headline": "어두운 집/전건우 지음/&(앤드)",
         "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400719672",
@@ -612,19 +778,19 @@
     {
       "event_model_payload": {
         "source_name": "알라딘 신간",
-        "headline": "베니스 비엔날레와 1986-1996 한국현대미술/정연심.김정은.이유진 편저/안그라픽스",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400718842",
+        "headline": "패밀리 랜드/사와무라 이치 지음, 최고은 옮김/하빌리스",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400718883",
         "published_at": "2026-08-21T02:35:00+00:00",
-        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400718842\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40071/88/cover200/k292130145_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400718842\">베니스 비엔날레와 1986-1996 한국현대미술</a></h2>정연심.김정은.이유진 편저 / 안그라픽스 / 2026년 08월 / ISBN:<span class=\"isbn13\">9791168231511</span><br />정가: <span style=\"color: #FF0202;\">45,000</span>원 / 판매가: <span style=\"color: #FF0202;\">40,500</span>원 / 마일리지: <span style=\"color: #FF0202;\">2,250</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 8월 특별 선물. 원통형 가방 · 책 키링 카드지갑<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=400718842&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=400718842&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/intro_t.gif\" /><br />1995년 《베니스 비엔날레》 한국관이 세워지기 전, 1986년부터 1993년까지 네 차례에 걸쳐 본전시에 참여했던 한국 작가들의 궤적을 원전 자료로 되짚는 도큐먼트 북이다. 신문 기사, 잡지 기사, 전시 자료, 작가 노트, 사진 등을 수집, 정리했으며, 2024년 스페이스21에서 열린 전시 《The Journey to the Venice Biennale: 1986-1993》의 아카이브 자료도 함께 실었다.<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br /><p>들어가며<br />\n<br />\n<b>1 논고</b><br />\n한국현대미술의 국제 비엔날레 참여와 글로벌 미술 담론으로의 확장 - 정연심<br />\n베니스 비엔날레를 향한 한국현대미술의 모색 - 김정은<br />\n<br />\n<b>2 전시와 아카이브 자료</b><br />\n1986년 제42회<br />\n1988년 제43회<br />\n1990년 제44회<br />\n1993년 제45회<br />\n<br />\n<b>3 스페이스21 전시 아카이브</b><br />\n<br />\n<b>4 1995 한국관 건립</b><br />\n파편적 성좌, 그리고 '모든 섬은 산이다' - 정연심<br />\n베니스 비엔날레 한국관 비평 - 김인겸<br />\n베니스 비엔날레 100년의 亡靈(망령) - 홍명섭<br />\n<br />\n주요 사건 연보<br />\n관련 기사<br />\n저자 소개</p><br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=517\">예술/대중문화</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=50965\">미술</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=50982&BrowseTarget=List\"><b>미술사</b></a><br /><br /></td></tr></table>"
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400718883\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40071/88/cover200/k212130145_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400718883\">패밀리 랜드</a></h2>사와무라 이치 지음, 최고은 옮김 / 하빌리스 / 2026년 08월 / ISBN:<span class=\"isbn13\">9791142359545</span><br />정가: <span style=\"color: #FF0202;\">19,000</span>원 / 판매가: <span style=\"color: #FF0202;\">17,100</span>원 / 마일리지: <span style=\"color: #FF0202;\">950</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: <아름답고 위험한 이름, 비너스> 구매 시, 떡메모지<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=400718883&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=400718883&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/intro_t.gif\" /><br />멀지 않은 미래, IT 기술과 AI의 눈부신 발전으로 인간의 삶은 전에 없이 편리해졌다. 집 안의 모든 가전은 네트워크로 연결되었고, 유전자 편집을 통한 맞춤형 자녀 출산이 당연해졌으며, 간병과 장례마저 비대면·자동화 시스템으로 치러진다. 하지만 세상이 아무리 달라져도 단 하나, 결코 변하지 않는 것이 있으니 바로 '가족'이라는 이름 뒤에 숨겨진 인간의 복잡하고 비틀린 욕망이다.<br />\n<br />\n스마트홈 시스템을 해킹해 먼 지방에서 며느리의 도어록을 잠궈 버리는 시어머니, 유전자 편집을 거치지 않은 ‘자연 임신 아동’을 향한 은근하고도 차가운 사회적 차별, 간병비 부담을 줄이기 위해 부모의 손발을 자르고 신체를 개조해 나가는 비극적인 가족의 초상. 『패밀리 랜드』는 매칭, 출산, 육아, 고부갈등, 간병, 장례에 이르기까지 인생의 모든 단계에서 최첨단 기술과 가족 잔혹사가 결합할 때 벌어지는 여섯 가지 이야기를 다루고 있다.<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1\">소설/시/희곡</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=50918\">일본소설</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=50998&BrowseTarget=List\"><b>1950년대 이후 일본소설</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1\">소설/시/희곡</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=50926\">추리/미스터리소설</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51058&BrowseTarget=List\"><b>일본 추리/미스터리소설</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1\">소설/시/희곡</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=50955\">세계의 문학</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51255&BrowseTarget=List\"><b>일본문학</b></a><br /><br /></td></tr></table>"
       }
     },
     {
       "event_model_payload": {
         "source_name": "알라딘 신간",
-        "headline": "패밀리 랜드/사와무라 이치 지음, 최고은 옮김/하빌리스",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400718883",
+        "headline": "베니스 비엔날레와 1986-1996 한국현대미술/정연심.김정은.이유진 편저/안그라픽스",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400718842",
         "published_at": "2026-08-21T02:35:00+00:00",
-        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400718883\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40071/88/cover200/k212130145_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400718883\">패밀리 랜드</a></h2>사와무라 이치 지음, 최고은 옮김 / 하빌리스 / 2026년 08월 / ISBN:<span class=\"isbn13\">9791142359545</span><br />정가: <span style=\"color: #FF0202;\">19,000</span>원 / 판매가: <span style=\"color: #FF0202;\">17,100</span>원 / 마일리지: <span style=\"color: #FF0202;\">950</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: <아름답고 위험한 이름, 비너스> 구매 시, 떡메모지<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=400718883&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=400718883&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/intro_t.gif\" /><br />멀지 않은 미래, IT 기술과 AI의 눈부신 발전으로 인간의 삶은 전에 없이 편리해졌다. 집 안의 모든 가전은 네트워크로 연결되었고, 유전자 편집을 통한 맞춤형 자녀 출산이 당연해졌으며, 간병과 장례마저 비대면·자동화 시스템으로 치러진다. 하지만 세상이 아무리 달라져도 단 하나, 결코 변하지 않는 것이 있으니 바로 '가족'이라는 이름 뒤에 숨겨진 인간의 복잡하고 비틀린 욕망이다.<br />\n<br />\n스마트홈 시스템을 해킹해 먼 지방에서 며느리의 도어록을 잠궈 버리는 시어머니, 유전자 편집을 거치지 않은 ‘자연 임신 아동’을 향한 은근하고도 차가운 사회적 차별, 간병비 부담을 줄이기 위해 부모의 손발을 자르고 신체를 개조해 나가는 비극적인 가족의 초상. 『패밀리 랜드』는 매칭, 출산, 육아, 고부갈등, 간병, 장례에 이르기까지 인생의 모든 단계에서 최첨단 기술과 가족 잔혹사가 결합할 때 벌어지는 여섯 가지 이야기를 다루고 있다.<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1\">소설/시/희곡</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=50918\">일본소설</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=50998&BrowseTarget=List\"><b>1950년대 이후 일본소설</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1\">소설/시/희곡</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=50926\">추리/미스터리소설</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51058&BrowseTarget=List\"><b>일본 추리/미스터리소설</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1\">소설/시/희곡</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=50955\">세계의 문학</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51255&BrowseTarget=List\"><b>일본문학</b></a><br /><br /></td></tr></table>"
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400718842\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40071/88/cover200/k292130145_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400718842\">베니스 비엔날레와 1986-1996 한국현대미술</a></h2>정연심.김정은.이유진 편저 / 안그라픽스 / 2026년 08월 / ISBN:<span class=\"isbn13\">9791168231511</span><br />정가: <span style=\"color: #FF0202;\">45,000</span>원 / 판매가: <span style=\"color: #FF0202;\">40,500</span>원 / 마일리지: <span style=\"color: #FF0202;\">2,250</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 8월 특별 선물. 원통형 가방 · 책 키링 카드지갑<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=400718842&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=400718842&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/intro_t.gif\" /><br />1995년 《베니스 비엔날레》 한국관이 세워지기 전, 1986년부터 1993년까지 네 차례에 걸쳐 본전시에 참여했던 한국 작가들의 궤적을 원전 자료로 되짚는 도큐먼트 북이다. 신문 기사, 잡지 기사, 전시 자료, 작가 노트, 사진 등을 수집, 정리했으며, 2024년 스페이스21에서 열린 전시 《The Journey to the Venice Biennale: 1986-1993》의 아카이브 자료도 함께 실었다.<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br /><p>들어가며<br />\n<br />\n<b>1 논고</b><br />\n한국현대미술의 국제 비엔날레 참여와 글로벌 미술 담론으로의 확장 - 정연심<br />\n베니스 비엔날레를 향한 한국현대미술의 모색 - 김정은<br />\n<br />\n<b>2 전시와 아카이브 자료</b><br />\n1986년 제42회<br />\n1988년 제43회<br />\n1990년 제44회<br />\n1993년 제45회<br />\n<br />\n<b>3 스페이스21 전시 아카이브</b><br />\n<br />\n<b>4 1995 한국관 건립</b><br />\n파편적 성좌, 그리고 '모든 섬은 산이다' - 정연심<br />\n베니스 비엔날레 한국관 비평 - 김인겸<br />\n베니스 비엔날레 100년의 亡靈(망령) - 홍명섭<br />\n<br />\n주요 사건 연보<br />\n관련 기사<br />\n저자 소개</p><br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=517\">예술/대중문화</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=50965\">미술</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=50982&BrowseTarget=List\"><b>미술사</b></a><br /><br /></td></tr></table>"
       }
     },
     {
@@ -675,19 +841,19 @@
     {
       "event_model_payload": {
         "source_name": "알라딘 신간",
-        "headline": "3월의 벽력 2/이케 준코 지음/대원씨아이(만화)",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400708725",
+        "headline": "죽음의 책/조애나 에번스타인 지음, 김승진 옮김/오월의봄",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400708724",
         "published_at": "2026-08-21T00:34:00+00:00",
-        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400708725\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40070/87/cover200/k642130141_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400708725\">3월의 벽력 2</a></h2>이케 준코 지음 / 대원씨아이(만화) / 2026년 08월 / ISBN:<span class=\"isbn13\">9791142359774</span><br />정가: <span style=\"color: #FF0202;\">6,000</span>원 / 판매가: <span style=\"color: #FF0202;\">5,400</span>원 / 마일리지: <span style=\"color: #FF0202;\">300</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: <3월의 벽력 2>아크릴 스탠드 키링 (만화.라노벨 1만 5천원 이상 구매 시)<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=400708725&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=400708725&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=2551\">만화/라이트노벨</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3741\">순정만화</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3742&BrowseTarget=List\"><b>레이디스 코믹</b></a><br /><br /></td></tr></table>"
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400708724\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40070/87/cover200/k692130141_3.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400708724\">죽음의 책</a></h2>조애나 에번스타인 지음, 김승진 옮김 / 오월의봄 / 2026년 08월 / ISBN:<span class=\"isbn13\">9791168731868</span><br />정가: <span style=\"color: #FF0202;\">54,000</span>원 / 판매가: <span style=\"color: #FF0202;\">48,600</span>원 / 마일리지: <span style=\"color: #FF0202;\">2,700</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 8월 특별 선물. 원통형 가방 · 책 키링 카드지갑<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=400708724&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=400708724&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/intro_t.gif\" /><br /><span>‘죽음’을 다룬 독보적인 책이 출간됐다. 이 책은 한마디로 죽음을 다룬 궁극의 백과사전이자 죽음 박물관이다. 그 어디에서도 볼 수 없는 죽음의 문화사이자 예술사이다. 죽음을 상상하고 이해하고 수용하려 한 인류의 시도를 보여주는 시각 작품들의 보물 창고다. 무엇보다 죽음을 통해 지금 우리의 삶을 깊게 응시하게 만드는 책이다.<br />\n<br />\n이러한 수식어에 걸맞은 죽음에 관한 세계 최고의 비범한 예술품들 1,000여 점이 올컬러로 담겨 있다. 섬뜩할 정도로 아름다운 이 책에는 기원전 6000년부터 현재에 이르는 다양한 시대와 장소의 예술 작품들이 수록되어 있다. 미술 작품부터 책, 삽화, 판화, 조각, 사진, 엽서, 장서표(엑스 리브리스), 대중문화의 인쇄물, 범죄 현장 미니어처, 연극 무대에 이르기까지 ‘죽음’에 관한 거의 모든 것이 망라되어 있다.<br />\n<br />\n이 책은 우리가 그동안 견지하고 있던 ‘죽음’에 관한 관념을 모조리 바꿔준다. 우리는 죽음을 금기로 여기거나 의료적 개입으로 막아야 할 것으로 여긴다. 그리고 우리는 보통 병원에서 죽고, 가까이에 있는 가족들의 죽음조차 목격하지 못한다. <br />\n<br />\n그러나 이 책을 들춰보면 인류의 역사는 그렇지 않았다는 것을 발견할 수 있다. 죽음을 가까이에 두고 죽음의 불가피성을 수용하는 것이 삶을 온전히 누리는 데 꼭 필요한 과정이라 여겼다. 죽음을 숙고하는 것은 좋은 삶과 성찰하는 삶의 중요한 요소였다. 이 책의 가장 큰 장점은 ‘죽음’에 대해 성찰함으로써 지금의 삶을 되돌아보게 한다는 점이다. </span> [<a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400708724\">more...</a>]<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br /><p>서문: 윌 셀프<br />\n들어가는 글 _ 조애나 에번스타인<br />\n<b><br />\n1장: 죽음의 예술</b><br />\n메두사와 잘린 머리의 힘 _ 레티시아 바르비에<br />\n에드거 앨런 포와 병리적 숭고미 _ 마크 데리<br />\n미제 사망 사건 법의학 미니어처 _ 브루스 골드파브<br />\n<b><br />\n2장: 죽음의 탐구</b><br />\n예술적, 과학적, 해부학적 표상 관습의 변화 _ 마이클 새폴<br />\n프레데리크 라위스의 벽장 속 해부학 전시물 _ 베르트 판 더 루메르<br />\n해부학적 표현주의 _ 엘리너 크룩<br />\n<b><br />\n3장: 죽은 자의 기억</b><br />\n죽은 이의 얼굴 만들기 _ 존 트로이어<br />\n애도의 장신구에 담긴 머리카락의 힘 _ 캐런 바크먼<br />\n신성한 변모의 해부학 _ 리젤로테 헤르메스 다 폰세카<br />\n<b><br />\n4장: 죽음의 의인화</b><br />\n죽음의 무도 _ 케빈 파일<br />\n에로스와 타나토스 _ 리사 다우닝<br />\n<b><br />\n5장: 죽음의 상징</b><br />\n죽음을 수집하다 _ 에번 마이컬슨<br />\n고대와 현대 멕시코에서의 죽음 _ 에바 아리디스<br />\n<b><br />\n6장: 죽음 엔터테인먼트</b><br />\n죽음과 놀다: 으스스한 오락 형태 _ 머빈 허드<br />\n극장, 죽음, 그랑기뇰 _ 멜 고든<br />\n죽음을 주제로 한 엔터테인먼트 _ 조애나 에번스타인<br />\n<b><br />\n7장: 삶 이후의 죽은 자들</b><br />\n예술과 내세: 에설 르 로시뇰과 조지애나 호턴 _ 마크 필킹턴<br />\n신성한 심령주의 _ 엘리자베스 하퍼<br />\n심령주의와 사진 _ 섀넌 태거트<br />\n<br />\n기고자 소개<br />\n미주<br />\n참고문헌<br />\n사진 크레딧<br />\n찾아보기<br />\n감사의글<br />\n추천사</p><br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=74\">역사</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=81\">테마로 보는 역사</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=89&BrowseTarget=List\"><b>문명/문화사</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=517\">예술/대중문화</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=50950\">예술/대중문화의 이해</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=50962&BrowseTarget=List\"><b>예술 통사/역사 속의 예술</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=656\">인문학</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51378&BrowseTarget=List\"><b>교양 인문학</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=656\">인문학</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51415\">인류학/고고학</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51545&BrowseTarget=List\"><b>인류학</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=656\">인문학</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51417\">문화/문화이론</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51549&BrowseTarget=List\"><b>문명/문명사</b></a><br /><br /></td></tr></table>"
       }
     },
     {
       "event_model_payload": {
         "source_name": "알라딘 신간",
-        "headline": "죽음의 책/조애나 에번스타인 지음, 김승진 옮김/오월의봄",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400708724",
+        "headline": "3월의 벽력 2/이케 준코 지음/대원씨아이(만화)",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400708725",
         "published_at": "2026-08-21T00:34:00+00:00",
-        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400708724\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40070/87/cover200/k692130141_3.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400708724\">죽음의 책</a></h2>조애나 에번스타인 지음, 김승진 옮김 / 오월의봄 / 2026년 08월 / ISBN:<span class=\"isbn13\">9791168731868</span><br />정가: <span style=\"color: #FF0202;\">54,000</span>원 / 판매가: <span style=\"color: #FF0202;\">48,600</span>원 / 마일리지: <span style=\"color: #FF0202;\">2,700</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 8월 특별 선물. 원통형 가방 · 책 키링 카드지갑<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=400708724&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=400708724&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/intro_t.gif\" /><br /><span>‘죽음’을 다룬 독보적인 책이 출간됐다. 이 책은 한마디로 죽음을 다룬 궁극의 백과사전이자 죽음 박물관이다. 그 어디에서도 볼 수 없는 죽음의 문화사이자 예술사이다. 죽음을 상상하고 이해하고 수용하려 한 인류의 시도를 보여주는 시각 작품들의 보물 창고다. 무엇보다 죽음을 통해 지금 우리의 삶을 깊게 응시하게 만드는 책이다.<br />\n<br />\n이러한 수식어에 걸맞은 죽음에 관한 세계 최고의 비범한 예술품들 1,000여 점이 올컬러로 담겨 있다. 섬뜩할 정도로 아름다운 이 책에는 기원전 6000년부터 현재에 이르는 다양한 시대와 장소의 예술 작품들이 수록되어 있다. 미술 작품부터 책, 삽화, 판화, 조각, 사진, 엽서, 장서표(엑스 리브리스), 대중문화의 인쇄물, 범죄 현장 미니어처, 연극 무대에 이르기까지 ‘죽음’에 관한 거의 모든 것이 망라되어 있다.<br />\n<br />\n이 책은 우리가 그동안 견지하고 있던 ‘죽음’에 관한 관념을 모조리 바꿔준다. 우리는 죽음을 금기로 여기거나 의료적 개입으로 막아야 할 것으로 여긴다. 그리고 우리는 보통 병원에서 죽고, 가까이에 있는 가족들의 죽음조차 목격하지 못한다. <br />\n<br />\n그러나 이 책을 들춰보면 인류의 역사는 그렇지 않았다는 것을 발견할 수 있다. 죽음을 가까이에 두고 죽음의 불가피성을 수용하는 것이 삶을 온전히 누리는 데 꼭 필요한 과정이라 여겼다. 죽음을 숙고하는 것은 좋은 삶과 성찰하는 삶의 중요한 요소였다. 이 책의 가장 큰 장점은 ‘죽음’에 대해 성찰함으로써 지금의 삶을 되돌아보게 한다는 점이다. </span> [<a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400708724\">more...</a>]<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br /><p>서문: 윌 셀프<br />\n들어가는 글 _ 조애나 에번스타인<br />\n<b><br />\n1장: 죽음의 예술</b><br />\n메두사와 잘린 머리의 힘 _ 레티시아 바르비에<br />\n에드거 앨런 포와 병리적 숭고미 _ 마크 데리<br />\n미제 사망 사건 법의학 미니어처 _ 브루스 골드파브<br />\n<b><br />\n2장: 죽음의 탐구</b><br />\n예술적, 과학적, 해부학적 표상 관습의 변화 _ 마이클 새폴<br />\n프레데리크 라위스의 벽장 속 해부학 전시물 _ 베르트 판 더 루메르<br />\n해부학적 표현주의 _ 엘리너 크룩<br />\n<b><br />\n3장: 죽은 자의 기억</b><br />\n죽은 이의 얼굴 만들기 _ 존 트로이어<br />\n애도의 장신구에 담긴 머리카락의 힘 _ 캐런 바크먼<br />\n신성한 변모의 해부학 _ 리젤로테 헤르메스 다 폰세카<br />\n<b><br />\n4장: 죽음의 의인화</b><br />\n죽음의 무도 _ 케빈 파일<br />\n에로스와 타나토스 _ 리사 다우닝<br />\n<b><br />\n5장: 죽음의 상징</b><br />\n죽음을 수집하다 _ 에번 마이컬슨<br />\n고대와 현대 멕시코에서의 죽음 _ 에바 아리디스<br />\n<b><br />\n6장: 죽음 엔터테인먼트</b><br />\n죽음과 놀다: 으스스한 오락 형태 _ 머빈 허드<br />\n극장, 죽음, 그랑기뇰 _ 멜 고든<br />\n죽음을 주제로 한 엔터테인먼트 _ 조애나 에번스타인<br />\n<b><br />\n7장: 삶 이후의 죽은 자들</b><br />\n예술과 내세: 에설 르 로시뇰과 조지애나 호턴 _ 마크 필킹턴<br />\n신성한 심령주의 _ 엘리자베스 하퍼<br />\n심령주의와 사진 _ 섀넌 태거트<br />\n<br />\n기고자 소개<br />\n미주<br />\n참고문헌<br />\n사진 크레딧<br />\n찾아보기<br />\n감사의글<br />\n추천사</p><br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=74\">역사</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=81\">테마로 보는 역사</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=89&BrowseTarget=List\"><b>문명/문화사</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=517\">예술/대중문화</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=50950\">예술/대중문화의 이해</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=50962&BrowseTarget=List\"><b>예술 통사/역사 속의 예술</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=656\">인문학</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51378&BrowseTarget=List\"><b>교양 인문학</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=656\">인문학</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51415\">인류학/고고학</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51545&BrowseTarget=List\"><b>인류학</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=656\">인문학</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51417\">문화/문화이론</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51549&BrowseTarget=List\"><b>문명/문명사</b></a><br /><br /></td></tr></table>"
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400708725\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40070/87/cover200/k642130141_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=400708725\">3월의 벽력 2</a></h2>이케 준코 지음 / 대원씨아이(만화) / 2026년 08월 / ISBN:<span class=\"isbn13\">9791142359774</span><br />정가: <span style=\"color: #FF0202;\">6,000</span>원 / 판매가: <span style=\"color: #FF0202;\">5,400</span>원 / 마일리지: <span style=\"color: #FF0202;\">300</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: <3월의 벽력 2>아크릴 스탠드 키링 (만화.라노벨 1만 5천원 이상 구매 시)<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=400708725&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=400708725&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=2551\">만화/라이트노벨</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3741\">순정만화</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3742&BrowseTarget=List\"><b>레이디스 코믹</b></a><br /><br /></td></tr></table>"
       }
     },
     {
@@ -737,15 +903,6 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Book Riot",
-        "headline": "Book Riot’s Deals of the Day for August 20, 2026",
-        "source_url": "https://bookriot.com/book-riots-deals-of-the-day-for-august-20-2026/",
-        "published_at": "2026-08-20T16:00:11+00:00",
-        "summary": "A part true-crime, part campus coming-of-age novel, a Manhattan apartment with a haunted past, the sorceress of The Odyssey, and more of today's best book deals"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "The Guardian Books",
         "headline": "Ukrainian publishers call for support after Russian attacks destroy 10m books",
         "source_url": "https://www.theguardian.com/books/2026/aug/20/help-ukrainian-publishers-russia-attacks-books",
@@ -791,110 +948,11 @@
     },
     {
       "event_model_payload": {
-        "source_name": "The Guardian Books",
-        "headline": "How I’ve Tried to Change the World by Alexei Sayle review – does protest make a difference?",
-        "source_url": "https://www.theguardian.com/stage/2026/aug/20/how-ive-tried-to-change-the-world-by-alexei-sayle-review-does-protest-make-a-difference",
-        "published_at": "2026-08-20T06:00:44+00:00",
-        "summary": "<p>The comedian charts his life in demos from 1960s Liverpool to 2020s London in this fiery and addictive book</p><p>At 74, the comedian Alexei Sayle is approaching a dangerous phase for veteran British leftists: becoming a national treasure. Once described by special branch, in a surveillance file gleefully quoted in this memoir, as an “intellectual thug” who made “foul-mouthed comments about the royal family”, Sayle now appears regularly on Radio 4. His jolly, self-deprecating, man of the people side – one of his radio series is called Alexei Sayle’s Imaginary Sandwich Bar – has made him almost cosy.</p><p>But not quite. One fascination of his meandering career, which has included villainous Hollywood cameos, subversive podcasts and successful novelty pop songs, is the persistent fierceness of his politics – the underlying subject of this short, sharp book. “My decision to become … a professional funny man,” he writes, “wasn’t a choice made simply out of monstrous vanity … I was also … taking part in [Antonio] Gramsci’s war of position: attempting to get examples of communist thought on to Top of the Pops, Indiana Jones and the Last Crusade and Doctor Who.”</p> <a href=\"https://www.theguardian.com/stage/2026/aug/20/how-ive-tried-to-change-the-world-by-alexei-sayle-review-does-protest-make-a-difference\">Continue reading...</a>"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "McSweeney’s to Revive Icon of Experimental Fiction",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101078-new-mcsweeney-s-program-to-revive-icon-of-experimental-fiction.html",
+        "headline": "Bindery Enlists ‘Last Podcast on the Left’ for Fiction Imprint",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101080-bindery-enlists-last-podcast-on-the-left-for-fiction-imprint.html",
         "published_at": "2026-08-20T04:00:00+00:00",
-        "summary": "McSweeney’s to Revive Icon of Experimental Fiction"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "WNBA Relaunches Pannell Award for 2026",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101085-wnba-relaunches-pannell-award-for-2026.html",
-        "published_at": "2026-08-20T04:00:00+00:00",
-        "summary": "WNBA Relaunches Pannell Award for 2026"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "A Return to Form: PW Talks with Andrea Beatriz Arango",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101086-a-return-to-form-pw-talks-with-andrea-beatriz-arango.html",
-        "published_at": "2026-08-20T04:00:00+00:00",
-        "summary": "A Return to Form: PW Talks with Andrea Beatriz Arango"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Book Bar Is a Buzzy Addition to Toronto’s Literary Scene",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/bookselling/article/101072-book-bar-adds-buzz-to-toronto-s-literary-landscape.html",
-        "published_at": "2026-08-20T04:00:00+00:00",
-        "summary": "Book Bar Is a Buzzy Addition to Toronto’s Literary Scene"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Eddie Bell, Former Chair of HarperCollins UK, Dies at 77",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/Obituary/article/101082-eddie-bell-former-chair-of-harpercollins-uk-dies-at-77.html",
-        "published_at": "2026-08-20T04:00:00+00:00",
-        "summary": "Eddie Bell, Former Chair of HarperCollins UK, Dies at 77"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Rights Report: Week of August 17, 2026",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101071-rights-report-week-of-august-17-2026.html",
-        "published_at": "2026-08-20T04:00:00+00:00",
-        "summary": "Rights Report: Week of August 17, 2026"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "New Kids’ and YA Books: Week of August 24, 2026",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101084-new-kids-and-ya-books-week-of-august-24-2026.html",
-        "published_at": "2026-08-20T04:00:00+00:00",
-        "summary": "New Kids’ and YA Books: Week of August 24, 2026"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Random House Suspends Fall Title Due to Plagiarism Concerns",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101079-random-house-suspends-fall-title-due-to-plagiarism-concerns.html",
-        "published_at": "2026-08-20T04:00:00+00:00",
-        "summary": "Random House Suspends Fall Title Due to Plagiarism Concerns"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Judy Blume Sponsors Grant for Indie Bookstores with SCBWI",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101077-judy-blume-sponsors-grant-for-indie-bookstores-with-scbwi.html",
-        "published_at": "2026-08-20T04:00:00+00:00",
-        "summary": "Judy Blume Sponsors Grant for Indie Bookstores with SCBWI"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Time and Again: PW Talks with Jessica Spotswood",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101087-time-and-again-pw-talks-with-jessica-spotswood.html",
-        "published_at": "2026-08-20T04:00:00+00:00",
-        "summary": "Time and Again: PW Talks with Jessica Spotswood"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Past, Present, Future: Traci N. Todd and Vashti Harrison in Conversation",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101081-past-present-future-traci-n-todd-and-vashti-harrison-in-conversation.html",
-        "published_at": "2026-08-20T04:00:00+00:00",
-        "summary": "Past, Present, Future: Traci N. Todd and Vashti Harrison in Conversation"
+        "summary": "Bindery Enlists ‘Last Podcast on the Left’ for Fiction Imprint"
       }
     },
     {
@@ -909,10 +967,82 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
+        "headline": "A Return to Form: PW Talks with Andrea Beatriz Arango",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101086-a-return-to-form-pw-talks-with-andrea-beatriz-arango.html",
+        "published_at": "2026-08-20T04:00:00+00:00",
+        "summary": "A Return to Form: PW Talks with Andrea Beatriz Arango"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Past, Present, Future: Traci N. Todd and Vashti Harrison in Conversation",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101081-past-present-future-traci-n-todd-and-vashti-harrison-in-conversation.html",
+        "published_at": "2026-08-20T04:00:00+00:00",
+        "summary": "Past, Present, Future: Traci N. Todd and Vashti Harrison in Conversation"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
         "headline": "‘We’re Just Beginning’: Billie Jean King and Elizabeth Rusch in Conversation",
         "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101059-we-re-just-beginning-billie-jean-king-and-elizabeth-rusch-in-conversation.html",
         "published_at": "2026-08-20T04:00:00+00:00",
         "summary": "‘We’re Just Beginning’: Billie Jean King and Elizabeth Rusch in Conversation"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Judy Blume Sponsors Grant for Indie Bookstores with SCBWI",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101077-judy-blume-sponsors-grant-for-indie-bookstores-with-scbwi.html",
+        "published_at": "2026-08-20T04:00:00+00:00",
+        "summary": "Judy Blume Sponsors Grant for Indie Bookstores with SCBWI"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Random House Suspends Fall Title Due to Plagiarism Concerns",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101079-random-house-suspends-fall-title-due-to-plagiarism-concerns.html",
+        "published_at": "2026-08-20T04:00:00+00:00",
+        "summary": "Random House Suspends Fall Title Due to Plagiarism Concerns"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "New Kids’ and YA Books: Week of August 24, 2026",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101084-new-kids-and-ya-books-week-of-august-24-2026.html",
+        "published_at": "2026-08-20T04:00:00+00:00",
+        "summary": "New Kids’ and YA Books: Week of August 24, 2026"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Book Bar Is a Buzzy Addition to Toronto’s Literary Scene",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/bookselling/article/101072-book-bar-adds-buzz-to-toronto-s-literary-landscape.html",
+        "published_at": "2026-08-20T04:00:00+00:00",
+        "summary": "Book Bar Is a Buzzy Addition to Toronto’s Literary Scene"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "McSweeney’s to Revive Icon of Experimental Fiction",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101078-new-mcsweeney-s-program-to-revive-icon-of-experimental-fiction.html",
+        "published_at": "2026-08-20T04:00:00+00:00",
+        "summary": "McSweeney’s to Revive Icon of Experimental Fiction"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Time and Again: PW Talks with Jessica Spotswood",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101087-time-and-again-pw-talks-with-jessica-spotswood.html",
+        "published_at": "2026-08-20T04:00:00+00:00",
+        "summary": "Time and Again: PW Talks with Jessica Spotswood"
       }
     },
     {
@@ -927,10 +1057,28 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "Bindery Enlists ‘Last Podcast on the Left’ for Fiction Imprint",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101080-bindery-enlists-last-podcast-on-the-left-for-fiction-imprint.html",
+        "headline": "Eddie Bell, Former Chair of HarperCollins UK, Dies at 77",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/Obituary/article/101082-eddie-bell-former-chair-of-harpercollins-uk-dies-at-77.html",
         "published_at": "2026-08-20T04:00:00+00:00",
-        "summary": "Bindery Enlists ‘Last Podcast on the Left’ for Fiction Imprint"
+        "summary": "Eddie Bell, Former Chair of HarperCollins UK, Dies at 77"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "WNBA Relaunches Pannell Award for 2026",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101085-wnba-relaunches-pannell-award-for-2026.html",
+        "published_at": "2026-08-20T04:00:00+00:00",
+        "summary": "WNBA Relaunches Pannell Award for 2026"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Rights Report: Week of August 17, 2026",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101071-rights-report-week-of-august-17-2026.html",
+        "published_at": "2026-08-20T04:00:00+00:00",
+        "summary": "Rights Report: Week of August 17, 2026"
       }
     },
     {
@@ -989,24 +1137,6 @@
     },
     {
       "event_model_payload": {
-        "source_name": "New York Times Books",
-        "headline": "Book Review: ‘The Maltese Version,’ by Katy Simpson Smith",
-        "source_url": "https://www.nytimes.com/2026/08/16/books/review/the-maltese-version-katy-simpson-smith.html",
-        "published_at": "2026-08-17T14:02:09+00:00",
-        "summary": "Are the 30-somethings in Katy Simpson Smith’s “The Maltese Version” in love? That depends on how you define it."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "New York Times Books",
-        "headline": "As the Old Files Open, One Family Confronts Another’s Dark Nazi Past",
-        "source_url": "https://www.nytimes.com/2026/08/16/arts/zilversmit-netherlands-podcast-book-holocaust-nazi.html",
-        "published_at": "2026-08-17T12:36:23+00:00",
-        "summary": "A woman who secured the criminal file of her grandmother, a collaborator, offered to share it with a Jewish family that had been betrayed. Then she balked and a new dispute ensued."
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "The Guardian Books",
         "headline": "The Ego Trip by Kimon de Greef review – a bizarre tale of psychedelic toads and hair-raising treatments",
         "source_url": "https://www.theguardian.com/books/2026/aug/17/the-ego-trip-by-kimon-de-greef-review-a-bizarre-tale-of-psychedelic-toads-and-hair-raising-treatments",
@@ -1021,141 +1151,6 @@
         "source_url": "https://www.theguardian.com/books/2026/aug/17/agrippa-by-robert-harris-review-persuasive-portrait-of-rivalry-in-ancient-rome",
         "published_at": "2026-08-17T06:00:46+00:00",
         "summary": "<p>This fictional memoir by Octavius’s right-hand man shows us bloodshed, betrayal and hectic jockeying for power</p><p>If you’re one of those people who thinks about the Roman empire several times a week, Robert Harris has you covered. He follows his trilogy of novels about the life of Cicero and his one-off about the unpleasantness in Pompeii with a narrative that takes us from civil war through the assassination of Julius Caesar, with all the bickering and bloodshed that follows, on to the decisive battle of Actium and Octavius’s apotheosis as Caesar Augustus. We meet Cicero, Fulvia, Lepidus, two Caesars and a burly Antony (“Imagine, if you will, a statue of Hercules with a club in one hand, a wineskin in the other”).</p><p>Here’s the clever bit: he narrates it all from the point of view of Octavius’s right-hand man, Agrippa, a much less well-remembered figure. Harris tells us he “left behind no speeches, few letters and only a couple of sentences of direct quotation”. Yet Agrippa was “effective co-ruler of the Roman world for many years” and “the greatest general of the period”. Octavius couldn’t have risen without him, but he seems to have done his best to write him out of the story afterwards, according him only two passing mentions in the Res Gestae Divi Augusti.</p> <a href=\"https://www.theguardian.com/books/2026/aug/17/agrippa-by-robert-harris-review-persuasive-portrait-of-rivalry-in-ancient-rome\">Continue reading...</a>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "14위 오디세이 각본집",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=399454100&radar_rank=14&radar_ranking_date=20260816220050",
-        "published_at": "2026-08-16T22:00:50+00:00",
-        "summary": "오디세이 각본집 크리스토퍼 놀란 지음, 김은주 옮김 / 웅진지식하우스 / 2026년 08월 / ISBN: 9788901300412 정가: 21,000 원 / 판매가: 18,900 원 / 마일리지: 1,050 원 이벤트 : <오디세이 각본집> 기대평 + 영화예매권 (1인 1매, 추첨) 글로벌 흥행 수익 11억 달러를 돌파하며 크리스토퍼 놀란 감독 역대 최고 흥행작에 오른 〈오디세이〉 오리지널 각본집이 국내에 정식 출간됐다. 고대 그리스 작가 호메로스의 대서사시 『오디세이아』를 각색한 이번 작품은 끝없는 망망대해, 대규모 전투, 괴물과 신들이 등장하는 신화적 세계를 생생하게 재현해낸다. 동시에 끝없는 유혹과 시련, 고난 속에서도 재회를 위해 고군분투하는 한 가족의 인간적인 이야기를 감동적으로 전한다. 특히 『오디세이 각본집』은 놀란 감독의 의도와 열망이 가장 선명하게 담긴 영화의 청사진이다. 스크린과 상영시간이라는 물리적 한계를 벗어나, 놀란 감독의 마음을 사로잡았던 오디세우스의 이야기를 원형 그대로 만날 수 있는 〈오디세이〉의 ‘무삭제 감독판’인 셈이다. 독자는 이 책에서 1만 2천여 행, 24권에 달하는 『오디세이아』 원전을 약 3시간 분량의 현대적 대서사시로 응축해낸 놀라운 구성력과 인간의 의지와 운명에 관한 깊이 있는 통찰을 모두 만나게 된다. 영화 포스터 이미지로 디자인된 ‘스페셜 양면 커버’와 국내 번역판에 단독으로 실린 ‘영화 공식 스틸컷’은 각본집의 소장 가치를 한층 높인다. 영화를 본 독자에게는 읽는 재미를 곁들인 새로운 N차 관람의 묘미로, 영화를 보기 전 독자에게는 극장에서의 몰입을 더욱 깊게 만들어줄 마중물로 손색이 없을 것이다. 마이리뷰(0) 평점: | Sales Point : 38,850 [마이리뷰] 오디세이 각본집 - 머리쓰기&글쓰기"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "2위 그랬다고 적었다",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=400193697&radar_rank=2&radar_ranking_date=20260816220050",
-        "published_at": "2026-08-16T22:00:50+00:00",
-        "summary": "그랬다고 적었다 김애란 지음 / 문학동네 / 2026년 08월 / ISBN: 9791141618575 정가: 17,000 원 / 판매가: 15,300 원 / 마일리지: 850 원 이벤트 : 아크릴 참 키링 (대상 도서 포함 국내도서 2만 원 이상 구매 시) 소설가 김애란이 새 책과 함께 여름 인사를 건넨다. 장편소설 『이중 하나는 거짓말』(2024)과 소설집 『안녕이라 그랬어』(2025)를 펴내며 허구의 세계 안에서 지금 한국사회의 풍경을 세밀하게 그리는 데 집중해온 작가가 이번에 새 이야기를 담아낸 그릇은 소설이 아니라 산문이다. 소설 속 그 혹은 그녀가 아니라 작가 자신의 목소리가 나직하게 울려퍼지는 바로 그 장르를 통해 우리는 우리가 오랫동안 사랑해온 작품을 써낸 작가 김애란의 생생한 다면(多面)과 만난다. 그 면면은 생활인이자 창작자, 사회인의 모습으로 이루어져 있다. 생활인으로서 김애란은 제주의 너른 쉼터를 뛰어다니는 강아지를 바라보며 대도시에서와 다른 초록의 풍경을 눈에 담기도 하고, 오랜 시간 오해했던 누군가의 면모를 새롭게 발견하기도 한다. 창작자로서 인공지능 챗봇 챗지피티의 등장을 지켜보며 인간이라는 존재 자체를 성찰하기도 하고, 사회인으로서 우리 모두가 함께 겪은 코로나 시기를 돌아보며 진정한 자립과 타인의 의미를 되새기기도 한다. 이 면면은 엄밀히 구분되기보다 서로 섞이고 간섭하며 영향을 주고받는다. 그 바탕에는 공통적으로 몸과 마음의 한계를 지닌 사람으로서의 스스로를 인정하는 겸허하고 유연한 태도가 깔려 있다. 그리고 그 태도는 ‘내가 되지 않는 꿈’이라는 인상적인 표현과 연결된다. 김애란은 말한다. 진정한 내가 되지 않아도 된다는 것은 얼마나 해방적이냐고. 내가 되지 않는다는 건 나라는 작은 테두리에서 벗어난다는 뜻이고, 그렇게 나의 “농도를 조금씩 옅게”(19쪽) 만듦으로써 다른 무언가가 새롭게 들어설 자리를 마련한다는 의미이다. 마치 바람이 선선하게 드나들듯이 나라는 창문을 통해 다른 무엇이 부드럽게 오갈 수 있도록 여러 방향을 향해 스스로를 열어놓는 것이다. [ more... ]"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "9위 사카모토 데이즈 27 (더블 특전판)",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=400365190&radar_rank=9&radar_ranking_date=20260816220050",
-        "published_at": "2026-08-16T22:00:50+00:00",
-        "summary": "사카모토 데이즈 27 (더블 특전판) 스즈키 유우토 지음 / 대원씨아이(만화) / 2026년 08월 / ISBN: 9791142361241 정가: 6,500 원 / 판매가: 5,850 원 / 마일리지: 320 원 이벤트 : <사카모토 데이즈 27> 증명사진 아크릴 스탠드 (만화.라노벨 1만 5천원 이상 구매 시)"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "13위 한밤중 개미 요정 (10주년 기념 한지 특별 한정판)",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=398759685&radar_rank=13&radar_ranking_date=20260816220050",
-        "published_at": "2026-08-16T22:00:50+00:00",
-        "summary": "한밤중 개미 요정 (10주년 기념 한지 특별 한정판) 신선미 글.그림 / 창비 / 2026년 06월 / ISBN: 9788936429676 정가: 25,000 원 / 판매가: 22,500 원 / 마일리지: 1,250 원 이벤트 : 8월 특별 선물. 원통형 가방 · 책 키링 카드지갑 신선미 작가의 첫 그림책 『한밤중 개미 요정』(창비 2016)은 어린 시절의 상상 친구를 아름다운 한국화로 그려 내며 국내외 독자의 사랑을 받아 온 작품이다. 2017년 독일 ‘화이트 레이븐스’에 선정되고, 2022년 일본 산케이 아동출판문화상 번역작품상을 수상하며 세계적으로도 작품성을 인정받았다. 출간 10주년을 기념해 문화체육관광부와 한국공예·디자인문화진흥원의 지원을 받아 제작한 이번 한지 특별 한정판은 한지의 빛과 결을 살려 작품의 아름다움을 더욱 깊이 감상할 수 있도록 완성했다. 전통과 현대, 꿈과 현실을 넘나들며 신비롭게 펼쳐지는 이야기는 한지 위에서 더욱 깊고 풍부하게 되살아난다. 본문에는 닥향지를 사용해 장지 위에 그려진 원화의 부드러운 색조와 여백의 미를 충실히 구현했으며, 노출 사철 제본으로 묶어 한 권의 화첩을 감상하듯 책을 온전히 펼쳐 볼 수 있도록 했다. 한지를 덧대어 만든 케이스에 담긴 이번 특별 한정판은 그림책을 섬세하게 완성된 하나의 예술 작품으로 마주하고, 오래도록 곁에 두고 감상하는 기쁨을 선사할 것이다."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "10위 프로젝트 헤일메리 (알라딘 리커버 특별판)",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=396798366&radar_rank=10&radar_ranking_date=20260816220050",
-        "published_at": "2026-08-16T22:00:50+00:00",
-        "summary": "프로젝트 헤일메리 (알라딘 리커버 특별판) 앤디 위어 지음, 강동혁 옮김 / 알에이치코리아(RHK) / 2026년 07월 / ISBN: 9788925568645 정가: 22,000 원 / 판매가: 19,800 원 / 마일리지: 1,100 원 이벤트 : 어나더커버 프로젝트 102탄. 앤디 위어 우주 3부작 영화 〈프로젝트 헤일메리〉 원작. 《마션》과 《아르테미스》에 이어 발표한 작품마다 뉴욕 타임스와 아마존 베스트셀러에 이름을 올린 앤디 위어의 장편소설이다. 과학적 사실을 조사하고 검증하는 것으로 정평이 난 작가의 탄탄한 과학적 지식과 낙관적 감수성이 어우러진 SF다. 긴 수면 끝에 우주 한가운데서 눈을 뜬 남성은 자신의 이름조차 기억하지 못한 채 홀로 우주선에 남아 있다. 동료들은 모두 사망했고, 기억을 더듬어가던 그는 자신이 인류를 구할 마지막 희망이자 지구로 돌아가지 못할 과학자라는 사실을 깨닫는다. 태양의 온도를 떨어뜨리는 미지의 생명체 ‘아스트로파지’로 인해 멸망 위기에 처한 지구를 살리려 그는 ‘편도행’ 우주선에 몸을 실었다. 과학적 정밀함 위에 쉼 없이 위기가 쌓이고 해결되는 페이지터너이자, 공생과 연대, 종을 넘어서는 우정에 관한 이야기다. 오일러 공식부터 공기역학, 골디락스 존까지 치밀하게 작동하는 설정 속에서 절망 속에서도 농담을 잃지 않는 주인공과 작가 특유의 낙관이 소설을 끝까지 이끈다. 마이리뷰(0) 평점: | Sales Point : 411,854 프로젝트 헤일메리 - 패스파인더 강요된 영웅 - 프링크리 외계인과의 만남 - 닷슈 그레이스와 로키의 우정에서 읽은 것들 - 책판다 다정을 주고 받을 때 생기는 우주적 관계 - 노루귀"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "12위 수족관",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=330811810&radar_rank=12&radar_ranking_date=20260816220050",
-        "published_at": "2026-08-16T22:00:50+00:00",
-        "summary": "수족관 유래혁 지음 / 포스터샵 / 2023년 12월 / ISBN: 9791198547514 정가: 17,700 원 / 판매가: 15,930 원 / 마일리지: 880 원 이벤트 : 유래혁 <수족관> 성률 일러스트 투명 책갈피 (소설 2만원 이상) 유래혁 소설. 보육 시설에서 자라난 인물 ‘류이치’가, 먼저 보육 시설에서 도망쳐나온 인물 ‘아카리’를 만나 겪게 되는 일들을 그려낸다. 이 두 인물은 자신들이 가진 뿌리 깊은 과거와 상처, 그 이야기가 만들어낸 수족관에서 만나 입을 맞추고, 서로의 숨을 훔쳐가면서도 언젠가 오키나와의 너른 바다에 도착하는 꿈을 나눈다. 이 둘은 수족관을 벗어나 눈부신 햇살 아래 들려오는 파도 소리를 들을 수 있을까. 마이리뷰(0) 평점: | Sales Point : 124,965 [마이리뷰] 수족관 - 89700326 헉생이 쓴 팬픽 읽는 느낌.. - Collins_swag [마이리뷰] 수족관 - JYOH 💙<<수족관 _ 유래혁 장편소설>>💙 - 윤딩 [마이리뷰] 수족관 - 제로북_서재"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "3위 싯다르타",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=329596&radar_rank=3&radar_ranking_date=20260816220050",
-        "published_at": "2026-08-16T22:00:50+00:00",
-        "summary": "싯다르타 헤르만 헤세 지음, 박병덕 옮김 / 민음사 / 2002년 01월 / ISBN: 9788937460586 정가: 8,000 원 / 판매가: 7,200 원 / 마일리지: 400 원 이벤트 : SNS 화제의 책 + 알라딘 굿즈 (이벤트 도서 포함, 국내도서 3만원 이상) 헤세가 거의 일 년 반 동안 창작이 거의 불가능할 정도로 심한 우울증을 앓다가 정신 치료를 받은 후 발표한 작품이다. 동서양의 정신적 유산을 시적으로 승화한 일종의 종교적 성장소설로 볼 수 있는데 영원을 향한 갈망과 인간의 내면을 깊이 파고드는 초월에 대한 의지를 단순하고도 서정적인 문체로 담아냈다. 정형화된 종교 교리와 자족적인 영혼의 성찰 사이의 고뇌를 섬세하게 그리며 자아 발견을 위한 길이 하나로 정해져 있지 않음을 시사하고 철학이나 종교, 그 밖의 모든 신념에 맹목적으로 의지하고자 하는 고정관념에 도전한 작품이다. 마이리뷰(0) 평점: | Sales Point : 298,311 싯다르타. 내 삶에서 - pleasetrust800604 삶의 깨달음을 찾아가는 여정 <싯다르타> - 우끼끼양 싯다르타 - miseong.books 결국 삶은 답이 아닌 흐름일지도 - 짱고아빠 [마이리뷰] 싯다르타 - 쏠라시도"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "11위 태양 아래 올리브",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=399872461&radar_rank=11&radar_ranking_date=20260816220050",
-        "published_at": "2026-08-16T22:00:50+00:00",
-        "summary": "태양 아래 올리브 김초엽 지음 / 자이언트북스 / 2026년 08월 / ISBN: 9791191824582 정가: 19,800 원 / 판매가: 17,820 원 / 마일리지: 990 원 이벤트 : 책 모양 클릭커/투명 책갈피 (김초엽 장편소설 <태양 아래 올리브> 포함 국내도서 2만원 이상) 『지구 끝의 온실』과 『파견자들』에서 낯선 세계를 열고 인간과 비인간의 경계를 탐색해온 김초엽이 세 번째 장편소설 『태양 아래 올리브』로 돌아왔다. 장편으로는 『파견자들』 이후 3년 만이다. 이번에 작가의 시선은 신앙과 과학, 믿음과 의심이 맞부딪치는 자리로 향한다. 그 길 위에 수녀와 과학 유튜버라는, 좀처럼 한 팀이 될 것 같지 않은 두 사람을 세운다. 기후 재난 현장을 누비는 수녀 이레는 처음 만난 사람의 사정에도 금세 귀를 기울이고, 도움이 필요한 곳이라면 몸이 먼저 나간다. 과학기술 정책 매거진의 에디터이자 익명 채널 ‘미놋’을 운영하는 솔민은 말과 행동 사이의 모순을 놓치지 않고, 과학의 이름을 빌린 허위 주장과 맹신을 집요하게 저격한다. 이레에게 믿음은 숨 쉬듯 몸에 밴 삶의 방식이고, 솔민에게 신앙은 근거를 통해 검증해야 할 대상이다. 그토록 다른 두 사람은 한때 가족처럼 가까웠다. 가장 아픈 말을 남긴 채 헤어진 지 8년, 수상한 전화가 둘을 다시 같은 길 위에 올려놓는다. 한국에서 시작된 이야기는 하노이 공항과 라오스로 향하는 열차를 거쳐 메콩강과 태국 북부의 산길까지 쉼 없이 나아간다. 계획은 어긋나고, 단서는 꼬리를 물고, 두 사람은 사사건건 부딪친다. 하지만 바로 그 엇박자가 이 소설의 엔진이다. 이레는 눈앞의 사람부터 구하고, 솔민은 빠져나갈 경로부터 계산한다. 서로의 방식은 위기를 만들기도 하고, 다시 그 위기에서 빠져나올 열쇠가 되기도 한다. [ more... ] 마이리뷰(0) 평점: | Sales Point : 75,620 태양아래 올리브 - 플라뇌르 인간을 인간으로 규정하는 것은? - 책수집가 태양 아래 올리브 가제본 서평 - 읽는사이에_수수 태양 아래 올리브 - 타인에게말걸기 좋습니다^^ - 김가희"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "5위 오디세이아 (국내 유일 명화 104점 수록 완역본)",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=362390080&radar_rank=5&radar_ranking_date=20260816220050",
-        "published_at": "2026-08-16T22:00:50+00:00",
-        "summary": "오디세이아 (국내 유일 명화 104점 수록 완역본) 호메로스 지음, 페테르 파울 루벤스 외 그림, 박문재 옮김 / 현대지성 / 2025년 04월 / ISBN: 9791139721973 정가: 27,000 원 / 판매가: 24,300 원 / 마일리지: 1,350 원 이벤트 : The odyssey + 티셔츠(대상도서 포함 국내도서 3만 5천 원 이상) 트로이아 전쟁의 영웅 오디세우스는 전쟁에서 승리한 후 고향 이타카로 돌아가려 하지만, 그의 여정은 결코 평탄치 않았다. 포세이돈의 분노, 신들의 장난, 인간의 오만과 약함은 그의 여정을 가로막고, 그는 무려 10년에 걸쳐 바다를 떠돌며 인간의 한계에 맞서 싸운다. 호메로스는 이 위대한 방랑을 통해 신과 인간이 얽힌 세계의 진실을 보여준다. 『오디세이아』는 ‘귀향’이라는 단순한 이야기 구조 속에 고대 그리스인의 세계관과 삶의 가치, 그리고 인간다운 삶의 의미를 농축시킨 작품이다. 외눈박이 거인 폴리페모스와의 대결, 마녀 키르케의 유혹, 바다의 요정 칼립소와의 시간, 바다의 신과 하늘의 신들의 끊임없는 개입 속에서 오디세우스는 단순한 영웅이 아니라, 인간의 약함과 강함을 동시에 지닌 존재로 그려진다. 현대지성 클래식의 완역본은 3,000년 전부터 구전으로 전해지던 이 서사시를, 오늘날의 독자가 온전히 음미할 수 있도록 섬세하고 충실하게 옮겼다. 104점의 명화와 이미지는 상상력을 자극하며 당시 상황과 영웅의 생애를 생생히 보여주고, 303개의 정밀한 각주와 해설은 고대 그리스의 지리, 신화, 문화적 맥락을 입체적으로 그려낸다. 특히 주요 인물과 사건의 계보, 시대적 배경까지 촘촘히 짚어내며, 단순한 독서를 넘어 깊은 통찰을 가능하게 한다. 마이리뷰(0) 평점: | Sales Point : 62,710 삼천 년을 건너온 인간의 마음 - 장지원 [마이리뷰] 오디세이아 (고대 그리스어 완역본) - 제로북_서재 인류를 사로잡은 최고의 모험담. 세심한 번역과 아름다운 삽화와 함께. - 박칼럼 서평_오디세이아_호메로스_현대 지성 - lkth3 시간과 공간을 넘어 사랑받는 고전 『오디세이아』 - 로렌"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "15위 고양이는 고양이가 알려 드림",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=398737853&radar_rank=15&radar_ranking_date=20260816220050",
-        "published_at": "2026-08-16T22:00:50+00:00",
-        "summary": "고양이는 고양이가 알려 드림 이용한 지음, 스노우캣 그림, 김명철 감수 / 책읽는곰 / 2026년 08월 / ISBN: 9791158366346 정가: 16,800 원 / 판매가: 15,120 원 / 마일리지: 840 원 이벤트 : 가장 주목받는 어린이 화제의 책 + 캐리어·백 리플렉터 택 세트(택1, 대상도서 15,000원 이상) 대한민국 대표 고양이 작가의 어린이를 위한 첫 번째 고양이 안내서. 고양이를 좋아하는 마음을 제대로, 올바르게 표현할 수 있도록 아홉 마리 고양이가 어린이에게 말을 건넨다. 고양이의 역사는 도서관 고양이가, 고양이의 신체 특징은 요가 학원 고양이가, 고양이의 건강 관리는 동물병원 고양이가 저마다 아는 대로 가르쳐 준다. 상황에 꼭 맞는 고양이들의 절묘한 사진과 개성 있는 고양이 캐릭터들이 정보를 전하는 한편 고양이의 매력을 한껏 보여 준다. 각 장이 끝날 때마다 나타나는 궁금냥이는 고양이가 나오는 속담, 고양이가 먹으면 안 되는 음식 등 지나치기 아쉬운 정보를 물어봐 준다. 골골송, 우다다, 냥냥펀치 같은 고양이 용어도 한데 모아 특별 부록으로 담았다. 고양이를 귀여워하는 마음에서 시작된 호기심을 정확한 지식으로 채워 주고, 더 나아가 생명을 존중하는 마음과 반려동물에 대한 책임감까지 길러 줄 고양이 책이다."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "7위 원소 원정대",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=393526281&radar_rank=7&radar_ranking_date=20260816220050",
-        "published_at": "2026-08-16T22:00:50+00:00",
-        "summary": "원소 원정대 아게도리도리 지음, 박재현 옮김, 장홍제 감수 / 윌북주니어 / 2026년 05월 / ISBN: 9791155819326 정가: 19,800 원 / 판매가: 17,820 원 / 마일리지: 990 원 이벤트 : 화제의 책 + 알라딘 굿즈 (이벤트 도서 포함, 국내도서 3만원 이상) 원소 주기율표 속 원소들을 생동감 넘치는 캐릭터와 웅장한 세계관으로 만날 수 있는 신개념 화학책 『원소 원정대 : 118개 캐릭터로 마스터하는 주기율표 공략집』이 윌북주니어에서 출간되었다. 『원소 원정대』는 원소 주기율표와 각 원소들의 특성, 상호 작용 등을 게임 공략집처럼 재미있고 자연스럽게 익힐 수 있는 과학책이다. 어릴 적 공룡 이름을 달달 외던 것처럼, 원소들이 가진 장대한 서사와 광활한 대륙을 탐험하며 게임 공략집 보듯이 원소에 대해 익힐 수 있다. 이 책은 창세기전, 블레이드 앤 소울 등 판타지 게임과 높은 퀄리티의 극장판 애니메이션 작화를 떠오르게 하는 세련된 일러스트, 화려하고 흥미진진한 구성으로 얼핏 보아도 눈이 즐거운 책이다. 또한 원소를 단순하게 의인화하는 데에서 그치지 않고 원소 주기율표를 바탕으로 원소들이 사는 세상을 창조했다. 이렇게 탄생한 원소 캐릭터들이 족과 주기에 따라 때로는 함께 활동하고 때로는 반목하는 모습을 보며 생동감과 서사를 느낄 수 있다. 다양한 원소 캐릭터를 만나고 주기율표의 세계를 탐험하다 보면 아무리 화학을 어려워하는 독자라도 이 세계에 푹 빠져든다. 새로운 사실이 발견되면 수정되는 것이 과학 지식이다. 이 책은 11만 화학 유튜버이자 매드 사이언티스트로 불리는 광운대학교 화학과 장홍제 교수가 꼼꼼히 감수해 지금 이 순간 가장 정확한 과학 지식을 담았다. 또한 학교에서도 가르쳐 주지 않는 화학의 심연까지 들여다볼 수 있다. 『원소 원정대』와 함께 세상에서 가장 작은 존재인 원소들이 만드는 거대한 이야기로 떠나 보자. 마이리뷰(0) 평점: | Sales Point : 52,290 원소 원정대: 118개 캐릭터로 마스터하는 주기율표 공략집 - pukaka71 원소 원정대 - pinkpcl 게임처럼 즐기는 원소 이야기 - 루나 원소 원정대 너무 재밌어서 밤새 보네요 - 푸카콕 원소 원정대 -118개 캐릭터로 게임처럼 마스터하는 주기율표 - 댄스는 맨홀"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "6위 찌니주의보",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=400137507&radar_rank=6&radar_ranking_date=20260816220050",
-        "published_at": "2026-08-16T22:00:50+00:00",
-        "summary": "찌니주의보 정지아 지음 / 창비 / 2026년 08월 / ISBN: 9788936439996 정가: 16,800 원 / 판매가: 15,120 원 / 마일리지: 840 원 이벤트 : 정지아 장편소설 <찌니주의보> 멜라민 트레이 (국내도서 2만원 이상) 한국현대사의 굵은 상흔을 남도의 구수한 입말과 뜨거운 인간애로 풀어내며 40만 독자의 마음을 사로잡은 『아버지의 해방일지』(창비 2022). 그 신드롬의 주인공 정지아가 4년 만의 신작 장편소설 『찌니주의보』로 돌아왔다. 전작에서 이념과 역사의 비극을 눈물겨운 해학으로 승화시키며 독보적인 이야기꾼으로 자리매김한 그가 이번에 펼쳐 보이는 무대는 평균 연령 일흔여덟살의 산골 ‘수평마을’이다. 『아버지의 해방일지』가 아버지의 장례식을 통해 역사와 이념 너머 한 인간의 전모를 발견하는 소설이었다면, 『찌니주의보』는 낯선 이웃과 밥을 나누며 정체성과 편견 너머 사람을 다시 바라보는 이야기다. 전작이 거침없는 웃음 뒤에 묵직한 슬픔을 남겼다면, 이번 작품은 좀더 빠르고 경쾌한 소동 속에서 더 풍성한 감정의 파고를 만들어낸다. 이성애자와 성소수자, 토박이와 귀촌인, 한국인과 이주여성, 도시의 젊은이와 농촌의 노인들…… 살아온 시간도 사랑의 방식도 전혀 다른 이들이 한마을에 모여 흉을 보고 싸우고 밥을 먹이며 어느새 이웃이 되어가는 과정이 생생하게 펄떡인다. 정지아 특유의 천연덕스러운 유머는 한층 능청스러워졌고, 인간의 모순과 상처를 헤아리는 다정한 시선은 더욱 섬세해졌다. 익숙한 마을의 정서와 오늘의 첨예한 문제를 한데 품은 이 소설은 전작의 팬부터 처음 정지아를 만나는 독자까지, 세대와 취향 차이를 넘어 한자리에서 웃게 하는 힘을 지녔다. 마이리뷰(0) 평점: | Sales Point : 37,370 밥은 멕여야하는 시골 인심 - ayayeun [마이리뷰] 찌니주의보 - JYOH 서로 다른 사람들이 함께 살아간다는 것 - 남문서점 [마이리뷰] 찌니주의보 - mailbird 당신은 선 밖의 사람인가? 선 안의 사람인가? - spumante"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "1위 세네카, 오늘을 빼앗기고 있는 당신에게",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=396404956&radar_rank=1&radar_ranking_date=20260816220050",
-        "published_at": "2026-08-16T22:00:50+00:00",
-        "summary": "세네카, 오늘을 빼앗기고 있는 당신에게 루키우스 안나이우스 세네카 지음, 하와이 대저택 편역 / 논픽션 / 2026년 07월 / ISBN: 9791199489561 정가: 18,000 원 / 판매가: 16,200 원 / 마일리지: 900 원 이벤트 : 화제의 책 + 알라딘 굿즈 (이벤트 도서 포함, 국내도서 3만원 이상) 『세네카, 오늘을 빼앗기고 있는 당신에게』는 로마 제정기의 스토아 철학자 세네카의 대화편 다섯 편에서 핵심 사유를 선별해 55편의 짧은 글로 재구성한 편역서다. 세네카는 네로 황제의 스승이자 고문으로 제국의 운명을 좌우하면서, 누구보다 바쁜 삶 한가운데에서 시간의 본질을 꿰뚫었다. \"삶은 짧지 않다. 우리가 짧게 만들 뿐이다.\" 그의 진단은 2000년이 지난 지금도 한 글자도 고칠 필요가 없다. 이 책은 시간에 쫓기며 살아가는 현대인에게 시간을 되찾는 것이 곧 자기 자신을 되찾는 것임을 일깨운다. 순서대로 읽어도 좋고 아무 페이지나 펼쳐 읽어도 좋은 55편의 글이, 바쁘게 낭비되는 하루를 정면으로 겨냥한다. 마이리뷰(0) 평점: | Sales Point : 215,180 처음 쓰는 리뷰 - 월아책방 내 시간의 점검표. - mieun0418 천천히 곱씹으며 읽기 좋은 책, 『Life is not short』 - judyorient 세네카를 곁에 둔 위인들처럼 나에게도 한줄기 깨달음이 내렸으면 좋겠다 - 덤플링 세네카, 오늘을 빼앗기고 있는 당신에게 - jmaria05"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "8위 투명한 나선",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=398021172&radar_rank=8&radar_ranking_date=20260816220050",
-        "published_at": "2026-08-16T22:00:50+00:00",
-        "summary": "투명한 나선 히가시노 게이고 지음, 김선영 옮김 / 북다 / 2026년 07월 / ISBN: 9791170614043 정가: 22,000 원 / 판매가: 19,800 원 / 마일리지: 1,100 원 이벤트 : <투명한 나선> + 변색 유리컵 ‘오늘의 일본을 대표하는 작가’, ‘동아시아에서 가장 사랑받는 미스터리 작가’, ‘한국인이 제일 좋아하는 일본 장르소설 작가’ 히가시노 게이고의 장편소설. 1996년 일본에서 처음 연재되어 2026년 30주년을 맞이한 갈릴레오 시리즈의 열 번째 작품인 『투명한 나선』은 2021년 일본 출간 즉시 토한 종합 1위를 비롯하여 각종 서점 베스트셀러 랭킹되며 여전한 인기를 증명했다. 그동안 베일에 싸여 있던 주인공 유카와 마나부의 비밀이 처음 밝혀지는 『투명한 나선』은 갈릴레오 시리즈의 새로운 전환점이 되는 작품이다. 도쿄 인근 지바현 바다에서 등에 총상을 입은 남성의 시신이 떠오른다. 그의 신원이 확인되는 동시에 남성을 실종 신고한 동거 여성이 자취를 감춘다. 사건을 맡은 형사 구사나기와 우쓰미는 수사 과정에서 뜻밖에 유카와의 이름을 발견한다. 구사나기는 오랜 친구를 찾아가 도움을 요청하나 유카와는 그의 청을 단번에 거절한다. 그런데 구사나기를 배웅하던 유카와가 돌연 다른 방식으로 수사에 협조하겠다고 말한다. 이후 유카와와 사건 관련 장소를 방문한 우쓰미는 이 물리학자가 무언가를 숨기고 있음을 직감한다. 그러나 수사는 좀처럼 진전되지 않고 경찰은 번번이 실마리를 놓치고 만다. 이에 유카와는 마침내 오랫동안 간직해 온 비밀을 스스로 밝히게 되는데……. 유카와는 긴 세월 어떤 진실을 혼자 끌어안고 살아온 걸까? 그것이 이 사건과 무슨 연관성이 있는 걸까? 그가 스스로 사건에 관여한 이유는 무엇일까? 『투명한 나선』에 대해 작가는 “한마디로 설명할 수 없는 작품입니다. 오랫동안 작가만이 간직했던 이야기를 비로소 풀어냈습니다. 갈릴레오 팬이라면 분명 놀랄 것이고, 히가시노 팬이라면 더욱 놀랄 것입니다”라고 말했다. 전혀 다른 두 개의 사건이 우연한 계기로 겹쳐짐으로써 드러나는 진실. 이것을 과학으로만 설명할 수 있을까? 마이리뷰(0) 평점: | Sales Point : 124,135 <투명한 나선>을 읽고 - 플라뇌르 한 남자로서의 유카와 마나부 - 이지현 투명한 나선 책 줄거리 서평 히가시노게이고추천 추리소설 - 지유 유카와의 비밀이 수록된 갈릴레오 시리즈 최신작 <투명한 나선> - 마법사의도시 투명한 나선 - 히가시노 게이고 - 김권호"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "4위 오뒷세이아",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=399401298&radar_rank=4&radar_ranking_date=20260816220050",
-        "published_at": "2026-08-16T22:00:50+00:00",
-        "summary": "오뒷세이아 호메로스 지음, 김헌 옮김 / 을유문화사 / 2026년 08월 / ISBN: 9788932476469 정가: 25,000 원 / 판매가: 22,500 원 / 마일리지: 1,250 원 이벤트 : The odyssey + 티셔츠(대상도서 포함 국내도서 3만 5천 원 이상) 『오뒷세이아』는 ‘오뒷세우스의 노래’라는 뜻이다. 그러나 제목이 적나라하게 보여 주는 것과는 달리, 이 작품은 그의 이름을 꼭꼭 숨기며 시작한다. 신들이 그의 귀향을 결정했다는 사실이 밝혀진 후에야 마침내 그의 이름은 작품에 등장한다. 고난과 역경을 거친 영웅이 복수에 성공하는 순간, ‘오뒷세우스’는 한 남자의 이름에 머물지 않고 우리 모두의 이름이 된다. 보르헤스는 인류에게 무한한 시간이 있다면 『오뒷세이아』가 적어도 한 번 이상 쓰이지 않는다는 게 불가능하다고 말했다. 오뒷세우스의 방황과 고뇌, 귀향이라는 대서사시는 한 인간이 태어나서 여러 고난을 관통하며 결국 자신을 찾아가는 과정과 유사하다. 즉, 우리는 모두 태어나는 순간 또 한 명의 오딧세우스다."
       }
     },
     {
