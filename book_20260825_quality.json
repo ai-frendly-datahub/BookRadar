@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-08-24T02:23:04.317362+00:00",
+  "generated_at": "2026-08-25T02:18:39.756898+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,8 +16,8 @@
     "collection_error_count": 0,
     "sales_ranking_events": 14,
     "library_lending_events": 0,
-    "author_event_events": 1,
-    "award_signal_events": 5,
+    "author_event_events": 2,
+    "award_signal_events": 4,
     "book_signal_event_count": 20,
     "official_or_operational_event_count": 16,
     "community_proxy_event_count": 0,
@@ -25,15 +25,15 @@
     "proxy_canonical_key_count": 2,
     "missing_canonical_key_count": 0,
     "isbn_present_count": 18,
-    "author_present_count": 8,
+    "author_present_count": 7,
     "publisher_present_count": 5,
     "rank_present_count": 15,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 2,
+    "event_required_field_gap_count": 3,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 9
+    "daily_review_item_count": 10
   },
   "sources": [
     {
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 30,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 14,
       "event_count": 14,
       "latest_event_at": "2026-08-23T22:00:03+00:00",
-      "age_days": 0.18,
+      "age_days": 1.18,
       "latest_title": "14위 스킵과 로퍼 12",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400652795&radar_rank=14&radar_ranking_date=20260823220003&rssType=5&type=item",
       "latest_source_signal": [
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 22,
+      "article_count": 23,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -378,7 +378,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 20,
+      "article_count": 21,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -781,6 +781,53 @@
     }
   ],
   "events": [
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "The Disappearers by Marlon James review – a scorching exposé of homophobia in Jamaica",
+      "url": "https://www.theguardian.com/books/2026/aug/24/the-disappearers-by-marlon-james-review-a-scorching-expose-of-homophobia-in-jamaica",
+      "source_url": "https://www.theguardian.com/books/2026/aug/24/the-disappearers-by-marlon-james-review-a-scorching-expose-of-homophobia-in-jamaica",
+      "event_at": "2026-08-24T06:00:54+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [
+        "novel",
+        "literature"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:the-guardian-books:86dd737d3bcb",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:ee7625017cb5:20260824",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
     {
       "source": "알라딘 베스트셀러",
       "source_type": "rss",
@@ -1525,50 +1572,6 @@
       "required_field_gaps": []
     },
     {
-      "source": "Literary Hub",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Ways of Connecting: On Writing That Marries the Psychological, the Personal and the Political",
-      "url": "https://lithub.com/ways-of-connecting-on-writing-that-marries-the-psychological-the-personal-and-the-political",
-      "source_url": "https://lithub.com/ways-of-connecting-on-writing-that-marries-the-psychological-the-personal-and-the-political",
-      "event_at": "2026-08-21T09:07:53+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "booker"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:literary-hub:b22dfe346bfd",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:427b39ca902e:20260821",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
       "source": "알라딘 신간",
       "source_type": "rss",
       "trust_tier": "T1_official",
@@ -1576,49 +1579,48 @@
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "수학이 사랑한 음악/니키타 브라긴스키 지음, 박은지 옮김/생각지도",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400708539&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400708539&rssType=1&type=item",
-      "event_at": "2026-08-21T00:26:00+00:00",
-      "isbn": "400708539",
+      "event_model": "author_event",
+      "title": "그리스도인의 신앙과 삶/윌리엄 템플 지음, 김준철 옮김/비아",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400745205&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400745205&rssType=1&type=item",
+      "event_at": "2026-08-21T07:59:00+00:00",
+      "isbn": "400745205",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
+      "venue": "강연",
+      "award_name": "",
       "genre": [
         "시",
-        "과학",
         "역사",
-        "예술",
-        "컴퓨터"
+        "종교"
       ],
       "publisher": [],
-      "book_type": [],
-      "author": [
-        "저자",
-        "번역"
+      "book_type": [
+        "신간"
       ],
-      "award": [
-        "선정"
+      "author": [],
+      "award": [],
+      "book_event": [
+        "강연"
       ],
-      "book_event": [],
       "source_signal": [
         "editorial_coverage",
         "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:400708539",
+      "canonical_key": "book_edition:400745205",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:a6cae184b1cf:20260821",
+      "event_key": "author_event:2b411b27deb8:20260821",
       "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
+        "author_name": false,
+        "venue": true,
         "source_url": true
       },
-      "required_field_gaps": []
+      "required_field_gaps": [
+        "author_name"
+      ]
     },
     {
       "source": "Publishers Weekly",
@@ -1671,10 +1673,10 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "You Won’t Get Free of It by Rachel Aviv review – a subtle study of the mother-daughter bond",
-      "url": "https://www.theguardian.com/books/2026/aug/11/you-wont-get-free-of-it-by-rachel-aviv-review-a-subtle-study-of-the-mother-daughter-bond",
-      "source_url": "https://www.theguardian.com/books/2026/aug/11/you-wont-get-free-of-it-by-rachel-aviv-review-a-subtle-study-of-the-mother-daughter-bond",
-      "event_at": "2026-08-11T08:00:07+00:00",
+      "title": "The Rise and Fall of the Artificial State by Jill Lepore review – an ominous warning of tech takeover",
+      "url": "https://www.theguardian.com/books/2026/aug/19/the-rise-and-fall-of-the-artificial-state-by-jill-lepore-review-an-ominous-warning-of-tech-takeover",
+      "source_url": "https://www.theguardian.com/books/2026/aug/19/the-rise-and-fall-of-the-artificial-state-by-jill-lepore-review-an-ominous-warning-of-tech-takeover",
+      "event_at": "2026-08-19T08:00:09+00:00",
       "isbn": "",
       "rank": null,
       "retailer": "",
@@ -1682,7 +1684,9 @@
       "lending_count": null,
       "venue": "",
       "award_name": "pulitzer",
-      "genre": [],
+      "genre": [
+        "fantasy"
+      ],
       "publisher": [],
       "book_type": [],
       "author": [],
@@ -1694,9 +1698,9 @@
         "book_review_source",
         "editorial_coverage"
       ],
-      "canonical_key": "book_source:the-guardian-books:7d2b4cbfff9d",
+      "canonical_key": "book_source:the-guardian-books:e68d2bb7690f",
       "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:b505993b962c:20260811",
+      "event_key": "award_signal:813e719b1920:20260819",
       "required_field_proxy": {
         "isbn": false,
         "award_name": true,
@@ -1711,9 +1715,9 @@
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Ways of Connecting: On Writing That Marries the Psychological, the Personal and the Political",
-      "canonical_key": "book_source:literary-hub:b22dfe346bfd",
+      "source": "The Guardian Books",
+      "title": "The Disappearers by Marlon James review – a scorching exposé of homophobia in Jamaica",
+      "canonical_key": "book_source:the-guardian-books:86dd737d3bcb",
       "required_field_gaps": [
         "isbn"
       ]
@@ -1721,16 +1725,26 @@
     {
       "reason": "proxy_canonical_key",
       "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Ways of Connecting: On Writing That Marries the Psychological, the Personal and the Political",
+      "source": "The Guardian Books",
+      "title": "The Disappearers by Marlon James review – a scorching exposé of homophobia in Jamaica",
       "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "알라딘 신간",
+      "title": "그리스도인의 신앙과 삶/윌리엄 템플 지음, 김준철 옮김/비아",
+      "canonical_key": "book_edition:400745205",
+      "required_field_gaps": [
+        "author_name"
+      ]
     },
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
       "source": "The Guardian Books",
-      "title": "You Won’t Get Free of It by Rachel Aviv review – a subtle study of the mother-daughter bond",
-      "canonical_key": "book_source:the-guardian-books:7d2b4cbfff9d",
+      "title": "The Rise and Fall of the Artificial State by Jill Lepore review – an ominous warning of tech takeover",
+      "canonical_key": "book_source:the-guardian-books:e68d2bb7690f",
       "required_field_gaps": [
         "isbn"
       ]
@@ -1739,7 +1753,7 @@
       "reason": "proxy_canonical_key",
       "event_model": "award_signal",
       "source": "The Guardian Books",
-      "title": "You Won’t Get Free of It by Rachel Aviv review – a subtle study of the mother-daughter bond",
+      "title": "The Rise and Fall of the Artificial State by Jill Lepore review – an ominous warning of tech takeover",
       "canonical_key_status": "source_proxy"
     },
     {
