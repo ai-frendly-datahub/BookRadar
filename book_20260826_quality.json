@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-08-25T02:18:39.756898+00:00",
+  "generated_at": "2026-08-26T02:25:26.935673+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,24 +16,24 @@
     "collection_error_count": 0,
     "sales_ranking_events": 14,
     "library_lending_events": 0,
-    "author_event_events": 2,
-    "award_signal_events": 4,
-    "book_signal_event_count": 20,
-    "official_or_operational_event_count": 16,
+    "author_event_events": 1,
+    "award_signal_events": 8,
+    "book_signal_event_count": 23,
+    "official_or_operational_event_count": 17,
     "community_proxy_event_count": 0,
     "complete_canonical_key_count": 18,
-    "proxy_canonical_key_count": 2,
+    "proxy_canonical_key_count": 5,
     "missing_canonical_key_count": 0,
     "isbn_present_count": 18,
     "author_present_count": 7,
-    "publisher_present_count": 5,
+    "publisher_present_count": 7,
     "rank_present_count": 15,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 3,
+    "event_required_field_gap_count": 5,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 10
+    "daily_review_item_count": 15
   },
   "sources": [
     {
@@ -75,7 +75,7 @@
       "article_count": 14,
       "event_count": 14,
       "latest_event_at": "2026-08-23T22:00:03+00:00",
-      "age_days": 1.18,
+      "age_days": 2.18,
       "latest_title": "14위 스킵과 로퍼 12",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400652795&radar_rank=14&radar_ranking_date=20260823220003&rssType=5&type=item",
       "latest_source_signal": [
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 23,
+      "article_count": 24,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -782,6 +782,196 @@
   ],
   "events": [
     {
+      "source": "Book Riot",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "The 2026 Kirkus Prize Finalists Have Been Announced",
+      "url": "https://bookriot.com/2026-kirkus-prize-finalists",
+      "source_url": "https://bookriot.com/2026-kirkus-prize-finalists",
+      "event_at": "2026-08-25T17:53:16+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:book-riot:80b5e223e1d0",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:3cc716023575:20260825",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Book Riot",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Book Riot’s Deals of the Day for August 25, 2026",
+      "url": "https://bookriot.com/book-riots-deals-of-the-day-for-august-25-2026",
+      "source_url": "https://bookriot.com/book-riots-deals-of-the-day-for-august-25-2026",
+      "event_at": "2026-08-25T14:23:58+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "pulitzer",
+      "genre": [
+        "fiction",
+        "literary",
+        "fantasy",
+        "romance"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "pulitzer"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:book-riot:a2c5769f63c2",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:a2682233bbff:20260825",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Triage by Claudia Rankine review – how should we respond to the world’s atrocities?",
+      "url": "https://www.theguardian.com/books/2026/aug/25/triage-by-claudia-rankine-review-how-should-we-respond-to-the-worlds-atrocities",
+      "source_url": "https://www.theguardian.com/books/2026/aug/25/triage-by-claudia-rankine-review-how-should-we-respond-to-the-worlds-atrocities",
+      "event_at": "2026-08-25T08:00:51+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [
+        "fiction",
+        "memoir"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:the-guardian-books:970c0625dd14",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:4ee93872507d:20260825",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "실전 AX 리포트/박주혜.오현식.공득조 지음/한빛미디어",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400882747&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400882747&rssType=1&type=item",
+      "event_at": "2026-08-24T06:49:00+00:00",
+      "isbn": "400882747",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "시",
+        "경제경영",
+        "교육",
+        "컴퓨터"
+      ],
+      "publisher": [
+        "한빛미디어"
+      ],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:400882747",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:c9423260dddc:20260824",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -827,6 +1017,57 @@
       "required_field_gaps": [
         "isbn"
       ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "야광 코딱지 4 : 혼자라고 생각하지 말 것/도대체 지음, 심보영 그림/위즈덤하우스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400866660&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400866660&rssType=1&type=item",
+      "event_at": "2026-08-24T02:51:00+00:00",
+      "isbn": "400866660",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "어린이",
+        "동화"
+      ],
+      "publisher": [
+        "위즈덤하우스"
+      ],
+      "book_type": [
+        "시리즈"
+      ],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:400866660",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:2a52777ec6e6:20260824",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "알라딘 베스트셀러",
@@ -1572,99 +1813,6 @@
       "required_field_gaps": []
     },
     {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "그리스도인의 신앙과 삶/윌리엄 템플 지음, 김준철 옮김/비아",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400745205&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400745205&rssType=1&type=item",
-      "event_at": "2026-08-21T07:59:00+00:00",
-      "isbn": "400745205",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "강연",
-      "award_name": "",
-      "genre": [
-        "시",
-        "역사",
-        "종교"
-      ],
-      "publisher": [],
-      "book_type": [
-        "신간"
-      ],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "강연"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:400745205",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:2b411b27deb8:20260821",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "source": "Publishers Weekly",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "WNBA Relaunches Pannell Award for 2026",
-      "url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101085-wnba-relaunches-pannell-award-for-2026.html",
-      "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101085-wnba-relaunches-pannell-award-for-2026.html",
-      "event_at": "2026-08-20T04:00:00+00:00",
-      "isbn": "101085",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "award",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "award"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:101085",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:a0f7180ebacf:20260820",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -1715,6 +1863,57 @@
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "The 2026 Kirkus Prize Finalists Have Been Announced",
+      "canonical_key": "book_source:book-riot:80b5e223e1d0",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "The 2026 Kirkus Prize Finalists Have Been Announced",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "Book Riot’s Deals of the Day for August 25, 2026",
+      "canonical_key": "book_source:book-riot:a2c5769f63c2",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "Book Riot’s Deals of the Day for August 25, 2026",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Triage by Claudia Rankine review – how should we respond to the world’s atrocities?",
+      "canonical_key": "book_source:the-guardian-books:970c0625dd14",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Triage by Claudia Rankine review – how should we respond to the world’s atrocities?",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
       "source": "The Guardian Books",
       "title": "The Disappearers by Marlon James review – a scorching exposé of homophobia in Jamaica",
       "canonical_key": "book_source:the-guardian-books:86dd737d3bcb",
@@ -1728,16 +1927,6 @@
       "source": "The Guardian Books",
       "title": "The Disappearers by Marlon James review – a scorching exposé of homophobia in Jamaica",
       "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "알라딘 신간",
-      "title": "그리스도인의 신앙과 삶/윌리엄 템플 지음, 김준철 옮김/비아",
-      "canonical_key": "book_edition:400745205",
-      "required_field_gaps": [
-        "author_name"
-      ]
     },
     {
       "reason": "missing_required_fields",
