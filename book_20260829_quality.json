@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-08-28T12:33:52.142876+00:00",
+  "generated_at": "2026-08-29T07:42:48.222652+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,17 +16,17 @@
     "collection_error_count": 0,
     "sales_ranking_events": 14,
     "library_lending_events": 0,
-    "author_event_events": 1,
-    "award_signal_events": 3,
-    "book_signal_event_count": 18,
-    "official_or_operational_event_count": 16,
+    "author_event_events": 3,
+    "award_signal_events": 6,
+    "book_signal_event_count": 23,
+    "official_or_operational_event_count": 21,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 16,
+    "complete_canonical_key_count": 21,
     "proxy_canonical_key_count": 2,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 16,
-    "author_present_count": 7,
-    "publisher_present_count": 5,
+    "isbn_present_count": 21,
+    "author_present_count": 11,
+    "publisher_present_count": 8,
     "rank_present_count": 15,
     "lending_count_present_count": 0,
     "event_required_field_gap_count": 2,
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 27,
+      "article_count": 29,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 14,
       "event_count": 14,
       "latest_event_at": "2026-08-23T22:00:03+00:00",
-      "age_days": 4.61,
+      "age_days": 5.4,
       "latest_title": "14위 스킵과 로퍼 12",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=400652795&radar_rank=14&radar_ranking_date=20260823220003&rssType=5&type=item",
       "latest_source_signal": [
@@ -836,11 +836,68 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "처마 밑 도피자들/리러하 지음/팩토리나인",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401003317&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401003317&rssType=1&type=item",
-      "event_at": "2026-08-26T05:19:00+00:00",
-      "isbn": "401003317",
+      "title": "대부호/성혜령 지음/문학동네",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401063790&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401063790&rssType=1&type=item",
+      "event_at": "2026-08-27T05:27:00+00:00",
+      "isbn": "401063790",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "이상문학상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학"
+      ],
+      "publisher": [
+        "창비",
+        "문학동네",
+        "문학과지성사"
+      ],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "이상문학상",
+        "수상",
+        "문학상",
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:401063790",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:c331a44042fb:20260827",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "월요일은 특별해!/자샤르 아완 지음, 김지은 옮김/키즈아이콘(아이코닉스)",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401062678&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401062678&rssType=1&type=item",
+      "event_at": "2026-08-27T05:14:00+00:00",
+      "isbn": "401062678",
       "rank": null,
       "retailer": "",
       "library_network": "",
@@ -848,20 +905,16 @@
       "venue": "",
       "award_name": "수상",
       "genre": [
-        "소설",
         "시",
-        "희곡",
-        "문학",
-        "판타지",
-        "추리"
+        "어린이",
+        "그림책"
       ],
       "publisher": [],
       "book_type": [
-        "신간"
+        "화제의 책",
+        "세트"
       ],
-      "author": [
-        "작가"
-      ],
+      "author": [],
       "award": [
         "수상"
       ],
@@ -871,12 +924,239 @@
         "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:401003317",
+      "canonical_key": "book_edition:401062678",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:ab1ac4f7babc:20260826",
+      "event_key": "award_signal:8f03b3e92ef8:20260827",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "신발 끈 매기/자샤르 아완 지음, 김지은 옮김/키즈아이콘(아이코닉스)",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401060756&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401060756&rssType=1&type=item",
+      "event_at": "2026-08-27T04:47:00+00:00",
+      "isbn": "401060756",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "어린이",
+        "그림책"
+      ],
+      "publisher": [],
+      "book_type": [
+        "화제의 책",
+        "세트"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상",
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:401060756",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:b381d41a5acf:20260827",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "창비어린이 2026.가을/창비어린이 편집부 지음/창비",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401045634&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401045634&rssType=1&type=item",
+      "event_at": "2026-08-27T01:10:00+00:00",
+      "isbn": "401045634",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "북클럽",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "문학",
+        "예술",
+        "교육",
+        "만화",
+        "어린이",
+        "청소년",
+        "그림책",
+        "동화"
+      ],
+      "publisher": [
+        "창비"
+      ],
+      "book_type": [],
+      "author": [
+        "작가",
+        "번역"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [
+        "북클럽"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:401045634",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:c5a1eb3b0b40:20260827",
+      "required_field_proxy": {
+        "author_name": true,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "창비어린이 2026.가을/창비어린이 편집부 지음/창비",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401045634&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401045634&rssType=1&type=item",
+      "event_at": "2026-08-27T01:10:00+00:00",
+      "isbn": "401045634",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "북클럽",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "문학",
+        "예술",
+        "교육",
+        "만화",
+        "어린이",
+        "청소년",
+        "그림책",
+        "동화"
+      ],
+      "publisher": [
+        "창비"
+      ],
+      "book_type": [],
+      "author": [
+        "작가",
+        "번역"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [
+        "북클럽"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:401045634",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:c5a1eb3b0b40:20260827",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "한바다의 아이스버킷 챌린지/전현정 지음, 송수혜 그림, 임현구 감수/파란자전거",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401044904&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401044904&rssType=1&type=item",
+      "event_at": "2026-08-27T00:54:00+00:00",
+      "isbn": "401044904",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "강연",
+      "award_name": "",
+      "genre": [
+        "시",
+        "개발",
+        "어린이",
+        "그림책"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [],
+      "book_event": [
+        "강연"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:401044904",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:64de7e05828d:20260827",
+      "required_field_proxy": {
+        "author_name": true,
+        "venue": true,
         "source_url": true
       },
       "required_field_gaps": []
