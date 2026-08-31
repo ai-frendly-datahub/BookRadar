@@ -1,51 +1,258 @@
 {
-  "date": "2026-08-30",
+  "date": "2026-08-31",
   "category": "book",
-  "article_count": 143,
+  "article_count": 144,
   "source_count": 8,
-  "matched_count": 143,
+  "matched_count": 144,
   "top_entities": [
     {
       "name": "SourceSignal",
-      "count": 311
+      "count": 313
     },
     {
       "name": "Genre",
-      "count": 191
+      "count": 194
+    },
+    {
+      "name": "Author",
+      "count": 44
     },
     {
       "name": "BookType",
       "count": 43
     },
     {
-      "name": "Author",
-      "count": 40
+      "name": "Award",
+      "count": 15
     },
     {
       "name": "Publisher",
       "count": 13
     },
     {
-      "name": "Award",
-      "count": 8
-    },
-    {
       "name": "BookEvent",
-      "count": 4
+      "count": 2
     }
   ],
   "sources": {
+    "The Guardian Books": 23,
+    "New York Times Books": 21,
+    "알라딘 베스트셀러": 15,
     "Book Riot": 10,
     "Literary Hub": 10,
-    "New York Times Books": 21,
-    "The Guardian Books": 23,
     "알라딘 신간": 25,
     "Publishers Weekly": 30,
-    "NPR Books": 10,
-    "알라딘 베스트셀러": 14
+    "NPR Books": 10
   },
-  "generated_at": "2026-08-30T15:18:48.141505+09:00",
+  "generated_at": "2026-08-31T15:45:55.681223+09:00",
   "articles": [
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Switzy by Emma Cline review – this Booker-listed account of a man’s last days is profoundly moving",
+        "source_url": "https://www.theguardian.com/books/2026/aug/31/switzy-by-emma-cline-review-this-booker-listed-account-of-a-mans-last-days-is-profoundly-moving",
+        "published_at": "2026-08-31T06:00:17+00:00",
+        "summary": "<p>Struggling with Alzheimer’s, the central character sets out on his final journey to a euthanasia clinic</p><p>The word “Alzheimer’s” never appears in Switzy, Emma Cline’s third novel, which arrives pre-endorsed as a Booker prize longlistee. But we can be certain that it is the disease afflicting its central character, David Hastings – certain in a way he finds it increasingly hard to be about anything.</p><p>When the novel begins, David and his assistant Cody are aboard a private jet flying from his home in the US to the UK. Landing at London City airport (which the book, experiencing its own senior moment, situates in the countryside), they visit David’s daughter and her family before travelling on to Zurich (hence “Switzy”). One more appointment, a catchup with an old boarding school roommate called Tom, awaits just over the French border, after which David will be euthanised at a facility resembling Dignitas.</p> <a href=\"https://www.theguardian.com/books/2026/aug/31/switzy-by-emma-cline-review-this-booker-listed-account-of-a-mans-last-days-is-profoundly-moving\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Did the Zodiac Kill the Black Dahlia? This Crime Writer Thinks So.",
+        "source_url": "https://www.nytimes.com/2026/08/26/arts/michael-connelly-black-dahlia-zodiac-podcast.html",
+        "published_at": "2026-08-31T03:11:19+00:00",
+        "summary": "The novelist Michael Connelly knows he is putting his reputation on the line with the podcast “Killer in the Code.” But despite critics’ skepticism, he finds the evidence “completely convincing.”"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "2위 싯다르타",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=329596&radar_rank=2&radar_ranking_date=20260830220028",
+        "published_at": "2026-08-30T22:00:28+00:00",
+        "summary": "싯다르타 헤르만 헤세 지음, 박병덕 옮김 / 민음사 / 2002년 01월 / ISBN: 9788937460586 정가: 8,000 원 / 판매가: 7,200 원 / 마일리지: 400 원 이벤트 : SNS 화제의 책 + 알라딘 굿즈 (이벤트 도서 포함, 국내도서 3만원 이상) 헤세가 거의 일 년 반 동안 창작이 거의 불가능할 정도로 심한 우울증을 앓다가 정신 치료를 받은 후 발표한 작품이다. 동서양의 정신적 유산을 시적으로 승화한 일종의 종교적 성장소설로 볼 수 있는데 영원을 향한 갈망과 인간의 내면을 깊이 파고드는 초월에 대한 의지를 단순하고도 서정적인 문체로 담아냈다. 정형화된 종교 교리와 자족적인 영혼의 성찰 사이의 고뇌를 섬세하게 그리며 자아 발견을 위한 길이 하나로 정해져 있지 않음을 시사하고 철학이나 종교, 그 밖의 모든 신념에 맹목적으로 의지하고자 하는 고정관념에 도전한 작품이다. 마이리뷰(0) 평점: | Sales Point : 315,060 [마이리뷰] 싯다르타 - RadioHat 싯다르타는 부처인가 아닌가 [외국소설-싯다르타] - 바람개비 싯다르타. 내 삶에서 - pleasetrust800604 삶의 깨달음을 찾아가는 여정 <싯다르타> - 우끼끼양 싯다르타 - miseong.books"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "1위 세네카, 오늘을 빼앗기고 있는 당신에게",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=396404956&radar_rank=1&radar_ranking_date=20260830220028",
+        "published_at": "2026-08-30T22:00:28+00:00",
+        "summary": "세네카, 오늘을 빼앗기고 있는 당신에게 루키우스 안나이우스 세네카 지음, 하와이 대저택 편역 / 논픽션 / 2026년 07월 / ISBN: 9791199489561 정가: 18,000 원 / 판매가: 16,200 원 / 마일리지: 900 원 이벤트 : 화제의 책 + 알라딘 굿즈 (이벤트 도서 포함, 국내도서 3만원 이상) 『세네카, 오늘을 빼앗기고 있는 당신에게』는 로마 제정기의 스토아 철학자 세네카의 대화편 다섯 편에서 핵심 사유를 선별해 55편의 짧은 글로 재구성한 편역서다. 세네카는 네로 황제의 스승이자 고문으로 제국의 운명을 좌우하면서, 누구보다 바쁜 삶 한가운데에서 시간의 본질을 꿰뚫었다. \"삶은 짧지 않다. 우리가 짧게 만들 뿐이다.\" 그의 진단은 2000년이 지난 지금도 한 글자도 고칠 필요가 없다. 이 책은 시간에 쫓기며 살아가는 현대인에게 시간을 되찾는 것이 곧 자기 자신을 되찾는 것임을 일깨운다. 순서대로 읽어도 좋고 아무 페이지나 펼쳐 읽어도 좋은 55편의 글이, 바쁘게 낭비되는 하루를 정면으로 겨냥한다. 마이리뷰(0) 평점: | Sales Point : 248,625 처음 쓰는 리뷰 - 월아책방 내 시간의 점검표. - mieun0418 천천히 곱씹으며 읽기 좋은 책, 『Life is not short』 - judyorient 세네카를 곁에 둔 위인들처럼 나에게도 한줄기 깨달음이 내렸으면 좋겠다 - 덤플링 세네카, 오늘을 빼앗기고 있는 당신에게 - jmaria05"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "13위 오디세이아 (국내 유일 명화 104점 수록 완역본)",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=362390080&radar_rank=13&radar_ranking_date=20260830220028",
+        "published_at": "2026-08-30T22:00:28+00:00",
+        "summary": "오디세이아 (국내 유일 명화 104점 수록 완역본) 호메로스 지음, 페테르 파울 루벤스 외 그림, 박문재 옮김 / 현대지성 / 2025년 04월 / ISBN: 9791139721973 정가: 27,000 원 / 판매가: 24,300 원 / 마일리지: 1,350 원 이벤트 : The odyssey + 아르고스 아크릴 디오라마(대상도서 포함 국내도서 3만 5천 원 이상) 트로이아 전쟁의 영웅 오디세우스는 전쟁에서 승리한 후 고향 이타카로 돌아가려 하지만, 그의 여정은 결코 평탄치 않았다. 포세이돈의 분노, 신들의 장난, 인간의 오만과 약함은 그의 여정을 가로막고, 그는 무려 10년에 걸쳐 바다를 떠돌며 인간의 한계에 맞서 싸운다. 호메로스는 이 위대한 방랑을 통해 신과 인간이 얽힌 세계의 진실을 보여준다. 『오디세이아』는 ‘귀향’이라는 단순한 이야기 구조 속에 고대 그리스인의 세계관과 삶의 가치, 그리고 인간다운 삶의 의미를 농축시킨 작품이다. 외눈박이 거인 폴리페모스와의 대결, 마녀 키르케의 유혹, 바다의 요정 칼립소와의 시간, 바다의 신과 하늘의 신들의 끊임없는 개입 속에서 오디세우스는 단순한 영웅이 아니라, 인간의 약함과 강함을 동시에 지닌 존재로 그려진다. 현대지성 클래식의 완역본은 3,000년 전부터 구전으로 전해지던 이 서사시를, 오늘날의 독자가 온전히 음미할 수 있도록 섬세하고 충실하게 옮겼다. 104점의 명화와 이미지는 상상력을 자극하며 당시 상황과 영웅의 생애를 생생히 보여주고, 303개의 정밀한 각주와 해설은 고대 그리스의 지리, 신화, 문화적 맥락을 입체적으로 그려낸다. 특히 주요 인물과 사건의 계보, 시대적 배경까지 촘촘히 짚어내며, 단순한 독서를 넘어 깊은 통찰을 가능하게 한다. 마이리뷰(0) 평점: | Sales Point : 80,343 호메로스 오디세이아 책 줄거리 요약 영화원작 고전문학 - 지유 [마이리뷰] 오디세이아 (고대 그리스어 완역본) - vooc 삼천 년을 건너온 인간의 마음 - 장지원 [마이리뷰] 오디세이아 (고대 그리스어 완역본) - 제로북_서재 인류를 사로잡은 최고의 모험담. 세심한 번역과 아름다운 삽화와 함께. - 박칼럼"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "15위 오뒷세이아 (알라딘 리커버 특별판)",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=400990175&radar_rank=15&radar_ranking_date=20260830220028",
+        "published_at": "2026-08-30T22:00:28+00:00",
+        "summary": "오뒷세이아 (알라딘 리커버 특별판) 호메로스 지음, 천병희 옮김 / 도서출판 숲 / 2015년 09월 / ISBN: 9788991290150 정가: 33,000 원 / 판매가: 29,700 원 / 마일리지: 1,650 원 이벤트 : 본투리드 112탄 <오뒷세이아>, <일리아스> + 책표지 머그 3천 년의 시간을 건너온 고전의 품격을 오늘의 책으로 재현한 특별한 에디션이다. 호메로스의 장대한 세계에 어울리는 디자인으로 고전의 깊이와 아름다움을 담아냈으며, 국내 그리스어 원전 번역의 권위자인 천병희 교수가 평생에 걸쳐 다듬어온 번역본에 새로운 옷을 입혔다. 오랫동안 읽히며 검증받아온 번역과 고전에 걸맞는 품격을 담은 디자인이 만나, 소장하는 기쁨까지 더했다. 우리는 인생을 여행에 비유한다. 낯선 곳으로 떠나고, 길을 잃고, 다시 돌아오는 과정에서 삶의 의미를 발견한다. 인간이 자신의 삶을 여행에 비유하기 시작한 것은 언제부터였을까. 약 3천 년 전, 호메로스의 『오뒷세이아』가 처음 노래되었을 때부터다. 오늘날 ‘오디세이(Odyssey)’는 긴 여정과 모험을 뜻하는 말이 되었다. 트로이아전쟁을 마친 영웅 오뒷세우스는 고향 이타케로 돌아가기 위해 바다로 나선다. 그러나 퀴클롭스, 키르케, 세이렌, 스퀼라와 카륍디스, 신들의 분노와 폭풍이 그의 귀향을 가로막는다. 오뒷세우스는 수없이 길을 잃고 유혹을 받는다. 실패를 거듭하면서도 그는 끝내 고향으로 향하는 길을 포기하지 않는다. 오늘날 우리가 ‘오디세이’라고 부르는 모든 장대한 여정의 원형이 바로 이 이야기다. 마이리뷰(0) 평점: | Sales Point : 62,649 신 같은 인간, 인간 같은 신 - Youngwoong Kim 이야기는 나이 먹지 않아 - 아시마 영화를 기다리다, 원작에 먼저 빠졌다 - 아침명상 원형이 되는 고전들은 이런 거였어요. - 이수림 천병희 번역을 접해봤다는 만족감 - 실버북"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "11위 칵테일을 마시는 철학자들",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=399460405&radar_rank=11&radar_ranking_date=20260830220028",
+        "published_at": "2026-08-30T22:00:28+00:00",
+        "summary": "칵테일을 마시는 철학자들 사라 베이크웰 지음, 조영 옮김 / 다산초당 / 2026년 07월 / ISBN: 9791130682556 정가: 26,000 원 / 판매가: 23,400 원 / 마일리지: 1,300 원 이벤트 : 2026 가을 새학기의 지식교양 + 북파우치(대상도서 포함 국내도서 2만 5천원 이상) 생제르맹데프레 거리는 생각을 좋아하는 사람들이 모여 드는 곳이었다. 즐비한 카페 중 하나에 자리를 잡은 그들은 커피와 와인을 사이에 두고 끊임없이 읽고 쓰고, 토론했다. 자주 취했고, 재즈에 맞춰 몸을 흔들었으며 사랑에 빠졌다. 그러나 그들에게 생각은 가벼운 유흥도 차가운 관조도 아니었다. 인간의 존재 방식과 의미를 끊임없이 사유하고 삶으로 실험했던 그들에게 ‘실존주의자’라는 별명이 붙었다. 전미도서비평가협회상·더프 쿠퍼상 수상 작가 세라 베이크웰은 카뮈, 사르트르, 보부아르, 하이데거 등 이 탁월한 철학자들의 사유와 삶이 어떻게 서로를 빚어냈는지, 그리고 지금도 우리 인생의 가장 중요한 질문들에 응답하는지 흥미진진하게 펼쳐낸다. 전 세계의 인문독자들에게 사랑받는 이 걸작 논픽션은 국내에서는 수년 전 절판되어 애서가들을 안타깝게 했으며 중고가 16만 원을 넘기기도 했다. 이번 에디션은 번역을 세심하게 다듬고, 무엇보다 ‘재미있는’ 책이라는 이 책의 본령을 살려 새 옷을 입혔으며, 가격을 크게 낮추고 부피를 가볍게 했다. 몇 번을 펼쳐보아도 새로운 것을 발견할 명저를 서가에 들일 기회다. 마이리뷰(0) 평점: | Sales Point : 38,840 [재개정판의 심각한 편집 오류] 후주는 복원했지만, 본문과의 연결은 사라졌다 - dyadic1 사족처럼 보이지만 그게 핵심이야 - allestelle"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "9위 응답의 시 (표지 3종 중 랜덤)",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=399848251&radar_rank=9&radar_ranking_date=20260830220028",
+        "published_at": "2026-08-30T22:00:28+00:00",
+        "summary": "응답의 시 (표지 3종 중 랜덤) 김혜순 외 지음 / 얼굴들 / 2026년 08월 / ISBN: 9791199669093 정가: 16,700 원 / 판매가: 15,030 원 / 마일리지: 830 원 이벤트 : 화제의 책 + 알라딘 굿즈 (이벤트 도서 포함, 국내도서 3만원 이상) 시 쓰는 47인이 팔레스타인을 위한, 팔레스타인을 향한 ‘응답’으로서 쓴 시들을 모았다. 제목은 『응답의 시』. 김혜순 나희덕 김소연 김숨 신해욱 진은영부터 계미현 한영원 이새해 맹재범 이실비 이혜목 해초까지, 오랜 시간 많은 작품을 발표해 온 한국의 대표 시인들부터 문단이라는 테두리만으로 포괄되지 않는 안팎의 시인들까지, 쉽게 쓰이지 않는 시, 오직 팔레스타인을 위해, 팔레스타인을 향해 쓴 신작 시들을 모았다."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "5위 찌니주의보",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=400137507&radar_rank=5&radar_ranking_date=20260830220028",
+        "published_at": "2026-08-30T22:00:28+00:00",
+        "summary": "찌니주의보 정지아 지음 / 창비 / 2026년 08월 / ISBN: 9788936439996 정가: 16,800 원 / 판매가: 15,120 원 / 마일리지: 840 원 이벤트 : 정지아 장편소설 <찌니주의보> 멜라민 트레이 (국내도서 2만원 이상) 한국현대사의 굵은 상흔을 남도의 구수한 입말과 뜨거운 인간애로 풀어내며 40만 독자의 마음을 사로잡은 『아버지의 해방일지』(창비 2022). 그 신드롬의 주인공 정지아가 4년 만의 신작 장편소설 『찌니주의보』로 돌아왔다. 전작에서 이념과 역사의 비극을 눈물겨운 해학으로 승화시키며 독보적인 이야기꾼으로 자리매김한 그가 이번에 펼쳐 보이는 무대는 평균 연령 일흔여덟살의 산골 ‘수평마을’이다. 『아버지의 해방일지』가 아버지의 장례식을 통해 역사와 이념 너머 한 인간의 전모를 발견하는 소설이었다면, 『찌니주의보』는 낯선 이웃과 밥을 나누며 정체성과 편견 너머 사람을 다시 바라보는 이야기다. 전작이 거침없는 웃음 뒤에 묵직한 슬픔을 남겼다면, 이번 작품은 좀더 빠르고 경쾌한 소동 속에서 더 풍성한 감정의 파고를 만들어낸다. 이성애자와 성소수자, 토박이와 귀촌인, 한국인과 이주여성, 도시의 젊은이와 농촌의 노인들…… 살아온 시간도 사랑의 방식도 전혀 다른 이들이 한마을에 모여 흉을 보고 싸우고 밥을 먹이며 어느새 이웃이 되어가는 과정이 생생하게 펄떡인다. 정지아 특유의 천연덕스러운 유머는 한층 능청스러워졌고, 인간의 모순과 상처를 헤아리는 다정한 시선은 더욱 섬세해졌다. 익숙한 마을의 정서와 오늘의 첨예한 문제를 한데 품은 이 소설은 전작의 팬부터 처음 정지아를 만나는 독자까지, 세대와 취향 차이를 넘어 한자리에서 웃게 하는 힘을 지녔다. 마이리뷰(0) 평점: | Sales Point : 94,700 찌니주의보 - 연리지 밥은 자셨소 - mymadana 정지아『찌니주의보』리뷰 - 낮달 [마이리뷰] 찌니주의보 - 제로북_서재 고달파도 산다 - 찐빵"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "7위 어제의 세계",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=398750859&radar_rank=7&radar_ranking_date=20260830220028",
+        "published_at": "2026-08-30T22:00:28+00:00",
+        "summary": "어제의 세계 슈테판 츠바이크 지음, 이노은 옮김 / 다산초당 / 2026년 08월 / ISBN: 9791130682709 정가: 33,000 원 / 판매가: 29,700 원 / 마일리지: 1,650 원 이벤트 : 화제의 책 + 알라딘 굿즈 (이벤트 도서 포함, 국내도서 3만원 이상) 인문과 고전을 사랑하는 독자라면 책장에 꽂아둬야 할 고전 『어제의 세계』가 30여 년 만의 새로운 번역으로 찾아왔다. 1995년 곽복록 교수의 번역판이 출간된 이후, 인천대학교 독어독문학과 이노은 교수가 원문을 새롭게 완역했다. 슈테판 츠바이크의 책 중에서도 가장 널리 사랑받고 찬사받는 『어제의 세계』는 그가 평생 남긴 유일한 회고록이다. 회고의 대상은 그의 유년 시절부터 제1차 세계대전, 그리고 다시 제2차 세계대전을 목도하고 있던 순간까지로, 즉 이 책은 20세기 초 이성과 진보에 대한 믿음이 그 어느 때보다 굳건했던 순간과, 그 모든 것이 두 차례의 세계대전으로 산산조각 나는 과정을 한 생애 안에서 모두 목격한 한 인간의 증언이다. 츠바이크는 이 책의 출간도, 세계대전의 끝도 보지 못한 채 생을 마감했다. 그럼에도 그가 마지막으로 남긴 기록에는 가장 혼란스러운 시대를 통과하고도 끝내 잃지 않았던 삶과 일상을 향한 사랑, 인간에 대한 신뢰가 담겨 있었다. 『어제의 세계』는 개인사와 인류 역사가 밀도 있게 맞물린 기록이자, 한 인간이 한 시대에 대해 남긴 증언이다. 우리가 놓쳐온 20세기 최고의 고전을 다시 새로운 얼굴로 만난다. 마이리뷰(0) 평점: | Sales Point : 17,490 츠바이크의 회고록 - mystery"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "8위 절창 (20만 부 기념 화이트 에디션)",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=401104412&radar_rank=8&radar_ranking_date=20260830220028",
+        "published_at": "2026-08-30T22:00:28+00:00",
+        "summary": "절창 (20만 부 기념 화이트 에디션) 구병모 지음 / 문학동네 / 2025년 09월 / ISBN: 9791141602451 정가: 18,000 원 / 판매가: 16,200 원 / 마일리지: 900 원 이벤트 : <절창 (20만 부 기념 화이트 에디션)> + 딸기무늬 패브릭 책갈피 출간 1년이 가까워지도록 『절창』을 향한 관심과 사랑은 처음처럼 뜨겁다. 먼저 읽은 독자들의 끊임없는 간증부터 연예인들의 잇따른 인증까지, 우리는 여전히 『절창』의 후유증 속에 살고 있는 듯하다. 이에 출간 1주년과 20만 부 돌파를 기념하고자 ‘화이트 에디션’을 출간한다. ‘블랙 에디션’이 ‘오언’을 상징하는 키 컬러와 디자인이었다면, 이번 ‘화이트 에디션’은 『절창』의 독보적인 히로인 ‘아가씨’를 연상케 하는 컬러와 모티프로 제작되었다. 뒤표지는 ‘오언’과 ‘아가씨’의 숨막히는 한순간을 포착한 대화를 인용하는 동시에, ‘읽기’의 불가능성을 새롭게 형상화했다. 이번 특별판이 기존의 팬에게는 새로운 여운을 수놓는 기회가 되기를, 아직 『절창』을 만나보지 못한 독자에게는 곧 새겨질 상흔에 대비하여 쥐여진 부드러운 손수건 같은 선물이 되기를 기원한다. 마이리뷰(0) 평점: | Sales Point : 145,690 사랑함 그냥 - sgong733 절창 - 좋은이웃 읽는다는 것 - 에디터D 읽은 것을 믿지 마라 : 절창 - 구병모 - 키치 오독의 끝에 도달하는 마음 - 바람돌이"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "12위 타이거! 타이거!",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=399071388&radar_rank=12&radar_ranking_date=20260830220028",
+        "published_at": "2026-08-30T22:00:28+00:00",
+        "summary": "타이거! 타이거! 앨프리드 베스터 지음, 해도연 옮김, 듀나 해설 / 다산책방 / 2026년 08월 / ISBN: 9791130682440 정가: 19,800 원 / 판매가: 17,820 원 / 마일리지: 990 원 이벤트 : 화제의 책 + 알라딘 굿즈 (이벤트 도서 포함, 국내도서 3만원 이상) 아이작 아시모프·윌리엄 깁슨·칼 세이건·스티븐 킹 등 수많은 SF 거장에게 영감을 준 ‘거장들의 거장’ 앨프리드 베스터의 대표작 『타이거! 타이거!』가 20여 년 만에 복간되어 독자들을 만난다. 오랜 시간 다시 만나기를 기다려온 SF 팬들에게 더없이 반가운 전설의 귀환이다. DC 코믹스의 작가로 〈슈퍼맨〉과 〈배트맨〉을 집필하고 만화와 라디오, 텔레비전 등 다양한 매체를 넘나들며 활약한 베스터는 대표작 『타이거! 타이거!』에서 자신의 상상력을 거침없이 폭발시킨다. 순간이동 능력 ‘존트’, 거대 기업이 지배하는 미래 사회와 신체 개조, 얼굴에 호랑이의 흔적을 품은 채 복수에 사로잡혀 질주하는 다크 히어로, 여기에 블랙 유머와 서커스를 방불케 하는 기상천외한 사건을 쉴 새 없이 펼쳐놓으며 훗날 현대 SF가 끊임없이 변주하게 될 상상력을 집약했다. 특히 활자 실험으로 크기와 배열까지 서사의 일부로 활용한 파격적인 타이포그래피는 독자의 감각을 뒤흔들며 ‘읽는 소설’을 ‘감각하는 소설’로 확장하는 독보적인 경험을 선사한다. 이번 복간에는 SF 장르에 대한 깊은 이해를 갖춘 작가이자 번역가 해도연의 새로운 번역과 SF 작가이자 평론가 듀나의 깊이 있는 해설이 더해져 특별함을 더했다. 오랫동안 이 작품의 귀환을 기다려온 독자에게는 반가운 재회가, 처음 만나는 독자에게는 현대 SF의 기원과 베스터의 독창성을 새롭게 발견하는 기회가 될 것이다. 마이리뷰(0) 평점: | Sales Point : 11,790 타이거! 타이거! - 로비"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "3위 그랬다고 적었다",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=400193697&radar_rank=3&radar_ranking_date=20260830220028",
+        "published_at": "2026-08-30T22:00:28+00:00",
+        "summary": "그랬다고 적었다 김애란 지음 / 문학동네 / 2026년 08월 / ISBN: 9791141618575 정가: 17,000 원 / 판매가: 15,300 원 / 마일리지: 850 원 이벤트 : 아크릴 참 키링 (대상 도서 포함 국내도서 2만 원 이상 구매 시) 소설가 김애란이 새 책과 함께 여름 인사를 건넨다. 최근 장편소설 『이중 하나는 거짓말』(2024)과 소설집 『안녕이라 그랬어』(2025)를 펴내며 허구의 세계 안에서 지금 한국사회의 풍경을 세밀하게 그리는 데 집중해온 작가가 이번에 새 이야기를 담아낸 그릇은 소설이 아니라 산문이다. 소설 속 화자가 아니라 작가 자신의 목소리가 나직하게 울려퍼지는 바로 그 장르를 통해 우리는 우리가 오랫동안 사랑해온 작품을 써낸 작가 김애란의 생생한 다면(多面)과 만난다. 그 면면은 생활인이자 창작자, 사회인의 모습으로 이루어져 있다. 생활인으로서 김애란은 제주도의 너른 쉼터를 뛰어다니는 강아지를 바라보며 대도시에서와 다른 초록의 풍경을 눈에 담기도 하고, 오랜 시간 오해했던 누군가의 면모를 새롭게 발견하기도 한다. 창작자로서 인공지능 챗봇 챗지피티의 등장을 지켜보며 인간이라는 존재 자체를 성찰하기도 하고, 사회인으로서 우리 모두가 함께 겪은 코로나 시기를 돌아보며 진정한 자립과 타인의 의미를 되새기기도 한다. 이 면면은 엄밀히 구분되기보다 서로 섞이고 간섭하며 영향을 주고받는다. 그 바탕에는 공통적으로 몸과 마음의 한계를 지닌 사람으로서의 스스로를 인정하는 겸허하고 유연한 태도가 깔려 있다. 마이리뷰(0) 평점: | Sales Point : 122,340 그랬다고 적었다 - yhson11 [마이리뷰] 그랬다고 적었다 - JYOH"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "10위 수족관",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=330811810&radar_rank=10&radar_ranking_date=20260830220028",
+        "published_at": "2026-08-30T22:00:28+00:00",
+        "summary": "수족관 유래혁 지음 / 포스터샵 / 2023년 12월 / ISBN: 9791198547514 정가: 17,700 원 / 판매가: 15,930 원 / 마일리지: 880 원 이벤트 : 유래혁 <수족관> 성률 일러스트 투명 책갈피 (소설 2만원 이상) 유래혁 소설. 보육 시설에서 자라난 인물 ‘류이치’가, 먼저 보육 시설에서 도망쳐나온 인물 ‘아카리’를 만나 겪게 되는 일들을 그려낸다. 이 두 인물은 자신들이 가진 뿌리 깊은 과거와 상처, 그 이야기가 만들어낸 수족관에서 만나 입을 맞추고, 서로의 숨을 훔쳐가면서도 언젠가 오키나와의 너른 바다에 도착하는 꿈을 나눈다. 이 둘은 수족관을 벗어나 눈부신 햇살 아래 들려오는 파도 소리를 들을 수 있을까. 마이리뷰(0) 평점: | Sales Point : 149,724 부서진 마음에 건네는 우산, <수족관>(유래혁) - 프리즘 [마이리뷰] 수족관 - 89700326 헉생이 쓴 팬픽 읽는 느낌.. - Collins_swag [마이리뷰] 수족관 - JYOH 💙<<수족관 _ 유래혁 장편소설>>💙 - 윤딩"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "4위 오뒷세이아",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=399401298&radar_rank=4&radar_ranking_date=20260830220028",
+        "published_at": "2026-08-30T22:00:28+00:00",
+        "summary": "오뒷세이아 호메로스 지음, 김헌 옮김 / 을유문화사 / 2026년 08월 / ISBN: 9788932476469 정가: 25,000 원 / 판매가: 22,500 원 / 마일리지: 1,250 원 이벤트 : 2026 가을 새학기의 지식교양 + 북파우치(대상도서 포함 국내도서 2만 5천원 이상) 『오뒷세이아』는 ‘오뒷세우스의 노래’라는 뜻이다. 그러나 제목이 적나라하게 보여 주는 것과는 달리, 이 작품은 그의 이름을 꼭꼭 숨기며 시작한다. 신들이 그의 귀향을 결정했다는 사실이 밝혀진 후에야 마침내 그의 이름은 작품에 등장한다. 고난과 역경을 거친 영웅이 복수에 성공하는 순간, ‘오뒷세우스’는 한 남자의 이름에 머물지 않고 우리 모두의 이름이 된다. 보르헤스는 인류에게 무한한 시간이 있다면 『오뒷세이아』가 적어도 한 번 이상 쓰이지 않는다는 게 불가능하다고 말했다. 오뒷세우스의 방황과 고뇌, 귀향이라는 대서사시는 한 인간이 태어나서 여러 고난을 관통하며 결국 자신을 찾아가는 과정과 유사하다. 즉, 우리는 모두 태어나는 순간 또 한 명의 오딧세우스다. 마이리뷰(0) 평점: | Sales Point : 106,260 귀향 - 겨울 그리스 문명의 결실 - asty930 직역의 묘미로 새로워진 고전, 오뒷세이아 - shyein99 오뒷세이아 - 특사 오뒷세이아 서평 - Redman"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "14위 파괴된 남자",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=399070955&radar_rank=14&radar_ranking_date=20260830220028",
+        "published_at": "2026-08-30T22:00:28+00:00",
+        "summary": "파괴된 남자 앨프리드 베스터 지음, 해도연 옮김 / 다산책방 / 2026년 08월 / ISBN: 9791130682433 정가: 19,800 원 / 판매가: 17,820 원 / 마일리지: 990 원 이벤트 : 화제의 책 + 알라딘 굿즈 (이벤트 도서 포함, 국내도서 3만원 이상) 아이작 아시모프·스티븐 킹·윌리엄 깁슨·그렉 베어 등 수많은 SF 거장의 찬사를 받은 ‘거장들의 거장’ 앨프리드 베스터의 제1회 휴고상 수상작 『파괴된 남자』가 23년 만에 복간되어 찾아왔다. 속마음을 읽는 에스퍼가 활동하는 미래를 배경으로, 악랄한 재벌 총수 벤 라이히가 에스퍼들의 눈을 피해 라이벌 기업 회장을 살해하고 전 태양계를 지배하려는 야욕을 품으면서 벌어지는 일들을 그리는 SF다. 벤 라이히의 적수로 심리분석가이자 경찰인 1급 에스퍼 링컨 파월이 등장해 그를 체포하고 ‘파괴’로 끌고 가기 위해 맞선다. 앨프리드 베스터는 DC 코믹스의 〈배트맨〉 〈슈퍼맨〉 시리즈 집필 작가인 전설적 스토리텔러로, 도파민 터지듯 폭주하는 재미를 안겨주는 동시에 인간의 사악함과 나약함, 무의식 속에 깃든 선량함과 강인함, 그리고 인류가 나아갈 방향에 대한 철학적 메시지까지 던져준다. 책 말미에는 듀나의 날카로운 분석과 해설이 더해져 있어 이 빛나는 SF 고전의 즐거움을 그야말로 200퍼센트 만끽할 수 있다."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "6위 데뷔 못 하면 죽는 병 걸림 5부 초판 한정 굿즈박스 세트 - 전4권",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=401048539&radar_rank=6&radar_ranking_date=20260830220028",
+        "published_at": "2026-08-30T22:00:28+00:00",
+        "summary": "데뷔 못 하면 죽는 병 걸림 5부 초판 한정 굿즈박스 세트 - 전4권 백덕수 지음 / 위시북스(KW북스) / 2026년 12월 / ISBN: 9791141548612 정가: 144,000 원 / 판매가: 129,600 원 / 마일리지: 7,200 원 이벤트 : <데뷔 못 하면 죽는 병 걸림 5부> 예약 판매 4년차 공시생, 낯선 몸에 빙의해 3년 전으로 돌아왔다. 그리고 그의 눈앞에 나타난 갑작스러운 상태창의 협박. [돌발!] [상태이상 : '데뷔가 아니면 죽음을' 발생!] 돌연사 위협 때문에 팔자에도 없던 아이돌에 도전하게 된 주인공의 대환장 일지. 특이사항 : 빙의 전 아이돌 데이터 찍어다 팔았었음."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Tom Gauld on the end of the summer books season – cartoon",
+        "source_url": "https://www.theguardian.com/books/picture/2026/aug/30/tom-gauld-on-the-end-of-the-summer-books-season-cartoon",
+        "published_at": "2026-08-30T15:00:01+00:00",
+        "summary": "<p> </p> <a href=\"https://www.theguardian.com/books/picture/2026/aug/30/tom-gauld-on-the-end-of-the-summer-books-season-cartoon\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "How Marlon James Confronted ‘the Story I Was Not Allowed to Live’",
+        "source_url": "https://www.nytimes.com/2026/08/30/books/review/marlon-james-interview-the-disappearers.html",
+        "published_at": "2026-08-30T13:24:14+00:00",
+        "summary": "With “The Disappearers,” the Booker Prize-winning author has written his most personal novel yet."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Book Review: ‘The Disappearers,’ by Marlon James",
+        "source_url": "https://www.nytimes.com/2026/08/30/books/review/the-disappearers-marlon-james.html",
+        "published_at": "2026-08-30T11:47:14+00:00",
+        "summary": "Marlon James’s story of gay experience and murderous homophobia in Jamaica is a maximalist’s banquet — and the Booker Prize winner’s finest book yet."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Could this policy fix the care system and slash student debt at the same time?",
+        "source_url": "https://www.theguardian.com/books/2026/aug/30/could-this-one-policy-fix-the-care-system-and-slash-student-debt-at-the-same-time",
+        "published_at": "2026-08-30T11:00:55+00:00",
+        "summary": "<p>Andy Burnham is in need of radical proposals. A ‘care first’ year in exchange for 50% off fees could be just what he needs</p><p>The UK’s social care sector is in crisis. Costs are spiralling, with many local councils forced to dedicate the vast majority of their budgets to it. At the same time, more and more families are seeing their savings disappear into the black hole of nursing home fees. With an ageing population, the problem is set to get worse.</p><p>In only his second week as prime minister, Andy Burnham pledged to succeed where so many of his predecessors have failed: by fixing Britain’s social care system. And yet, as parliament returns from recess, the new-ish administration is still worryingly unclear about how it will do this. Despite Burnham declaring that care workers should enjoy better compensation, we don’t know how he plans to pay for any of it – not least because he has kept Starmer’s campaign pledge to not raise income tax, VAT or national insurance. At the moment, it looks as though it will be impossible to square the circle.</p> <a href=\"https://www.theguardian.com/books/2026/aug/30/could-this-one-policy-fix-the-care-system-and-slash-student-debt-at-the-same-time\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "‘Who would dare take on Elizabeth Jane Howard’s fans?’ Louisa Young on reviving the Cazalet Chronicles",
+        "source_url": "https://www.theguardian.com/books/2026/aug/30/who-would-dare-take-on-elizabeth-jane-howards-fans-louisa-young-on-reviving-the-cazalet-chronicles",
+        "published_at": "2026-08-30T11:00:54+00:00",
+        "summary": "<p>The author’s new trilogy continues her aunt’s beloved family saga. What would happen next to the sprawling cast of characters ... and could she pull it off? </p><p>In the late 1980s Elizabeth Jane Howard was wondering what to write next. Jane, as she was always known, was at that time the author of seven novels. Her debut, The Beautiful Visit, had won the John Llewellyn Rhys prize in 1951 when she was 28 years old and The Long View (1956) was one of the first novels written with reverse chronology. Her talent was somewhat overshadowed in a tawdry world by her drop-dead beauty and by her having briefly been an actor (and by the famous lovers and husbands she walked out on, including Sir Peter Scott, the ornithologist and conservationist, in 1946, and Kingsley Amis, who was then himself a famous novelist, in 1983).</p><p>Stuck, she asked her stepson Martin Amis which of two projects she should go for: an updated version of Sense and Sensibility, or a family saga based on her own life? He said, do the family saga. Jane’s family project developed into the Cazalet Chronicles: five volumes in which she fictionalised her life’s experience, divided between three young female cousins, Polly, Clary and Louise, and a cast of 52 more named characters, set between London and a grandparental family home in Sussex.</p> <a href=\"https://www.theguardian.com/books/2026/aug/30/who-would-dare-take-on-elizabeth-jane-howards-fans-louisa-young-on-reviving-the-cazalet-chronicles\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "Book Riot’s Romance Deals for August 30, 2026",
+        "source_url": "https://bookriot.com/book-riots-romance-deals-for-august-30-2026/",
+        "published_at": "2026-08-30T11:00:00+00:00",
+        "summary": "A tale of Odysseus by Toni Morrison, an award-winning Indigenous classic by Tommy Orange, charmingly sinister romantasy, and more of today's best deals."
+      }
+    },
     {
       "event_model_payload": {
         "source_name": "Book Riot",
@@ -69,7 +276,7 @@
         "source_name": "New York Times Books",
         "headline": "Book Review: ‘Agrippa,’ by Robert Harris",
         "source_url": "https://www.nytimes.com/2026/08/29/books/review/robert-harris-agrippa.html",
-        "published_at": "2026-08-29T10:10:19+00:00",
+        "published_at": "2026-08-29T10:10:20+00:00",
         "summary": "Robert Harris’s new novel, “Agrippa,” follows a statesman who witnesses the transformation of a republic into an empire."
       }
     },
@@ -78,7 +285,7 @@
         "source_name": "New York Times Books",
         "headline": "Book Review: ‘Under Story,’ by Chloe Benjamin",
         "source_url": "https://www.nytimes.com/2026/08/29/books/review/under-story-chloe-benjamin.html",
-        "published_at": "2026-08-29T09:00:24+00:00",
+        "published_at": "2026-08-29T09:00:25+00:00",
         "summary": "In “Under Story,” a grieving woman makes a discovery that could help her recover what she thought she had lost forever."
       }
     },
@@ -87,7 +294,7 @@
         "source_name": "New York Times Books",
         "headline": "Book Review: ‘Defending the Music,’ by Michael Steinberg",
         "source_url": "https://www.nytimes.com/2026/08/29/books/review/defending-the-music-michael-steinberg.html",
-        "published_at": "2026-08-29T09:00:05+00:00",
+        "published_at": "2026-08-29T09:00:06+00:00",
         "summary": "“The eloquence and depth of his prose remain for me the gold standard,” John Adams writes of Michael Steinberg, who excelled at his craft in the 1960s and ’70s."
       }
     },
@@ -151,7 +358,7 @@
         "headline": "Helen Mirren is playing Patricia Highsmith?! Watch the trailer for  A Talent for Murder.",
         "source_url": "https://lithub.com/helen-mirren-is-playing-patricia-highsmith-watch-the-trailer-for-a-talent-for-murder/",
         "published_at": "2026-08-28T16:11:59+00:00",
-        "summary": "This morning, fans of both Patricia Highsmith and Dame Helen Mirren have cause to rejoice. The trailer for Anton Corbijn’s new Ripley-adjacent film, A Taste for Murder, is out now. The film stars Alden Ehrenreich, Olivia Cooke, and an almost"
+        "summary": "This morning, fans of both Patricia Highsmith and Dame Helen Mirren have cause to rejoice. The trailer for Anton Corbijn’s new Ripley-adjacent film, A Talent for Murder, is out now. The film stars Alden Ehrenreich, Olivia Cooke, and an almost"
       }
     },
     {
@@ -282,15 +489,6 @@
     },
     {
       "event_model_payload": {
-        "source_name": "The Guardian Books",
-        "headline": "Tell us: what have you been reading this month?",
-        "source_url": "https://www.theguardian.com/books/2022/feb/23/tell-us-what-have-you-been-reading-this-month",
-        "published_at": "2026-08-28T09:04:20+00:00",
-        "summary": "<p>We would like to hear about the books you’ve particularly enjoyed this month</p><p>As part of The Guardian’s “<a href=\"https://www.theguardian.com/books/series/what-we-re-reading\">what we’re reading</a>” series, we would like to hear about the books you’ve particularly enjoyed this month.</p><p>Have you read a book in recent weeks – fiction or non-fiction – that you’d recommend? Tell us all about it below.</p> <a href=\"https://www.theguardian.com/books/2022/feb/23/tell-us-what-have-you-been-reading-this-month\">Continue reading...</a>"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "New York Times Books",
         "headline": "Rachel Cusk Tried to Caricature Natalie Portman. She Only Caricatured Herself.",
         "source_url": "https://www.nytimes.com/2026/08/28/magazine/rachel-cusk-natalie-portman-life-of-m.html",
@@ -355,10 +553,10 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "Book Deals: Week of August 31, 2026",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic///article/101158-book-deals-week-of-august-31-2026.html",
+        "headline": "Six Month Sales Rose, Profits Slipped at PRH",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/financial-reporting/article/101153-six-months-sales-rose-profits-slipped-at-prh.html",
         "published_at": "2026-08-28T04:00:00+00:00",
-        "summary": "Book Deals: Week of August 31, 2026"
+        "summary": "Six Month Sales Rose, Profits Slipped at PRH"
       }
     },
     {
@@ -373,33 +571,6 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "This Week’s Bestsellers: August 31, 2026",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/bookselling/article/101159-this-week-s-bestsellers-august-31-2026.html",
-        "published_at": "2026-08-28T04:00:00+00:00",
-        "summary": "This Week’s Bestsellers: August 31, 2026"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "How ‘Passengers’ by Alexander Maksik Got Made",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101149-how-passengers-by-alexander-maksik-got-made.html",
-        "published_at": "2026-08-28T04:00:00+00:00",
-        "summary": "An inside look at the publication process for the author’s latest novel."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Big Indie Books of Fall 2026: Colorful Characters",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/adult-announcements/article/101150-big-indie-books-of-fall-2026-colorful-characters.html",
-        "published_at": "2026-08-28T04:00:00+00:00",
-        "summary": "Activists and eccentrics feature in fall’s buzzy books from indie presses."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
         "headline": "How a Shoe Brand Built a Thriving Book Club",
         "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101147-how-a-shoe-brand-built-a-thriving-book-club.html",
         "published_at": "2026-08-28T04:00:00+00:00",
@@ -409,28 +580,10 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "Six Month Sales Rose, Profits Slipped at PRH",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/financial-reporting/article/101153-six-months-sales-rose-profits-slipped-at-prh.html",
+        "headline": "Inaugural Black Bookstore Day to Be Celebrated This Weekend",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/bookselling/article/101131-inaugural-black-bookstore-day-to-be-celebrated-this-weekend.html",
         "published_at": "2026-08-28T04:00:00+00:00",
-        "summary": "Six Month Sales Rose, Profits Slipped at PRH"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "An Artist’s Muse: PW Talks with James Cahill",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/authors/interviews/article/101144-an-artist-s-muse-pw-talks-with-james-cahill.html",
-        "published_at": "2026-08-28T04:00:00+00:00",
-        "summary": "An Artist’s Muse: PW Talks with James Cahill"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Untranslatable: PW Talks with Kuzhali Manickavel",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/authors/interviews/article/101143-untranslatable-pw-talks-with-kuzhali-manickavel.html",
-        "published_at": "2026-08-28T04:00:00+00:00",
-        "summary": "Untranslatable: PW Talks with Kuzhali Manickavel"
+        "summary": "Inaugural Black Bookstore Day to Be Celebrated This Weekend"
       }
     },
     {
@@ -454,10 +607,19 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "Inaugural Black Bookstore Day to Be Celebrated This Weekend",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/bookselling/article/101131-inaugural-black-bookstore-day-to-be-celebrated-this-weekend.html",
+        "headline": "Big Indie Books of Fall 2026: Colorful Characters",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/adult-announcements/article/101150-big-indie-books-of-fall-2026-colorful-characters.html",
         "published_at": "2026-08-28T04:00:00+00:00",
-        "summary": "Inaugural Black Bookstore Day to Be Celebrated This Weekend"
+        "summary": "Activists and eccentrics feature in fall’s buzzy books from indie presses."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "An Artist’s Muse: PW Talks with James Cahill",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/authors/interviews/article/101144-an-artist-s-muse-pw-talks-with-james-cahill.html",
+        "published_at": "2026-08-28T04:00:00+00:00",
+        "summary": "An Artist’s Muse: PW Talks with James Cahill"
       }
     },
     {
@@ -467,6 +629,42 @@
         "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/childrens-announcements/article/101151-home-is-where-the-heart-is-fall-2026-indie-press-picks-for-young-readers.html",
         "published_at": "2026-08-28T04:00:00+00:00",
         "summary": "Selections focus on themes of home, family, and identity."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Untranslatable: PW Talks with Kuzhali Manickavel",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/authors/interviews/article/101143-untranslatable-pw-talks-with-kuzhali-manickavel.html",
+        "published_at": "2026-08-28T04:00:00+00:00",
+        "summary": "Untranslatable: PW Talks with Kuzhali Manickavel"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Book Deals: Week of August 31, 2026",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic///article/101158-book-deals-week-of-august-31-2026.html",
+        "published_at": "2026-08-28T04:00:00+00:00",
+        "summary": "Book Deals: Week of August 31, 2026"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "How ‘Passengers’ by Alexander Maksik Got Made",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101149-how-passengers-by-alexander-maksik-got-made.html",
+        "published_at": "2026-08-28T04:00:00+00:00",
+        "summary": "An inside look at the publication process for the author’s latest novel."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "This Week’s Bestsellers: August 31, 2026",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/bookselling/article/101159-this-week-s-bestsellers-august-31-2026.html",
+        "published_at": "2026-08-28T04:00:00+00:00",
+        "summary": "This Week’s Bestsellers: August 31, 2026"
       }
     },
     {
@@ -642,15 +840,6 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Book Riot",
-        "headline": "The Best New Books of September, According to Indie Booksellers",
-        "source_url": "https://bookriot.com/new-books-september-2026-indie-booksellers/",
-        "published_at": "2026-08-27T10:07:00+00:00",
-        "summary": "What better way to get book recommendations than from independent booksellers? Here are eight of their favorites for September 2026."
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "New York Times Books",
         "headline": "A Book Crawl in Picturesque Brooklyn",
         "source_url": "https://www.nytimes.com/video/books/100000011063987/a-book-crawl-in-picturesque-brooklyn.html",
@@ -714,15 +903,6 @@
     },
     {
       "event_model_payload": {
-        "source_name": "The Guardian Books",
-        "headline": "Kolkhoz by Emmanuel Carrère review – intricate portrait of an elite French family",
-        "source_url": "https://www.theguardian.com/books/2026/aug/27/kolkhoz-by-emmanuel-carrere-review-intricate-portrait-of-an-elite-french-family",
-        "published_at": "2026-08-27T06:00:06+00:00",
-        "summary": "<p>The author of The Adversary and Yoga unearths a history that includes the Nazis, Russia, and the Académie Française</p><p>When Emmanuel Carrère’s mother, Hélène, died in 2023, at the age of 94, President Macron spoke at her memorial. She had been “perpetual secretary” of the Académie Française, in effect its head, and 200 people gathered at Les Invalides in Paris to pay tribute. Emmanuel’s father, Louis, was there too, in a wheelchair, only half aware of what was going on. This 400-page memoir, translated into English by John Lambert, is a homage to both parents and the unlikely history that brought them together. It’s also an act of reparation towards Hélène, whom Emmanuel worshipped as a child but upset as an adult by publishing a book that she’d forbidden him to write.</p><p>Hélène grew up in stateless poverty in Paris, the daughter of Georges Zourabichvili, whose parents had fled Georgia in 1921, and Nathalie von Pelken, who as a child had six governesses, one for each day excluding Sunday. Though “the magical world of the fallen Russian aristocracy” was the backdrop, conditions were tough, not least after Georges disappeared in 1944, murdered by partisans for alleged Nazi collaboration. Hélène was 15 at the time and unsuccessfully tried to hide the truth about George’s death from her younger brother, Nicolas.</p> <a href=\"https://www.theguardian.com/books/2026/aug/27/kolkhoz-by-emmanuel-carrere-review-intricate-portrait-of-an-elite-french-family\">Continue reading...</a>"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "알라딘 신간",
         "headline": "블리치 리믹스 17/쿠보 타이토 지음/서울미디어코믹스(서울문화사)",
         "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=401063905",
@@ -760,10 +940,19 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "Rights Report: Week of August 24, 2026",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101111-rights-report-week-of-august-24-2026.html",
+        "headline": "Out of This World: PW Talks with Shaun Tan",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101126-out-of-this-world-pw-talks-with-shaun-tan.html",
         "published_at": "2026-08-27T04:00:00+00:00",
-        "summary": "Rights Report: Week of August 24, 2026"
+        "summary": "Out of This World: PW Talks with Shaun Tan"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Dolly Parton’s Children’s Literacy Legacy",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101140-dolly-parton-s-children-s-literacy-legacy.html",
+        "published_at": "2026-08-27T04:00:00+00:00",
+        "summary": "Dolly Parton’s Children’s Literacy Legacy"
       }
     },
     {
@@ -778,28 +967,10 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "Noteworthy Picture Book and Novel Sequels: August 2026",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101142-noteworthy-picture-book-and-novel-sequels-august-2026.html",
+        "headline": "Hanover Square Signs Eight Books from U.K. Thriller Star Jack Jordan",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101134-hanover-square-gets-eight-books-from-u-k-thriller-star-jack-jordan.html",
         "published_at": "2026-08-27T04:00:00+00:00",
-        "summary": "Noteworthy Picture Book and Novel Sequels: August 2026"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Out of This World: PW Talks with Shaun Tan",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101126-out-of-this-world-pw-talks-with-shaun-tan.html",
-        "published_at": "2026-08-27T04:00:00+00:00",
-        "summary": "Out of This World: PW Talks with Shaun Tan"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "5 Non-Traditional Crime Novels for Fans of James Sallis",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/tip-sheet/article/101139-5-non-traditional-crime-novels-for-fans-of-james-sallis.html",
-        "published_at": "2026-08-27T04:00:00+00:00",
-        "summary": "5 Non-Traditional Crime Novels for Fans of James Sallis"
+        "summary": "Hanover Square Signs Eight Books from U.K. Thriller Star Jack Jordan"
       }
     },
     {
@@ -814,10 +985,64 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
+        "headline": "Rights Report: Week of August 24, 2026",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101111-rights-report-week-of-august-24-2026.html",
+        "published_at": "2026-08-27T04:00:00+00:00",
+        "summary": "Rights Report: Week of August 24, 2026"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "New Kids’ and YA Books: Week of August 31, 2026",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101141-new-kids-and-ya-books-week-of-august-31-2026.html",
+        "published_at": "2026-08-27T04:00:00+00:00",
+        "summary": "New Kids’ and YA Books: Week of August 31, 2026"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
         "headline": "‘The Light I Needed’: Picture Book ‘On Fridays’ Started with a Special Spark",
         "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101129-the-light-i-needed-picture-book-on-fridays-started-with-a-special-spark.html",
         "published_at": "2026-08-27T04:00:00+00:00",
         "summary": "‘The Light I Needed’: Picture Book ‘On Fridays’ Started with a Special Spark"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Noteworthy Picture Book and Novel Sequels: August 2026",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101142-noteworthy-picture-book-and-novel-sequels-august-2026.html",
+        "published_at": "2026-08-27T04:00:00+00:00",
+        "summary": "Noteworthy Picture Book and Novel Sequels: August 2026"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Chicago Bookseller Launches Bilingual Children’s Imprint",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101146-chicago-bookseller-launches-bilingual-children-s-imprint.html",
+        "published_at": "2026-08-27T04:00:00+00:00",
+        "summary": "Chicago Bookseller Launches Bilingual Children’s Imprint"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "5 Non-Traditional Crime Novels for Fans of James Sallis",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/tip-sheet/article/101139-5-non-traditional-crime-novels-for-fans-of-james-sallis.html",
+        "published_at": "2026-08-27T04:00:00+00:00",
+        "summary": "5 Non-Traditional Crime Novels for Fans of James Sallis"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Google Launches AI Tool to Add Interactivity to E-books",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101136-google-launches-expert-intelligence-adding-interactivity-to-e-books.html",
+        "published_at": "2026-08-27T04:00:00+00:00",
+        "summary": "Google Launches AI Tool to Add Interactivity to E-books"
       }
     },
     {
@@ -836,51 +1061,6 @@
         "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101120-misako-rocks-on-finding-endless-connections-through-manga.html",
         "published_at": "2026-08-27T04:00:00+00:00",
         "summary": "Misako Rocks! on Finding Endless Connections Through Manga"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Hanover Square Signs Eight Books from U.K. Thriller Star Jack Jordan",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101134-hanover-square-gets-eight-books-from-u-k-thriller-star-jack-jordan.html",
-        "published_at": "2026-08-27T04:00:00+00:00",
-        "summary": "Hanover Square Signs Eight Books from U.K. Thriller Star Jack Jordan"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "New Kids’ and YA Books: Week of August 31, 2026",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101141-new-kids-and-ya-books-week-of-august-31-2026.html",
-        "published_at": "2026-08-27T04:00:00+00:00",
-        "summary": "New Kids’ and YA Books: Week of August 31, 2026"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Chicago Bookseller Launches Bilingual Children’s Imprint",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101146-chicago-bookseller-launches-bilingual-children-s-imprint.html",
-        "published_at": "2026-08-27T04:00:00+00:00",
-        "summary": "Chicago Bookseller Launches Bilingual Children’s Imprint"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Google Launches AI Tool to Add Interactivity to E-books",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101136-google-launches-expert-intelligence-adding-interactivity-to-e-books.html",
-        "published_at": "2026-08-27T04:00:00+00:00",
-        "summary": "Google Launches AI Tool to Add Interactivity to E-books"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Dolly Parton’s Children’s Literacy Legacy",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101140-dolly-parton-s-children-s-literacy-legacy.html",
-        "published_at": "2026-08-27T04:00:00+00:00",
-        "summary": "Dolly Parton’s Children’s Literacy Legacy"
       }
     },
     {
@@ -904,28 +1084,10 @@
     {
       "event_model_payload": {
         "source_name": "New York Times Books",
-        "headline": "Did the Zodiac Kill the Black Dahlia? This Crime Writer Thinks So.",
-        "source_url": "https://www.nytimes.com/2026/08/26/arts/michael-connelly-black-dahlia-zodiac-podcast.html",
-        "published_at": "2026-08-26T15:15:14+00:00",
-        "summary": "The novelist Michael Connelly knows he is putting his reputation on the line with the podcast “Killer in the Code.” But despite critics’ skepticism, he finds the evidence “completely convincing.”"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "New York Times Books",
         "headline": "Rupert Grint Will Join ‘Harry Potter’ Again, This Time on Broadway",
         "source_url": "https://www.nytimes.com/2026/08/26/theater/rupert-grint-harry-potter-broadway.html",
         "published_at": "2026-08-26T13:30:06+00:00",
         "summary": "The British actor, who played Ron Weasley in all eight films, will play the same character, this time as an adult, in “Harry Potter and the Cursed Child.”"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "New York Times Books",
-        "headline": "21 New Books to Read in September: John Green, R.F. Kuang, Marlon James and More",
-        "source_url": "https://www.nytimes.com/2026/08/26/books/new-books-september.html",
-        "published_at": "2026-08-26T13:17:46+00:00",
-        "summary": "Novels by Marlon James, Emma Cline, Hernan Diaz and John Green; nonfiction by Emily Wilson and Robert Kolker; and more."
       }
     },
     {
@@ -939,20 +1101,11 @@
     },
     {
       "event_model_payload": {
-        "source_name": "New York Times Books",
-        "headline": "The Best Literary Detective You’ve Never Heard Of, and the Man Who Made Him",
-        "source_url": "https://www.nytimes.com/2026/08/26/books/peter-grainger-crime-writer-dc-smith.html",
-        "published_at": "2026-08-26T09:00:17+00:00",
-        "summary": "How Peter Grainger, an English mystery writer, self-published his way into prominence."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "The Guardian Books",
-        "headline": "Passage by Colin Thubron review – mortality and memory in a gem of a novel",
-        "source_url": "https://www.theguardian.com/books/2026/aug/26/passage-by-colin-thubron-review-mortality-and-memory-in-a-gem-of-a-novel",
-        "published_at": "2026-08-26T06:00:36+00:00",
-        "summary": "<p>A terminally ill woman makes a final trip to Egypt in an exquisitely wrought portrait of end-of-life reckoning</p><p>Virginia Woolf said of Middlemarch that it is one of the few English novels written for grown-up people. In the shallow and infantilising age through which we are living, Colin Thubron dares to assume that his readers are adults. Passage is a very beautiful, very moving, authentic work of art. Hardly more than a novella, it sits lightly in the hand, but its emotional and aesthetic weight overtips the balance.</p><p>Thubron began his career as a travel writer and a large part of the action of Passage is set in a vividly but economically evoked Egypt. This is not the teeming Egypt of Cairo or Alexandria, but of the countryside, the villages, and the great immemorial tombs and ancient monuments. The best travel writers know that “abroad” is most convincingly evoked not by awed exclamations at the world’s wonders, but by an attitude of relaxed familiarity. Thubron is obviously an old Egypt hand, or at least has the skill to convince us that he is.</p> <a href=\"https://www.theguardian.com/books/2026/aug/26/passage-by-colin-thubron-review-mortality-and-memory-in-a-gem-of-a-novel\">Continue reading...</a>"
+        "source_name": "Publishers Weekly",
+        "headline": "Writers Talking Writers: Marlon James on Jean Rhys and Hernan Diaz on Franz Kafka",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/tip-sheet/article/101132-writers-talking-writers-marlon-james-on-jean-rhys-and-hernan-diaz-on-franz-kafka.html",
+        "published_at": "2026-08-26T04:00:00+00:00",
+        "summary": "Writers Talking Writers: Marlon James on Jean Rhys and Hernan Diaz on Franz Kafka"
       }
     },
     {
@@ -962,15 +1115,6 @@
         "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101118-eiko-kadono-explains-animenyc-absence-in-exclusive-letter.html",
         "published_at": "2026-08-26T04:00:00+00:00",
         "summary": "Eiko Kadono Explains AnimeNYC Absence in Exclusive Letter"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Writers Talking Writers: Marlon James on Jean Rhys and Hernan Diaz on Franz Kafka",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/tip-sheet/article/101132-writers-talking-writers-marlon-james-on-jean-rhys-and-hernan-diaz-on-franz-kafka.html",
-        "published_at": "2026-08-26T04:00:00+00:00",
-        "summary": "Writers Talking Writers: Marlon James on Jean Rhys and Hernan Diaz on Franz Kafka"
       }
     },
     {
@@ -1007,132 +1151,6 @@
         "source_url": "https://www.npr.org/2026/08/25/nx-s1-5768185/author-jill-lepore-discusses-new-book-the-rise-and-fall-of-the-artificial-state",
         "published_at": "2026-08-25T08:44:30+00:00",
         "summary": "NPR's Michel Martin speaks with Harvard professor and writer at the New Yorker Jill Lepore about her new book, \"The Rise and Fall of the Artificial State.\""
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "13위 빵충 사육 준수 사항",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=398726639&radar_rank=13&radar_ranking_date=20260823220003",
-        "published_at": "2026-08-23T22:00:03+00:00",
-        "summary": "빵충 사육 준수 사항 김혜영 지음 / 안전가옥 / 2026년 07월 / ISBN: 9791194891178 정가: 16,800 원 / 판매가: 15,120 원 / 마일리지: 840 원 이벤트 : <목소리가 들린다> + <소설 보다> 유리 문진 , 보름에 한 번 계절 특선 한국문학 김혜영의 장편소설 『빵충 사육 준수 사항』이 안전가옥 오리지널로 출간되었다. 작가가 처음 선보이는 장편소설로, 2026 서울국제도서전에서 먼저 독자를 만나며 준비한 초판이 현장에서 모두 소진됐다. 제목의 ‘사육 준수 사항’은 작품 속에 실제로 등장하는 규칙의 이름이다. 그것을 어기는 순간부터 이 소설은 조금씩 다른 얼굴을 꺼내 든다. 주인공 정한은 무명 트럼펫터로 살다 빚에 쫓겨 귀농하지만, 야심 차게 시작한 딸기 농사마저 처참히 실패한다. 바닥까지 내려간 그에게 찾아온 마지막 기회가 신종 식용 애벌레 ‘빵충’ 사육 사업이다. 갓 구운 소금빵과 외형도 맛도 똑같은 빵충은 NO 밀가루, 고단백 식품으로 전국적인 디저트 열풍을 타고 정한을 고수익자 반열에 앉힌다. 그러나 인생 역전은 그리 오래, 순조로이 흘러가지 않는다. 공급 과잉과 가격 폭락 그리고 사람들이 미처 헤아리지 못한 규칙 위반은 농촌을 예기치 못한 국면으로 밀어 넣는다. 『빵충 사육 준수 사항』은 인간의 탐욕이 만든 달콤한 풍요가 어긋나고 미끄러지는 과정을 생생히 그려낸다. 마이리뷰(0) 평점: | Sales Point : 66,750 빵충 사육 준수 사항 - 리나 [서평]빵충 사육 준수 사항 - 빨간머리앤 [장편소설/마지막기회/안전가옥/SF소설] 빵충 사육 준수 사항 - gazahbs 서평] 2026년 서울국제도서전 최다판매도서 “빵충 사육 준수 사항” - 찌워니 빵충 사육 준수 사항 - 세상의지혜"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "11위 투명한 나선",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=398021172&radar_rank=11&radar_ranking_date=20260823220003",
-        "published_at": "2026-08-23T22:00:03+00:00",
-        "summary": "투명한 나선 히가시노 게이고 지음, 김선영 옮김 / 북다 / 2026년 07월 / ISBN: 9791170614043 정가: 22,000 원 / 판매가: 19,800 원 / 마일리지: 1,100 원 이벤트 : <투명한 나선> + 띠지 카피 공모전 (~8/31) ‘오늘의 일본을 대표하는 작가’, ‘동아시아에서 가장 사랑받는 미스터리 작가’, ‘한국인이 제일 좋아하는 일본 장르소설 작가’ 히가시노 게이고의 장편소설. 1996년 일본에서 처음 연재되어 2026년 30주년을 맞이한 갈릴레오 시리즈의 열 번째 작품인 『투명한 나선』은 2021년 일본 출간 즉시 토한 종합 1위를 비롯하여 각종 서점 베스트셀러 랭킹되며 여전한 인기를 증명했다. 그동안 베일에 싸여 있던 주인공 유카와 마나부의 비밀이 처음 밝혀지는 『투명한 나선』은 갈릴레오 시리즈의 새로운 전환점이 되는 작품이다. 도쿄 인근 지바현 바다에서 등에 총상을 입은 남성의 시신이 떠오른다. 그의 신원이 확인되는 동시에 남성을 실종 신고한 동거 여성이 자취를 감춘다. 사건을 맡은 형사 구사나기와 우쓰미는 수사 과정에서 뜻밖에 유카와의 이름을 발견한다. 구사나기는 오랜 친구를 찾아가 도움을 요청하나 유카와는 그의 청을 단번에 거절한다. 그런데 구사나기를 배웅하던 유카와가 돌연 다른 방식으로 수사에 협조하겠다고 말한다. 이후 유카와와 사건 관련 장소를 방문한 우쓰미는 이 물리학자가 무언가를 숨기고 있음을 직감한다. 그러나 수사는 좀처럼 진전되지 않고 경찰은 번번이 실마리를 놓치고 만다. 이에 유카와는 마침내 오랫동안 간직해 온 비밀을 스스로 밝히게 되는데……. 유카와는 긴 세월 어떤 진실을 혼자 끌어안고 살아온 걸까? 그것이 이 사건과 무슨 연관성이 있는 걸까? 그가 스스로 사건에 관여한 이유는 무엇일까? 『투명한 나선』에 대해 작가는 “한마디로 설명할 수 없는 작품입니다. 오랫동안 작가만이 간직했던 이야기를 비로소 풀어냈습니다. 갈릴레오 팬이라면 분명 놀랄 것이고, 히가시노 팬이라면 더욱 놀랄 것입니다”라고 말했다. 전혀 다른 두 개의 사건이 우연한 계기로 겹쳐짐으로써 드러나는 진실. 이것을 과학으로만 설명할 수 있을까? 마이리뷰(0) 평점: | Sales Point : 119,745 이 작품 정말 좋네요.. - 잴잴 차가운 물리학자의 제일 뜨거운 고백, 폭력의 사슬을 끊어내는 여성들의 연대 - Ravenz_76 복잡하지 않은 추미스 - 다니 투명한 나선 - 토토엄마 투명한 나선 - rinob_ooks"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "14위 스킵과 로퍼 12",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=400652795&radar_rank=14&radar_ranking_date=20260823220003",
-        "published_at": "2026-08-23T22:00:03+00:00",
-        "summary": "스킵과 로퍼 12 타카마츠 미사키 지음, 신혜선 옮김 / YNK MEDIA(만화) / 2026년 08월 / ISBN: 9791175890336 정가: 6,000 원 / 판매가: 5,400 원 / 마일리지: 300 원 이벤트 : <스킵과 로퍼 12>아크릴 DIY 키링(대상도서 포함 만화.라노벨 분야 1만 5천원 이상 구매 시)"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "9위 오뒷세이아",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=399401298&radar_rank=9&radar_ranking_date=20260823220003",
-        "published_at": "2026-08-23T22:00:03+00:00",
-        "summary": "오뒷세이아 호메로스 지음, 김헌 옮김 / 을유문화사 / 2026년 08월 / ISBN: 9788932476469 정가: 25,000 원 / 판매가: 22,500 원 / 마일리지: 1,250 원 이벤트 : 화제의 책 + 알라딘 굿즈 (이벤트 도서 포함, 국내도서 3만원 이상) 『오뒷세이아』는 ‘오뒷세우스의 노래’라는 뜻이다. 그러나 제목이 적나라하게 보여 주는 것과는 달리, 이 작품은 그의 이름을 꼭꼭 숨기며 시작한다. 신들이 그의 귀향을 결정했다는 사실이 밝혀진 후에야 마침내 그의 이름은 작품에 등장한다. 고난과 역경을 거친 영웅이 복수에 성공하는 순간, ‘오뒷세우스’는 한 남자의 이름에 머물지 않고 우리 모두의 이름이 된다. 보르헤스는 인류에게 무한한 시간이 있다면 『오뒷세이아』가 적어도 한 번 이상 쓰이지 않는다는 게 불가능하다고 말했다. 오뒷세우스의 방황과 고뇌, 귀향이라는 대서사시는 한 인간이 태어나서 여러 고난을 관통하며 결국 자신을 찾아가는 과정과 유사하다. 즉, 우리는 모두 태어나는 순간 또 한 명의 오딧세우스다. 마이리뷰(0) 평점: | Sales Point : 82,600 이라고? 번역 이게. - 구름스 정말재미있어요! - qus1985 노래하니, 들으소서. 한 남자의 이야기를. - 뫕 \"돌아온다는 것, 그리고 끝내 나 자신에게 닿는다는 것.\" - 하얀사과 3,000년을 버텨낸 서사의 힘, 영화보다 더 영화 같은 고전 [오뒷세이아] - narino55"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "3위 찌니주의보",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=400137507&radar_rank=3&radar_ranking_date=20260823220003",
-        "published_at": "2026-08-23T22:00:03+00:00",
-        "summary": "찌니주의보 정지아 지음 / 창비 / 2026년 08월 / ISBN: 9788936439996 정가: 16,800 원 / 판매가: 15,120 원 / 마일리지: 840 원 이벤트 : 정지아 장편소설 <찌니주의보> 멜라민 트레이 (국내도서 2만원 이상) 한국현대사의 굵은 상흔을 남도의 구수한 입말과 뜨거운 인간애로 풀어내며 40만 독자의 마음을 사로잡은 『아버지의 해방일지』(창비 2022). 그 신드롬의 주인공 정지아가 4년 만의 신작 장편소설 『찌니주의보』로 돌아왔다. 전작에서 이념과 역사의 비극을 눈물겨운 해학으로 승화시키며 독보적인 이야기꾼으로 자리매김한 그가 이번에 펼쳐 보이는 무대는 평균 연령 일흔여덟살의 산골 ‘수평마을’이다. 『아버지의 해방일지』가 아버지의 장례식을 통해 역사와 이념 너머 한 인간의 전모를 발견하는 소설이었다면, 『찌니주의보』는 낯선 이웃과 밥을 나누며 정체성과 편견 너머 사람을 다시 바라보는 이야기다. 전작이 거침없는 웃음 뒤에 묵직한 슬픔을 남겼다면, 이번 작품은 좀더 빠르고 경쾌한 소동 속에서 더 풍성한 감정의 파고를 만들어낸다. 이성애자와 성소수자, 토박이와 귀촌인, 한국인과 이주여성, 도시의 젊은이와 농촌의 노인들…… 살아온 시간도 사랑의 방식도 전혀 다른 이들이 한마을에 모여 흉을 보고 싸우고 밥을 먹이며 어느새 이웃이 되어가는 과정이 생생하게 펄떡인다. 정지아 특유의 천연덕스러운 유머는 한층 능청스러워졌고, 인간의 모순과 상처를 헤아리는 다정한 시선은 더욱 섬세해졌다. 익숙한 마을의 정서와 오늘의 첨예한 문제를 한데 품은 이 소설은 전작의 팬부터 처음 정지아를 만나는 독자까지, 세대와 취향 차이를 넘어 한자리에서 웃게 하는 힘을 지녔다. 마이리뷰(0) 평점: | Sales Point : 79,040 고달파도 산다 - 찐빵 사램 사는 거사 다 제각각이제! - jeanie 밥은 멕여야하는 시골 인심 - ayayeun [마이리뷰] 찌니주의보 - JYOH 서로 다른 사람들이 함께 살아간다는 것 - 남문서점"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "5위 싯다르타",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=329596&radar_rank=5&radar_ranking_date=20260823220003",
-        "published_at": "2026-08-23T22:00:03+00:00",
-        "summary": "싯다르타 헤르만 헤세 지음, 박병덕 옮김 / 민음사 / 2002년 01월 / ISBN: 9788937460586 정가: 8,000 원 / 판매가: 7,200 원 / 마일리지: 400 원 이벤트 : SNS 화제의 책 + 알라딘 굿즈 (이벤트 도서 포함, 국내도서 3만원 이상) 헤세가 거의 일 년 반 동안 창작이 거의 불가능할 정도로 심한 우울증을 앓다가 정신 치료를 받은 후 발표한 작품이다. 동서양의 정신적 유산을 시적으로 승화한 일종의 종교적 성장소설로 볼 수 있는데 영원을 향한 갈망과 인간의 내면을 깊이 파고드는 초월에 대한 의지를 단순하고도 서정적인 문체로 담아냈다. 정형화된 종교 교리와 자족적인 영혼의 성찰 사이의 고뇌를 섬세하게 그리며 자아 발견을 위한 길이 하나로 정해져 있지 않음을 시사하고 철학이나 종교, 그 밖의 모든 신념에 맹목적으로 의지하고자 하는 고정관념에 도전한 작품이다. 마이리뷰(0) 평점: | Sales Point : 239,082 싯다르타는 부처인가 아닌가 [외국소설-싯다르타] - 바람개비 싯다르타. 내 삶에서 - pleasetrust800604 삶의 깨달음을 찾아가는 여정 <싯다르타> - 우끼끼양 싯다르타 - miseong.books 결국 삶은 답이 아닌 흐름일지도 - 짱고아빠"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "6위 봇치·더·록! 외전 히로이 키쿠리의 과음일기 6",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=400587114&radar_rank=6&radar_ranking_date=20260823220003",
-        "published_at": "2026-08-23T22:00:03+00:00",
-        "summary": "봇치·더·록! 외전 히로이 키쿠리의 과음일기 6 하마지 아키, 쿠미쵸 지음 / 대원씨아이(만화) / 2026년 08월 / ISBN: 9791142361258 정가: 9,000 원 / 판매가: 8,100 원 / 마일리지: 450 원 이벤트 : <봇치 더 록! 외전 히로이 키쿠리의 과음일기 6> 한입 맥주잔(만화.라노벨 분야 1만 5천원 이상 구매 시)"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "4위 브레인 악셀",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=400622139&radar_rank=4&radar_ranking_date=20260823220003",
-        "published_at": "2026-08-23T22:00:03+00:00",
-        "summary": "브레인 악셀 이진우 지음 / 바른뇌연구소 / 2026년 09월 / ISBN: 9791122075106 정가: 22,000 원 / 판매가: 19,800 원 / 마일리지: 1,100 원 이벤트 : 8월 특별 선물. 원통형 가방 · 책 키링 카드지갑"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "2위 그랬다고 적었다",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=400193697&radar_rank=2&radar_ranking_date=20260823220003",
-        "published_at": "2026-08-23T22:00:03+00:00",
-        "summary": "그랬다고 적었다 김애란 지음 / 문학동네 / 2026년 08월 / ISBN: 9791141618575 정가: 17,000 원 / 판매가: 15,300 원 / 마일리지: 850 원 이벤트 : 아크릴 참 키링 (대상 도서 포함 국내도서 2만 원 이상 구매 시) 소설가 김애란이 새 책과 함께 여름 인사를 건넨다. 최근 장편소설 『이중 하나는 거짓말』(2024)과 소설집 『안녕이라 그랬어』(2025)를 펴내며 허구의 세계 안에서 지금 한국사회의 풍경을 세밀하게 그리는 데 집중해온 작가가 이번에 새 이야기를 담아낸 그릇은 소설이 아니라 산문이다. 소설 속 화자가 아니라 작가 자신의 목소리가 나직하게 울려퍼지는 바로 그 장르를 통해 우리는 우리가 오랫동안 사랑해온 작품을 써낸 작가 김애란의 생생한 다면(多面)과 만난다. 그 면면은 생활인이자 창작자, 사회인의 모습으로 이루어져 있다. 생활인으로서 김애란은 제주도의 너른 쉼터를 뛰어다니는 강아지를 바라보며 대도시에서와 다른 초록의 풍경을 눈에 담기도 하고, 오랜 시간 오해했던 누군가의 면모를 새롭게 발견하기도 한다. 창작자로서 인공지능 챗봇 챗지피티의 등장을 지켜보며 인간이라는 존재 자체를 성찰하기도 하고, 사회인으로서 우리 모두가 함께 겪은 코로나 시기를 돌아보며 진정한 자립과 타인의 의미를 되새기기도 한다. 이 면면은 엄밀히 구분되기보다 서로 섞이고 간섭하며 영향을 주고받는다. 그 바탕에는 공통적으로 몸과 마음의 한계를 지닌 사람으로서의 스스로를 인정하는 겸허하고 유연한 태도가 깔려 있다. 마이리뷰(0) 평점: | Sales Point : 112,760 [마이리뷰] 그랬다고 적었다 - JYOH 애란언니 아이러브유🩷 - 푸른달"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "15위 오디세이아",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=399852434&radar_rank=15&radar_ranking_date=20260823220003",
-        "published_at": "2026-08-23T22:00:03+00:00",
-        "summary": "오디세이아 안나 밀버른 지음, 세바스티안 판 도닝크 그림, 양혜진 옮김, 호메로스 원작 / 비룡소 / 2026년 08월 / ISBN: 9788949142005 정가: 17,500 원 / 판매가: 15,750 원 / 마일리지: 870 원 이벤트 : 가장 주목받는 어린이 화제의 책 + 캐리어·백 리플렉터 택 세트(택1, 대상도서 15,000원 이상) 호메로스의 『오디세이아』가 비룡소에서 출간되었다. 말이 필요 없는 고전 중의 고전, 세상 모든 모험 서사의 모델이 된 고대 그리스의 대서사시를 어린이부터 어른까지 모든 세대가 함께 즐길 수 있는 판본이다. 오랜 세월 다양한 판본과 영상물로 끊임없이 재생산되고 있는 만큼 가치 있고 큰 의미가 있는 놀라운 작품을 가장 쉽고도 재미있게, 제대로 만나는 방법으로 비룡소 주니어 클래식 『오디세이아』를 소개한다. 서양 문학의 출발점이자 ‘모험 서사의 원조’로서 『오디세이아』는 인생의 한 번은 완역본을 읽어 봄 직한 고전 중의 고전이지만, 마음먹고 도전하기란 쉽지 않다. 그렇다고 해서 어린이와 청소년 독자들이 좀 더 성장한 뒤에 읽기로 미루기에는 너무 아까울 정도로, 상상력을 자극하는 놀랍고 신비한 세계와 손에 땀을 쥐게 하는 스릴, 흥미진진함이 가득한 작품이다. 비룡소 주니어 클래식 『오디세이아』는 가벼운 한 권으로 이 고전을 쉽고 재미있게 읽을 수 있으면서도, 어린 독자들뿐 아니라 성인들도 몰입하게 될 만큼 탄탄하게 짜여진 책이다. 마이리뷰(0) 평점: | Sales Point : 32,350 오디세이아 - 엄딱곤쥬 자녀와 함께 읽기 좋은 비룡소 [오디세이아] 추천👍 - soulnote 아이도 어른도 함께 읽는 오디세이아 - happywitch77 오디세이아 - novemvy 호메르스, 《오디세이아》 - 양다인"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "10위 수족관",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=330811810&radar_rank=10&radar_ranking_date=20260823220003",
-        "published_at": "2026-08-23T22:00:03+00:00",
-        "summary": "수족관 유래혁 지음 / 포스터샵 / 2023년 12월 / ISBN: 9791198547514 정가: 17,700 원 / 판매가: 15,930 원 / 마일리지: 880 원 이벤트 : 유래혁 <수족관> 성률 일러스트 투명 책갈피 (소설 2만원 이상) 유래혁 소설. 보육 시설에서 자라난 인물 ‘류이치’가, 먼저 보육 시설에서 도망쳐나온 인물 ‘아카리’를 만나 겪게 되는 일들을 그려낸다. 이 두 인물은 자신들이 가진 뿌리 깊은 과거와 상처, 그 이야기가 만들어낸 수족관에서 만나 입을 맞추고, 서로의 숨을 훔쳐가면서도 언젠가 오키나와의 너른 바다에 도착하는 꿈을 나눈다. 이 둘은 수족관을 벗어나 눈부신 햇살 아래 들려오는 파도 소리를 들을 수 있을까. 마이리뷰(0) 평점: | Sales Point : 135,680 부서진 마음에 건네는 우산, <수족관>(유래혁) - 프리즘 [마이리뷰] 수족관 - 89700326 헉생이 쓴 팬픽 읽는 느낌.. - Collins_swag [마이리뷰] 수족관 - JYOH 💙<<수족관 _ 유래혁 장편소설>>💙 - 윤딩"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "8위 오디세이아 (국내 유일 명화 104점 수록 완역본)",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=362390080&radar_rank=8&radar_ranking_date=20260823220003",
-        "published_at": "2026-08-23T22:00:03+00:00",
-        "summary": "오디세이아 (국내 유일 명화 104점 수록 완역본) 호메로스 지음, 페테르 파울 루벤스 외 그림, 박문재 옮김 / 현대지성 / 2025년 04월 / ISBN: 9791139721973 정가: 27,000 원 / 판매가: 24,300 원 / 마일리지: 1,350 원 이벤트 : 화제의 책 + 알라딘 굿즈 (이벤트 도서 포함, 국내도서 3만원 이상) 트로이아 전쟁의 영웅 오디세우스는 전쟁에서 승리한 후 고향 이타카로 돌아가려 하지만, 그의 여정은 결코 평탄치 않았다. 포세이돈의 분노, 신들의 장난, 인간의 오만과 약함은 그의 여정을 가로막고, 그는 무려 10년에 걸쳐 바다를 떠돌며 인간의 한계에 맞서 싸운다. 호메로스는 이 위대한 방랑을 통해 신과 인간이 얽힌 세계의 진실을 보여준다. 『오디세이아』는 ‘귀향’이라는 단순한 이야기 구조 속에 고대 그리스인의 세계관과 삶의 가치, 그리고 인간다운 삶의 의미를 농축시킨 작품이다. 외눈박이 거인 폴리페모스와의 대결, 마녀 키르케의 유혹, 바다의 요정 칼립소와의 시간, 바다의 신과 하늘의 신들의 끊임없는 개입 속에서 오디세우스는 단순한 영웅이 아니라, 인간의 약함과 강함을 동시에 지닌 존재로 그려진다. 현대지성 클래식의 완역본은 3,000년 전부터 구전으로 전해지던 이 서사시를, 오늘날의 독자가 온전히 음미할 수 있도록 섬세하고 충실하게 옮겼다. 104점의 명화와 이미지는 상상력을 자극하며 당시 상황과 영웅의 생애를 생생히 보여주고, 303개의 정밀한 각주와 해설은 고대 그리스의 지리, 신화, 문화적 맥락을 입체적으로 그려낸다. 특히 주요 인물과 사건의 계보, 시대적 배경까지 촘촘히 짚어내며, 단순한 독서를 넘어 깊은 통찰을 가능하게 한다. 마이리뷰(0) 평점: | Sales Point : 76,980 호메로스 오디세이아 책 줄거리 요약 영화원작 고전문학 - 지유 [마이리뷰] 오디세이아 (고대 그리스어 완역본) - vooc 삼천 년을 건너온 인간의 마음 - 장지원 [마이리뷰] 오디세이아 (고대 그리스어 완역본) - 제로북_서재 인류를 사로잡은 최고의 모험담. 세심한 번역과 아름다운 삽화와 함께. - 박칼럼"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "12위 스파이 패밀리 17",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=400315663&radar_rank=12&radar_ranking_date=20260823220003",
-        "published_at": "2026-08-23T22:00:03+00:00",
-        "summary": "스파이 패밀리 17 엔도 타츠야 지음 / 학산문화사(만화) / 2026년 08월 / ISBN: 9791141187699 정가: 6,000 원 / 판매가: 5,400 원 / 마일리지: 300 원 이벤트 : 만사모 테마 5 : 오싹한 만화의 계절"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "1위 세네카, 오늘을 빼앗기고 있는 당신에게",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=396404956&radar_rank=1&radar_ranking_date=20260823220003",
-        "published_at": "2026-08-23T22:00:03+00:00",
-        "summary": "세네카, 오늘을 빼앗기고 있는 당신에게 루키우스 안나이우스 세네카 지음, 하와이 대저택 편역 / 논픽션 / 2026년 07월 / ISBN: 9791199489561 정가: 18,000 원 / 판매가: 16,200 원 / 마일리지: 900 원 이벤트 : 화제의 책 + 알라딘 굿즈 (이벤트 도서 포함, 국내도서 3만원 이상) 『세네카, 오늘을 빼앗기고 있는 당신에게』는 로마 제정기의 스토아 철학자 세네카의 대화편 다섯 편에서 핵심 사유를 선별해 55편의 짧은 글로 재구성한 편역서다. 세네카는 네로 황제의 스승이자 고문으로 제국의 운명을 좌우하면서, 누구보다 바쁜 삶 한가운데에서 시간의 본질을 꿰뚫었다. \"삶은 짧지 않다. 우리가 짧게 만들 뿐이다.\" 그의 진단은 2000년이 지난 지금도 한 글자도 고칠 필요가 없다. 이 책은 시간에 쫓기며 살아가는 현대인에게 시간을 되찾는 것이 곧 자기 자신을 되찾는 것임을 일깨운다. 순서대로 읽어도 좋고 아무 페이지나 펼쳐 읽어도 좋은 55편의 글이, 바쁘게 낭비되는 하루를 정면으로 겨냥한다. 마이리뷰(0) 평점: | Sales Point : 236,490 처음 쓰는 리뷰 - 월아책방 내 시간의 점검표. - mieun0418 천천히 곱씹으며 읽기 좋은 책, 『Life is not short』 - judyorient 세네카를 곁에 둔 위인들처럼 나에게도 한줄기 깨달음이 내렸으면 좋겠다 - 덤플링 세네카, 오늘을 빼앗기고 있는 당신에게 - jmaria05"
       }
     },
     {
@@ -1268,15 +1286,6 @@
         "source_url": "https://www.theguardian.com/books/2026/aug/17/the-ego-trip-by-kimon-de-greef-review-a-bizarre-tale-of-psychedelic-toads-and-hair-raising-treatments",
         "published_at": "2026-08-17T08:00:49+00:00",
         "summary": "<p>A journalist investigates the unsettling world of a charismatic shaman and the people who trusted him</p><p>Which, in your opinion, is the worst current cultural trend: social media influencers; unregulated wellness practitioners; macho manosphere posturers; psychedelic bores; cultural appropriators? The good news is that, with Octavio Rettig, the central character in Kimon de Greef’s The Ego Trip, you don’t have to choose between them. He’s all five wrapped into one objectionable package, and so much more besides.</p><p>The tale begins with the Sonoran desert toad, an improbable amphibian that spends most of its life hiding underground in the baking badlands along the Mexico-Arizona border, and has done so blamelessly for millions of years. Whenever it rains, the toads emerge from their hiding places to mate, laying strings of eggs wherever water has pooled.</p> <a href=\"https://www.theguardian.com/books/2026/aug/17/the-ego-trip-by-kimon-de-greef-review-a-bizarre-tale-of-psychedelic-toads-and-hair-raising-treatments\">Continue reading...</a>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "The Guardian Books",
-        "headline": "We know sleep, exercise and diet are vital for health. But why?",
-        "source_url": "https://www.theguardian.com/books/2026/aug/09/we-know-sleep-exercise-and-diet-are-vital-for-health-but-why",
-        "published_at": "2026-08-09T11:00:15+00:00",
-        "summary": "<p>The benefits of all three come down to a crucial piece of cellular kit</p><p>Sleep. Exercise. Eat well. It’s the oldest recommendation in medicine, repeated so often it’s become a cliche. We know the advice, even if we don’t always follow it. But have you ever stopped to wonder why these three seemingly different habits have such remarkably similar effects on our brains and bodies?</p><p>For generations we’ve treated them as separate prescriptions – sleep restores us, exercise strengthens us and food fuels us. Yet neuroscience is beginning to suggest something rather more elegant: they’re all essentially doing the same job.</p> <a href=\"https://www.theguardian.com/books/2026/aug/09/we-know-sleep-exercise-and-diet-are-vital-for-health-but-why\">Continue reading...</a>"
       }
     },
     {
