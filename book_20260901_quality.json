@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-08-31T06:45:57.000675+00:00",
+  "generated_at": "2026-09-01T06:05:19.611627+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -17,23 +17,23 @@
     "sales_ranking_events": 15,
     "library_lending_events": 0,
     "author_event_events": 2,
-    "award_signal_events": 11,
-    "book_signal_event_count": 28,
-    "official_or_operational_event_count": 21,
+    "award_signal_events": 13,
+    "book_signal_event_count": 30,
+    "official_or_operational_event_count": 20,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 21,
-    "proxy_canonical_key_count": 7,
+    "complete_canonical_key_count": 20,
+    "proxy_canonical_key_count": 10,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 21,
+    "isbn_present_count": 20,
     "author_present_count": 13,
     "publisher_present_count": 6,
     "rank_present_count": 17,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 8,
+    "event_required_field_gap_count": 11,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 20
+    "daily_review_item_count": 26
   },
   "sources": [
     {
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 29,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 15,
       "event_count": 15,
       "latest_event_at": "2026-08-30T22:00:28+00:00",
-      "age_days": 0.36,
+      "age_days": 1.34,
       "latest_title": "8위 절창 (20만 부 기념 화이트 에디션)",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401104412&radar_rank=8&radar_ranking_date=20260830220028&rssType=5&type=item",
       "latest_source_signal": [
@@ -781,6 +781,146 @@
     }
   ],
   "events": [
+    {
+      "source": "Book Riot",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Here are the Winners of the 2026 Hugo Awards",
+      "url": "https://bookriot.com/2026-hugo-awards-winners",
+      "source_url": "https://bookriot.com/2026-hugo-awards-winners",
+      "event_at": "2026-08-31T14:14:12+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "hugo",
+      "genre": [
+        "fantasy"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "hugo",
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:book-riot:2e4329217db9",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:851ed185fcbd:20260831",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Here are the winners of the 2026 Hugo Awards.",
+      "url": "https://lithub.com/here-are-the-winners-of-the-2026-hugo-awards",
+      "source_url": "https://lithub.com/here-are-the-winners-of-the-2026-hugo-awards",
+      "event_at": "2026-08-31T12:51:00+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "hugo",
+      "genre": [
+        "fiction",
+        "fantasy"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "hugo"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:literary-hub:2e4329217db9",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:136ee95ae3db:20260831",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Marlon James on (Finally) Writing a Novel That Draws From His Life",
+      "url": "https://lithub.com/marlon-james-on-finally-writing-a-novel-that-draws-from-his-life",
+      "source_url": "https://lithub.com/marlon-james-on-finally-writing-a-novel-that-draws-from-his-life",
+      "event_at": "2026-08-31T09:10:01+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [
+        "novel"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:literary-hub:c0bbba686e23",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:6328f53662a2:20260831",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
     {
       "source": "The Guardian Books",
       "source_type": "rss",
@@ -1826,6 +1966,66 @@
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "굿나잇 헤어살롱/남예은 지음/사계절",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401105759&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401105759&rssType=1&type=item",
+      "event_at": "2026-08-28T02:01:00+00:00",
+      "isbn": "401105759",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "문학",
+        "인문학",
+        "과학",
+        "판타지",
+        "어린이",
+        "청소년"
+      ],
+      "publisher": [
+        "창비",
+        "사계절"
+      ],
+      "book_type": [
+        "신간"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:401105759",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:e3f4bf6a25f1:20260828",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
       "event_model": "author_event",
       "title": "독서모임을 오래 한 사람에게 생기는 일/김이경 지음/유유",
       "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401105478&rssType=1&type=item",
@@ -1965,113 +2165,6 @@
       ]
     },
     {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "대부호/성혜령 지음/문학동네",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401063790&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401063790&rssType=1&type=item",
-      "event_at": "2026-08-27T05:27:00+00:00",
-      "isbn": "401063790",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "이상문학상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학"
-      ],
-      "publisher": [
-        "창비",
-        "문학동네",
-        "문학과지성사"
-      ],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "이상문학상",
-        "수상",
-        "문학상",
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:401063790",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:c331a44042fb:20260827",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "월요일은 특별해!/자샤르 아완 지음, 김지은 옮김/키즈아이콘(아이코닉스)",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401062678&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401062678&rssType=1&type=item",
-      "event_at": "2026-08-27T05:14:00+00:00",
-      "isbn": "401062678",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "어린이",
-        "그림책"
-      ],
-      "publisher": [],
-      "book_type": [
-        "화제의 책",
-        "세트"
-      ],
-      "author": [],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:401062678",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:8f03b3e92ef8:20260827",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -2119,6 +2212,57 @@
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "Here are the Winners of the 2026 Hugo Awards",
+      "canonical_key": "book_source:book-riot:2e4329217db9",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "Here are the Winners of the 2026 Hugo Awards",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Here are the winners of the 2026 Hugo Awards.",
+      "canonical_key": "book_source:literary-hub:2e4329217db9",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Here are the winners of the 2026 Hugo Awards.",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Marlon James on (Finally) Writing a Novel That Draws From His Life",
+      "canonical_key": "book_source:literary-hub:c0bbba686e23",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Marlon James on (Finally) Writing a Novel That Draws From His Life",
+      "canonical_key_status": "source_proxy"
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
