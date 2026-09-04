@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-09-03T05:32:01.906553+00:00",
+  "generated_at": "2026-09-04T05:37:12.308995+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -19,21 +19,21 @@
     "author_event_events": 2,
     "award_signal_events": 15,
     "book_signal_event_count": 32,
-    "official_or_operational_event_count": 22,
+    "official_or_operational_event_count": 25,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 23,
-    "proxy_canonical_key_count": 9,
+    "complete_canonical_key_count": 26,
+    "proxy_canonical_key_count": 6,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 23,
-    "author_present_count": 17,
-    "publisher_present_count": 5,
-    "rank_present_count": 18,
+    "isbn_present_count": 26,
+    "author_present_count": 18,
+    "publisher_present_count": 9,
+    "rank_present_count": 17,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 10,
+    "event_required_field_gap_count": 6,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 24
+    "daily_review_item_count": 17
   },
   "sources": [
     {
@@ -75,7 +75,7 @@
       "article_count": 15,
       "event_count": 15,
       "latest_event_at": "2026-08-30T22:00:28+00:00",
-      "age_days": 3.31,
+      "age_days": 4.32,
       "latest_title": "8위 절창 (20만 부 기념 화이트 에디션)",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401104412&radar_rank=8&radar_ranking_date=20260830220028&rssType=5&type=item",
       "latest_source_signal": [
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 24,
+      "article_count": 23,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -782,6 +782,54 @@
   ],
   "events": [
     {
+      "source": "Book Riot",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "Remixing the Classics, Nostalgic YA Horror, and More YA Book Talk",
+      "url": "https://bookriot.com/ya-book-news-august-2026-2",
+      "source_url": "https://bookriot.com/ya-book-news-august-2026-2",
+      "event_at": "2026-09-03T10:01:00+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "book talk",
+      "award_name": "",
+      "genre": [
+        "horror"
+      ],
+      "publisher": [],
+      "book_type": [
+        "book news"
+      ],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "book talk"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:book-riot:a5e0035cb3c7",
+      "canonical_key_status": "source_proxy",
+      "event_key": "author_event:54c8646f386f:20260903",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -828,6 +876,443 @@
       ]
     },
     {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "테니스나무/윤고은 지음/문학동네",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401367792&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401367792&rssType=1&type=item",
+      "event_at": "2026-09-02T05:50:00+00:00",
+      "isbn": "401367792",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "여행",
+        "추리",
+        "동화"
+      ],
+      "publisher": [
+        "민음사",
+        "문학동네"
+      ],
+      "book_type": [],
+      "author": [
+        "작가",
+        "번역"
+      ],
+      "award": [
+        "수상",
+        "문학상",
+        "후보"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:401367792",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:3a56c4a0ed55:20260902",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "파랑을 잇는 바다/이요하라 신 지음, 김다미 옮김/비채",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401364282&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401364282&rssType=1&type=item",
+      "event_at": "2026-09-02T05:04:00+00:00",
+      "isbn": "401364282",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "과학",
+        "역사",
+        "로맨스"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:401364282",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:2081a940de33:20260902",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "안식월 일기/권남희 지음/다산책방",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401356897&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401356897&rssType=1&type=item",
+      "event_at": "2026-09-02T03:11:00+00:00",
+      "isbn": "401356897",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "북토크",
+      "award_name": "",
+      "genre": [
+        "에세이",
+        "시",
+        "문학",
+        "여행"
+      ],
+      "publisher": [],
+      "book_type": [
+        "신간"
+      ],
+      "author": [
+        "작가",
+        "저자",
+        "번역"
+      ],
+      "award": [],
+      "book_event": [
+        "북토크"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:401356897",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:08f0fecac8cc:20260902",
+      "required_field_proxy": {
+        "author_name": true,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "어떤 계절은 영원하지/하유지 지음/돌베개",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401353125&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401353125&rssType=1&type=item",
+      "event_at": "2026-09-02T02:16:00+00:00",
+      "isbn": "401353125",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "판타지",
+        "sf",
+        "어린이",
+        "청소년"
+      ],
+      "publisher": [
+        "사계절",
+        "현대문학"
+      ],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:401353125",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:021c2b43b7f7:20260902",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "우리가 주워진 세계/아사쿠라 히로카게 지음, 이구름 옮김/해피북스투유",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401351819&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401351819&rssType=1&type=item",
+      "event_at": "2026-09-02T01:55:00+00:00",
+      "isbn": "401351819",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학"
+      ],
+      "publisher": [],
+      "book_type": [
+        "신간"
+      ],
+      "author": [
+        "작가",
+        "데뷔"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:401351819",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:9d6fe778dfe0:20260902",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "창덕궁에 호랑이가 왔다/정명섭 지음, 김옥재 그림/모알보알",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401351506&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401351506&rssType=1&type=item",
+      "event_at": "2026-09-02T01:51:00+00:00",
+      "isbn": "401351506",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "시",
+        "역사",
+        "예술",
+        "추리",
+        "어린이",
+        "그림책"
+      ],
+      "publisher": [
+        "출판사"
+      ],
+      "book_type": [
+        "화제의 책",
+        "세트"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:401351506",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:6ae95af5bfcb:20260902",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "할머니 그루팔로와 이야기꾼 생쥐/줄리아 도널드슨 지음, 악셀 셰플러 그림, 노은정 옮김/비룡소",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401348908&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401348908&rssType=1&type=item",
+      "event_at": "2026-09-02T01:36:00+00:00",
+      "isbn": "401348908",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "후보",
+      "genre": [
+        "시",
+        "어린이",
+        "그림책"
+      ],
+      "publisher": [
+        "비룡소"
+      ],
+      "book_type": [
+        "신간",
+        "시리즈"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "후보"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:401348908",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:7258eae19f57:20260902",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "화내면 온대 화딱지벌레/정희용 지음, 김보라 그림/책읽는곰",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401348546&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401348546&rssType=1&type=item",
+      "event_at": "2026-09-02T01:33:00+00:00",
+      "isbn": "401348546",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "어린이",
+        "동화"
+      ],
+      "publisher": [],
+      "book_type": [
+        "신간",
+        "시리즈"
+      ],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:401348546",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:c1b2d2b276db:20260902",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
       "source": "NPR Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -866,367 +1351,6 @@
       "canonical_key": "book_edition:5950423",
       "canonical_key_status": "complete",
       "event_key": "award_signal:69563c93b766:20260901",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "Book Riot",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "📚 Despite all the scandals",
-      "url": "https://bookriot.com/despite-all-the-scandals",
-      "source_url": "https://bookriot.com/despite-all-the-scandals",
-      "event_at": "2026-09-01T16:15:00+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "hugo",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "hugo"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_source:book-riot:b2c6f11b6810",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:5fd3971262a5:20260901",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "[세트] 점퍼 1~2 세트 - 전2권/고정욱 지음/생각학교",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401323398&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401323398&rssType=1&type=item",
-      "event_at": "2026-09-01T07:48:00+00:00",
-      "isbn": "401323398",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "강연",
-      "award_name": "",
-      "genre": [
-        "소설",
-        "시",
-        "문학",
-        "역사",
-        "여행",
-        "판타지",
-        "청소년"
-      ],
-      "publisher": [],
-      "book_type": [
-        "세트"
-      ],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "강연"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:401323398",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:965b1fd0d299:20260901",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "중동 재편 전쟁/노석조 지음/메디치미디어",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401320806&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401320806&rssType=1&type=item",
-      "event_at": "2026-09-01T07:23:00+00:00",
-      "isbn": "401320806",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "과학",
-        "사회과학",
-        "정치",
-        "개발"
-      ],
-      "publisher": [],
-      "book_type": [
-        "신간"
-      ],
-      "author": [
-        "저자"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:401320806",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:312223edd19f:20260901",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "고양이 있으면 좋겠다/사노 요코 지음, 황진희 옮김/길벗어린이",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401317607&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401317607&rssType=1&type=item",
-      "event_at": "2026-09-01T06:55:00+00:00",
-      "isbn": "401317607",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "도서전",
-      "award_name": "",
-      "genre": [
-        "시",
-        "어린이",
-        "그림책"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [],
-      "book_event": [
-        "도서전"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:401317607",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:748b2e62d5c5:20260901",
-      "required_field_proxy": {
-        "author_name": true,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Anita Brookner by Hermione Lee review – an enigmatic literary great given her due",
-      "url": "https://www.theguardian.com/books/2026/sep/01/anita-brookner-by-hermione-lee-review-an-enigmatic-literary-great-given-her-due",
-      "source_url": "https://www.theguardian.com/books/2026/sep/01/anita-brookner-by-hermione-lee-review-an-enigmatic-literary-great-given-her-due",
-      "event_at": "2026-09-01T06:00:48+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [
-        "fiction",
-        "literary",
-        "literature"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "author"
-      ],
-      "award": [
-        "booker",
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:title:b5735aeb30c5",
-      "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:703bcbe51cb2:20260901",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "오디세이아 : 운명에 맞서다/김태권 지음, 산사 그림/천개의바람",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401312295&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401312295&rssType=1&type=item",
-      "event_at": "2026-09-01T05:52:00+00:00",
-      "isbn": "401312295",
-      "rank": 1,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "시",
-        "역사",
-        "여행",
-        "어린이",
-        "동화"
-      ],
-      "publisher": [],
-      "book_type": [
-        "화제의 책",
-        "세트"
-      ],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:401312295",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:764c2fc330e7:20260901",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "최재천의 동물대탐험 10 : 우리 동네 수달 가족/최재천 기획, 박현미 그림, 황혜영 글, 안선영 해설/다산어린이",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401310297&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401310297&rssType=1&type=item",
-      "event_at": "2026-09-01T05:25:00+00:00",
-      "isbn": "401310297",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "시",
-        "과학",
-        "컴퓨터",
-        "어린이",
-        "동화"
-      ],
-      "publisher": [],
-      "book_type": [
-        "화제의 책",
-        "세트",
-        "시리즈"
-      ],
-      "author": [
-        "한강"
-      ],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:401310297",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:f66b92157ec9:20260901",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -2142,52 +2266,6 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "The Things We Never Say by Elizabeth Strout audiobook review – brilliant portrait of an existential crisis",
-      "url": "https://www.theguardian.com/books/2026/aug/27/the-things-we-never-say-elizabeth-strout-audiobook-review-no-man-is-an-island",
-      "source_url": "https://www.theguardian.com/books/2026/aug/27/the-things-we-never-say-elizabeth-strout-audiobook-review-no-man-is-an-island",
-      "event_at": "2026-08-27T14:00:16+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [],
-      "publisher": [],
-      "book_type": [
-        "audiobook"
-      ],
-      "author": [],
-      "award": [
-        "booker"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:the-guardian-books:3f16986b6638",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:6c155b3d26b8:20260827",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
       "title": "Triage by Claudia Rankine review – how should we respond to the world’s atrocities?",
       "url": "https://www.theguardian.com/books/2026/aug/25/triage-by-claudia-rankine-review-how-should-we-respond-to-the-worlds-atrocities",
       "source_url": "https://www.theguardian.com/books/2026/aug/25/triage-by-claudia-rankine-review-how-should-we-respond-to-the-worlds-atrocities",
@@ -2272,55 +2350,26 @@
       "required_field_gaps": [
         "isbn"
       ]
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "The Rise and Fall of the Artificial State by Jill Lepore review – an ominous warning of tech takeover",
-      "url": "https://www.theguardian.com/books/2026/aug/19/the-rise-and-fall-of-the-artificial-state-by-jill-lepore-review-an-ominous-warning-of-tech-takeover",
-      "source_url": "https://www.theguardian.com/books/2026/aug/19/the-rise-and-fall-of-the-artificial-state-by-jill-lepore-review-an-ominous-warning-of-tech-takeover",
-      "event_at": "2026-08-19T08:00:09+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "pulitzer",
-      "genre": [
-        "fantasy"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "pulitzer"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:the-guardian-books:e68d2bb7690f",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:813e719b1920:20260819",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "Book Riot",
+      "title": "Remixing the Classics, Nostalgic YA Horror, and More YA Book Talk",
+      "canonical_key": "book_source:book-riot:a5e0035cb3c7",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "author_event",
+      "source": "Book Riot",
+      "title": "Remixing the Classics, Nostalgic YA Horror, and More YA Book Talk",
+      "canonical_key_status": "source_proxy"
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
@@ -2336,50 +2385,6 @@
       "event_model": "award_signal",
       "source": "The Guardian Books",
       "title": "Espionage, true crime and war: Baillie Gifford longlist revealed",
-      "canonical_key_status": "title_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "📚 Despite all the scandals",
-      "canonical_key": "book_source:book-riot:b2c6f11b6810",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "📚 Despite all the scandals",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "알라딘 신간",
-      "title": "[세트] 점퍼 1~2 세트 - 전2권/고정욱 지음/생각학교",
-      "canonical_key": "book_edition:401323398",
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "Anita Brookner by Hermione Lee review – an enigmatic literary great given her due",
-      "canonical_key": "book_edition:title:b5735aeb30c5",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "Anita Brookner by Hermione Lee review – an enigmatic literary great given her due",
       "canonical_key_status": "title_proxy"
     },
     {
@@ -2420,23 +2425,6 @@
       "reason": "missing_required_fields",
       "event_model": "award_signal",
       "source": "The Guardian Books",
-      "title": "The Things We Never Say by Elizabeth Strout audiobook review – brilliant portrait of an existential crisis",
-      "canonical_key": "book_source:the-guardian-books:3f16986b6638",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "The Things We Never Say by Elizabeth Strout audiobook review – brilliant portrait of an existential crisis",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
       "title": "Triage by Claudia Rankine review – how should we respond to the world’s atrocities?",
       "canonical_key": "book_source:the-guardian-books:970c0625dd14",
       "required_field_gaps": [
@@ -2465,23 +2453,6 @@
       "event_model": "award_signal",
       "source": "The Guardian Books",
       "title": "The Disappearers by Marlon James review – a scorching exposé of homophobia in Jamaica",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "The Rise and Fall of the Artificial State by Jill Lepore review – an ominous warning of tech takeover",
-      "canonical_key": "book_source:the-guardian-books:e68d2bb7690f",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "The Rise and Fall of the Artificial State by Jill Lepore review – an ominous warning of tech takeover",
       "canonical_key_status": "source_proxy"
     },
     {
