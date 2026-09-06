@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-09-05T05:20:53.361224+00:00",
+  "generated_at": "2026-09-06T05:37:10.537916+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -17,23 +17,23 @@
     "sales_ranking_events": 15,
     "library_lending_events": 0,
     "author_event_events": 0,
-    "award_signal_events": 11,
-    "book_signal_event_count": 26,
-    "official_or_operational_event_count": 20,
+    "award_signal_events": 12,
+    "book_signal_event_count": 27,
+    "official_or_operational_event_count": 22,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 21,
-    "proxy_canonical_key_count": 5,
+    "complete_canonical_key_count": 23,
+    "proxy_canonical_key_count": 4,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 21,
+    "isbn_present_count": 23,
     "author_present_count": 15,
-    "publisher_present_count": 5,
-    "rank_present_count": 18,
+    "publisher_present_count": 7,
+    "rank_present_count": 17,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 5,
+    "event_required_field_gap_count": 4,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 16
+    "daily_review_item_count": 14
   },
   "sources": [
     {
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 28,
+      "article_count": 25,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 15,
       "event_count": 15,
       "latest_event_at": "2026-08-30T22:00:28+00:00",
-      "age_days": 5.31,
+      "age_days": 6.32,
       "latest_title": "8위 절창 (20만 부 기념 화이트 에디션)",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401104412&radar_rank=8&radar_ranking_date=20260830220028&rssType=5&type=item",
       "latest_source_signal": [
@@ -782,6 +782,212 @@
   ],
   "events": [
     {
+      "source": "Book Riot",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Book Riot’s Deals of the Day for September 5, 2026",
+      "url": "https://bookriot.com/book-riots-deals-of-the-day-for-september-5-2026",
+      "source_url": "https://bookriot.com/book-riots-deals-of-the-day-for-september-5-2026",
+      "event_at": "2026-09-05T11:00:00+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:book-riot:9f641e525b08",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:ec91395b60e8:20260905",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "오마리가 살인사건/아시베 다쿠 지음, 구수영 옮김/더블샷",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401474591&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401474591&rssType=1&type=item",
+      "event_at": "2026-09-04T03:17:00+00:00",
+      "isbn": "401474591",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "추리"
+      ],
+      "publisher": [],
+      "book_type": [
+        "신간"
+      ],
+      "author": [
+        "작가",
+        "역자",
+        "데뷔"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:401474591",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:b3a3ed664554:20260904",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "로켓 드림/크리스천 데이븐포트 지음, 박세연 옮김/알에이치코리아(RHK)",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401460826&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401460826&rssType=1&type=item",
+      "event_at": "2026-09-04T00:46:00+00:00",
+      "isbn": "401460826",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "퓰리처",
+      "genre": [
+        "시",
+        "문학",
+        "경제경영",
+        "과학",
+        "정치",
+        "개발"
+      ],
+      "publisher": [
+        "알에이치코리아",
+        "rhk"
+      ],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "퓰리처",
+        "후보"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:401460826",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:fc08253f4a6e:20260904",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "외로움 탐지견 고독/천준아 지음, 불곰 그림/비룡소",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401458769&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401458769&rssType=1&type=item",
+      "event_at": "2026-09-04T00:04:00+00:00",
+      "isbn": "401458769",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "어린이",
+        "동화"
+      ],
+      "publisher": [
+        "비룡소"
+      ],
+      "book_type": [
+        "화제의 책",
+        "세트"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:401458769",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:ed0ab491c054:20260904",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
       "source": "알라딘 신간",
       "source_type": "rss",
       "trust_tier": "T1_official",
@@ -881,59 +1087,6 @@
       "canonical_key": "book_edition:401424377",
       "canonical_key_status": "complete",
       "event_key": "award_signal:2ab557666e35:20260903",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "여행하는 여행 가방/이네세 잔데레 지음, 아네테 멜레세 그림, 용희진 옮김/미래아이(미래M&B,미래엠앤비)",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401404019&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401404019&rssType=1&type=item",
-      "event_at": "2026-09-03T02:38:00+00:00",
-      "isbn": "401404019",
-      "rank": 1,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "시",
-        "여행",
-        "어린이",
-        "청소년",
-        "그림책"
-      ],
-      "publisher": [],
-      "book_type": [
-        "신간"
-      ],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:401404019",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:df0c45af2274:20260903",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -1838,101 +1991,6 @@
       "required_field_gaps": []
     },
     {
-      "source": "New York Times Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "How Marlon James Confronted ‘the Story I Was Not Allowed to Live’",
-      "url": "https://www.nytimes.com/2026/08/30/books/review/marlon-james-interview-the-disappearers.html",
-      "source_url": "https://www.nytimes.com/2026/08/30/books/review/marlon-james-interview-the-disappearers.html",
-      "event_at": "2026-08-30T13:24:14+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [
-        "novel"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "author"
-      ],
-      "award": [
-        "booker"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:title:4e3f1bb8eca6",
-      "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:edc02c28f8bc:20260830",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "New York Times Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Book Review: ‘The Disappearers,’ by Marlon James",
-      "url": "https://www.nytimes.com/2026/08/30/books/review/the-disappearers-marlon-james.html",
-      "source_url": "https://www.nytimes.com/2026/08/30/books/review/the-disappearers-marlon-james.html",
-      "event_at": "2026-08-30T11:47:14+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [],
-      "publisher": [],
-      "book_type": [
-        "book review"
-      ],
-      "author": [],
-      "award": [
-        "booker",
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:new-york-times-books:a7cd4c0515c4",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:8f8cef437f12:20260830",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -2031,6 +2089,23 @@
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "Book Riot’s Deals of the Day for September 5, 2026",
+      "canonical_key": "book_source:book-riot:9f641e525b08",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "Book Riot’s Deals of the Day for September 5, 2026",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
       "source": "The Guardian Books",
       "title": "Espionage, true crime and war: Baillie Gifford longlist revealed",
       "canonical_key": "book_edition:title:1c1d3bdd8d05",
@@ -2044,40 +2119,6 @@
       "source": "The Guardian Books",
       "title": "Espionage, true crime and war: Baillie Gifford longlist revealed",
       "canonical_key_status": "title_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "How Marlon James Confronted ‘the Story I Was Not Allowed to Live’",
-      "canonical_key": "book_edition:title:4e3f1bb8eca6",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "How Marlon James Confronted ‘the Story I Was Not Allowed to Live’",
-      "canonical_key_status": "title_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "Book Review: ‘The Disappearers,’ by Marlon James",
-      "canonical_key": "book_source:new-york-times-books:a7cd4c0515c4",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "Book Review: ‘The Disappearers,’ by Marlon James",
-      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
