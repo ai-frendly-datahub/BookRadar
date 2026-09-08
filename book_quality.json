@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-09-07T05:47:26.721293+00:00",
+  "generated_at": "2026-09-08T05:41:10.070651+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -17,16 +17,16 @@
     "sales_ranking_events": 15,
     "library_lending_events": 0,
     "author_event_events": 1,
-    "award_signal_events": 10,
-    "book_signal_event_count": 26,
-    "official_or_operational_event_count": 21,
+    "award_signal_events": 9,
+    "book_signal_event_count": 25,
+    "official_or_operational_event_count": 20,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 22,
+    "complete_canonical_key_count": 21,
     "proxy_canonical_key_count": 4,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 22,
-    "author_present_count": 11,
-    "publisher_present_count": 7,
+    "isbn_present_count": 21,
+    "author_present_count": 9,
+    "publisher_present_count": 8,
     "rank_present_count": 16,
     "lending_count_present_count": 0,
     "event_required_field_gap_count": 4,
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 26,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 15,
       "event_count": 15,
       "latest_event_at": "2026-09-06T22:00:13+00:00",
-      "age_days": 0.32,
+      "age_days": 1.32,
       "latest_title": "13위 카구라바치 11 (더블특전판)",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401460099&radar_rank=13&radar_ranking_date=20260906220013&rssType=5&type=item",
       "latest_source_signal": [
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 23,
+      "article_count": 24,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1619,6 +1619,60 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
+      "title": "귀신 사냥꾼이 간다 3 : 천계, 그리고 야찰사/천능금 지음, 전명진 그림/비룡소",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401484474&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401484474&rssType=1&type=item",
+      "event_at": "2026-09-04T04:48:00+00:00",
+      "isbn": "401484474",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "어린이",
+        "동화"
+      ],
+      "publisher": [
+        "비룡소"
+      ],
+      "book_type": [
+        "화제의 책",
+        "세트",
+        "시리즈",
+        "완결"
+      ],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:401484474",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:1dfeedf00b24:20260904",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
       "title": "오마리가 살인사건/아시베 다쿠 지음, 구수영 옮김/더블샷",
       "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401474591&rssType=1&type=item",
       "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401474591&rssType=1&type=item",
@@ -1765,113 +1819,6 @@
       "canonical_key": "book_edition:401458769",
       "canonical_key_status": "complete",
       "event_key": "award_signal:ed0ab491c054:20260904",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "이토록 타인이 홀가분해지는 순간/네드라 글로버 타와브 지음, 김효정 옮김/메이븐",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401426195&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401426195&rssType=1&type=item",
-      "event_at": "2026-09-03T07:16:00+00:00",
-      "isbn": "401426195",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "시",
-        "문학",
-        "자기계발",
-        "인문학",
-        "건강",
-        "심리"
-      ],
-      "publisher": [],
-      "book_type": [
-        "신간"
-      ],
-      "author": [
-        "저자"
-      ],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:401426195",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:43fcdfb32016:20260903",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "묘생묘세/천쉐 지음, 허유영 옮김/돌베개",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401424377&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401424377&rssType=1&type=item",
-      "event_at": "2026-09-03T06:57:00+00:00",
-      "isbn": "401424377",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학"
-      ],
-      "publisher": [],
-      "book_type": [
-        "신간"
-      ],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:401424377",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:2ab557666e35:20260903",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
