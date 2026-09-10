@@ -1,0 +1,1069 @@
+{
+  "date": "2026-09-10",
+  "category": "book",
+  "article_count": 106,
+  "source_count": 6,
+  "matched_count": 106,
+  "top_entities": [
+    {
+      "name": "SourceSignal",
+      "count": 212
+    },
+    {
+      "name": "Genre",
+      "count": 46
+    },
+    {
+      "name": "Author",
+      "count": 20
+    },
+    {
+      "name": "BookType",
+      "count": 13
+    },
+    {
+      "name": "Award",
+      "count": 5
+    },
+    {
+      "name": "Publisher",
+      "count": 4
+    },
+    {
+      "name": "BookEvent",
+      "count": 1
+    }
+  ],
+  "sources": {
+    "New York Times Books": 21,
+    "NPR Books": 10,
+    "Book Riot": 10,
+    "Literary Hub": 10,
+    "The Guardian Books": 25,
+    "Publishers Weekly": 30
+  },
+  "generated_at": "2026-09-10T14:41:27.289142+09:00",
+  "articles": [
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "35 Novels Coming This Fall",
+        "source_url": "https://www.nytimes.com/2026/09/08/books/review/new-novels-coming-this-fall.html",
+        "published_at": "2026-09-09T16:55:22+00:00",
+        "summary": "New fiction from Marlon James, Barbara Kingsolver, John Green, John Grisham and much more."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Book Review: ‘Switzy,’ by Emma Cline",
+        "source_url": "https://www.nytimes.com/2026/09/06/books/review/switzy-emma-cline.html",
+        "published_at": "2026-09-09T15:57:51+00:00",
+        "summary": "In an impressive change of pace, Emma Cline’s new novel gets inside the head of a stoic businessman with dementia."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "NPR Books",
+        "headline": "How the Sept. 11 attacks remade life in America",
+        "source_url": "https://www.npr.org/2026/09/09/nx-s1-5962197/how-the-sept-11-attacks-remade-life-in-america",
+        "published_at": "2026-09-09T15:49:38+00:00",
+        "summary": "In <em>Homeland: The War on Terror in American Life,</em> Richard Beck links the attacks to an expansion of government surveillance, increased hate crimes against Muslim Americans and the rise of Donald Trump."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "NPR Books",
+        "headline": "It's 2031, and the U.S. has 'come undone' in Emily St. John Mandel's 'Exit Party'",
+        "source_url": "https://www.npr.org/2026/09/09/nx-s1-5962188/exit-party-review-emily-st-john-mandel",
+        "published_at": "2026-09-09T15:49:03+00:00",
+        "summary": "<em>Exit Party</em> presents an arresting vision of a world in which time is porous and people are duplicated. Like Mandel's prior novels, it's ingenious, eerie and complex — and it hits close to home."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "Book Riot’s Deals of the Day for September 9, 2026",
+        "source_url": "https://bookriot.com/book-riots-deals-of-the-day-for-september-9-2026/",
+        "published_at": "2026-09-09T14:46:41+00:00",
+        "summary": "A foodie serial killer novel, a magical gothic thriller, Groundhog Day meets Deadpool, and more of today's best book deals."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Literary Hub",
+        "headline": "On the strange, literary video games of Inpatient Press.",
+        "source_url": "https://lithub.com/on-the-strange-literary-video-games-of-inpatient-press/",
+        "published_at": "2026-09-09T13:15:53+00:00",
+        "summary": "The indie publisher Inpatient Press is doing fascinating, form-breaking work, publishing everything from novels, reprints, zines, and games since 2013. Inpatient’s publisher, Mitch Anzuoni, studied computer science and creative writing in college (fittingly) and aims “to publish what others do"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Book Review: ‘The Pirate Queen,’ by Ariel Lawhon",
+        "source_url": "https://www.nytimes.com/2026/09/08/books/review/the-pirate-queen-ariel-lawhon.html",
+        "published_at": "2026-09-09T11:07:04+00:00",
+        "summary": "In a new novel, the author Ariel Lawhon revives a 16th-century sea captain previously pushed to the margins."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Literary Hub",
+        "headline": "Lit Hub Daily: September 9, 2026",
+        "source_url": "https://lithub.com/lit-hub-daily-september-9-2026/",
+        "published_at": "2026-09-09T10:30:53+00:00",
+        "summary": "“Language is something that is practiced and learned and something that you can be awful at, and also something that you can get better at. But the only way that you get better is by making mistakes.” R.F. Kuang talks"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Books to Match Your Mood",
+        "source_url": "https://www.nytimes.com/video/books/100000011054884/books-to-match-your-mood.html",
+        "published_at": "2026-09-09T10:19:38+00:00",
+        "summary": "MJ Franklin of The New York Times Book Review recommends books based on your mood."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "Solve Murders at the End of the World",
+        "source_url": "https://bookriot.com/murder-mysteries-at-the-end-of-the-world/",
+        "published_at": "2026-09-09T10:05:00+00:00",
+        "summary": "These mysteries ask the question, \"Do law and order still apply at the end of the world?\""
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "Miss America and the Laziest Superhero Origin Story Ever",
+        "source_url": "https://bookriot.com/miss-america-superhero-origin-story/",
+        "published_at": "2026-09-09T10:04:00+00:00",
+        "summary": "It all starts with a reporter falling asleep on a bench on Liberty Island back in 1941..."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "6 Books Documenting Global Historical Protest Movements",
+        "source_url": "https://bookriot.com/books-documenting-global-historical-protest-movements/",
+        "published_at": "2026-09-09T10:03:00+00:00",
+        "summary": "These books documenting global historical protest movements can help us all see how our predecessors protested and bring it into today."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "Moving Castles, A Love Letter to Frankenstein, and More New YA Books for September 9, 2026",
+        "source_url": "https://bookriot.com/new-ya-books-for-september-9-2026/",
+        "published_at": "2026-09-09T10:02:00+00:00",
+        "summary": "A cut-throat crew team, a game where castles are moved place to place, a reimagined Frankenstein, and more new YA books."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "Illustrated Horror Novels",
+        "source_url": "https://bookriot.com/illustrated-horror-novels/",
+        "published_at": "2026-09-09T10:01:00+00:00",
+        "summary": "In these illustrated horror novels, you’ll find a haunting story of a missing grandfather, sinister family secrets, and spirals gone wrong!"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "Queer Enemies-to-Lovers Romance",
+        "source_url": "https://bookriot.com/queer-enemies-to-lovers-romance/",
+        "published_at": "2026-09-09T10:00:00+00:00",
+        "summary": "From enemy witches to teenagers fake-dating, the books listed below will give you that sweet, sweet dopamine hit of falling for the enemy."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Literary Hub",
+        "headline": "Learning From Shame: R.F. Kuang on Diaspora, Language and Writing Young Protagonists",
+        "source_url": "https://lithub.com/learning-from-shame-r-f-kuang-on-diaspora-language-and-writing-young-protagonists/",
+        "published_at": "2026-09-09T09:10:54+00:00",
+        "summary": "R.F. Kuang is, in the best sense, a literary chameleon. Each one of her novels presents a different setting and dynamic, but her oeuvre is unified by careful thought, sharp style, and an uncanny ability to make the pages want"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Literary Hub",
+        "headline": "What Weimar Berlin’s Most Famous Plays Revealed About Artistic Freedom",
+        "source_url": "https://lithub.com/what-weimar-berlins-most-famous-plays-revealed-about-artistic-freedom/",
+        "published_at": "2026-09-09T09:08:57+00:00",
+        "summary": "Is there a German word that means the opposite of “doppelgänger”—not the uncannily mysterious twin, but the secretly matched-up opponent who stands for everything one hates and also hates everything one stands for? If so, Bertolt Brecht could have filled"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Literary Hub",
+        "headline": "What Peatlands Can Teach Us About Time",
+        "source_url": "https://lithub.com/what-peatlands-can-teach-us-about-time/",
+        "published_at": "2026-09-09T09:08:40+00:00",
+        "summary": "I am sitting in a frost pocket in West Virginia, looking at a Canada warbler. It is World Migratory Bird Day in spring, the second Saturday of May, and I have spent the past week in search of warblers. The"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Literary Hub",
+        "headline": "“Get Out.” Advice on Teaching High School From the Late, Great Frank McCourt",
+        "source_url": "https://lithub.com/get-out-advice-on-teaching-high-school-from-the-late-great-frank-mccourt/",
+        "published_at": "2026-09-09T09:08:34+00:00",
+        "summary": "On my second day as a rookie English teacher at my alma mater, Stuyvesant High School, I walked down the fourth floor hallway on my way to class. Behind a thick column, lurking in the shadows, a kind looking man"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Literary Hub",
+        "headline": "Read the Winners of American Short Fiction’s 2026 Insider Prize",
+        "source_url": "https://lithub.com/read-the-winners-of-american-short-fictions-2026-insider-prize/",
+        "published_at": "2026-09-09T09:07:27+00:00",
+        "summary": "Writing is a challenge, at every level. There are constant pressures acting upon a writer: juggling between responsibilities and work; prioritizing health; making and somehow slowing down time; even, perhaps, the arresting, infinite possibilities of the page. Not to mention,"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Literary Hub",
+        "headline": "The Literary Agent Who Lost the Narrative Thread",
+        "source_url": "https://lithub.com/the-literary-agent-who-lost-the-narrative-thread/",
+        "published_at": "2026-09-09T09:06:45+00:00",
+        "summary": "As a literary agent, I’ve spent years shaping the stories of other people’s grief. There was the Pulitzer-nominated journalist who’d lost her only child when he was seven. And the Black descendent of Thomas Jefferson who, upon her father’s death,"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Literary Hub",
+        "headline": "A Legal History of Anti-Chinese Racism in America",
+        "source_url": "https://lithub.com/a-legal-history-of-anti-chinese-racism-in-america/",
+        "published_at": "2026-09-09T09:06:39+00:00",
+        "summary": "In the history of the Chinese in America, the border has caught our attention and held it. Chinese migrants’ attempts to cross the border, and America’s attempts to stop them, is the story that historians have told and retold. But"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Book Review: ‘Call It Evil,’ by Susan Neiman",
+        "source_url": "https://www.nytimes.com/2026/09/09/books/review/call-it-evil-susan-neiman.html",
+        "published_at": "2026-09-09T09:05:22+00:00",
+        "summary": "In a new book, Susan Neiman argues that by defining evil in terms of individual monstrousness we fail to perceive its widespread hold on our culture."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Sara Bareilles Confronted Grief, and Found Herself",
+        "source_url": "https://www.nytimes.com/2026/09/09/arts/sara-bareilles-good-grief-interestings.html",
+        "published_at": "2026-09-09T09:04:07+00:00",
+        "summary": "Her new album, “Good Grief,” mourns friends including her Broadway co-star Gavin Creel. She’s also adapting the Meg Wolitzer novel “The Interestings” into a musical."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Book Review: ‘Is This It,’ by Steven Hyden",
+        "source_url": "https://www.nytimes.com/2026/09/09/books/review/steven-hyden-is-this-it.html",
+        "published_at": "2026-09-09T09:03:23+00:00",
+        "summary": "Steven Hyden considers the cultural shifts of the past 25 years in a new book about the band."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "NPR Books",
+        "headline": "How to fight with the people we care about, illustrated",
+        "source_url": "https://www.npr.org/2026/09/09/nx-s1-5961264/conflict-and-relationships-comic-priya-parker",
+        "published_at": "2026-09-09T09:01:00+00:00",
+        "summary": "Arguing with a partner or a loved one can be anxiety-inducing. Conflict resolution facilitator Priya Parker explains how to start and end a fight — while easing dread for everyone."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "📚 The most Googled book series",
+        "source_url": "https://bookriot.com/9-9-flagship-newsletter-draft/",
+        "published_at": "2026-09-09T09:00:00+00:00",
+        "summary": "It's not the boy wizard."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "Best Nonfiction Books of the Century So Far",
+        "source_url": "https://bookriot.com/best-nonfiction-books-of-the-century-so-far/",
+        "published_at": "2026-09-09T09:00:00+00:00",
+        "summary": "Here are our picks for the best nonfiction of the century so far."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "NPR Books",
+        "headline": "Colin Kaepernick reflects on Jay-Z 'disappointing' him, losing the NFL and finding his power",
+        "source_url": "https://www.npr.org/2026/09/09/nx-s1-5791621/colin-kaepernick-perilous-fight-jay-z-nfl-deal",
+        "published_at": "2026-09-09T08:46:30+00:00",
+        "summary": "A decade after taking a knee, Colin Kaepernick has no regrets and is reflecting on his life in his new memoir, <em>The Perilous Fight</em>. He talks to NPR's Michel Martin about losing football, his disappointment with Jay-Z and what the protest taught him about power."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Literary Hub",
+        "headline": "Adam Erlich Sachs on Heinrich von Kleist’s Michael Kohlhaas",
+        "source_url": "https://lithub.com/adam-erlich-sachs-on-heinrich-von-kleists-michael-kohlhaas/",
+        "published_at": "2026-09-09T08:10:37+00:00",
+        "summary": "The Windham-Campbell Prizes Podcast features a series of conversations with past and present Windham-Campbell Prize winners about their favorite books and plays. Hosted by Michael Kelleher. For the final episode of our 2026 season, Mike talks with Adam Erlich Sachs"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "All About My Mother by Rachael Stirling review – a joyous love letter to Diana Rigg",
+        "source_url": "https://www.theguardian.com/books/2026/sep/09/all-about-my-mother-by-rachael-stirling-review-a-joyous-love-letter-to-diana-rigg",
+        "published_at": "2026-09-09T08:00:03+00:00",
+        "summary": "<p>Beautifully written by her daughter, this is a funny and intimate eulogy to the 60s star of The Avengers who went on to specialise in fierce, complicated women</p><p>The late actor Diana Rigg declined to call herself a feminist, noting: “Why would I burn my bra? I need my bra.” Nonetheless, her ideas on womanhood were ahead of their time. In an interview with Michael Parkinson, she observed how marriage was “all rather pagan, don’t you think? … A lot of women see it as security. Well, I’m not a woman who yearns for security.”</p><p>Taking over from Honor Blackman as the high-kicking Emma Peel in the 1960s spy series The Avengers, Rigg refused to play subordinate sidekick to Patrick Macnee’s Steed, turning her character into a beacon of female empowerment. When Rigg learned that not only was Macnee paid significantly more than she was, but the camera operator was too, she demanded a raise. She got it, but that didn’t stop the press from labelling her as a grasping diva. Fifty years later, she told Newsnight: “Equal pay. That’s what feminism means to me, only that.”</p> <a href=\"https://www.theguardian.com/books/2026/sep/09/all-about-my-mother-by-rachael-stirling-review-a-joyous-love-letter-to-diana-rigg\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "What Should My Children Do? by Daniel Susskind review – the case for embracing tech in the classroom",
+        "source_url": "https://www.theguardian.com/books/2026/sep/09/what-should-my-children-do-by-daniel-susskind-review-the-case-for-embracing-tech-in-the-classroom",
+        "published_at": "2026-09-09T06:00:01+00:00",
+        "summary": "<p>A refreshingly optimistic book that asks us to grasp the educational opportunities of AI, rather than shrink from them</p><p>In 1979, the government asked Wilfred Cockcroft, a now largely forgotten maths lecturer from the University of Hull, to write a report about a crisis in the teaching of his subject to children. It was wide-ranging and meticulous, and included a chapter on a technological innovation that was suddenly becoming available to the average consumer: the calculator.</p><p>Many parents and teachers feared that the gadget would undermine a basic skill and a pillar of education – one of the sacred three Rs – producing generations of dumbed-down drones who could reach for a device in their pockets to avoid the hard graft of arithmetic.</p> <a href=\"https://www.theguardian.com/books/2026/sep/09/what-should-my-children-do-by-daniel-susskind-review-the-case-for-embracing-tech-in-the-classroom\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "What Webtoon’s New AI Partnership Could Mean for Translators",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/comics/article/101199-what-webtoon-s-ai-partnership-could-mean-for-translators.html",
+        "published_at": "2026-09-09T04:00:00+00:00",
+        "summary": "What Webtoon’s New AI Partnership Could Mean for Translators"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Publishing Industry Sales Up in First Half of 2026",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/financial-reporting/article/101193-publishing-industry-sales-up-in-first-half-of-2026.html",
+        "published_at": "2026-09-09T04:00:00+00:00",
+        "summary": "Publishing Industry Sales Up in First Half of 2026"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Authors Guild Addresses Anthropic Settlement Concerns",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101200-authors-guild-addresses-anthropic-settlement-hiccups.html",
+        "published_at": "2026-09-09T04:00:00+00:00",
+        "summary": "Authors Guild Addresses Anthropic Settlement Concerns"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Small Press Expo to Celebrate Fantagraphics, ‘New Yorker’ Cartoonists",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/comics/article/101190-small-press-expo-to-celebrate-fantagraphics-new-yorker-cartoonists-and-more.html",
+        "published_at": "2026-09-09T04:00:00+00:00",
+        "summary": "Small Press Expo to Celebrate Fantagraphics, ‘New Yorker’ Cartoonists"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Dash Shaw Channels Covid Losses in ‘Like Swimmers’",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/comics/article/101187-dash-shaw-channels-covid-losses-in-like-swimmers.html",
+        "published_at": "2026-09-09T04:00:00+00:00",
+        "summary": "Dash Shaw Channels Covid Losses in ‘Like Swimmers’"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "The Fall and Rise of EC Comics",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/comics/article/101188-the-fall-and-rise-of-ec-comics.html",
+        "published_at": "2026-09-09T04:00:00+00:00",
+        "summary": "The Fall and Rise of EC Comics"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "After Years of Boom and Bust, Is Manga Finally Here to Stay?",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/comics/article/101198-after-years-of-boom-and-bust-is-manga-finally-here-to-stay.html",
+        "published_at": "2026-09-09T04:00:00+00:00",
+        "summary": "After Years of Boom and Bust, Is Manga Finally Here to Stay?"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Walking a Tightrope: PW Talks with R.F. Kuang",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/authors/interviews/article/101197-walking-a-tightrope-pw-talks-with-r-f-kuang.html",
+        "published_at": "2026-09-09T04:00:00+00:00",
+        "summary": "Walking a Tightrope: PW Talks with R.F. Kuang"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Authors Guild, Co-Plaintiffs Seek Summary Judgment in OpenAI Case",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101196-authors-guild-co-plaintiffs-seek-summary-judgment-in-openai-case.html",
+        "published_at": "2026-09-09T04:00:00+00:00",
+        "summary": "Authors Guild, Co-Plaintiffs Seek Summary Judgment in OpenAI Case"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Panel Mania: ‘Major Taylor: The World’s Fastest Man’ by Frederick Noland",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/comics/article/101183-panel-mania-major-taylor-the-world-s-fastest-man-by-frederick-noland.html",
+        "published_at": "2026-09-09T04:00:00+00:00",
+        "summary": "Panel Mania: ‘Major Taylor: The World’s Fastest Man’ by Frederick Noland"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "NPR Books",
+        "headline": "'The Great Refusal' author Casey Gerald says ruining his reputation saved his life",
+        "source_url": "https://www.npr.org/2026/09/08/nx-s1-5957533/the-great-refusal-author-casey-gerald-says-ruining-his-reputation-saved-his-life",
+        "published_at": "2026-09-08T15:49:25+00:00",
+        "summary": "A decade ago, Gerald was a rising star, a Yale and Harvard graduate running a celebrated nonprofit. Then he shut it all down. His new book is an argument for forging a different path."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "29 Nonfiction Books Coming This Fall",
+        "source_url": "https://www.nytimes.com/2026/09/08/books/review/new-nonfiction-books-this-fall.html",
+        "published_at": "2026-09-08T14:46:01+00:00",
+        "summary": "Memoirs, biographies, true crime, history and more."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Thanks to ‘Practical Magic,’ Alice Hoffman Is Sticking With Witches",
+        "source_url": "https://www.nytimes.com/2026/09/07/books/review/alice-hoffman-practical-magic-witches-cambridge.html",
+        "published_at": "2026-09-08T14:06:07+00:00",
+        "summary": "The author behind the cult-classic movie is back with a new series about the power of female friendship — and witches."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "Book Riot’s Deals of the Day for September 8, 2026",
+        "source_url": "https://bookriot.com/book-riots-deals-of-the-day-for-september-8-2026/",
+        "published_at": "2026-09-08T13:00:00+00:00",
+        "summary": "A genius hacker, a lesbian vampire novel, four strangers who time travel to the past, and more of today's best book deals."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "‘She blazed in and opened my eyes to the real world’: Readers remember Gloria Steinem",
+        "source_url": "https://www.theguardian.com/books/2026/sep/08/she-blazed-in-and-opened-my-eyes-to-the-real-world-readers-remember-gloria-steinem",
+        "published_at": "2026-09-08T10:26:19+00:00",
+        "summary": "<p>To generations of women, the feminist campaigner was an inspiration, a fearless challenger of sexism and domestic violence. Guardian readers share memories of her courage, intelligence, and warmth</p><p>What I appreciated most about Gloria was she let me feel normal. I graduated in engineering as one of three women in a class of over 150. In her world, a feminist was a woman that wanted to be judged for her capabilities and not her gender. She was very inspirational and empowering when I first read her books as a young engineer. <strong>Teresa, Switzerland</strong></p> <a href=\"https://www.theguardian.com/books/2026/sep/08/she-blazed-in-and-opened-my-eyes-to-the-real-world-readers-remember-gloria-steinem\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Book Review: ‘Money to Burn,’ by William D. Cohan",
+        "source_url": "https://www.nytimes.com/2026/09/08/books/review/money-to-burn-william-d-cohan.html",
+        "published_at": "2026-09-08T09:03:38+00:00",
+        "summary": "In “Money to Burn,” William D. Cohan charts the rise and fall of the Wall Street billionaire Leon Black."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Emily St. John Mandel’s Latest Protagonist Has Haunted Eyes and a Strong Jaw",
+        "source_url": "https://www.nytimes.com/2026/09/08/t-magazine/emily-st-john-mandel-exit-party-sketch.html",
+        "published_at": "2026-09-08T09:03:32+00:00",
+        "summary": "The author describes the main character of her new novel, “Exit Party,” to a forensic sketch artist."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "‘Yellowface’ Author R.F. Kuang’s 5 Favorite Places in Taipei",
+        "source_url": "https://www.nytimes.com/2026/09/08/travel/rf-kuang-taipei-things-to-do.html",
+        "published_at": "2026-09-08T09:03:19+00:00",
+        "summary": "The experiences Ms. Kuang had during a summer spent studying Mandarin in the Taiwanese capital helped her shape her newest novel, “Taipei Story.”"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "The Castle by Jon Ronson review – bizarre tales of modern masculinity",
+        "source_url": "https://www.theguardian.com/books/2026/sep/08/the-castle-by-jon-ronson-review-bizarre-tales-of-modern-masculinity",
+        "published_at": "2026-09-08T08:00:31+00:00",
+        "summary": "<p>A journalist embarks on a wild goose chase that might – or might not – be informative about the male condition</p><p>Recovering from surgery at home in upstate New York in 2023, Jon Ronson awoke to a string of texts from his adult son about a weird evening he just had at a stranger’s castle in Connecticut. Having gone along with a friend who’d been invited to a party there, he arrived to find a few lost-looking young women with the sixtysomething host, Chris Mark, a steel heir filming a reality show about “101 princesses” whose first rule was “Never say no to King Chris”.</p><p>As a parent, Ronson is worried; as a reporter of more than 30 years on the cranks-and-crooks beat, he’s already on the clock. After trawling online whispers of sinister goings-on at the castle, he decides to pay a visit to Mark, who proudly shows off the stalactites and waterfall in his “cave-themed” bedroom before explaining how he picks up women on dating apps to “adapt” them to life as “princesses”. “The only girls that really work are drug addicts ... they don’t know what’s going on,” he says. Almost touchingly, Mark asks Ronson to sign an NDA, and the book describes Mark flooding his phone with threats when he declines.</p> <a href=\"https://www.theguardian.com/books/2026/sep/08/the-castle-by-jon-ronson-review-bizarre-tales-of-modern-masculinity\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "The Newer World by Sebastian Barry review – a near-miracle of storytelling",
+        "source_url": "https://www.theguardian.com/books/2026/sep/08/the-newer-world-by-sebastian-barry-review-a-near-miracle-of-storytelling",
+        "published_at": "2026-09-08T06:00:29+00:00",
+        "summary": "<p>The third in a loose American trilogy follows the epic journey of a formerly enslaved man in the aftermath of the civil war</p><p>But is not the story as good as the truth?” asks Tennyson Bouguereau, the narrator of Sebastian Barry’s The Newer World. Tennyson, a formerly enslaved man in post-civil war America, recounts his life story in ways that call to mind the age-old debate about whether it’s better to get our history from novelists or historians. While historians might argue that there is no contest, the question hints knowingly at the novelist’s counter-argument. It sent me searching for a line from Barry’s 2008 Costa-award winning novel, <a href=\"https://www.theguardian.com/books/2008/may/24/fiction1\">The Secret Scripture</a>, in which the narrator describes history as “a fabulous arrangement of surmises and guesses held up as a banner against the assault of withering truth”.</p><p>In her Reith Lectures, Hilary Mantel suggested that history is “what’s left in the sieve when the centuries have run through it”, but I tend to think of it as more of a butterfly net. Historians chase after and capture the things they deem significant. They leave things out, often deliberately. Barry’s entire body of work is a prime example of fiction’s ability to fill history’s gaps, merging personal tragedies with national ones in ways that (dare I say) demonstrate the supremacy of the form – especially for those of us descended from people for whom history never cared one whit. I was therefore intrigued to learn that he had set out to write the story of a man like Tennyson. Barry’s earlier novels refracted Irish history through the lens of two fictional Irish families, the Dunnes and the McNultys. His first foray into this period of American history in <a href=\"https://www.theguardian.com/books/2016/oct/28/days-without-end-by-sebastian-barry-review\">Days Without End</a>, for which he won his second Costa award, also followed one of the McNultys – Thomas McNulty flees the Irish famine for America, where he finds himself drawn into the genocidal work of clearing Native Americans off their land, and then, together with his lover and fellow soldier, John Cole, adopts a Lakota girl, Winona, whose family they have helped slaughter. Barry picked up Winona’s story in <a href=\"https://www.theguardian.com/books/2020/mar/23/a-thousand-moons-sebastian-barry-review\">A Thousand Moons</a>, published in 2020, which follows her fortunes as she, Thomas and John settle on the same farm outside Paris, Tennessee that is occupied by Tennyson and his twin sister Rosalee among others.</p> <a href=\"https://www.theguardian.com/books/2026/sep/08/the-newer-world-by-sebastian-barry-review-a-near-miracle-of-storytelling\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "FutureBook Conference to Precede London Book Fair in 2027",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/international/london-book-fair/article/101181-futurebook-conference-and-awards-to-precede-london-book-fair-in-2027.html",
+        "published_at": "2026-09-08T04:00:00+00:00",
+        "summary": "FutureBook Conference to Precede London Book Fair in 2027"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Audible Ramps Up English Translations of European Audiobooks",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/international/international-book-news/article/101185-audible-ramps-up-english-translations-of-european-audiobooks.html",
+        "published_at": "2026-09-08T04:00:00+00:00",
+        "summary": "Audible Ramps Up English Translations of European Audiobooks"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Fred Ciporen, Former Publisher of ‘PW’ and ‘LJ,’ Dies at 87",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/Obituary/article/101184-fred-ciporen-former-publisher-of-pw-and-lj-dies-at-87.html",
+        "published_at": "2026-09-08T04:00:00+00:00",
+        "summary": "Fred Ciporen, Former Publisher of ‘PW’ and ‘LJ,’ Dies at 87"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Bloomsbury Sets Five-Year Succession Plan",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101186-bloomsbury-sets-five-year-succession-plan.html",
+        "published_at": "2026-09-08T04:00:00+00:00",
+        "summary": "Bloomsbury Sets Five-Year Succession Plan"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Book Review: ‘All the Presidents’ Wars,’ by Peter Bergen",
+        "source_url": "https://www.nytimes.com/2026/09/05/books/review/all-the-presidents-wars-peter-bergen.html",
+        "published_at": "2026-09-08T00:18:57+00:00",
+        "summary": "In “All the Presidents’ Wars,” the journalist Peter Bergen traces the many missteps of U.S. military action in the Middle East."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "NPR Books",
+        "headline": "How a birthday trip to Africa — and the work of Octavia Butler — led to a picture book",
+        "source_url": "https://www.npr.org/2026/09/07/nx-s1-5941167/how-a-birthday-trip-to-africa-and-the-work-of-octavia-butler-led-to-a-picture-book",
+        "published_at": "2026-09-07T20:44:41+00:00",
+        "summary": "A 50th birthday trip to Ghana and Senegal sparked a new picture book called <em>That You Are Here is No Small Thing</em>, which guides children through Black American history."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Book Review: ‘The Living Realm,’ by Jordan Tannahill",
+        "source_url": "https://www.nytimes.com/2026/09/05/books/review/the-living-realm-jordan-tannahill.html",
+        "published_at": "2026-09-07T18:41:08+00:00",
+        "summary": "In “The Living Realm,” an expat in Germany is visited by phantoms."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Our Noble Selves by Kate Atkinson review – quirky postwar nostalgia from the Life After Life author",
+        "source_url": "https://www.theguardian.com/books/2026/sep/07/our-noble-selves-by-kate-atkinson-review-quirky-postwar-nostalgia-from-the-life-after-life-author",
+        "published_at": "2026-09-07T14:11:29+00:00",
+        "summary": "<p>There are glimpses of Atkinson’s subtle brilliance in this gentle noirish mystery set around the Festival of Britain</p><p>In 1951, in a desperate attempt to raise the spirits of a shattered nation, the government came up with the Festival of Britain, a celebration of national creativity, grit and ingenuity. It is a moment in history that could have been designed for Kate Atkinson, who loves nothing more than a quirky detail and a cast of British eccentrics.</p><p>Harry Flynn (definitely think Errol), the quietly magnetic hero of Our Noble Selves, has survived Burma as a foreign correspondent turned war reporter. After a doomed marriage to a war widow called Ivy, and a stint in a mock-Tudor semi in Wealdstone with her, her eight-year-old daughter Veronica and a terrier, Mrs Betty, he resumes his bachelor life in London. A chance encounter with his old newspaper boss, Gerald Barry, leads him to a job compiling the festival’s poetry anthology. Barry provides a handy introduction: “The country’s stuck in the doldrums; we need to <em>see</em> the future,” he explains. The festival will celebrate “the Land and the People … Our love of country, love of freedom, love of nature, pride in craftsmanship, our reputation for tolerance and fair play.”</p> <a href=\"https://www.theguardian.com/books/2026/sep/07/our-noble-selves-by-kate-atkinson-review-quirky-postwar-nostalgia-from-the-life-after-life-author\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Book Review: ‘Taipei Story,’ by R.F. Kuang",
+        "source_url": "https://www.nytimes.com/2026/09/07/books/review/taipei-story-rf-kuang.html",
+        "published_at": "2026-09-07T09:00:12+00:00",
+        "summary": "“Taipei Story,” R.F. Kuang’s seventh book in eight years, is about an American student in Taiwan."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Hawking by Graham Farmelo review – the dark side of genius",
+        "source_url": "https://www.theguardian.com/books/2026/sep/07/hawking-by-graham-farmelo-review-the-dark-side-of-genius",
+        "published_at": "2026-09-07T06:00:26+00:00",
+        "summary": "<p>A biography of the physicist recognises his achievements, but also reveals the selfish narcissist underneath</p><p>When I wrote an unadoring review of Stephen Hawking’s final book, a collection of essays published posthumously in 2018, New Scientist suppressed some of my criticisms on the grounds that it was “too early” to voice anything other than praise for the physicist who died, aged 76, that March. It was apparently still too early in 2021, when no British publisher would touch Charles Seife’s exposé of Hawking’s bullying and self-aggrandising behaviour, Hawking Hawking.</p><p>In this new biography, veteran science writer Graham Farmelo takes a different approach. It is a comprehensive and accessible portrait of a brilliant scientist and an extraordinarily determined man who also possessed deep personal flaws to which the scientific community and the public mostly turned a blind eye. The uncomfortable but unavoidable truth is that Hawking’s overweening ambition and self-promotion, his repeated failure to acknowledge the work of others, his sexism and controlling behaviour were largely ignored because of his disability. I think it is indeed going to take us years to process that.</p> <a href=\"https://www.theguardian.com/books/2026/sep/07/hawking-by-graham-farmelo-review-the-dark-side-of-genius\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Meet the Couple Behind the Buzzy Children's Publisher Expanding into the States",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101117-pw-studio-pw-close-up-meet-the-couple-behind-the-buzzy-children-s-publisher-expanding-into-the-states.html",
+        "published_at": "2026-09-07T04:00:00+00:00",
+        "summary": "Meet the Couple Behind the Buzzy Children's Publisher Expanding into the States"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Edward Field, Bohemian New York Poet, Dies at 102",
+        "source_url": "https://www.nytimes.com/2026/09/06/obituaries/edward-field-dead.html",
+        "published_at": "2026-09-06T23:41:15+00:00",
+        "summary": "His colloquial language, emotionality and gay topics brought him widespread praise, a Guggenheim Foundation fellowship and other literary honors."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "NPR Books",
+        "headline": "Author Emily Wilson on how she brings Homer's ancient poems back to life",
+        "source_url": "https://www.npr.org/2026/09/06/nx-s1-5829829/author-emily-wilson-on-how-she-brings-homers-ancient-poems-back-to-life",
+        "published_at": "2026-09-06T21:06:39+00:00",
+        "summary": "Classicist Emily Wilson talks about her new book, 'Crossing the Wine Dark Sea,' a series of essays reflecting on translation and classic writing in the modern world."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Book Review: ‘Living With Freddie,’ by Anna Heyward",
+        "source_url": "https://www.nytimes.com/2026/09/06/books/review/living-with-freddie-anna-heyward.html",
+        "published_at": "2026-09-06T09:00:35+00:00",
+        "summary": "In “Living With Freddie,” Anna Heyward recalls the pet who taught her “to be human.”"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Book Review: ‘Tower Hill,’ by Alan Taylor",
+        "source_url": "https://www.nytimes.com/2026/09/06/books/review/tower-hill-alan-taylor.html",
+        "published_at": "2026-09-06T09:00:14+00:00",
+        "summary": "In “Tower Hill,” the Pulitzer Prize-winning scholar Alan Taylor pulls apart the twisted logic of a Virginia slave owner and his descendants."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Robin Morgan, Voice of Radical Feminism, Dies at 85",
+        "source_url": "https://www.nytimes.com/2026/09/05/us/robin-morgan-dead.html",
+        "published_at": "2026-09-05T22:16:32+00:00",
+        "summary": "She edited the landmark 1970 anthology “Sisterhood Is Powerful,” led Ms. magazine and helped build the institutions of the modern feminist movement."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "NPR Books",
+        "headline": "40 years later, 'The Baby-Sitters Club' is still helping readers see themselves",
+        "source_url": "https://www.npr.org/2026/09/05/nx-s1-5902261/ann-m-martin-baby-sitters-club",
+        "published_at": "2026-09-05T11:00:00+00:00",
+        "summary": "Ann M. Martin's beloved series has influenced generations of readers. We're still asking: Which babysitter are you?"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Authors Wrangle With Publishers Over $1.5 Billion Anthropic A.I. Settlement",
+        "source_url": "https://www.nytimes.com/2026/09/05/books/anthropic-settlement-ai-copyright-books.html",
+        "published_at": "2026-09-05T09:03:10+00:00",
+        "summary": "The tech giant must pay $3,000 per pirated book that it used to train its chatbot. Many authors fear they could lose funds to others in the book business."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Harlan Coben’s New Book Is a Tough-Talking Writing Guide",
+        "source_url": "https://www.nytimes.com/2026/09/05/books/review/harlan-coben-plot-twist-writing-guide.html",
+        "published_at": "2026-09-05T09:01:58+00:00",
+        "summary": "Even a very successful thriller writer fights self-doubt. His new tough-talking writing guide doubles as a memoir that explains why, and how to beat it."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "NPR Books",
+        "headline": "New book traces the pieces of steel salvaged from the World Trade Center",
+        "source_url": "https://www.npr.org/2026/09/04/nx-s1-5813745/new-book-traces-the-pieces-of-steel-salvaged-from-the-world-trade-center",
+        "published_at": "2026-09-04T23:14:57+00:00",
+        "summary": "NPR's Scott Detrow speaks with Sam Holleran, one of the authors behind the new book <em>Scattered Steel: the afterlife of the World Trade Center</em>."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Kevin Powers: ‘I was ready to abandon Infinite Jest a thousand times’",
+        "source_url": "https://www.theguardian.com/books/2026/sep/04/kevin-powers-i-was-ready-to-abandon-infinite-jest-a-thousand-times",
+        "published_at": "2026-09-04T09:00:02+00:00",
+        "summary": "<p>The American author on falling in love with The Great Gatsby, being inspired by Dylan Thomas – and the memoir of a canoe trip in Texas he comes back to</p><p><strong>My earliest reading memory<br /></strong>The deaths of Old Dan and Little Ann in Wilson Rawls’s Where the Red Fern Grows were etched into my being as a first grader in Chesterfield County, Virginia.</p><p><strong>My favourite book growing up<br /></strong>Stephen King’s The Stand. I completely lost myself in the story. I don’t think I realised at the time what a rare gift it is to have that experience.</p> <a href=\"https://www.theguardian.com/books/2026/sep/04/kevin-powers-i-was-ready-to-abandon-infinite-jest-a-thousand-times\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Hachette’s Raising Readers Campaign Plans U.S., U.K. Storytimes",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101177-hachette-s-raising-readers-campaign-plans-u-s-u-k-storytimes.html",
+        "published_at": "2026-09-04T04:00:00+00:00",
+        "summary": "Hachette’s Raising Readers Campaign Plans U.S., U.K. Storytimes"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Celebrating Gloria Steinem",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/tip-sheet/article/101179-celebrating-gloria-steinem.html",
+        "published_at": "2026-09-04T04:00:00+00:00",
+        "summary": "Celebrating Gloria Steinem"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "5 Short Story Collections Where Reality Is Broken",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/tip-sheet/article/101178-five-short-story-collections-where-reality-is-broken.html",
+        "published_at": "2026-09-04T04:00:00+00:00",
+        "summary": "5 Short Story Collections Where Reality Is Broken"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "New Cemetery by Simon Armitage audiobook review – the poet laureate’s meditations take flight",
+        "source_url": "https://www.theguardian.com/books/2026/sep/03/new-cemetery-by-simon-armitage-audiobook-review-the-poet-laureates-meditations-take-flight",
+        "published_at": "2026-09-03T14:00:40+00:00",
+        "summary": "<p>The building of a cemetery during the pandemic inspires the Huddersfield-born author to reflect on childhood memories and the changing local landscape</p><p>When Huddersfield council proposed turning some local grazing land into a cemetery during the Covid lockdown, some nearby residents were unhappy. Not poet laureate Simon Armitage, who also lived close to the site. In the introductory essay to his poetry collection, New Cemetery, he notes how the dead would be ideal neighbours for a writer who enjoys quiet. He also “figured that once the departed had taken up residence in the soil, they were unlikely to be evicted to make way for some other form of public amenity or private eyesore”.</p><p>From his home, Armitage watched as the cemetery took shape, the pastures giving way to walkways, parking bays and neatly arranged burial plots. The verse is rooted in his ruminations around the cemetery’s creation, which coincided with the death of his father who had taught him how to win a fight and the best way to hold an axe (“You’re holding it all wrong / It’s not a pen”). Each poem is named after a species of moth, among them Common Quaker, Dark Brocade, Pine Beauty and May Highflyer, and written in three-line stanzas.</p> <a href=\"https://www.theguardian.com/books/2026/sep/03/new-cemetery-by-simon-armitage-audiobook-review-the-poet-laureates-meditations-take-flight\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "What we’re reading: Irvine Welsh, Janice Hallett and Guardian readers on the books they enjoyed in August",
+        "source_url": "https://www.theguardian.com/books/2026/sep/03/what-were-reading-irvine-welsh-janice-hallett-and-guardian-readers-on-the-books-they-enjoyed-in-august",
+        "published_at": "2026-09-03T12:01:06+00:00",
+        "summary": "<p>Writers and Guardian readers discuss the titles they have read over the last month. Join the conversation in the comments</p><p>I’ve been enjoying <strong>Contrapposto</strong> by Dave Eggers. The premise that love and art are the only things that make life worthwhile pulses beautifully through this novel and its two protagonists, spanning decades of their obsession with both, and each other. The tragedy is they are not sufficient alone for a relationship to survive to the exclusion of everything else (namely capitalism, which always has a place at the table), but they remain essential and enduring. Nowhere is this better evoked than here. Think John Williams’s Stoner<em> </em>but with art instead of literature and stuffed with more memorable characters.</p> <a href=\"https://www.theguardian.com/books/2026/sep/03/what-were-reading-irvine-welsh-janice-hallett-and-guardian-readers-on-the-books-they-enjoyed-in-august\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "The best books to read in August: new paperbacks from Chimamanda Ngozi Adichie, Salman Rushdie and Werner Herzog",
+        "source_url": "https://www.theguardian.com/books/ng-interactive/2026/aug/20/the-best-books-to-read-in-august-new-paperbacks-from-chimamanda-ngozi-adichie-salman-rushdie-and-werner-herzog",
+        "published_at": "2026-08-20T13:30:00+00:00",
+        "summary": "<p>Looking for a new reading recommendation? Here are some wonderful new paperbacks, from a short story collection by a literary great to razor-sharp criticism</p><p>***</p> <a href=\"https://www.theguardian.com/books/ng-interactive/2026/aug/20/the-best-books-to-read-in-august-new-paperbacks-from-chimamanda-ngozi-adichie-salman-rushdie-and-werner-herzog\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Art Spiegelman: ‘The US needs a counter-revolution’",
+        "source_url": "https://www.theguardian.com/books/ng-interactive/2026/aug/15/art-spiegelman-the-us-needs-a-counter-revolution",
+        "published_at": "2026-08-15T08:00:50+00:00",
+        "summary": "<p>More than four decades after his Holocaust story Maus transformed the graphic novel genre, Art Spiegelman discusses Trump, the shadow of 9/11 and the rise of fascism in America</p><p>When the cartoonist Art Spiegelman began dating his future wife, Françoise Mouly, in the mid 70s, she would tell him not to worry about walking her home, because even the New York muggers didn’t bother venturing to where she lived in Soho. He moved in with her quite suddenly not long after, when his apartment in Greenwich Village burned down. His landlord, who lived on the ground floor, was a hoarder – once, when he came to collect Spiegelman’s rent, a cockroach crawled up from under his shirt collar – and eventually his accumulated junk caught alight.</p><p>This feels like a quintessential New York story, but then much of Spiegelman’s life does, or at least fits with the kind of stories we like to tell ourselves about the city. The Soho apartment Spiegelman and Mouly have lived in for five decades is worth millions now and is surrounded by high-end designers; his studio, down the road, is above a branch of Tiffany’s. “It’s just kind of an embarrassment, I mean Tiffany’s is not my class,” says Spiegelman, who refers to these flash new arrivals, dismissively, as “very fancy airport mall stores”.</p> <a href=\"https://www.theguardian.com/books/ng-interactive/2026/aug/15/art-spiegelman-the-us-needs-a-counter-revolution\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Children and teens roundup – the best new picture books and novels",
+        "source_url": "https://www.theguardian.com/books/2026/jun/26/children-and-teens-roundup-the-best-new-picture-books-and-novels",
+        "published_at": "2026-06-26T11:00:15+00:00",
+        "summary": "<p>A mouse detective; a fresh take on the Odyssey; a dangerous wish; and the world’s most watched reality TV show</p><p><strong><a href=\"https://guardianbookshop.com/my-dad-can-9781836008835/?utm_source=editoriallink&utm_medium=merch&utm_campaign=article\">My Dad Can</a> by Stephen Lightbown, illustrated by Claire Sahara Lemp, Quarto, £7.99</strong><strong><br /></strong>Iris’s dad can turn into dinosaurs, unicorns, anything she imagines – though some people see Dad’s wheelchair and believe he can’t do anything. This soft-smudged, colourful picture book celebrates the playfulness and creativity of parenthood.</p><p><strong><a href=\"https://guardianbookshop.com/the-fluffy-futon-9798348024208/?utm_source=editoriallink&utm_medium=merch&utm_campaign=article\">The Fluffy Futon</a> by Yuichi Kasano, translated by Cathy Hirano, Gecko, £12.99</strong><strong><br /></strong>When Grandma spreads a futon on the sunny porch to air, it’s so fluffy that kittycat, Grandma, hen, chicks and the whole household join each other for a nap in this delightful picture book, perfect for enjoying at bedtime.</p> <a href=\"https://www.theguardian.com/books/2026/jun/26/children-and-teens-roundup-the-best-new-picture-books-and-novels\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "‘We’ve always been wary of working together’: Val McDermid and Jo Sharp on writing a novel as a couple",
+        "source_url": "https://www.theguardian.com/books/2026/jul/28/val-mcdermid-jo-sharp-this-door-of-the-seas",
+        "published_at": "2026-07-28T15:38:54+00:00",
+        "summary": "<p>The bestselling crime writer and Scotland’s first female Geographer Royal had long kept their work separate, until a chance discovery about a doomed 17th-century expedition forced them to collaborate</p><p>The airy, modern house on the outskirts of Edinburgh shared by Val McDermid and Jo Sharp is surrounded by greenery and feels as though it was designed to provide enough space for two minds to think.</p><p>Both women are high achievers in their fields, <a href=\"https://www.theguardian.com/lifeandstyle/2022/dec/22/how-val-mcdermid-met-jo-sharp-i-googled-her-to-make-sure-she-was-a-real-person\">a Scottish power couple</a> made up of the <a href=\"https://www.theguardian.com/books/val-mcdermid\">Queen of Crime </a>and the Scottish Geographer Royal. Happily for them, there is normally no overlap in their work.</p> <a href=\"https://www.theguardian.com/books/2026/jul/28/val-mcdermid-jo-sharp-this-door-of-the-seas\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Sophie, Standing There by Meg Mason review – a tale of literary obsession, with cameos from real-life authors",
+        "source_url": "https://www.theguardian.com/books/2026/jul/28/sophie-standing-there-book-review-novel-author-meg-mason",
+        "published_at": "2026-08-28T09:23:34+00:00",
+        "summary": "<p>A heartbroken woman becomes fixated on a famous writer in this witty, touching follow-up to Sorrow and Bliss</p><p>The protagonist of Meg Mason’s new book, the follow-up to the <a href=\"https://www.theguardian.com/books/2021/jun/05/sorrow-and-bliss-by-meg-mason-review-tender-huge-hearted-comedy\">2020 tragicomedy Sorrow and Bliss</a>, is an invisible woman. She might well be standing there but you won’t notice her. She’s a techie at literary festivals – the person who shuffles up to a famous writer a few minutes before their event and apologetically slides a microphone cable down their shirt while they’re making small talk with the chair or accepting a bottle of room-temperature mineral water from an anxious publicist.</p><p>No man is a hero to his valet, and no writer is a hero to the technical staff lurking in the wings of a venue. Mason’s opening pages present a teasing but not quite libellous series of cameos from real writers: George Saunders deciding at an inconsiderately late stage to insist on swapping his headset for a lapel mic; Ann Patchett being frosty with a fan; Mick Herron accidentally stepping on someone’s foot and not apologising.</p> <a href=\"https://www.theguardian.com/books/2026/jul/28/sophie-standing-there-book-review-novel-author-meg-mason\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Social Darwinists to tech bros: tracing the long fight against equality in US",
+        "source_url": "https://www.theguardian.com/books/2026/jul/21/kim-phillips-fein-country-of-lords",
+        "published_at": "2026-07-21T10:00:43+00:00",
+        "summary": "<p>Historian Kim Phillips-Fein’s book Country of Lords looks back at the many men who have tried to fight against egalitarianism, from John Adams to Peter Thiel</p><p>The historian Kim Phillips-Fein’s new book is published amid celebrations of the <a href=\"https://www.theguardian.com/us-news/series/america-at-250\">250th anniversary</a> of the declaration of independence and its truth “self-evident, that all men are created equal”. Country of Lords, however, is a history of Neo-Aristocrats, Social Darwinists, Tech Utopians, and the Long Fight <em>Against</em> Equality in America.</p><p>Concise and hard-hitting, the book arrives at a time of glaring social and <a href=\"https://www.theguardian.com/us-news/2026/jun/26/billionaires-wealth-soars-as-workers-struggle\">economic</a> <a href=\"https://www.theguardian.com/us-news/2026/jun/21/us-inequality-plutocracy\">inequality</a>, Phillips-Fein seeing <a href=\"https://www.theguardian.com/technology/elon-musk\">Elon Musk</a> “<a href=\"https://www.theguardian.com/commentisfree/2026/jun/17/is-it-bad-that-elon-musk-has-a-trillion-dollars-yes-and-heres-why\">emerging as a trillionaire</a> very much on people’s minds, with a deep level of discomfort, both fear and anger about what this portends”.</p> <a href=\"https://www.theguardian.com/books/2026/jul/21/kim-phillips-fein-country-of-lords\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Could this policy fix the care system and slash student debt at the same time?",
+        "source_url": "https://www.theguardian.com/books/2026/aug/30/could-this-one-policy-fix-the-care-system-and-slash-student-debt-at-the-same-time",
+        "published_at": "2026-08-30T11:00:55+00:00",
+        "summary": "<p>Andy Burnham is in need of radical proposals. A ‘care first’ year in exchange for 50% off fees could be just what he needs</p><p>The UK’s social care sector is in crisis. Costs are spiralling, with many local councils forced to dedicate the vast majority of their budgets to it. At the same time, more and more families are seeing their savings disappear into the black hole of nursing home fees. With an ageing population, the problem is set to get worse.</p><p>In only his second week as prime minister, Andy Burnham pledged to succeed where so many of his predecessors have failed: by fixing Britain’s social care system. And yet, as parliament returns from recess, the new-ish administration is still worryingly unclear about how it will do this. Despite Burnham declaring that care workers should enjoy better compensation, we don’t know how he plans to pay for any of it – not least because he has kept Starmer’s campaign pledge to not raise income tax, VAT or national insurance. At the moment, it looks as though it will be impossible to square the circle.</p> <a href=\"https://www.theguardian.com/books/2026/aug/30/could-this-one-policy-fix-the-care-system-and-slash-student-debt-at-the-same-time\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Children’s books roundup – the best new picture books and novels",
+        "source_url": "https://www.theguardian.com/books/2026/aug/28/childrens-books-roundup-the-best-new-picture-books-and-novels",
+        "published_at": "2026-08-28T11:00:55+00:00",
+        "summary": "<p>Poetry with wonder and wit; a heartwarming tale for horse lovers; a portal to the future; a brilliant YA wartime romance and more</p><p><br /><strong><a href=\"https://guardianbookshop.com/small-monster-big-monster-9781837292110/?utm_source=editoriallink&utm_medium=merch&utm_campaign=article\">Small Monster, Big Monster</a></strong><strong> by Allan Sanders, Phaidon, £7.95</strong><strong><br /></strong>Refrigerator is EMPTY. Monster is FULL (of pizza!). An eye-wateringly bright board book, featuring splendidly zany, toddler-pleasing pairs of opposites.</p><p><strong><a href=\"https://guardianbookshop.com/the-flying-machine-of-dreams-9781915659989/?utm_source=editoriallink&utm_medium=merch&utm_campaign=article\">The Flying Machine of Dreams</a> by Kate Wakeling</strong><strong>, illustrated by Viviane Schwarz, Otter-Barry, £12.99</strong><strong><br /></strong>A delectable picture-book collaboration that perfectly distils the wonder of the everyday, from the textures of a leaf to a squishy-cushioned den. Wakeling’s irresistible poetry is richly heightened by Schwarz’s sweet, strange illustrations.</p> <a href=\"https://www.theguardian.com/books/2026/aug/28/childrens-books-roundup-the-best-new-picture-books-and-novels\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Kolkhoz by Emmanuel Carrère review – intricate portrait of an elite French family",
+        "source_url": "https://www.theguardian.com/books/2026/aug/27/kolkhoz-by-emmanuel-carrere-review-intricate-portrait-of-an-elite-french-family",
+        "published_at": "2026-08-27T06:00:06+00:00",
+        "summary": "<p>The author of The Adversary and Yoga unearths a history that includes the Nazis, Russia, and the Académie Française</p><p>When Emmanuel Carrère’s mother, Hélène, died in 2023, at the age of 94, President Macron spoke at her memorial. She had been “perpetual secretary” of the Académie Française, in effect its head, and 200 people gathered at Les Invalides in Paris to pay tribute. Emmanuel’s father, Louis, was there too, in a wheelchair, only half aware of what was going on. This 400-page memoir, translated into English by John Lambert, is a homage to both parents and the unlikely history that brought them together. It’s also an act of reparation towards Hélène, whom Emmanuel worshipped as a child but upset as an adult by publishing a book that she’d forbidden him to write.</p><p>Hélène grew up in stateless poverty in Paris, the daughter of Georges Zourabichvili, whose parents had fled Georgia in 1921, and Nathalie von Pelken, who as a child had six governesses, one for each day excluding Sunday. Though “the magical world of the fallen Russian aristocracy” was the backdrop, conditions were tough, not least after Georges disappeared in 1944, murdered by partisans for alleged Nazi collaboration. Hélène was 15 at the time and unsuccessfully tried to hide the truth about George’s death from her younger brother, Nicolas.</p> <a href=\"https://www.theguardian.com/books/2026/aug/27/kolkhoz-by-emmanuel-carrere-review-intricate-portrait-of-an-elite-french-family\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Passage by Colin Thubron review – mortality and memory in a gem of a novel",
+        "source_url": "https://www.theguardian.com/books/2026/aug/26/passage-by-colin-thubron-review-mortality-and-memory-in-a-gem-of-a-novel",
+        "published_at": "2026-08-26T06:00:36+00:00",
+        "summary": "<p>A terminally ill woman makes a final trip to Egypt in an exquisitely wrought portrait of end-of-life reckoning</p><p>Virginia Woolf said of Middlemarch that it is one of the few English novels written for grown-up people. In the shallow and infantilising age through which we are living, Colin Thubron dares to assume that his readers are adults. Passage is a very beautiful, very moving, authentic work of art. Hardly more than a novella, it sits lightly in the hand, but its emotional and aesthetic weight overtips the balance.</p><p>Thubron began his career as a travel writer and a large part of the action of Passage is set in a vividly but economically evoked Egypt. This is not the teeming Egypt of Cairo or Alexandria, but of the countryside, the villages, and the great immemorial tombs and ancient monuments. The best travel writers know that “abroad” is most convincingly evoked not by awed exclamations at the world’s wonders, but by an attitude of relaxed familiarity. Thubron is obviously an old Egypt hand, or at least has the skill to convince us that he is.</p> <a href=\"https://www.theguardian.com/books/2026/aug/26/passage-by-colin-thubron-review-mortality-and-memory-in-a-gem-of-a-novel\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Triage by Claudia Rankine review – how should we respond to the world’s atrocities?",
+        "source_url": "https://www.theguardian.com/books/2026/aug/25/triage-by-claudia-rankine-review-how-should-we-respond-to-the-worlds-atrocities",
+        "published_at": "2026-08-25T08:00:51+00:00",
+        "summary": "<p>The American poet and essayist weaves memoir, fiction, criticism and lyrical lament into a tale of  friendship in an age of existential crisis</p><p>“Any resemblance to actual persons, living or dead, or actual events is purely coincidental,” writes the multi-award winning Jamaican-American poet, essayist and playwright Claudia Rankine in the disclaimer to her latest work. “Unless it isn’t.” The pretzel-logic of this statement, its assertive ambiguity, sets the tone for a book that digs directly into the question of what we are to do with the idea of truth, when the world we live in is asking us “to hold, visually and emotionally, realities we do not yet have a viable system of language for”. In Triage, Rankine borrows from her personal history and from a world whose landscape now encompasses “the rise of fascism, the implementation through deportations of the Great Replacement theory, the starvation of devastated populations subjected to war and climate change”, and uses the material she gathers to pose a simple question. When faced with realities such as these, what do you do? Do you stand, or do you fall?</p><p>The book begins with a friendship. Two young people – our narrator, and another she refers to only as “the theorist” – meet in college in the late 20th century, and are drawn to each other. They’re passionate; they’re idealistic; they’re committed to the activism of the time (“shantytowns were built on campus to protest apartheid South Africa”) and steeped in the texts and authors and philosophical conceits of the humanities. Over time, they develop a game. “When we spied each other during the day,” the narrator explains, “we had to collapse.”</p> <a href=\"https://www.theguardian.com/books/2026/aug/25/triage-by-claudia-rankine-review-how-should-we-respond-to-the-worlds-atrocities\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "The Great Dictator by Matthew Sweet review – the fabulous life of Barbara Cartland",
+        "source_url": "https://www.theguardian.com/books/2026/aug/25/the-great-dictator-by-matthew-sweet-review-the-life-of-barbara-cartland",
+        "published_at": "2026-08-25T06:00:50+00:00",
+        "summary": "<p>A brilliant new biography that does its subject the favour of taking her seriously – even if few else did</p><p>Barbara Cartland was famous for dictating her novels. With a pekingese clamped to her hot pink bosom she would lie back on a library couch and exhale a story about virginal girls taming wayward dukes, damaged airmen or misunderstood surgeons. Meanwhile Miss Savory, Mrs Smith or Mrs Morgan, picked for being unfidgety and sneezeless, would take everything down in immaculate Pitman shorthand. Cartland reckoned on being able to polish off 8,000 words a day. “In this way,” she told one of the many reporters who quizzed her on her astonishing productivity, “the typescript for an 80,000-word novel is finished in a fortnight.” At her peak she was pushing out 23 books a year which added up to 723 in total. Only Agatha Christie and William Shakespeare topped her lifetime sales of 750m.</p><p>Cartland was a dictator in other ways, too. Husbands, dogs, houses and the local council were all expected to bend themselves to her indomitable will. Resistance, let alone opposition, was futile. The managing director of the company that printed her books suggested that she read Nietzsche on the perceptive grounds that they had a lot of ideas in common. Oddly, he also declared himself madly in love with her. Behind that marshmallowy exterior, all pink chiffon, candyfloss hair and soft, smudgy lines, there lurked sinews of high-tensile steel.</p> <a href=\"https://www.theguardian.com/books/2026/aug/25/the-great-dictator-by-matthew-sweet-review-the-life-of-barbara-cartland\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Feminism for a World on Fire by Natasha Walter review – hope amid the hopelessness",
+        "source_url": "https://www.theguardian.com/books/2026/aug/25/feminism-for-a-world-on-fire-by-natasha-walter-review-hope-amid-the-hopelessness",
+        "published_at": "2026-08-25T08:00:52+00:00",
+        "summary": "<p>A writer and activist links the climate crisis to battles for justice around the world in this vital book</p><p>It has become increasingly difficult to change our minds, to question our own views or to find common ground with people we disagree with, all of which makes Natasha Walter’s new book both refreshing and exhilarating.</p><p>In her ebullient 1998 debut The New Feminism, Walter hailed Margaret Thatcher as a trailblazer. In this fiercer, bleaker work, she rips into the “glossy language of aspiration feminism”, “the message that the individual woman can do anything she wants if she only has the necessary courage”. That kind of feminism inspired an “explosion of books and films about pioneers and heroines, about bossy women and gutsy girls” which retold the feminist story as “a succession of isolated campaigns, led by outsize individuals”.</p> <a href=\"https://www.theguardian.com/books/2026/aug/25/feminism-for-a-world-on-fire-by-natasha-walter-review-hope-amid-the-hopelessness\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "The Disappearers by Marlon James review – a scorching exposé of homophobia in Jamaica",
+        "source_url": "https://www.theguardian.com/books/2026/aug/24/the-disappearers-by-marlon-james-review-a-scorching-expose-of-homophobia-in-jamaica",
+        "published_at": "2026-08-24T06:00:54+00:00",
+        "summary": "<p>This Booker-listed epic set in Aids-era Kingston is a triumph – bitter, bawdy and ravishingly queer</p><p>“A sense of sweep,” replied Marlon James, when asked what moves him most in literature. “Sweep isn’t just about external journeys, but internal as well. It can be over years and decades, or across land and sea.” If that explanation is still hazy, pick up his mighty new novel, which is longlisted for this year’s Booker prize and is tirelessly – sometimes exhaustingly – grand and peripatetic. Mounting a grisly exposé of Jamaican homophobia, this polyphonic 640-page doorstopper is an emotionally bruising narrative that roves “uptown, downtown, ghetto and gully” through Aids-era Kingston with sidetrack excursions to 1950s England and a closing leap to 2000s United States.</p><p>The novel’s defining event is a gruesome mob attack on eight queer men who have clandestinely come together to work on bringing John Herbert’s 1967 gay prison play, Fortune and Men’s Eyes, to the stage. The goal, in the words of director Havelock Titus, is to shatter “the whole fragile myth of Jamaican male sexuality”. “Because prison,” he explains, “is the ultimate male institution and yet masculine sexualities that could never happen outside in the normal world flourish in there all the time.”</p> <a href=\"https://www.theguardian.com/books/2026/aug/24/the-disappearers-by-marlon-james-review-a-scorching-expose-of-homophobia-in-jamaica\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Betrayal by Luke Harding review – could Donald Trump be a Russian asset?",
+        "source_url": "https://www.theguardian.com/books/2026/aug/24/betrayal-by-luke-harding-review-is-donald-trump-a-russian-asset",
+        "published_at": "2026-08-24T08:00:56+00:00",
+        "summary": "<p>A Guardian correspondent’s sobering account of the US betrayal of Ukraine – and the possible reasons behind it</p><p>American presidents have struggled to get the measure of Vladimir Putin. When George W Bush met him in 2001, he reported that he had “looked the man in the eye”, got a “sense of his soul” and found him “trustworthy”. Barack Obama thought Putin was making a mistake with his interventions in Ukraine and Syria, but didn’t do much about it. Joe Biden backed Ukraine’s resistance to the Russian invasion, yet his fear that Putin would reach for the nuclear button if backed into a corner made him risk averse. He worried about the impact of the sort of long-range strikes against Russian territory that Kyiv is now launching on a daily basis.</p><p>This caution frustrated Ukrainians to the point that they looked forward to Donald Trump shaking things up after he won re-election. Be careful what you wish for: the returning president thought his rapport with Putin would be enough to get Russia to sign up to an immediate ceasefire. In Trump’s head it was President Zelenskyy, fighting a war he was bound to lose, who was the problem.</p> <a href=\"https://www.theguardian.com/books/2026/aug/24/betrayal-by-luke-harding-review-is-donald-trump-a-russian-asset\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "NPR Books",
+        "headline": "Understanding the tech giants' oversized influence in American schools",
+        "source_url": "https://www.npr.org/2026/09/02/nx-s1-5953878/understanding-the-tech-giants-oversized-influence-in-american-schools",
+        "published_at": "2026-09-02T16:08:31+00:00",
+        "summary": "Big tech companies like Apple and Microsoft use devices, training and conferences for teachers and students to embed in schools.<em> The New York Times' </em>Natasha Singer discusses the impact in <em>Coding Kids.</em>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Books About Town: August 2026",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/trade-shows-events/article/101170-books-about-town-august-2026.html",
+        "published_at": "2026-09-02T04:00:00+00:00",
+        "summary": "Books About Town: August 2026"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "U.K.’s SPCK Group Acquires Eerdmans",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/religion/article/101172-u-k-s-spck-group-acquires-eerdmans.html",
+        "published_at": "2026-09-02T04:00:00+00:00",
+        "summary": "U.K.’s SPCK Group Acquires Eerdmans"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Publishers Seek Answers from Christianbook’s Old Owners",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/religion/article/101171-publishers-seek-answers-from-christianbook-s-old-owners.html",
+        "published_at": "2026-09-03T04:00:00+00:00",
+        "summary": "Publishers Seek Answers from Christianbook’s Old Owners"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "At ACFW, Christian Fiction Writers Celebrate Their Craft",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/religion/article/101168-at-acfw-christian-fiction-writers-celebrate-their-craft.html",
+        "published_at": "2026-09-02T04:00:00+00:00",
+        "summary": "At ACFW, Christian Fiction Writers Celebrate Their Craft"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "From the Archives: PW Talks with Gloria Steinem",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101176-from-the-archives-pw-talks-with-gloria-steinem.html",
+        "published_at": "2026-09-03T04:00:00+00:00",
+        "summary": "From the Archives: PW Talks with Gloria Steinem"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Integration Charges, Soft Learning Segment Lead to Declines at Wiley",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/financial-reporting/article/101174-integration-charges-soft-learning-segment-led-to-declines-at-wiley.html",
+        "published_at": "2026-09-03T04:00:00+00:00",
+        "summary": "Integration Charges, Soft Learning Segment Lead to Declines at Wiley"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Books-A-Million Continues to Ride Fiction Wave",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/financial-reporting/article/101169-books-a-million-continues-to-ride-fiction-wave.html",
+        "published_at": "2026-09-02T04:00:00+00:00",
+        "summary": "Books-A-Million Continues to Ride Fiction Wave"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "National Book Foundation Incentivizes Summer Reading",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/awards-and-prizes/article/101173-national-book-foundation-incentivizes-summer-reading.html",
+        "published_at": "2026-09-03T04:00:00+00:00",
+        "summary": "National Book Foundation Incentivizes Summer Reading"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "New Kids’ and YA Books: Week of September 7, 2026",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101175-new-kids-and-ya-books-week-of-september-7-2026.html",
+        "published_at": "2026-09-03T04:00:00+00:00",
+        "summary": "New Kids’ and YA Books: Week of September 7, 2026"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Rights Report: Week of August 31, 2026",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101163-rights-report-week-of-august-31-2026.html",
+        "published_at": "2026-09-01T04:00:00+00:00",
+        "summary": "Rights Report: Week of August 31, 2026"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "‘Unplugged’ Author Leanne Currie-McGhee on Empowering Teens to Make Their Own Social Media Choices",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101165-unplugged-author-leanne-currie-mcghee-on-empowering-teens-to-make-their-own-social-media-choices.html",
+        "published_at": "2026-09-01T04:00:00+00:00",
+        "summary": "‘Unplugged’ Author Leanne Currie-McGhee on Empowering Teens to Make Their Own Social Media Choices"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "A Novel Idea: PW Talks with John Mutter",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/authors/interviews/article/101166-a-novel-idea-pw-talks-with-john-mutter.html",
+        "published_at": "2026-09-03T04:00:00+00:00",
+        "summary": "A Novel Idea: PW Talks with John Mutter"
+      }
+    }
+  ],
+  "ontology": {
+    "repo": "BookRadar",
+    "category": "book",
+    "ontology_version": "0.1.0",
+    "event_model_ids": [
+      "book.author_event",
+      "book.award_signal",
+      "book.editorial_coverage",
+      "book.library_lending",
+      "book.sales_ranking"
+    ],
+    "event_model_mappings": {
+      "sales_ranking": "book.sales_ranking",
+      "library_lending": "book.library_lending",
+      "author_event": "book.author_event",
+      "award_signal": "book.award_signal",
+      "editorial_coverage": "book.editorial_coverage"
+    },
+    "entity_type_hints": [
+      "book.edition",
+      "book.author"
+    ],
+    "source_role_ids": [
+      "community_signal",
+      "context_only",
+      "primary_evidence"
+    ],
+    "source_role_mappings": {
+      "알라딘 신간": "primary_evidence",
+      "알라딘 베스트셀러": "primary_evidence",
+      "YES24 베스트셀러": "primary_evidence",
+      "교보문고 북뉴스": "context_only",
+      "출판저널": "context_only",
+      "북DB": "context_only",
+      "한겨레 책": "context_only",
+      "경향신문 책": "context_only",
+      "Publishers Weekly": "context_only",
+      "The Guardian Books": "context_only",
+      "NPR Books": "context_only",
+      "Literary Hub": "context_only",
+      "Book Riot": "context_only",
+      "Goodreads News": "context_only",
+      "New York Times Books": "context_only",
+      "Kirkus Reviews": "context_only",
+      "r/books": "community_signal",
+      "r/suggestmeabook": "community_signal",
+      "r/52book": "community_signal",
+      "r/booksuggestions": "community_signal",
+      "r/Fantasy": "community_signal",
+      "r/literature": "community_signal",
+      "r/horrorlit": "community_signal",
+      "r/scifi": "community_signal",
+      "merphy napier": "community_signal",
+      "Daniel Greene": "community_signal",
+      "Ariel Bissett": "community_signal",
+      "What Should I Read Next": "community_signal",
+      "The Bookshelf": "context_only",
+      "The Bookseller UK": "context_only",
+      "Publishing Perspectives": "context_only",
+      "Shelf Awareness": "context_only"
+    },
+    "evidence_policy_ids": [
+      "book.source_rss",
+      "book.source_reddit",
+      "book.entity_keyword_match"
+    ]
+  }
+}
