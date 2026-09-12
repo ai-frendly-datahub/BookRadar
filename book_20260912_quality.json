@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-09-11T05:40:40.134282+00:00",
+  "generated_at": "2026-09-12T05:28:03.474804+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,24 +16,24 @@
     "collection_error_count": 0,
     "sales_ranking_events": 15,
     "library_lending_events": 0,
-    "author_event_events": 3,
-    "award_signal_events": 8,
+    "author_event_events": 2,
+    "award_signal_events": 9,
     "book_signal_event_count": 26,
-    "official_or_operational_event_count": 21,
+    "official_or_operational_event_count": 25,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 22,
-    "proxy_canonical_key_count": 4,
+    "complete_canonical_key_count": 25,
+    "proxy_canonical_key_count": 1,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 22,
-    "author_present_count": 11,
-    "publisher_present_count": 6,
+    "isbn_present_count": 25,
+    "author_present_count": 12,
+    "publisher_present_count": 9,
     "rank_present_count": 16,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 5,
+    "event_required_field_gap_count": 1,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 14
+    "daily_review_item_count": 7
   },
   "sources": [
     {
@@ -75,7 +75,7 @@
       "article_count": 15,
       "event_count": 15,
       "latest_event_at": "2026-09-06T22:00:13+00:00",
-      "age_days": 4.32,
+      "age_days": 5.31,
       "latest_title": "13위 카구라바치 11 (더블특전판)",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401460099&radar_rank=13&radar_ranking_date=20260906220013&rssType=5&type=item",
       "latest_source_signal": [
@@ -790,28 +790,35 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "하랄드 집에 놀러 간 날/우예 브란델리우스 지음, 클라라 다켄베리 그림/안녕로빈",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401849332&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401849332&rssType=1&type=item",
-      "event_at": "2026-09-09T06:31:00+00:00",
-      "isbn": "401849332",
+      "title": "아무것도/니콜라스 데이 지음, 크리스 라쉬카 그림, 신형건 옮김/보물창고",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401934023&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401934023&rssType=1&type=item",
+      "event_at": "2026-09-10T05:33:00+00:00",
+      "isbn": "401934023",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
       "venue": "",
-      "award_name": "후보",
+      "award_name": "수상",
       "genre": [
         "시",
+        "예술",
+        "철학",
         "어린이",
-        "청소년",
         "그림책"
       ],
       "publisher": [],
-      "book_type": [],
-      "author": [],
+      "book_type": [
+        "화제의 책",
+        "세트",
+        "시리즈"
+      ],
+      "author": [
+        "작가"
+      ],
       "award": [
-        "후보"
+        "수상"
       ],
       "book_event": [],
       "source_signal": [
@@ -819,9 +826,9 @@
         "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:401849332",
+      "canonical_key": "book_edition:401934023",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:58d6b1c8f148:20260909",
+      "event_key": "award_signal:c5b466220825:20260910",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -838,11 +845,11 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "은둔/조현 지음/불광출판사",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401824384&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401824384&rssType=1&type=item",
-      "event_at": "2026-09-09T02:41:00+00:00",
-      "isbn": "401824384",
+      "title": "브랜드, 신이 되다/엄창호 지음/루아크",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401921129&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401921129&rssType=1&type=item",
+      "event_at": "2026-09-10T03:01:00+00:00",
+      "isbn": "401921129",
       "rank": null,
       "retailer": "",
       "library_network": "",
@@ -850,21 +857,16 @@
       "venue": "",
       "award_name": "수상",
       "genre": [
+        "에세이",
         "시",
         "문학",
-        "종교"
+        "인문학"
       ],
-      "publisher": [
-        "출판사"
-      ],
+      "publisher": [],
       "book_type": [
-        "개정판",
-        "초판"
+        "신간"
       ],
-      "author": [
-        "조정래",
-        "저자"
-      ],
+      "author": [],
       "award": [
         "수상"
       ],
@@ -874,9 +876,215 @@
         "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:401824384",
+      "canonical_key": "book_edition:401921129",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:8f01d81aaf0e:20260909",
+      "event_key": "award_signal:955e756554ac:20260910",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "클릭 히어/알렉스 슐츠 지음, 김태훈 옮김, 최창석 감수/알에이치코리아(RHK)",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401919620&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401919620&rssType=1&type=item",
+      "event_at": "2026-09-10T02:47:00+00:00",
+      "isbn": "401919620",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "시",
+        "경제경영"
+      ],
+      "publisher": [
+        "알에이치코리아",
+        "rhk"
+      ],
+      "book_type": [
+        "베스트셀러"
+      ],
+      "author": [],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:401919620",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:2bee37f2bdc7:20260910",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "인골 전시관/마타요시 에이키 지음, 조정민 옮김/모요사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401917667&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401917667&rssType=1&type=item",
+      "event_at": "2026-09-10T02:20:00+00:00",
+      "isbn": "401917667",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "역사",
+        "정치"
+      ],
+      "publisher": [],
+      "book_type": [
+        "신간"
+      ],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:401917667",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:8f04df36c185:20260910",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "미친 여자들의 집/케일라 재니스 지음, 이승연 옮김/현실문화",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401916577&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401916577&rssType=1&type=item",
+      "event_at": "2026-09-10T02:09:00+00:00",
+      "isbn": "401916577",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "에세이",
+        "시",
+        "과학",
+        "사회과학",
+        "예술"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:401916577",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:09a0e64fc4bd:20260910",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "아무것도 아닌 왕/너새니얼 레소어 지음, 신선해 옮김/폭스코너",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401916006&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401916006&rssType=1&type=item",
+      "event_at": "2026-09-10T02:01:00+00:00",
+      "isbn": "401916006",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "문학",
+        "청소년"
+      ],
+      "publisher": [],
+      "book_type": [
+        "신간"
+      ],
+      "author": [
+        "작가",
+        "저자"
+      ],
+      "award": [
+        "수상",
+        "후보"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:401916006",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:e25dc0404618:20260910",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -893,47 +1101,48 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "author_event",
-      "title": "생각을 재우는 열두 시 심리학/최기홍 지음/블랙피쉬",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401823248&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401823248&rssType=1&type=item",
-      "event_at": "2026-09-09T02:30:00+00:00",
-      "isbn": "401823248",
+      "title": "파란 파란 (양장)/유지현 지음/창비",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401914964&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401914964&rssType=1&type=item",
+      "event_at": "2026-09-10T01:48:00+00:00",
+      "isbn": "401914964",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
-      "venue": "강연",
+      "venue": "북토크",
       "award_name": "수상",
       "genre": [
+        "소설",
         "시",
+        "희곡",
         "문학",
-        "자기계발",
-        "인문학",
-        "과학",
-        "건강",
-        "심리"
+        "청소년"
       ],
-      "publisher": [],
+      "publisher": [
+        "창비"
+      ],
       "book_type": [
-        "신간"
+        "베스트셀러"
       ],
       "author": [
-        "저자"
+        "작가"
       ],
       "award": [
-        "수상"
+        "수상",
+        "문학상"
       ],
       "book_event": [
-        "강연"
+        "북토크"
       ],
       "source_signal": [
         "editorial_coverage",
         "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:401823248",
+      "canonical_key": "book_edition:401914964",
       "canonical_key_status": "complete",
-      "event_key": "author_event:1446f300a6bf:20260909",
+      "event_key": "author_event:3909f90355fe:20260910",
       "required_field_proxy": {
         "author_name": true,
         "venue": true,
@@ -950,47 +1159,48 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "생각을 재우는 열두 시 심리학/최기홍 지음/블랙피쉬",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401823248&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401823248&rssType=1&type=item",
-      "event_at": "2026-09-09T02:30:00+00:00",
-      "isbn": "401823248",
+      "title": "파란 파란 (양장)/유지현 지음/창비",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401914964&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401914964&rssType=1&type=item",
+      "event_at": "2026-09-10T01:48:00+00:00",
+      "isbn": "401914964",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
-      "venue": "강연",
+      "venue": "북토크",
       "award_name": "수상",
       "genre": [
+        "소설",
         "시",
+        "희곡",
         "문학",
-        "자기계발",
-        "인문학",
-        "과학",
-        "건강",
-        "심리"
+        "청소년"
       ],
-      "publisher": [],
+      "publisher": [
+        "창비"
+      ],
       "book_type": [
-        "신간"
+        "베스트셀러"
       ],
       "author": [
-        "저자"
+        "작가"
       ],
       "award": [
-        "수상"
+        "수상",
+        "문학상"
       ],
       "book_event": [
-        "강연"
+        "북토크"
       ],
       "source_signal": [
         "editorial_coverage",
         "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:401823248",
+      "canonical_key": "book_edition:401914964",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:1446f300a6bf:20260909",
+      "event_key": "award_signal:3909f90355fe:20260910",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -1007,11 +1217,11 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "아름다움이라는 우연/브라이언 워싱턴 지음, 최현영 옮김/더픽션",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401821619&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401821619&rssType=1&type=item",
-      "event_at": "2026-09-09T02:14:00+00:00",
-      "isbn": "401821619",
+      "title": "연결의 심리학/신지은 지음/김영사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401912807&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401912807&rssType=1&type=item",
+      "event_at": "2026-09-10T01:12:00+00:00",
+      "isbn": "401912807",
       "rank": null,
       "retailer": "",
       "library_network": "",
@@ -1019,23 +1229,22 @@
       "venue": "",
       "award_name": "수상",
       "genre": [
-        "소설",
         "시",
-        "희곡",
         "문학",
-        "영어"
+        "인문학",
+        "심리"
       ],
-      "publisher": [],
+      "publisher": [
+        "김영사"
+      ],
       "book_type": [
         "신간"
       ],
       "author": [
-        "작가"
+        "저자"
       ],
       "award": [
-        "수상",
-        "문학상",
-        "후보"
+        "수상"
       ],
       "book_event": [],
       "source_signal": [
@@ -1043,9 +1252,9 @@
         "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:401821619",
+      "canonical_key": "book_edition:401912807",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:991f3de98dba:20260909",
+      "event_key": "award_signal:ead348039f83:20260910",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -1098,50 +1307,6 @@
       },
       "required_field_gaps": [
         "isbn"
-      ]
-    },
-    {
-      "source": "Publishers Weekly",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "FutureBook Conference to Precede London Book Fair in 2027",
-      "url": "http://www.publishersweekly.com/pw/by-topic/international/london-book-fair/article/101181-futurebook-conference-and-awards-to-precede-london-book-fair-in-2027.html",
-      "source_url": "http://www.publishersweekly.com/pw/by-topic/international/london-book-fair/article/101181-futurebook-conference-and-awards-to-precede-london-book-fair-in-2027.html",
-      "event_at": "2026-09-08T04:00:00+00:00",
-      "isbn": "101181",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "book fair",
-      "award_name": "",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "book fair"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:101181",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:c0f00e6e66bc:20260908",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
       ]
     },
     {
@@ -1882,146 +2047,6 @@
         "retailer": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "New York Times Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Book Review: ‘Tower Hill,’ by Alan Taylor",
-      "url": "https://www.nytimes.com/2026/09/06/books/review/tower-hill-alan-taylor.html",
-      "source_url": "https://www.nytimes.com/2026/09/06/books/review/tower-hill-alan-taylor.html",
-      "event_at": "2026-09-06T09:00:14+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "pulitzer",
-      "genre": [],
-      "publisher": [],
-      "book_type": [
-        "book review"
-      ],
-      "author": [],
-      "award": [
-        "pulitzer"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:new-york-times-books:d93aa263501c",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:7ce56b398394:20260906",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Triage by Claudia Rankine review – how should we respond to the world’s atrocities?",
-      "url": "https://www.theguardian.com/books/2026/aug/25/triage-by-claudia-rankine-review-how-should-we-respond-to-the-worlds-atrocities",
-      "source_url": "https://www.theguardian.com/books/2026/aug/25/triage-by-claudia-rankine-review-how-should-we-respond-to-the-worlds-atrocities",
-      "event_at": "2026-08-25T08:00:51+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "award",
-      "genre": [
-        "fiction",
-        "memoir"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "award"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:the-guardian-books:970c0625dd14",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:4ee93872507d:20260825",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "The Disappearers by Marlon James review – a scorching exposé of homophobia in Jamaica",
-      "url": "https://www.theguardian.com/books/2026/aug/24/the-disappearers-by-marlon-james-review-a-scorching-expose-of-homophobia-in-jamaica",
-      "source_url": "https://www.theguardian.com/books/2026/aug/24/the-disappearers-by-marlon-james-review-a-scorching-expose-of-homophobia-in-jamaica",
-      "event_at": "2026-08-24T06:00:54+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [
-        "novel",
-        "literature"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "booker"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:the-guardian-books:86dd737d3bcb",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:ee7625017cb5:20260824",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
     }
   ],
   "daily_review_items": [
@@ -2040,67 +2065,6 @@
       "event_model": "award_signal",
       "source": "The Guardian Books",
       "title": "The Newer World by Sebastian Barry review – a near-miracle of storytelling",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "Publishers Weekly",
-      "title": "FutureBook Conference to Precede London Book Fair in 2027",
-      "canonical_key": "book_edition:101181",
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "Book Review: ‘Tower Hill,’ by Alan Taylor",
-      "canonical_key": "book_source:new-york-times-books:d93aa263501c",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "Book Review: ‘Tower Hill,’ by Alan Taylor",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "Triage by Claudia Rankine review – how should we respond to the world’s atrocities?",
-      "canonical_key": "book_source:the-guardian-books:970c0625dd14",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "Triage by Claudia Rankine review – how should we respond to the world’s atrocities?",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "The Disappearers by Marlon James review – a scorching exposé of homophobia in Jamaica",
-      "canonical_key": "book_source:the-guardian-books:86dd737d3bcb",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "The Disappearers by Marlon James review – a scorching exposé of homophobia in Jamaica",
       "canonical_key_status": "source_proxy"
     },
     {
