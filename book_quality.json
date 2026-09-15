@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-09-14T05:54:41.273742+00:00",
+  "generated_at": "2026-09-15T05:56:20.087688+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -17,23 +17,23 @@
     "sales_ranking_events": 15,
     "library_lending_events": 0,
     "author_event_events": 0,
-    "award_signal_events": 6,
-    "book_signal_event_count": 21,
-    "official_or_operational_event_count": 19,
+    "award_signal_events": 10,
+    "book_signal_event_count": 25,
+    "official_or_operational_event_count": 22,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 19,
-    "proxy_canonical_key_count": 2,
+    "complete_canonical_key_count": 22,
+    "proxy_canonical_key_count": 3,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 19,
-    "author_present_count": 9,
+    "isbn_present_count": 22,
+    "author_present_count": 12,
     "publisher_present_count": 8,
     "rank_present_count": 17,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 2,
+    "event_required_field_gap_count": 3,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 10
+    "daily_review_item_count": 12
   },
   "sources": [
     {
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 30,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 15,
       "event_count": 15,
       "latest_event_at": "2026-09-13T22:00:36+00:00",
-      "age_days": 0.33,
+      "age_days": 1.33,
       "latest_title": "8위 수원에서의 나날",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401907582&radar_rank=8&radar_ranking_date=20260913220036&rssType=5&type=item",
       "latest_source_signal": [
@@ -781,6 +781,101 @@
     }
   ],
   "events": [
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Rabih Alameddine on Writing Humor In Times of Tumult and Tragedy",
+      "url": "https://lithub.com/rabih-alameddine-on-writing-humor-in-times-of-tumult-and-tragedy",
+      "source_url": "https://lithub.com/rabih-alameddine-on-writing-humor-in-times-of-tumult-and-tragedy",
+      "event_at": "2026-09-14T09:08:41+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [
+        "fiction",
+        "novel"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author"
+      ],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:af3406f49ba9",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:f13940f82b03:20260914",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Book Riot",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "20 Years of Graphic Novels About Belonging",
+      "url": "https://bookriot.com/shaun-tan-the-arrival-and-hometown",
+      "source_url": "https://bookriot.com/shaun-tan-the-arrival-and-hometown",
+      "event_at": "2026-09-14T09:00:00+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author"
+      ],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:title:53e7446bf139",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:eaf2322c9b08:20260914",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
     {
       "source": "알라딘 베스트셀러",
       "source_type": "rss",
@@ -1582,48 +1677,162 @@
       "required_field_gaps": []
     },
     {
-      "source": "Book Riot",
+      "source": "알라딘 신간",
       "source_type": "rss",
-      "trust_tier": "T3_professional",
+      "trust_tier": "T1_official",
       "content_type": "news",
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "Book Riot’s Deals of the Day for September 12, 2026",
-      "url": "https://bookriot.com/book-riots-deals-of-the-day-for-september-12-2026",
-      "source_url": "https://bookriot.com/book-riots-deals-of-the-day-for-september-12-2026",
-      "event_at": "2026-09-12T10:00:00+00:00",
-      "isbn": "",
+      "title": "드래곤 마스터 20/트레이시 웨스트 지음, 그래엄 하웰스 그림, 윤영 옮김/다산어린이",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402019043&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402019043&rssType=1&type=item",
+      "event_at": "2026-09-11T08:11:00+00:00",
+      "isbn": "402019043",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
       "venue": "",
-      "award_name": "award",
-      "genre": [],
+      "award_name": "선정",
+      "genre": [
+        "시",
+        "판타지",
+        "어린이",
+        "동화"
+      ],
       "publisher": [],
-      "book_type": [],
+      "book_type": [
+        "베스트셀러",
+        "시리즈"
+      ],
       "author": [],
       "award": [
-        "award"
+        "선정"
       ],
       "book_event": [],
       "source_signal": [
         "editorial_coverage",
+        "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_source:book-riot:9f3e6190cd16",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:4fd44f2a5b84:20260912",
+      "canonical_key": "book_edition:402019043",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:d8bd1cc83385:20260911",
       "required_field_proxy": {
-        "isbn": false,
+        "isbn": true,
         "award_name": true,
         "source_url": true
       },
-      "required_field_gaps": [
-        "isbn"
-      ]
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "고지식 박사의 데칼코마니 스티커/김미숙 지음, 간장 그림/뜨인돌어린이",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402010170&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402010170&rssType=1&type=item",
+      "event_at": "2026-09-11T06:42:00+00:00",
+      "isbn": "402010170",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "어린이",
+        "동화"
+      ],
+      "publisher": [],
+      "book_type": [
+        "신간"
+      ],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:402010170",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:7bcf4df0b1ef:20260911",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "탄흔/데라오 데쓰야 지음, 김소희 옮김/드롬",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401995482&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401995482&rssType=1&type=item",
+      "event_at": "2026-09-11T04:42:00+00:00",
+      "isbn": "401995482",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "건강",
+        "컴퓨터"
+      ],
+      "publisher": [],
+      "book_type": [
+        "신간"
+      ],
+      "author": [
+        "작가",
+        "저자",
+        "번역",
+        "역자"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:401995482",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:211bd8e8b457:20260911",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "알라딘 신간",
@@ -1786,9 +1995,26 @@
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Rabih Alameddine on Writing Humor In Times of Tumult and Tragedy",
+      "canonical_key": "book_edition:title:af3406f49ba9",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Rabih Alameddine on Writing Humor In Times of Tumult and Tragedy",
+      "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
       "source": "Book Riot",
-      "title": "Book Riot’s Deals of the Day for September 12, 2026",
-      "canonical_key": "book_source:book-riot:9f3e6190cd16",
+      "title": "20 Years of Graphic Novels About Belonging",
+      "canonical_key": "book_edition:title:53e7446bf139",
       "required_field_gaps": [
         "isbn"
       ]
@@ -1797,8 +2023,8 @@
       "reason": "proxy_canonical_key",
       "event_model": "award_signal",
       "source": "Book Riot",
-      "title": "Book Riot’s Deals of the Day for September 12, 2026",
-      "canonical_key_status": "source_proxy"
+      "title": "20 Years of Graphic Novels About Belonging",
+      "canonical_key_status": "title_proxy"
     },
     {
       "reason": "missing_required_fields",
