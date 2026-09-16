@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-09-15T05:56:20.087688+00:00",
+  "generated_at": "2026-09-16T05:42:57.320442+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -17,23 +17,23 @@
     "sales_ranking_events": 15,
     "library_lending_events": 0,
     "author_event_events": 0,
-    "award_signal_events": 10,
-    "book_signal_event_count": 25,
-    "official_or_operational_event_count": 22,
+    "award_signal_events": 11,
+    "book_signal_event_count": 26,
+    "official_or_operational_event_count": 19,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 22,
-    "proxy_canonical_key_count": 3,
+    "complete_canonical_key_count": 20,
+    "proxy_canonical_key_count": 6,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 22,
-    "author_present_count": 12,
+    "isbn_present_count": 20,
+    "author_present_count": 9,
     "publisher_present_count": 8,
-    "rank_present_count": 17,
+    "rank_present_count": 18,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 3,
+    "event_required_field_gap_count": 6,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 12
+    "daily_review_item_count": 18
   },
   "sources": [
     {
@@ -75,7 +75,7 @@
       "article_count": 15,
       "event_count": 15,
       "latest_event_at": "2026-09-13T22:00:36+00:00",
-      "age_days": 1.33,
+      "age_days": 2.32,
       "latest_title": "8위 수원에서의 나날",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401907582&radar_rank=8&radar_ranking_date=20260913220036&rssType=5&type=item",
       "latest_source_signal": [
@@ -790,10 +790,10 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "Rabih Alameddine on Writing Humor In Times of Tumult and Tragedy",
-      "url": "https://lithub.com/rabih-alameddine-on-writing-humor-in-times-of-tumult-and-tragedy",
-      "source_url": "https://lithub.com/rabih-alameddine-on-writing-humor-in-times-of-tumult-and-tragedy",
-      "event_at": "2026-09-14T09:08:41+00:00",
+      "title": "Here’s the longlist for the 2026 National Book Award for Translated Literature.",
+      "url": "https://lithub.com/heres-the-longlist-for-the-2026-national-book-award-for-translated-literature",
+      "source_url": "https://lithub.com/heres-the-longlist-for-the-2026-national-book-award-for-translated-literature",
+      "event_at": "2026-09-15T18:00:38+00:00",
       "isbn": "",
       "rank": null,
       "retailer": "",
@@ -802,14 +802,11 @@
       "venue": "",
       "award_name": "award",
       "genre": [
-        "fiction",
-        "novel"
+        "literature"
       ],
       "publisher": [],
       "book_type": [],
-      "author": [
-        "author"
-      ],
+      "author": [],
       "award": [
         "award"
       ],
@@ -818,9 +815,9 @@
         "book_review_source",
         "editorial_coverage"
       ],
-      "canonical_key": "book_edition:title:af3406f49ba9",
-      "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:f13940f82b03:20260914",
+      "canonical_key": "book_source:literary-hub:5ee794e88239",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:abfdf4df93fa:20260915",
       "required_field_proxy": {
         "isbn": false,
         "award_name": true,
@@ -839,10 +836,10 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "20 Years of Graphic Novels About Belonging",
-      "url": "https://bookriot.com/shaun-tan-the-arrival-and-hometown",
-      "source_url": "https://bookriot.com/shaun-tan-the-arrival-and-hometown",
-      "event_at": "2026-09-14T09:00:00+00:00",
+      "title": "The 2026 National Book Award Longlist for Translated Literature",
+      "url": "https://bookriot.com/the-2026-national-book-award-longlist-for-translated-literature",
+      "source_url": "https://bookriot.com/the-2026-national-book-award-longlist-for-translated-literature",
+      "event_at": "2026-09-15T17:01:51+00:00",
       "isbn": "",
       "rank": null,
       "retailer": "",
@@ -850,12 +847,12 @@
       "lending_count": null,
       "venue": "",
       "award_name": "award",
-      "genre": [],
+      "genre": [
+        "literature"
+      ],
       "publisher": [],
       "book_type": [],
-      "author": [
-        "author"
-      ],
+      "author": [],
       "award": [
         "award"
       ],
@@ -864,9 +861,9 @@
         "editorial_coverage",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:title:53e7446bf139",
-      "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:eaf2322c9b08:20260914",
+      "canonical_key": "book_source:book-riot:65457f253fec",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:733823b2fef6:20260915",
       "required_field_proxy": {
         "isbn": false,
         "award_name": true,
@@ -875,6 +872,310 @@
       "required_field_gaps": [
         "isbn"
       ]
+    },
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Here’s the longlist for the 2026 National Book Award for Young People’s Literature.",
+      "url": "https://lithub.com/heres-the-longlist-for-the-2026-national-book-award-for-young-peoples-literature",
+      "source_url": "https://lithub.com/heres-the-longlist-for-the-2026-national-book-award-for-young-peoples-literature",
+      "event_at": "2026-09-15T14:00:40+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [
+        "literature"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:literary-hub:df21ee8aab93",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:b90b49740acb:20260915",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Book Riot",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "The 2026 National Book Award Longlist for Young People’s Literature",
+      "url": "https://bookriot.com/the-2026-national-book-award-longlist-for-young-peoples-literature",
+      "source_url": "https://bookriot.com/the-2026-national-book-award-longlist-for-young-peoples-literature",
+      "event_at": "2026-09-15T13:50:28+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [
+        "literature"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:book-riot:d8044f2a3f43",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:25113b4714a7:20260915",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Emily St. John Mandel on Writing a Novel of Dystopian Counterlives",
+      "url": "https://lithub.com/emily-st-john-mandel-on-writing-a-novel-of-dystopian-counterlives",
+      "source_url": "https://lithub.com/emily-st-john-mandel-on-writing-a-novel-of-dystopian-counterlives",
+      "event_at": "2026-09-15T09:10:02+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [
+        "novel"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:literary-hub:0cfe1d2f4171",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:8ebbe4b451ff:20260915",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Book Riot",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "📚 Librarians are winning",
+      "url": "https://bookriot.com/librarians-are-winning",
+      "source_url": "https://bookriot.com/librarians-are-winning",
+      "event_at": "2026-09-15T09:00:00+00:00",
+      "isbn": "258769",
+      "rank": 333,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "nobel",
+      "genre": [
+        "fiction",
+        "novel",
+        "literary",
+        "poetry",
+        "memoir",
+        "romance",
+        "mystery"
+      ],
+      "publisher": [
+        "publisher"
+      ],
+      "book_type": [
+        "hardcover",
+        "paperback",
+        "new release"
+      ],
+      "author": [
+        "author"
+      ],
+      "award": [
+        "nobel",
+        "booker",
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:258769",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:fcbd6812bc22:20260915",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "마법천자문 72/알에스미디어 지음, 정수영 그림, 강용철 감수/아울북",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402211274&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402211274&rssType=1&type=item",
+      "event_at": "2026-09-14T07:23:00+00:00",
+      "isbn": "402211274",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "만화",
+        "어린이"
+      ],
+      "publisher": [],
+      "book_type": [
+        "화제의 책",
+        "세트"
+      ],
+      "author": [],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:402211274",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:e57208cb3b7a:20260914",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "미지의 차원/노나 페르난데스 지음, 김현우 옮김/가망서사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402184258&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402184258&rssType=1&type=item",
+      "event_at": "2026-09-14T03:11:00+00:00",
+      "isbn": "402184258",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "역사",
+        "정치",
+        "영어"
+      ],
+      "publisher": [],
+      "book_type": [
+        "신간"
+      ],
+      "author": [
+        "작가",
+        "번역"
+      ],
+      "award": [
+        "수상",
+        "후보"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:402184258",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:f8d262fbbeee:20260914",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "알라딘 베스트셀러",
@@ -1677,273 +1978,6 @@
       "required_field_gaps": []
     },
     {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "드래곤 마스터 20/트레이시 웨스트 지음, 그래엄 하웰스 그림, 윤영 옮김/다산어린이",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402019043&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402019043&rssType=1&type=item",
-      "event_at": "2026-09-11T08:11:00+00:00",
-      "isbn": "402019043",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "시",
-        "판타지",
-        "어린이",
-        "동화"
-      ],
-      "publisher": [],
-      "book_type": [
-        "베스트셀러",
-        "시리즈"
-      ],
-      "author": [],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:402019043",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:d8bd1cc83385:20260911",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "고지식 박사의 데칼코마니 스티커/김미숙 지음, 간장 그림/뜨인돌어린이",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402010170&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402010170&rssType=1&type=item",
-      "event_at": "2026-09-11T06:42:00+00:00",
-      "isbn": "402010170",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "어린이",
-        "동화"
-      ],
-      "publisher": [],
-      "book_type": [
-        "신간"
-      ],
-      "author": [],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:402010170",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:7bcf4df0b1ef:20260911",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "탄흔/데라오 데쓰야 지음, 김소희 옮김/드롬",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401995482&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401995482&rssType=1&type=item",
-      "event_at": "2026-09-11T04:42:00+00:00",
-      "isbn": "401995482",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "건강",
-        "컴퓨터"
-      ],
-      "publisher": [],
-      "book_type": [
-        "신간"
-      ],
-      "author": [
-        "작가",
-        "저자",
-        "번역",
-        "역자"
-      ],
-      "award": [
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:401995482",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:211bd8e8b457:20260911",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "에케 호모/오수완 지음/다산책방",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401983261&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401983261&rssType=1&type=item",
-      "event_at": "2026-09-11T02:21:00+00:00",
-      "isbn": "401983261",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "과학",
-        "sf"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:401983261",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:ab5d8785ce66:20260911",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "알갱이들/황보나 지음/사계절",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401977029&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=401977029&rssType=1&type=item",
-      "event_at": "2026-09-11T01:09:00+00:00",
-      "isbn": "401977029",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "예술"
-      ],
-      "publisher": [
-        "사계절"
-      ],
-      "book_type": [
-        "세트"
-      ],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:401977029",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:fdd62b611e68:20260911",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -1996,8 +2030,8 @@
       "reason": "missing_required_fields",
       "event_model": "award_signal",
       "source": "Literary Hub",
-      "title": "Rabih Alameddine on Writing Humor In Times of Tumult and Tragedy",
-      "canonical_key": "book_edition:title:af3406f49ba9",
+      "title": "Here’s the longlist for the 2026 National Book Award for Translated Literature.",
+      "canonical_key": "book_source:literary-hub:5ee794e88239",
       "required_field_gaps": [
         "isbn"
       ]
@@ -2006,15 +2040,15 @@
       "reason": "proxy_canonical_key",
       "event_model": "award_signal",
       "source": "Literary Hub",
-      "title": "Rabih Alameddine on Writing Humor In Times of Tumult and Tragedy",
-      "canonical_key_status": "title_proxy"
+      "title": "Here’s the longlist for the 2026 National Book Award for Translated Literature.",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
       "source": "Book Riot",
-      "title": "20 Years of Graphic Novels About Belonging",
-      "canonical_key": "book_edition:title:53e7446bf139",
+      "title": "The 2026 National Book Award Longlist for Translated Literature",
+      "canonical_key": "book_source:book-riot:65457f253fec",
       "required_field_gaps": [
         "isbn"
       ]
@@ -2023,8 +2057,59 @@
       "reason": "proxy_canonical_key",
       "event_model": "award_signal",
       "source": "Book Riot",
-      "title": "20 Years of Graphic Novels About Belonging",
-      "canonical_key_status": "title_proxy"
+      "title": "The 2026 National Book Award Longlist for Translated Literature",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Here’s the longlist for the 2026 National Book Award for Young People’s Literature.",
+      "canonical_key": "book_source:literary-hub:df21ee8aab93",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Here’s the longlist for the 2026 National Book Award for Young People’s Literature.",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "The 2026 National Book Award Longlist for Young People’s Literature",
+      "canonical_key": "book_source:book-riot:d8044f2a3f43",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "The 2026 National Book Award Longlist for Young People’s Literature",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Emily St. John Mandel on Writing a Novel of Dystopian Counterlives",
+      "canonical_key": "book_source:literary-hub:0cfe1d2f4171",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Emily St. John Mandel on Writing a Novel of Dystopian Counterlives",
+      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
