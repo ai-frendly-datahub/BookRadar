@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-09-23T05:35:58.978725+00:00",
+  "generated_at": "2026-09-24T05:55:19.798866+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -17,23 +17,23 @@
     "sales_ranking_events": 15,
     "library_lending_events": 0,
     "author_event_events": 1,
-    "award_signal_events": 14,
-    "book_signal_event_count": 30,
-    "official_or_operational_event_count": 20,
+    "award_signal_events": 15,
+    "book_signal_event_count": 31,
+    "official_or_operational_event_count": 23,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 23,
-    "proxy_canonical_key_count": 7,
+    "complete_canonical_key_count": 26,
+    "proxy_canonical_key_count": 5,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 23,
-    "author_present_count": 10,
-    "publisher_present_count": 5,
+    "isbn_present_count": 26,
+    "author_present_count": 15,
+    "publisher_present_count": 4,
     "rank_present_count": 16,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 8,
+    "event_required_field_gap_count": 5,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 20
+    "daily_review_item_count": 15
   },
   "sources": [
     {
@@ -75,7 +75,7 @@
       "article_count": 15,
       "event_count": 15,
       "latest_event_at": "2026-09-20T22:01:12+00:00",
-      "age_days": 2.32,
+      "age_days": 3.33,
       "latest_title": "7위 주술회전 모듈로 2",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402455983&radar_rank=7&radar_ranking_date=20260920220112&rssType=5&type=item",
       "latest_source_signal": [
@@ -793,7 +793,7 @@
       "title": "Booker Prize 2026: Six Novels Make Shortlist",
       "url": "https://www.nytimes.com/2026/09/22/books/booker-prize-shortlist.html",
       "source_url": "https://www.nytimes.com/2026/09/22/books/booker-prize-shortlist.html",
-      "event_at": "2026-09-22T22:18:35+00:00",
+      "event_at": "2026-09-23T12:36:06+00:00",
       "isbn": "",
       "rank": null,
       "retailer": "",
@@ -820,7 +820,7 @@
       ],
       "canonical_key": "book_edition:title:9eee50a5b7f9",
       "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:ce97c36407ef:20260922",
+      "event_key": "award_signal:ce97c36407ef:20260923",
       "required_field_proxy": {
         "isbn": false,
         "award_name": true,
@@ -829,6 +829,48 @@
       "required_field_gaps": [
         "isbn"
       ]
+    },
+    {
+      "source": "Publishers Weekly",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "2026 Booker Prize Shortlist Announced",
+      "url": "http://www.publishersweekly.com/pw/by-topic/industry-news/awards-and-prizes/article/101320-2026-booker-prize-shortlist-announced.html",
+      "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/awards-and-prizes/article/101320-2026-booker-prize-shortlist-announced.html",
+      "event_at": "2026-09-23T04:00:00+00:00",
+      "isbn": "1013202026",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:1013202026",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:353c0fa8820a:20260923",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "Book Riot",
@@ -865,53 +907,6 @@
       "canonical_key": "book_source:book-riot:d026093e678a",
       "canonical_key_status": "source_proxy",
       "event_key": "award_signal:dca3e1a89f24:20260922",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "Literary Hub",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Here’s the shortlist for the 2026 Booker Prize.",
-      "url": "https://lithub.com/heres-the-shortlist-for-the-2026-booker-prize",
-      "source_url": "https://lithub.com/heres-the-shortlist-for-the-2026-booker-prize",
-      "event_at": "2026-09-22T19:07:00+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [
-        "fiction",
-        "literary"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "booker"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:literary-hub:e04ad350f14a",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:6fd17b327ecd:20260922",
       "required_field_proxy": {
         "isbn": false,
         "award_name": true,
@@ -1065,50 +1060,61 @@
       ]
     },
     {
-      "source": "Book Riot",
+      "source": "알라딘 신간",
       "source_type": "rss",
-      "trust_tier": "T3_professional",
+      "trust_tier": "T1_official",
       "content_type": "news",
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "On THE ROAD Again",
-      "url": "https://bookriot.com/zero-to-well-read-the-road",
-      "source_url": "https://bookriot.com/zero-to-well-read-the-road",
-      "event_at": "2026-09-22T09:15:00+00:00",
-      "isbn": "",
+      "event_model": "author_event",
+      "title": "환상 공동체/맹미선 지음/돌고래",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402812935&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402812935&rssType=1&type=item",
+      "event_at": "2026-09-22T08:17:00+00:00",
+      "isbn": "402812935",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
-      "venue": "",
-      "award_name": "pulitzer",
+      "venue": "사인회",
+      "award_name": "",
       "genre": [
-        "novel"
+        "에세이",
+        "시",
+        "문학",
+        "인문학",
+        "과학",
+        "역사",
+        "예술",
+        "동화"
       ],
       "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "pulitzer"
+      "book_type": [
+        "신간"
       ],
-      "book_event": [],
+      "author": [
+        "저자",
+        "번역"
+      ],
+      "award": [],
+      "book_event": [
+        "사인회"
+      ],
       "source_signal": [
         "editorial_coverage",
+        "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_source:book-riot:8c72490b7c00",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:e1d563d9e4e4:20260922",
+      "canonical_key": "book_edition:402812935",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:2a81d854a06c:20260922",
       "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
+        "author_name": true,
+        "venue": true,
         "source_url": true
       },
-      "required_field_gaps": [
-        "isbn"
-      ]
+      "required_field_gaps": []
     },
     {
       "source": "알라딘 신간",
@@ -1119,11 +1125,66 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "넘버블록스 대백과 수학 놀이북 8/토리 코튼 지음, 임소라 옮김/펜그로하우스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402741730&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402741730&rssType=1&type=item",
-      "event_at": "2026-09-21T06:57:00+00:00",
-      "isbn": "402741730",
+      "title": "세상의 모든 일들/오트키르 허시모프 지음, 이지은 외 옮김/한국외국어대학교출판부 지식출판원(HUINE)",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402812189&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402812189&rssType=1&type=item",
+      "event_at": "2026-09-22T08:11:00+00:00",
+      "isbn": "402812189",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "외국어"
+      ],
+      "publisher": [],
+      "book_type": [
+        "신간"
+      ],
+      "author": [
+        "작가",
+        "역자"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:402812189",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:7a6876ee8958:20260922",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "차표는 어디로 갔을까?/리우쉬궁 지음, 정세경 옮김/나는나(논장)",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402807609&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402807609&rssType=1&type=item",
+      "event_at": "2026-09-22T07:26:00+00:00",
+      "isbn": "402807609",
       "rank": null,
       "retailer": "",
       "library_network": "",
@@ -1132,13 +1193,78 @@
       "award_name": "수상",
       "genre": [
         "시",
-        "교육"
+        "문학",
+        "철학",
+        "여행",
+        "어린이",
+        "그림책"
       ],
       "publisher": [],
-      "book_type": [
-        "시리즈"
+      "book_type": [],
+      "author": [
+        "작가"
       ],
-      "author": [],
+      "award": [
+        "수상",
+        "문학상",
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:402807609",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:f048b7914356:20260922",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "인수세공/고바야시 야스미 지음, 김은모 옮김/시공사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402781368&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402781368&rssType=1&type=item",
+      "event_at": "2026-09-22T03:00:00+00:00",
+      "isbn": "402781368",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "과학",
+        "sf"
+      ],
+      "publisher": [
+        "시공사"
+      ],
+      "book_type": [
+        "신간",
+        "베스트셀러"
+      ],
+      "author": [
+        "작가",
+        "번역",
+        "데뷔"
+      ],
       "award": [
         "수상"
       ],
@@ -1148,9 +1274,9 @@
         "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:402741730",
+      "canonical_key": "book_edition:402781368",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:69f2de256a1d:20260921",
+      "event_key": "award_signal:6d78f3fb405d:20260922",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -1167,67 +1293,11 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "우리, 짐승들/저스틴 토레스 지음, 김진준 옮김/열린책들",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402738909&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402738909&rssType=1&type=item",
-      "event_at": "2026-09-21T06:19:00+00:00",
-      "isbn": "402738909",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학"
-      ],
-      "publisher": [
-        "열린책들"
-      ],
-      "book_type": [
-        "신간",
-        "베스트셀러"
-      ],
-      "author": [
-        "작가",
-        "번역"
-      ],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:402738909",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:e3f140c69033:20260921",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "가족관계 특이사항 있음/마민지 지음/클",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402727699&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402727699&rssType=1&type=item",
-      "event_at": "2026-09-21T03:10:00+00:00",
-      "isbn": "402727699",
+      "title": "비극을 비추는 거울을 부수고/앨릭스 E. 해로우 지음, 황소연 옮김/든",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402780486&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402780486&rssType=1&type=item",
+      "event_at": "2026-09-22T02:48:00+00:00",
+      "isbn": "402780486",
       "rank": null,
       "retailer": "",
       "library_network": "",
@@ -1235,9 +1305,120 @@
       "venue": "",
       "award_name": "수상",
       "genre": [
-        "에세이",
+        "소설",
         "시",
-        "여행"
+        "희곡",
+        "문학",
+        "여행",
+        "판타지",
+        "동화"
+      ],
+      "publisher": [],
+      "book_type": [
+        "베스트셀러"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:402780486",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:0d837be3a123:20260922",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "저주를 잣는 물레를 부수고/앨릭스 E. 해로우 지음, 황소연 옮김/든",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402780322&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402780322&rssType=1&type=item",
+      "event_at": "2026-09-22T02:46:00+00:00",
+      "isbn": "402780322",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "판타지",
+        "동화"
+      ],
+      "publisher": [],
+      "book_type": [
+        "베스트셀러"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:402780322",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:79b18042cc92:20260922",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "705/도야마 가오루 지음, 윤은혜 옮김/허밍북스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402772113&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402772113&rssType=1&type=item",
+      "event_at": "2026-09-22T01:45:00+00:00",
+      "isbn": "402772113",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "추리"
       ],
       "publisher": [],
       "book_type": [
@@ -1255,62 +1436,9 @@
         "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:402727699",
+      "canonical_key": "book_edition:402772113",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:3c75390f1106:20260921",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "종목 선정의 기술/오버솔드 지음/필라멘트북스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402727187&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402727187&rssType=1&type=item",
-      "event_at": "2026-09-21T03:03:00+00:00",
-      "isbn": "402727187",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "시",
-        "경제경영",
-        "여행"
-      ],
-      "publisher": [
-        "출판사"
-      ],
-      "book_type": [
-        "신간",
-        "개정판",
-        "초판"
-      ],
-      "author": [],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:402727187",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:141293eafdcc:20260921",
+      "event_key": "award_signal:ca776c67c8c7:20260922",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -2110,50 +2238,6 @@
       ]
     },
     {
-      "source": "Publishers Weekly",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "Frankfurt Book Fair 2026: What’s Hot According to Agents",
-      "url": "http://www.publishersweekly.com/pw/by-topic/industry-news/trade-shows-events/article/101287-frankfurt-book-fair-2026-what-s-hot-according-to-agents.html",
-      "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/trade-shows-events/article/101287-frankfurt-book-fair-2026-what-s-hot-according-to-agents.html",
-      "event_at": "2026-09-18T04:00:00+00:00",
-      "isbn": "101287",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "book fair",
-      "award_name": "",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "book fair"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:101287",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:582d456c1138:20260918",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
       "source": "NPR Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -2234,23 +2318,6 @@
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Here’s the shortlist for the 2026 Booker Prize.",
-      "canonical_key": "book_source:literary-hub:e04ad350f14a",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Here’s the shortlist for the 2026 Booker Prize.",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
       "source": "The Guardian Books",
       "title": "Previous winners Marlon James and Douglas Stuart shortlisted for Booker prize",
       "canonical_key": "book_edition:title:2b7691b8b7c3",
@@ -2285,23 +2352,6 @@
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "On THE ROAD Again",
-      "canonical_key": "book_source:book-riot:8c72490b7c00",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "On THE ROAD Again",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
       "source": "The Guardian Books",
       "title": "The best books to read in September: new paperbacks from Margaret Atwood, Kiran Desai and Richard Holmes",
       "canonical_key": "book_source:the-guardian-books:c88c7879962c",
@@ -2315,16 +2365,6 @@
       "source": "The Guardian Books",
       "title": "The best books to read in September: new paperbacks from Margaret Atwood, Kiran Desai and Richard Holmes",
       "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "Publishers Weekly",
-      "title": "Frankfurt Book Fair 2026: What’s Hot According to Agents",
-      "canonical_key": "book_edition:101287",
-      "required_field_gaps": [
-        "author_name"
-      ]
     },
     {
       "reason": "missing_event_model",
