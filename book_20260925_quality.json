@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-09-24T05:55:19.798866+00:00",
+  "generated_at": "2026-09-25T05:56:22.755958+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -26,8 +26,8 @@
     "missing_canonical_key_count": 0,
     "isbn_present_count": 26,
     "author_present_count": 15,
-    "publisher_present_count": 4,
-    "rank_present_count": 16,
+    "publisher_present_count": 5,
+    "rank_present_count": 17,
     "lending_count_present_count": 0,
     "event_required_field_gap_count": 5,
     "tracked_source_gap_count": 0,
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 30,
+      "article_count": 25,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 15,
       "event_count": 15,
       "latest_event_at": "2026-09-20T22:01:12+00:00",
-      "age_days": 3.33,
+      "age_days": 4.33,
       "latest_title": "7위 주술회전 모듈로 2",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402455983&radar_rank=7&radar_ranking_date=20260920220112&rssType=5&type=item",
       "latest_source_signal": [
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 26,
+      "article_count": 24,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -782,6 +782,103 @@
   ],
   "events": [
     {
+      "source": "Book Riot",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Book Riot’s Deals of the Day for September 24, 2026",
+      "url": "https://bookriot.com/book-riots-deals-of-the-day-for-september-24-2026",
+      "source_url": "https://bookriot.com/book-riots-deals-of-the-day-for-september-24-2026",
+      "event_at": "2026-09-24T15:25:17+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "pulitzer",
+      "genre": [
+        "horror",
+        "fantasy",
+        "mystery"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "pulitzer",
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:book-riot:738bb7a9f27e",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:5c532973c115:20260924",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Yellow Dog by Martin Amis review – Bill Nighy has a ball",
+      "url": "https://www.theguardian.com/books/2026/sep/24/yellow-dog-by-martin-amis-review-bill-nighy-has-a-ball",
+      "source_url": "https://www.theguardian.com/books/2026/sep/24/yellow-dog-by-martin-amis-review-bill-nighy-has-a-ball",
+      "event_at": "2026-09-24T14:00:19+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [
+        "novel"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "writer"
+      ],
+      "award": [
+        "booker"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:5dd1d3fb1d32",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:2c53f9464f2a:20260924",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
       "source": "New York Times Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -831,6 +928,56 @@
       ]
     },
     {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "메이드 인 코리아 Season 2 대본집/박은교 극본, 우민호 각색/무제",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402881122&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402881122&rssType=1&type=item",
+      "event_at": "2026-09-23T05:29:00+00:00",
+      "isbn": "402881122",
+      "rank": 1,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "예술"
+      ],
+      "publisher": [],
+      "book_type": [
+        "시리즈"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:402881122",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:ef13d42f0210:20260923",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
       "source": "Publishers Weekly",
       "source_type": "rss",
       "trust_tier": "T3_professional",
@@ -873,48 +1020,267 @@
       "required_field_gaps": []
     },
     {
-      "source": "Book Riot",
+      "source": "알라딘 신간",
       "source_type": "rss",
-      "trust_tier": "T3_professional",
+      "trust_tier": "T1_official",
       "content_type": "news",
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "🏆 The 2026 Booker Prize shortlist",
-      "url": "https://bookriot.com/2026-booker-shortlist",
-      "source_url": "https://bookriot.com/2026-booker-shortlist",
-      "event_at": "2026-09-22T19:10:00+00:00",
-      "isbn": "",
+      "title": "누구의 책임도 아닌/아사노 고세이 지음, 전선영 옮김/엘릭시르",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402862295&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402862295&rssType=1&type=item",
+      "event_at": "2026-09-23T02:20:00+00:00",
+      "isbn": "402862295",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
       "venue": "",
-      "award_name": "booker",
-      "genre": [],
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "추리"
+      ],
       "publisher": [],
-      "book_type": [],
-      "author": [],
+      "book_type": [
+        "신간"
+      ],
+      "author": [
+        "작가"
+      ],
       "award": [
-        "booker"
+        "수상"
       ],
       "book_event": [],
       "source_signal": [
         "editorial_coverage",
+        "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_source:book-riot:d026093e678a",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:dca3e1a89f24:20260922",
+      "canonical_key": "book_edition:402862295",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:9a4dadf53fba:20260923",
       "required_field_proxy": {
-        "isbn": false,
+        "isbn": true,
         "award_name": true,
         "source_url": true
       },
-      "required_field_gaps": [
-        "isbn"
-      ]
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "빵과 우유/한은형 지음/문학동네",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402860075&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402860075&rssType=1&type=item",
+      "event_at": "2026-09-23T01:58:00+00:00",
+      "isbn": "402860075",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "종교"
+      ],
+      "publisher": [
+        "문학동네"
+      ],
+      "book_type": [
+        "신간"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:402860075",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:021d95aa4a53:20260923",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "책이었습니다/요시타케 신스케.마타요시 나오키 지음, 양지연 옮김/김영사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402854014&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402854014&rssType=1&type=item",
+      "event_at": "2026-09-23T00:46:00+00:00",
+      "isbn": "402854014",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "에세이",
+        "시",
+        "문학",
+        "그림책"
+      ],
+      "publisher": [
+        "김영사"
+      ],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:402854014",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:306b4e64e4e0:20260923",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "풍경화가의 에피소드/세사르 아이라 지음, 박은영 옮김/마르코폴로",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402853490&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402853490&rssType=1&type=item",
+      "event_at": "2026-09-23T00:43:00+00:00",
+      "isbn": "402853490",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "노벨문학상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "예술",
+        "여행"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "노벨문학상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:402853490",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:985dc2887199:20260923",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "핫초코는 달콤하다/박현숙 지음, 하니 그림/한솔수북",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402852744&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402852744&rssType=1&type=item",
+      "event_at": "2026-09-23T00:37:00+00:00",
+      "isbn": "402852744",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "어린이",
+        "동화"
+      ],
+      "publisher": [],
+      "book_type": [
+        "시리즈"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:402852744",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:546ccd54e493:20260923",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "NPR Books",
@@ -1014,52 +1380,6 @@
       ]
     },
     {
-      "source": "Book Riot",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Check Out the 2026 Booker Prize Shortlist",
-      "url": "https://bookriot.com/booker-prize-shortlist-2026",
-      "source_url": "https://bookriot.com/booker-prize-shortlist-2026",
-      "event_at": "2026-09-22T18:45:25+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [
-        "fiction"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "booker"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_source:book-riot:41bf0addeed2",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:e3475f60a067:20260922",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
       "source": "알라딘 신간",
       "source_type": "rss",
       "trust_tier": "T1_official",
@@ -1112,336 +1432,6 @@
       "required_field_proxy": {
         "author_name": true,
         "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "세상의 모든 일들/오트키르 허시모프 지음, 이지은 외 옮김/한국외국어대학교출판부 지식출판원(HUINE)",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402812189&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402812189&rssType=1&type=item",
-      "event_at": "2026-09-22T08:11:00+00:00",
-      "isbn": "402812189",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "외국어"
-      ],
-      "publisher": [],
-      "book_type": [
-        "신간"
-      ],
-      "author": [
-        "작가",
-        "역자"
-      ],
-      "award": [
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:402812189",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:7a6876ee8958:20260922",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "차표는 어디로 갔을까?/리우쉬궁 지음, 정세경 옮김/나는나(논장)",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402807609&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402807609&rssType=1&type=item",
-      "event_at": "2026-09-22T07:26:00+00:00",
-      "isbn": "402807609",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "문학",
-        "철학",
-        "여행",
-        "어린이",
-        "그림책"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상",
-        "문학상",
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:402807609",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:f048b7914356:20260922",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "인수세공/고바야시 야스미 지음, 김은모 옮김/시공사",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402781368&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402781368&rssType=1&type=item",
-      "event_at": "2026-09-22T03:00:00+00:00",
-      "isbn": "402781368",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "과학",
-        "sf"
-      ],
-      "publisher": [
-        "시공사"
-      ],
-      "book_type": [
-        "신간",
-        "베스트셀러"
-      ],
-      "author": [
-        "작가",
-        "번역",
-        "데뷔"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:402781368",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:6d78f3fb405d:20260922",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "비극을 비추는 거울을 부수고/앨릭스 E. 해로우 지음, 황소연 옮김/든",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402780486&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402780486&rssType=1&type=item",
-      "event_at": "2026-09-22T02:48:00+00:00",
-      "isbn": "402780486",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "여행",
-        "판타지",
-        "동화"
-      ],
-      "publisher": [],
-      "book_type": [
-        "베스트셀러"
-      ],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:402780486",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:0d837be3a123:20260922",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "저주를 잣는 물레를 부수고/앨릭스 E. 해로우 지음, 황소연 옮김/든",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402780322&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402780322&rssType=1&type=item",
-      "event_at": "2026-09-22T02:46:00+00:00",
-      "isbn": "402780322",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "판타지",
-        "동화"
-      ],
-      "publisher": [],
-      "book_type": [
-        "베스트셀러"
-      ],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:402780322",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:79b18042cc92:20260922",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "705/도야마 가오루 지음, 윤은혜 옮김/허밍북스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402772113&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402772113&rssType=1&type=item",
-      "event_at": "2026-09-22T01:45:00+00:00",
-      "isbn": "402772113",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "추리"
-      ],
-      "publisher": [],
-      "book_type": [
-        "신간"
-      ],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:402772113",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:ca776c67c8c7:20260922",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
         "source_url": true
       },
       "required_field_gaps": []
@@ -2284,6 +2274,40 @@
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "Book Riot’s Deals of the Day for September 24, 2026",
+      "canonical_key": "book_source:book-riot:738bb7a9f27e",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "Book Riot’s Deals of the Day for September 24, 2026",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Yellow Dog by Martin Amis review – Bill Nighy has a ball",
+      "canonical_key": "book_edition:title:5dd1d3fb1d32",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Yellow Dog by Martin Amis review – Bill Nighy has a ball",
+      "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
       "source": "New York Times Books",
       "title": "Booker Prize 2026: Six Novels Make Shortlist",
       "canonical_key": "book_edition:title:9eee50a5b7f9",
@@ -2301,23 +2325,6 @@
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "🏆 The 2026 Booker Prize shortlist",
-      "canonical_key": "book_source:book-riot:d026093e678a",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "🏆 The 2026 Booker Prize shortlist",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
       "source": "The Guardian Books",
       "title": "Previous winners Marlon James and Douglas Stuart shortlisted for Booker prize",
       "canonical_key": "book_edition:title:2b7691b8b7c3",
@@ -2331,23 +2338,6 @@
       "source": "The Guardian Books",
       "title": "Previous winners Marlon James and Douglas Stuart shortlisted for Booker prize",
       "canonical_key_status": "title_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "Check Out the 2026 Booker Prize Shortlist",
-      "canonical_key": "book_source:book-riot:41bf0addeed2",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "Check Out the 2026 Booker Prize Shortlist",
-      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
