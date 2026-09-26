@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-09-25T05:56:22.755958+00:00",
+  "generated_at": "2026-09-26T05:56:51.704427+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,24 +16,24 @@
     "collection_error_count": 0,
     "sales_ranking_events": 15,
     "library_lending_events": 0,
-    "author_event_events": 1,
-    "award_signal_events": 15,
+    "author_event_events": 2,
+    "award_signal_events": 14,
     "book_signal_event_count": 31,
     "official_or_operational_event_count": 23,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 26,
-    "proxy_canonical_key_count": 5,
+    "complete_canonical_key_count": 25,
+    "proxy_canonical_key_count": 6,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 26,
+    "isbn_present_count": 25,
     "author_present_count": 15,
     "publisher_present_count": 5,
     "rank_present_count": 17,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 5,
+    "event_required_field_gap_count": 6,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 15
+    "daily_review_item_count": 17
   },
   "sources": [
     {
@@ -75,7 +75,7 @@
       "article_count": 15,
       "event_count": 15,
       "latest_event_at": "2026-09-20T22:01:12+00:00",
-      "age_days": 4.33,
+      "age_days": 5.33,
       "latest_title": "7위 주술회전 모듈로 2",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402455983&radar_rank=7&radar_ranking_date=20260920220112&rssType=5&type=item",
       "latest_source_signal": [
@@ -782,45 +782,131 @@
   ],
   "events": [
     {
-      "source": "Book Riot",
+      "source": "NPR Books",
       "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "Book Riot’s Deals of the Day for September 24, 2026",
-      "url": "https://bookriot.com/book-riots-deals-of-the-day-for-september-24-2026",
-      "source_url": "https://bookriot.com/book-riots-deals-of-the-day-for-september-24-2026",
-      "event_at": "2026-09-24T15:25:17+00:00",
+      "title": "'The Disappearers' is a fiercely personal novel that hits like a tidal wave",
+      "url": "https://www.npr.org/2026/09/25/nx-s1-5981056/the-disappearers-review-marlon-james",
+      "source_url": "https://www.npr.org/2026/09/25/nx-s1-5981056/the-disappearers-review-marlon-james",
+      "event_at": "2026-09-25T18:04:48+00:00",
+      "isbn": "5981056",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [
+        "novel"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:5981056",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:7ad444b53f06:20260925",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "Have They Ruined Our Beloved Scholastic Book Fair?",
+      "url": "https://lithub.com/have-they-ruined-our-beloved-scholastic-book-fair",
+      "source_url": "https://lithub.com/have-they-ruined-our-beloved-scholastic-book-fair",
+      "event_at": "2026-09-25T11:20:34+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "book fair",
+      "award_name": "",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "book fair"
+      ],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:literary-hub:098f0ffac395",
+      "canonical_key_status": "source_proxy",
+      "event_key": "author_event:4e4ee5661886:20260925",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Remembering Grazia Deledda, the Sardinian Nobel Prize-Winner We Should All Be Reading",
+      "url": "https://lithub.com/remembering-grazia-deledda-the-sardinian-nobel-prize-winner-we-should-all-be-reading",
+      "source_url": "https://lithub.com/remembering-grazia-deledda-the-sardinian-nobel-prize-winner-we-should-all-be-reading",
+      "event_at": "2026-09-25T09:08:46+00:00",
       "isbn": "",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
       "venue": "",
-      "award_name": "pulitzer",
+      "award_name": "nobel",
       "genre": [
-        "horror",
-        "fantasy",
-        "mystery"
+        "literature"
       ],
       "publisher": [],
       "book_type": [],
       "author": [],
       "award": [
-        "pulitzer",
+        "nobel",
         "winner"
       ],
       "book_event": [],
       "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
+        "book_review_source",
+        "editorial_coverage"
       ],
-      "canonical_key": "book_source:book-riot:738bb7a9f27e",
+      "canonical_key": "book_source:literary-hub:e46c406db9e8",
       "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:5c532973c115:20260924",
+      "event_key": "award_signal:9514358ad669:20260925",
       "required_field_proxy": {
         "isbn": false,
         "award_name": true,
@@ -970,48 +1056,6 @@
       "canonical_key": "book_edition:402881122",
       "canonical_key_status": "complete",
       "event_key": "award_signal:ef13d42f0210:20260923",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "Publishers Weekly",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "2026 Booker Prize Shortlist Announced",
-      "url": "http://www.publishersweekly.com/pw/by-topic/industry-news/awards-and-prizes/article/101320-2026-booker-prize-shortlist-announced.html",
-      "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/awards-and-prizes/article/101320-2026-booker-prize-shortlist-announced.html",
-      "event_at": "2026-09-23T04:00:00+00:00",
-      "isbn": "1013202026",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "booker"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:1013202026",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:353c0fa8820a:20260923",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -2226,57 +2270,32 @@
       "required_field_gaps": [
         "isbn"
       ]
-    },
-    {
-      "source": "NPR Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Annie Dillard, Pulitzer Prize-winning novelist, dies at 81",
-      "url": "https://www.npr.org/2026/09/16/1138680574/annie-dillard-dead",
-      "source_url": "https://www.npr.org/2026/09/16/1138680574/annie-dillard-dead",
-      "event_at": "2026-09-16T15:53:50+00:00",
-      "isbn": "1138680574",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "pulitzer",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "pulitzer"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:1138680574",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:328995d26f4f:20260916",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
     {
       "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "Literary Hub",
+      "title": "Have They Ruined Our Beloved Scholastic Book Fair?",
+      "canonical_key": "book_source:literary-hub:098f0ffac395",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "author_event",
+      "source": "Literary Hub",
+      "title": "Have They Ruined Our Beloved Scholastic Book Fair?",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
       "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "Book Riot’s Deals of the Day for September 24, 2026",
-      "canonical_key": "book_source:book-riot:738bb7a9f27e",
+      "source": "Literary Hub",
+      "title": "Remembering Grazia Deledda, the Sardinian Nobel Prize-Winner We Should All Be Reading",
+      "canonical_key": "book_source:literary-hub:e46c406db9e8",
       "required_field_gaps": [
         "isbn"
       ]
@@ -2284,8 +2303,8 @@
     {
       "reason": "proxy_canonical_key",
       "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "Book Riot’s Deals of the Day for September 24, 2026",
+      "source": "Literary Hub",
+      "title": "Remembering Grazia Deledda, the Sardinian Nobel Prize-Winner We Should All Be Reading",
       "canonical_key_status": "source_proxy"
     },
     {
