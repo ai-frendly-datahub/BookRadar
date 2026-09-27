@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-26",
+  "date": "2026-09-27",
   "category": "book",
   "article_count": 145,
   "source_count": 8,
@@ -15,11 +15,11 @@
     },
     {
       "name": "BookType",
-      "count": 51
+      "count": 50
     },
     {
       "name": "Author",
-      "count": 44
+      "count": 45
     },
     {
       "name": "Award",
@@ -36,16 +36,115 @@
   ],
   "sources": {
     "New York Times Books": 21,
-    "Literary Hub": 10,
     "NPR Books": 10,
     "Book Riot": 10,
+    "Literary Hub": 10,
     "The Guardian Books": 24,
     "Publishers Weekly": 30,
     "알라딘 신간": 25,
     "알라딘 베스트셀러": 15
   },
-  "generated_at": "2026-09-26T14:56:49.420290+09:00",
+  "generated_at": "2026-09-27T15:22:22.556492+09:00",
   "articles": [
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Book Club: Let’s Talk About ‘Etna,’ by Paul Yoon",
+        "source_url": "https://www.nytimes.com/2026/09/25/books/review/book-club-lets-talk-about-etna-by-paul-yoon.html",
+        "published_at": "2026-09-26T20:52:38+00:00",
+        "summary": "Yoon’s latest novel is about a bomb-sniffing dog trying to make it home after a war."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Sylvester Stallone Hid His Struggles for Decades. Now He’s Coming Clean.",
+        "source_url": "https://www.nytimes.com/2026/09/26/magazine/sylvester-stallone-interview.html",
+        "published_at": "2026-09-26T13:01:38+00:00",
+        "summary": "The legendary actor on his disturbing childhood, his Hollywood missteps and the pain he caused to his loved ones, his body and himself."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "NPR Books",
+        "headline": "To spot a 'Mockingbird': London thrift manager finds rare U.S. literary 1st edition",
+        "source_url": "https://www.npr.org/2026/09/26/nx-s1-5978893/to-spot-a-mockingbird-london-thrift-manager-finds-rare-u-s-literary-1st-edition",
+        "published_at": "2026-09-26T11:37:55+00:00",
+        "summary": "You never know what you'll unearth in a thrift store. NPR's Scott Simon speaks to Olivia Haysman-Walker about the discovery of a rare first edition of a classic American novel in a London bookstore."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "Book Riot’s Deals of the Day for September 26, 2026",
+        "source_url": "https://bookriot.com/book-riots-deals-of-the-day-for-september-26-2026/",
+        "published_at": "2026-09-26T11:00:00+00:00",
+        "summary": "A classic by F. Scott Fitzgerald, a thrilling cycle of vengeance, a multigenerational epic by Isabel Allende, and more of today's best book deals"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Literary Hub",
+        "headline": "Lit Hub Weekly: September 21 – 25, 2026",
+        "source_url": "https://lithub.com/lit-hub-weekly-september-21-25-2026/",
+        "published_at": "2026-09-26T10:30:04+00:00",
+        "summary": "During the season of big books, how do you choose one to read? With a flowchart, obviously. | Lit Hub Ed Simon explores the limits of language to understand why “pain makes poor poets out of all of us.” |"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Book Review: ‘Mestra,’ by Madeline Miller",
+        "source_url": "https://www.nytimes.com/2026/09/26/books/review/mestra-madeline-miller.html",
+        "published_at": "2026-09-26T09:01:29+00:00",
+        "summary": "In “Mestra,” Madeline Miller follows the daughter of the king of Thessaly on her endless, self-destructive quest to satisfy her insatiable father."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Book Review: ‘Dodge City,’ by Patrick deWitt",
+        "source_url": "https://www.nytimes.com/2026/09/26/books/review/dodge-city-patrick-dewitt.html",
+        "published_at": "2026-09-26T09:00:51+00:00",
+        "summary": "“Dodge City,” by Patrick deWitt, follows a young man on a road trip to Canada to avoid conscription in Vietnam."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Sizzling New Romance Books",
+        "source_url": "https://www.nytimes.com/2026/09/26/books/review/new-romance-books.html",
+        "published_at": "2026-09-26T09:00:37+00:00",
+        "summary": "Our columnist on three books worth your time."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Memoirs From Michael Douglas, Sylvester Stallone and Other Tough Guys",
+        "source_url": "https://www.nytimes.com/2026/09/26/books/review/actor-memoirs-michael-douglas-sylvester-stallone.html",
+        "published_at": "2026-09-26T09:00:19+00:00",
+        "summary": "Michael Douglas and Sylvester Stallone are among the tough (and tough-ish) guys getting personal in memoirs this fall."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "‘We left Ireland because there wasn’t work – and we wanted to get the hell away’: Trespasses author Louise Kennedy",
+        "source_url": "https://www.theguardian.com/books/2026/sep/26/we-left-ireland-because-there-wasnt-work-and-we-wanted-to-get-the-hell-away-trespasses-author-louise-kennedy",
+        "published_at": "2026-09-26T08:00:30+00:00",
+        "summary": "<p>Her Troubles-set debut became a hit TV series starring Gillian Anderson. Now the novelist has returned to her teen years for a follow-up. She talks about her journey from chef to author, and how her cancer diagnosis inspired her to write</p><p>Louise Kennedy’s life has hardly wanted for dramatic events, but the recent past has been spectacularly busy, even by her standards. You wouldn’t know it to look at her, as we chat in the sitting room of the house in Sligo that she shares with her husband, son and daughter, but this is the home that she once thought would be repossessed. The couple bought it “for stupid money” in 2007, when they also opened a restaurant, initially so successful that the only way seemed to be up. The following year, financial mayhem descended on Ireland, their customers ebbed away, and the Celtic Tiger years morphed into a country racked with job losses, bankruptcies, apparently endless debt. “I didn’t think I’d ever be able to keep the house,” she says, glancing around an elegant room dotted with beautiful objects and plants, but nonetheless relaxed and comfortable. “I’d say we only got out of negative equity about a month ago. There are probably arguments for moving now, but I’m so proud that we managed to hold on to it, I’m not going anywhere. I’m going to be carried out of here in a box.”</p><p>Kennedy had been a chef for 30 years, working all over the place from Dublin to London and, for two years, Beirut, before ending up in Sligo, on Ireland’s west coast, not far from the border with her native Northern Ireland. Crucially, she had never given a thought to writing, not since a teacher had admired a poem she wrote when she was seven. Now, she is about to publish her second novel, Stations, which follows a collection of short stories, The End of the World Is a Cul-de-Sac, and her debut, Trespasses, which was shortlisted for the 2023 Women’s prize for fiction and won other prizes in Ireland and the UK in 2022 and 2023. Last year, Trespasses gained further acclaim when it was <a href=\"https://www.theguardian.com/tv-and-radio/2025/nov/08/trespasses-gillian-anderson-steals-every-scene-in-this-miraculous-tv-heartbreaker\">adapted for Channel 4 </a>in a production starring Gillian Anderson as the mother of Cushla, the young Catholic teacher who falls in love with Michael, an older, married Protestant lawyer, in 1970s Belfast.</p> <a href=\"https://www.theguardian.com/books/2026/sep/26/we-left-ireland-because-there-wasnt-work-and-we-wanted-to-get-the-hell-away-trespasses-author-louise-kennedy\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "World Kid Lit Month 2026: All Our Coverage",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101354-world-kid-lit-month-2026-all-our-coverage.html",
+        "published_at": "2026-09-26T04:00:00+00:00",
+        "summary": "World Kid Lit Month 2026: All Our Coverage"
+      }
+    },
     {
       "event_model_payload": {
         "source_name": "New York Times Books",
@@ -71,15 +170,6 @@
         "source_url": "https://www.nytimes.com/2026/09/25/world/europe/thelyson-orelien-ai-canada-haiti-france.html",
         "published_at": "2026-09-25T20:11:40+00:00",
         "summary": "“It Was Either That Or Die,” by the Haitian-Canadian author Thélyson Orélien, was the hit of the French literary season. Now it has been pulled from the shortlist for a prestigious prize."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "New York Times Books",
-        "headline": "Book Club: Let’s Talk About ‘Etna,’ by Paul Yoon",
-        "source_url": "https://www.nytimes.com/2026/09/25/books/review/book-club-lets-talk-about-etna-by-paul-yoon.html",
-        "published_at": "2026-09-25T19:32:57+00:00",
-        "summary": "Yoon’s latest novel is about a bomb-sniffing dog trying to make it home after a war."
       }
     },
     {
@@ -114,7 +204,7 @@
         "source_name": "New York Times Books",
         "headline": "How Anne Rice Channeled Grief Into ‘Interview With the Vampire’",
         "source_url": "https://www.nytimes.com/2026/09/23/books/review/anne-rice-interview-with-the-vampire-50th-anniversary.html",
-        "published_at": "2026-09-25T15:26:27+00:00",
+        "published_at": "2026-09-25T15:26:28+00:00",
         "summary": "On the novel’s 50th anniversary, her son, the novelist Christopher Rice, looks at the story behind the story."
       }
     },
@@ -282,15 +372,6 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Literary Hub",
-        "headline": "Elizabeth Alexander on Finding Life in the Second Spring of Middle Age",
-        "source_url": "https://lithub.com/elizabeth-alexander-on-finding-life-in-the-second-spring-of-middle-age/",
-        "published_at": "2026-09-25T09:07:26+00:00",
-        "summary": "If I could have been a dancer, a real dancer, beyond those years at St. Mark’s, I probably would have done it. But my gifts were not that lavish, and my considerable drive was directed toward more than just dance."
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "New York Times Books",
         "headline": "Book Review: ‘The Ballad of the Fugitive William Parker,’ by Cristin O’Keefe Aptowicz",
         "source_url": "https://www.nytimes.com/2026/09/25/books/review/the-ballad-of-the-fugitive-william-parker-cristin-okeefe-aptowicz.html",
@@ -318,38 +399,11 @@
     },
     {
       "event_model_payload": {
-        "source_name": "Book Riot",
-        "headline": "One Staff Member, One Budget, One Community: How Rural Libraries Really Build Diverse Collections",
-        "source_url": "https://bookriot.com/how-rural-libraries-really-build-diverse-collections/",
-        "published_at": "2026-09-25T09:00:00+00:00",
-        "summary": "Making collection purchases in small and rural libraries involves several calculations, but librarians still prioritize diversity because it matters."
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "The Guardian Books",
         "headline": "Can’t Get You Out of My Head by Michael Cragg review – what’s the secret of Kylie’s genius?",
         "source_url": "https://www.theguardian.com/music/2026/sep/25/cant-get-you-out-of-my-head-by-michael-cragg-review-whats-the-secret-of-kylies-genius",
         "published_at": "2026-09-25T06:00:41+00:00",
         "summary": "<p>The pop star emerges as a great unifier in this in-depth yet heartfelt portrait of an Aussie icon</p><p>‘There’s an anxiety in declaring oneself a Kylie fan,” wrote the late San Francisco poet Kevin Killian (who nonetheless once published an entire collection devoted to the singer). Despite her remarkable longevity, with record-breaking chart success across five decades, Kylie’s place in the pop firmament has often felt more precarious than that of other artists, perhaps because of her past as a soap star, and the schmaltz of some of her early material with Stock Aitken Waterman.</p><p>But she has always displayed a canny self-awareness, alongside a willingness to push the envelope. It’s evident in her knowing rendition of I Should Be So Lucky as a bad poem at the Royal Albert Hall in 1996, and her many collaborations with experimental dance producers. Then there’s her instinct for giving fans what they want: inarguable bangers, like those of her 2000s imperial phase, that also possess an offbeat, idiosyncratic quality, true of Can’t Get You Out of My Head and of her 2023 viral hit, Padam Padam.</p> <a href=\"https://www.theguardian.com/music/2026/sep/25/cant-get-you-out-of-my-head-by-michael-cragg-review-whats-the-secret-of-kylies-genius\">Continue reading...</a>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Bookselling Through the Centuries: PW Talks with Andrew Pettegree",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/authors/interviews/article/101326-bookselling-through-the-centuries-pw-talks-with-andrew-pettegree.html",
-        "published_at": "2026-09-25T04:00:00+00:00",
-        "summary": "Bookselling Through the Centuries: PW Talks with Andrew Pettegree"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Religion Publishers Aim to Teach the Children Well",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/religion/article/101338-religion-publishers-aim-to-teach-the-children-well.html",
-        "published_at": "2026-09-25T04:00:00+00:00",
-        "summary": "New books look to help parents rear their children in faith."
       }
     },
     {
@@ -364,46 +418,10 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "Ukraine’s Publishing Industry Nears Breaking Point Amid War",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/international/international-book-news/article/101285-ukraine-s-publishing-industry-nears-breaking-point-amid-war.html",
-        "published_at": "2026-09-25T04:00:00+00:00",
-        "summary": "Ukraine’s Publishing Industry Nears Breaking Point Amid War"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Religion Publishers Look to Help Modern Families",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/religion/article/101339-religion-publishers-look-to-help-modern-families.html",
-        "published_at": "2026-09-25T04:00:00+00:00",
-        "summary": "New books take on today’s spiritual challenges in marriage and parenting."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
         "headline": "Scholastic Remains Optimistic After Mediocre First Quarter",
         "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/financial-reporting/article/101349-scholastic-remains-optimistic-after-mediocre-first-quarter.html",
         "published_at": "2026-09-25T04:00:00+00:00",
         "summary": "Scholastic Remains Optimistic After Mediocre First Quarter"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Writers Talking Writers: Cristina Rivera Garza on Theresa Hak Kyung Cha and R.O. Kwon on Mavis Gallant",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/tip-sheet/article/101347-writers-talking-writers-cristina-rivera-garza-on-theresa-hak-kyung-cha-and-r-o-kwon-on-mavis-gallant.html",
-        "published_at": "2026-09-25T04:00:00+00:00",
-        "summary": "Writers Talking Writers: Cristina Rivera Garza on Theresa Hak Kyung Cha and R.O. Kwon on Mavis Gallant"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Jane Schoenbrun Wants You to Put Down Your Phone",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/authors/profiles/article/101340-jane-schoenbrun-wants-you-to-put-down-your-phone.html",
-        "published_at": "2026-09-25T04:00:00+00:00",
-        "summary": "The filmmaker’s debut novel is a speculative thriller about a television station broadcasting from another dimension"
       }
     },
     {
@@ -418,10 +436,73 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
+        "headline": "Jane Schoenbrun Wants You to Put Down Your Phone",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/authors/profiles/article/101340-jane-schoenbrun-wants-you-to-put-down-your-phone.html",
+        "published_at": "2026-09-25T04:00:00+00:00",
+        "summary": "The filmmaker’s debut novel is a speculative thriller about a television station broadcasting from another dimension"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Religion Publishers Look to Help Modern Families",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/religion/article/101339-religion-publishers-look-to-help-modern-families.html",
+        "published_at": "2026-09-25T04:00:00+00:00",
+        "summary": "New books take on today’s spiritual challenges in marriage and parenting."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Religion Publishers Aim to Teach the Children Well",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/religion/article/101338-religion-publishers-aim-to-teach-the-children-well.html",
+        "published_at": "2026-09-25T04:00:00+00:00",
+        "summary": "New books look to help parents rear their children in faith."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
         "headline": "This Week’s Bestsellers: September 28, 2026",
         "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/bookselling/article/101352-this-week-s-bestsellers-september-28-2026.html",
         "published_at": "2026-09-25T04:00:00+00:00",
         "summary": "This Week’s Bestsellers: September 28, 2026"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Ukraine’s Publishing Industry Nears Breaking Point Amid War",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/international/international-book-news/article/101285-ukraine-s-publishing-industry-nears-breaking-point-amid-war.html",
+        "published_at": "2026-09-25T04:00:00+00:00",
+        "summary": "Ukraine’s Publishing Industry Nears Breaking Point Amid War"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Book Deals: Week of September 28, 2026",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/book-deals/article/101345-book-deals-week-of-september-28-2026.html",
+        "published_at": "2026-09-25T04:00:00+00:00",
+        "summary": "Book Deals: Week of September 28, 2026"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "SoCal’s Vroman’s, Book Soup Find New Owner",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/bookselling/article/101348-socal-s-vroman-s-book-soup-find-new-owner.html",
+        "published_at": "2026-09-25T04:00:00+00:00",
+        "summary": "SoCal’s Vroman’s, Book Soup Find New Owner"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Writers Talking Writers: Cristina Rivera Garza on Theresa Hak Kyung Cha and R.O. Kwon on Mavis Gallant",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/tip-sheet/article/101347-writers-talking-writers-cristina-rivera-garza-on-theresa-hak-kyung-cha-and-r-o-kwon-on-mavis-gallant.html",
+        "published_at": "2026-09-25T04:00:00+00:00",
+        "summary": "Writers Talking Writers: Cristina Rivera Garza on Theresa Hak Kyung Cha and R.O. Kwon on Mavis Gallant"
       }
     },
     {
@@ -436,10 +517,10 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "SoCal’s Vroman’s, Book Soup Find New Owner",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/bookselling/article/101348-socal-s-vroman-s-book-soup-find-new-owner.html",
+        "headline": "Bookselling Through the Centuries: PW Talks with Andrew Pettegree",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/authors/interviews/article/101326-bookselling-through-the-centuries-pw-talks-with-andrew-pettegree.html",
         "published_at": "2026-09-25T04:00:00+00:00",
-        "summary": "SoCal’s Vroman’s, Book Soup Find New Owner"
+        "summary": "Bookselling Through the Centuries: PW Talks with Andrew Pettegree"
       }
     },
     {
@@ -508,10 +589,10 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "It’s Been Worth the Trip: Alex Sanchez on His History with Queer YA",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101329-it-s-been-worth-the-trip-alex-sanchez-on-his-history-with-queer-ya.html",
+        "headline": "World Kid Lit Month 2026: Mafalda Comes to America",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101334-world-kid-lit-month-2026-mafalda-comes-to-america.html",
         "published_at": "2026-09-24T04:00:00+00:00",
-        "summary": "It’s Been Worth the Trip: Alex Sanchez on His History with Queer YA"
+        "summary": "World Kid Lit Month 2026: Mafalda Comes to America"
       }
     },
     {
@@ -526,37 +607,10 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "Moving Pictures: PW Talks with Sofia Warren",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101337-moving-pictures-pw-talks-with-sofia-warren.html",
-        "published_at": "2026-09-24T04:00:00+00:00",
-        "summary": "Moving Pictures: PW Talks with Sofia Warren"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "The Meaning of Creativity: Highlights from the 2026 Carle Honors",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101336-the-meaning-of-creativity-highlights-from-the-2026-carle-honors.html",
-        "published_at": "2026-09-24T04:00:00+00:00",
-        "summary": "The Meaning of Creativity: Highlights from the 2026 Carle Honors"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
         "headline": "In Brief: September 24, 2026",
         "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101335-in-brief-september-24-2026.html",
         "published_at": "2026-09-24T04:00:00+00:00",
         "summary": "In Brief: September 24, 2026"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Enchanted Lion’s ‘The Dreamcrafter’ Launches Series of Mongolian Stories for Young Readers",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101331-enchanted-lion-s-the-dreamcrafter-launches-series-of-mongolian-stories-for-young-readers.html",
-        "published_at": "2026-09-24T04:00:00+00:00",
-        "summary": "Enchanted Lion’s ‘The Dreamcrafter’ Launches Series of Mongolian Stories for Young Readers"
       }
     },
     {
@@ -571,10 +625,28 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
+        "headline": "Enchanted Lion’s ‘The Dreamcrafter’ Launches Series of Mongolian Stories for Young Readers",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101331-enchanted-lion-s-the-dreamcrafter-launches-series-of-mongolian-stories-for-young-readers.html",
+        "published_at": "2026-09-24T04:00:00+00:00",
+        "summary": "Enchanted Lion’s ‘The Dreamcrafter’ Launches Series of Mongolian Stories for Young Readers"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
         "headline": "All That Glitters: Ayana Gray and John Stephens on Their Gilded Age–Set YA",
         "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101332-in-conversation-ayana-gray-and-john-stephens-on-their-gilded-age-set-ya.html",
         "published_at": "2026-09-24T04:00:00+00:00",
         "summary": "All That Glitters: Ayana Gray and John Stephens on Their Gilded Age–Set YA"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "New Kids’ and YA Books: Week of September 28, 2026",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101330-new-kids-and-ya-books-week-of-september-28-2026.html",
+        "published_at": "2026-09-24T04:00:00+00:00",
+        "summary": "New Kids’ and YA Books: Week of September 28, 2026"
       }
     },
     {
@@ -589,19 +661,10 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "World Kid Lit Month 2026: Mafalda Comes to America",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101334-world-kid-lit-month-2026-mafalda-comes-to-america.html",
+        "headline": "Moving Pictures: PW Talks with Sofia Warren",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101337-moving-pictures-pw-talks-with-sofia-warren.html",
         "published_at": "2026-09-24T04:00:00+00:00",
-        "summary": "World Kid Lit Month 2026: Mafalda Comes to America"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "New Kids’ and YA Books: Week of September 28, 2026",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101330-new-kids-and-ya-books-week-of-september-28-2026.html",
-        "published_at": "2026-09-24T04:00:00+00:00",
-        "summary": "New Kids’ and YA Books: Week of September 28, 2026"
+        "summary": "Moving Pictures: PW Talks with Sofia Warren"
       }
     },
     {
@@ -620,6 +683,24 @@
         "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101325-choose-your-own-adventure-publisher-launches-adult-imprint.html",
         "published_at": "2026-09-24T04:00:00+00:00",
         "summary": "Choose Your Own Adventure Publisher Launches Adult Imprint"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "It’s Been Worth the Trip: Alex Sanchez on His History with Queer YA",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101329-it-s-been-worth-the-trip-alex-sanchez-on-his-history-with-queer-ya.html",
+        "published_at": "2026-09-24T04:00:00+00:00",
+        "summary": "It’s Been Worth the Trip: Alex Sanchez on His History with Queer YA"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "The Meaning of Creativity: Highlights from the 2026 Carle Honors",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101336-the-meaning-of-creativity-highlights-from-the-2026-carle-honors.html",
+        "published_at": "2026-09-24T04:00:00+00:00",
+        "summary": "The Meaning of Creativity: Highlights from the 2026 Carle Honors"
       }
     },
     {
@@ -665,15 +746,6 @@
         "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=402891565",
         "published_at": "2026-09-23T06:33:00+00:00",
         "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=402891565\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40289/15/cover200/k512131583_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=402891565\">김켈리의 신비마트 5</a></h2>김켈리 원작, 이세경 지음, 권용완 그림 / 베가북스 / 2026년 10월 / ISBN:<span class=\"isbn13\">9791194831501</span><br />정가: <span style=\"color: #FF0202;\">16,000</span>원 / 판매가: <span style=\"color: #FF0202;\">14,400</span>원 / 마일리지: <span style=\"color: #FF0202;\">800</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: <김켈리의 신비마트 5> 친필 사인본(선착순 한정)+초판 한정(신비카드)<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=402891565&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=402891565&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/intro_t.gif\" /><br />“싹둑! 절교 가위로 친구 사이를 마음대로 바꿀 수 있을까?” 늘 붙어 다니던 단짝 예린이가 다른 친구와 더 가까워지자, 켈리의 마음속에는 서운함과 질투가 싹트기 시작한다. 그런 켈리 앞에 친구 사이를 단번에 끊어 버리는 신비마트의 ‘절교 가위’가 나타난다. 두 사람의 이름을 적고 가위로 싹둑 자르면 영원히 우정이 끊어진다는 마법으로 친구 관계를 바꾸기 시작하지만, 가위를 쓰면 쓸수록 상황은 예상치 못한 방향으로 꼬여 간다.<br />\n<br />\n학교생활에서 아이들이 겪는 진짜 고민인 ‘친구 관계와 질투’를 유쾌한 마법 판타지로 풀어낸 모험 이야기다. 절교 가위로 한바탕 소동을 겪으며 성장하는 켈리의 모습을 통해, 아이들은 ‘친구의 마음을 내 뜻대로 조종할 수 없다’는 사실과 ‘상대방을 있는 그대로 존중하는 법’을 자연스럽게 깨닫게 된다. 친구와 가까워지고 싶은 마음, 서운함과 질투를 부정하지 않고 끌어안으며 진짜 우정의 의미와 서로의 마음을 이해하는 법을 전한다.<br />\n<br />\n유튜브 구독자 132만 명, 누적 조회 수 40억 회를 돌파한 인기 크리에이터 김켈리가 더 깊어진 공감 스토리로 돌아왔다. 초등학교 교사로 수많은 아이들을 지도했던 경험을 바탕으로 단원평가, 반장 선거, 첫사랑 고민에 이어 이번 5권에서는 아이들 관계의 핵심이자 영원한 숙제인 친구 관계를 다룬다. ‘켈리라면? 나라면?’, 퀴즈, 미로 찾기 등 신비마트 미션도 함께 수록해 이야기의 재미를 다양한 활동으로 이어 간다.<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br /><p>캐릭터 소개<br />\n<br />\n우정을 끊는 가위<br />\n<br />\n켈리라면? 나라면? <br />\n알쏭달쏭 퀴즈 타임 <br />\n켈리와 함께 미로 탐험</p><br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1108\">어린이</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48808\">초등 전학년</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=49224&BrowseTarget=List\"><b>학습만화</b></a><br /><br /></td></tr></table>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "The Guardian Books",
-        "headline": "Britain’s Slave Traders by William A Pettigrew review – the inconvenient truth",
-        "source_url": "https://www.theguardian.com/books/2026/sep/23/britains-slave-traders-by-william-a-pettigrew-review-the-inconvenient-truth",
-        "published_at": "2026-09-23T06:00:16+00:00",
-        "summary": "<p>This revelatory history shows just how deeply embedded slavery is in the foundations of modern Britain</p><p>One tedious aspect of Britain’s post-imperial melancholia is the number of amateur historians who would rather we stopped going on about our role in the slave trade. Isn’t it all in the past? Weren’t we the first to abolish it anyway? In April, the Reform party announced a <a href=\"https://www.theguardian.com/politics/2026/apr/07/reform-uk-stop-visas-countries-seeking-reparations-slavery\">new policy</a> of halting visas to people from countries seeking slavery reparations from Britain. “The United Kingdom is not an ATM for ethnic grievances from the past,” the party’s home affairs spokesperson, Zia Yusuf, said.</p><p>Unfortunately for those who would rather forget, the slave trade, as William Pettigrew argues in this grimly important book, can be found “in the depths of Britain’s grain”. Ninety per cent of the enslaved Africans transported to America went on British ships, and slave traders’ actions transformed Britain in ways that still resonate today.</p> <a href=\"https://www.theguardian.com/books/2026/sep/23/britains-slave-traders-by-william-a-pettigrew-review-the-inconvenient-truth\">Continue reading...</a>"
       }
     },
     {
@@ -733,28 +805,10 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "The On-Sale Calendar: December 2026",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/on-sale-calendar/article/100933-the-on-sale-calendar-december-2026.html",
-        "published_at": "2026-09-23T04:00:00+00:00",
-        "summary": "The On-Sale Calendar: December 2026"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
         "headline": "The On-Sale Calendar: December 2026 Children’s Books",
         "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/on-sale-calendar/article/100780-the-on-sale-calendar-december-2026-children-s-books.html",
         "published_at": "2026-09-23T04:00:00+00:00",
         "summary": "The On-Sale Calendar: December 2026 Children’s Books"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "YALLFest Adds Adult Romance Programming",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/trade-shows-events/article/101323-yallfest-adds-adult-romance-programming.html",
-        "published_at": "2026-09-23T04:00:00+00:00",
-        "summary": "YALLFest Adds Adult Romance Programming"
       }
     },
     {
@@ -948,38 +1002,11 @@
     },
     {
       "event_model_payload": {
-        "source_name": "New York Times Books",
-        "headline": "Book Review: “Swan Song: Diana, My Sister,” by Charles Spencer",
-        "source_url": "https://www.nytimes.com/2026/09/22/books/review/charles-spencer-swan-song.html",
-        "published_at": "2026-09-22T15:03:40+00:00",
-        "summary": "“Swan Song,” Charles Spencer’s memoir of Lady Diana, is full of love and vengeance."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "New York Times Books",
-        "headline": "Takeaways From Charles Spencer’s Memoir, “Swan Song,” About Princess Diana",
-        "source_url": "https://www.nytimes.com/2026/09/22/books/review/takeaways-charles-spencer-memoir-diana.html",
-        "published_at": "2026-09-22T14:43:42+00:00",
-        "summary": "Nearly 30 years after Princess Diana died, her brother has written a book about her life, her marriage to Prince Charles and the suffering she endured at the hands of the tabloid press."
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "The Guardian Books",
         "headline": "Swan Song by Charles Spencer review – a furious exercise in score-settling by Diana’s brother",
         "source_url": "https://www.theguardian.com/books/2026/sep/22/swan-song-charles-spencer-review-diana-princess-of-wales-brother-earl",
         "published_at": "2026-09-22T11:09:24+00:00",
         "summary": "<p>Amid genuinely touching passages about his sister, the earl can’t help but put himself and his grievances centre stage</p><p>Charles Spencer’s Swan Song, a memoir of his relationship with his sister, the late Diana, Princess of Wales, is a fascinating document that tells us a little about Diana and a great deal about Charles Spencer – perhaps more than we needed to know. If that sounds snarky, after 400 pages of score settling, chest thumping, wild indiscretion and some truly touching passages about his late sister, the reader is left with a head-spinning story of the world that created Diana and a certain sourness at the manner in which it is told.</p><p>Let’s start with the headlines in last week’s Daily Mail, the newspaper to whom Spencer sold serialisation of a book which includes a line describing tabloid journalists as “those who inhabit the murky swamps of malevolence, and who need to suck their victims dry of their souls”. Perhaps he meant a different set of hacks. Anyway the top line in the Mail was that, shortly after Diana’s death, King Charles insulted her in a phone call to Spencer: “‘Rest assured,’ he hissed, ‘we’ll forget her soon enough.’” Your take on this quote will likely dictate how you receive the book, and here’s mine: I’m willing to believe the king behaved badly, but “hissed” is a red flag, one of those embellishments, like “snarled” or “flounced”, that writers tend to use to make those they’re writing about appear worse. Spencer, always the injured party, has so many axes grinding away in this book that at times it’s impossible to hear what he’s saying.</p> <a href=\"https://www.theguardian.com/books/2026/sep/22/swan-song-charles-spencer-review-diana-princess-of-wales-brother-earl\">Continue reading...</a>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "New York Times Books",
-        "headline": "Book Review: ‘Said the Dead,’ by Doireann Ni Ghriofa",
-        "source_url": "https://www.nytimes.com/2026/09/22/books/review/doireann-ni-ghriofa-said-the-dead.html",
-        "published_at": "2026-09-22T10:39:06+00:00",
-        "summary": "Doireann Ni Ghriofa’s “Said the Dead” is a fusion of biography, memoir and poetry drawn from century-old casebooks."
       }
     },
     {
@@ -998,15 +1025,6 @@
         "source_url": "https://www.nytimes.com/2026/09/22/books/review/anti-zionism-benjamin-moser.html",
         "published_at": "2026-09-22T09:00:45+00:00",
         "summary": "In a new book, the prizewinning biographer Benjamin Moser charts a tradition of Jewish opposition to Zionism and recounts his belated conversion to that view."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "New York Times Books",
-        "headline": "Book Review: ‘The Age of Cures,’ by Barry Werth",
-        "source_url": "https://www.nytimes.com/2026/09/22/books/review/the-age-of-cures-barry-werth.html",
-        "published_at": "2026-09-22T09:00:44+00:00",
-        "summary": "In “The Age of Cures,” the journalist Barry Werth shows how American drug manufacturers got big and then came under attack."
       }
     },
     {
@@ -1056,15 +1074,6 @@
     },
     {
       "event_model_payload": {
-        "source_name": "New York Times Books",
-        "headline": "‘A River Runs Through It’ Returns Home to Montana, as Opera",
-        "source_url": "https://www.nytimes.com/2026/09/21/arts/music/a-river-runs-through-it-opera-montana.html",
-        "published_at": "2026-09-21T15:42:07+00:00",
-        "summary": "Opera Montana, a small company that has grown recently, presented its first world premiere, based on one of the state’s most beloved stories."
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "The Guardian Books",
         "headline": "The Recovery House by Derek Owusu review – a uniquely honest view of mental health",
         "source_url": "https://www.theguardian.com/books/2026/sep/21/the-recovery-house-by-derek-owusu-review-a-uniquely-honest-view-of-mental-health",
@@ -1084,6 +1093,24 @@
     {
       "event_model_payload": {
         "source_name": "알라딘 베스트셀러",
+        "headline": "7위 주술회전 모듈로 2",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=402455983&radar_rank=7&radar_ranking_date=20260920220112",
+        "published_at": "2026-09-20T22:01:12+00:00",
+        "summary": "주술회전 모듈로 2 Yuji Iwasaki 지음, 이정운 옮김, 아쿠타미 게게 원작 / 서울미디어코믹스(서울문화사) / 2026년 09월 / ISBN: 9791142817649 정가: 7,000 원 / 판매가: 6,300 원 / 마일리지: 350 원 이벤트 : 만사모 테마 6 : 최고의 순애 만화"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "1위 세네카, 오늘을 빼앗기고 있는 당신에게",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=396404956&radar_rank=1&radar_ranking_date=20260920220112",
+        "published_at": "2026-09-20T22:01:12+00:00",
+        "summary": "세네카, 오늘을 빼앗기고 있는 당신에게 루키우스 안나이우스 세네카 지음, 하와이 대저택 편역 / 논픽션 / 2026년 07월 / ISBN: 9791199489561 정가: 18,000 원 / 판매가: 16,200 원 / 마일리지: 900 원 이벤트 : 가을에 읽기 좋은 신간 · 스테디셀러 + 오늘의 책 가방 · 분식 한 상 보냉백 『세네카, 오늘을 빼앗기고 있는 당신에게』는 로마 제정기의 스토아 철학자 세네카의 대화편 다섯 편에서 핵심 사유를 선별해 55편의 짧은 글로 재구성한 편역서다. 세네카는 네로 황제의 스승이자 고문으로 제국의 운명을 좌우하면서, 누구보다 바쁜 삶 한가운데에서 시간의 본질을 꿰뚫었다. \"삶은 짧지 않다. 우리가 짧게 만들 뿐이다.\" 그의 진단은 2000년이 지난 지금도 한 글자도 고칠 필요가 없다. 이 책은 시간에 쫓기며 살아가는 현대인에게 시간을 되찾는 것이 곧 자기 자신을 되찾는 것임을 일깨운다. 순서대로 읽어도 좋고 아무 페이지나 펼쳐 읽어도 좋은 55편의 글이, 바쁘게 낭비되는 하루를 정면으로 겨냥한다. 마이리뷰(0) 평점: | Sales Point : 313,390 세네카, 오늘을 빼앗기고 있는 당신에게 - yhson11 [마이리뷰] 세네카, 오늘을 빼앗기고 있는 당신에게 - cbook 다시 시작하고 싶은 이들에게 - 모나리자 [마이리뷰] 세네카, 오늘을 빼앗기고 있는 당신에게 - 라기 [마이리뷰] 세네카, 오늘을 빼앗기고 있는 당신에게 - bong9353"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
         "headline": "13위 칵테일을 마시는 철학자들",
         "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=399460405&radar_rank=13&radar_ranking_date=20260920220112",
         "published_at": "2026-09-20T22:01:12+00:00",
@@ -1093,10 +1120,19 @@
     {
       "event_model_payload": {
         "source_name": "알라딘 베스트셀러",
-        "headline": "14위 마음의 어휘력",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=400143853&radar_rank=14&radar_ranking_date=20260920220112",
+        "headline": "5위 향기로운 꽃은 늠름하게 핀다 22 + 47도도부현 포스트카드북 합본판",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=402251613&radar_rank=5&radar_ranking_date=20260920220112",
         "published_at": "2026-09-20T22:01:12+00:00",
-        "summary": "마음의 어휘력 조아란.권희.이정윤 지음 / 페이지2(page2) / 2026년 08월 / ISBN: 9791169852180 정가: 16,800 원 / 판매가: 15,120 원 / 마일리지: 840 원 이벤트 : 가을에 읽기 좋은 신간 · 스테디셀러 + 오늘의 책 가방 · 분식 한 상 보냉백 “괜찮아”, “그냥 그래”, “짜증 나”. 우리는 하루에도 몇 번씩 마음이 일렁이지만, 그 마음을 담아내는 단어는 늘 몇 개뿐이다. 서운함도, 억울함도, 무기력함도, 지침도 결국 “짜증 나” 한마디에 눌러 담아 버린다. 그러나 심리학에는 ‘감정 세분화(Emotional Granularity)’라는 개념이 있다. 감정을 정확히 쪼개어 이름 붙일수록 그 감정에 덜 휘둘리고 스트레스에도 유연하게 대처할 수 있다는 이론이다. 실제로 UCLA 교수 매슈 리버먼에 따르면, 감정에 이름을 붙이는 것만으로 위협을 감지하는 뇌의 경보 시스템이 진정되고 충동적인 반응이 줄어든다. 감정을 언어로 옮기는 순간, 우리는 그 감정에 끌려가는 대신 그것을 다룰 수 있는 사람이 된다. 이 책에 그 능력을 되찾기 위한 단어 70개를 담았다. 월요일부터 일요일까지, 요일마다 어울리는 열 개의 감정 단어를 배치해 하루 한 장씩 읽어 나갈 수 있도록 구성했다. 불안한 마음에 이름을 붙이는 월요일부터 다시 살아갈 용기를 건네는 일요일까지, 일주일의 감정 흐름을 그대로 따라간다. 각 단어는 그리스어, 일본어, 독일어 등 세계 각국의 언어에서 길어 올렸다. 한국어로는 정확히 옮기기 어려운 결의 감정들을 어원과 함께 소개하고, 그 단어가 왜 지금 내 마음을 설명하는지 다정한 에세이로 풀어냈다. 단어마다 곁들인 문장 하나, 그리고 스스로에게 던지는 질문 세 가지는 읽는 데서 그치지 않고 내 마음을 가만히 마주 보게 만든다. 마이리뷰(0) 평점: | Sales Point : 45,240 마음의 어휘력 - goodoils 마음의 어휘력 - 3월의라이온 마음의 어휘력 - 좋아 감정의 이름을 안다면 감정을 위로할 수 있다. - books 마음의 어휘력 - vivid0222"
+        "summary": "향기로운 꽃은 늠름하게 핀다 22 + 47도도부현 포스트카드북 합본판 미카미 사카 지음 / 대원씨아이(만화) / 2026년 09월 / ISBN: 9791142363481 정가: 27,000 원 / 판매가: 24,300 원 / 마일리지: 1,350 원 이벤트 : 만사모 테마 6 : 최고의 순애 만화"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "2위 흔한남매 23",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=401810677&radar_rank=2&radar_ranking_date=20260920220112",
+        "published_at": "2026-09-20T22:01:12+00:00",
+        "summary": "흔한남매 23 흔한남매 지음, 유난희 그림, 백난도 글, 흔한컴퍼니 감수 / 미래엔아이세움 / 2026년 09월 / ISBN: 9791175488854 정가: 16,800 원 / 판매가: 15,120 원 / 마일리지: 840 원 이벤트 : 가장 주목받는 어린이 화제의 책 + 캐리어·백 리플렉터 택 세트(택1, 대상도서 15,000원 이상) 하루 종일 영상 찍기 챌린지, 새로운 친구 사귀기 게임, 지옥의 밸런스 게임, 화장실에서 즐기는 바캉스, 야식 먹을 때 꼭 있는 유형 등 손뼉 치며 공감하게 되는 흔한남매의 일상 속으로 떠나 볼까? '흔한남매'는 유튜브 구독자 수가 307만 명, 누적 조회 수가 44억 회를 넘어서는 인기 크리에이터로, 흔한컴퍼니에 소속되어 있다. 상황극 콩트 등을 통해 어린이들에게 큰 사랑을 받고 있으며, 주로 남매 사이에서 일어날 수 있는 현실적인 에피소드를 코믹하게 그려 내어 웃음과 공감을 이끌어 내고 있다. 어린이의 웃음 코드에 맞춰 엄선한 에피소드를 앙증맞고 유머러스한 만화로 풀어 냈다. 웃음을 유발하는 에이미와 으뜸이의 티격태격 일상은 물론이고, 엄지의 첫 수영 체험, 야식 먹을 때 꼭 있는 유형, 노는 게 공부인 꿈의 학원 등 골라 읽는 재미가 가득한 에피소드 만화가 수록되어 있다. 또한 에피소드 만화 중간중간에는 유튜브에서는 만날 수 없었던 '요리조리 사다리 타기', '꼬불꼬불 미로 찾기', '알쏭달쏭 다른 그림 찾기', '와글와글 진짜 흔한남매 찾기' 등 깨알 재미가 가득한 놀이 페이지가 수록되어 있다. 마이리뷰(0) 평점: | Sales Point : 91,720 흔한남매 23 - 체리가좋아 아이가 좋아하는 책 - dduzikr"
       }
     },
     {
@@ -1111,10 +1147,64 @@
     {
       "event_model_payload": {
         "source_name": "알라딘 베스트셀러",
-        "headline": "2위 흔한남매 23",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=401810677&radar_rank=2&radar_ranking_date=20260920220112",
+        "headline": "8위 모순",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=25843736&radar_rank=8&radar_ranking_date=20260920220112",
         "published_at": "2026-09-20T22:01:12+00:00",
-        "summary": "흔한남매 23 흔한남매 지음, 유난희 그림, 백난도 글, 흔한컴퍼니 감수 / 미래엔아이세움 / 2026년 09월 / ISBN: 9791175488854 정가: 16,800 원 / 판매가: 15,120 원 / 마일리지: 840 원 이벤트 : 가장 주목받는 어린이 화제의 책 + 캐리어·백 리플렉터 택 세트(택1, 대상도서 15,000원 이상) 하루 종일 영상 찍기 챌린지, 새로운 친구 사귀기 게임, 지옥의 밸런스 게임, 화장실에서 즐기는 바캉스, 야식 먹을 때 꼭 있는 유형 등 손뼉 치며 공감하게 되는 흔한남매의 일상 속으로 떠나 볼까? '흔한남매'는 유튜브 구독자 수가 307만 명, 누적 조회 수가 44억 회를 넘어서는 인기 크리에이터로, 흔한컴퍼니에 소속되어 있다. 상황극 콩트 등을 통해 어린이들에게 큰 사랑을 받고 있으며, 주로 남매 사이에서 일어날 수 있는 현실적인 에피소드를 코믹하게 그려 내어 웃음과 공감을 이끌어 내고 있다. 어린이의 웃음 코드에 맞춰 엄선한 에피소드를 앙증맞고 유머러스한 만화로 풀어 냈다. 웃음을 유발하는 에이미와 으뜸이의 티격태격 일상은 물론이고, 엄지의 첫 수영 체험, 야식 먹을 때 꼭 있는 유형, 노는 게 공부인 꿈의 학원 등 골라 읽는 재미가 가득한 에피소드 만화가 수록되어 있다. 또한 에피소드 만화 중간중간에는 유튜브에서는 만날 수 없었던 '요리조리 사다리 타기', '꼬불꼬불 미로 찾기', '알쏭달쏭 다른 그림 찾기', '와글와글 진짜 흔한남매 찾기' 등 깨알 재미가 가득한 놀이 페이지가 수록되어 있다. 마이리뷰(0) 평점: | Sales Point : 91,720 흔한남매 23 - 체리가좋아 아이가 좋아하는 책 - dduzikr"
+        "summary": "모순 양귀자 지음 / 쓰다 / 2013년 04월 / ISBN: 9788998441012 정가: 13,000 원 / 판매가: 11,700 원 / 마일리지: 650 원 이벤트 : 가을에 읽기 좋은 신간 · 스테디셀러 + 오늘의 책 가방 · 분식 한 상 보냉백 작가 양귀자가 1998년 펴낸 네 번째 장편소설로, 책이 나온 지 한 달 만에 무서운 속도로 베스트셀러 1위에 진입, 출판계를 놀라게 하고 그해 최고의 베스트셀러로 자리 잡으면서 ‘양귀자 소설의 힘’을 다시 한 번 유감없이 보여준 소설이다. 초판이 나온 지 벌써 15년이 흘렀지만 이 소설 <모순>은 아주 특별한 길을 걷고 있다. 그때 20대였던 독자들은 지금 결혼을 하고 30대가 되어서도 가끔씩 <모순>을 꺼내 다시 읽는다고 했다. 다시 읽을 때마다 전에는 몰랐던 소설 속 행간의 의미를 깨우치거나 세월의 힘이 알려준 다른 해석에 놀라면서 “내 인생의 가장 소중한 책 한 권”으로 꼽는 것을 주저하지 않는다. <모순>이 특별한 것은 대다수의 독자들이 한 번만 읽고 마는 것이 아니라 적어도 두 번, 혹은 세 번 이상 되풀이 읽고 있다는 사실에 있다. <모순>을 열 번도 더 읽었다는 블로그 독후감도 종종 만난다. 열성 독자들은 끊임없이 소설 속 문장들을 기록하고 전달하고 반추하며 흔적을 남기고 있다. 이 소설이 지금까지 132쇄를 찍으면서 끊임없이 독자들에게 회자되고 있는 힘은 참 불가사의하다. 최근 양귀자 소설의 모든 저작권을 양도받은 도서출판 「쓰다」는 새로이 <모순>의 개정판을 내면서 그런 독자들을 가장 염두에 두었다. 오래도록 소장할 수 있는 책, 진정한 내 인생의 책으로 소유할 수 있는 책이 되고자 세련된 양장본으로 독자와 만난다. 마이리뷰(0) 평점: | Sales Point : 303,124 [마이리뷰] 모순 - 탐서가 [마이리뷰] 모순 - 나나 [마이리뷰] 모순 - 리미 여성이여 주체적으로 살아라 - skycong123 마지막 소설 - 공중제비"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "3위 싯다르타",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=329596&radar_rank=3&radar_ranking_date=20260920220112",
+        "published_at": "2026-09-20T22:01:12+00:00",
+        "summary": "싯다르타 헤르만 헤세 지음, 박병덕 옮김 / 민음사 / 2002년 01월 / ISBN: 9788937460586 정가: 8,000 원 / 판매가: 7,200 원 / 마일리지: 400 원 이벤트 : 가을에 읽기 좋은 신간 · 스테디셀러 + 오늘의 책 가방 · 분식 한 상 보냉백 헤세가 거의 일 년 반 동안 창작이 거의 불가능할 정도로 심한 우울증을 앓다가 정신 치료를 받은 후 발표한 작품이다. 동서양의 정신적 유산을 시적으로 승화한 일종의 종교적 성장소설로 볼 수 있는데 영원을 향한 갈망과 인간의 내면을 깊이 파고드는 초월에 대한 의지를 단순하고도 서정적인 문체로 담아냈다. 정형화된 종교 교리와 자족적인 영혼의 성찰 사이의 고뇌를 섬세하게 그리며 자아 발견을 위한 길이 하나로 정해져 있지 않음을 시사하고 철학이나 종교, 그 밖의 모든 신념에 맹목적으로 의지하고자 하는 고정관념에 도전한 작품이다. 마이리뷰(0) 평점: | Sales Point : 335,116 [마이리뷰] 싯다르타 - - [마이리뷰] 싯다르타 - 김하영 [마이리뷰] 싯다르타 - RadioHat 싯다르타는 부처인가 아닌가 [외국소설-싯다르타] - 바람개비 싯다르타. 내 삶에서 - pleasetrust800604"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "10위 서리꽃 세트 - 전2권 (한정판 케이스 + 조정래 작가노트)",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=400649153&radar_rank=10&radar_ranking_date=20260920220112",
+        "published_at": "2026-09-20T22:01:12+00:00",
+        "summary": "서리꽃 세트 - 전2권 (한정판 케이스 + 조정래 작가노트) 조정래 지음 / 해냄 / 2026년 08월 / ISBN: 9791167141637 정가: 40,000 원 / 판매가: 36,000 원 / 마일리지: 2,000 원 이벤트 : 조정래 <서리꽃> 책모양 유리 문진 (세트 구매 시) 마음 가득 차오르는 사랑을 이루지 못하고 타국으로 떠난 지 5년, 그녀를 다시 만난다면 과연 그 사랑을 이룰 수 있을까? 애틋하게 그리워하던 사람이 퀭한 눈빛과 피폐한 낯빛으로 변해버린 채 눈앞에 나타난다면…. 스마트폰에 댄 손끝 하나로 웬만한 건 다 해낼 수 있는 시대, 사람과 사람이 만나 사랑을 나누는 것의 진정한 의미는 무엇일까? ‘대한민국 근현대 3부작’으로 일컬어지는 대하소설『태백산맥』『아리랑』『한강』으로 지금까지 1천5백만 이상의 독자들에게 우리 현대사의 참모습을 알린 조정래 작가. 지난 10여 년 동안 장편소설『정글만리』『천년의 질문』『황금종이』등을 통해 오늘날 한국 사회를 관통하는 핵심 문제들을 정면으로 다루어온 그가 3년 만에 신작 장편소설『서리꽃』(전 2권)을 독자들 앞에 내놓는다. 원고지 약 1,690매 분량의 이 작품에서 작가는 영원한 사랑을 꿈꾸는 젊은 연인들의 삶과 죽음을 통해 이 시대의 사랑에 경종을 울리며 인생의 진정한 의미를 되짚는다. 마이리뷰(0) 평점: | Sales Point : 68,340 서리꽃 - 토토엄마 [마이리뷰] 서리꽃 세트 - 전2권 (초판 한정 케이스 + 조정래 작가노트) - 책방꽃방 서리꽃 1,2 - 조정래 / 짧지만 진하고 뜨거운 슬픈 사랑 이야기 - 신찬 슬픈 사랑의 이야기, 조정래 장편소설 [서리꽃] - 빛글 [마이리뷰] 서리꽃 세트 - 전2권 (초판 한정 케이스 + 조정래 작가노트) - 에디터D"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "4위 한국사 이상현상 연구원",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=400909759&radar_rank=4&radar_ranking_date=20260920220112",
+        "published_at": "2026-09-20T22:01:12+00:00",
+        "summary": "한국사 이상현상 연구원 최인서 지음 / 다이브 / 2026년 08월 / ISBN: 9791124137635 정가: 22,000 원 / 판매가: 19,800 원 / 마일리지: 1,100 원 이벤트 : <한국사 이상현상 연구원>과 함께, 이상현상 기담 책방 + 행운 거북이 키링 국가가 ‘사적’이라는 이름으로 보존한 장소에서, 정작 역사에 남지 못한 사람들의 목소리가 들려오기 시작한다. 궁궐과 고분, 사찰과 종갓집에서 발생하는 이상현상을 추적하는 비밀 기관의 기록을 담은 《한국사 이상현상 연구원》은 한국의 역사를 공포의 배경으로 소비하는 대신, 공식 기록에서 누락된 삶이 어떻게 현재로 돌아오는지를 묻는 장편소설이다. 소설은 탐사 지침서와 사건 보고서, 음성 녹취록과 면담 기록, 직원들의 채팅 내역으로 이루어져 있다. 독자는 사건을 바깥에서 지켜보는 관찰자가 아니라, 어긋난 기록과 삭제된 행간을 해석해야 하는 또 다른 탐사원이 된다. 보고서를 읽는 행위가 곧 목숨을 건 탐사가 되고, 익숙하지만 낯선 역사적 인물들 사이에서 진실을 찾아내는 순간 독자는 이 세계의 일부가 된다. 마이리뷰(0) 평점: | Sales Point : 111,420 [마이리뷰] 한국사 이상현상 연구원 - 머독 아무것도 모르고 읽기를 권함. - inyoung29 낯설지만 너무나 새로운 소설 - antipoint [소설] 최인서, 한국사 이상현상 연구원 - 나른"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "14위 마음의 어휘력",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=400143853&radar_rank=14&radar_ranking_date=20260920220112",
+        "published_at": "2026-09-20T22:01:12+00:00",
+        "summary": "마음의 어휘력 조아란.권희.이정윤 지음 / 페이지2(page2) / 2026년 08월 / ISBN: 9791169852180 정가: 16,800 원 / 판매가: 15,120 원 / 마일리지: 840 원 이벤트 : 가을에 읽기 좋은 신간 · 스테디셀러 + 오늘의 책 가방 · 분식 한 상 보냉백 “괜찮아”, “그냥 그래”, “짜증 나”. 우리는 하루에도 몇 번씩 마음이 일렁이지만, 그 마음을 담아내는 단어는 늘 몇 개뿐이다. 서운함도, 억울함도, 무기력함도, 지침도 결국 “짜증 나” 한마디에 눌러 담아 버린다. 그러나 심리학에는 ‘감정 세분화(Emotional Granularity)’라는 개념이 있다. 감정을 정확히 쪼개어 이름 붙일수록 그 감정에 덜 휘둘리고 스트레스에도 유연하게 대처할 수 있다는 이론이다. 실제로 UCLA 교수 매슈 리버먼에 따르면, 감정에 이름을 붙이는 것만으로 위협을 감지하는 뇌의 경보 시스템이 진정되고 충동적인 반응이 줄어든다. 감정을 언어로 옮기는 순간, 우리는 그 감정에 끌려가는 대신 그것을 다룰 수 있는 사람이 된다. 이 책에 그 능력을 되찾기 위한 단어 70개를 담았다. 월요일부터 일요일까지, 요일마다 어울리는 열 개의 감정 단어를 배치해 하루 한 장씩 읽어 나갈 수 있도록 구성했다. 불안한 마음에 이름을 붙이는 월요일부터 다시 살아갈 용기를 건네는 일요일까지, 일주일의 감정 흐름을 그대로 따라간다. 각 단어는 그리스어, 일본어, 독일어 등 세계 각국의 언어에서 길어 올렸다. 한국어로는 정확히 옮기기 어려운 결의 감정들을 어원과 함께 소개하고, 그 단어가 왜 지금 내 마음을 설명하는지 다정한 에세이로 풀어냈다. 단어마다 곁들인 문장 하나, 그리고 스스로에게 던지는 질문 세 가지는 읽는 데서 그치지 않고 내 마음을 가만히 마주 보게 만든다. 마이리뷰(0) 평점: | Sales Point : 45,240 마음의 어휘력 - goodoils 마음의 어휘력 - 3월의라이온 마음의 어휘력 - 좋아 감정의 이름을 안다면 감정을 위로할 수 있다. - books 마음의 어휘력 - vivid0222"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "6위 박완서의 낱말들",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=401813692&radar_rank=6&radar_ranking_date=20260920220112",
+        "published_at": "2026-09-20T22:01:12+00:00",
+        "summary": "박완서의 낱말들 박완서 지음, 호원숙 엮음 / 웅진지식하우스 / 2026년 09월 / ISBN: 9788901300702 정가: 19,800 원 / 판매가: 17,820 원 / 마일리지: 990 원 이벤트 : <박완서의 낱말들> + 미니북 키링 한국 문학의 거목 故 박완서 작가의 타계 15주기를 기리며, 그의 문학 세계에서 길어낸 낱말 사전 『박완서의 낱말들』이 웅진지식하우스에서 출간되었다. 박완서 작가의 수많은 명작 속에서 오래도록 기억하고 싶은 낱말 120개를 엄선해 수록한 책으로, 맏딸 호원숙 작가가 직접 엮어 그 의미를 더했다. 자연을 닮은 말부터 오감을 깨우는 말, 일상을 일구고 사람을 깊이 읽어내는 말에 이르기까지, 박완서 특유의 풍부한 어휘와 삶의 속살을 날카롭게 포착하는 표현들이 한 권의 다채로운 사전으로 새롭게 태어났다. 『박완서의 낱말들』은 잊혀가는 아름다운 우리말을 만나는 데서 나아가, 낱말을 통해 박완서의 문학 세계를 새롭게 들여다보게 한다. 일러스트레이터 수수진의 감각적이고 따뜻한 삽화를 더해 읽는 즐거움을 배가했으며, 오래도록 곁에 두고 펼쳐 볼 수 있는 양장본으로 제작해 소장 가치를 높였다. '한국 문학의 축복'이라 불린 박완서의 낱말을 따라가다 보면 무심히 지나쳤던 일상의 순간들도 새로운 언어로 다시 선명하게 바라보게 될 것이다. 마이리뷰(0) 평점: | Sales Point : 43,200 박완서작가 넘나 사랑합니다 - 이미현"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "15위 2026 큰별쌤 최태성의 별★별한국사 한국사능력검정시험 심화(1, 2, 3급) 상",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=378969369&radar_rank=15&radar_ranking_date=20260920220112",
+        "published_at": "2026-09-20T22:01:12+00:00",
+        "summary": "2026 큰별쌤 최태성의 별★별한국사 한국사능력검정시험 심화(1, 2, 3급) 상 최태성 지음 / 이투스북 / 2025년 12월 / ISBN: 9791138934428 정가: 19,000 원 / 판매가: 17,100 원 / 마일리지: 950 원 이벤트 : 2030이 가장 많이 따는 자격증 10 + 북엔드. 피크닉 매트. 단어장 <2026 큰별쌤 최태성의 별별한국사 한국사능력검정시험 심화 상> 오랜 연구와 검증으로 한국사에 기초가 전혀 없는 사람도 단기간에 한능검에 합격할 수 있는 최적의 구성을 완성하였습니다. 판서의 장인 큰별쌤 최태성이 핵심만을 모아 만든 아트 판서를 수록하고, 시험에 자주 등장하는 사료, 사진, 지도 등을 모아 해설하여 합격을 위한 필수 개념을 익히기 쉽게 하였습니다. 또한, 한능검 기출문제를 모두 분석한 후, 기출 선택지를 이용한 별 채우기 문제를 수록하여 자연스럽게 기출 선택지가 기억될 수 있도록 하였고, 반복적으로 출제되는 주제의 최신 기출문제를 꼼꼼하고 친절한 해설과 함께 담아 실전에 대비할 수 있도록 하였습니다. 여기에 한국사 연표와 지역의 역사를 담은 지도를 통해 한국사 흐름잡기가 더욱 쉬울 것입니다. 제시된 이미지는 책의 뒷표지입니다. <2026 큰별쌤 최태성의 별별한국사 한국사능력검정시험 심화(1·2·3급) 상>의 앞표지는 1억원 기부를 통해 사랑의 열매 '아너 소사이어티'에 가입되도록 함께 지원해 주신 최태성 1, 2TV 별님들로 구성되었습니다."
       }
     },
     {
@@ -1133,87 +1223,6 @@
         "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=330811810&radar_rank=12&radar_ranking_date=20260920220112",
         "published_at": "2026-09-20T22:01:12+00:00",
         "summary": "수족관 유래혁 지음 / 포스터샵 / 2023년 12월 / ISBN: 9791198547514 정가: 17,700 원 / 판매가: 15,930 원 / 마일리지: 880 원 이벤트 : 유래혁 <수족관> 성률 일러스트 투명 책갈피 (소설 2만원 이상) 유래혁 소설. 보육 시설에서 자라난 인물 ‘류이치’가, 먼저 보육 시설에서 도망쳐나온 인물 ‘아카리’를 만나 겪게 되는 일들을 그려낸다. 이 두 인물은 자신들이 가진 뿌리 깊은 과거와 상처, 그 이야기가 만들어낸 수족관에서 만나 입을 맞추고, 서로의 숨을 훔쳐가면서도 언젠가 오키나와의 너른 바다에 도착하는 꿈을 나눈다. 이 둘은 수족관을 벗어나 눈부신 햇살 아래 들려오는 파도 소리를 들을 수 있을까. 마이리뷰(0) 평점: | Sales Point : 168,327 부서진 마음에 건네는 우산, <수족관>(유래혁) - 프리즘 [마이리뷰] 수족관 - 89700326 헉생이 쓴 팬픽 읽는 느낌.. - Collins_swag [마이리뷰] 수족관 - JYOH 💙<<수족관 _ 유래혁 장편소설>>💙 - 윤딩"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "1위 세네카, 오늘을 빼앗기고 있는 당신에게",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=396404956&radar_rank=1&radar_ranking_date=20260920220112",
-        "published_at": "2026-09-20T22:01:12+00:00",
-        "summary": "세네카, 오늘을 빼앗기고 있는 당신에게 루키우스 안나이우스 세네카 지음, 하와이 대저택 편역 / 논픽션 / 2026년 07월 / ISBN: 9791199489561 정가: 18,000 원 / 판매가: 16,200 원 / 마일리지: 900 원 이벤트 : 가을에 읽기 좋은 신간 · 스테디셀러 + 오늘의 책 가방 · 분식 한 상 보냉백 『세네카, 오늘을 빼앗기고 있는 당신에게』는 로마 제정기의 스토아 철학자 세네카의 대화편 다섯 편에서 핵심 사유를 선별해 55편의 짧은 글로 재구성한 편역서다. 세네카는 네로 황제의 스승이자 고문으로 제국의 운명을 좌우하면서, 누구보다 바쁜 삶 한가운데에서 시간의 본질을 꿰뚫었다. \"삶은 짧지 않다. 우리가 짧게 만들 뿐이다.\" 그의 진단은 2000년이 지난 지금도 한 글자도 고칠 필요가 없다. 이 책은 시간에 쫓기며 살아가는 현대인에게 시간을 되찾는 것이 곧 자기 자신을 되찾는 것임을 일깨운다. 순서대로 읽어도 좋고 아무 페이지나 펼쳐 읽어도 좋은 55편의 글이, 바쁘게 낭비되는 하루를 정면으로 겨냥한다. 마이리뷰(0) 평점: | Sales Point : 313,390 세네카, 오늘을 빼앗기고 있는 당신에게 - yhson11 [마이리뷰] 세네카, 오늘을 빼앗기고 있는 당신에게 - cbook 다시 시작하고 싶은 이들에게 - 모나리자 [마이리뷰] 세네카, 오늘을 빼앗기고 있는 당신에게 - 라기 [마이리뷰] 세네카, 오늘을 빼앗기고 있는 당신에게 - bong9353"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "15위 2026 큰별쌤 최태성의 별★별한국사 한국사능력검정시험 심화(1, 2, 3급) 상",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=378969369&radar_rank=15&radar_ranking_date=20260920220112",
-        "published_at": "2026-09-20T22:01:12+00:00",
-        "summary": "2026 큰별쌤 최태성의 별★별한국사 한국사능력검정시험 심화(1, 2, 3급) 상 최태성 지음 / 이투스북 / 2025년 12월 / ISBN: 9791138934428 정가: 19,000 원 / 판매가: 17,100 원 / 마일리지: 950 원 이벤트 : 2030이 가장 많이 따는 자격증 10 + 북엔드. 피크닉 매트. 단어장 <2026 큰별쌤 최태성의 별별한국사 한국사능력검정시험 심화 상> 오랜 연구와 검증으로 한국사에 기초가 전혀 없는 사람도 단기간에 한능검에 합격할 수 있는 최적의 구성을 완성하였습니다. 판서의 장인 큰별쌤 최태성이 핵심만을 모아 만든 아트 판서를 수록하고, 시험에 자주 등장하는 사료, 사진, 지도 등을 모아 해설하여 합격을 위한 필수 개념을 익히기 쉽게 하였습니다. 또한, 한능검 기출문제를 모두 분석한 후, 기출 선택지를 이용한 별 채우기 문제를 수록하여 자연스럽게 기출 선택지가 기억될 수 있도록 하였고, 반복적으로 출제되는 주제의 최신 기출문제를 꼼꼼하고 친절한 해설과 함께 담아 실전에 대비할 수 있도록 하였습니다. 여기에 한국사 연표와 지역의 역사를 담은 지도를 통해 한국사 흐름잡기가 더욱 쉬울 것입니다. 제시된 이미지는 책의 뒷표지입니다. <2026 큰별쌤 최태성의 별별한국사 한국사능력검정시험 심화(1·2·3급) 상>의 앞표지는 1억원 기부를 통해 사랑의 열매 '아너 소사이어티'에 가입되도록 함께 지원해 주신 최태성 1, 2TV 별님들로 구성되었습니다."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "10위 서리꽃 세트 - 전2권 (한정판 케이스 + 조정래 작가노트)",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=400649153&radar_rank=10&radar_ranking_date=20260920220112",
-        "published_at": "2026-09-20T22:01:12+00:00",
-        "summary": "서리꽃 세트 - 전2권 (한정판 케이스 + 조정래 작가노트) 조정래 지음 / 해냄 / 2026년 08월 / ISBN: 9791167141637 정가: 40,000 원 / 판매가: 36,000 원 / 마일리지: 2,000 원 이벤트 : 조정래 <서리꽃> 책모양 유리 문진 (세트 구매 시) 마음 가득 차오르는 사랑을 이루지 못하고 타국으로 떠난 지 5년, 그녀를 다시 만난다면 과연 그 사랑을 이룰 수 있을까? 애틋하게 그리워하던 사람이 퀭한 눈빛과 피폐한 낯빛으로 변해버린 채 눈앞에 나타난다면…. 스마트폰에 댄 손끝 하나로 웬만한 건 다 해낼 수 있는 시대, 사람과 사람이 만나 사랑을 나누는 것의 진정한 의미는 무엇일까? ‘대한민국 근현대 3부작’으로 일컬어지는 대하소설『태백산맥』『아리랑』『한강』으로 지금까지 1천5백만 이상의 독자들에게 우리 현대사의 참모습을 알린 조정래 작가. 지난 10여 년 동안 장편소설『정글만리』『천년의 질문』『황금종이』등을 통해 오늘날 한국 사회를 관통하는 핵심 문제들을 정면으로 다루어온 그가 3년 만에 신작 장편소설『서리꽃』(전 2권)을 독자들 앞에 내놓는다. 원고지 약 1,690매 분량의 이 작품에서 작가는 영원한 사랑을 꿈꾸는 젊은 연인들의 삶과 죽음을 통해 이 시대의 사랑에 경종을 울리며 인생의 진정한 의미를 되짚는다. 마이리뷰(0) 평점: | Sales Point : 68,340 서리꽃 - 토토엄마 [마이리뷰] 서리꽃 세트 - 전2권 (초판 한정 케이스 + 조정래 작가노트) - 책방꽃방 서리꽃 1,2 - 조정래 / 짧지만 진하고 뜨거운 슬픈 사랑 이야기 - 신찬 슬픈 사랑의 이야기, 조정래 장편소설 [서리꽃] - 빛글 [마이리뷰] 서리꽃 세트 - 전2권 (초판 한정 케이스 + 조정래 작가노트) - 에디터D"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "5위 향기로운 꽃은 늠름하게 핀다 22 + 47도도부현 포스트카드북 합본판",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=402251613&radar_rank=5&radar_ranking_date=20260920220112",
-        "published_at": "2026-09-20T22:01:12+00:00",
-        "summary": "향기로운 꽃은 늠름하게 핀다 22 + 47도도부현 포스트카드북 합본판 미카미 사카 지음 / 대원씨아이(만화) / 2026년 09월 / ISBN: 9791142363481 정가: 27,000 원 / 판매가: 24,300 원 / 마일리지: 1,350 원 이벤트 : 만사모 테마 6 : 최고의 순애 만화"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "8위 모순",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=25843736&radar_rank=8&radar_ranking_date=20260920220112",
-        "published_at": "2026-09-20T22:01:12+00:00",
-        "summary": "모순 양귀자 지음 / 쓰다 / 2013년 04월 / ISBN: 9788998441012 정가: 13,000 원 / 판매가: 11,700 원 / 마일리지: 650 원 이벤트 : 가을에 읽기 좋은 신간 · 스테디셀러 + 오늘의 책 가방 · 분식 한 상 보냉백 작가 양귀자가 1998년 펴낸 네 번째 장편소설로, 책이 나온 지 한 달 만에 무서운 속도로 베스트셀러 1위에 진입, 출판계를 놀라게 하고 그해 최고의 베스트셀러로 자리 잡으면서 ‘양귀자 소설의 힘’을 다시 한 번 유감없이 보여준 소설이다. 초판이 나온 지 벌써 15년이 흘렀지만 이 소설 <모순>은 아주 특별한 길을 걷고 있다. 그때 20대였던 독자들은 지금 결혼을 하고 30대가 되어서도 가끔씩 <모순>을 꺼내 다시 읽는다고 했다. 다시 읽을 때마다 전에는 몰랐던 소설 속 행간의 의미를 깨우치거나 세월의 힘이 알려준 다른 해석에 놀라면서 “내 인생의 가장 소중한 책 한 권”으로 꼽는 것을 주저하지 않는다. <모순>이 특별한 것은 대다수의 독자들이 한 번만 읽고 마는 것이 아니라 적어도 두 번, 혹은 세 번 이상 되풀이 읽고 있다는 사실에 있다. <모순>을 열 번도 더 읽었다는 블로그 독후감도 종종 만난다. 열성 독자들은 끊임없이 소설 속 문장들을 기록하고 전달하고 반추하며 흔적을 남기고 있다. 이 소설이 지금까지 132쇄를 찍으면서 끊임없이 독자들에게 회자되고 있는 힘은 참 불가사의하다. 최근 양귀자 소설의 모든 저작권을 양도받은 도서출판 「쓰다」는 새로이 <모순>의 개정판을 내면서 그런 독자들을 가장 염두에 두었다. 오래도록 소장할 수 있는 책, 진정한 내 인생의 책으로 소유할 수 있는 책이 되고자 세련된 양장본으로 독자와 만난다. 마이리뷰(0) 평점: | Sales Point : 303,124 [마이리뷰] 모순 - 탐서가 [마이리뷰] 모순 - 나나 [마이리뷰] 모순 - 리미 여성이여 주체적으로 살아라 - skycong123 마지막 소설 - 공중제비"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "7위 주술회전 모듈로 2",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=402455983&radar_rank=7&radar_ranking_date=20260920220112",
-        "published_at": "2026-09-20T22:01:12+00:00",
-        "summary": "주술회전 모듈로 2 Yuji Iwasaki 지음, 이정운 옮김, 아쿠타미 게게 원작 / 서울미디어코믹스(서울문화사) / 2026년 09월 / ISBN: 9791142817649 정가: 7,000 원 / 판매가: 6,300 원 / 마일리지: 350 원 이벤트 : 만사모 테마 6 : 최고의 순애 만화"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "6위 박완서의 낱말들",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=401813692&radar_rank=6&radar_ranking_date=20260920220112",
-        "published_at": "2026-09-20T22:01:12+00:00",
-        "summary": "박완서의 낱말들 박완서 지음, 호원숙 엮음 / 웅진지식하우스 / 2026년 09월 / ISBN: 9788901300702 정가: 19,800 원 / 판매가: 17,820 원 / 마일리지: 990 원 이벤트 : <박완서의 낱말들> + 미니북 키링 한국 문학의 거목 故 박완서 작가의 타계 15주기를 기리며, 그의 문학 세계에서 길어낸 낱말 사전 『박완서의 낱말들』이 웅진지식하우스에서 출간되었다. 박완서 작가의 수많은 명작 속에서 오래도록 기억하고 싶은 낱말 120개를 엄선해 수록한 책으로, 맏딸 호원숙 작가가 직접 엮어 그 의미를 더했다. 자연을 닮은 말부터 오감을 깨우는 말, 일상을 일구고 사람을 깊이 읽어내는 말에 이르기까지, 박완서 특유의 풍부한 어휘와 삶의 속살을 날카롭게 포착하는 표현들이 한 권의 다채로운 사전으로 새롭게 태어났다. 『박완서의 낱말들』은 잊혀가는 아름다운 우리말을 만나는 데서 나아가, 낱말을 통해 박완서의 문학 세계를 새롭게 들여다보게 한다. 일러스트레이터 수수진의 감각적이고 따뜻한 삽화를 더해 읽는 즐거움을 배가했으며, 오래도록 곁에 두고 펼쳐 볼 수 있는 양장본으로 제작해 소장 가치를 높였다. '한국 문학의 축복'이라 불린 박완서의 낱말을 따라가다 보면 무심히 지나쳤던 일상의 순간들도 새로운 언어로 다시 선명하게 바라보게 될 것이다. 마이리뷰(0) 평점: | Sales Point : 43,200 박완서작가 넘나 사랑합니다 - 이미현"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "4위 한국사 이상현상 연구원",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=400909759&radar_rank=4&radar_ranking_date=20260920220112",
-        "published_at": "2026-09-20T22:01:12+00:00",
-        "summary": "한국사 이상현상 연구원 최인서 지음 / 다이브 / 2026년 08월 / ISBN: 9791124137635 정가: 22,000 원 / 판매가: 19,800 원 / 마일리지: 1,100 원 이벤트 : <한국사 이상현상 연구원>과 함께, 이상현상 기담 책방 + 행운 거북이 키링 국가가 ‘사적’이라는 이름으로 보존한 장소에서, 정작 역사에 남지 못한 사람들의 목소리가 들려오기 시작한다. 궁궐과 고분, 사찰과 종갓집에서 발생하는 이상현상을 추적하는 비밀 기관의 기록을 담은 《한국사 이상현상 연구원》은 한국의 역사를 공포의 배경으로 소비하는 대신, 공식 기록에서 누락된 삶이 어떻게 현재로 돌아오는지를 묻는 장편소설이다. 소설은 탐사 지침서와 사건 보고서, 음성 녹취록과 면담 기록, 직원들의 채팅 내역으로 이루어져 있다. 독자는 사건을 바깥에서 지켜보는 관찰자가 아니라, 어긋난 기록과 삭제된 행간을 해석해야 하는 또 다른 탐사원이 된다. 보고서를 읽는 행위가 곧 목숨을 건 탐사가 되고, 익숙하지만 낯선 역사적 인물들 사이에서 진실을 찾아내는 순간 독자는 이 세계의 일부가 된다. 마이리뷰(0) 평점: | Sales Point : 111,420 [마이리뷰] 한국사 이상현상 연구원 - 머독 아무것도 모르고 읽기를 권함. - inyoung29 낯설지만 너무나 새로운 소설 - antipoint [소설] 최인서, 한국사 이상현상 연구원 - 나른"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "3위 싯다르타",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=item&itemId=329596&radar_rank=3&radar_ranking_date=20260920220112",
-        "published_at": "2026-09-20T22:01:12+00:00",
-        "summary": "싯다르타 헤르만 헤세 지음, 박병덕 옮김 / 민음사 / 2002년 01월 / ISBN: 9788937460586 정가: 8,000 원 / 판매가: 7,200 원 / 마일리지: 400 원 이벤트 : 가을에 읽기 좋은 신간 · 스테디셀러 + 오늘의 책 가방 · 분식 한 상 보냉백 헤세가 거의 일 년 반 동안 창작이 거의 불가능할 정도로 심한 우울증을 앓다가 정신 치료를 받은 후 발표한 작품이다. 동서양의 정신적 유산을 시적으로 승화한 일종의 종교적 성장소설로 볼 수 있는데 영원을 향한 갈망과 인간의 내면을 깊이 파고드는 초월에 대한 의지를 단순하고도 서정적인 문체로 담아냈다. 정형화된 종교 교리와 자족적인 영혼의 성찰 사이의 고뇌를 섬세하게 그리며 자아 발견을 위한 길이 하나로 정해져 있지 않음을 시사하고 철학이나 종교, 그 밖의 모든 신념에 맹목적으로 의지하고자 하는 고정관념에 도전한 작품이다. 마이리뷰(0) 평점: | Sales Point : 335,116 [마이리뷰] 싯다르타 - - [마이리뷰] 싯다르타 - 김하영 [마이리뷰] 싯다르타 - RadioHat 싯다르타는 부처인가 아닌가 [외국소설-싯다르타] - 바람개비 싯다르타. 내 삶에서 - pleasetrust800604"
       }
     },
     {
@@ -1237,19 +1246,19 @@
     {
       "event_model_payload": {
         "source_name": "The Guardian Books",
-        "headline": "Jonathan Franzen: ‘It’s still mysterious to me that I was angry for so long’",
-        "source_url": "https://www.theguardian.com/books/2026/sep/19/jonathan-franzen-its-still-mysterious-to-me-that-i-was-angry-for-so-long",
-        "published_at": "2026-09-19T08:00:41+00:00",
-        "summary": "<p>The author of The Corrections talks about a new TV adaptation, the future of reading and why creating new work is ‘horrible’</p><p>When HBO dropped its plan to adapt Jonathan Franzen’s bestselling novel The Corrections in 2012, the author was so relieved he says he performed his first and last cartwheel on the lawn of his home in Santa Cruz, California. There had been an attempted film adaptation before that, but he had been unsurprised by its failure, having warned that it was impossible to condense his densely plotted doorstopper of a novel into a feature-length film. This time, Franzen had signed up as co-writer, with filmmaker Noah Baumbach. He says that HBO was “excluded from the development process. Mistake, because we didn’t know how to do TV.” Franzen himself hadn’t even owned a telly until a few years earlier and certainly didn’t have cable, so as he was wrestling with the script, he began renting box sets. Around three episodes into one drama series, he realised “we have no idea what we’re doing. This is not how you do TV. This is bad,” he recalls. The result, he says, was “one of the worst pilots anyone has ever made”.</p><p>Franzen used to think TV was the “enemy” of the serious novelist. In a well-known 1996 essay for Harper’s Magazine about the decline of high literature he had complained bitterly about the “banal ascendancy of television”. But after the HBO series failed, he watched Breaking Bad, Nurse Jackie and Silicon Valley and loved them. In the age of social media, AI and the endless scroll, TV has started to look like a “friend”, he says now. And The Corrections is finally being adapted into an eight-part Netflix series, with Meryl Streep playing Enid Lambert, the matriarch clinging to dreams of hosting a perfect last family Christmas, even as her husband Alfred is in terminal decline with Parkinson’s and dementia and their grownup children’s lives are falling apart in terrible, comical ways. Once Streep announced she was in, Franzen felt the “chances of making this show have gone up above 50%”. He says he’s a month away from finishing the script.</p> <a href=\"https://www.theguardian.com/books/2026/sep/19/jonathan-franzen-its-still-mysterious-to-me-that-i-was-angry-for-so-long\">Continue reading...</a>"
+        "headline": "The best books to read in September: new paperbacks from Margaret Atwood, Kiran Desai and Richard Holmes",
+        "source_url": "https://www.theguardian.com/books/ng-interactive/2026/sep/18/the-best-books-to-read-in-september-new-paperbacks-from-margaret-atwood-kiran-desai-and-richard-holmes",
+        "published_at": "2026-09-18T17:19:59+00:00",
+        "summary": "<p>Looking for a new reading recommendation? Here are some great new paperbacks, from an epic multigenerational saga by a Booker winner to a biography of an iconic Victorian poet</p><p>***</p> <a href=\"https://www.theguardian.com/books/ng-interactive/2026/sep/18/the-best-books-to-read-in-september-new-paperbacks-from-margaret-atwood-kiran-desai-and-richard-holmes\">Continue reading...</a>"
       }
     },
     {
       "event_model_payload": {
         "source_name": "The Guardian Books",
-        "headline": "The best books to read in September: new paperbacks from Margaret Atwood, Kiran Desai and Richard Holmes",
-        "source_url": "https://www.theguardian.com/books/ng-interactive/2026/sep/18/the-best-books-to-read-in-september-new-paperbacks-from-margaret-atwood-kiran-desai-and-richard-holmes",
-        "published_at": "2026-09-18T17:19:59+00:00",
-        "summary": "<p>Looking for a new reading recommendation? Here are some great new paperbacks, from an epic multigenerational saga by a Booker winner to a biography of an iconic Victorian poet</p><p>***</p> <a href=\"https://www.theguardian.com/books/ng-interactive/2026/sep/18/the-best-books-to-read-in-september-new-paperbacks-from-margaret-atwood-kiran-desai-and-richard-holmes\">Continue reading...</a>"
+        "headline": "Jonathan Franzen: ‘It’s still mysterious to me that I was angry for so long’",
+        "source_url": "https://www.theguardian.com/books/2026/sep/19/jonathan-franzen-its-still-mysterious-to-me-that-i-was-angry-for-so-long",
+        "published_at": "2026-09-19T08:00:41+00:00",
+        "summary": "<p>The author of The Corrections talks about a new TV adaptation, the future of reading and why creating new work is ‘horrible’</p><p>When HBO dropped its plan to adapt Jonathan Franzen’s bestselling novel The Corrections in 2012, the author was so relieved he says he performed his first and last cartwheel on the lawn of his home in Santa Cruz, California. There had been an attempted film adaptation before that, but he had been unsurprised by its failure, having warned that it was impossible to condense his densely plotted doorstopper of a novel into a feature-length film. This time, Franzen had signed up as co-writer, with filmmaker Noah Baumbach. He says that HBO was “excluded from the development process. Mistake, because we didn’t know how to do TV.” Franzen himself hadn’t even owned a telly until a few years earlier and certainly didn’t have cable, so as he was wrestling with the script, he began renting box sets. Around three episodes into one drama series, he realised “we have no idea what we’re doing. This is not how you do TV. This is bad,” he recalls. The result, he says, was “one of the worst pilots anyone has ever made”.</p><p>Franzen used to think TV was the “enemy” of the serious novelist. In a well-known 1996 essay for Harper’s Magazine about the decline of high literature he had complained bitterly about the “banal ascendancy of television”. But after the HBO series failed, he watched Breaking Bad, Nurse Jackie and Silicon Valley and loved them. In the age of social media, AI and the endless scroll, TV has started to look like a “friend”, he says now. And The Corrections is finally being adapted into an eight-part Netflix series, with Meryl Streep playing Enid Lambert, the matriarch clinging to dreams of hosting a perfect last family Christmas, even as her husband Alfred is in terminal decline with Parkinson’s and dementia and their grownup children’s lives are falling apart in terrible, comical ways. Once Streep announced she was in, Franzen felt the “chances of making this show have gone up above 50%”. He says he’s a month away from finishing the script.</p> <a href=\"https://www.theguardian.com/books/2026/sep/19/jonathan-franzen-its-still-mysterious-to-me-that-i-was-angry-for-so-long\">Continue reading...</a>"
       }
     },
     {
@@ -1340,15 +1349,6 @@
         "source_url": "https://www.npr.org/2026/09/18/nx-s1-5973098/rose-friedman-dies",
         "published_at": "2026-09-19T02:44:35+00:00",
         "summary": "Friedman was in her early 20s when she landed her first position as an editorial assistant at NPR. She became an editor and reporter, and a co-creator of the annual <em>Books We Love</em> reading guide."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "NPR Books",
-        "headline": "'American Scoundrel' traces Roy Cohn's playbook from McCarthyism to Trump",
-        "source_url": "https://www.npr.org/2026/09/17/nx-s1-5965831/american-scoundrel-traces-roy-cohns-playbook-from-mccarthyism-to-trump",
-        "published_at": "2026-09-17T16:14:06+00:00",
-        "summary": "In Kai Bird's biography of Cohn, he looks at how the lawyer taught Trump how to deny, delay, attack, sue and countersue, never admit defeat, side-step paying bills and avoid a paper trail."
       }
     }
   ],
