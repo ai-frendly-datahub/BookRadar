@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-09-30T06:21:29.952850+00:00",
+  "generated_at": "2026-10-01T06:57:29.360817+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,24 +16,24 @@
     "collection_error_count": 0,
     "sales_ranking_events": 15,
     "library_lending_events": 0,
-    "author_event_events": 5,
-    "award_signal_events": 14,
-    "book_signal_event_count": 34,
+    "author_event_events": 4,
+    "award_signal_events": 19,
+    "book_signal_event_count": 38,
     "official_or_operational_event_count": 26,
     "community_proxy_event_count": 0,
     "complete_canonical_key_count": 28,
-    "proxy_canonical_key_count": 6,
+    "proxy_canonical_key_count": 10,
     "missing_canonical_key_count": 0,
     "isbn_present_count": 28,
-    "author_present_count": 20,
-    "publisher_present_count": 10,
-    "rank_present_count": 18,
+    "author_present_count": 18,
+    "publisher_present_count": 6,
+    "rank_present_count": 16,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 7,
+    "event_required_field_gap_count": 12,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 18
+    "daily_review_item_count": 27
   },
   "sources": [
     {
@@ -75,7 +75,7 @@
       "article_count": 15,
       "event_count": 15,
       "latest_event_at": "2026-09-27T22:00:40+00:00",
-      "age_days": 2.35,
+      "age_days": 3.37,
       "latest_title": "1위 룩 백 (스페셜 에디션)",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402733719&radar_rank=1&radar_ranking_date=20260927220040&rssType=5&type=item",
       "latest_source_signal": [
@@ -790,6 +790,331 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
+      "title": "Dodge City by Patrick deWitt review – a wild draft-dodging road trip",
+      "url": "https://www.theguardian.com/books/2026/oct/01/dodge-city-by-patrick-dewitt-review-a-wild-draft-dodging-road-trip",
+      "source_url": "https://www.theguardian.com/books/2026/oct/01/dodge-city-by-patrick-dewitt-review-a-wild-draft-dodging-road-trip",
+      "event_at": "2026-10-01T06:00:29+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [
+        "novel",
+        "literary"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "writer"
+      ],
+      "award": [
+        "booker"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:471a9dd2a0ac",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:283addb2ba07:20261001",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Patrick Radden Keefe’s bestseller London Falling shortlisted for Baillie Gifford prize",
+      "url": "https://www.theguardian.com/books/2026/oct/01/baillie-gifford-prize-shortlist-patrick-radden-keefe-matthew-sweet-london-falling",
+      "source_url": "https://www.theguardian.com/books/2026/oct/01/baillie-gifford-prize-shortlist-patrick-radden-keefe-matthew-sweet-london-falling",
+      "event_at": "2026-09-30T23:01:20+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "winner",
+      "genre": [
+        "literary"
+      ],
+      "publisher": [],
+      "book_type": [
+        "bestseller"
+      ],
+      "author": [],
+      "award": [
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:the-guardian-books:4c33296c0462",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:bb95e42acb09:20260930",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Caro Claire Burke has bought you (yes you) a ticket to see NAZA.",
+      "url": "https://lithub.com/caro-claire-burke-has-bought-you-yes-you-a-ticket-to-see-naza",
+      "source_url": "https://lithub.com/caro-claire-burke-has-bought-you-yes-you-a-ticket-to-see-naza",
+      "event_at": "2026-09-30T16:46:27+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:literary-hub:91515645ddf1",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:d6ec4bf73c8b:20260930",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Book Riot",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Book Riot’s Deals of the Day for September 30, 2026",
+      "url": "https://bookriot.com/book-riots-deals-of-the-day-for-september-30-2026",
+      "source_url": "https://bookriot.com/book-riots-deals-of-the-day-for-september-30-2026",
+      "event_at": "2026-09-30T15:35:18+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "pulitzer",
+      "genre": [
+        "fiction"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "pulitzer"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:book-riot:abd7e0f1ba3c",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:486fa2d4bf74:20260930",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Why We are Suing the City of Los Angeles to Save Libraries",
+      "url": "https://lithub.com/why-we-are-suing-the-city-of-los-angeles-to-save-libraries",
+      "source_url": "https://lithub.com/why-we-are-suing-the-city-of-los-angeles-to-save-libraries",
+      "event_at": "2026-09-30T14:20:34+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author"
+      ],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:4a5cb379f391",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:8deb8f13be38:20260930",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Book Riot",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "20 Award-Winning Graphic Novels for Your TBR",
+      "url": "https://bookriot.com/award-winning-graphic-novels",
+      "source_url": "https://bookriot.com/award-winning-graphic-novels",
+      "event_at": "2026-09-30T10:11:00+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:book-riot:d9dee34ab0d6",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:f0b32defbcf5:20260930",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Missouri Williams and China Miéville among writers on ‘adventurous’ Goldsmiths shortlist",
+      "url": "https://www.theguardian.com/books/2026/sep/30/missouri-williams-china-mieville-writers-shortlisted-2026-goldsmiths-prize",
+      "source_url": "https://www.theguardian.com/books/2026/sep/30/missouri-williams-china-mieville-writers-shortlisted-2026-goldsmiths-prize",
+      "event_at": "2026-09-30T08:30:20+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [
+        "fiction",
+        "novel",
+        "literary"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:the-guardian-books:43442e07e21b",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:e93cd7229930:20260930",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
       "title": "Cherise Saywell wins national short story award for ‘tender’ tale of a child facing violence – read an extract here",
       "url": "https://www.theguardian.com/books/2026/sep/29/cherise-saywell-wins-bbc-short-story-award-ditto",
       "source_url": "https://www.theguardian.com/books/2026/sep/29/cherise-saywell-wins-bbc-short-story-award-ditto",
@@ -829,146 +1154,51 @@
       ]
     },
     {
-      "source": "Literary Hub",
+      "source": "알라딘 신간",
       "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "review",
+      "trust_tier": "T1_official",
+      "content_type": "news",
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "Here are the bookies’ odds for the 2026 Nobel Prize in Literature.",
-      "url": "https://lithub.com/here-are-the-bookies-odds-for-the-2026-nobel-prize-in-literature",
-      "source_url": "https://lithub.com/here-are-the-bookies-odds-for-the-2026-nobel-prize-in-literature",
-      "event_at": "2026-09-29T13:47:27+00:00",
-      "isbn": "",
+      "title": "사과할게요/안혜리 지음/오늘책",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403263822&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403263822&rssType=1&type=item",
+      "event_at": "2026-09-29T07:45:00+00:00",
+      "isbn": "403263822",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
       "venue": "",
-      "award_name": "nobel",
+      "award_name": "수상",
       "genre": [
-        "literature"
+        "문학",
+        "그림책"
       ],
       "publisher": [],
       "book_type": [],
       "author": [],
       "award": [
-        "nobel",
-        "winner"
+        "수상",
+        "문학상"
       ],
       "book_event": [],
       "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
       ],
-      "canonical_key": "book_source:literary-hub:99ac980e5c21",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:3cafdc37f5a4:20260929",
+      "canonical_key": "book_edition:403263822",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:b3c3c52d637f:20260929",
       "required_field_proxy": {
-        "isbn": false,
+        "isbn": true,
         "award_name": true,
         "source_url": true
       },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "Literary Hub",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Hernan Diaz’s New Novel Isn’t a Dystopia—Trust Him",
-      "url": "https://lithub.com/hernan-diazs-new-novel-isnt-a-dystopia-trust-him",
-      "source_url": "https://lithub.com/hernan-diazs-new-novel-isnt-a-dystopia-trust-him",
-      "event_at": "2026-09-29T09:10:44+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "pulitzer",
-      "genre": [
-        "novel"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "pulitzer",
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:literary-hub:719c845ff23c",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:e83b571e47c5:20260929",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "Literary Hub",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Nina Schuyler on Personifying a River in Craft and Creative Voice",
-      "url": "https://lithub.com/nina-schuyler-on-personifying-a-river-in-craft-and-creative-voice",
-      "source_url": "https://lithub.com/nina-schuyler-on-personifying-a-river-in-craft-and-creative-voice",
-      "event_at": "2026-09-29T09:09:19+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "award",
-      "genre": [
-        "fiction"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "author"
-      ],
-      "award": [
-        "award"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:title:899005f93509",
-      "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:bfb283eee694:20260929",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
+      "required_field_gaps": []
     },
     {
       "source": "알라딘 신간",
@@ -979,11 +1209,11 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "관도 꽃도 필요 없다/아사쿠라 가스미 지음, 김석희 옮김/열림원(도서출판)",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403187420&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403187420&rssType=1&type=item",
-      "event_at": "2026-09-28T07:29:00+00:00",
-      "isbn": "403187420",
+      "title": "고양이 군집 알고리즘/저우원 지음, 박지민 옮김/스피리투스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403241550&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403241550&rssType=1&type=item",
+      "event_at": "2026-09-29T05:49:00+00:00",
+      "isbn": "403241550",
       "rank": null,
       "retailer": "",
       "library_network": "",
@@ -995,20 +1225,19 @@
         "시",
         "희곡",
         "문학",
-        "영어",
-        "일본어"
+        "과학",
+        "심리",
+        "sf"
       ],
       "publisher": [],
-      "book_type": [
-        "신간"
-      ],
+      "book_type": [],
       "author": [
         "작가",
+        "저자",
         "번역"
       ],
       "award": [
-        "수상",
-        "후보"
+        "수상"
       ],
       "book_event": [],
       "source_signal": [
@@ -1016,131 +1245,9 @@
         "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:403187420",
+      "canonical_key": "book_edition:403241550",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:80433bfe800f:20260928",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "이름들/플로렌스 냅 지음, 강아름 옮김/문학동네",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403176010&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403176010&rssType=1&type=item",
-      "event_at": "2026-09-28T05:26:00+00:00",
-      "isbn": "403176010",
-      "rank": 1,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "도서전",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학"
-      ],
-      "publisher": [
-        "문학동네",
-        "출판사"
-      ],
-      "book_type": [
-        "신간",
-        "베스트셀러"
-      ],
-      "author": [
-        "작가",
-        "번역",
-        "데뷔"
-      ],
-      "award": [
-        "수상",
-        "선정"
-      ],
-      "book_event": [
-        "도서전"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:403176010",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:7a99ebd58ac3:20260928",
-      "required_field_proxy": {
-        "author_name": true,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "이름들/플로렌스 냅 지음, 강아름 옮김/문학동네",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403176010&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403176010&rssType=1&type=item",
-      "event_at": "2026-09-28T05:26:00+00:00",
-      "isbn": "403176010",
-      "rank": 1,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "도서전",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학"
-      ],
-      "publisher": [
-        "문학동네",
-        "출판사"
-      ],
-      "book_type": [
-        "신간",
-        "베스트셀러"
-      ],
-      "author": [
-        "작가",
-        "번역",
-        "데뷔"
-      ],
-      "award": [
-        "수상",
-        "선정"
-      ],
-      "book_event": [
-        "도서전"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:403176010",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:7a99ebd58ac3:20260928",
+      "event_key": "award_signal:23a80da64e91:20260929",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -1157,29 +1264,87 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "강남미식가/판청 지음, 박경환.윤영수 옮김/글항아리",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403173332&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403173332&rssType=1&type=item",
-      "event_at": "2026-09-28T04:51:00+00:00",
-      "isbn": "403173332",
+      "title": "단 한 사람 (알라딘 리커버 특별판, 양장)/최진영 지음/한겨레출판",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403240579&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403240579&rssType=1&type=item",
+      "event_at": "2026-09-29T05:44:00+00:00",
+      "isbn": "403240579",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
       "venue": "",
-      "award_name": "선정",
+      "award_name": "문학상",
       "genre": [
-        "에세이",
+        "소설",
+        "시",
+        "희곡",
+        "문학"
+      ],
+      "publisher": [
+        "한겨레출판"
+      ],
+      "book_type": [
+        "세트"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:403240579",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:ffcbb5420151:20260929",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "로봇 소년, 학교에 가다/톰 앵글버거.폴 델린저 지음, 김영란 옮김/미래인(미래M&B,미래엠앤비)",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403227982&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403227982&rssType=1&type=item",
+      "event_at": "2026-09-29T03:24:00+00:00",
+      "isbn": "403227982",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
         "시",
         "문학",
-        "인문학",
-        "역사",
-        "요리"
+        "청소년"
       ],
       "publisher": [],
-      "book_type": [],
-      "author": [],
+      "book_type": [
+        "베스트셀러",
+        "개정판"
+      ],
+      "author": [
+        "작가"
+      ],
       "award": [
+        "수상",
         "선정"
       ],
       "book_event": [],
@@ -1188,9 +1353,107 @@
         "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:403173332",
+      "canonical_key": "book_edition:403227982",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:7dc3aa4364d8:20260928",
+      "event_key": "award_signal:d9d77f025820:20260929",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "양 하나, 양 둘/곽수진 지음/바람의아이들",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403226862&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403226862&rssType=1&type=item",
+      "event_at": "2026-09-29T03:11:00+00:00",
+      "isbn": "403226862",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "판타지",
+        "그림책"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:403226862",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:648895f673c3:20260929",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "요괴 아파트 4/도미야스 요코 지음, 야마무라 고지 그림, 고향옥 옮김/가람어린이",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403222767&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403222767&rssType=1&type=item",
+      "event_at": "2026-09-29T02:21:00+00:00",
+      "isbn": "403222767",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "어린이",
+        "동화"
+      ],
+      "publisher": [],
+      "book_type": [
+        "화제의 책",
+        "세트"
+      ],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:403222767",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:f1626f794cd9:20260929",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -1207,34 +1470,143 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "author_event",
-      "title": "이 모든 것은 지나갈 것이다/루시 혼 지음, 이은경 옮김/웅진지식하우스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403171612&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403171612&rssType=1&type=item",
-      "event_at": "2026-09-28T04:30:00+00:00",
-      "isbn": "403171612",
+      "title": "쉽게 읽고 보는 위대한 도전 도감/정상영 지음, 신응섭 그림/진선아이",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403221083&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403221083&rssType=1&type=item",
+      "event_at": "2026-09-29T01:56:00+00:00",
+      "isbn": "403221083",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "과학",
+        "역사",
+        "예술",
+        "종교",
+        "철학",
+        "여행",
+        "어린이"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:403221083",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:8d58a4126ca1:20260929",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "쉽게 읽고 보는 위대한 도전 도감/정상영 지음, 신응섭 그림/진선아이",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403221083&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403221083&rssType=1&type=item",
+      "event_at": "2026-09-29T01:56:00+00:00",
+      "isbn": "403221083",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "과학",
+        "역사",
+        "예술",
+        "종교",
+        "철학",
+        "여행",
+        "어린이"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:403221083",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:8d58a4126ca1:20260929",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "핑크펭귄/빌 비숍 지음, 안진환.Claude Opus 5 옮김/스노우폭스북스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403220304&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403220304&rssType=1&type=item",
+      "event_at": "2026-09-29T01:41:00+00:00",
+      "isbn": "403220304",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
       "venue": "강연",
-      "award_name": "",
+      "award_name": "선정",
       "genre": [
-        "에세이",
         "시",
-        "문학",
-        "인문학",
-        "심리"
+        "경제경영",
+        "법률"
       ],
-      "publisher": [
-        "웅진지식하우스"
-      ],
+      "publisher": [],
       "book_type": [
-        "신간"
+        "개정판"
       ],
       "author": [
-        "저자"
+        "저자",
+        "번역"
       ],
-      "award": [],
+      "award": [
+        "선정"
+      ],
       "book_event": [
         "강연"
       ],
@@ -1243,12 +1615,66 @@
         "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:403171612",
+      "canonical_key": "book_edition:403220304",
       "canonical_key_status": "complete",
-      "event_key": "author_event:7bdbab81ed94:20260928",
+      "event_key": "author_event:b8c9e80df92d:20260929",
       "required_field_proxy": {
         "author_name": true,
         "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "핑크펭귄/빌 비숍 지음, 안진환.Claude Opus 5 옮김/스노우폭스북스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403220304&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403220304&rssType=1&type=item",
+      "event_at": "2026-09-29T01:41:00+00:00",
+      "isbn": "403220304",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "강연",
+      "award_name": "선정",
+      "genre": [
+        "시",
+        "경제경영",
+        "법률"
+      ],
+      "publisher": [],
+      "book_type": [
+        "개정판"
+      ],
+      "author": [
+        "저자",
+        "번역"
+      ],
+      "award": [
+        "선정"
+      ],
+      "book_event": [
+        "강연"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:403220304",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:b8c9e80df92d:20260929",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
         "source_url": true
       },
       "required_field_gaps": []
@@ -1296,275 +1722,6 @@
       "required_field_gaps": [
         "author_name"
       ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "오백 년째 열다섯 0/김혜정 지음/위즈덤하우스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403163087&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403163087&rssType=1&type=item",
-      "event_at": "2026-09-28T02:41:00+00:00",
-      "isbn": "403163087",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "북토크",
-      "award_name": "",
-      "genre": [
-        "소설",
-        "시",
-        "문학",
-        "어린이",
-        "청소년",
-        "동화"
-      ],
-      "publisher": [
-        "위즈덤하우스"
-      ],
-      "book_type": [
-        "시리즈"
-      ],
-      "author": [
-        "작가"
-      ],
-      "award": [],
-      "book_event": [
-        "북토크"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:403163087",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:0936115e52dd:20260928",
-      "required_field_proxy": {
-        "author_name": true,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "완벽한 청소/노청엽 지음/반타",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403162122&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403162122&rssType=1&type=item",
-      "event_at": "2026-09-28T02:29:00+00:00",
-      "isbn": "403162122",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "스릴러"
-      ],
-      "publisher": [],
-      "book_type": [
-        "신간"
-      ],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:403162122",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:bedc3f88d830:20260928",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "꼬마 뱀파이어의 숨겨진 비밀/플라비아 Z. 드라고 지음, 신수진 옮김/비룡소",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403160729&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403160729&rssType=1&type=item",
-      "event_at": "2026-09-28T02:12:00+00:00",
-      "isbn": "403160729",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "그림책"
-      ],
-      "publisher": [
-        "비룡소"
-      ],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:403160729",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:cfe27b9e74e0:20260928",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "강철 날개/유재원 외 지음/은행나무",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403159668&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403159668&rssType=1&type=item",
-      "event_at": "2026-09-28T01:58:00+00:00",
-      "isbn": "403159668",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "과학",
-        "sf"
-      ],
-      "publisher": [],
-      "book_type": [
-        "신간"
-      ],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:403159668",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:75cb1f02588c:20260928",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "빈집은 비어서 비어 있음/강예린.이치훈 지음/안그라픽스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403159204&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403159204&rssType=1&type=item",
-      "event_at": "2026-09-28T01:52:00+00:00",
-      "isbn": "403159204",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "에세이",
-        "시",
-        "역사",
-        "예술"
-      ],
-      "publisher": [],
-      "book_type": [
-        "화제의 책",
-        "시리즈"
-      ],
-      "author": [
-        "작가",
-        "저자"
-      ],
-      "award": [
-        "수상",
-        "award",
-        "선정",
-        "후보"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:403159204",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:8ab59e704f28:20260928",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     },
     {
       "source": "알라딘 베스트셀러",
@@ -2471,6 +2628,125 @@
       "reason": "missing_required_fields",
       "event_model": "award_signal",
       "source": "The Guardian Books",
+      "title": "Dodge City by Patrick deWitt review – a wild draft-dodging road trip",
+      "canonical_key": "book_edition:title:471a9dd2a0ac",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Dodge City by Patrick deWitt review – a wild draft-dodging road trip",
+      "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Patrick Radden Keefe’s bestseller London Falling shortlisted for Baillie Gifford prize",
+      "canonical_key": "book_source:the-guardian-books:4c33296c0462",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Patrick Radden Keefe’s bestseller London Falling shortlisted for Baillie Gifford prize",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Caro Claire Burke has bought you (yes you) a ticket to see NAZA.",
+      "canonical_key": "book_source:literary-hub:91515645ddf1",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Caro Claire Burke has bought you (yes you) a ticket to see NAZA.",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "Book Riot’s Deals of the Day for September 30, 2026",
+      "canonical_key": "book_source:book-riot:abd7e0f1ba3c",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "Book Riot’s Deals of the Day for September 30, 2026",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Why We are Suing the City of Los Angeles to Save Libraries",
+      "canonical_key": "book_edition:title:4a5cb379f391",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Why We are Suing the City of Los Angeles to Save Libraries",
+      "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "20 Award-Winning Graphic Novels for Your TBR",
+      "canonical_key": "book_source:book-riot:d9dee34ab0d6",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "20 Award-Winning Graphic Novels for Your TBR",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Missouri Williams and China Miéville among writers on ‘adventurous’ Goldsmiths shortlist",
+      "canonical_key": "book_source:the-guardian-books:43442e07e21b",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Missouri Williams and China Miéville among writers on ‘adventurous’ Goldsmiths shortlist",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
       "title": "Cherise Saywell wins national short story award for ‘tender’ tale of a child facing violence – read an extract here",
       "canonical_key": "book_edition:title:cf4dee518f3c",
       "required_field_gaps": [
@@ -2486,54 +2762,13 @@
     },
     {
       "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Here are the bookies’ odds for the 2026 Nobel Prize in Literature.",
-      "canonical_key": "book_source:literary-hub:99ac980e5c21",
+      "event_model": "author_event",
+      "source": "알라딘 신간",
+      "title": "쉽게 읽고 보는 위대한 도전 도감/정상영 지음, 신응섭 그림/진선아이",
+      "canonical_key": "book_edition:403221083",
       "required_field_gaps": [
-        "isbn"
+        "author_name"
       ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Here are the bookies’ odds for the 2026 Nobel Prize in Literature.",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Hernan Diaz’s New Novel Isn’t a Dystopia—Trust Him",
-      "canonical_key": "book_source:literary-hub:719c845ff23c",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Hernan Diaz’s New Novel Isn’t a Dystopia—Trust Him",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Nina Schuyler on Personifying a River in Craft and Creative Voice",
-      "canonical_key": "book_edition:title:899005f93509",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Nina Schuyler on Personifying a River in Craft and Creative Voice",
-      "canonical_key_status": "title_proxy"
     },
     {
       "reason": "missing_required_fields",
