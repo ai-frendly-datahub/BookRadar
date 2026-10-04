@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-10-03T06:08:08.960328+00:00",
+  "generated_at": "2026-10-04T06:39:56.260265+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -17,23 +17,23 @@
     "sales_ranking_events": 15,
     "library_lending_events": 0,
     "author_event_events": 1,
-    "award_signal_events": 15,
-    "book_signal_event_count": 31,
-    "official_or_operational_event_count": 25,
+    "award_signal_events": 9,
+    "book_signal_event_count": 25,
+    "official_or_operational_event_count": 21,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 26,
-    "proxy_canonical_key_count": 5,
+    "complete_canonical_key_count": 21,
+    "proxy_canonical_key_count": 4,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 26,
-    "author_present_count": 17,
+    "isbn_present_count": 21,
+    "author_present_count": 12,
     "publisher_present_count": 7,
     "rank_present_count": 16,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 5,
+    "event_required_field_gap_count": 4,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 15
+    "daily_review_item_count": 13
   },
   "sources": [
     {
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 30,
+      "article_count": 25,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 15,
       "event_count": 15,
       "latest_event_at": "2026-09-27T22:00:40+00:00",
-      "age_days": 5.34,
+      "age_days": 6.36,
       "latest_title": "1위 룩 백 (스페셜 에디션)",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=402733719&radar_rank=1&radar_ranking_date=20260927220040&rssType=5&type=item",
       "latest_source_signal": [
@@ -830,6 +830,113 @@
       ]
     },
     {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "어두운 상점들의 거리 (먼슬리 클래식)/파트릭 모디아노 지음, 김화영 옮김/문학동네",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403489383&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403489383&rssType=1&type=item",
+      "event_at": "2026-10-02T02:46:00+00:00",
+      "isbn": "403489383",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "노벨문학상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학"
+      ],
+      "publisher": [
+        "문학동네",
+        "현대문학"
+      ],
+      "book_type": [
+        "화제의 책"
+      ],
+      "author": [],
+      "award": [
+        "노벨문학상",
+        "공쿠르",
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:403489383",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:d07dcbb7ac82:20261002",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "두근두근 어질어질 스마트폰을 조심해/박은호 지음, 이철민 그림/미래엔아이세움",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403476229&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403476229&rssType=1&type=item",
+      "event_at": "2026-10-02T00:30:00+00:00",
+      "isbn": "403476229",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "건강",
+        "어린이",
+        "그림책"
+      ],
+      "publisher": [],
+      "book_type": [
+        "화제의 책",
+        "세트"
+      ],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:403476229",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:d9171c832f1b:20261002",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
       "source": "New York Times Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -1035,63 +1142,6 @@
       "required_field_gaps": []
     },
     {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "평범한 인생/카렐 차페크 지음, 정보라 옮김/휴머니스트",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403421378&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403421378&rssType=1&type=item",
-      "event_at": "2026-10-01T06:06:00+00:00",
-      "isbn": "403421378",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "노벨문학상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "철학",
-        "건강"
-      ],
-      "publisher": [],
-      "book_type": [
-        "세트"
-      ],
-      "author": [
-        "작가",
-        "번역"
-      ],
-      "award": [
-        "노벨문학상",
-        "문학상",
-        "후보"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:403421378",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:7ae73592b906:20261001",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -1132,306 +1182,6 @@
       "canonical_key": "book_edition:title:c1b367cfe523",
       "canonical_key_status": "title_proxy",
       "event_key": "award_signal:42631e52b13d:20261001",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "푸울에 풍덩/이재은 지음/소원나무",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403419650&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403419650&rssType=1&type=item",
-      "event_at": "2026-10-01T05:47:00+00:00",
-      "isbn": "403419650",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "문학",
-        "청소년"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가",
-        "데뷔"
-      ],
-      "award": [
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:403419650",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:28dc76810f13:20261001",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "몽테뉴의 지혜, 자신에게 솔직하라/미셸 몽테뉴 지음, 정영훈 엮음, 이선미 옮김/메이트북스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403419414&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403419414&rssType=1&type=item",
-      "event_at": "2026-10-01T05:44:00+00:00",
-      "isbn": "403419414",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "에세이",
-        "시",
-        "문학",
-        "인문학",
-        "철학"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "역자"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:403419414",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:e4f7a52ad8e2:20261001",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "안녕, 버섯/이수 지음/모든요일그림책",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403418622&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403418622&rssType=1&type=item",
-      "event_at": "2026-10-01T05:36:00+00:00",
-      "isbn": "403418622",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "시",
-        "과학",
-        "그림책"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:403418622",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:83c8fb36d91a:20261001",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "주식 살 때와 팔 때/리 프리먼 쇼어 외 지음, 이주영 옮김/토네이도",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403413481&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403413481&rssType=1&type=item",
-      "event_at": "2026-10-01T05:02:00+00:00",
-      "isbn": "403413481",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "시",
-        "경제경영"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "저자"
-      ],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:403413481",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:9d5d4438a333:20261001",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "웰컴 투 더 유니버스 (아카데미판)/닐 디그래스 타이슨.마이클 A. 스트라우스.J. 리처드 고트 지음, 이강환 옮김/바다출판사",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403412262&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403412262&rssType=1&type=item",
-      "event_at": "2026-10-01T04:49:00+00:00",
-      "isbn": "403412262",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "문학",
-        "과학",
-        "여행",
-        "청소년"
-      ],
-      "publisher": [
-        "출판사"
-      ],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "수상",
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:403412262",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:ce35a82c3553:20261001",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Patrick Radden Keefe’s bestseller London Falling shortlisted for Baillie Gifford prize",
-      "url": "https://www.theguardian.com/books/2026/oct/01/baillie-gifford-prize-shortlist-patrick-radden-keefe-matthew-sweet-london-falling",
-      "source_url": "https://www.theguardian.com/books/2026/oct/01/baillie-gifford-prize-shortlist-patrick-radden-keefe-matthew-sweet-london-falling",
-      "event_at": "2026-09-30T23:01:20+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "winner",
-      "genre": [
-        "literary"
-      ],
-      "publisher": [],
-      "book_type": [
-        "bestseller"
-      ],
-      "author": [],
-      "award": [
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:the-guardian-books:4c33296c0462",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:bb95e42acb09:20260930",
       "required_field_proxy": {
         "isbn": false,
         "award_name": true,
@@ -2204,50 +1954,6 @@
       "required_field_gaps": []
     },
     {
-      "source": "NPR Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "'The Disappearers' is a fiercely personal novel that hits like a tidal wave",
-      "url": "https://www.npr.org/2026/09/25/nx-s1-5981056/the-disappearers-review-marlon-james",
-      "source_url": "https://www.npr.org/2026/09/25/nx-s1-5981056/the-disappearers-review-marlon-james",
-      "event_at": "2026-09-25T18:04:48+00:00",
-      "isbn": "5981056",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [
-        "novel"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "booker"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:5981056",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:7ad444b53f06:20260925",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -2344,23 +2050,6 @@
       "source": "The Guardian Books",
       "title": "Dodge City by Patrick deWitt review – a wild draft-dodging road trip",
       "canonical_key_status": "title_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "Patrick Radden Keefe’s bestseller London Falling shortlisted for Baillie Gifford prize",
-      "canonical_key": "book_source:the-guardian-books:4c33296c0462",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "Patrick Radden Keefe’s bestseller London Falling shortlisted for Baillie Gifford prize",
-      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_required_fields",
