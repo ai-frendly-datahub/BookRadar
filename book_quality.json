@@ -1,39 +1,39 @@
 {
   "category": "book",
-  "generated_at": "2026-10-05T06:37:02.017026+00:00",
+  "generated_at": "2026-10-06T07:17:15.334351+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
     "enabled_sources": 9,
     "tracked_sources": 1,
-    "fresh_sources": 1,
+    "fresh_sources": 0,
     "stale_sources": 0,
-    "missing_sources": 0,
+    "missing_sources": 1,
     "missing_event_sources": 0,
     "unknown_event_date_sources": 0,
     "not_tracked_sources": 8,
     "skipped_disabled_sources": 23,
     "collection_error_count": 0,
-    "sales_ranking_events": 1,
+    "sales_ranking_events": 0,
     "library_lending_events": 0,
-    "author_event_events": 0,
-    "award_signal_events": 8,
-    "book_signal_event_count": 9,
-    "official_or_operational_event_count": 6,
+    "author_event_events": 1,
+    "award_signal_events": 4,
+    "book_signal_event_count": 5,
+    "official_or_operational_event_count": 0,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 6,
-    "proxy_canonical_key_count": 3,
+    "complete_canonical_key_count": 1,
+    "proxy_canonical_key_count": 4,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 6,
-    "author_present_count": 3,
-    "publisher_present_count": 2,
+    "isbn_present_count": 1,
+    "author_present_count": 2,
+    "publisher_present_count": 0,
     "rank_present_count": 0,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 4,
-    "tracked_source_gap_count": 0,
+    "event_required_field_gap_count": 5,
+    "tracked_source_gap_count": 1,
     "missing_event_model_count": 2,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 13
+    "daily_review_item_count": 16
   },
   "sources": [
     {
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 0,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -71,22 +71,15 @@
       "tracked": true,
       "event_model": "sales_ranking",
       "freshness_sla_days": 7.0,
-      "status": "fresh",
-      "article_count": 1,
-      "event_count": 1,
-      "latest_event_at": "2026-10-04T22:01:14+00:00",
-      "age_days": 0.36,
-      "latest_title": "[알라딘 베스트 RSS] 도서종합 분야 주간 베스트셀러",
-      "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?branch=book&cid=0&days=2026102&rssType=5&type=BEST",
-      "latest_source_signal": [
-        "official_book_source",
-        "sales_ranking"
-      ],
-      "latest_required_field_proxy": {
-        "isbn": true,
-        "rank": false,
-        "retailer": true
-      },
+      "status": "missing",
+      "article_count": 0,
+      "event_count": 0,
+      "latest_event_at": null,
+      "age_days": null,
+      "latest_title": "",
+      "latest_url": "",
+      "latest_source_signal": [],
+      "latest_required_field_proxy": {},
       "errors": []
     },
     {
@@ -782,47 +775,143 @@
   ],
   "events": [
     {
-      "source": "알라딘 베스트셀러",
+      "source": "The Guardian Books",
       "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "bestseller",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
-      "event_model": "sales_ranking",
-      "title": "[알라딘 베스트 RSS] 도서종합 분야 주간 베스트셀러",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?branch=book&cid=0&days=2026102&rssType=5&type=BEST",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?branch=book&cid=0&days=2026102&rssType=5&type=BEST",
-      "event_at": "2026-10-04T22:01:14+00:00",
-      "isbn": "2026102",
+      "event_model": "award_signal",
+      "title": "A former poet laureate and a Pulitzer winner lead TS Eliot prize shortlist",
+      "url": "https://www.theguardian.com/books/2026/oct/05/a-former-poet-laureate-and-a-pulitzer-winner-lead-ts-eliot-prize-shortlist",
+      "source_url": "https://www.theguardian.com/books/2026/oct/05/a-former-poet-laureate-and-a-pulitzer-winner-lead-ts-eliot-prize-shortlist",
+      "event_at": "2026-10-05T16:15:34+00:00",
+      "isbn": "",
       "rank": null,
-      "retailer": "알라딘 베스트셀러",
+      "retailer": "",
       "library_network": "",
       "lending_count": null,
       "venue": "",
-      "award_name": "",
+      "award_name": "pulitzer",
+      "genre": [
+        "poetry"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "pulitzer",
+        "award",
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:the-guardian-books:52dc134828d1",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:8b1c15e5abe2:20261005",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "New York Times Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Book Review: ‘Death of an Ordinary Man,’ by Sarah Perry",
+      "url": "https://www.nytimes.com/2026/10/05/books/review/death-of-an-ordinary-man-sarah-perry.html",
+      "source_url": "https://www.nytimes.com/2026/10/05/books/review/death-of-an-ordinary-man-sarah-perry.html",
+      "event_at": "2026-10-05T09:01:44+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
       "genre": [],
       "publisher": [],
       "book_type": [
-        "베스트셀러"
+        "book review"
       ],
-      "author": [],
-      "award": [],
+      "author": [
+        "writer"
+      ],
+      "award": [
+        "award"
+      ],
       "book_event": [],
       "source_signal": [
-        "official_book_source",
-        "sales_ranking"
+        "book_review_source",
+        "editorial_coverage"
       ],
-      "canonical_key": "book_edition:2026102",
-      "canonical_key_status": "complete",
-      "event_key": "sales_ranking:cad30852f63b:20261004",
+      "canonical_key": "book_edition:title:cd54ee3494fb",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:ec21fc076b17:20261005",
       "required_field_proxy": {
-        "isbn": true,
-        "rank": false,
-        "retailer": true
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
       },
       "required_field_gaps": [
-        "rank"
+        "isbn"
+      ]
+    },
+    {
+      "source": "Publishers Weekly",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "Frankfurt Book Fair 2026: Rights Listings from U.S. Agencies",
+      "url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101423-frankfurt-book-fair-2026-rights-listings-from-u-s-agencies.html",
+      "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101423-frankfurt-book-fair-2026-rights-listings-from-u-s-agencies.html",
+      "event_at": "2026-10-05T04:00:00+00:00",
+      "isbn": "101423",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "book fair",
+      "award_name": "",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "book fair"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:101423",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:d714210f047a:20261005",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
       ]
     },
     {
@@ -834,36 +923,38 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "Stories shortlisted for 4thWrite prize offer ‘a whole world in a few pages’",
-      "url": "https://www.theguardian.com/books/2026/oct/02/shortlist-4thwrite-prize-revealed",
-      "source_url": "https://www.theguardian.com/books/2026/oct/02/shortlist-4thwrite-prize-revealed",
-      "event_at": "2026-10-02T11:00:18+00:00",
+      "title": "Dodge City by Patrick deWitt review – a wild draft-dodging road trip",
+      "url": "https://www.theguardian.com/books/2026/oct/01/dodge-city-by-patrick-dewitt-review-a-wild-draft-dodging-road-trip",
+      "source_url": "https://www.theguardian.com/books/2026/oct/01/dodge-city-by-patrick-dewitt-review-a-wild-draft-dodging-road-trip",
+      "event_at": "2026-10-01T06:00:29+00:00",
       "isbn": "",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
       "venue": "",
-      "award_name": "award",
-      "genre": [],
-      "publisher": [
-        "publisher"
+      "award_name": "booker",
+      "genre": [
+        "novel",
+        "literary"
       ],
+      "publisher": [],
       "book_type": [],
       "author": [
-        "author"
+        "author",
+        "writer"
       ],
       "award": [
-        "award"
+        "booker"
       ],
       "book_event": [],
       "source_signal": [
         "book_review_source",
         "editorial_coverage"
       ],
-      "canonical_key": "book_edition:title:338c8904b879",
+      "canonical_key": "book_edition:title:c1b367cfe523",
       "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:39b4cb7235a5:20261002",
+      "event_key": "award_signal:42631e52b13d:20261001",
       "required_field_proxy": {
         "isbn": false,
         "award_name": true,
@@ -872,318 +963,6 @@
       "required_field_gaps": [
         "isbn"
       ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "어두운 상점들의 거리 (먼슬리 클래식)/파트릭 모디아노 지음, 김화영 옮김/문학동네",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403489383&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403489383&rssType=1&type=item",
-      "event_at": "2026-10-02T02:46:00+00:00",
-      "isbn": "403489383",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "노벨문학상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학"
-      ],
-      "publisher": [
-        "문학동네",
-        "현대문학"
-      ],
-      "book_type": [
-        "화제의 책"
-      ],
-      "author": [],
-      "award": [
-        "노벨문학상",
-        "공쿠르",
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:403489383",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:d07dcbb7ac82:20261002",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "두근두근 어질어질 스마트폰을 조심해/박은호 지음, 이철민 그림/미래엔아이세움",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403476229&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403476229&rssType=1&type=item",
-      "event_at": "2026-10-02T00:30:00+00:00",
-      "isbn": "403476229",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "건강",
-        "어린이",
-        "그림책"
-      ],
-      "publisher": [],
-      "book_type": [
-        "화제의 책",
-        "세트"
-      ],
-      "author": [],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:403476229",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:d9171c832f1b:20261002",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "New York Times Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Book Review: ‘How Bright the Path Grows,’ by Marcia Chatelain",
-      "url": "https://www.nytimes.com/2026/10/01/books/review/how-bright-the-path-grows-marcia-chatelain.html",
-      "source_url": "https://www.nytimes.com/2026/10/01/books/review/how-bright-the-path-grows-marcia-chatelain.html",
-      "event_at": "2026-10-01T09:01:39+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "pulitzer",
-      "genre": [],
-      "publisher": [],
-      "book_type": [
-        "book review"
-      ],
-      "author": [],
-      "award": [
-        "pulitzer"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:new-york-times-books:f2e897a58d89",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:88da9c57f007:20261001",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "10배 오르는 바이오 주식의 비밀/강하나 지음/T.W.I.G(티더블유아이지)(주)",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403432042&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403432042&rssType=1&type=item",
-      "event_at": "2026-10-01T07:56:00+00:00",
-      "isbn": "403432042",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "후보",
-      "genre": [
-        "시",
-        "경제경영",
-        "개발"
-      ],
-      "publisher": [],
-      "book_type": [
-        "베스트셀러"
-      ],
-      "author": [],
-      "award": [
-        "후보"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:403432042",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:d2531b0368d9:20261001",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "호르두발/카렐 차페크 지음, 정보라 옮김/휴머니스트",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403426860&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403426860&rssType=1&type=item",
-      "event_at": "2026-10-01T06:57:00+00:00",
-      "isbn": "403426860",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "문학상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "철학",
-        "추리"
-      ],
-      "publisher": [],
-      "book_type": [
-        "세트"
-      ],
-      "author": [
-        "작가",
-        "번역"
-      ],
-      "award": [
-        "문학상",
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:403426860",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:7f36e1baf182:20261001",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "별똥별/카렐 차페크 지음, 정보라 옮김/휴머니스트",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403423350&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403423350&rssType=1&type=item",
-      "event_at": "2026-10-01T06:24:00+00:00",
-      "isbn": "403423350",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "문학상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "철학"
-      ],
-      "publisher": [],
-      "book_type": [
-        "세트"
-      ],
-      "author": [
-        "작가",
-        "번역"
-      ],
-      "award": [
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:403423350",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:9033f686e8b9:20261001",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     },
     {
       "source": "The Guardian Books",
@@ -1234,20 +1013,10 @@
   "daily_review_items": [
     {
       "reason": "missing_required_fields",
-      "event_model": "sales_ranking",
-      "source": "알라딘 베스트셀러",
-      "title": "[알라딘 베스트 RSS] 도서종합 분야 주간 베스트셀러",
-      "canonical_key": "book_edition:2026102",
-      "required_field_gaps": [
-        "rank"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
       "event_model": "award_signal",
       "source": "The Guardian Books",
-      "title": "Stories shortlisted for 4thWrite prize offer ‘a whole world in a few pages’",
-      "canonical_key": "book_edition:title:338c8904b879",
+      "title": "A former poet laureate and a Pulitzer winner lead TS Eliot prize shortlist",
+      "canonical_key": "book_source:the-guardian-books:52dc134828d1",
       "required_field_gaps": [
         "isbn"
       ]
@@ -1256,15 +1025,42 @@
       "reason": "proxy_canonical_key",
       "event_model": "award_signal",
       "source": "The Guardian Books",
-      "title": "Stories shortlisted for 4thWrite prize offer ‘a whole world in a few pages’",
+      "title": "A former poet laureate and a Pulitzer winner lead TS Eliot prize shortlist",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "New York Times Books",
+      "title": "Book Review: ‘Death of an Ordinary Man,’ by Sarah Perry",
+      "canonical_key": "book_edition:title:cd54ee3494fb",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "New York Times Books",
+      "title": "Book Review: ‘Death of an Ordinary Man,’ by Sarah Perry",
       "canonical_key_status": "title_proxy"
     },
     {
       "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "Publishers Weekly",
+      "title": "Frankfurt Book Fair 2026: Rights Listings from U.S. Agencies",
+      "canonical_key": "book_edition:101423",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
       "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "Book Review: ‘How Bright the Path Grows,’ by Marcia Chatelain",
-      "canonical_key": "book_source:new-york-times-books:f2e897a58d89",
+      "source": "The Guardian Books",
+      "title": "Dodge City by Patrick deWitt review – a wild draft-dodging road trip",
+      "canonical_key": "book_edition:title:c1b367cfe523",
       "required_field_gaps": [
         "isbn"
       ]
@@ -1272,9 +1068,9 @@
     {
       "reason": "proxy_canonical_key",
       "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "Book Review: ‘How Bright the Path Grows,’ by Marcia Chatelain",
-      "canonical_key_status": "source_proxy"
+      "source": "The Guardian Books",
+      "title": "Dodge City by Patrick deWitt review – a wild draft-dodging road trip",
+      "canonical_key_status": "title_proxy"
     },
     {
       "reason": "missing_required_fields",
@@ -1294,12 +1090,18 @@
       "canonical_key_status": "source_proxy"
     },
     {
-      "reason": "missing_event_model",
-      "event_model": "library_lending"
+      "reason": "source_missing",
+      "source": "알라딘 베스트셀러",
+      "event_model": "sales_ranking",
+      "age_days": null
     },
     {
       "reason": "missing_event_model",
-      "event_model": "author_event"
+      "event_model": "sales_ranking"
+    },
+    {
+      "reason": "missing_event_model",
+      "event_model": "library_lending"
     },
     {
       "reason": "source_backlog_pending",
