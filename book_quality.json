@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-10-07T06:56:10.910197+00:00",
+  "generated_at": "2026-10-08T07:04:37.251162+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,24 +16,24 @@
     "collection_error_count": 0,
     "sales_ranking_events": 1,
     "library_lending_events": 0,
-    "author_event_events": 8,
-    "award_signal_events": 16,
-    "book_signal_event_count": 25,
+    "author_event_events": 18,
+    "award_signal_events": 13,
+    "book_signal_event_count": 32,
     "official_or_operational_event_count": 6,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 16,
-    "proxy_canonical_key_count": 9,
+    "complete_canonical_key_count": 25,
+    "proxy_canonical_key_count": 7,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 16,
-    "author_present_count": 6,
-    "publisher_present_count": 3,
+    "isbn_present_count": 25,
+    "author_present_count": 10,
+    "publisher_present_count": 5,
     "rank_present_count": 0,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 16,
+    "event_required_field_gap_count": 25,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 30
+    "daily_review_item_count": 37
   },
   "sources": [
     {
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 25,
+      "article_count": 30,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 1,
       "event_count": 1,
       "latest_event_at": "2026-10-04T22:01:14+00:00",
-      "age_days": 2.37,
+      "age_days": 3.38,
       "latest_title": "[알라딘 베스트 RSS] 도서종합 분야 주간 베스트셀러",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?branch=book&cid=0&days=2026102&rssType=5&type=BEST",
       "latest_source_signal": [
@@ -790,6 +790,727 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "author_event",
+      "title": "Frankfurt Book Fair 2026: Seven Questions for Leticia Vila-Sanjuán",
+      "url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101457-frankfurt-book-fair-2026-seven-questions-for-leticia-vila-sanju-n.html",
+      "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101457-frankfurt-book-fair-2026-seven-questions-for-leticia-vila-sanju-n.html",
+      "event_at": "2026-10-08T04:00:00+00:00",
+      "isbn": "101457",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "book fair",
+      "award_name": "",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "book fair"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:101457",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:2309560e308c:20261008",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "Publishers Weekly",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "Frankfurt Book Fair 2026: S&S Bets on Self-Published Authors",
+      "url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101456-frankfurt-book-fair-2026-s-s-bets-on-self-published-authors.html",
+      "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101456-frankfurt-book-fair-2026-s-s-bets-on-self-published-authors.html",
+      "event_at": "2026-10-08T04:00:00+00:00",
+      "isbn": "101456",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "book fair",
+      "award_name": "",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "book fair"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:101456",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:3040d9afdbc8:20261008",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "Publishers Weekly",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "Frankfurt Book Fair 2026: Sports Romance Still Has Game",
+      "url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101455-frankfurt-book-fair-2026-sports-romance-still-has-game.html",
+      "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101455-frankfurt-book-fair-2026-sports-romance-still-has-game.html",
+      "event_at": "2026-10-08T04:00:00+00:00",
+      "isbn": "101455",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "book fair",
+      "award_name": "",
+      "genre": [
+        "romance"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "book fair"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:101455",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:a81dda22f872:20261008",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "Publishers Weekly",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "Frankfurt Book Fair: Storytel’s Talks AI-translated Audiobooks",
+      "url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101454-frankfurt-book-fair-storytel-s-talks-ai-translated-audiobooks.html",
+      "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101454-frankfurt-book-fair-storytel-s-talks-ai-translated-audiobooks.html",
+      "event_at": "2026-10-08T04:00:00+00:00",
+      "isbn": "101454",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "book fair",
+      "award_name": "",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "book fair"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:101454",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:597cd74c8499:20261008",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "Publishers Weekly",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "Frankfurt Book Fair 2026: Reading by Not-So-Royal Decree",
+      "url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101452-frankfurt-book-fair-2026-reading-by-not-so-royal-decree.html",
+      "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101452-frankfurt-book-fair-2026-reading-by-not-so-royal-decree.html",
+      "event_at": "2026-10-08T04:00:00+00:00",
+      "isbn": "101452",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "book fair",
+      "award_name": "",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "book fair"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:101452",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:c0c69783a29a:20261008",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "Publishers Weekly",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "Frankfurt Book Fair 2026: The Reading Crisis Knows No Borders",
+      "url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101451-frankfurt-book-fair-2026-the-reading-crisis-knows-no-borders.html",
+      "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101451-frankfurt-book-fair-2026-the-reading-crisis-knows-no-borders.html",
+      "event_at": "2026-10-08T04:00:00+00:00",
+      "isbn": "101451",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "book fair",
+      "award_name": "",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "book fair"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:101451",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:935404d5e9da:20261008",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "Publishers Weekly",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "Frankfurt Book Fair 2026: Novvel.co Offers a Novel Approach to Graphic Novels",
+      "url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101450-frankfurt-book-fair-2026-novvel-co-offers-a-novel-approach-to-graphic-novels.html",
+      "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101450-frankfurt-book-fair-2026-novvel-co-offers-a-novel-approach-to-graphic-novels.html",
+      "event_at": "2026-10-08T04:00:00+00:00",
+      "isbn": "101450",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "book fair",
+      "award_name": "",
+      "genre": [
+        "novel"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "book fair"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:101450",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:3a6de2a67c68:20261008",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "Publishers Weekly",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "Frankfurt Book Fair 2026: African Authors Converge on Cape Town",
+      "url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101449-frankfurt-book-fair-2026-african-authors-converge-on-cape-town.html",
+      "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101449-frankfurt-book-fair-2026-african-authors-converge-on-cape-town.html",
+      "event_at": "2026-10-08T04:00:00+00:00",
+      "isbn": "101449",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "book fair",
+      "award_name": "",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "book fair"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:101449",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:29fc9a545fe3:20261008",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "Publishers Weekly",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "Frankfurt Book Fair 2026: Germany Finds in Favor of Copyright Holders Against AI",
+      "url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101447-frankfurt-book-fair-2026-germany-finds-in-favor-of-copyright-holders-against-ai.html",
+      "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101447-frankfurt-book-fair-2026-germany-finds-in-favor-of-copyright-holders-against-ai.html",
+      "event_at": "2026-10-08T04:00:00+00:00",
+      "isbn": "101447",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "book fair",
+      "award_name": "",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "book fair"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:101447",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:81567af5e58f:20261008",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "Book Riot",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Book Riot’s Deals of the Day for October 7, 2026",
+      "url": "https://bookriot.com/book-riots-deals-of-the-day-for-october-7-2026",
+      "source_url": "https://bookriot.com/book-riots-deals-of-the-day-for-october-7-2026",
+      "event_at": "2026-10-07T15:01:02+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [
+        "fiction",
+        "memoir",
+        "fantasy"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:book-riot:50fe0a69ddc4",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:59e4db5a850d:20261007",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Read the winning story of the 2026 Caine Prize for African Writing.",
+      "url": "https://lithub.com/read-the-winning-story-of-the-2026-caine-prize-for-african-writing",
+      "source_url": "https://lithub.com/read-the-winning-story-of-the-2026-caine-prize-for-african-writing",
+      "event_at": "2026-10-07T13:48:09+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "winner",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "writer"
+      ],
+      "award": [
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:3abf2067bd06",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:a0fb64146d44:20261007",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Anne Carson and Can Xue favourites to win Nobel prize in literature",
+      "url": "https://www.theguardian.com/books/2026/oct/07/anne-carson-and-can-xue-favourites-to-win-nobel-prize-in-literature",
+      "source_url": "https://www.theguardian.com/books/2026/oct/07/anne-carson-and-can-xue-favourites-to-win-nobel-prize-in-literature",
+      "event_at": "2026-10-07T13:29:06+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "nobel",
+      "genre": [
+        "literary",
+        "literature"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "writer"
+      ],
+      "award": [
+        "nobel"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:318186807cfd",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:1470a8952e57:20261007",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Publishers Weekly",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "Frankfurt Book Fair 2026: Must-see Events for October 8",
+      "url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101469-frankfurt-book-fair-2026-must-see-events-for-october-8.html",
+      "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101469-frankfurt-book-fair-2026-must-see-events-for-october-8.html",
+      "event_at": "2026-10-07T04:00:00+00:00",
+      "isbn": "101469",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "book fair",
+      "award_name": "",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "book fair"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:101469",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:00619417e96c:20261007",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "Publishers Weekly",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "Frankfurt Book Fair 2026: Jill Lepore Urges Publishers to Declare their Independence from Big Tech",
+      "url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101467-frankfurt-book-fair-2026-jill-lepore-urges-publishers-to-declare-their-independence-from-big-tech.html",
+      "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101467-frankfurt-book-fair-2026-jill-lepore-urges-publishers-to-declare-their-independence-from-big-tech.html",
+      "event_at": "2026-10-07T04:00:00+00:00",
+      "isbn": "101467",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "book fair",
+      "award_name": "",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "book fair"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:101467",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:f3c222a9f737:20261007",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "Publishers Weekly",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "Frankfurt Book Fair 2026: Five Questions with Elisabeth Jaquette",
+      "url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101453-frankfurt-book-fair-2026-five-questions-with-elisabeth-jaquette.html",
+      "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101453-frankfurt-book-fair-2026-five-questions-with-elisabeth-jaquette.html",
+      "event_at": "2026-10-07T04:00:00+00:00",
+      "isbn": "101453",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "book fair",
+      "award_name": "",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "book fair"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:101453",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:7da9b8f4b065:20261007",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "Publishers Weekly",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "Frankfurt Book Fair 2026: How Amazon U.K. and Germany’s Data Drive Approach Gets Results",
+      "url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101448-frankfurt-book-fair-2026-how-amazon-u-k-and-germany-s-data-drive-approach-gets-results.html",
+      "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101448-frankfurt-book-fair-2026-how-amazon-u-k-and-germany-s-data-drive-approach-gets-results.html",
+      "event_at": "2026-10-07T04:00:00+00:00",
+      "isbn": "101448",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "book fair",
+      "award_name": "",
+      "genre": [],
+      "publisher": [
+        "publisher"
+      ],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "book fair"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:101448",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:2fd034689738:20261007",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "Publishers Weekly",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
       "title": "Frankfurt Book Fair 2026: Dan Conway on Why Publishing Remains an Act of Courage",
       "url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101442-frankfurt-book-fair-2026-dan-conway-on-why-publishing-remains-an-act-of-courage.html",
       "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101442-frankfurt-book-fair-2026-dan-conway-on-why-publishing-remains-an-act-of-courage.html",
@@ -816,6 +1537,50 @@
       "canonical_key": "book_edition:101442",
       "canonical_key_status": "complete",
       "event_key": "author_event:4f580bfa5264:20261007",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "Publishers Weekly",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "Frankfurt Book Fair 2026: Spotify Expands Audiobooks to 180 Markets",
+      "url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101440-frankfurt-book-fair-2026-spotify-expands-audiobooks-to-180-markets.html",
+      "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101440-frankfurt-book-fair-2026-spotify-expands-audiobooks-to-180-markets.html",
+      "event_at": "2026-10-07T04:00:00+00:00",
+      "isbn": "101440",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "book fair",
+      "award_name": "",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "book fair"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:101440",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:e9f500f908f1:20261007",
       "required_field_proxy": {
         "author_name": false,
         "venue": true,
@@ -960,237 +1725,6 @@
       ]
     },
     {
-      "source": "Book Riot",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Here is the 2026 National Book Award Shortlist for Poetry",
-      "url": "https://bookriot.com/2026-national-book-award-shortlist-for-poetry",
-      "source_url": "https://bookriot.com/2026-national-book-award-shortlist-for-poetry",
-      "event_at": "2026-10-06T19:15:26+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "award",
-      "genre": [
-        "poetry"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "award",
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_source:book-riot:058e1b1c161c",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:dc9479e1336f:20261006",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "Book Riot",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Here is the 2026 National Book Award Shortlist for Fiction",
-      "url": "https://bookriot.com/2026-national-book-award-shortlist-for-fiction",
-      "source_url": "https://bookriot.com/2026-national-book-award-shortlist-for-fiction",
-      "event_at": "2026-10-06T18:26:03+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "award",
-      "genre": [
-        "fiction"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "award",
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_source:book-riot:9bbfc23f5282",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:1add766c5f55:20261006",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "Book Riot",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "The 2026 National Book Award Shortlist for Young People’s Literature",
-      "url": "https://bookriot.com/2026-national-book-award-shortlist-for-young-peoples-literature",
-      "source_url": "https://bookriot.com/2026-national-book-award-shortlist-for-young-peoples-literature",
-      "event_at": "2026-10-06T17:32:13+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "award",
-      "genre": [
-        "literature"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "award",
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_source:book-riot:e24c84eed411",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:17c85003b4c6:20261006",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "Book Riot",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Here is the 2026 National Book Award Shortlist for Translated Literature",
-      "url": "https://bookriot.com/2026-national-book-award-shortlist-for-translated-literature",
-      "source_url": "https://bookriot.com/2026-national-book-award-shortlist-for-translated-literature",
-      "event_at": "2026-10-06T17:15:26+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "award",
-      "genre": [
-        "literature"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "award"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_source:book-riot:35c9210d98f0",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:9f887ac772b4:20261006",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "Book Riot",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Here is the 2026 National Book Award Shortlist for Nonfiction",
-      "url": "https://bookriot.com/2026-national-book-award-shortlist-for-nonfiction",
-      "source_url": "https://bookriot.com/2026-national-book-award-shortlist-for-nonfiction",
-      "event_at": "2026-10-06T15:06:49+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "award",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "award"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_source:book-riot:220ea9f589ba",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:d280e208d718:20261006",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
       "source": "NPR Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -1235,176 +1769,283 @@
       "required_field_gaps": []
     },
     {
-      "source": "Publishers Weekly",
+      "source": "알라딘 신간",
       "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "Frankfurt Book Fair 2026: Liu Cixin, Liu Zhenyun Headline China’s Rights Push",
-      "url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101441-frankfurt-book-fair-2026-liu-cixin-liu-zhenyun-headline-china-s-rights-push.html",
-      "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101441-frankfurt-book-fair-2026-liu-cixin-liu-zhenyun-headline-china-s-rights-push.html",
-      "event_at": "2026-10-06T04:00:00+00:00",
-      "isbn": "101441",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "book fair",
-      "award_name": "",
-      "genre": [
-        "novel"
-      ],
-      "publisher": [],
-      "book_type": [
-        "bestseller"
-      ],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "book fair"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:101441",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:80283690e63c:20261006",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "source": "Publishers Weekly",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "Frankfurt Book Fair 2026: Where to Eat, Drink, and Party",
-      "url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101434-frankfurt-book-fair-2026-where-to-eat-drink-and-party.html",
-      "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101434-frankfurt-book-fair-2026-where-to-eat-drink-and-party.html",
-      "event_at": "2026-10-06T04:00:00+00:00",
-      "isbn": "101434",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "book fair",
-      "award_name": "",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "writer"
-      ],
-      "award": [],
-      "book_event": [
-        "book fair"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:101434",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:34121a15e7ab:20261006",
-      "required_field_proxy": {
-        "author_name": true,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "Publishers Weekly",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "Frankfurt Book Fair 2026: Program Picks for Wednesday, October 7",
-      "url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101432-frankfurt-book-fair-2026-program-picks-for-wednesday-october-7.html",
-      "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101432-frankfurt-book-fair-2026-program-picks-for-wednesday-october-7.html",
-      "event_at": "2026-10-06T04:00:00+00:00",
-      "isbn": "101432",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "book fair",
-      "award_name": "",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "book fair"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:101432",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:592f7544187d:20261006",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "source": "Publishers Weekly",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
+      "trust_tier": "T1_official",
       "content_type": "news",
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "2026 National Book Award Finalists Announced",
-      "url": "http://www.publishersweekly.com/pw/by-topic/industry-news/awards-and-prizes/article/101433-2026-national-book-award-finalists-announced.html",
-      "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/awards-and-prizes/article/101433-2026-national-book-award-finalists-announced.html",
-      "event_at": "2026-10-06T04:00:00+00:00",
-      "isbn": "1014332026",
+      "title": "말 좀 합시다/신주선 지음, 차야다 그림/책읽는곰",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403734813&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403734813&rssType=1&type=item",
+      "event_at": "2026-10-06T06:21:00+00:00",
+      "isbn": "403734813",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
       "venue": "",
-      "award_name": "award",
-      "genre": [],
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "판타지",
+        "어린이",
+        "동화"
+      ],
       "publisher": [],
       "book_type": [],
-      "author": [],
+      "author": [
+        "작가"
+      ],
       "award": [
-        "award"
+        "수상"
       ],
       "book_event": [],
       "source_signal": [
         "editorial_coverage",
+        "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:1014332026",
+      "canonical_key": "book_edition:403734813",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:60746e57c760:20261006",
+      "event_key": "award_signal:e56b3461302b:20261006",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "말린 고추와 복숭아향 립스틱/서동민 지음/제철소",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403724521&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403724521&rssType=1&type=item",
+      "event_at": "2026-10-06T03:26:00+00:00",
+      "isbn": "403724521",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "예술",
+        "개발",
+        "청소년"
+      ],
+      "publisher": [],
+      "book_type": [
+        "시리즈"
+      ],
+      "author": [
+        "작가",
+        "데뷔"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:403724521",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:6d7ed135e38b:20261006",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "자각하는 우주/이븐 알렉산더.카렌 뉴웰 지음, 옥스퍼드 휴먼즈 옮김/김영사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403723814&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403723814&rssType=1&type=item",
+      "event_at": "2026-10-06T03:12:00+00:00",
+      "isbn": "403723814",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "에세이",
+        "시",
+        "문학",
+        "인문학",
+        "과학",
+        "철학",
+        "심리"
+      ],
+      "publisher": [
+        "김영사"
+      ],
+      "book_type": [
+        "베스트셀러"
+      ],
+      "author": [
+        "저자"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:403723814",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:9de7a8b0fbd1:20261006",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "어디로 가야 할지 모르는 존재들을 위한 여행사/장은별 지음, 모예진 그림/위즈덤하우스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403722195&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403722195&rssType=1&type=item",
+      "event_at": "2026-10-06T02:42:00+00:00",
+      "isbn": "403722195",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "문학",
+        "여행",
+        "판타지",
+        "어린이",
+        "동화"
+      ],
+      "publisher": [
+        "위즈덤하우스"
+      ],
+      "book_type": [
+        "화제의 책",
+        "세트"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:403722195",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:12baebc57542:20261006",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "교실은 지옥이다/박상기 지음, 양양 그림/창비교육",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403715609&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403715609&rssType=1&type=item",
+      "event_at": "2026-10-06T01:14:00+00:00",
+      "isbn": "403715609",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "문학상",
+      "genre": [
+        "소설",
+        "시",
+        "문학",
+        "인문학",
+        "과학",
+        "역사",
+        "건강",
+        "교육",
+        "어린이",
+        "청소년",
+        "동화"
+      ],
+      "publisher": [
+        "창비",
+        "비룡소"
+      ],
+      "book_type": [
+        "화제의 책",
+        "세트",
+        "시리즈"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:403715609",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:f218e91c9a34:20261006",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -1509,50 +2150,6 @@
       ]
     },
     {
-      "source": "Publishers Weekly",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "Frankfurt Book Fair 2026: Rights Listings from U.S. Agencies",
-      "url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101423-frankfurt-book-fair-2026-rights-listings-from-u-s-agencies.html",
-      "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101423-frankfurt-book-fair-2026-rights-listings-from-u-s-agencies.html",
-      "event_at": "2026-10-05T04:00:00+00:00",
-      "isbn": "101423",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "book fair",
-      "award_name": "",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "book fair"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:101423",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:d714210f047a:20261005",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
       "source": "알라딘 베스트셀러",
       "source_type": "rss",
       "trust_tier": "T1_official",
@@ -1595,273 +2192,6 @@
       "required_field_gaps": [
         "rank"
       ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "무표정과 보조개/전혼잎 지음/아침달",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403515355&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403515355&rssType=1&type=item",
-      "event_at": "2026-10-02T06:54:00+00:00",
-      "isbn": "403515355",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "노벨문학상",
-      "genre": [
-        "소설",
-        "에세이",
-        "시",
-        "문학",
-        "철학"
-      ],
-      "publisher": [],
-      "book_type": [
-        "베스트셀러"
-      ],
-      "author": [
-        "작가",
-        "번역"
-      ],
-      "award": [
-        "노벨문학상",
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:403515355",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:beaa1ed5deb2:20261002",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "해방의 날/조지 손더스 지음, 정영목 옮김/문학동네",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403502741&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403502741&rssType=1&type=item",
-      "event_at": "2026-10-02T05:16:00+00:00",
-      "isbn": "403502741",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "올해의 책",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학"
-      ],
-      "publisher": [
-        "문학동네"
-      ],
-      "book_type": [
-        "베스트셀러"
-      ],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "올해의 책",
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:403502741",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:8ebd43074282:20261002",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "어두운 상점들의 거리 (먼슬리 클래식)/파트릭 모디아노 지음, 김화영 옮김/문학동네",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403489383&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403489383&rssType=1&type=item",
-      "event_at": "2026-10-02T02:46:00+00:00",
-      "isbn": "403489383",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "노벨문학상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학"
-      ],
-      "publisher": [
-        "문학동네",
-        "현대문학"
-      ],
-      "book_type": [
-        "화제의 책"
-      ],
-      "author": [],
-      "award": [
-        "노벨문학상",
-        "공쿠르",
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:403489383",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:d07dcbb7ac82:20261002",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "두근두근 어질어질 스마트폰을 조심해/박은호 지음, 이철민 그림/미래엔아이세움",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403476229&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403476229&rssType=1&type=item",
-      "event_at": "2026-10-02T00:30:00+00:00",
-      "isbn": "403476229",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "건강",
-        "어린이",
-        "그림책"
-      ],
-      "publisher": [],
-      "book_type": [
-        "화제의 책",
-        "세트"
-      ],
-      "author": [],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:403476229",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:d9171c832f1b:20261002",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "10배 오르는 바이오 주식의 비밀/강하나 지음/T.W.I.G(티더블유아이지)(주)",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403432042&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403432042&rssType=1&type=item",
-      "event_at": "2026-10-01T07:56:00+00:00",
-      "isbn": "403432042",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "후보",
-      "genre": [
-        "시",
-        "경제경영",
-        "개발"
-      ],
-      "publisher": [],
-      "book_type": [
-        "베스트셀러"
-      ],
-      "author": [],
-      "award": [
-        "후보"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:403432042",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:d2531b0368d9:20261001",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     },
     {
       "source": "The Guardian Books",
@@ -1964,8 +2294,199 @@
       "reason": "missing_required_fields",
       "event_model": "author_event",
       "source": "Publishers Weekly",
+      "title": "Frankfurt Book Fair 2026: Seven Questions for Leticia Vila-Sanjuán",
+      "canonical_key": "book_edition:101457",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "Publishers Weekly",
+      "title": "Frankfurt Book Fair 2026: S&S Bets on Self-Published Authors",
+      "canonical_key": "book_edition:101456",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "Publishers Weekly",
+      "title": "Frankfurt Book Fair 2026: Sports Romance Still Has Game",
+      "canonical_key": "book_edition:101455",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "Publishers Weekly",
+      "title": "Frankfurt Book Fair: Storytel’s Talks AI-translated Audiobooks",
+      "canonical_key": "book_edition:101454",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "Publishers Weekly",
+      "title": "Frankfurt Book Fair 2026: Reading by Not-So-Royal Decree",
+      "canonical_key": "book_edition:101452",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "Publishers Weekly",
+      "title": "Frankfurt Book Fair 2026: The Reading Crisis Knows No Borders",
+      "canonical_key": "book_edition:101451",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "Publishers Weekly",
+      "title": "Frankfurt Book Fair 2026: Novvel.co Offers a Novel Approach to Graphic Novels",
+      "canonical_key": "book_edition:101450",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "Publishers Weekly",
+      "title": "Frankfurt Book Fair 2026: African Authors Converge on Cape Town",
+      "canonical_key": "book_edition:101449",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "Publishers Weekly",
+      "title": "Frankfurt Book Fair 2026: Germany Finds in Favor of Copyright Holders Against AI",
+      "canonical_key": "book_edition:101447",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "Book Riot’s Deals of the Day for October 7, 2026",
+      "canonical_key": "book_source:book-riot:50fe0a69ddc4",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "Book Riot’s Deals of the Day for October 7, 2026",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Read the winning story of the 2026 Caine Prize for African Writing.",
+      "canonical_key": "book_edition:title:3abf2067bd06",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Read the winning story of the 2026 Caine Prize for African Writing.",
+      "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Anne Carson and Can Xue favourites to win Nobel prize in literature",
+      "canonical_key": "book_edition:title:318186807cfd",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Anne Carson and Can Xue favourites to win Nobel prize in literature",
+      "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "Publishers Weekly",
+      "title": "Frankfurt Book Fair 2026: Must-see Events for October 8",
+      "canonical_key": "book_edition:101469",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "Publishers Weekly",
+      "title": "Frankfurt Book Fair 2026: Jill Lepore Urges Publishers to Declare their Independence from Big Tech",
+      "canonical_key": "book_edition:101467",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "Publishers Weekly",
+      "title": "Frankfurt Book Fair 2026: Five Questions with Elisabeth Jaquette",
+      "canonical_key": "book_edition:101453",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "Publishers Weekly",
+      "title": "Frankfurt Book Fair 2026: How Amazon U.K. and Germany’s Data Drive Approach Gets Results",
+      "canonical_key": "book_edition:101448",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "Publishers Weekly",
       "title": "Frankfurt Book Fair 2026: Dan Conway on Why Publishing Remains an Act of Courage",
       "canonical_key": "book_edition:101442",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "Publishers Weekly",
+      "title": "Frankfurt Book Fair 2026: Spotify Expands Audiobooks to 180 Markets",
+      "canonical_key": "book_edition:101440",
       "required_field_gaps": [
         "author_name"
       ]
@@ -1986,111 +2507,6 @@
       "source": "Publishers Weekly",
       "title": "Frankfurt Book Fair 2026: Bertelsmann is the World’s Biggest Book Publisher",
       "canonical_key": "book_edition:101435",
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "Here is the 2026 National Book Award Shortlist for Poetry",
-      "canonical_key": "book_source:book-riot:058e1b1c161c",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "Here is the 2026 National Book Award Shortlist for Poetry",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "Here is the 2026 National Book Award Shortlist for Fiction",
-      "canonical_key": "book_source:book-riot:9bbfc23f5282",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "Here is the 2026 National Book Award Shortlist for Fiction",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "The 2026 National Book Award Shortlist for Young People’s Literature",
-      "canonical_key": "book_source:book-riot:e24c84eed411",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "The 2026 National Book Award Shortlist for Young People’s Literature",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "Here is the 2026 National Book Award Shortlist for Translated Literature",
-      "canonical_key": "book_source:book-riot:35c9210d98f0",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "Here is the 2026 National Book Award Shortlist for Translated Literature",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "Here is the 2026 National Book Award Shortlist for Nonfiction",
-      "canonical_key": "book_source:book-riot:220ea9f589ba",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "Here is the 2026 National Book Award Shortlist for Nonfiction",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "Publishers Weekly",
-      "title": "Frankfurt Book Fair 2026: Liu Cixin, Liu Zhenyun Headline China’s Rights Push",
-      "canonical_key": "book_edition:101441",
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "Publishers Weekly",
-      "title": "Frankfurt Book Fair 2026: Program Picks for Wednesday, October 7",
-      "canonical_key": "book_edition:101432",
       "required_field_gaps": [
         "author_name"
       ]
@@ -2128,16 +2544,6 @@
       "source": "New York Times Books",
       "title": "Book Review: ‘Death of an Ordinary Man,’ by Sarah Perry",
       "canonical_key_status": "title_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "Publishers Weekly",
-      "title": "Frankfurt Book Fair 2026: Rights Listings from U.S. Agencies",
-      "canonical_key": "book_edition:101423",
-      "required_field_gaps": [
-        "author_name"
-      ]
     },
     {
       "reason": "missing_required_fields",
