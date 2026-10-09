@@ -1,0 +1,1341 @@
+{
+  "date": "2026-10-09",
+  "category": "book",
+  "article_count": 136,
+  "source_count": 8,
+  "matched_count": 136,
+  "top_entities": [
+    {
+      "name": "SourceSignal",
+      "count": 302
+    },
+    {
+      "name": "Genre",
+      "count": 177
+    },
+    {
+      "name": "Author",
+      "count": 38
+    },
+    {
+      "name": "BookType",
+      "count": 33
+    },
+    {
+      "name": "Award",
+      "count": 27
+    },
+    {
+      "name": "BookEvent",
+      "count": 14
+    },
+    {
+      "name": "Publisher",
+      "count": 4
+    }
+  ],
+  "sources": {
+    "The Guardian Books": 24,
+    "New York Times Books": 21,
+    "Literary Hub": 10,
+    "Book Riot": 10,
+    "NPR Books": 10,
+    "Publishers Weekly": 30,
+    "알라딘 신간": 30,
+    "알라딘 베스트셀러": 1
+  },
+  "generated_at": "2026-10-09T16:11:30.021221+09:00",
+  "articles": [
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "The Queerest of Folk by Russell T Davies review – the groundbreaking screenwriter tells it like it is",
+        "source_url": "https://www.theguardian.com/books/2026/oct/09/the-queerest-of-folk-by-russell-t-davies-review-the-groundbreaking-screenwriter-tells-it-like-it-is",
+        "published_at": "2026-10-09T06:00:41+00:00",
+        "summary": "<p>From Coronation Street to It’s a Sin, Davies’ memoir of a career in TV is also a rallying cry for creativity</p><p>Television is an intimate art form, once beamed into living rooms, now on devices right in front of our faces. The screenwriter Russell T Davies understands that intimacy. Whether discussing his early days developing lost-to-history soap spin-offs, making a splash with the pioneering gay series <a href=\"https://www.theguardian.com/culture/2025/may/10/my-cultural-awakening-queer-as-folk-helped-me-to-come-out\">Queer As Folk</a>, or reviving Doctor Who to great acclaim, he makes it feel as if you’re at the pub with him, settling in for the night, ready to hear his best stories.</p><p>This warm and gossipy autobiography offers a peek behind the curtains of the British TV industry, and as such, it goes light on Davies’s own life story. Instead, he gallops through five decades in the business, using the framework of his TV shows to propel the book forward at great speed. He was born in Swansea in 1963, to a family who loved watching TV. While he was studying English at Oxford, a friend suggested that, as he thought television was so great, he should consider doing it as his job.</p> <a href=\"https://www.theguardian.com/books/2026/oct/09/the-queerest-of-folk-by-russell-t-davies-review-the-groundbreaking-screenwriter-tells-it-like-it-is\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Princeton Celebrates Anne Carson, a Nobel Prize Winner Who Was Denied Tenure",
+        "source_url": "https://www.nytimes.com/2026/10/08/books/anne-carson-nobel-prize-princeton-university-tenure-denied.html",
+        "published_at": "2026-10-09T02:15:30+00:00",
+        "summary": "Carson, who was awarded the Literature prize on Thursday, was denied tenure when teaching at the university in the 1980s, leading social media users to mock a congratulatory message."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Why Anne Carson, the New Nobel Laureate, Is the Easiest Difficult Poet",
+        "source_url": "https://www.nytimes.com/2026/10/08/books/review/anne-carson-appraisal.html",
+        "published_at": "2026-10-08T22:14:19+00:00",
+        "summary": "Carson has mind-boggling range and formal audacity, our poetry columnist writes, but however much she toys with obscurity she remains too hilarious to be intimidating."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Canadian Poet Anne Carson Is Awarded Nobel Prize in Literature",
+        "source_url": "https://www.nytimes.com/2026/10/08/books/nobel-prize-literature.html",
+        "published_at": "2026-10-08T22:08:07+00:00",
+        "summary": "The writer joins a list of laureates that includes Toni Morrison, Samuel Beckett and Bob Dylan."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "New to Anne Carson’s Books? Start Here.",
+        "source_url": "https://www.nytimes.com/2026/10/08/books/review/anne-carson-best-books.html",
+        "published_at": "2026-10-08T21:12:30+00:00",
+        "summary": "The Canadian poet won this year’s Nobel Prize in Literature. If you’ve never read any of her work, here’s where to start."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Behind South Korea’s Competitive Education System",
+        "source_url": "https://www.nytimes.com/video/books/review/100000011203524/behind-south-koreas-competitive-education-system.html",
+        "published_at": "2026-10-08T20:29:37+00:00",
+        "summary": "On “The Book Review” podcast, Min Jin Lee, the author of “Pachinko” and “American Hagwon,” explains how losing social safety nets after 1997 reshaped Korean culture into an intense educational race."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Min Jin Lee Says Choosing Community Is Radical",
+        "source_url": "https://www.nytimes.com/video/books/review/100000011203440/min-jin-lee-says-choosing-community-is-radical.html",
+        "published_at": "2026-10-08T20:16:08+00:00",
+        "summary": "Min Jin Lee, the author of “American Hagwon,” joined “The Book Review” podcast to talk about how building bonds and community can be a strategy for survival."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Books Our Editors Love This Week",
+        "source_url": "https://www.nytimes.com/2026/10/08/books/review/new-recommended-books.html",
+        "published_at": "2026-10-08T19:45:47+00:00",
+        "summary": "Suggested reading from critics and editors at The New York Times."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Literary Hub",
+        "headline": "Taiwan Travelogue translator Lin King is calling out publishing’s “relay translation” practices.",
+        "source_url": "https://lithub.com/taiwan-travelogue-translator-lin-king-is-calling-out-publishings-relay-translation-practices/",
+        "published_at": "2026-10-08T17:35:54+00:00",
+        "summary": "Translator and writer Lin King released a statement on Instagram on Tuesday laying out her claim of copyright infringement of her Booker-Prize-winning English translation of Taiwan Travelogue by Yáng Shuāng-Zǐ, originally written in Mandarin and titled Táiwān Màn Yóu Lù"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "‘Delights await!’: Margaret Atwood and other writers on Nobel winner Anne Carson",
+        "source_url": "https://www.theguardian.com/books/2026/oct/08/appreciation-of-anne-carson-nobel-prize-in-literature-2026",
+        "published_at": "2026-10-08T17:12:56+00:00",
+        "summary": "<p>The Handmaid’s Tale author is joined by Emily Wilson, Ocean Vuong and Booker-shortlisted writer Rebecca Perry in celebrating the newly announced Nobel laureate</p><ul><li><p><a href=\"https://www.theguardian.com/books/2026/oct/08/wins-the-nobel-prize-in-literature-2026\">Anne Carson wins Nobel prize in literature 2026</a></p></li><li><p><a href=\"https://www.theguardian.com/books/2026/oct/08/where-to-start-with-anne-carson\">Where to start with: Anne Carson</a></p></li></ul><p>Anne Carson’s work has long been admired among poets of many countries. For new readers, I would recommend The Beauty of the Husband – direct and visceral, funny and angry and sad – or Men in the Off Hours. Delights await!</p> <a href=\"https://www.theguardian.com/books/2026/oct/08/appreciation-of-anne-carson-nobel-prize-in-literature-2026\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Literary Hub",
+        "headline": "Can romance novels solve the straight man reading crisis?",
+        "source_url": "https://lithub.com/can-romance-novels-solve-the-straight-man-reading-crisis/",
+        "published_at": "2026-10-08T16:51:32+00:00",
+        "summary": "Extra, extra. You’ve seen the headlines. Men—particularly straight men—have stopped reading fiction. This year saw the rise and fall of the performative lit-bro. And though history, crime, and self-help books still persuade a certain type, the most recent NEA survey found"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Dispelling the Myth of Cormac McCarthy as Cowboy-Artist",
+        "source_url": "https://www.nytimes.com/2026/10/07/magazine/cormac-mccarthy-biography-myths.html",
+        "published_at": "2026-10-08T16:42:57+00:00",
+        "summary": "The first biography of the elusive novelist shows how little the lore ever told us about the man — or his art."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Dark Retellings of Classic Books Like ‘Jane Eyre,’ ‘Frankenstein’ and More",
+        "source_url": "https://www.nytimes.com/2026/10/08/books/classic-retelling-gothic-horror-books.html",
+        "published_at": "2026-10-08T15:59:52+00:00",
+        "summary": "The best-selling author Kat Dunn recommends some of her favorite modern retellings, of “Jane Eyre,” “Frankenstein” and more."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "The Winner of the 2026 Nobel Prize in Literature",
+        "source_url": "https://bookriot.com/2026-nobel-prize-in-literature/",
+        "published_at": "2026-10-08T15:49:53+00:00",
+        "summary": "Canadian poet Anne Carson, well-known for her translations, won the 2026 Nobel Prize in Literature “for her bold and inventive oeuvre.\""
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "The 2026 Kirkus Prize Winners Have Been Announced",
+        "source_url": "https://bookriot.com/2026-kirkus-prize-winners/",
+        "published_at": "2026-10-08T15:45:46+00:00",
+        "summary": "Last night, the 2026 the Kirkus Prize was awarded to authors in three categories: Fiction, Nonfiction, and Young People's Literature."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "NPR Books",
+        "headline": "White House correspondent April Ryan reflects on reporting while under attack",
+        "source_url": "https://www.npr.org/2026/10/08/nx-s1-5994416/white-house-correspondent-april-ryan-reflects-on-reporting-while-under-attack",
+        "published_at": "2026-10-08T15:24:23+00:00",
+        "summary": "Ryan has spent decades pressing presidents for answers. She talks about access, power, race and how asking questions put her in President Trump's crosshairs. Her new book is <em>Notes on a Blacklash</em>."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "Book Riot’s Deals of the Day for October 8, 2026",
+        "source_url": "https://bookriot.com/book-riots-deals-of-the-day-for-october-8-2026/",
+        "published_at": "2026-10-08T14:28:41+00:00",
+        "summary": "Golden Girls meets James Bond, Indigenous werewolf horror, cottagecore plus goblincore, and more of today's best book deals."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Literary Hub",
+        "headline": "The Third Circuit finds that AI companies can’t use material with an original “creative spark.”",
+        "source_url": "https://lithub.com/the-third-circuit-finds-that-ai-companies-cant-use-material-with-an-original-creative-spark/",
+        "published_at": "2026-10-08T14:04:59+00:00",
+        "summary": "Last week the Court of Appeals for the Third Circuit, which oversees the districts of Delaware, New Jersey, Pennsylvania, and the Virgin Islands, upheld and further underlined a lower court ruling in the ongoing AI and copyright case of Thomson"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Book of Lives by Margaret Atwood audiobook review – a dryly funny memoir",
+        "source_url": "https://www.theguardian.com/books/2026/oct/08/book-of-lives-by-margaret-atwood-audiobook-review-a-dryly-funny-memoir",
+        "published_at": "2026-10-08T14:00:21+00:00",
+        "summary": "<p>The Handmaid’s Tale author reflects on her loves, losses and literary achievements in a memoir that showcases her wisdom and wit</p><p>Margaret Atwood had to be persuaded to write a memoir. The thought of writing about herself initially seemed “dead boring. Who wants to read about someone sitting at a desk messing up blank sheets of paper?” Yet, she continues, time passed and the possibility of a memoir took on a “lurid phosphorescent glow. ‘Wasn’t there something appealing in the idea?’ my sinister alter ego whispered … I could thank my benefactors, reward my friends, trash my enemies and pay off scores long forgotten by everyone but me.”</p><p>Subtitled “A Memoir of Sorts”, Book of Lives is the Canadian author’s account of her loves, losses and literary achievements (she has written just over 50 books, including novels, short stories and poetry collections), and a fine showcase for her wisdom and wit. What little score-settling she includes is purely for the punchline. When a poet told Atwood in the early 1970s that she wrote like a man – he intended it as a compliment – she told him he forgot the punctuation. “What you meant was, ‘She writes. Like a man’.”</p> <a href=\"https://www.theguardian.com/books/2026/oct/08/book-of-lives-by-margaret-atwood-audiobook-review-a-dryly-funny-memoir\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Literary Hub",
+        "headline": "Anne Carson has won the 2026 Nobel Prize in Literature.",
+        "source_url": "https://lithub.com/anne-carson-has-won-the-2026-nobel-prize-in-literature/",
+        "published_at": "2026-10-08T11:11:26+00:00",
+        "summary": "Today, the Swedish Academy awarded the 2026 Nobel Prize in Literature to Canadian author Anne Carson, for “her bold and inventive oeuvre that in playful dialogue with the classical tradition has created new forms for contemporary literature.” The Academy’s permanent"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Literary Hub",
+        "headline": "Lit Hub Daily: October 8, 2026",
+        "source_url": "https://lithub.com/lit-hub-daily-october-8-2026/",
+        "published_at": "2026-10-08T10:30:00+00:00",
+        "summary": "The decades-long friendship between Hannah Arendt and Mary McCarthy was defined by a “mix of intimacy and worldliness.” | Lit Hub Biography Kimberly Blaeser on being an Anishinaabe poet in a fiction writer’s world: “I write fiction with a poetic"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "Simmer Down: 5 Agonizingly Slow Burn Romances",
+        "source_url": "https://bookriot.com/best-slow-burn-romances/",
+        "published_at": "2026-10-08T10:10:00+00:00",
+        "summary": "Get ready for deliciously slow burning romance that feels more true to life. Each one offers well-developed characters and plenty of pining."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "The Bestselling Books of the Week, According to All the Lists",
+        "source_url": "https://bookriot.com/bestselling-books-october-8-2026/",
+        "published_at": "2026-10-08T10:02:00+00:00",
+        "summary": "USA Today, Publishers Weekly, NYT, Amazon, and Indie Booksellers all have their own bestseller lists. Here are the combined results."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "Must-Read Horror Books Perfect for Fantasy Readers",
+        "source_url": "https://bookriot.com/horror-books-for-fantasy-readers/",
+        "published_at": "2026-10-08T10:02:00+00:00",
+        "summary": "Get into spooky season with these horror books for fantasy readers, bringing all the magic and imaginary worlds with thrills and scares."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "Once You Learn to Read, You Will Be Forever Free: BIPOC Literary and Educational Heroes Through Time",
+        "source_url": "https://bookriot.com/bipoc-literacy-and-education-advocates/",
+        "published_at": "2026-10-08T10:01:00+00:00",
+        "summary": "BIPOC literacy and education advocates have been breaking ground and bringing about change since the 18th century."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "2027 Latine YA Books for Your TBR",
+        "source_url": "https://bookriot.com/latine-ya-books-for-2027/",
+        "published_at": "2026-10-08T10:00:00+00:00",
+        "summary": "We've got a whole lot of great new reads to look forward to in 2027, including this wide array of Latine YA books."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "Boo Who?: New Ghost Stories for Kids",
+        "source_url": "https://bookriot.com/new-ghost-stories-for-kids/",
+        "published_at": "2026-10-08T10:00:00+00:00",
+        "summary": "Give young readers a good scare with BOO(K)S! Check out these ghost stories for kids of all ages."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "📚 Anyone for tea?",
+        "source_url": "https://bookriot.com/anyone-for-tea/",
+        "published_at": "2026-10-08T09:30:00+00:00",
+        "summary": "A lot went down in 15 years"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Literary Hub",
+        "headline": "On Hannah Arendt and Mary McCarthy’s Decades-Long Friendship",
+        "source_url": "https://lithub.com/on-hannah-arendt-and-mary-mccarthys-decades-long-friendship/",
+        "published_at": "2026-10-08T09:09:56+00:00",
+        "summary": "Hannah Arendt’s homeland was populated with friends, most of them men—at least that is what her published correspondence would lead you to believe. The published letters between Arendt and her friends include books with Martin Heidegger, Karl Jaspers, Heinrich Blücher,"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Literary Hub",
+        "headline": "5 Book Reviews You Need to Read This Week",
+        "source_url": "https://lithub.com/5-book-reviews-you-need-to-read-this-week-10-8-2026/",
+        "published_at": "2026-10-08T09:09:37+00:00",
+        "summary": "Our fivesome of fantastic reviews this week includes, Zain Khalid on Ayad Akhtar’s The Radiance, Franklin Schneider on MrBeast and James Patterson’s The Most Dangerous Games, Jason Mott on T. Geronimo Johnson’s The Occidental Book of the Dead, Sam Worley"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Literary Hub",
+        "headline": "It Begins On the Page: How Relationships Between Readers and Writers Are Made",
+        "source_url": "https://lithub.com/it-begins-on-the-page-how-relationships-between-readers-and-writers-are-made/",
+        "published_at": "2026-10-08T09:09:12+00:00",
+        "summary": "We don’t usually understand literature as a dialogue. Typically, when publishing professionals think of readers, they think they need to entice them to buy the book so they may have hours of pleasant or enriching cultural entertainment. The author’s name"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Literary Hub",
+        "headline": "One Night in Frankfurt: Scenes From the Incomparable Heinrich Maria Ledig-Rowohlt Translation Prize Dinner",
+        "source_url": "https://lithub.com/one-night-in-frankfurt-scenes-from-the-incomparable-heinrich-maria-ledig-rowohlt-translation-prize-dinner/",
+        "published_at": "2026-10-08T09:09:12+00:00",
+        "summary": "Forty years ago in October 1986 I attended my first Frankfurt Book Fair. On the first day of meetings my friend and colleague Gary Fisketjon and I were introduced to Heinrich Maria Ledig Rowohlt, an elegant, charismatic 78-year-old German publisher"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Literary Hub",
+        "headline": "Am I the Asshole For Ordering a Book at My Local Indie and Just… Not Picking It Up?",
+        "source_url": "https://lithub.com/am-i-the-asshole-for-ordering-a-book-at-my-local-indie-and-just-not-picking-it-up/",
+        "published_at": "2026-10-08T09:09:04+00:00",
+        "summary": "Hello again! Welcome back to the finest (and drunkest) corner of the internet, home of the darling and daring sensation known as Am I the Literary Asshole? If you’re a first time reader, we’re a bimonthly advice column that tackles"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Book Review: ‘The Names of the New World,’ by Kawai Strong Washburn",
+        "source_url": "https://www.nytimes.com/2026/10/08/books/review/the-names-of-the-new-world-kawai-strong-washburn.html",
+        "published_at": "2026-10-08T09:00:51+00:00",
+        "summary": "In the Minneapolis of Kawai Strong Washburn’s climate dystopia, three characters form unlikely bonds to take on the nation’s greediest oil behemoths."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Book Review: ‘Fair Ones,’ by Lydia Millet",
+        "source_url": "https://www.nytimes.com/2026/10/08/books/review/fair-ones-lydia-millet.html",
+        "published_at": "2026-10-08T09:00:33+00:00",
+        "summary": "In Lydia Millet’s dialogue-driven novel, a random act of violence leaves two New York women at loose ends (though not for long)."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "NPR Books",
+        "headline": "Poet and essayist Anne Carson wins 2026 Nobel Prize in literature",
+        "source_url": "https://www.npr.org/2026/10/08/nx-s1-5984350/nobel-prize-in-literature-anne-carson",
+        "published_at": "2026-10-08T08:45:19+00:00",
+        "summary": "Carson's writing, including <em>The Beauty of the Husband</em>, <em>Autobiography of Red</em>, and <em>Eros the Bittersweet</em>, is eclectic in genre and theme."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Agate Head / Stone Soup by Patricia Lockwood review – a gem of a collection",
+        "source_url": "https://www.theguardian.com/books/2026/oct/08/agate-head-stone-soup-by-patricia-lockwood-review-a-gem-of-a-collection",
+        "published_at": "2026-10-08T06:00:11+00:00",
+        "summary": "<p>Inspired by stones and metals, the memoirist and novelist’s first poetry collection for more than a decade is charming, whimsical and intimate</p><p>In the introduction to her first book of poetry in 12 years, Patricia Lockwood states that, “For almost a decade … I had not been able to hear it. The poems that I wrote would not end … too much was happening, there was a different kind of attention being paid.” It wasn’t that she didn’t want them to arrive. From Cave Painting: “<em>And does she still write poems?</em> / Not a whole one since I had been ill. / Five years. I kept saying I was / Doing it privately. So private even / I didn’t know about it.”</p><p>In that intervening period, Lockwood’s status has jumped from interesting US poet famous for the viral sensation <a href=\"https://www.theguardian.com/society/shortcuts/2013/jul/26/patricia-lockwood-poem-rape-joke\">Rape Joke</a> to literary superstar: an acclaimed memoirist and novelist whose freewheeling, antic style is for many the internet’s maelstrom lassoed and put back on to the page. Who else can claim to have turned an audience with the pope into a biting comic essay?</p> <a href=\"https://www.theguardian.com/books/2026/oct/08/agate-head-stone-soup-by-patricia-lockwood-review-a-gem-of-a-collection\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Frankfurt Book Fair 2026: S&S Bets on Self-Published Authors",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101456-frankfurt-book-fair-2026-s-s-bets-on-self-published-authors.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "Victoria Pepe explains how the company’s new imprint, Simon Stream, offers the best of both worlds."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Academic Publishing Veteran Sandy Crooms Dies at 66",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/Obituary/article/101427-u-pittsburgh-press-director-sandy-crooms-dies-at-66.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "Academic Publishing Veteran Sandy Crooms Dies at 66"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Publishing in Color Adds New Proposal Services",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/religion/article/101387-publishing-in-color-adds-new-proposal-services.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "Publishing in Color Adds New Proposal Services"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Frankfurt Book Fair 2026: Seven Questions for Leticia Vila-Sanjuán",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101457-frankfurt-book-fair-2026-seven-questions-for-leticia-vila-sanju-n.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "Frankfurt Book Fair 2026: Seven Questions for Leticia Vila-Sanjuán"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Frankfurt Book Fair: Storytel’s Talks AI-translated Audiobooks",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101454-frankfurt-book-fair-storytel-s-talks-ai-translated-audiobooks.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "Frankfurt Book Fair: Storytel’s Talks AI-translated Audiobooks"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Frankfurt Book Fair 2026: Reading by Not-So-Royal Decree",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101452-frankfurt-book-fair-2026-reading-by-not-so-royal-decree.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "The U.K. is in the midst of a year-long campaign to bolster interest in books, and its working."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "‘Think Like the Audience’: PW Talks with B.J. Novak",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101485-think-like-the-audience-pw-talks-with-b-j-novak.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "‘Think Like the Audience’: PW Talks with B.J. Novak"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Frankfurt Book Fair 2026: African Authors Converge on Cape Town",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101449-frankfurt-book-fair-2026-african-authors-converge-on-cape-town.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "The revived Open Book Festival has returned to welcoming writers from around the world."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "In Brief: October 8, 2026",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101490-in-brief-october-8-2026.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "In Brief: October 8, 2026"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Frankfurt Book Fair 2026: Germany Finds in Favor of Copyright Holders Against AI",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101447-frankfurt-book-fair-2026-germany-finds-in-favor-of-copyright-holders-against-ai.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "A regional court in Munich has twice ruled that LLMs are memorizing work, an illegal act of reproduction."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "The Rabbit hOle Hosts Inaugural Literary Festival",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101492-the-rabbit-hole-hosts-inaugural-literary-festival.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "The Rabbit hOle Hosts Inaugural Literary Festival"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "The Unique and Modern Classicism of Anne Carson",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/tip-sheet/article/101482-the-unique-and-modern-classicism-of-anne-carson.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "The Unique and Modern Classicism of Anne Carson"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Frankfurt Book Fair 2026: Novvel.co Offers a Novel Approach to Graphic Novels",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101450-frankfurt-book-fair-2026-novvel-co-offers-a-novel-approach-to-graphic-novels.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "Frankfurt Book Fair 2026: Novvel.co Offers a Novel Approach to Graphic Novels"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Curiouser and Curiouser: PW Talks with Maggie Tokuda-Hall",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101489-curiouser-and-curiouser-pw-talks-with-maggie-tokuda-hall.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "Curiouser and Curiouser: PW Talks with Maggie Tokuda-Hall"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Sarah Blakley-Cartwright on Five Dollhouse Stories That Informed Her Latest Novel",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/tip-sheet/article/101493-sarah-blakley-cartwright-on-five-dollhouse-stories-that-informed-her-latest-novel.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "Sarah Blakley-Cartwright on Five Dollhouse Stories That Informed Her Latest Novel"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "New Kids’ and YA Books: Week of October 12, 2026",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101484-new-kids-and-ya-books-week-of-october-12-2026.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "New Kids’ and YA Books: Week of October 12, 2026"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Frankfurt Book Fair 2026: Three Views of Innovation",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101471-frankfurt-book-fair-2026-three-views-of-innovation.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "The CEOs of Sourcebooks, Abrams, and Perfect Bound reflect on what it takes to implement new ideas in legacy businesses."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "‘We All Battle in Our Lives’: PW Talks with Gary Sinise",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/religion/article/101424-we-all-battle-in-our-lives-pw-talks-with-gary-sinise.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "‘We All Battle in Our Lives’: PW Talks with Gary Sinise"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Wm. Paul Young Revisits ‘The Shack’",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/religion/article/101422-wm-paul-young-revisits-the-shack.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "Wm. Paul Young Revisits ‘The Shack’"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Frankfurt Book Fair 2026: Must-see Events for October 9",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101472-frankfurt-book-fair-2026-must-see-events-for-october-9.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "Must-see events for tomorrow at the fair."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Frankfurt Book Fair 2026: The Reading Crisis Knows No Borders",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101451-frankfurt-book-fair-2026-the-reading-crisis-knows-no-borders.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "Lack of access to books is a problem that spans from Africa to the Caribbean to Europe, and there are ways publishers can help, argues the CEO of Bloomsbury and president of Book Aid International."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Frankfurt Book Fair 2026: Sports Romance Still Has Game",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101455-frankfurt-book-fair-2026-sports-romance-still-has-game.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "The popular genre is expanding into new sports and more diverse and queer characters."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "USBBY Introduces Latido Honor List",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101495-usbby-introduces-latido-honor-list.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "USBBY Introduces Latido Honor List"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Middle Grade Comics Mag ‘Hullabaloo’ Rebrands, Launches as ‘Bangarang’",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101491-middle-grade-comics-mag-hullabaloo-rebrands-launches-as-bangarang.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "Middle Grade Comics Mag ‘Hullabaloo’ Rebrands, Launches as ‘Bangarang’"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Anne Carson Wins 2026 Nobel Prize for Literature",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/awards-and-prizes/article/101483-anne-carson-wins-2026-nobel-prize-for-literature.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "Anne Carson Wins 2026 Nobel Prize for Literature"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Frankfurt Book Fair 2026: Tonies CEO Shares Vision for Growth",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101466-frankfurt-book-fair-2026-tonies-ceo-shares-vision-for-growth.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "Frankfurt Book Fair 2026: Tonies CEO Shares Vision for Growth"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "First Look: ‘Charlie and the Chocolate Factory: The Graphic Novel’",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101494-first-look-charlie-and-the-chocolate-factory-the-graphic-novel.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "First Look: ‘Charlie and the Chocolate Factory: The Graphic Novel’"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "PRH, FTRF Save Our Stories Event Wields the Power of Resistance to Bans",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/libraries/article/101480-prh-ftrf-save-our-stories-event-wields-the-power-of-resistance-to-bans.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "PRH, FTRF Save Our Stories Event Wields the Power of Resistance to Bans"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Frankfurt Book Fair 2026: Publishing Jobs Will Adapt to AI, Not Disappear",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101481-frankfurt-book-fair-2026-publishing-jobs-will-adapt-to-ai-not-disappear.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "Frankfurt Book Fair 2026: Publishing Jobs Will Adapt to AI, Not Disappear"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "NPR Books",
+        "headline": "Author Tomi Adeyemi contends with reality in her new book, 'The Siren'",
+        "source_url": "https://www.npr.org/2026/10/07/nx-s1-5944223/author-tomi-adeyemi-contends-with-reality-in-her-new-book-the-siren",
+        "published_at": "2026-10-07T21:57:36+00:00",
+        "summary": "The author Tomi Adeyemi has written fantasy all her life. Now, she has a new book out titled <em>The Siren</em>, which takes place in the real world."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Book Review: ‘The Inheritance,’ by Janet Reitman",
+        "source_url": "https://www.nytimes.com/2026/10/06/books/review/the-inheritance-janet-reitman.html",
+        "published_at": "2026-10-07T17:31:44+00:00",
+        "summary": "Following the lives of ordinary citizens, a new book by Janet Reitman fashions an intimate, morally complex portrait of an insecure America."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Anne Carson and Can Xue favourites to win Nobel prize in literature",
+        "source_url": "https://www.theguardian.com/books/2026/oct/07/anne-carson-and-can-xue-favourites-to-win-nobel-prize-in-literature",
+        "published_at": "2026-10-07T13:29:06+00:00",
+        "summary": "<p>The Canadian poet and Chinese experimental writer are the bookmakers’ favourites to win, with Haruki Murakami, Gerald Murnane and Margaret Atwood also in the mix</p><p>Canadian poet Anne Carson and Chinese experimental writer Can Xue are the bookies’ favourites to win this year’s Nobel prize in literature, set to be announced Thursday.</p><p>The frontrunners both have 10/1 odds of taking home the world’s most prestigious literary prize, this year worth 12m Swedish Krona (approximately £900,000), according to Ladbrokes.</p> <a href=\"https://www.theguardian.com/books/2026/oct/07/anne-carson-and-can-xue-favourites-to-win-nobel-prize-in-literature\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Book Review: ‘Will and Attention,’ by Meghan O’Gieblyn",
+        "source_url": "https://www.nytimes.com/2026/10/07/books/review/will-and-attention-meghan-ogieblyn.html",
+        "published_at": "2026-10-07T09:01:29+00:00",
+        "summary": "In her new memoir, Meghan O’Gieblyn plumbs the philosophical implications of twin longings: for spiritual fulfillment and for drink."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Book Review: ‘Sleeping Beauties,’ by David Byrne",
+        "source_url": "https://www.nytimes.com/2026/10/07/books/review/sleeping-beauties-david-byrne.html",
+        "published_at": "2026-10-07T09:01:23+00:00",
+        "summary": "“Sleeping Beauties,” by the musician David Byrne, explores artistic and scientific innovations that were overlooked before being embraced."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Book Review: ‘Other Worlds Than These,’ by Stephen King and Peter Straub",
+        "source_url": "https://www.nytimes.com/2026/10/07/books/review/other-worlds-than-these-stephen-king-peter-straub.html",
+        "published_at": "2026-10-07T09:00:23+00:00",
+        "summary": "“Other Worlds Than These” is the final volume in the Talisman trilogy, which King wrote with Peter Straub."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "‘Sense and Sensibility’ Gets a Grittier Makeover in 2026 Adaptation",
+        "source_url": "https://www.nytimes.com/2026/10/07/movies/sense-and-sensibility-movie-2026.html",
+        "published_at": "2026-10-07T09:00:13+00:00",
+        "summary": "A new adaptation dispenses with period glamour in favor of a lived-in feel and realism. The goal is to bring emotions to the fore."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 신간",
+        "headline": "[세트] 안녕하세요. 반한 사람에게 사랑의 묘약을 의뢰받은 마녀입니다. 1~6 + 아크릴 스탠드 세트 - 전6권/카마다 지음, 무츠하나 에이코 원작/미스터블루",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403807019",
+        "published_at": "2026-10-07T08:18:00+00:00",
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403807019\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40380/70/cover200/k042131700_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403807019\">[세트] 안녕하세요. 반한 사람에게 사랑의 묘약을 의뢰받은 마녀입니다. 1~6 + 아크릴 스탠드 세트 - 전6권</a></h2>카마다 지음, 무츠하나 에이코 원작 / 미스터블루 / 2026년 10월 / ISBN:<span class=\"isbn13\"></span><br />정가: <span style=\"color: #FF0202;\">56,500</span>원 / 판매가: <span style=\"color: #FF0202;\">50,850</span>원 / 마일리지: <span style=\"color: #FF0202;\">2,790</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 만사모 테마 7 : 이게 만화 원작이라고?<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=403807019&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=403807019&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=2551\">만화/라이트노벨</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3741\">순정만화</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3742&BrowseTarget=List\"><b>레이디스 코믹</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=2551\">만화/라이트노벨</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3728\">본격장르만화</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=4132\">판타지</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=4134&BrowseTarget=List\"><b>드라마틱 판타지</b></a><br /><br /></td></tr></table>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 신간",
+        "headline": "[세트] 안녕하세요. 반한 사람에게 사랑의 묘약을 의뢰받은 마녀입니다. 6 + 아크릴 스탠드/카마다 지음, 무츠하나 에이코 원작/미스터블루",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403806970",
+        "published_at": "2026-10-07T08:17:00+00:00",
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403806970\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40380/69/cover200/k012131700_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403806970\">[세트] 안녕하세요. 반한 사람에게 사랑의 묘약을 의뢰받은 마녀입니다. 6 + 아크릴 스탠드</a></h2>카마다 지음, 무츠하나 에이코 원작 / 미스터블루 / 2026년 10월 / ISBN:<span class=\"isbn13\"></span><br />정가: <span style=\"color: #FF0202;\">24,000</span>원 / 판매가: <span style=\"color: #FF0202;\">21,600</span>원 / 마일리지: <span style=\"color: #FF0202;\">1,190</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 만사모 테마 7 : 이게 만화 원작이라고?<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=403806970&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=403806970&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=2551\">만화/라이트노벨</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3741\">순정만화</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3742&BrowseTarget=List\"><b>레이디스 코믹</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=2551\">만화/라이트노벨</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3728\">본격장르만화</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=4132\">판타지</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=4134&BrowseTarget=List\"><b>드라마틱 판타지</b></a><br /><br /></td></tr></table>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 신간",
+        "headline": "[세트] 안녕하세요. 반한 사람에게 사랑의 묘약을 의뢰받은 마녀입니다. 5 + 아크릴 스탠드/카마다 지음, 무츠하나 에이코 원작/미스터블루",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403806904",
+        "published_at": "2026-10-07T08:16:00+00:00",
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403806904\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40380/69/cover200/k072131700_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403806904\">[세트] 안녕하세요. 반한 사람에게 사랑의 묘약을 의뢰받은 마녀입니다. 5 + 아크릴 스탠드</a></h2>카마다 지음, 무츠하나 에이코 원작 / 미스터블루 / 2026년 10월 / ISBN:<span class=\"isbn13\"></span><br />정가: <span style=\"color: #FF0202;\">24,000</span>원 / 판매가: <span style=\"color: #FF0202;\">21,600</span>원 / 마일리지: <span style=\"color: #FF0202;\">1,190</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 만사모 테마 7 : 이게 만화 원작이라고?<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=403806904&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=403806904&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=2551\">만화/라이트노벨</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3741\">순정만화</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3742&BrowseTarget=List\"><b>레이디스 코믹</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=2551\">만화/라이트노벨</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3728\">본격장르만화</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=4132\">판타지</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=4134&BrowseTarget=List\"><b>드라마틱 판타지</b></a><br /><br /></td></tr></table>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 신간",
+        "headline": "[세트] 안녕하세요. 반한 사람에게 사랑의 묘약을 의뢰받은 마녀입니다. 4 + 아크릴 스탠드/카마다 지음, 무츠하나 에이코 원작/미스터블루",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403806794",
+        "published_at": "2026-10-07T08:15:00+00:00",
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403806794\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40380/67/cover200/k992131700_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403806794\">[세트] 안녕하세요. 반한 사람에게 사랑의 묘약을 의뢰받은 마녀입니다. 4 + 아크릴 스탠드</a></h2>카마다 지음, 무츠하나 에이코 원작 / 미스터블루 / 2026년 10월 / ISBN:<span class=\"isbn13\"></span><br />정가: <span style=\"color: #FF0202;\">24,000</span>원 / 판매가: <span style=\"color: #FF0202;\">21,600</span>원 / 마일리지: <span style=\"color: #FF0202;\">1,190</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 만사모 테마 7 : 이게 만화 원작이라고?<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=403806794&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=403806794&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=2551\">만화/라이트노벨</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3741\">순정만화</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3742&BrowseTarget=List\"><b>레이디스 코믹</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=2551\">만화/라이트노벨</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3728\">본격장르만화</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=4132\">판타지</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=4134&BrowseTarget=List\"><b>드라마틱 판타지</b></a><br /><br /></td></tr></table>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 신간",
+        "headline": "[세트] 안녕하세요. 반한 사람에게 사랑의 묘약을 의뢰받은 마녀입니다. 3 + 아크릴 스탠드/카마다 지음, 무츠하나 에이코 원작/미스터블루",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403806661",
+        "published_at": "2026-10-07T08:14:00+00:00",
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403806661\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40380/66/cover200/k812131709_2.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403806661\">[세트] 안녕하세요. 반한 사람에게 사랑의 묘약을 의뢰받은 마녀입니다. 3 + 아크릴 스탠드</a></h2>카마다 지음, 무츠하나 에이코 원작 / 미스터블루 / 2026년 10월 / ISBN:<span class=\"isbn13\"></span><br />정가: <span style=\"color: #FF0202;\">24,000</span>원 / 판매가: <span style=\"color: #FF0202;\">21,600</span>원 / 마일리지: <span style=\"color: #FF0202;\">1,190</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 만사모 테마 7 : 이게 만화 원작이라고?<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=403806661&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=403806661&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=2551\">만화/라이트노벨</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3741\">순정만화</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3742&BrowseTarget=List\"><b>레이디스 코믹</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=2551\">만화/라이트노벨</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3728\">본격장르만화</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=4132\">판타지</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=4134&BrowseTarget=List\"><b>드라마틱 판타지</b></a><br /><br /></td></tr></table>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 신간",
+        "headline": "[세트] 안녕하세요. 반한 사람에게 사랑의 묘약을 의뢰받은 마녀입니다. 2 + 아크릴 스탠드/카마다 지음, 무츠하나 에이코 원작/미스터블루",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403806441",
+        "published_at": "2026-10-07T08:13:00+00:00",
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403806441\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40380/64/cover200/k712131709_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403806441\">[세트] 안녕하세요. 반한 사람에게 사랑의 묘약을 의뢰받은 마녀입니다. 2 + 아크릴 스탠드</a></h2>카마다 지음, 무츠하나 에이코 원작 / 미스터블루 / 2026년 10월 / ISBN:<span class=\"isbn13\"></span><br />정가: <span style=\"color: #FF0202;\">24,000</span>원 / 판매가: <span style=\"color: #FF0202;\">21,600</span>원 / 마일리지: <span style=\"color: #FF0202;\">1,190</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 만사모 테마 7 : 이게 만화 원작이라고?<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=403806441&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=403806441&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=2551\">만화/라이트노벨</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3741\">순정만화</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3742&BrowseTarget=List\"><b>레이디스 코믹</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=2551\">만화/라이트노벨</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3728\">본격장르만화</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=4132\">판타지</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=4134&BrowseTarget=List\"><b>드라마틱 판타지</b></a><br /><br /></td></tr></table>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 신간",
+        "headline": "[세트] 안녕하세요. 반한 사람에게 사랑의 묘약을 의뢰받은 마녀입니다. 1 + 아크릴 스탠드/카마다 지음, 무츠하나 에이코 원작/미스터블루",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403806289",
+        "published_at": "2026-10-07T08:11:00+00:00",
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403806289\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40380/62/cover200/k622131709_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403806289\">[세트] 안녕하세요. 반한 사람에게 사랑의 묘약을 의뢰받은 마녀입니다. 1 + 아크릴 스탠드</a></h2>카마다 지음, 무츠하나 에이코 원작 / 미스터블루 / 2026년 10월 / ISBN:<span class=\"isbn13\"></span><br />정가: <span style=\"color: #FF0202;\">24,000</span>원 / 판매가: <span style=\"color: #FF0202;\">21,600</span>원 / 마일리지: <span style=\"color: #FF0202;\">1,190</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 만사모 테마 7 : 이게 만화 원작이라고?<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=403806289&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=403806289&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=2551\">만화/라이트노벨</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3741\">순정만화</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3742&BrowseTarget=List\"><b>레이디스 코믹</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=2551\">만화/라이트노벨</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3728\">본격장르만화</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=4132\">판타지</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=4134&BrowseTarget=List\"><b>드라마틱 판타지</b></a><br /><br /></td></tr></table>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Other Worlds Than These by Stephen King and Peter Straub review – a self-indulgent finale to the Talisman trilogy",
+        "source_url": "https://www.theguardian.com/books/2026/oct/07/other-worlds-than-these-by-stephen-king-and-peter-straub-review-a-self-indulgent-finale-to-the-talisman-trilogy",
+        "published_at": "2026-10-07T08:00:38+00:00",
+        "summary": "<p>There are moments of shivering joy as the protagonist of two enduring classics, Jack Sawyer, returns – but this time his journey feels endlessly repetitive</p><p>Bear with me, because there is some backstory to get through before we can talk about the book I am actually here to review. Back in 1984, Stephen King and Peter Straub collaborated on the fantasy novel The Talisman. Like all the best King stories, it follows a young boy: in this case Jack Sawyer, 12, whose mother, Lily, is dying. Jack learns that a magical object called the Talisman might save her – if he can find it in a parallel world known as the Territories. Straub and King followed this up in 2001 with <a href=\"https://www.theguardian.com/books/2001/oct/07/stephenking.fiction\">Black House</a>, in which an adult Jack investigates a series of child murders that turn out to have disturbing links to the Territories.</p><p>The books are very different: one a coming-of-age cross-country quest, in which Jack flips back and forth between two versions of the US; the other a fantastical and horror-inflected murder mystery. Both are brilliant and enduring classics which will always have a place on my bookshelves – I reread both of them, all 1,800-odd pages, to prepare for Other Worlds Than These and was as swept away and delighted as the first time round.</p> <a href=\"https://www.theguardian.com/books/2026/oct/07/other-worlds-than-these-by-stephen-king-and-peter-straub-review-a-self-indulgent-finale-to-the-talisman-trilogy\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 신간",
+        "headline": "안녕하세요. 반한 사람에게 사랑의 묘약을 의뢰받은 마녀입니다. 6/카마다 지음, 무츠하나 에이코 원작/미스터블루",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403801895",
+        "published_at": "2026-10-07T07:32:00+00:00",
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403801895\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40380/18/cover200/k032131709_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403801895\">안녕하세요. 반한 사람에게 사랑의 묘약을 의뢰받은 마녀입니다. 6</a></h2>카마다 지음, 무츠하나 에이코 원작 / 미스터블루 / 2026년 10월 / ISBN:<span class=\"isbn13\">9791138070409</span><br />정가: <span style=\"color: #FF0202;\">6,500</span>원 / 판매가: <span style=\"color: #FF0202;\">5,850</span>원 / 마일리지: <span style=\"color: #FF0202;\">320</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 만사모 테마 7 : 이게 만화 원작이라고?<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=403801895&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=403801895&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br />제25화<br />제26화<br />제27화<br />제28화<br />보너스 만화 「어린 마녀 클럽」<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=2551\">만화/라이트노벨</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3741\">순정만화</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3742&BrowseTarget=List\"><b>레이디스 코믹</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=2551\">만화/라이트노벨</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3728\">본격장르만화</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=4132\">판타지</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=4134&BrowseTarget=List\"><b>드라마틱 판타지</b></a><br /><br /></td></tr></table>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 신간",
+        "headline": "안녕하세요. 반한 사람에게 사랑의 묘약을 의뢰받은 마녀입니다. 5/카마다 지음, 무츠하나 에이코 원작/미스터블루",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403801838",
+        "published_at": "2026-10-07T07:32:00+00:00",
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403801838\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40380/18/cover200/k092131709_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403801838\">안녕하세요. 반한 사람에게 사랑의 묘약을 의뢰받은 마녀입니다. 5</a></h2>카마다 지음, 무츠하나 에이코 원작 / 미스터블루 / 2026년 10월 / ISBN:<span class=\"isbn13\">9791138070393</span><br />정가: <span style=\"color: #FF0202;\">6,500</span>원 / 판매가: <span style=\"color: #FF0202;\">5,850</span>원 / 마일리지: <span style=\"color: #FF0202;\">320</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 만사모 테마 7 : 이게 만화 원작이라고?<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=403801838&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=403801838&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br />제21화<br />제22화<br />제23화<br />제24화<br />번외편 「어느 아침에 생긴 일」<br />캐릭터 디자인 모음<br />보너스 만화<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=2551\">만화/라이트노벨</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3741\">순정만화</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3742&BrowseTarget=List\"><b>레이디스 코믹</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=2551\">만화/라이트노벨</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3728\">본격장르만화</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=4132\">판타지</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=4134&BrowseTarget=List\"><b>드라마틱 판타지</b></a><br /><br /></td></tr></table>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 신간",
+        "headline": "안녕하세요. 반한 사람에게 사랑의 묘약을 의뢰받은 마녀입니다. 4/카마다 지음, 무츠하나 에이코 원작/미스터블루",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403801741",
+        "published_at": "2026-10-07T07:31:00+00:00",
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403801741\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40380/17/cover200/k942131709_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403801741\">안녕하세요. 반한 사람에게 사랑의 묘약을 의뢰받은 마녀입니다. 4</a></h2>카마다 지음, 무츠하나 에이코 원작 / 미스터블루 / 2026년 10월 / ISBN:<span class=\"isbn13\">9791138070386</span><br />정가: <span style=\"color: #FF0202;\">6,500</span>원 / 판매가: <span style=\"color: #FF0202;\">5,850</span>원 / 마일리지: <span style=\"color: #FF0202;\">320</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 만사모 테마 7 : 이게 만화 원작이라고?<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=403801741&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=403801741&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br />제16화<br />제17화<br />제18화<br />제19화<br />제20화<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=2551\">만화/라이트노벨</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3741\">순정만화</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3742&BrowseTarget=List\"><b>레이디스 코믹</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=2551\">만화/라이트노벨</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3728\">본격장르만화</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=4132\">판타지</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=4134&BrowseTarget=List\"><b>드라마틱 판타지</b></a><br /><br /></td></tr></table>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 신간",
+        "headline": "안녕하세요. 반한 사람에게 사랑의 묘약을 의뢰받은 마녀입니다. 3/카마다 지음, 무츠하나 에이코 원작/미스터블루",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403801694",
+        "published_at": "2026-10-07T07:30:00+00:00",
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403801694\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40380/16/cover200/k912131709_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403801694\">안녕하세요. 반한 사람에게 사랑의 묘약을 의뢰받은 마녀입니다. 3</a></h2>카마다 지음, 무츠하나 에이코 원작 / 미스터블루 / 2026년 10월 / ISBN:<span class=\"isbn13\">9791138070379</span><br />정가: <span style=\"color: #FF0202;\">6,500</span>원 / 판매가: <span style=\"color: #FF0202;\">5,850</span>원 / 마일리지: <span style=\"color: #FF0202;\">320</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 만사모 테마 7 : 이게 만화 원작이라고?<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=403801694&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=403801694&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br />제11화<br />제12화<br />제13화<br />제14화<br />제15화<br />특별 단편 만화<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=2551\">만화/라이트노벨</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3741\">순정만화</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3742&BrowseTarget=List\"><b>레이디스 코믹</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=2551\">만화/라이트노벨</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3728\">본격장르만화</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=4132\">판타지</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=4134&BrowseTarget=List\"><b>드라마틱 판타지</b></a><br /><br /></td></tr></table>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 신간",
+        "headline": "안녕하세요. 반한 사람에게 사랑의 묘약을 의뢰받은 마녀입니다. 2/카마다 지음, 무츠하나 에이코 원작/미스터블루",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403801012",
+        "published_at": "2026-10-07T07:26:00+00:00",
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403801012\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40380/10/cover200/k822131708_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403801012\">안녕하세요. 반한 사람에게 사랑의 묘약을 의뢰받은 마녀입니다. 2</a></h2>카마다 지음, 무츠하나 에이코 원작 / 미스터블루 / 2026년 10월 / ISBN:<span class=\"isbn13\">9791138070362</span><br />정가: <span style=\"color: #FF0202;\">6,500</span>원 / 판매가: <span style=\"color: #FF0202;\">5,850</span>원 / 마일리지: <span style=\"color: #FF0202;\">320</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 만사모 테마 7 : 이게 만화 원작이라고?<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=403801012&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=403801012&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br />제6화<br />제7화<br />제8화<br />제9화<br />제10화<br />특별 단편 소설<br />특별 단편 만화<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=2551\">만화/라이트노벨</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3741\">순정만화</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3742&BrowseTarget=List\"><b>레이디스 코믹</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=2551\">만화/라이트노벨</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3728\">본격장르만화</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=4132\">판타지</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=4134&BrowseTarget=List\"><b>드라마틱 판타지</b></a><br /><br /></td></tr></table>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 신간",
+        "headline": "사대의 역설, 조선이 만든/왕쓰샹 지음, 조일수 옮김/너머북스",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403800889",
+        "published_at": "2026-10-07T07:25:00+00:00",
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403800889\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40380/8/cover200/k712131708_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403800889\">사대의 역설, 조선이 만든</a></h2>왕쓰샹 지음, 조일수 옮김 / 너머북스 / 2026년 10월 / ISBN:<span class=\"isbn13\">9791124105108</span><br />정가: <span style=\"color: #FF0202;\">33,000</span>원 / 판매가: <span style=\"color: #FF0202;\">29,700</span>원 / 마일리지: <span style=\"color: #FF0202;\">1,650</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 10월 특별 선물. 태블릿 거치대 · 디저트볼 · 고블렛 · 자판 열쇠고리<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=403800889&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=403800889&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/intro_t.gif\" /><br />'사대'를 교조적 신념이나 위력에 대한 종속이 아니라 조선이 효과적이라고 믿었던 외교의 약칭으로 다시 읽는다. 『사대의 역설, 조선이 만든』은 중국과 소통하기 위해 사용했던 수사와 의례를 통해 조선과 명의 관계를 새롭게 살피며, 명나라의 자의식마저 미묘하게 변형시켜 간 조선의 지능적인 대명 외교사를 추적한다. 왕쓰샹은 조선시대 외교력이 '사대'라는 부정적인 고정관념에 가려져 실제보다 낮게 평가되어 왔다고 지적한다.<br />\n<br />\n조선은 자신보다 훨씬 강한 명나라와 정면으로 맞서는 대신, '도덕적 제국'이라는 관념을 수사와 의례를 통해 반복하며 황제와 그 대리인들에게 조선의 기대에 부응하는 행동이야말로 제국이 되는 최선의 길이라고 설득했다. 저자는 200여 년 동안 이어진 조선과 명의 평화를 이러한 외교적 노력의 결과로 보며, 조선의 의례와 기록 관행을 현실의 단순한 반영이 아니라 현실을 형성하려는 능동적인 전략으로 해석한다.<br />\n<br />\n고 김자현 교수의 제자이자 『조선 왕조의 기원』을 쓴 왕쓰샹은 사신과 통역관, 공녀와 환관 등 양국의 경계인들까지 시야에 넣어 조선-명 관계를 복합적으로 복원한다. 2025 북미아시아학회 제임스 팔레 학술상과 2024 UC버클리 한국학센터 이홍영 도서상 수상작으로, 조선의 외교 전략을 중심에 두고 기존의 한중관계사와 중한관계사와 다른 역사학적 관점을 제시한다.<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br /><p>한국어판 서문 5<br />\n연표 18<br />\n<br />\n도입   한국과 제국의 전통<br />\n제국의 모습·26 | 한중관계사 속 의례와 수사·33<br />\n제국 국가가 아닌 제국 전통·37<br />\n외교의 레퍼토리: 접근 방식과 출처·47<br />\n<br />\n<b>1부  |  공유된 과거</b><br />\n<br />\n<b>1장 위대한 자를 섬기다</b><br />\n사대와 유원·65 | 외교 표문·72<br />\n‘제통 전승’을 인정하다·78 | 명나라 표전문 사건·86<br />\n<br />\n<b>2장 권위의 조건들</b><br />\n실지회복주의의 그늘·99 | 의례 참월·104<br />\n주권으로서의 ‘성교’·111 | 세종의 하늘·117<br />\n세종의 알파벳·123 | 세종의 악사들·129<br />\n<br />\n<b>2부  |  외교의 실천</b><br />\n<br />\n<b>3장 겉모습의 이면</b><br />\n수양의 사명·144 | 요동을 통하는 길·147 | 황제의 조정에서·152<br />\n이중적 진실·155 | 책봉을 받다·165<br />\n<br />\n<b>4장 제국의 이름으로</b><br />\n황실과 경쟁하다: 1459년 진가유의 사행·177<br />\n낭발아한의 죽음: 장녕의 1460년 사행·180<br />\n중개자로서의 명: 마감의 1461년 사행·186<br />\n정의로운 전쟁: 건주에 대한 공격·197<br />\n<br />\n<b>3부  |  에큐메니컬 경계</b><br />\n<br />\n<b>5장 제국을 구슬리다</b><br />\n황제의 우월감·215 | 중개인의 몫·219 | 관료의 생각·226<br />\n<br />\n<b>6장 조선을 표현하다</b><br />\n바다를 표류하다·244 | 변무 운동·249 | 문 밖에 서다·261<br />\n<br />\n<b>7장 의례를 다투다</b><br />\n불안정한 신호들·272 | 교외에서의 영접·276<br />\n왕의 면복·283 | 말로 오랑캐를 복종시키다·293<br />\n<br />\n<b>4부  |  문장의 제국</b><br />\n<br />\n<b>8장 눈부시게 빛나는 꽃들</b><br />\n사회적 실천으로서의 사행시·317 | 산수와 역사·324<br />\n동점지화인가, 동방지화인가?·331 | 『시경』의 재현·340<br />\n<br />\n<b>9장 사신의 미덕</b><br />\n기생을 물리치다·352 | 평판의 정치학·360<br />\n상상된 정자들·371<br />\n<br />\n<b>10장 복종하지 않는 동방</b><br />\n기자신화의 설화 체계·381 | 공간의 생산·388<br />\n조작된 고대·394 | 고전의 재해석·402<br />\n<br />\n결론 도덕적 제국이라는 신화<br />\n임진전쟁과 그 이후·415<br />\n과거에는 ‘올바른 이름’이 없다·423<br />\n<br />\n왕조와 통치자들 431<br />\n미주 436<br />\n참고문헌 516<br />\n옮긴이 후기 552<br />\n찾아보기 575</p><br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=74\">역사</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=52589\">조선사</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1955&BrowseTarget=List\"><b>조선시대 일반</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=74\">역사</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=52594\">중국사</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1962&BrowseTarget=List\"><b>중국사 일반</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=74\">역사</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=81\">테마로 보는 역사</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=5618&BrowseTarget=List\"><b>교류/관계사</b></a><br /><br /></td></tr></table>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 신간",
+        "headline": "안녕하세요. 반한 사람에게 사랑의 묘약을 의뢰받은 마녀입니다. 1/카마다 지음, 무츠하나 에이코 원작/미스터블루",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403800572",
+        "published_at": "2026-10-07T07:24:00+00:00",
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403800572\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40380/5/cover200/k772131708_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403800572\">안녕하세요. 반한 사람에게 사랑의 묘약을 의뢰받은 마녀입니다. 1</a></h2>카마다 지음, 무츠하나 에이코 원작 / 미스터블루 / 2026년 10월 / ISBN:<span class=\"isbn13\">9791138070355</span><br />정가: <span style=\"color: #FF0202;\">6,500</span>원 / 판매가: <span style=\"color: #FF0202;\">5,850</span>원 / 마일리지: <span style=\"color: #FF0202;\">320</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 만사모 테마 7 : 이게 만화 원작이라고?<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=403800572&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=403800572&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br />제1화<br />제2화<br />제3화<br />제4화<br />제5화<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=2551\">만화/라이트노벨</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3741\">순정만화</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3742&BrowseTarget=List\"><b>레이디스 코믹</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=2551\">만화/라이트노벨</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3728\">본격장르만화</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=4132\">판타지</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=4134&BrowseTarget=List\"><b>드라마틱 판타지</b></a><br /><br /></td></tr></table>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 신간",
+        "headline": "어스플러스 5 : 지켜야 하는 이유/이돌돌 지음, 박정기 그림, 정은혜 감수/스튜디오프랜쥴",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403798997",
+        "published_at": "2026-10-07T07:13:00+00:00",
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403798997\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40379/89/cover200/k412131708_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403798997\">어스플러스 5 : 지켜야 하는 이유</a></h2>이돌돌 지음, 박정기 그림, 정은혜 감수 / 스튜디오프랜쥴 / 2026년 10월 / ISBN:<span class=\"isbn13\">9791199198050</span><br />정가: <span style=\"color: #FF0202;\">16,800</span>원 / 판매가: <span style=\"color: #FF0202;\">15,120</span>원 / 마일리지: <span style=\"color: #FF0202;\">840</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 가장 주목받는 어린이 화제의 책 + 캐리어·백 리플렉터 택 세트(택 1, 대상도서 15,000원 이상)<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=403798997&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=403798997&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/intro_t.gif\" /><br />《어스플러스》는 지구의 지질학적 역사를 재현한 탄탄한 스토리에 과학 지식을 자연스럽게 담아낸 유일한 학습만화이다. 이야기 자체가 교과 개념과 유기적으로 연결되어 있어, 단순히 재미만 주는 것이 아니라 흥미로운 스토리에 몰입하는 것만으로도 학습 효과를 극대화할 수 있다. <br />\n<br />\n5권에서는 미노와 마지카 자객 앙페르 페러데이의 대결을 중심으로 이야기가 펼쳐진다. 철 엘리킹과 구리 엘리킹의 도움을 받아 강력한 전자기력을 만들어 내는 앙페르 페러데이의 공격에 미노는 속수무책으로 당하고 만다. 그리고 위기에 빠진 미노를 구하기 위한 플루와 어스플러스 탐험대의 숨 막히는 대결이 시작된다.<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br /><p><b>1화 엘리킹을 향한 진심 </b><br />\n- 산과 염기의 중화 반응에 대해서 알아보자 <br />\n- 이온화가 없으면 중화 반응도 없다고? <br />\n<br />\n<b>2화 지켜야 하는 이유 </b><br />\n- 몸에 질병이 생기는 이유 <br />\n- 항생제는 함부로 쓰면 안 돼요! <br />\n- 셀렉의 배 속에 물이 가득 찬 이유는? <br />\n<br />\n<b>3화 새로운 위협 </b><br />\n- 염소 엘리킹이 궁금해! <br />\n- 미노를 끌어당긴 자기력 <br />\n<br />\n<b>4화 등장! 철 엘리킹과 구리 엘리킹 </b><br />\n- 엘리킹 커플들이 늘어난 이유 <br />\n- 철 엘리킹이 궁금해! <br />\n- 구리 엘리킹이 궁금해! <br />\n<br />\n<b>5화 미노의 위기 그리고... </b><br />\n- 전기와 자기력은 하나! <br />\n- 오르도비스기에 일어난 빙하기와 대멸종 <br />\n<br />\n<b>6화 화성에서의 약속 </b><br />\n- 화성은 지구인의 새로운 보금자리로 적합할까? <br />\n- 화산이 궁금해! <br />\n- 화산 폭발 후 생겨난 다양한 화산 지형들 <br />\n<br />\n<b>7화 다시 만나다 </b><br />\n- 우리 몸의 특별한 펌프, 심장 <br />\n- 심장이 혈관을 통해 피를 순환시킬 때 일어나는 일: 순환계 </p><br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1108\">어린이</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48804\">초등3~4학년</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48843&BrowseTarget=List\"><b>학습만화</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1108\">어린이</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48805\">초등5~6학년</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48853&BrowseTarget=List\"><b>학습만화</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1108\">어린이</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48809\">과학/수학/컴퓨터</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48867&BrowseTarget=List\"><b>과학 일반</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1108\">어린이</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=112080&BrowseTarget=List\"><b>학습만화</b></a><br /><br /></td></tr></table>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 신간",
+        "headline": "요리 군과 다시 만날 수는 없어! 3/Sumio Hataya 지음, 신혜선 옮김/서울미디어코믹스(서울문화사)",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403790452",
+        "published_at": "2026-10-07T06:14:00+00:00",
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403790452\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40379/4/cover200/k012131697_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403790452\">요리 군과 다시 만날 수는 없어! 3</a></h2>Sumio Hataya 지음, 신혜선 옮김 / 서울미디어코믹스(서울문화사) / 2026년 10월 / ISBN:<span class=\"isbn13\">9791142830846</span><br />정가: <span style=\"color: #FF0202;\">6,500</span>원 / 판매가: <span style=\"color: #FF0202;\">5,850</span>원 / 마일리지: <span style=\"color: #FF0202;\">320</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: <요리 군과 다시 만날 수는 없어!2>북마크(대상도서 포함 만화.라노벨 분야 1만 5천원 이상 구매 시)<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=403790452&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=403790452&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=2551\">만화/라이트노벨</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3741\">순정만화</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=3743&BrowseTarget=List\"><b>틴에이지 순정</b></a><br /><br /></td></tr></table>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Blockers by Michael Lewis review – the quiet heroes who tried to stop Doge",
+        "source_url": "https://www.theguardian.com/books/2026/oct/07/blockers-by-michael-lewis-review-the-quiet-heroes-who-tried-to-stop-doge",
+        "published_at": "2026-10-07T06:00:35+00:00",
+        "summary": "<p>The author of Moneyball brings his exceptional narrative skills to bear on Musk’s anti-government crusade</p><p>Donald Trump’s catastrophic errors get so much attention that his systemic ones can easily be missed. While the world looks on in dismay at his farcical war in Iran, the thuggery of Ice agents or clownish attacks on erstwhile allies like Canada and Denmark, the core functions of the American government are slowly disintegrating.</p><p>It is harder to get people to focus on the machinery of the state because the effects are often slow and hard to pin down. Outbreaks of disease – such as the recent wave of <a href=\"https://www.theguardian.com/us-news/2026/jul/03/cdc-investigates-parasite-explosive-diarrhea\">explosive diarrhoea</a> across the US – might have happened anyway, but were probably made worse by lay-offs at the Centers for Disease Control. Likewise, Trump is not directly responsible for natural disasters, but response times in the past year may have been hampered by mass redundancies at the National Weather Service. Cuts to tax collection also seem to have reduced revenue by multiple billions, though we cannot be sure of the causal relationship.</p> <a href=\"https://www.theguardian.com/books/2026/oct/07/blockers-by-michael-lewis-review-the-quiet-heroes-who-tried-to-stop-doge\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 신간",
+        "headline": "실전 시황 트레이딩/이진호(디앤서) 지음/스티어",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403787209",
+        "published_at": "2026-10-07T05:39:00+00:00",
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403787209\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40378/72/cover200/k332131696_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403787209\">실전 시황 트레이딩</a></h2>이진호(디앤서) 지음 / 스티어 / 2026년 10월 / ISBN:<span class=\"isbn13\">9791199509047</span><br />정가: <span style=\"color: #FF0202;\">22,000</span>원 / 판매가: <span style=\"color: #FF0202;\">19,800</span>원 / 마일리지: <span style=\"color: #FF0202;\">1,100</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 10월 특별 선물. 태블릿 거치대 · 디저트볼 · 고블렛 · 자판 열쇠고리<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=403787209&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=403787209&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/intro_t.gif\" /><br />오늘 시장에 돈이 어디로 흘러가는지 파악하는 일, 그것이 시황을 본다는 말이다. 『실전 시황 트레이딩』은 20대에 주식 투자로 1억 원을 잃은 뒤 카피 트레이딩으로 계좌를 다시 플러스로 돌리고, 시황을 배우며 매매를 바꿔온 젊은 트레이더 디앤서의 실패 극복과 실전 매매 노하우를 담았다. 시황을 어떻게 봐야 하는지부터 가장 효율적인 종목 선정 방법까지 실제 경험을 바탕으로 설명한다.<br />\n<br />\n시황을 바탕으로 종가 베팅, 돌파, 테마주, 수급주, 상한가 따라잡기까지 5가지 매매 기법을 소개한다. 특히 직장인과 생활인의 하루 리듬에 맞춰 도전할 수 있는 종가 베팅은 출근 전, 점심시간, 퇴근 후로 나눠 시간대별 행동 요령과 매매 절차를 자세히 공개한다. 각 매매의 진입 기준과 원칙, 실전 매매 사례와 체크리스트를 통해 시황에 맞춰 적절한 매매 방법을 선택하는 기준을 익힐 수 있도록 했다.<br />\n<br />\n저자는 자신을 아직 성장하고 있는 트레이더라고 밝히며, 누구나 할 수 있다고 말하는 대신 자신이 겪은 손실과 실패, 복기 과정을 그대로 보여준다. 65만 원으로 다시 시작한 실제 계좌와 손실·수익 계좌를 공개하고, 네이버 프리미엄콘텐츠 칼럼과 영상 QR코드, 현재 사용하는 HTS 모니터 세팅 자료도 수록했다. 매매 기법보다 시황을 읽는 능력을 중심에 두고, 시장의 돈이 흐르는 방향에 맞춰 자신의 매매 기준을 세우도록 돕는다.<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br /><p><b>프롤로그 - </b>소액의 신화, 1억을 잃고 다시 일어나 65만 원으로 월 억 트레이더가 되다<br />\n<br />\n<b>1장. </b><br />\n<b>나는 주식에 모든 것을 걸었다</b><br />\n<br />\n보고 만질 수 있었던 가난<br />\n주식시장으로의 첫발<br />\n1억 원 깡통 트레이더, 낭떠러지에서 돌아서다<br />\n[QR] 소액 연습의 중요성<br />\n나를 성장시킨 선배와 동료<br />\n[QR] 1억 원을 복구하고 꾸준히 수익 낸 방법<br />\n[QR] 카피 트레이딩의 중요성<br />\n시황 올라운더 트레이더가 된 이유<br />\n누구나 수업료를 내야 한다면<br />\n<br />\n<b>2장. </b><br />\n<b>관점 만들기, 시황과 돈의 흐름</b><br />\n<br />\n매매 기법보다 관점이 먼저다<br />\n시황은 모든 매매의 근본이다<br />\n매매 결과는 장 전에 결정된다<br />\n관심 종목을 고르는 법<br />\n[실전 사례] 관점이 매매가 되는 순간<br />\n<br />\n<b>3장. </b><br />\n<b>가장 효율적인 종목 선정법</b><br />\n<br />\n매매하기 좋은 종목의 조건<br />\n① 섹터와 테마<br />\n② 거래대금과 상승률<br />\n③ 재료<br />\n④ 차트<br />\n⑤ 호가창의 두께<br />\n소음을 피해 진짜 재료 찾기<br />\n[실전 사례] 뉴스에서 재료 찾는 법<br />\n나의 0순위 종목<br />\n종목 선정 체크리스트<br />\n[실전 사례] 0순위 선정 과정<br />\n수급주 종목 선정의 기준<br />\n[실전 사례] 외국인과 기관 수급 체크법<br />\n프로그램 매매와 거래원 체크<br />\n<br />\n<b>4장. </b><br />\n<b>나의 다섯 가지 트레이딩 무기들</b><br />\n<br />\n종가 베팅: 진입장벽이 가장 낮은 매매법<br />\n종가 베팅의 장단점<br />\n종가 베팅 전 미리 확인해야 할 세 가지<br />\n종가 베팅 종목 선정 루틴<br />\n정규장과 프리 마켓, 애프터 마켓<br />\n종가 베팅 진입의 기준과 원칙<br />\n종가 베팅의 종류와 조건들<br />\n[실전 사례] 종가 베팅 매매일지<br />\n[QR] 상황에 맞는 종가 베팅 전략 세 가지<br />\n종가 베팅 체크리스트<br />\n돌파 매매: 장중 매매의 꽃<br />\n돌파 매매는 왜 장중 매매의 꽃인가?<br />\n돌파 매매와 종가 베팅의 차이점<br />\n돌파 매매의 핵심은 주도주<br />\n돌파 매매 진입의 기준과 원칙<br />\n돌파 매매 종목 선정 루틴<br />\n[실전 사례] 돌파 매매 매매일지<br />\n돌파 매매 체크리스트<br />\n테마주 매매: 소액의 꿈<br />\n테마주란 무엇인가?<br />\n소액으로 기회를 노리는 테마주<br />\n매매하기 좋은 테마와 나쁜 테마<br />\n대장주와 후속주, ...<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=170\">경제경영</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=172\">재테크/투자</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=174&BrowseTarget=List\"><b>주식/펀드</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=170\">경제경영</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=172\">재테크/투자</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=2225&BrowseTarget=List\"><b>재테크/투자 일반</b></a><br /><br /></td></tr></table>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 신간",
+        "headline": "뭐든 시로 보이는 안경/김미희 지음, 박미나 그림/단비어린이",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403784346",
+        "published_at": "2026-10-07T05:08:00+00:00",
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403784346\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40378/43/cover200/8963014509_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403784346\">뭐든 시로 보이는 안경</a></h2>김미희 지음, 박미나 그림 / 단비어린이 / 2026년 10월 / ISBN:<span class=\"isbn13\">9788963014500</span><br />정가: <span style=\"color: #FF0202;\">13,500</span>원 / 판매가: <span style=\"color: #FF0202;\">12,150</span>원 / 마일리지: <span style=\"color: #FF0202;\">670</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 10월 특별 선물. 태블릿 거치대 · 디저트볼 · 고블렛 · 자판 열쇠고리<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=403784346&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=403784346&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/intro_t.gif\" /><br />국어사전을 펼쳐서 낱말을 뽑아 볼까? 어렵고 막막한 시 쓰기 숙제 앞에서 고민하는 친구들에게 김미희 시인이 오다가 주운 특별한 안경을 빌려준다. 이 안경을 쓰면 세상의 모든 단어가 다 시로 보인다. <br />\n<br />\n눈, 코, 입, 귀, 손, 발 등 신체 기관을 통해 느낀 것을 짧게 써 내려간 노래들. 한두 줄로 톡 터지는 재미있는 동시 놀이가 시작된다. 김미희 시인이 선물하는 이 마법의 안경을 끼고, 세상을 시로 인식하는 힘인 나만의 '시력(詩力)'을 쑥쑥 키워 보자.<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br /><p><b>1장 가나다 시가 쏙</b><br />\n가랑비 12 ｜ 가면 13｜ 가위바위보 14｜ 개구리 15｜ 거북이 16｜ 계단 17｜ 고구마 18｜ 고드름 19｜ 광고 20｜ 구두 굽 21｜ 그냥 22｜ 그늘 23｜ 기적 24｜ 김 25｜ 까다 26｜ 나비1 27｜ 나비2 28｜ 낙엽 29｜ 낙타 30｜ 냉동실 31｜ 느티나무 32｜ 늘 33｜ 단춧구멍 34｜ 단축키 35｜ 달걀 36｜ 달팽이 37｜ 당근 38｜ 동그라미 39｜ 되고 40｜ 들꽃 41｜ 등대 42｜ 땅콩 43｜ 똑똑 44<br />\n<br />\n<b>2장 라라라 리본 묶은 시</b><br />\n마음 48｜ 마침표 49｜ 마트료시카 50｜ 만두와 김밥 51｜ 망치 52｜ 모래 53｜ 무당벌레 54｜ 물 55｜ 미꾸라지1 56｜ 미꾸라지2 57｜ 바람 58｜ 바위 59｜ 바람개비 60｜ 배추 61｜ 버섯 62｜ 번개 63｜ 벚꽃 64｜ 부리나케 65｜ 브로콜리 66｜ 비눗방울 67｜ 빈 병 68｜ 빈 병 상자 69<br />\n<br />\n<b>3장 상큼상큼 시 안경</b><br />\n사과 72｜ 산길 73｜ 산타 74｜ 선물 상자 75｜ 선풍기 76｜ 소파 77｜ 수박 78｜ 실패 79｜ 아이스크림 80｜ 안경 81｜ 애벌레 82｜ 어둠 83｜ 연필깎이 84｜ 염려대왕 85｜ 유머 86｜ 양말 87｜ 오늘 88｜ 오리 89｜ 오뚝이 90｜ 온돌 91｜ 올챙이 92｜ 와 93｜ 와플 94｜ 용돈 95｜ 우동 96｜ 운동화 97｜ 이어폰 98｜ 장맛비 99｜ 조약돌과 수초 100｜ 지갑 101｜ 지느러미 102<br />\n<br />\n<b>4장 차근차근 나도 써 볼까?</b><br />\n찰칵 106｜ 참외와 바나나 107｜ 칫솔 108｜ 코감기 109｜ 킹콩 110｜ 파도 111｜ 포도송이1 112｜ 포도송이2 113｜ 풍선 114｜ 해1 115｜ 해2 116｜ 허겁지겁 117｜ 허수아비 118｜ 100번째, 내가 쓴 시 121</p><br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1108\">어린이</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48808\">초등 전학년</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48862&BrowseTarget=List\"><b>동시/동요</b></a><br /><br /></td></tr></table>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Klaus Krogh, Renowned Bible Designer, Dies at 74",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/religion/article/101465-klaus-krogh-renowned-bible-designer-dies-at-74.html",
+        "published_at": "2026-10-07T04:00:00+00:00",
+        "summary": "Klaus Krogh, Renowned Bible Designer, Dies at 74"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 신간",
+        "headline": "지지 않는 벚꽃/유즈키 유코 지음, 김지연 옮김/문예춘추사",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403775206",
+        "published_at": "2026-10-07T03:21:00+00:00",
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403775206\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40377/52/cover200/8976048350_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403775206\">지지 않는 벚꽃</a></h2>유즈키 유코 지음, 김지연 옮김 / 문예춘추사 / 2026년 10월 / ISBN:<span class=\"isbn13\">9788976048356</span><br />정가: <span style=\"color: #FF0202;\">18,000</span>원 / 판매가: <span style=\"color: #FF0202;\">16,200</span>원 / 마일리지: <span style=\"color: #FF0202;\">900</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 10월 특별 선물. 태블릿 거치대 · 디저트볼 · 고블렛 · 자판 열쇠고리<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=403775206&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=403775206&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/intro_t.gif\" /><br />경찰의 부실 대응으로 한 여대생이 목숨을 잃는다. 스토킹 피해를 신고했음에도 경찰이 신고 접수를 미룬 사실이 알려지면서 경찰 조직은 거센 비난에 휩싸인다. 현경 홍보과 직원 모리구치 이즈미는 사건을 취재한 신문 기자이자 가장 친한 친구인 쓰무라 지카를 의심하게 된다. 경찰 내부에서 흘러나온 정보가 기사화되었기 때문이다. 하지만 지카는 자신이 그 기사를 쓰지 않았다며, 이 사건에는 알려지지 않은 내막이 있다고 말한다.<br />\n<br />\n그리고 일주일 후, 지카가 강 하류에서 변사체로 발견된다. 친구의 말을 믿지 못했다는 죄책감을 안은 이즈미는 지카가 죽기 전 무엇을 쫓고 있었는지 하나씩 추적하기 시작한다. 하지만 사건을 파헤칠수록 드러나는 것은 한 기자의 죽음에 관한 진실만이 아니다. 경찰 조직의 침묵과 정보 은폐, 서로 다른 정의를 좇는 사람들, 그리고 국가의 안녕이라는 이름 아래 외면된 한 사람의 삶이 모습을 드러낸다.<br />\n<br />\n《지지 않는 벚꽃》은 경찰 조직을 무대로 한 사회파 미스터리다. 범인을 찾는 데 그치지 않고, 사건 뒤에 놓인 조직의 논리와 권력의 구조, 그 안에서 서로 다른 선택을 하는 사람들의 심리를 치밀하게 그려낸다.<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br /><p>1장 … 007<br />\n2장 … 084<br />\n3장 … 179<br />\n4장 … 256<br />\n5장 … 318<br />\n종장 … 374<br />\n<br />\n해설 … 406</p><br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1\">소설/시/희곡</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=50918\">일본소설</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=50998&BrowseTarget=List\"><b>1950년대 이후 일본소설</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1\">소설/시/희곡</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=50926\">추리/미스터리소설</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51058&BrowseTarget=List\"><b>일본 추리/미스터리소설</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1\">소설/시/희곡</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=50955\">세계의 문학</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51255&BrowseTarget=List\"><b>일본문학</b></a><br /><br /></td></tr></table>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 신간",
+        "headline": "숲은 질문을 품은 이야기 보따리/문갑용.김미숙 지음/목수책방",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403774589",
+        "published_at": "2026-10-07T03:16:00+00:00",
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403774589\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40377/45/cover200/k922131694_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403774589\">숲은 질문을 품은 이야기 보따리</a></h2>문갑용.김미숙 지음 / 목수책방 / 2026년 10월 / ISBN:<span class=\"isbn13\">9791188806850</span><br />정가: <span style=\"color: #FF0202;\">23,000</span>원 / 판매가: <span style=\"color: #FF0202;\">20,700</span>원 / 마일리지: <span style=\"color: #FF0202;\">1,150</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 10월 특별 선물. 태블릿 거치대 · 디저트볼 · 고블렛 · 자판 열쇠고리<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=403774589&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=403774589&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/intro_t.gif\" /><br />최고의 놀이터이자 배움터인 숲에서 아이와 함께 자연의 생명들을 호기심 어린 시선으로 관찰하고, 온갖 자연물을 이용해 놀면서 자연과 친해질 수 있도록 다양한 방법을 제안하는 ‘숲활동’ 안내서다. 초보 숲해설가와 부모는 물론, 자연과 좀 더 깊이 연결되고 싶은 어른에게도 숲 관찰 길잡이가 되어 준다.<br />\n<br />\n감나무, 강아지풀, 개구리, 개미, 도토리, 딱따구리, 목련, 매미, 버섯, 지렁이, 청서, 호랑나비 등 쉽게 만날 수 있는 90여 가지 자연의 조각을 다룬다. 식물과 동물뿐 아니라 비, 그림자, 돌, 흙, 통나무, 숲길까지 관찰과 놀이의 대상으로 삼아 무엇을 보고 어떤 질문을 던지며, 발견한 것을 어떻게 놀이와 이야기로 이어 갈지 보여 준다.<br />\n<br />\n오랜 시간 숲해설가·생태교육가로 현장에서 아이들과 만나 온 저자는 자연에 존재하는 거의 모든 것이 질문과 놀이의 출발점이 될 수 있다고 강조한다. 관찰과 놀이가 자연스럽게 생태 지식으로 이어지도록 돕고, 90여 가지 자연의 조각마다 관찰과 놀이에 좋은 시기, 자료 사진과 주요 관찰 지점, 숲활동 준비물과 주의점도 함께 안내한다.<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br /><p>여는 글<br />\n책을 읽기 전에<br />\n<br />\n감나무 | 달콤한 열매 속에 감쪽같이 숨은 사실<br />\n강아지풀 | ‘쌀 맛’ 나는 강아지풀, ‘살맛’ 나는 참새의 한 끼<br />\n개구리 | 개구리, 도롱뇽, 두꺼비, 얼굴도 알도 다른 모양<br />\n개나리 | 통째로 하나니까 ‘통꽃’, 갈래갈래 나뉘니까 ‘갈래꽃’<br />\n개망초 | 사랑의 꽃다발이 된 ‘계란프라이’<br />\n개미 | 작은 생명이 만드는 땅속 세계<br />\n겨울눈 | 미래의 모든 것을 담은 낙하산<br />\n계수나무 | 사랑으로 자라나는 향기로운 하트<br />\n고마리 | 초록 우주에 펼친 성운<br />\n고사리 | 작은 고사리의 오래된 과거<br />\n괭이밥 | 고양이 밥이지만 우리도 먹을 수 있지<br />\n굴참나무 | 엽록소와 기공, ‘밥팀’과 ‘숨팀’의 공방<br />\n그림자 | 그림자를 벗 삼아 노는 숲길<br />\n기러기 | 10월, 기러기가 돌아왔네<br />\n깃털 | 아는 새 이름을 말해 보자<br />\n꽃다지와 꽃마리 | 새봄 우리 주변의 작은 풀꽃과 친해지기<br />\n꽃사과나무 | 과일이 아니라 꽃을 봐 주세요<br />\n<br />\n나뭇가지(작은 것) | 뿌리 만들기, 쌓아 올리기, 생각의 시간<br />\n나뭇가지(큰 것) | 들어 옮기기, 인디언 집 만들기<br />\n나비와 나방 | 사는 방식만 좀 다를 뿐<br />\n나이테 | 한번 새긴 흔적은 바꿀 수 없지<br />\n낙엽 | 긴 겨울 끌어안는 나무의 생리<br />\n냉이 | 사랑의 캡슐이 찰랑찰랑<br />\n누리장나무 | 잎으로, 꽃으로, 열매로<br />\n느티나무 | 둥글게 둥글게<br />\n<br />\n단풍나무 | 왜 날개를 달게 되었냐면<br />\n단풍잎돼지풀 | 단단한 줄기 속에 푹신한 스펀지<br />\n달팽이 | 대하기에 따라 의미가 달라지는 자연<br />\n담쟁이덩굴 | 말없이 ‘어쩔 수 없는 벽’을 오른다<br />\n대왕참나무 | 단풍이 들고 나서 나무가 하는 일<br />\n도꼬마리 | ‘찍찍이’ 열매의 플랜 B, 짝짝이 씨앗<br />\n도토리 | 참나무와 ‘인기쟁이’ 도토리 이야기<br />\n도토리 애벌레 | 흥미진진 도토리 속 애벌레 찾기<br />\n돌 | 흔해 보여도 귀한 숲속의 돌<br />\n두더지 | 본 적은 없지만 왠지 친숙한 녀석<br />\n딱따구리 | 뚝딱뚝딱 드르르르, 집을 짓는 새<br />\n떡갈나무잎 | 가장 큰 잎으로 놀자<br />\n뜰보리수 | 무당벌레가 뜰보리수잎에 모인 이유<br />\n<br />\n로제트 | 가만 엎드려 겨울을 견디는, 장미를 닮은 잎들<br />\n<br />\n명자꽃 | 달콤한 꿀맛까지 반전의 반전<br />\n매미 | 기후변화 시대에 점점 커...<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=2030\">좋은부모</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51767\">교육/학습</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51792&BrowseTarget=List\"><b>놀이/체험학습</b></a><br /><br /></td></tr></table>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 신간",
+        "headline": "내 피부색이 어때서!/최선민(자몽쌤) 지음, 권송이 그림/토토북",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403774348",
+        "published_at": "2026-10-07T03:13:00+00:00",
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403774348\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40377/43/cover200/8964965647_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403774348\">내 피부색이 어때서!</a></h2>최선민(자몽쌤) 지음, 권송이 그림 / 토토북 / 2026년 10월 / ISBN:<span class=\"isbn13\">9788964965641</span><br />정가: <span style=\"color: #FF0202;\">15,000</span>원 / 판매가: <span style=\"color: #FF0202;\">13,500</span>원 / 마일리지: <span style=\"color: #FF0202;\">750</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 가장 주목받는 어린이 화제의 책 + 캐리어·백 리플렉터 택 세트(택 1, 대상도서 15,000원 이상)<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=403774348&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=403774348&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/intro_t.gif\" /><br />현직 교사이자 베스트셀러 『오늘부터 초등 지식왕』, 『최소한의 초등 상식 100』 작가로 어린이들의 사랑을 받는 최선민 작가가 신간 『내 피부색이 어때서!』로 돌아왔다! 바닷가 학교 ‘산호초’를 무대로 다문화 사회 속 갈등과 해결을 예리하게 파고든 ‘사회 동화’다. ‘민주주의’를 테마로 한 『학생회장이 뭐길래!』 후속작으로 이번에는 ‘세계 시민 의식’을 다루었다.<br />\n<br />\n동화는 학생 기자 아름이의 눈을 따라 이주 배경 친구들의 고민을 보고 듣는 한편, 우리가 무심코 품는 차별과 편견의 문제를 꼬집는다. 어느 날 외국인 관광객의 쓰레기 투기 사건으로 개인의 잘못이 외국인 집단 전체를 향한 비난으로 향하자, 아름이와 친구들은 혐오의 말 대신 대화로, 비난 대신 솔선수범으로 지역문제를 해결하자고 어른들을 설득하려 한다.<br />\n<br />\n때로는 웃음을, 때로는 코끝 찡한 감동을 안기는 장면들은 작가가 교단에서 직접 겪은 경험이 토대가 되었다. 이야기 속에서 이주 배경 어린이들은 각자 자신의 개성을 소중히 여기면서도 부족한 면을 솔직하게 인정하고 우리 문화를 배워 간다. 새로운 언어와 낯선 생활 방식에 적응해야 할 아이들에게는 용기를, 앞으로 더 다양한 문화를 만나 포용력 있는 리더로 성장해야 할 우리 미래 세대에게 세계 시민 정신과 문화 상대주의의 철학을 선사하는 책이다.<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br /><p>등장인물 4<br />\n<br />\n산호초등학교에 온 것을 환영해! 8<br />\n<br />\n1 같지만 다른 12<br />\n2 보이지 않는 상처 24<br />\n3 깜짝 발표 34<br />\n4 축제가 시작됐다 44<br />\n5 바다에 버려진 쓰레기 54<br />\n6 더 이상 참을 수 없어 66<br />\n7 우리가 할 수 있는 일 74<br />\n8 세계 공감 운동회 86<br />\n<br />\n아름이와 함께 다름을 이해하는 법을 배워 볼까요? 99<br />\n-누구나 살아온 배경은 달라 100<br />\n-가족의 모습에 정답은 없어 102<br />\n-우리나라 이주민 역사 104<br />\n<br />\n작가의 말 106</p><br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1108\">어린이</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48804\">초등3~4학년</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48837&BrowseTarget=List\"><b>동화/명작/고전</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1108\">어린이</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48813\">사회/역사/철학</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48907&BrowseTarget=List\"><b>인권/평등</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1108\">어린이</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48810\">동화/명작/고전</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=49223&BrowseTarget=List\"><b>학습동화</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1108\">어린이</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48813\">사회/역사/철학</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=89740&BrowseTarget=List\"><b>사회 일반</b></a><br /><br /></td></tr></table>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 신간",
+        "headline": "특별함을 만드는 일/조엘 킴벡 지음/북스톤",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403773808",
+        "published_at": "2026-10-07T03:07:00+00:00",
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403773808\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40377/38/cover200/k762131693_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403773808\">특별함을 만드는 일</a></h2>조엘 킴벡 지음 / 북스톤 / 2026년 10월 / ISBN:<span class=\"isbn13\">9791175230613</span><br />정가: <span style=\"color: #FF0202;\">23,000</span>원 / 판매가: <span style=\"color: #FF0202;\">20,700</span>원 / 마일리지: <span style=\"color: #FF0202;\">1,150</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 10월 특별 선물. 태블릿 거치대 · 디저트볼 · 고블렛 · 자판 열쇠고리<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=403773808&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=403773808&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/intro_t.gif\" /><br />뉴욕에서 20여 년 동안 패션과 뷰티, 리테일과 라이프스타일 분야의 브랜드와 일해온 크리에이티브 디렉터 조엘 킴벡이 현장에서 쌓은 경험과 관찰을 담았다. 자크뮈스, 아크네 스튜디오, 토템, 톰 포드 등 다양한 브랜드를 통해 오래 살아남는 브랜드가 가진 자기만의 기준과 선택이 어떻게 특별함으로 이어지는지 살펴본다.<br />\n<br />\n1부에서는 자크뮈스와 아크네 스튜디오, 토템 등을 통해 이미 가진 강점과 경험을 자기만의 방식으로 조합해 특별함을 만드는 과정을 다룬다. 2부에서는 루이비통, 바이레도, 알로, K-뷰티 사례를 통해 브랜드가 제품의 경계를 넘어 이미지와 공간, 문화와 라이프스타일까지 자신의 세계를 확장하는 방식을 살펴본다.<br />\n<br />\n3부에서는 글로시에와 에르메스, 티파니앤코 등을 통해 만들어낸 특별함을 오래 지키는 문제를 다룬다. 저자는 성공한 브랜드의 공식을 제시하기보다 화제를 만드는 브랜드와 대체되지 않는 브랜드의 차이를 짚으며, 카테고리의 이름 뒤에 숨지 않고 하나의 브랜드로 기억되기 위해 무엇을 쌓아야 하는지 묻는다.<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br /><p><b>Part 1. 특별함을 만들다 : 처음부터 특별한 브랜드는 없었다</b><br />\nChapter 1. 어떻게 가든 로마로 가면 된다_아크네 스튜디오<br />\nChapter 2. 누군가 먼저 간 길을 따라가다_아우구스티누스 바더<br />\nChapter 3. 스스로 위엄을 부여하다_자크뮈스<br />\nChapter 4. 태생부터 럭셔리 브랜드_톰 포드<br />\nChapter 5. 룰은 없지만 패턴은 있다_토템<br />\n<br />\n<b>Part 2. 특별함을 확장하다 : 브랜드가 하나의 세계가 되는 순간</b><br />\nChapter 6. ‘디렉터’라는 이름의 네비게이터_루이비통<br />\nChapter 7. 향수가 아니다, 새로운 가치다_바이레도<br />\nChapter 8. 웰니스가 럭셔리다_알로<br />\nChapter 9. 대안(對案)과 대안(代案) 사이_세포라라 쓰고, K-뷰티라 읽는다<br />\n<br />\n<b>Part 3 특별함을 지속하다 : 오래 남은 브랜드와 사라진 브랜드</b><br />\nChapter 10. 유니콘의 흥망성쇠_글로시에<br />\nChapter 11. 1등은 쉬지 않는다_에르메스<br />\nChapter 12. 하드 럭셔리의 시대_티파니앤코<br />\nChapter 13. 일본은 있다_ 일본 브랜드에는 있고, 한국 브랜드에는 없다_이세이 미야케, 꼼데가르송, 시세이도, 산토리, 닷사이, 호시노 리조트<br />\n<br />\n에필로그</p><br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=170\">경제경영</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=261\">마케팅/세일즈</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1632&BrowseTarget=List\"><b>마케팅/브랜드</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=170\">경제경영</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=2172\">기업 경영</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=2173&BrowseTarget=List\"><b>경영전략/혁신</b></a><br /><br /></td></tr></table>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 신간",
+        "headline": "중요한 건 질문이야/필립 발 지음, 베르나르두 P. 카르발류 그림, 박병철 옮김/북극곰",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403772911",
+        "published_at": "2026-10-07T03:01:00+00:00",
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403772911\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40377/29/cover200/k442131693_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403772911\">중요한 건 질문이야</a></h2>필립 발 지음, 베르나르두 P. 카르발류 그림, 박병철 옮김 / 북극곰 / 2026년 09월 / ISBN:<span class=\"isbn13\">9791165885342</span><br />정가: <span style=\"color: #FF0202;\">18,000</span>원 / 판매가: <span style=\"color: #FF0202;\">16,200</span>원 / 마일리지: <span style=\"color: #FF0202;\">900</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 가장 주목받는 어린이 화제의 책 + 캐리어·백 리플렉터 택 세트(택 1, 대상도서 15,000원 이상)<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=403772911&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=403772911&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/intro_t.gif\" /><br />암기 위주의 과학 교육에서 벗어나 과학의 본질인 '질문하는 힘'을 길러 주는 어린이·청소년용 과학 교양서다. 세계적인 과학 잡지 「네이처」에서 20년 넘게 편집자로 일하며 과학 대중화에 기여해 온 필립 발은 물리학의 '어떻게'와 '왜', 화학의 '물질의 구성', 생물학의 '생명의 본질'이라는 세 가지 근본적인 질문을 제시한다.<br />\n<br />\n단순히 정보를 나열하는 참고서가 아니라 세 가지 큰 축을 따라가며 파편화된 과학 지식을 하나의 풍경화처럼 연결해 보여 준다. 아벤티스 과학도서상 수상 작가인 필립 발은 지식의 축적보다 상상력과 생각하는 능력이 중요하다고 강조하며, 과학자의 진짜 임무는 정답을 찾는 것이 아니라 '정곡을 찌르는 질문'을 찾는 데 있음을 전한다.<br />\n<br />\n알마 상과 볼로냐 라가치 상을 수상한 베르나르두 P. 카르발류의 일러스트가 과학 원리를 직관적이고 예술적인 시각으로 풀어냈다. 한국과학기술도서상 번역상 수상자인 박병철 박사의 번역과 해설을 더해, 어린이 독자들이 복잡한 과학의 세계를 큰 흐름 속에서 이해하도록 이끈다.<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br /><p>추천사<br />\n서문 다재다능한 젊은 과학자를 찾습니다!<br />\n제1장 세 가지 중요한 질문<br />\n제2장 대체 과학이 뭐야?<br />\n제3장 그 일은 ‘어떻게’, 그리고 ‘왜’ 일어났을까?<br />\n제4장 물질은 무엇으로 이루어져 있을까?<br />\n제5장 생명이란 무엇인가?<br />\n제6장 과학, 그거 정말 믿을 만한 거야?</p><br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1108\">어린이</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48804\">초등3~4학년</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48834&BrowseTarget=List\"><b>과학/수학/사회</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1108\">어린이</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48805\">초등5~6학년</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48844&BrowseTarget=List\"><b>과학/수학/사회</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1108\">어린이</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48809\">과학/수학/컴퓨터</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48867&BrowseTarget=List\"><b>과학 일반</b></a><br /><br /></td></tr></table>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 신간",
+        "headline": "곤충 탐정 강충 : 육식 베짱이 습격 사건/송라음 지음, 란탄 그림/사계절",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403770273",
+        "published_at": "2026-10-07T02:33:00+00:00",
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403770273\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40377/2/cover200/k862131692_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403770273\">곤충 탐정 강충 : 육식 베짱이 습격 사건</a></h2>송라음 지음, 란탄 그림 / 사계절 / 2026년 10월 / ISBN:<span class=\"isbn13\">9791169815604</span><br />정가: <span style=\"color: #FF0202;\">14,000</span>원 / 판매가: <span style=\"color: #FF0202;\">12,600</span>원 / 마일리지: <span style=\"color: #FF0202;\">700</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: <곤충 탐정 강충: 육식 베짱이 습격 사건> + 작가 친필 사인본<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=403770273&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=403770273&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/intro_t.gif\" /><br />곤충 탐정 강충이 돌아왔다. 고양이 체다 실종 사건을 해결하고 앵곡마을 1호 곤충 탐정이 된 강충에게 곧장 두 번째 의뢰가 들어온 것이다. 이제까지 보이지 않던 낯선 곤충의 등장, 그리고 아주 오래전부터 마을 한귀퉁이에 있던 ‘주인 없는 무덤’을 둘러싼 흉흉한 소문! 강충은 가을밤 부쩍 잦아진 풀벌레 울음소리와 현장에 남은 뜯긴 곤충의 흔적 등을 단서로 삼아 사건을 추적한다.<br />\n<br />\n사계절아동문고 121번째 책 『곤충 탐정 강충 : 육식 베짱이 습격 사건』은 실제로 학계에 보고된 사건에서 출발했다. 제주도와 남부 섬 일부에만 사는 것으로 알려진 섬중베짱이가 서울에서 발견되었던 사건이다. 송라음 작가는 이 연구에서 아이디어를 얻어 <곤충 탐정 강충> 시리즈를 기획했다.<br />\n<br />\n섬중베짱이는 어떻게 앵곡마을에 왔을까? 사람 때문에 낯선 땅에 오게 된 생명에게 가장 좋은 해결 방법은 무엇일까? 강충의 수사는 우리가 무심코 바꾸어 놓은 자연을 돌아보게 하고, ‘제자리로 돌려보내면 그만’이라는 뻔하고 손쉬운 답에 질문을 던진다.<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br /><p>프롤로그: 곤충 탐정의 명예<br />\n1 귀신 사건 아니고 곤충 사건<br />\n2 섬중베짱이의 사각지대<br />\n3 지렁이는 다 커도 지렁이<br />\n4 베를 짜는 베짱이<br />\n5 한밤의 곡예 운전<br />\n6 억새의 친구들<br />\n에필로그: 꿀 도둑의 출현<br />\n작가의 말</p><br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1108\">어린이</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48805\">초등5~6학년</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48846&BrowseTarget=List\"><b>동화/명작/고전</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1108\">어린이</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48810\">동화/명작/고전</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48874&BrowseTarget=List\"><b>국내창작동화</b></a><br /><br /></td></tr></table>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 신간",
+        "headline": "삼국지톡 14/무적핑크 지음, 이리 그림, 와이랩(YLAB) 기획.제작/문학동네",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403769063",
+        "published_at": "2026-10-07T02:14:00+00:00",
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403769063\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40376/90/cover200/k392131692_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403769063\">삼국지톡 14</a></h2>무적핑크 지음, 이리 그림, 와이랩(YLAB) 기획.제작 / 문학동네 / 2026년 10월 / ISBN:<span class=\"isbn13\">9791141690915</span><br />정가: <span style=\"color: #FF0202;\">17,500</span>원 / 판매가: <span style=\"color: #FF0202;\">15,750</span>원 / 마일리지: <span style=\"color: #FF0202;\">870</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: <삼국지톡 14> + 조운/주유/제갈량 포토카드 (1종 랜덤 삽지)<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=403769063&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=403769063&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/intro_t.gif\" /><br />유표가 죽고 형주 땅을 차지한 조조는 계속해서 세력을 키워간다. 위기감을 느낀 유비는 조조에 맞서기 위해 손권과 힘을 합치기로 결심한다. 이에 제갈량이 강동으로 건너가 손권에게 군사 동맹을 제안하지만 주유는 제갈량과 사사건건 시비를 벌이는데…. 대전투를 눈앞에 두고 펼쳐지는 지략가들의 팽팽한 심리전, ‘적벽대전’ 두번째 이야기를 그린 『삼국지톡』 제14권.<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br /><p>一. 서서와의 짧은 만남 | 二. 위연, 성문을 열다 | 三. 10만 백성들의 주인 | 四. 조조, 형주를 삼키다<br />\n五. 도망치는 미부인 | 六. 아기 안은 조자룡 | 七. 조자룡 vs. 조조군 | 八. 장판교를 지키는 장비<br />\n九. 솥 안에 든 물고기 | 十. 노숙의 방문 | 十一. 조조를 말리는 가후 | 十二. 외로운 손권의 싸움<br />\n十三. 주유의 귀환 | 十四. 물과 불 | 十五. 동작대와 손권의 결심 | 十六. 제갈량 vs. 강동 선비들上<br />\n十七. 제갈량 vs. 강동 선비들下 | 十八. 손권, 책상을 베다 | 十九. 다시 만난 제갈 형제 | 二十. 어라?<br />\n二十一. 술 취한 주유 | 二十二. 조조, 채모를 죽여버리다 | 二十三. 화살 10만 대를 가져오라 | 二十四. 전염병<br />\n二十五. 한숨짓는 방통 | 二十六. 배들을 사슬로 묶으십시오 | 二十七. 火(1) 폭풍전야 | 二十八. 火(2) 손바닥에 쓴 글씨</p><br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=74\">역사</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=52594\">중국사</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1960&BrowseTarget=List\"><b>중국고대사(선사시대~진한시대)</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=2551\">만화/라이트노벨</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=4668\">교양만화</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=4670&BrowseTarget=List\"><b>역사만화</b></a><br /><br /></td></tr></table>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 신간",
+        "headline": "데굴데굴 동시 한 알이 굴러왔다/송선미 지음/문학동네",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403768791",
+        "published_at": "2026-10-07T02:10:00+00:00",
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403768791\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40376/87/cover200/k102131692_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403768791\">데굴데굴 동시 한 알이 굴러왔다</a></h2>송선미 지음 / 문학동네 / 2026년 10월 / ISBN:<span class=\"isbn13\">9791141603724</span><br />정가: <span style=\"color: #FF0202;\">18,000</span>원 / 판매가: <span style=\"color: #FF0202;\">16,200</span>원 / 마일리지: <span style=\"color: #FF0202;\">900</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 가장 주목받는 어린이 화제의 책 + 캐리어·백 리플렉터 택 세트(택 1, 대상도서 15,000원 이상)<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=403768791&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=403768791&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/intro_t.gif\" /><br />송선미 시인의 첫 동시 평론집으로, 화자, 말놀이, 시간, 기억, 돌봄, 여성성 등 열네 가지 키워드를 통해 동시의 세계를 살펴본다. 동시 읽기와 창작 수업에서 쌓은 경험을 바탕으로 어린이 화자의 목소리, 언어 유희와 환상, 시간과 이야기 등 동시를 읽고 쓰는 데 필요한 개념과 작법을 정리했다.<br />\n<br />\n특히 돌봄과 여성성을 중요한 비평의 관점으로 삼아 동시 속 관계와 성장, 성적 불평등과 고정관념의 문제까지 다룬다. 동시를 어린이가 자신의 몸과 마음으로 세계를 향해 발화하는 문학으로 바라보며, 어린이와 어른이 함께 읽고 쓰는 과정에서 발견할 수 있는 연대와 환대의 가능성을 짚는다.<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br /><p>머리말: 언제나 이미 어린이 004<br />\n<br />\n1. 화자: 동시의 화자를 놀이하기 009<br />\n2. 말놀이: 언어의 기쁨, 말놀이 029<br />\n3. 랩동시: 동심 가라사대 십합(詩hiphop)을 놀이할지어다 047<br />\n4. 환상: 환상이 일상을 사용하는 몇 가지 도구 063<br />\n5. 미미크리: ‘처럼’의 세계 085<br />\n6. 연행: 무대 위에 오른 동시 105<br />\n7. 시간: 요청하지 않았어도 찾아온 것들이 121<br />\n8. 미지: 세계의 저쪽 테두리가 수평선 너머에 있어 143<br />\n9. 기억: 여전히 어린이의 세계 동심의 깊은 바다 속에는 159<br />\n10. 호출: 불러오는 것, 버튼 175<br />\n11. 환유: 공통으로 들어갈 말은 191<br />\n12. 이야기: 하얀 종이 위에 적은 대답 209<br />\n13. 돌봄: 내가 ‘기룬’ 것 중 가장 아름다운 것 225<br />\n14. 여성성: 취약한 몸의 존재와 상호 돌봄의 동시 243</p><br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1108\">어린이</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48808\">초등 전학년</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48862&BrowseTarget=List\"><b>동시/동요</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1108\">어린이</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=48808\">초등 전학년</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=89704&BrowseTarget=List\"><b>아동문학론</b></a><br /><br /></td></tr></table>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 신간",
+        "headline": "타이가 열병/크리스티나 리베라 가르사 지음, 안태운 옮김/물결점",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403768118",
+        "published_at": "2026-10-07T02:02:00+00:00",
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403768118\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40376/81/cover200/k942131692_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403768118\">타이가 열병</a></h2>크리스티나 리베라 가르사 지음, 안태운 옮김 / 물결점 / 2026년 10월 / ISBN:<span class=\"isbn13\">9791199533288</span><br />정가: <span style=\"color: #FF0202;\">16,800</span>원 / 판매가: <span style=\"color: #FF0202;\">15,120</span>원 / 마일리지: <span style=\"color: #FF0202;\">840</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 10월 특별 선물. 태블릿 거치대 · 디저트볼 · 고블렛 · 자판 열쇠고리<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=403768118&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=403768118&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/intro_t.gif\" /><br />노벨문학상 후보로 꼽히는 멕시코 작가 크리스티나 리베라 가르사의 작품이 단행본으로 국내에서 소개되는 건 처음이다. 소설가이자 시인, 역사학자인 그는 소설과 시, 에세이와 비평 등 서로 다른 글쓰기 형식이 맞닿는 작업을 해왔는데, 소르 후아나 이네스 데 라 크루스 문학상을 사상 처음으로 두 차례 받았고, 『릴리아나의 무적의 여름』으로 2024년 퓰리처상을 수상했다. <br />\n<br />\n안나 제거스상, 로제 카유아상, 호세 도노소 이베로아메리카 문학상, 하비에르 비야우루티아상, ‘천재들의 상’이라 불리는 맥아더 펠로십까지 더하며, 크리스티나 리베라 가르사는 오늘날 라틴아메리카 문학을 대표하는 작가로 자리매김해 왔다. 그의 작품 가운데 『타이가 열병』은 작가 스스로 가장 “픽션다운 픽션”에 가깝다고 말한 작품이다. 늘 여러 장르가 인접한 자리에서 써온 작가가 이야기의 힘을 가장 온전히 밀고 나간 소설인 셈인데, 영어로 번역된 후 2018 셜리 잭슨상을 받고 BBC ‘2018년 최고의 책 10’에 올랐다. 『타이가 열병』은 누아르의 긴장 속에서 시처럼 읽히고 동화처럼 홀린다. 문장들은 팽팽하고 얼음처럼 차가운데 감정은 제목처럼 열을 띤다.<br />\n<br />\n이야기는 탐정인 ‘나’가 다른 남자와 함께 떠난 아내를 찾아달라는 한 남성의 의뢰를 받으면서 시작된다. 탐정은 여자가 가는 곳마다 남긴 전보와 편지를 따라, 통역사와 함께 북쪽 끝 타이가로 향한다. 어디를 봐도 같은 나무와 같은 눈뿐인 침엽수림. 그곳에서 견딜 수 없는 불안에 사로잡혀 무작정 달아나게 되는 병이 바로 제목의 ‘타이가 열병’이다.<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br /><p>I. 같은 것<br />\nII. 계약<br />\nIII. 아무것도 아닌 것을 위해 가다<br />\nIV. 약속<br />\nV. 모두가 떨어지는 데 같은 시간이 걸린다<br />\nVI. 숨겨진 카메라<br />\nVII. 그들의 언어 얼마쯤이 내 언어에<br />\nVIII. 사나운 늑대<br />\nIX. 밖에 우물이 있다<br />\nX. 춤의 이론<br />\nXI. 수영장<br />\nXII. 그것들<br />\nXIII. 야생의 아이<br />\nXIV. 태반<br />\nXV. 랩 댄스<br />\nXVI. 여자들은 섹스 생각밖에 안 한다<br />\nXVII. 별것 아닌 얼굴<br />\nXVIII. 어둠이 내게 허락하지 않을 것이었다<br />\nXIX. 잔인함은 결코 필요하지 않다<br />\nXX. 무언가가 여기서 죽었다<br />\nXXI. 끓어오르는 큰 유리<br />\nXXII. 닫힌 숲<br />\nXXIII. 플레이리스트<br />\n<br />\n옮긴이의 말</p><br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1\">소설/시/희곡</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=50920&BrowseTarget=List\"><b>스페인/중남미소설</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1\">소설/시/희곡</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=50955\">세계의 문학</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51262&BrowseTarget=List\"><b>스페인/중남미문학</b></a><br /><br /></td></tr></table>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 신간",
+        "headline": "분주한 게으름/루키우스 아니이우스 세네카 지음, 천병희 옮김/도서출판 숲",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403767509",
+        "published_at": "2026-10-07T01:54:00+00:00",
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403767509\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40376/75/cover200/k832131691_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403767509\">분주한 게으름</a></h2>루키우스 아니이우스 세네카 지음, 천병희 옮김 / 도서출판 숲 / 2026년 10월 / ISBN:<span class=\"isbn13\">9791198962881</span><br />정가: <span style=\"color: #FF0202;\">18,000</span>원 / 판매가: <span style=\"color: #FF0202;\">16,200</span>원 / 마일리지: <span style=\"color: #FF0202;\">900</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 스토아 철학이 알려주는 삶의 태도 + 낙원 슬리퍼<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=403767509&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=403767509&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/intro_t.gif\" /><br />로마의 대표적인 스토아 철학자이자 작가인 세네카. 그의 철학에세이 「마음의 평정에 관하여」 「섭리에 관하여」 「인생의 짧음에 관하여」 「행복한 삶에 관하여」를 한 권으로 묶은 책 『분주한 게으름』이 라틴어 원전 번역으로 출간되었다. 인간의 행복과 삶의 태도, 시간과 여가, 욕망과 죽음에 관한 세네카의 날카로운 통찰은 2천 년이 지난 오늘에도 여전히 우리 삶을 돌아보게 한다.<br />\n<br />\n현대인의 삶은 해야 할 일은 많고 시간은 늘 부족하다. 하루를 바쁘게 보내고도 무엇을 위해 그렇게 서둘렀는지는 선뜻 대답하기 어렵다. 일을 미루지 않았고, 맡은 역할에도 충실했고, 누구보다 성실하게 살아왔는데 어느 날 문득 이런 생각이 든다. ‘열심히 살았는데, 정작 내 삶은 어디에 두고 온 것 같아.’<br />\n<br />\n로마의 철학자 세네카는 2천 년 전 이미 이 질문을 던졌다. 그는 인생이 본래 짧다고 말하지 않았다. 우리가 삶을 제대로 사용하지 못한 채 흘려보내기 때문에 인생이 짧아진다고 했다. 시간이 부족한 것이 아니라, 정작 자신의 것이 아닌 일에 너무 많은 시간을 내어주고 있다는 것이다. 세네카가 꼬집은 말 가운데 특히 오늘의 우리에게 날카롭게 다가오는 것이 있다. 바로「인생의 짧음에 관하여」에 나오는 ‘분주한 게으름’이다.<br />\n<br />\n우리는 끊임없이 무언가를 하고 있다. 일하고, 만나고, 확인하고, 소비하고, 계획한다. 잠시라도 아무것도 하지 않으면 뒤처지는 것처럼 불안해한다. 시간을 아끼기 위해 더 효율적인 방법을 찾고, 더 많은 일을 해내기 위해 하루를 촘촘하게 채운다. 그런데 세네카의 눈으로 보면 이토록 분주한 삶이야말로 정작 중요한 삶을 미루는 방식일 수 있다. 마치 시간이 무한히 남아 있는 사람처럼 살아가는 것. 세네카는 바로 그 지점을 서늘하게 바라본다.<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br /><p>일러두기-6<br />\n<br />\n마음의 평정에 관하여-7<br />\n섭리에 관하여-89<br />\n인생의 짧음에 관하여-135<br />\n행복한 삶에 관하여-215<br />\n<br />\n옮긴이 해설_ 로마의 정신문화의 리더, 세네카-305<br />\n부록 로마의_ 통치구조-323</p><br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=2105\">고전</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=2126&BrowseTarget=List\"><b>서양고전사상</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=55889\">에세이</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51373&BrowseTarget=List\"><b>외국에세이</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=656\">인문학</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51390\">서양철학</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51442\">고대철학</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51462&BrowseTarget=List\"><b>고대철학 일반</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=336\">자기계발</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=70236\">힐링</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=70238&BrowseTarget=List\"><b>마음 다스리기</b></a><br /><br /></td></tr></table>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 신간",
+        "headline": "여름 별장, 그 후/유디트 헤르만 지음, 신동화 옮김/마라카스",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403764463",
+        "published_at": "2026-10-07T01:06:00+00:00",
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403764463\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40376/44/cover200/k902131691_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403764463\">여름 별장, 그 후</a></h2>유디트 헤르만 지음, 신동화 옮김 / 마라카스 / 2026년 09월 / ISBN:<span class=\"isbn13\">9791198165046</span><br />정가: <span style=\"color: #FF0202;\">17,500</span>원 / 판매가: <span style=\"color: #FF0202;\">15,750</span>원 / 마일리지: <span style=\"color: #FF0202;\">870</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 10월 특별 선물. 태블릿 거치대 · 디저트볼 · 고블렛 · 자판 열쇠고리<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=403764463&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=403764463&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/intro_t.gif\" /><br />유디트 헤르만의 데뷔작 『여름 별장, 그 후』를 출간한다. 유디트 헤르만은 1998년 『여름 별장, 그 후』로 데뷔하며 “독일 문학이 고대했던 문학적 신동”이라는 독일 문단의 전례 없는 찬사를 받았고, 독일 문학계에 젊은 여성 작가 붐을 일으켰다. 삶의 장면을 담백하고 투명한 문체로 그려내며 자기만의 독특한 작품 세계를 구축해 온 작가의 데뷔작은, 이후의 작품들보다 더욱 날것에 가깝다. 젊고 냉소적이며 미숙하기에 더 선명하고 아름답다.<br />\n<br />\n헤르만은 지나간 시간의 한 장면, 스쳐간 사람의 표정, 끝내 이어지지 못한 관계의 흔적을 담백하고 투명한 시선으로 바라본다. 그 시선을 따라가다 보면 우리는 어느 순간 자신의 지나간 시간을 마주하게 된다. ‘극적인 일도, 결정적인 사건’도 없지만 ‘마음이 아플 만큼 중요하고 상실된’ 무언가를 안고 살아가는 우리에게 이 소설집은 오래 묻어두었던 삶의 소중한 조각들을 떠오르게 한다.<br />\n<br />\n뜨겁고 강렬한 여름이 지나고 난 뒤 찾아오는 가을처럼, 이 소설집의 쓸쓸함에는 이상할 만큼 맑은 빛이 있다. 짧은 아홉 편의 이야기이지만, 쓸쓸하고 아름다운 문장 앞에 잠시 멈춰 서서 그 여운을 오래도록 간직하고 싶어지는 책이다.<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br /><p>붉은 산호 -9<br />\n허리케인 -35 <br />\n소냐 -69<br />\n무언가의 끝 -111<br />\n발리 여인 -129<br />\n헌터 톰슨 음악 -153<br />\n여름 별장, 그 후 -185<br />\n카메라 옵스큐라 -213<br />\n오데르강의 이쪽 -227<br />\n<br />\n감사의 말<br />\n옮긴이의 말 </p><br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1\">소설/시/희곡</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=50922&BrowseTarget=List\"><b>독일소설</b></a><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=1\">소설/시/희곡</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=50955\">세계의 문학</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51265&BrowseTarget=List\"><b>독일문학</b></a><br /><br /></td></tr></table>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 신간",
+        "headline": "신방수 세무사의 2027 확 바뀐 부동산 세금 완전 분석/신방수 지음/매일경제신문사",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403763502",
+        "published_at": "2026-10-07T00:49:00+00:00",
+        "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403763502\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40376/35/cover200/k532131690_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403763502\">신방수 세무사의 2027 확 바뀐 부동산 세금 완전 분석</a></h2>신방수 지음 / 매일경제신문사 / 2026년 10월 / ISBN:<span class=\"isbn13\">9791124026588</span><br />정가: <span style=\"color: #FF0202;\">19,800</span>원 / 판매가: <span style=\"color: #FF0202;\">17,820</span>원 / 마일리지: <span style=\"color: #FF0202;\">990</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 10월 특별 선물. 태블릿 거치대 · 디저트볼 · 고블렛 · 자판 열쇠고리<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=403763502&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=403763502&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/intro_t.gif\" /><br />달라진 부동산 세금, 무엇이 바뀌고 어떻게 대응할 것인가? 2027년부터 부동산 세금의 계산 방식과 절세 전략이 단계적으로 달라진다. 이번 세제 개편은 종합부동산세와 양도소득세는 물론 장기보유특별공제, 다주택자 중과세, 주택임대사업자 세제, 취득세와 법인세제까지 폭넓게 아우른다. 지금까지는 주택 수와 보유기간이 부동산 세금을 판단하는 주요 기준이었다면, 앞으로는 어느 주택에 실제로 거주하는지, 언제 취득하고 양도하는지, 어떤 순서로 주택을 처분하는지가 더욱 중요해진다. 같은 주택을 보유하고 있더라도 실제 거주 여부와 양도 시기, 다른 주택의 보유 상태에 따라 세금이 크게 달라질 수 있는 것이다. <br />\n<br />\n이 책은 2027년부터 2029년까지 단계적으로 달라지는 부동산 세제의 흐름을 연도별·세목별로 정리하고, 독자가 자신의 상황에 맞는 대응 방향을 세울 수 있도록 돕는다. 거주 여부에 따라 달라지는 종합부동산세 기본공제와 세액공제, 1세대 1주택 비과세와 일시적 2주택 처분기한, 실제 거주 중심으로 재편되는 장기보유특별공제, 다주택자 양도세 중과세율과 주택 처분 순서 등 복잡하게 얽힌 변화를 실제 사례와 계산을 통해 명쾌하게 풀어낸다.<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br /><p>프롤로그 2027년 부동산 세제는 어떻게 진행될까?  4<br />\n일러두기    13<br />\n<br />\n<b>제1장 2027년 부동산 세금, 어떻게 바뀔까?</b><br />\n2027년 부동산 세금이 크게 바뀌는 이유  16<br />\n2027·2028·2029년 부동산 세금은 어떻게 바뀌는가?  19<br />\n1주택자는 무엇이 바뀌는가?  23<br />\n다주택자는 무엇이 바뀌는가?  27<br />\n주택임대사업자는 무엇이 바뀌는가?  30<br />\n기타 부동산 세제는 무엇이 바뀌는가?  33<br />\n| 심층 분석 | 2027년 이후에는 ‘보유전략’보다 ‘출구전략’이 중요하다  35<br />\n<br />\n<b>제2장 부동산 세금의 핵심, 거주요건 완전 분석</b><br />\n거주요건은 어디에 필요한가?  40<br />\n실제 거주는 어떻게 판단하는가?  45<br />\n부득이한 사유로 거주하지 못하면 어떻게 될까?  50<br />\n| 심층 분석 | 앞으로 ‘거주’는 어떻게 관리해야 하는가?  54<br />\n<br />\n<b>제3장 종합부동산세 완전 분석</b><br />\n종부세는 어떤 구조로 계산되는가?  58<br />\n종부세 기본공제는 어떻게 바뀌는가?  61<br />\n공정시장가액비율은 과세표준을 어떻게 바꾸는가?  65<br />\n종부세율은 어떻게 바뀌는가?  70<br />\n1주택자 종부세, 어떻게 달라질까?  74<br />\n공동명의 1주택자는 어떻게 달라질까?  78<br />\n다주택자의 종부세는 얼마나 달라질까?  82<br />\n2주택자는 명의 형태에 따라 종부세가 얼마나 달라질까?  86<br />\n| 심층 분석 | 단독명의 2주택자, 배우자에게 증여하는 것이 실익이 있을까?  90<br />\n<br />\n<b>제4장 양도소득세 비과세 완전 분석</b><br />\n양도세 기본 구조와 세제 개편안  96<br />\n1세대 1주택 비과세는 어떻게 적용하는가?  99<br />\n1세대 1주택의 보유요건과 거주요건  104<br />\n일시적 2주택 비과세는 어떻게 개편되는가?  108<br />\n상생임대주택 특례는 어떻게 개편되는가?  112<br />\n고령자가 수도권 주택을 팔고 지방으로 이주하면 어떤 혜택이 있을까?  117<br />\n| 심층 분석 | 1세대 1주택 비과세 신고 오류 예방 포인트  122<br />\n<br />\n<b>제5장 장기보유특별공제 완전 분석</b><br />\n현행 장특공제는 어떻게 적용되는가?  138<br />\n2027년 이후 장특공제는 어떻게 개편되는가?  142<br />\n1세대 1주택자의 장특공제는 어떻게 바뀌는가?  144<br />\n장기거주 소득공제 한도는 어느 가격대부터 영향을 미칠까?  148<br />\n장기거주 고가주택은 언제 양도하는 것이 유리할까?  151<br />\n다...<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=170\">경제경영</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=172\">재테크/투자</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=11501&BrowseTarget=List\"><b>세금</b></a><br /><br /></td></tr></table>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "How a Painstaking Scholar Reinterpreted African History",
+        "source_url": "https://www.nytimes.com/2026/10/06/obituaries/john-iliffe-dead.html",
+        "published_at": "2026-10-06T16:51:30+00:00",
+        "summary": "In six major books, John Iliffe centered his research not on kings, dictators and guerrilla chiefs but rather on ordinary African citizens. He has died at 87."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "NPR Books",
+        "headline": "'Here I am, my full, authentic self': Murray Hill charts his own course in 'Showbiz!'",
+        "source_url": "https://www.npr.org/2026/10/06/nx-s1-5991916/murray-hill-somebody-somewhere-showbiz",
+        "published_at": "2026-10-06T15:52:05+00:00",
+        "summary": "Hill co-starred in HBO's <em>Somebody Somewhere </em>and has hosted drag king shows and queer cabarets. \"This is my mantra … if you don't see yourself represented, go out and represent yourself,\" he says."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "NPR Books",
+        "headline": "Here are the finalists for the 2026 National Book Awards",
+        "source_url": "https://www.npr.org/2026/10/06/nx-s1-5991463/2026-national-book-award-shortlist-finalists",
+        "published_at": "2026-10-06T14:30:20+00:00",
+        "summary": "Three-time National Book Award finalist Edwidge Danticat and debut novelist Morgan Thomas are up for the fiction prize. Nonfiction books cover the prison system and music, and queer parenthood."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Here Are the Finalists for the 2026 National Book Awards",
+        "source_url": "https://www.nytimes.com/2026/10/06/books/national-book-award-finalists.html",
+        "published_at": "2026-10-06T14:23:48+00:00",
+        "summary": "Novels by Edwidge Danticat and Valeria Luiselli are among the books up for the fiction prize, while Karl Ove Knausgaard’s latest is a contender for the translated literature prize."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "What to Know About ‘Carrie’ Before Watching the New TV Adaptation",
+        "source_url": "https://www.nytimes.com/2026/10/06/arts/television/carrie-amazon-prime-video-mike-flanagan.html",
+        "published_at": "2026-10-06T09:02:06+00:00",
+        "summary": "The novel, written over 50 years ago, has had several adaptations, not all of them good. A new series from Mike Flanagan has Stephen King’s imprimatur."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Monster Mash-Up: New Comics for Fans of Horror",
+        "source_url": "https://www.nytimes.com/2026/10/06/arts/comics-horror-halloween.html",
+        "published_at": "2026-10-06T09:01:47+00:00",
+        "summary": "These spine-tingling stories cast light on creatures of the dark and reimagine superheroes with darker narratives, just in time for Halloween."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Book Review: ‘Brink,’ by Brett McGurk",
+        "source_url": "https://www.nytimes.com/2026/10/06/books/review/brink-brett-mcgurk.html",
+        "published_at": "2026-10-06T09:01:39+00:00",
+        "summary": "In “Brink,” the U.S. diplomat Brett McGurk gives a diaristic account of his work with the Biden and Trump administrations in the wake of the Hamas attack."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Holding Lightning by Emily Lordi review – an intimate portrait of Whitney Houston",
+        "source_url": "https://www.theguardian.com/music/2026/oct/06/holding-lightning-by-emily-lordi-review-an-intimate-portrait-of-whitney-houston",
+        "published_at": "2026-10-06T08:00:06+00:00",
+        "summary": "<p>An empathetic biography of the the singer recasts her tumultuous later career as a triumph of self-expression</p><p>Since Whitney Houston’s death in 2012, a flurry of books and documentaries have appeared, most of them presenting her life as a cautionary tale. In this new biography, Emily Lordi, a professor of English at Vanderbilt University, refuses to reduce Houston’s story to another “good girl gone bad” narrative. Instead she presents a pluralistic take on her life in which Houston’s queerness, drug use and eccentricities are not dismissed as aberrations (as they were in her lifetime) but rather seen in the wider context of her unique talent and the pressures placed on her to embody black excellence.</p><p>Lordi describes the unsteady building blocks of Houston’s family (her mother Cissy’s band The Sweet Inspirations were in-demand session musicians who worked with Elvis, as well as on Van Morrison’s Brown Eyed Girl and Dusty Springfield’s Son of a Preacher Man). When Cissy was still a child, Houston’s grandmother had a debilitating stroke following a miscarriage, eventually succumbing to a cerebral haemorrhage during a later pregnancy. The response to this trauma was to bury it. As Lordi writes: “Here was a lesson in suppressing your feelings and getting on with it.” But in a book where the act of singing through the pain is invoked multiple times, it is striking that reports Houston was molested as a child (a pivotal part of Kevin Macdonald’s 2018 documentary, which drew a line between that and her addictions) are not discussed.</p> <a href=\"https://www.theguardian.com/music/2026/oct/06/holding-lightning-by-emily-lordi-review-an-intimate-portrait-of-whitney-houston\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "NPR Books",
+        "headline": "Michael Douglas on life in the limelight: 'Being yourself on screen is not easy'",
+        "source_url": "https://www.npr.org/2026/10/05/nx-s1-5989385/michael-douglas-on-life-in-the-limelight-being-yourself-on-screen-is-not-easy",
+        "published_at": "2026-10-05T16:50:08+00:00",
+        "summary": "Douglas grew up in the shadow of his famous father, Kirk, before establishing himself as an Oscar-winning actor and producer. In <em>One Helluva Ride</em>, he reflects on his early life and Hollywood career."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "NPR Books",
+        "headline": "Ayad Akhtar's 'The Radiance' addresses provocative subjects head-on",
+        "source_url": "https://www.npr.org/2026/10/05/nx-s1-5985795/ayad-akhtar-the-radiance-review",
+        "published_at": "2026-10-05T13:23:14+00:00",
+        "summary": "Like his previous work, including <em>Homeland Elegies,</em> <em>The Radiance</em> exposes the fissures of American racial, political and economic identity."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "The Housekeeper by Rose Tremain review – a bloodless origin story for Du Maurier’s Rebecca",
+        "source_url": "https://www.theguardian.com/books/2026/oct/05/the-housekeeper-by-rose-tremain-review-a-bloodless-origin-story-for-du-mauriers-rebecca",
+        "published_at": "2026-10-05T08:00:51+00:00",
+        "summary": "<p>The novelist has expanded her devastating 2014 short story about an imagined affair between Daphne du Maurier and a fictional Polish-Jewish housekeeper</p><p>The rollcall of notable novels that began life as short stories is surprisingly long and various. Two years before Clarissa Dalloway famously shopped for flowers in Virginia Woolf’s Mrs Dalloway she was shopping for gloves in Woolf’s short story Mrs Dalloway in Bond Street; Evan S Connell’s Mrs Bridge and Jeffrey Eugenides’s The Virgin Suicides began life as stories published in the Paris Review. Rachel Cusk’s story Project, which ran in the New Yorker in September 2025, serves almost word for word as the opening for her new novel, Life of M.</p><p>The newest addition to that list is Rose Tremain’s 17th novel, The Housekeeper, which pays homage to Daphne du Maurier’s Rebecca by imagining the events that might have inspired it. Tremain first explored the idea in a 2014 story, also called The Housekeeper and included in her acclaimed collection <a href=\"https://www.theguardian.com/books/2014/nov/15/the-american-lovers-by-rose-tremain-review-loners-lust-london\">The American Lover</a>. Her protagonist, then and now, is Lilianne Danowski, a Polish Jew who fled the pogroms with her father as a child and who presides with reserved efficiency over a large staff at Manderville Hall near Fowey in Cornwall. When Du Maurier comes to lunch, it is Danowski, known to her employers as Danni (Danowski was “a mouthful of fishbones”), who is deputised to show her around the house, who proudly encourages Du Maurier to look through the clothes in her dead mistress’s fastidiously maintained bedroom and takes her down to the boat house. It is Danowski who, after a passionate year-long affair with Du Maurier, will be twisted into the malevolent Mrs Danvers.</p> <a href=\"https://www.theguardian.com/books/2026/oct/05/the-housekeeper-by-rose-tremain-review-a-bloodless-origin-story-for-du-mauriers-rebecca\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Sleeping Beauties by David Byrne review – a quirky journey through the afterlife of invention",
+        "source_url": "https://www.theguardian.com/music/2026/oct/05/sleeping-beauties-by-david-byrne-review-a-quirky-journey-through-the-afterlife-of-invention",
+        "published_at": "2026-10-05T06:00:48+00:00",
+        "summary": "<p>The Talking Heads frontman considers dormant ideas that made a comeback – from Indian irrigation to Kafka</p><p>There’s barely been a moment in  the last half-century when David Byrne hasn’t been zinging about, dancing forward, opting odd. The art-school dropout frontman of Talking Heads, he moved sideways into ballet, dance and experimental theatre, collaborated on the proto-ambient LP My Life in the Bush of Ghosts with his fellow polymath Brian Eno, directed films, wrote musicals (on – of course – Imelda Marcos), co-founded a label (Luaka Bop) that introduced the likes of Os Mutantes and William Onyeabor to a new generation, brought out books of tree drawings, and designed bicycle racks.</p><p>Byrne’s career – by most measures a remarkably successful one – has been built from code-switching, fidgety intelligence, stylistic infidelity. At first glance then, it’s surprising that Sleeping Beauties is devoted to failure – to artists who were ignored, laughed at, forgotten; to ideas deemed batty or heretical; to ways of thinking about the world – sustaining it, replenishing it – that, often for political reasons, were found wanting, and wiped from our collective memory banks. Sleeping beauties is (of course) a term he first encountered in an academic paper by Leiden University scientometrics professor Ton van Raan. That was in 2004: this book, like a lot of the ideas and energies it animates, needed time to ferment.</p> <a href=\"https://www.theguardian.com/music/2026/oct/05/sleeping-beauties-by-david-byrne-review-a-quirky-journey-through-the-afterlife-of-invention\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "[알라딘 베스트 RSS] 도서종합 분야 주간 베스트셀러",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=BEST&branch=book&cid=0&days=2026102",
+        "published_at": "2026-10-04T22:01:14+00:00",
+        "summary": "<span style=\"color: #bc2e17;\">2026년 10월 2주 베스트셀러 순위입니다.</span><br /><br />"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "‘We have been dispossessed’: Nick Hayes on land rights and a peaceful revolution at the real Toad Hall",
+        "source_url": "https://www.theguardian.com/books/2026/oct/04/we-have-been-dispossessed-nick-hayes-on-land-rights-and-a-peaceful-revolution-at-the-real-toad-hall",
+        "published_at": "2026-10-04T11:00:27+00:00",
+        "summary": "<p>The co-founder of the Right to Roam campaign and author of The Book of Trespass discusses the Oxfordshire riverside community he calls home and how Hardwick Hall has been taken back by the people</p><p>On the banks of the Thames in South Oxfordshire, the Hardwick estate has been owned by the Rose family for generations. When Sir Charles Rose, a banker, sportsman, yachtsman and aviator, sped through the lanes in his Rolls-Royce in the early days of motoring, he <a href=\"https://hardwickestate.co.uk/history/\">inspired Kenneth Grahame</a> to create Mr Toad in The Wind in the Willows. Grahame’s character became a symbol of decadent aristocracy whose foolishness leads to the temporary loss of a fine house to weasel-socialists.</p><p>Now Toad Hall has been taken over for good and Nick Hayes, artist, writer and co-founder of the Right to Roam campaign, has had a riverside view of this striking turn of events. When Hayes, who lives on a beautiful wide-beamed barge on the Thames, became the Hardwick estate’s artist-in-residence, he discovered that Rose’s heirs are, in effect, disinheriting themselves. The estate is gradually being turned into a charity which will be run by the tenants and the alternative community that has grown up in its shelter.</p> <a href=\"https://www.theguardian.com/books/2026/oct/04/we-have-been-dispossessed-nick-hayes-on-land-rights-and-a-peaceful-revolution-at-the-real-toad-hall\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Do humans really have a ‘lizard brain’ lurking beneath our rational minds?",
+        "source_url": "https://www.theguardian.com/science/2026/oct/04/lizard-brain-rational-mind-neuroscience",
+        "published_at": "2026-10-04T11:00:26+00:00",
+        "summary": "<p>It’s a powerful analogy that captured the popular imagination, but the biological reality is quite different</p><p>Humans have a cognitive quirk for the number three. Think of the many stories that use it, from The Three Little Pigs to Goldilocks and the Three Bears and The Three Musketeers. Public information and political campaigns use it for impact and ease of recall (“Stop, look and listen”; “See it. Say it. Sorted”; “Reduce, reuse, recycle”). And then there are psychological or philosophical frameworks: Freud with his id, ego and superego; Plato’s three parts of the human soul; the Holy Trinity.</p><p>Well, it turns out neuroscience isn’t immune from tri-mania. In 1959 Paul D MacLean set out a new way of thinking about the evolution and function of the brain, which he christened the “triune” – three-in-one – model. It quickly became one of best known and most enduring concepts in human biology. His idea was that a trio of distinct brains are layered inside our skulls, one on top of the other, all fighting to generate our feelings and thoughts.</p> <a href=\"https://www.theguardian.com/science/2026/oct/04/lizard-brain-rational-mind-neuroscience\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "NPR Books",
+        "headline": "No one expected Leo to be pope — except everyone who knew him as 'Bob'",
+        "source_url": "https://www.npr.org/2026/10/03/nx-s1-5987816/pope-leo-american-pope-book-excerpt",
+        "published_at": "2026-10-03T09:00:00+00:00",
+        "summary": "When the 2025 conclave began, no one expected an American pope. But by its end, Cardinal Robert Prevost had become Pope Leo. Here's a look behind the scenes."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "‘I thought, if I’m going to die, I’m going to write a book first’: Pachinko author Min Jin Lee",
+        "source_url": "https://www.theguardian.com/books/2026/oct/03/i-thought-if-im-going-to-die-im-going-to-write-a-book-first-pachinko-author-min-jin-lee",
+        "published_at": "2026-10-03T08:00:53+00:00",
+        "summary": "<p>Her last novel sold 5m copies and was adapted into a hit series. Nearly 10 years on, the Korean-American author has written another epic. She discusses ambition and the diagnosis that inspired her to leave work and write</p><p>Back in 1995, when she was in her mid-20s, Min Jin Lee quit her job as a corporate lawyer. As a teenager she had been diagnosed as a hepatitis B carrier and doctors told her she was highly likely to develop liver cancer in her 20s or 30s. “I thought, if I’m going to die, I’m going to write a book first,” the now 57-year-old Korean-American author says of her decision to turn her back on a regular pay cheque and healthcare. “I was told so many times that I was going to get sicker and sicker, that I’ve always felt that if I can get a really good book out then I’m done.”</p><p>Lee, looking very much alive and well, is on a video call from her home in Harlem, New York, floor-to-ceiling bookshelves behind her. We are meeting to discuss the publication of her third novel, American Hagwon, the final part in what she calls her “Korean trilogy”, following Free Food for Millionaires in 2007 and her 2017 international bestseller, <a href=\"https://www.theguardian.com/books/2017/mar/15/pachinko-min-jin-lee-review\">Pachinko</a>, stylishly <a href=\"https://www.theguardian.com/tv-and-radio/2022/mar/25/pachinko-review-min-jin-lee-south-korea\">adapted for Apple TV</a> in 2022. “Korean quartet!” she corrects me now. Thanks to experimental drugs, she is now so healthy she can commit to another book. “Before I turn 70, I should turn in my manuscript,” she jokes. “I’m writing the four books that I wanted to write and after that I’m going to take a long nap.”</p> <a href=\"https://www.theguardian.com/books/2026/oct/03/i-thought-if-im-going-to-die-im-going-to-write-a-book-first-pachinko-author-min-jin-lee\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "The best recent poetry – review roundup",
+        "source_url": "https://www.theguardian.com/books/2026/oct/02/the-best-recent-poetry-review-roundup",
+        "published_at": "2026-10-02T11:00:17+00:00",
+        "summary": "<p>Have It by John Cooper Clarke; The Dodo Stories by Mary Mulholland; Red River Valley by Ian McMillan;  Some Sacred Harbour by Roger Robinson; Otherwhere by Carolyn Forché</p><p><strong><a href=\"https://guardianbookshop.com/have-it-9781037404191//?utm_source=editoriallink&utm_medium=merch&utm_campaign=article\">Have It</a> by John Cooper Clarke</strong><strong> (Picador, £16.99)<br /></strong>The latest collection from the original “people’s poet” displays his characteristic swagger, delivered with a distinctively northern humour. Merging blistering social satire and brash wit, Cooper Clarke irreverently tackles themes from the ridiculous to the sublime, including the malaise of contemporary urban life, the erosion of nature and the environment, money and the prospect of a cashless society, death and ageing, fascism, bachelorhood, popular culture and the NHS. His punk rock values caustically underpin the collection: “Me and my shrinking crowd / Each under our own personal cloud”; “We wish you no serious harm/ However, everybody sucks but us”. There’s heavy use of doggerel and jokes as he stridently proclaims his passion for writing. “It’s a meaningless job but someone’s got to do it / Thank God it’s me”. Overall, Cooper Clarke’s consummate performance skills in playing to the crowd demand applause as he advocates for the “blood royal of the working class”.</p> <a href=\"https://www.theguardian.com/books/2026/oct/02/the-best-recent-poetry-review-roundup\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "NPR Books",
+        "headline": "10 books we are looking forward to this fall",
+        "source_url": "https://www.npr.org/2026/10/02/nx-s1-5983820/what-to-read-books-fiction-nonfiction",
+        "published_at": "2026-10-02T09:00:00+00:00",
+        "summary": "Move over, beach reads. With the fall equinox behind us, we can now curl up with cozy autumn books. There are new titles coming from Barbara Kingsolver, Chad Harbach, Jasmine Guillory and more."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "The best books to read in September: new paperbacks from Margaret Atwood, Kiran Desai and Richard Holmes",
+        "source_url": "https://www.theguardian.com/books/ng-interactive/2026/sep/18/the-best-books-to-read-in-september-new-paperbacks-from-margaret-atwood-kiran-desai-and-richard-holmes",
+        "published_at": "2026-09-18T17:19:59+00:00",
+        "summary": "<p>Looking for a new reading recommendation? Here are some great new paperbacks, from an epic multigenerational saga by a Booker winner to a biography of an iconic Victorian poet</p><p>***</p> <a href=\"https://www.theguardian.com/books/ng-interactive/2026/sep/18/the-best-books-to-read-in-september-new-paperbacks-from-margaret-atwood-kiran-desai-and-richard-holmes\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "On the Equality of All Things by Carlo Rovelli review – a physicist’s guide to life, the universe and everything",
+        "source_url": "https://www.theguardian.com/books/2026/sep/30/on-the-equality-of-all-things-by-carlo-rovelli-review-a-physicists-guide-to-life-the-universe-and-everything",
+        "published_at": "2026-09-30T06:00:12+00:00",
+        "summary": "<p>Near-mystical musings from a scientist who believes we are on the brink of a revolution in understanding ourselves</p><p>Under the letter “B” in the index at the back of Carlo Rovelli’s latest book you will find Francis Bacon, bats, behaviourism, Henri Bergson, and the big bang. This intriguing little miscellany reflects the sweeping ambition of what is perhaps Rovelli’s most overtly philosophical work to date<em>.</em></p><p>Rovelli, who directs a quantum gravity research group in Marseille, has written several books on physics for the general reader, including the global bestseller Seven Brief Lessons on Physics<em>. </em>His latest is an attempt to integrate principles and theories from the discipline into a broader <em>W</em><em>eltanschauung</em>: one of the essential unity of all things, and the profoundly relational and perspectival nature of the universe. “Electrons and minds, stones and laws, judgments and galaxies do not essentially differ in nature from one another,” he writes. “They are notions that illuminate each other.”</p> <a href=\"https://www.theguardian.com/books/2026/sep/30/on-the-equality-of-all-things-by-carlo-rovelli-review-a-physicists-guide-to-life-the-universe-and-everything\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Dèy by Edwidge Danticat review – motherhood and trauma in Miami",
+        "source_url": "https://www.theguardian.com/books/2026/sep/30/dey-by-edwidge-danticat-review-motherhood-and-trauma-in-miami",
+        "published_at": "2026-09-30T08:00:20+00:00",
+        "summary": "<p>The first novel in over a decade from the acclaimed Haitian-American author lacks the power of earlier works</p><p>Dèy, Edwidge Danticat’s first novel in over a decade, begins with a bang. Magnolia, the daughter of Haitian parents now shopping for a birthday present for her own daughter, hears gunfire, maybe bombs, in a Miami mall. A killer is on the loose – a young man high on hate, the author of online screeds about how “our country is under attack”, obsessed by cane toads who’ve been coming in from the Amazon basin. As she scrambles to the floor of a restaurant called Oasis, surrounded by dozens of diners playing dead, a man asks, “Is this a mass grave?”</p><p>Things have always been tough for Magnolia. Her mother chases pigeons by day, sleepwalks at night, is on and off lithium. Her father worked for many years as a bus driver in Brooklyn, saving every cent so he could buy a nice retirement home back in Haiti. She was brought up by an “aunt” whose family had been killed by goons employed by Haiti’s dictator-in-chief Papa Doc Duvalier. Later she gets to college, where “school was my refuge”.</p> <a href=\"https://www.theguardian.com/books/2026/sep/30/dey-by-edwidge-danticat-review-motherhood-and-trauma-in-miami\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Tomi Adeyemi on the film of her hit novel Children of Blood and Bone: ‘I don’t plan to watch it’",
+        "source_url": "https://www.theguardian.com/books/2026/sep/27/tomi-adeyemi-on-the-film-of-her-hit-novel-children-of-blood-and-bone-i-dont-plan-to-watch-it",
+        "published_at": "2026-09-27T11:00:02+00:00",
+        "summary": "<p>Her debut earned a record-breaking YA book deal – then came her fallout with Hollywood. The author talks about the pressures of success and why she is pictured on the cover of her new novel</p><p>There is a photograph of Tomi Adeyemi staring out from the cover of her new novel, The Siren. It is an arresting image: her face fills the frame, unsoftened by a smile, her piercing gaze fixed directly on the viewer. “It’s terrifying – like the Mona Lisa, staring at you everywhere,” she says, laughing.</p><p>Using an author portrait on the cover of a novel is highly unusual, and a decision that Adeyemi says is a statement of ownership. After 12 years spent inside the world of Children of Blood and Bone – the first book in the YA trilogy that made her a literary star and its film adaptation which has become a source of profound distress – Adeyemi wanted this book to belong unmistakably to her.</p> <a href=\"https://www.theguardian.com/books/2026/sep/27/tomi-adeyemi-on-the-film-of-her-hit-novel-children-of-blood-and-bone-i-dont-plan-to-watch-it\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Children’s and teens roundup – the best new picture books and novels",
+        "source_url": "https://www.theguardian.com/books/2026/sep/18/childrens-and-teens-roundup-the-best-new-picture-books-and-novels",
+        "published_at": "2026-09-18T11:00:18+00:00",
+        "summary": "<p>A tiger’s tale; the young Henry VIII; a fantasy follow‑up from Katherine Rundell; small-town secrets; ghosts galore and more</p><p><strong><a href=\"https://www.guardianbookshop.com/once-upon-a-tiger-9781398544949/?utm_source=editoriallink&utm_medium=merch&utm_campaign=article\">Once Upon a Tiger</a> by Sarah Massini, S&S, £14.99</strong><strong><br /></strong>Tiger is irate to find three cheeky human cubs climbing on his back – but when they refuse to be scared off, he becomes increasingly attached to them. A sweet, classic-feeling picture book fable, heightened by tender, expressive illustrations.</p><p><strong><a href=\"https://guardianbookshop.com/mamas-wedding-9781836290476?utm_source=editoriallink&utm_medium=merch&utm_campaign=article\">Mama’s Wedding</a> by Circle Yuen, Lantana, £12.99</strong><strong><br /></strong>Mama is getting married, but Ruby has mixed emotions – how will Daddy Daniel feel on the day? A gorgeous, nuanced picture book about blended families and new milestones.</p> <a href=\"https://www.theguardian.com/books/2026/sep/18/childrens-and-teens-roundup-the-best-new-picture-books-and-novels\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Kevin Powers: ‘I was ready to abandon Infinite Jest a thousand times’",
+        "source_url": "https://www.theguardian.com/books/2026/sep/04/kevin-powers-i-was-ready-to-abandon-infinite-jest-a-thousand-times",
+        "published_at": "2026-09-04T09:00:02+00:00",
+        "summary": "<p>The American author on falling in love with The Great Gatsby, being inspired by Dylan Thomas – and the memoir of a canoe trip in Texas he comes back to</p><p><strong>My earliest reading memory<br /></strong>The deaths of Old Dan and Little Ann in Wilson Rawls’s Where the Red Fern Grows were etched into my being as a first grader in Chesterfield County, Virginia.</p><p><strong>My favourite book growing up<br /></strong>Stephen King’s The Stand. I completely lost myself in the story. I don’t think I realised at the time what a rare gift it is to have that experience.</p> <a href=\"https://www.theguardian.com/books/2026/sep/04/kevin-powers-i-was-ready-to-abandon-infinite-jest-a-thousand-times\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Rhapsody: A Manifesto by Alice Oswald review – a history of the spoken word, from Homer to Ted Hughes",
+        "source_url": "https://www.theguardian.com/books/2026/oct/02/rhapsody-a-manifesto-by-alice-oswald-review-a-history-of-the-spoken-word-from-homer-to-ted-hughes",
+        "published_at": "2026-10-02T06:00:11+00:00",
+        "summary": "<p>A twisting, beguiling investigation into the art of poetry that ends in a call to arms on behalf of the natural world</p><p>The poet Alice Oswald is no stranger to thinking in public about her art. She was Oxford professor of poetry until 2023, and her lectures are available online. But this is her first full-length book, and as such is something of an occasion.</p><p>So what exactly is it? For a work of prose it contains a lot of poetry, much translated or composed by Oswald herself. Shakespeare, Donne, Shelley and Ted Hughes also feature. Though nonfiction, the book is full of stories, particularly retellings of Homer and Aeschylus. It is billed as “genre-defying” and there is much formal experimentation. But at heart it is an exploration of the oral tradition, and the writer’s own subtitle is A Manifesto, which feels exciting and urgent, pointed at the contemporary world with its pressing realities.</p> <a href=\"https://www.theguardian.com/books/2026/oct/02/rhapsody-a-manifesto-by-alice-oswald-review-a-history-of-the-spoken-word-from-homer-to-ted-hughes\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "What we’re reading: China Miéville, Sebastian Barry, Derek Owusu and Guardian readers on the books they enjoyed in September",
+        "source_url": "https://www.theguardian.com/books/2026/oct/01/what-were-reading-sebastian-barry-china-mieville-readers-and-derek-owusu-on-the-books-they-enjoyed-in-september",
+        "published_at": "2026-10-01T11:48:27+00:00",
+        "summary": "<p>Writers and Guardian readers discuss the titles they have read over the last month. Join the conversation in the comments</p><p>I was sideswiped by Giada Scodellaro’s <strong>Ruins, Child</strong>. A brilliant, strange book that challenged me in the most exhilarating way, with its fractured language and dream-cinema visions, the sense it bestowed of walking through a corridor full of echoes. Echoes of a less elliptical but no-less political kind haunt Jordy Rosenberg’s astounding <strong>Night Night Fawn</strong>. I guess you could call it a family novel? But it’s at least as much about fascism as it is about the family – as well as about unsettling linkages between the two. And for horrors and rage in a nonfiction register, Jonas Marvin’s <strong>The Breaking of the English Working Class</strong> is an indispensable – and beautifully written – essay on decades of structural, economic and psychic violence. The feeling it provoked in me brought to mind John Berger’s phrase “undefeated despair”.</p> <a href=\"https://www.theguardian.com/books/2026/oct/01/what-were-reading-sebastian-barry-china-mieville-readers-and-derek-owusu-on-the-books-they-enjoyed-in-september\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Dodge City by Patrick deWitt review – a wild draft-dodging road trip",
+        "source_url": "https://www.theguardian.com/books/2026/oct/01/dodge-city-by-patrick-dewitt-review-a-wild-draft-dodging-road-trip",
+        "published_at": "2026-10-01T06:00:29+00:00",
+        "summary": "<p>This tale of a 60s college dropout driving across the US to avoid being sent to Vietnam is committed to both readerly pleasure and literary artifice</p><p>Canadian author Patrick deWitt broke through with a western, 2011’s Booker-shortlisted <a href=\"https://www.theguardian.com/books/2011/jul/15/sisters-brothers-patrick-dewitt-review\">The Sisters Brothers</a>. Now, he has taken on another hallowed American genre: the road novel. Recent works by Miranda July and Ben Markovits have, in very different ways, used the idea of the road trip as a way to dramatise midlife crisis. As befits a writer who is, in so many ways, a throwback, Dodge City returns the genre to its roots: the 1960s, and youth as opposed to middle age. A short précis – a cross-country journey undertaken by a UCLA drop-out armed only with a bag of amphetamines – makes the book sound like an Easy Rider tribute. It is typical for deWitt novels to be compared to films rather than other books. But in this case, something very different transpires.</p><p>The novel opens with our protagonist, Leland “Lee” Clarke, receiving his draft notice – he is to be sent to Vietnam. He has just been expelled from UCLA for assaulting a fellow student, a rich hippy who condescends to him. This “event of violence” (a “one-punch wonder”, as Lee’s father calls it) costs him his draft deferment. Lee doesn’t consider himself a conscientious objector – that is only another form of heroism, and “the myth of the hero is at the heart of my critique of the entire exercise”. But nor does he want to go to Vietnam. He decides, instead, to dodge – to head to Canada. Younger readers may note with envy that being kicked out of college mattered a lot less when you weren’t tens or hundreds of thousands of dollars in debt.</p> <a href=\"https://www.theguardian.com/books/2026/oct/01/dodge-city-by-patrick-dewitt-review-a-wild-draft-dodging-road-trip\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Children’s books roundup – the best new picture books and novels",
+        "source_url": "https://www.theguardian.com/books/2026/aug/28/childrens-books-roundup-the-best-new-picture-books-and-novels",
+        "published_at": "2026-08-28T11:00:55+00:00",
+        "summary": "<p>Poetry with wonder and wit; a heartwarming tale for horse lovers; a portal to the future; a brilliant YA wartime romance and more</p><p><br /><strong><a href=\"https://guardianbookshop.com/small-monster-big-monster-9781837292110/?utm_source=editoriallink&utm_medium=merch&utm_campaign=article\">Small Monster, Big Monster</a></strong><strong> by Allan Sanders, Phaidon, £7.95</strong><strong><br /></strong>Refrigerator is EMPTY. Monster is FULL (of pizza!). An eye-wateringly bright board book, featuring splendidly zany, toddler-pleasing pairs of opposites.</p><p><strong><a href=\"https://guardianbookshop.com/the-flying-machine-of-dreams-9781915659989/?utm_source=editoriallink&utm_medium=merch&utm_campaign=article\">The Flying Machine of Dreams</a> by Kate Wakeling</strong><strong>, illustrated by Viviane Schwarz, Otter-Barry, £12.99</strong><strong><br /></strong>A delectable picture-book collaboration that perfectly distils the wonder of the everyday, from the textures of a leaf to a squishy-cushioned den. Wakeling’s irresistible poetry is richly heightened by Schwarz’s sweet, strange illustrations.</p> <a href=\"https://www.theguardian.com/books/2026/aug/28/childrens-books-roundup-the-best-new-picture-books-and-novels\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "NPR Books",
+        "headline": "Mahmoud Khalil on his detention by ICE: 'It is a stain on the U.S. consciousness'",
+        "source_url": "https://www.npr.org/2026/09/29/nx-s1-5984548/mahmoud-khalil-columbia-ice-palestine",
+        "published_at": "2026-09-29T18:28:56+00:00",
+        "summary": "Khalil was the face of the pro-Palestinian protests at Columbia University when immigration agents arrested him and sent him to detention in Louisiana. His new memoir is <em>No Land to Stand On.</em>"
+      }
+    }
+  ],
+  "ontology": {
+    "repo": "BookRadar",
+    "category": "book",
+    "ontology_version": "0.1.0",
+    "event_model_ids": [
+      "book.author_event",
+      "book.award_signal",
+      "book.editorial_coverage",
+      "book.library_lending",
+      "book.sales_ranking"
+    ],
+    "event_model_mappings": {
+      "sales_ranking": "book.sales_ranking",
+      "library_lending": "book.library_lending",
+      "author_event": "book.author_event",
+      "award_signal": "book.award_signal",
+      "editorial_coverage": "book.editorial_coverage"
+    },
+    "entity_type_hints": [
+      "book.edition",
+      "book.author"
+    ],
+    "source_role_ids": [
+      "community_signal",
+      "context_only",
+      "primary_evidence"
+    ],
+    "source_role_mappings": {
+      "알라딘 신간": "primary_evidence",
+      "알라딘 베스트셀러": "primary_evidence",
+      "YES24 베스트셀러": "primary_evidence",
+      "교보문고 북뉴스": "context_only",
+      "출판저널": "context_only",
+      "북DB": "context_only",
+      "한겨레 책": "context_only",
+      "경향신문 책": "context_only",
+      "Publishers Weekly": "context_only",
+      "The Guardian Books": "context_only",
+      "NPR Books": "context_only",
+      "Literary Hub": "context_only",
+      "Book Riot": "context_only",
+      "Goodreads News": "context_only",
+      "New York Times Books": "context_only",
+      "Kirkus Reviews": "context_only",
+      "r/books": "community_signal",
+      "r/suggestmeabook": "community_signal",
+      "r/52book": "community_signal",
+      "r/booksuggestions": "community_signal",
+      "r/Fantasy": "community_signal",
+      "r/literature": "community_signal",
+      "r/horrorlit": "community_signal",
+      "r/scifi": "community_signal",
+      "merphy napier": "community_signal",
+      "Daniel Greene": "community_signal",
+      "Ariel Bissett": "community_signal",
+      "What Should I Read Next": "community_signal",
+      "The Bookshelf": "context_only",
+      "The Bookseller UK": "context_only",
+      "Publishing Perspectives": "context_only",
+      "Shelf Awareness": "context_only"
+    },
+    "evidence_policy_ids": [
+      "book.source_rss",
+      "book.source_reddit",
+      "book.entity_keyword_match"
+    ]
+  }
+}
