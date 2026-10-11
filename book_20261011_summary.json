@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-10",
+  "date": "2026-10-11",
   "category": "book",
   "article_count": 130,
   "source_count": 8,
@@ -11,19 +11,19 @@
     },
     {
       "name": "Genre",
-      "count": 163
+      "count": 164
     },
     {
       "name": "BookType",
-      "count": 42
+      "count": 41
     },
     {
       "name": "Author",
-      "count": 34
+      "count": 32
     },
     {
       "name": "Award",
-      "count": 17
+      "count": 16
     },
     {
       "name": "Publisher",
@@ -35,17 +35,80 @@
     }
   ],
   "sources": {
-    "NPR Books": 10,
     "New York Times Books": 21,
-    "Book Riot": 10,
-    "The Guardian Books": 23,
     "Literary Hub": 10,
+    "The Guardian Books": 23,
+    "NPR Books": 10,
+    "Book Riot": 10,
     "Publishers Weekly": 30,
     "알라딘 신간": 25,
     "알라딘 베스트셀러": 1
   },
-  "generated_at": "2026-10-10T15:45:21.482070+09:00",
+  "generated_at": "2026-10-11T15:53:26.316306+09:00",
   "articles": [
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Sidney Offit, a ‘Central Figure’ in the World of New York Writers, Has Died",
+        "source_url": "https://www.nytimes.com/2026/10/09/obituaries/sidney-offit-dead.html",
+        "published_at": "2026-10-10T16:29:43+00:00",
+        "summary": "He was the author of more than a dozen books. “He knew every writer in New York,” Robert A. Caro said."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Have Rachel Cusk’s Novels Lost the Plot?",
+        "source_url": "https://www.nytimes.com/video/books/review/100000011134451/have-rachel-cusks-novels-lost-the-plot.html",
+        "published_at": "2026-10-10T15:53:17+00:00",
+        "summary": "Rachel Cusk’s newest novel, “Life of M,” arrived in a pile of old-fashioned gossip. Alexandra Jacobs, a New York Times book critic, reviews the author’s latest novel."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Book Review: ‘Voice of a Century,’ by Anthony Tommasini",
+        "source_url": "https://www.nytimes.com/2026/10/10/books/review/voice-of-a-century-anthony-tommasini-marian-anderson.html",
+        "published_at": "2026-10-10T12:08:50+00:00",
+        "summary": "As Anthony Tommasini demonstrates in his new biography, the inspiring singer preferred to incite change through excellence, not banner-waving."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Literary Hub",
+        "headline": "Lit Hub Weekly: October 5 – 9, 2026",
+        "source_url": "https://lithub.com/lit-hub-weekly-october-5-9-2026/",
+        "published_at": "2026-10-10T10:30:18+00:00",
+        "summary": "Samantha’s all grown up, and American Girl books are entering a new era. | Lit Hub Criticism How British media legitimized J.K. Rowling’s transphobia: “We are rendered hostile abstractions in a contradictory narrative: Trans people are not real, only our"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Book Review: ‘Weimar Germany,’ by Victor Sebestyen",
+        "source_url": "https://www.nytimes.com/2026/10/10/books/review/weimar-germany-victor-sebestyen.html",
+        "published_at": "2026-10-10T09:00:24+00:00",
+        "summary": "In “Weimar Germany,” Victor Sebestyen focuses on the populist culture wars that brought an end to popular rule in the fledgling republic."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Should You Put Your Books in the Freezer?",
+        "source_url": "https://www.nytimes.com/2026/10/10/books/book-preservation-silverfish.html",
+        "published_at": "2026-10-10T09:00:18+00:00",
+        "summary": "Silverfish, book lice and mold are a thing, especially in secondhand books. Here’s how to deal with them."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "‘People forgot I existed’: Audrey Niffenegger on taking 14 years to write a sequel to The Time Traveler’s Wife",
+        "source_url": "https://www.theguardian.com/books/2026/oct/10/people-forgot-i-existed-audrey-niffenegger-on-taking-14-years-to-write-a-sequel-to-the-time-travelers-wife",
+        "published_at": "2026-10-10T08:00:51+00:00",
+        "summary": "<p>Her debut made her a global star. Now she has finally written a follow-up – and this time, it’s political. She talks about impostor syndrome, screen adaptations and becoming radicalised</p><p>The artist and novelist Audrey Niffenegger began writing the long-awaited sequel to her bestselling debut, The Time Traveler’s Wife, in 2012, just after Obama’s re-election. It was a “rosy” time in American politics, “as good as it gets over here”, she says now, but her new novel required her to imagine what the world might look like in 20, 40, 60 years’ time. In the 14 years she spent exploring various dystopian futures, American politics moved on. And her imaginings began to look worryingly realistic.</p><p>An early scene in the new book involves a group of neo-Nazis at a house party. When she was writing it, few people believed the US would witness a resurgence of neo-nazism. It’s not like she is “psychic or anything”, she tells me, the clues were all there. “The first thing I remember reading in the news was Watergate, and so I’ve grown up with Reagan, and the Republicans coming on stronger and stronger, so that every Republican president we get is more of a disaster. And I thought the logical progression of that would be fascism,” she says.</p> <a href=\"https://www.theguardian.com/books/2026/oct/10/people-forgot-i-existed-audrey-niffenegger-on-taking-14-years-to-write-a-sequel-to-the-time-travelers-wife\">Continue reading...</a>"
+      }
+    },
     {
       "event_model_payload": {
         "source_name": "NPR Books",
@@ -62,15 +125,6 @@
         "source_url": "https://www.nytimes.com/2026/10/09/books/new-directions-nobel-anne-carson.html",
         "published_at": "2026-10-09T18:00:20+00:00",
         "summary": "Fourteen authors in the New Directions stable have received the Nobel Prize in Literature, including this year and last. How does this small press pack such a punch?"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "New York Times Books",
-        "headline": "Sidney Offit, a ‘Central Figure’ in the World of New York Writers, Has Died",
-        "source_url": "https://www.nytimes.com/2026/10/09/obituaries/sidney-offit-dead.html",
-        "published_at": "2026-10-09T16:53:14+00:00",
-        "summary": "He was the author of more than a dozen books. “He knew every writer in New York,” Robert A. Caro said."
       }
     },
     {
@@ -166,19 +220,19 @@
     {
       "event_model_payload": {
         "source_name": "Book Riot",
-        "headline": "Want to Fight Book Bans? Start Here.",
-        "source_url": "https://bookriot.com/how-to-fight-book-bans-2026/",
+        "headline": "Graphic Novels About Therapy for World Mental Health Day",
+        "source_url": "https://bookriot.com/graphic-novels-about-therapy/",
         "published_at": "2026-10-09T10:00:00+00:00",
-        "summary": "No one is coming to save us, so we must do it ourselves. Here are 60+ small tasks to help defend the right to read in 2026 and beyond."
+        "summary": "Read these outstanding graphic novels about therapy to explore the world of mental health and its treatment options."
       }
     },
     {
       "event_model_payload": {
         "source_name": "Book Riot",
-        "headline": "Graphic Novels About Therapy for World Mental Health Day",
-        "source_url": "https://bookriot.com/graphic-novels-about-therapy/",
+        "headline": "Want to Fight Book Bans? Start Here.",
+        "source_url": "https://bookriot.com/how-to-fight-book-bans-2026/",
         "published_at": "2026-10-09T10:00:00+00:00",
-        "summary": "Read these outstanding graphic novels about therapy to explore the world of mental health and its treatment options."
+        "summary": "No one is coming to save us, so we must do it ourselves. Here are 60+ small tasks to help defend the right to read in 2026 and beyond."
       }
     },
     {
@@ -319,91 +373,10 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "Holiday Gift Guide 2026: Illustrated & Art Books",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/adult-announcements/article/101499-holiday-gift-guide-2026-illustrated-art-books.html",
-        "published_at": "2026-10-09T04:00:00+00:00",
-        "summary": "We’ve got titles for art lovers and bird watchers, sports fans and fashionistas, and appreciators of the offbeat and idiosyncratic."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Frankfurt Book Fair 2026: New Layout, Lighter Traffic, and, Of Course, Lots of Deals",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101504-frankfurt-book-fair-2026-new-layout-lighter-traffic-and-of-course-deals.html",
-        "published_at": "2026-10-09T04:00:00+00:00",
-        "summary": "Frankfurt Book Fair 2026: New Layout, Lighter Traffic, and, Of Course, Lots of Deals"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Frankfurt Book Fair 2026: Audible Wants to Turn Every Book into an Audiobook",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101500-frankfurt-book-fair-2026-audible-wants-to-turn-every-book-into-an-audiobook.html",
-        "published_at": "2026-10-09T04:00:00+00:00",
-        "summary": "Frankfurt Book Fair 2026: Audible Wants to Turn Every Book into an Audiobook"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Holiday Gift Guide 2026: Children’s & YA",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/childrens-announcements/article/101501-holiday-gift-guide-2026-children-s-ya.html",
-        "published_at": "2026-10-09T04:00:00+00:00",
-        "summary": "Holiday Gift Guide 2026: Children’s & YA"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Book Deals: Week of October 12, 2026",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic///article/101496-book-deals-week-of-october-12-2026.html",
-        "published_at": "2026-10-09T04:00:00+00:00",
-        "summary": "Book Deals: Week of October 12, 2026"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "This Week’s Bestsellers: October 12, 2026",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/bookselling/article/101505-this-week-s-bestsellers-october-12-2026.html",
-        "published_at": "2026-10-09T04:00:00+00:00",
-        "summary": "This Week’s Bestsellers: October 12, 2026"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Holiday Gift Guide 2026: Nonfiction",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/adult-announcements/article/101503-holiday-gift-guide-2026-nonfiction.html",
-        "published_at": "2026-10-09T04:00:00+00:00",
-        "summary": "We love all these subjects, from science and cooking to history and entertainment. But our heart just might belong to the books about books."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
         "headline": "Library Vendors Get Up to Speed",
         "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101479-library-vendors-get-up-to-speed.html",
         "published_at": "2026-10-09T04:00:00+00:00",
         "summary": "Companies such as Follett, Ingram, and Readerlink are listening to publisher feedback and adapting to an accelerated marketplace."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Sara Paretsky Is the (Crime) Boss",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/authors/profiles/article/101477-sara-paretsky-is-the-crime-boss.html",
-        "published_at": "2026-10-09T04:00:00+00:00",
-        "summary": "The author’s new standalone thriller tackles sexism, ageism, politics, and greed."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Not Holding Back: PW Talks with Tova Reic",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic///article/101488-not-holding-back-pw-talks-with-tova-reic.html",
-        "published_at": "2026-10-09T04:00:00+00:00",
-        "summary": "Not Holding Back: PW Talks with Tova Reic"
       }
     },
     {
@@ -418,10 +391,64 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "The 2026 Publishers Weekly Holiday Gift Guide",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/adult-announcements/article/101498-the-2026-publishers-weekly-holiday-gift-guide.html",
+        "headline": "Not Holding Back: PW Talks with Tova Reic",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic///article/101488-not-holding-back-pw-talks-with-tova-reic.html",
         "published_at": "2026-10-09T04:00:00+00:00",
-        "summary": "The 2026 Publishers Weekly Holiday Gift Guide"
+        "summary": "Not Holding Back: PW Talks with Tova Reic"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Book Deals: Week of October 12, 2026",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic///article/101496-book-deals-week-of-october-12-2026.html",
+        "published_at": "2026-10-09T04:00:00+00:00",
+        "summary": "Book Deals: Week of October 12, 2026"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Sara Paretsky Is the (Crime) Boss",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/authors/profiles/article/101477-sara-paretsky-is-the-crime-boss.html",
+        "published_at": "2026-10-09T04:00:00+00:00",
+        "summary": "The author’s new standalone thriller tackles sexism, ageism, politics, and greed."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "This Week’s Bestsellers: October 12, 2026",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/bookselling/article/101505-this-week-s-bestsellers-october-12-2026.html",
+        "published_at": "2026-10-09T04:00:00+00:00",
+        "summary": "This Week’s Bestsellers: October 12, 2026"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Holiday Gift Guide 2026: Illustrated & Art Books",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/adult-announcements/article/101499-holiday-gift-guide-2026-illustrated-art-books.html",
+        "published_at": "2026-10-09T04:00:00+00:00",
+        "summary": "We’ve got titles for art lovers and bird watchers, sports fans and fashionistas, and appreciators of the offbeat and idiosyncratic."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Frankfurt Book Fair 2026: Audible Wants to Turn Every Book into an Audiobook",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101500-frankfurt-book-fair-2026-audible-wants-to-turn-every-book-into-an-audiobook.html",
+        "published_at": "2026-10-09T04:00:00+00:00",
+        "summary": "Frankfurt Book Fair 2026: Audible Wants to Turn Every Book into an Audiobook"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Holiday Gift Guide 2026: Nonfiction",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/adult-announcements/article/101503-holiday-gift-guide-2026-nonfiction.html",
+        "published_at": "2026-10-09T04:00:00+00:00",
+        "summary": "We love all these subjects, from science and cooking to history and entertainment. But our heart just might belong to the books about books."
       }
     },
     {
@@ -436,10 +463,19 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "Heartland Fall Forum Celebrates Community in Minneapolis",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/bookselling/article/101497-heartland-fall-forum-celebrates-community-in-minneapolis.html",
+        "headline": "Holiday Gift Guide 2026: Children’s & YA",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/childrens-announcements/article/101501-holiday-gift-guide-2026-children-s-ya.html",
         "published_at": "2026-10-09T04:00:00+00:00",
-        "summary": "Heartland Fall Forum Celebrates Community in Minneapolis"
+        "summary": "Holiday Gift Guide 2026: Children’s & YA"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "The 2026 Publishers Weekly Holiday Gift Guide",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/adult-announcements/article/101498-the-2026-publishers-weekly-holiday-gift-guide.html",
+        "published_at": "2026-10-09T04:00:00+00:00",
+        "summary": "The 2026 Publishers Weekly Holiday Gift Guide"
       }
     },
     {
@@ -449,6 +485,24 @@
         "source_url": "http://www.publishersweekly.com/pw/by-topic/authors/pw-select/article/101476-indie-spotlight-october-2026.html",
         "published_at": "2026-10-09T04:00:00+00:00",
         "summary": "In this edition of our monthly roundup of BookLife titles, we feature scary stories."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Frankfurt Book Fair 2026: New Layout, Lighter Traffic, and, Of Course, Lots of Deals",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101504-frankfurt-book-fair-2026-new-layout-lighter-traffic-and-of-course-deals.html",
+        "published_at": "2026-10-09T04:00:00+00:00",
+        "summary": "Frankfurt Book Fair 2026: New Layout, Lighter Traffic, and, Of Course, Lots of Deals"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Heartland Fall Forum Celebrates Community in Minneapolis",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/bookselling/article/101497-heartland-fall-forum-celebrates-community-in-minneapolis.html",
+        "published_at": "2026-10-09T04:00:00+00:00",
+        "summary": "Heartland Fall Forum Celebrates Community in Minneapolis"
       }
     },
     {
@@ -503,24 +557,6 @@
         "source_url": "https://www.nytimes.com/2026/10/08/books/review/new-recommended-books.html",
         "published_at": "2026-10-08T19:45:47+00:00",
         "summary": "Suggested reading from critics and editors at The New York Times."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Literary Hub",
-        "headline": "Taiwan Travelogue translator Lin King is calling out publishing’s “relay translation” practices.",
-        "source_url": "https://lithub.com/taiwan-travelogue-translator-lin-king-is-calling-out-publishings-relay-translation-practices/",
-        "published_at": "2026-10-08T17:35:54+00:00",
-        "summary": "Translator and writer Lin King released a statement on Instagram on Tuesday laying out her claim of copyright infringement of her Booker-Prize-winning English translation of Taiwan Travelogue by Yáng Shuāng-Zǐ, originally written in Mandarin and titled Táiwān Màn Yóu Lù"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "New York Times Books",
-        "headline": "Dispelling the Myth of Cormac McCarthy as Cowboy-Artist",
-        "source_url": "https://www.nytimes.com/2026/10/07/magazine/cormac-mccarthy-biography-myths.html",
-        "published_at": "2026-10-08T16:42:57+00:00",
-        "summary": "The first biography of the elusive novelist shows how little the lore ever told us about the man — or his art."
       }
     },
     {
@@ -670,19 +706,10 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "New Kids’ and YA Books: Week of October 12, 2026",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101484-new-kids-and-ya-books-week-of-october-12-2026.html",
+        "headline": "New to Anne Carson? Read These Books First",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/tip-sheet/article/101482-the-unique-and-modern-classicism-of-anne-carson.html",
         "published_at": "2026-10-08T04:00:00+00:00",
-        "summary": "New Kids’ and YA Books: Week of October 12, 2026"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "The Rabbit hOle Hosts Inaugural Literary Festival",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101492-the-rabbit-hole-hosts-inaugural-literary-festival.html",
-        "published_at": "2026-10-08T04:00:00+00:00",
-        "summary": "The Rabbit hOle Hosts Inaugural Literary Festival"
+        "summary": "New to Anne Carson? Read These Books First"
       }
     },
     {
@@ -706,82 +733,10 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "New to Anne Carson? Read These Books First",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/tip-sheet/article/101482-the-unique-and-modern-classicism-of-anne-carson.html",
-        "published_at": "2026-10-08T04:00:00+00:00",
-        "summary": "New to Anne Carson? Read These Books First"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Anne Carson Wins 2026 Nobel Prize for Literature",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/awards-and-prizes/article/101483-anne-carson-wins-2026-nobel-prize-for-literature.html",
-        "published_at": "2026-10-08T04:00:00+00:00",
-        "summary": "Anne Carson Wins 2026 Nobel Prize for Literature"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Academic Publishing Veteran Sandy Crooms Dies at 66",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/Obituary/article/101427-u-pittsburgh-press-director-sandy-crooms-dies-at-66.html",
-        "published_at": "2026-10-08T04:00:00+00:00",
-        "summary": "Academic Publishing Veteran Sandy Crooms Dies at 66"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Sarah Blakley-Cartwright on Five Dollhouse Stories That Informed Her Latest Novel",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/tip-sheet/article/101493-sarah-blakley-cartwright-on-five-dollhouse-stories-that-informed-her-latest-novel.html",
-        "published_at": "2026-10-08T04:00:00+00:00",
-        "summary": "Sarah Blakley-Cartwright on Five Dollhouse Stories That Informed Her Latest Novel"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "‘Think Like the Audience’: PW Talks with B.J. Novak",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101485-think-like-the-audience-pw-talks-with-b-j-novak.html",
-        "published_at": "2026-10-08T04:00:00+00:00",
-        "summary": "‘Think Like the Audience’: PW Talks with B.J. Novak"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
         "headline": "First Look: ‘Charlie and the Chocolate Factory: The Graphic Novel’",
         "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101494-first-look-charlie-and-the-chocolate-factory-the-graphic-novel.html",
         "published_at": "2026-10-08T04:00:00+00:00",
         "summary": "First Look: ‘Charlie and the Chocolate Factory: The Graphic Novel’"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "‘We All Battle in Our Lives’: PW Talks with Gary Sinise",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/religion/article/101424-we-all-battle-in-our-lives-pw-talks-with-gary-sinise.html",
-        "published_at": "2026-10-08T04:00:00+00:00",
-        "summary": "‘We All Battle in Our Lives’: PW Talks with Gary Sinise"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "In Brief: October 8, 2026",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101490-in-brief-october-8-2026.html",
-        "published_at": "2026-10-08T04:00:00+00:00",
-        "summary": "In Brief: October 8, 2026"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Middle Grade Comics Mag ‘Hullabaloo’ Rebrands, Launches as ‘Bangarang’",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101491-middle-grade-comics-mag-hullabaloo-rebrands-launches-as-bangarang.html",
-        "published_at": "2026-10-08T04:00:00+00:00",
-        "summary": "Middle Grade Comics Mag ‘Hullabaloo’ Rebrands, Launches as ‘Bangarang’"
       }
     },
     {
@@ -796,10 +751,91 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
+        "headline": "The Rabbit hOle Hosts Inaugural Literary Festival",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101492-the-rabbit-hole-hosts-inaugural-literary-festival.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "The Rabbit hOle Hosts Inaugural Literary Festival"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Middle Grade Comics Mag ‘Hullabaloo’ Rebrands, Launches as ‘Bangarang’",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101491-middle-grade-comics-mag-hullabaloo-rebrands-launches-as-bangarang.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "Middle Grade Comics Mag ‘Hullabaloo’ Rebrands, Launches as ‘Bangarang’"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Anne Carson Wins 2026 Nobel Prize for Literature",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/awards-and-prizes/article/101483-anne-carson-wins-2026-nobel-prize-for-literature.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "Anne Carson Wins 2026 Nobel Prize for Literature"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "In Brief: October 8, 2026",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101490-in-brief-october-8-2026.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "In Brief: October 8, 2026"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Sarah Blakley-Cartwright on Five Dollhouse Stories That Informed Her Latest Novel",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/tip-sheet/article/101493-sarah-blakley-cartwright-on-five-dollhouse-stories-that-informed-her-latest-novel.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "Sarah Blakley-Cartwright on Five Dollhouse Stories That Informed Her Latest Novel"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "‘We All Battle in Our Lives’: PW Talks with Gary Sinise",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/religion/article/101424-we-all-battle-in-our-lives-pw-talks-with-gary-sinise.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "‘We All Battle in Our Lives’: PW Talks with Gary Sinise"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "‘Think Like the Audience’: PW Talks with B.J. Novak",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101485-think-like-the-audience-pw-talks-with-b-j-novak.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "‘Think Like the Audience’: PW Talks with B.J. Novak"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
         "headline": "Wm. Paul Young Revisits ‘The Shack’",
         "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/religion/article/101422-wm-paul-young-revisits-the-shack.html",
         "published_at": "2026-10-08T04:00:00+00:00",
         "summary": "Wm. Paul Young Revisits ‘The Shack’"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Academic Publishing Veteran Sandy Crooms Dies at 66",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/Obituary/article/101427-u-pittsburgh-press-director-sandy-crooms-dies-at-66.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "Academic Publishing Veteran Sandy Crooms Dies at 66"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "New Kids’ and YA Books: Week of October 12, 2026",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101484-new-kids-and-ya-books-week-of-october-12-2026.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "New Kids’ and YA Books: Week of October 12, 2026"
       }
     },
     {
@@ -939,33 +975,6 @@
     },
     {
       "event_model_payload": {
-        "source_name": "New York Times Books",
-        "headline": "Book Review: ‘Will and Attention,’ by Meghan O’Gieblyn",
-        "source_url": "https://www.nytimes.com/2026/10/07/books/review/will-and-attention-meghan-ogieblyn.html",
-        "published_at": "2026-10-07T09:01:29+00:00",
-        "summary": "In her new memoir, Meghan O’Gieblyn plumbs the philosophical implications of twin longings: for spiritual fulfillment and for drink."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "New York Times Books",
-        "headline": "Book Review: ‘Sleeping Beauties,’ by David Byrne",
-        "source_url": "https://www.nytimes.com/2026/10/07/books/review/sleeping-beauties-david-byrne.html",
-        "published_at": "2026-10-07T09:01:23+00:00",
-        "summary": "“Sleeping Beauties,” by the musician David Byrne, explores artistic and scientific innovations that were overlooked before being embraced."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "New York Times Books",
-        "headline": "Book Review: ‘Other Worlds Than These,’ by Stephen King and Peter Straub",
-        "source_url": "https://www.nytimes.com/2026/10/07/books/review/other-worlds-than-these-stephen-king-peter-straub.html",
-        "published_at": "2026-10-07T09:00:23+00:00",
-        "summary": "“Other Worlds Than These” is the final volume in the Talisman trilogy, which King wrote with Peter Straub."
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "NPR Books",
         "headline": "Jennifer Welch isn't holding back on Trump, Democrats or political division",
         "source_url": "https://www.npr.org/2026/10/07/nx-s1-5709016/jennifer-welch-not-today-fascists-book",
@@ -1016,15 +1025,6 @@
         "source_url": "https://www.theguardian.com/books/2026/oct/07/other-worlds-than-these-by-stephen-king-and-peter-straub-review-a-self-indulgent-finale-to-the-talisman-trilogy",
         "published_at": "2026-10-07T08:00:38+00:00",
         "summary": "<p>There are moments of shivering joy as the protagonist of two enduring classics, Jack Sawyer, returns – but this time his journey feels endlessly repetitive</p><p>Bear with me, because there is some backstory to get through before we can talk about the book I am actually here to review. Back in 1984, Stephen King and Peter Straub collaborated on the fantasy novel The Talisman. Like all the best King stories, it follows a young boy: in this case Jack Sawyer, 12, whose mother, Lily, is dying. Jack learns that a magical object called the Talisman might save her – if he can find it in a parallel world known as the Territories. Straub and King followed this up in 2001 with <a href=\"https://www.theguardian.com/books/2001/oct/07/stephenking.fiction\">Black House</a>, in which an adult Jack investigates a series of child murders that turn out to have disturbing links to the Territories.</p><p>The books are very different: one a coming-of-age cross-country quest, in which Jack flips back and forth between two versions of the US; the other a fantastical and horror-inflected murder mystery. Both are brilliant and enduring classics which will always have a place on my bookshelves – I reread both of them, all 1,800-odd pages, to prepare for Other Worlds Than These and was as swept away and delighted as the first time round.</p> <a href=\"https://www.theguardian.com/books/2026/oct/07/other-worlds-than-these-by-stephen-king-and-peter-straub-review-a-self-indulgent-finale-to-the-talisman-trilogy\">Continue reading...</a>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "The Guardian Books",
-        "headline": "Blockers by Michael Lewis review – the quiet heroes who tried to stop Doge",
-        "source_url": "https://www.theguardian.com/books/2026/oct/07/blockers-by-michael-lewis-review-the-quiet-heroes-who-tried-to-stop-doge",
-        "published_at": "2026-10-07T06:00:35+00:00",
-        "summary": "<p>The author of Moneyball brings his exceptional narrative skills to bear on Musk’s anti-government crusade</p><p>Donald Trump’s catastrophic errors get so much attention that his systemic ones can easily be missed. While the world looks on in dismay at his farcical war in Iran, the thuggery of Ice agents or clownish attacks on erstwhile allies like Canada and Denmark, the core functions of the American government are slowly disintegrating.</p><p>It is harder to get people to focus on the machinery of the state because the effects are often slow and hard to pin down. Outbreaks of disease – such as the recent wave of <a href=\"https://www.theguardian.com/us-news/2026/jul/03/cdc-investigates-parasite-explosive-diarrhea\">explosive diarrhoea</a> across the US – might have happened anyway, but were probably made worse by lay-offs at the Centers for Disease Control. Likewise, Trump is not directly responsible for natural disasters, but response times in the past year may have been hampered by mass redundancies at the National Weather Service. Cuts to tax collection also seem to have reduced revenue by multiple billions, though we cannot be sure of the causal relationship.</p> <a href=\"https://www.theguardian.com/books/2026/oct/07/blockers-by-michael-lewis-review-the-quiet-heroes-who-tried-to-stop-doge\">Continue reading...</a>"
       }
     },
     {
@@ -1128,24 +1128,6 @@
     },
     {
       "event_model_payload": {
-        "source_name": "NPR Books",
-        "headline": "No one expected Leo to be pope — except everyone who knew him as 'Bob'",
-        "source_url": "https://www.npr.org/2026/10/03/nx-s1-5987816/pope-leo-american-pope-book-excerpt",
-        "published_at": "2026-10-03T09:00:00+00:00",
-        "summary": "When the 2025 conclave began, no one expected an American pope. But by its end, Cardinal Robert Prevost had become Pope Leo. Here's a look behind the scenes."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "The Guardian Books",
-        "headline": "‘I thought, if I’m going to die, I’m going to write a book first’: Pachinko author Min Jin Lee",
-        "source_url": "https://www.theguardian.com/books/2026/oct/03/i-thought-if-im-going-to-die-im-going-to-write-a-book-first-pachinko-author-min-jin-lee",
-        "published_at": "2026-10-03T08:00:53+00:00",
-        "summary": "<p>Her last novel sold 5m copies and was adapted into a hit series. Nearly 10 years on, the Korean-American author has written another epic. She discusses ambition and the diagnosis that inspired her to leave work and write</p><p>Back in 1995, when she was in her mid-20s, Min Jin Lee quit her job as a corporate lawyer. As a teenager she had been diagnosed as a hepatitis B carrier and doctors told her she was highly likely to develop liver cancer in her 20s or 30s. “I thought, if I’m going to die, I’m going to write a book first,” the now 57-year-old Korean-American author says of her decision to turn her back on a regular pay cheque and healthcare. “I was told so many times that I was going to get sicker and sicker, that I’ve always felt that if I can get a really good book out then I’m done.”</p><p>Lee, looking very much alive and well, is on a video call from her home in Harlem, New York, floor-to-ceiling bookshelves behind her. We are meeting to discuss the publication of her third novel, American Hagwon, the final part in what she calls her “Korean trilogy”, following Free Food for Millionaires in 2007 and her 2017 international bestseller, <a href=\"https://www.theguardian.com/books/2017/mar/15/pachinko-min-jin-lee-review\">Pachinko</a>, stylishly <a href=\"https://www.theguardian.com/tv-and-radio/2022/mar/25/pachinko-review-min-jin-lee-south-korea\">adapted for Apple TV</a> in 2022. “Korean quartet!” she corrects me now. Thanks to experimental drugs, she is now so healthy she can commit to another book. “Before I turn 70, I should turn in my manuscript,” she jokes. “I’m writing the four books that I wanted to write and after that I’m going to take a long nap.”</p> <a href=\"https://www.theguardian.com/books/2026/oct/03/i-thought-if-im-going-to-die-im-going-to-write-a-book-first-pachinko-author-min-jin-lee\">Continue reading...</a>"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "The Guardian Books",
         "headline": "The best books to read in September: new paperbacks from Margaret Atwood, Kiran Desai and Richard Holmes",
         "source_url": "https://www.theguardian.com/books/ng-interactive/2026/sep/18/the-best-books-to-read-in-september-new-paperbacks-from-margaret-atwood-kiran-desai-and-richard-holmes",
@@ -1183,6 +1165,15 @@
     {
       "event_model_payload": {
         "source_name": "The Guardian Books",
+        "headline": "‘I thought, if I’m going to die, I’m going to write a book first’: Pachinko author Min Jin Lee",
+        "source_url": "https://www.theguardian.com/books/2026/oct/03/i-thought-if-im-going-to-die-im-going-to-write-a-book-first-pachinko-author-min-jin-lee",
+        "published_at": "2026-10-03T08:00:53+00:00",
+        "summary": "<p>Her last novel sold 5m copies and was adapted into a hit series. Nearly 10 years on, the Korean-American author has written another epic. She discusses ambition and the diagnosis that inspired her to leave work and write</p><p>Back in 1995, when she was in her mid-20s, Min Jin Lee quit her job as a corporate lawyer. As a teenager she had been diagnosed as a hepatitis B carrier and doctors told her she was highly likely to develop liver cancer in her 20s or 30s. “I thought, if I’m going to die, I’m going to write a book first,” the now 57-year-old Korean-American author says of her decision to turn her back on a regular pay cheque and healthcare. “I was told so many times that I was going to get sicker and sicker, that I’ve always felt that if I can get a really good book out then I’m done.”</p><p>Lee, looking very much alive and well, is on a video call from her home in Harlem, New York, floor-to-ceiling bookshelves behind her. We are meeting to discuss the publication of her third novel, American Hagwon, the final part in what she calls her “Korean trilogy”, following Free Food for Millionaires in 2007 and her 2017 international bestseller, <a href=\"https://www.theguardian.com/books/2017/mar/15/pachinko-min-jin-lee-review\">Pachinko</a>, stylishly <a href=\"https://www.theguardian.com/tv-and-radio/2022/mar/25/pachinko-review-min-jin-lee-south-korea\">adapted for Apple TV</a> in 2022. “Korean quartet!” she corrects me now. Thanks to experimental drugs, she is now so healthy she can commit to another book. “Before I turn 70, I should turn in my manuscript,” she jokes. “I’m writing the four books that I wanted to write and after that I’m going to take a long nap.”</p> <a href=\"https://www.theguardian.com/books/2026/oct/03/i-thought-if-im-going-to-die-im-going-to-write-a-book-first-pachinko-author-min-jin-lee\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
         "headline": "The best recent poetry – review roundup",
         "source_url": "https://www.theguardian.com/books/2026/oct/02/the-best-recent-poetry-review-roundup",
         "published_at": "2026-10-02T11:00:17+00:00",
@@ -1214,6 +1205,15 @@
         "source_url": "https://www.theguardian.com/books/2026/aug/28/childrens-books-roundup-the-best-new-picture-books-and-novels",
         "published_at": "2026-08-28T11:00:55+00:00",
         "summary": "<p>Poetry with wonder and wit; a heartwarming tale for horse lovers; a portal to the future; a brilliant YA wartime romance and more</p><p><br /><strong><a href=\"https://guardianbookshop.com/small-monster-big-monster-9781837292110/?utm_source=editoriallink&utm_medium=merch&utm_campaign=article\">Small Monster, Big Monster</a></strong><strong> by Allan Sanders, Phaidon, £7.95</strong><strong><br /></strong>Refrigerator is EMPTY. Monster is FULL (of pizza!). An eye-wateringly bright board book, featuring splendidly zany, toddler-pleasing pairs of opposites.</p><p><strong><a href=\"https://guardianbookshop.com/the-flying-machine-of-dreams-9781915659989/?utm_source=editoriallink&utm_medium=merch&utm_campaign=article\">The Flying Machine of Dreams</a> by Kate Wakeling</strong><strong>, illustrated by Viviane Schwarz, Otter-Barry, £12.99</strong><strong><br /></strong>A delectable picture-book collaboration that perfectly distils the wonder of the everyday, from the textures of a leaf to a squishy-cushioned den. Wakeling’s irresistible poetry is richly heightened by Schwarz’s sweet, strange illustrations.</p> <a href=\"https://www.theguardian.com/books/2026/aug/28/childrens-books-roundup-the-best-new-picture-books-and-novels\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "NPR Books",
+        "headline": "No one expected Leo to be pope — except everyone who knew him as 'Bob'",
+        "source_url": "https://www.npr.org/2026/10/03/nx-s1-5987816/pope-leo-american-pope-book-excerpt",
+        "published_at": "2026-10-03T09:00:00+00:00",
+        "summary": "When the 2025 conclave began, no one expected an American pope. But by its end, Cardinal Robert Prevost had become Pope Leo. Here's a look behind the scenes."
       }
     }
   ],

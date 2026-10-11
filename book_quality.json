@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-10-10T06:45:23.314495+00:00",
+  "generated_at": "2026-10-11T06:53:28.296940+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -17,23 +17,23 @@
     "sales_ranking_events": 1,
     "library_lending_events": 0,
     "author_event_events": 3,
-    "award_signal_events": 13,
-    "book_signal_event_count": 17,
+    "award_signal_events": 12,
+    "book_signal_event_count": 16,
     "official_or_operational_event_count": 1,
     "community_proxy_event_count": 0,
     "complete_canonical_key_count": 7,
-    "proxy_canonical_key_count": 10,
+    "proxy_canonical_key_count": 9,
     "missing_canonical_key_count": 0,
     "isbn_present_count": 7,
-    "author_present_count": 4,
+    "author_present_count": 3,
     "publisher_present_count": 1,
     "rank_present_count": 0,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 13,
+    "event_required_field_gap_count": 12,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 28
+    "daily_review_item_count": 26
   },
   "sources": [
     {
@@ -75,7 +75,7 @@
       "article_count": 1,
       "event_count": 1,
       "latest_event_at": "2026-10-04T22:01:14+00:00",
-      "age_days": 5.36,
+      "age_days": 6.37,
       "latest_title": "[알라딘 베스트 RSS] 도서종합 분야 주간 베스트셀러",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?branch=book&cid=0&days=2026102&rssType=5&type=BEST",
       "latest_source_signal": [
@@ -1250,53 +1250,6 @@
       ]
     },
     {
-      "source": "Literary Hub",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Taiwan Travelogue translator Lin King is calling out publishing’s “relay translation” practices.",
-      "url": "https://lithub.com/taiwan-travelogue-translator-lin-king-is-calling-out-publishings-relay-translation-practices",
-      "source_url": "https://lithub.com/taiwan-travelogue-translator-lin-king-is-calling-out-publishings-relay-translation-practices",
-      "event_at": "2026-10-08T17:35:54+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "writer",
-        "translator"
-      ],
-      "award": [
-        "booker"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:title:4ad1f7b5259c",
-      "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:7b13532af757:20261008",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
       "source": "Book Riot",
       "source_type": "rss",
       "trust_tier": "T3_professional",
@@ -1704,23 +1657,6 @@
       "source": "New York Times Books",
       "title": "New to Anne Carson’s Books? Start Here.",
       "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Taiwan Travelogue translator Lin King is calling out publishing’s “relay translation” practices.",
-      "canonical_key": "book_edition:title:4ad1f7b5259c",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Taiwan Travelogue translator Lin King is calling out publishing’s “relay translation” practices.",
-      "canonical_key_status": "title_proxy"
     },
     {
       "reason": "missing_required_fields",
