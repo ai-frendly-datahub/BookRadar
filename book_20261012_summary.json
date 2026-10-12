@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-11",
+  "date": "2026-10-12",
   "category": "book",
   "article_count": 130,
   "source_count": 8,
@@ -11,7 +11,7 @@
     },
     {
       "name": "Genre",
-      "count": 164
+      "count": 161
     },
     {
       "name": "BookType",
@@ -19,7 +19,7 @@
     },
     {
       "name": "Author",
-      "count": 32
+      "count": 34
     },
     {
       "name": "Award",
@@ -36,16 +36,97 @@
   ],
   "sources": {
     "New York Times Books": 21,
-    "Literary Hub": 10,
+    "알라딘 베스트셀러": 1,
     "The Guardian Books": 23,
-    "NPR Books": 10,
     "Book Riot": 10,
+    "Literary Hub": 10,
+    "NPR Books": 10,
     "Publishers Weekly": 30,
-    "알라딘 신간": 25,
-    "알라딘 베스트셀러": 1
+    "알라딘 신간": 25
   },
-  "generated_at": "2026-10-11T15:53:26.316306+09:00",
+  "generated_at": "2026-10-12T16:02:24.136674+09:00",
   "articles": [
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Anne Carson’s Publisher Has Won the Nobel Prize Twice in Two Years",
+        "source_url": "https://www.nytimes.com/2026/10/09/books/new-directions-nobel-anne-carson.html",
+        "published_at": "2026-10-12T02:55:17+00:00",
+        "summary": "Fourteen authors in the New Directions stable have received the Nobel Prize in Literature, including this year and last. How does this small press pack such a punch?"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "알라딘 베스트셀러",
+        "headline": "[알라딘 베스트 RSS] 도서종합 분야 주간 베스트셀러",
+        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=BEST&branch=book&cid=0&days=2026103",
+        "published_at": "2026-10-11T22:00:18+00:00",
+        "summary": "<span style=\"color: #bc2e17;\">2026년 10월 3주 베스트셀러 순위입니다.</span><br /><br />"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Tom Gauld on 625 new cosy crime novels for autumn – cartoon",
+        "source_url": "https://www.theguardian.com/books/picture/2026/oct/11/tom-gauld-on-625-new-cosy-novels-for-autumn-cartoon",
+        "published_at": "2026-10-11T15:00:29+00:00",
+        "summary": "<p> </p> <a href=\"https://www.theguardian.com/books/picture/2026/oct/11/tom-gauld-on-625-new-cosy-novels-for-autumn-cartoon\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "Did Trump get one thing right about Greenland?",
+        "source_url": "https://www.theguardian.com/world/2026/oct/11/did-trump-get-one-thing-right-about-greenland",
+        "published_at": "2026-10-11T11:00:25+00:00",
+        "summary": "<p>Threatening an ally is a terrible idea, but there’s no denying the Arctic’s increasing strategic importance</p><p>One of Donald Trump’s more diabolical talents is his ability to land on the right things in the wrong way. Since his first term, Trump has been obsessed with the Arctic – Greenland in particular – something that has puzzled and enraged many, particularly in Europe. He first brought up the idea of buying the icy landmass from Denmark in 2019. Right after re-election, he began ramping up his rhetoric about acquiring it “one way or another”, threatening the Nato alliance and the foundations of post-second world war security.</p><p>Trump got his way – thankfully without military force – in September, when the US and Denmark signed an agreement that allowed for many more US troops on the island, albeit without the sort of takeover that the president enjoys “joking” about. “The United States will FOREVER have the complete ability to do what is necessary in Greenland,” Trump wrote on social media. “We will work with the people of Greenland in its development and construction.”</p> <a href=\"https://www.theguardian.com/world/2026/oct/11/did-trump-get-one-thing-right-about-greenland\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "‘The crime fiction I’m interested in is political’: Ian Rankin on his new novel about the super-rich",
+        "source_url": "https://www.theguardian.com/books/2026/oct/11/the-fiction-im-interested-in-is-political-ian-rankin-on-his-new-novel-about-the-super-rich",
+        "published_at": "2026-10-11T11:00:24+00:00",
+        "summary": "<p>The bestselling writer talks about leaving Edinburgh for London in his latest mystery, and what the future holds for Rebus</p><p>Sir Ian Rankin rarely watches television. Certainly, there’s no gleaming flatscreen in the corner of the apartment in Edinburgh where he writes, listens to music and constructs elaborate Lego models (all four Beatles, their Yellow Submarine and, once, a 6ft version of the Eiffel Tower). Did he not see the most recent incarnation of his most famous creation, Detective Inspector John Rebus, this time played by Richard Rankin (no relation), in the wake of previous performances by Ken Stott and John Hannah? “I did,” he concedes. “They gave me them on DVD, so I could play them on my computer.”</p><p>Ah, his computer – it’s had its screen and hard drive replaced, and there are grooves in the keys. It sits on top of a plain, compact trestle-table desk he bought on London’s Charing Cross Road in 1987 and lugged back to his Tottenham flat on the tube; both have accompanied him from London to rural Dordogne, in southwest France, where he lived for a few years with his wife, Miranda, in the 1990s, and back to Edinburgh, where the couple and their two sons have been ever since.</p> <a href=\"https://www.theguardian.com/books/2026/oct/11/the-fiction-im-interested-in-is-political-ian-rankin-on-his-new-novel-about-the-super-rich\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Book Riot",
+        "headline": "Book Riot’s Deals of the Day for October 11, 2026",
+        "source_url": "https://bookriot.com/book-riots-deals-of-the-day-for-october-11-2026/",
+        "published_at": "2026-10-11T11:00:00+00:00",
+        "summary": "Audre Lorde's feminist classic, Ralph Ellison's INVISIBLE MAN, a Viking-inspired romantic fantasy, and more of today's best deals."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Book Review: ‘The Havana Syndrome,’ by Michael Rey and Oriana Zill de Granados",
+        "source_url": "https://www.nytimes.com/2026/10/11/books/review/the-havana-syndrome-michael-rey-oriana-zill-de-granados.html",
+        "published_at": "2026-10-11T09:00:47+00:00",
+        "summary": "In “The Havana Syndrome,” Michael Rey and Oriana Zill de Granados make the case that a mysterious Russian weapon has been used to target American intelligence agents."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "Book Review: ‘The Case of the Autographed Corpse,’ by Jack El-Hai",
+        "source_url": "https://www.nytimes.com/2026/10/11/books/review/case-of-the-autographed-corpse-jack-el-hai.html",
+        "published_at": "2026-10-11T09:00:22+00:00",
+        "summary": "In “The Case of the Autographed Corpse,” Jack El-Hai reveals how the relationship between a celebrity author and a captive healer reopened a closed case."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "New York Times Books",
+        "headline": "50 Years Later, ‘The Hite Report’ Still Matters",
+        "source_url": "https://www.nytimes.com/2026/10/11/books/review/shere-hite-report-biography.html",
+        "published_at": "2026-10-11T09:00:07+00:00",
+        "summary": "Its author became a pop culture celebrity, and sometimes punchline, but “The Hite Report” helped make way for frank discussions about pleasure."
+      }
+    },
     {
       "event_model_payload": {
         "source_name": "New York Times Books",
@@ -96,7 +177,7 @@
         "source_name": "New York Times Books",
         "headline": "Should You Put Your Books in the Freezer?",
         "source_url": "https://www.nytimes.com/2026/10/10/books/book-preservation-silverfish.html",
-        "published_at": "2026-10-10T09:00:18+00:00",
+        "published_at": "2026-10-10T09:00:19+00:00",
         "summary": "Silverfish, book lice and mold are a thing, especially in secondhand books. Here’s how to deal with them."
       }
     },
@@ -116,15 +197,6 @@
         "source_url": "https://www.npr.org/2026/10/09/nx-s1-5991459/divergent-sixth-faction-review",
         "published_at": "2026-10-09T19:21:06+00:00",
         "summary": "Veronica Roth's latest, <em>The Sixth Faction, </em>takes us back to the beginning, where Beatrice Prior has a choice to make. This time, she chooses another path. <br /><br />"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "New York Times Books",
-        "headline": "Anne Carson’s Publisher Has Won the Nobel Prize Twice in Two Years",
-        "source_url": "https://www.nytimes.com/2026/10/09/books/new-directions-nobel-anne-carson.html",
-        "published_at": "2026-10-09T18:00:20+00:00",
-        "summary": "Fourteen authors in the New Directions stable have received the Nobel Prize in Literature, including this year and last. How does this small press pack such a punch?"
       }
     },
     {
@@ -220,19 +292,19 @@
     {
       "event_model_payload": {
         "source_name": "Book Riot",
-        "headline": "Graphic Novels About Therapy for World Mental Health Day",
-        "source_url": "https://bookriot.com/graphic-novels-about-therapy/",
+        "headline": "Want to Fight Book Bans? Start Here.",
+        "source_url": "https://bookriot.com/how-to-fight-book-bans-2026/",
         "published_at": "2026-10-09T10:00:00+00:00",
-        "summary": "Read these outstanding graphic novels about therapy to explore the world of mental health and its treatment options."
+        "summary": "No one is coming to save us, so we must do it ourselves. Here are 60+ small tasks to help defend the right to read in 2026 and beyond."
       }
     },
     {
       "event_model_payload": {
         "source_name": "Book Riot",
-        "headline": "Want to Fight Book Bans? Start Here.",
-        "source_url": "https://bookriot.com/how-to-fight-book-bans-2026/",
+        "headline": "Graphic Novels About Therapy for World Mental Health Day",
+        "source_url": "https://bookriot.com/graphic-novels-about-therapy/",
         "published_at": "2026-10-09T10:00:00+00:00",
-        "summary": "No one is coming to save us, so we must do it ourselves. Here are 60+ small tasks to help defend the right to read in 2026 and beyond."
+        "summary": "Read these outstanding graphic novels about therapy to explore the world of mental health and its treatment options."
       }
     },
     {
@@ -363,56 +435,11 @@
     },
     {
       "event_model_payload": {
-        "source_name": "The Guardian Books",
-        "headline": "The Queerest of Folk by Russell T Davies review – the groundbreaking screenwriter tells it like it is",
-        "source_url": "https://www.theguardian.com/books/2026/oct/09/the-queerest-of-folk-by-russell-t-davies-review-the-groundbreaking-screenwriter-tells-it-like-it-is",
-        "published_at": "2026-10-09T06:00:41+00:00",
-        "summary": "<p>From Coronation Street to It’s a Sin, Davies’ memoir of a career in TV is also a rallying cry for creativity</p><p>Television is an intimate art form, once beamed into living rooms, now on devices right in front of our faces. The screenwriter Russell T Davies understands that intimacy. Whether discussing his early days developing lost-to-history soap spin-offs, making a splash with the pioneering gay series <a href=\"https://www.theguardian.com/culture/2025/may/10/my-cultural-awakening-queer-as-folk-helped-me-to-come-out\">Queer As Folk</a>, or reviving Doctor Who to great acclaim, he makes it feel as if you’re at the pub with him, settling in for the night, ready to hear his best stories.</p><p>This warm and gossipy autobiography offers a peek behind the curtains of the British TV industry, and as such, it goes light on Davies’s own life story. Instead, he gallops through five decades in the business, using the framework of his TV shows to propel the book forward at great speed. He was born in Swansea in 1963, to a family who loved watching TV. While he was studying English at Oxford, a friend suggested that, as he thought television was so great, he should consider doing it as his job.</p> <a href=\"https://www.theguardian.com/books/2026/oct/09/the-queerest-of-folk-by-russell-t-davies-review-the-groundbreaking-screenwriter-tells-it-like-it-is\">Continue reading...</a>"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "Library Vendors Get Up to Speed",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101479-library-vendors-get-up-to-speed.html",
+        "headline": "Frankfurt Book Fair 2026: New Layout, Lighter Traffic, and, Of Course, Lots of Deals",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101504-frankfurt-book-fair-2026-new-layout-lighter-traffic-and-of-course-deals.html",
         "published_at": "2026-10-09T04:00:00+00:00",
-        "summary": "Companies such as Follett, Ingram, and Readerlink are listening to publisher feedback and adapting to an accelerated marketplace."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Backseat Driving: PW Talks with Edward Niedermeyer",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/authors/interviews/article/101487-backseat-driving-pw-talks-with-edward-niedermeyer.html",
-        "published_at": "2026-10-09T04:00:00+00:00",
-        "summary": "Backseat Driving: PW Talks with Edward Niedermeyer"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Not Holding Back: PW Talks with Tova Reic",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic///article/101488-not-holding-back-pw-talks-with-tova-reic.html",
-        "published_at": "2026-10-09T04:00:00+00:00",
-        "summary": "Not Holding Back: PW Talks with Tova Reic"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Book Deals: Week of October 12, 2026",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic///article/101496-book-deals-week-of-october-12-2026.html",
-        "published_at": "2026-10-09T04:00:00+00:00",
-        "summary": "Book Deals: Week of October 12, 2026"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Sara Paretsky Is the (Crime) Boss",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/authors/profiles/article/101477-sara-paretsky-is-the-crime-boss.html",
-        "published_at": "2026-10-09T04:00:00+00:00",
-        "summary": "The author’s new standalone thriller tackles sexism, ageism, politics, and greed."
+        "summary": "Frankfurt Book Fair 2026: New Layout, Lighter Traffic, and, Of Course, Lots of Deals"
       }
     },
     {
@@ -427,28 +454,37 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "Holiday Gift Guide 2026: Illustrated & Art Books",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/adult-announcements/article/101499-holiday-gift-guide-2026-illustrated-art-books.html",
-        "published_at": "2026-10-09T04:00:00+00:00",
-        "summary": "We’ve got titles for art lovers and bird watchers, sports fans and fashionistas, and appreciators of the offbeat and idiosyncratic."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Frankfurt Book Fair 2026: Audible Wants to Turn Every Book into an Audiobook",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101500-frankfurt-book-fair-2026-audible-wants-to-turn-every-book-into-an-audiobook.html",
-        "published_at": "2026-10-09T04:00:00+00:00",
-        "summary": "Frankfurt Book Fair 2026: Audible Wants to Turn Every Book into an Audiobook"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
         "headline": "Holiday Gift Guide 2026: Nonfiction",
         "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/adult-announcements/article/101503-holiday-gift-guide-2026-nonfiction.html",
         "published_at": "2026-10-09T04:00:00+00:00",
         "summary": "We love all these subjects, from science and cooking to history and entertainment. But our heart just might belong to the books about books."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Not Holding Back: PW Talks with Tova Reic",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic///article/101488-not-holding-back-pw-talks-with-tova-reic.html",
+        "published_at": "2026-10-09T04:00:00+00:00",
+        "summary": "Not Holding Back: PW Talks with Tova Reic"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Sara Paretsky Is the (Crime) Boss",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/authors/profiles/article/101477-sara-paretsky-is-the-crime-boss.html",
+        "published_at": "2026-10-09T04:00:00+00:00",
+        "summary": "The author’s new standalone thriller tackles sexism, ageism, politics, and greed."
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Holiday Gift Guide 2026: Illustrated & Art Books",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/adult-announcements/article/101499-holiday-gift-guide-2026-illustrated-art-books.html",
+        "published_at": "2026-10-09T04:00:00+00:00",
+        "summary": "We’ve got titles for art lovers and bird watchers, sports fans and fashionistas, and appreciators of the offbeat and idiosyncratic."
       }
     },
     {
@@ -463,10 +499,28 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "Holiday Gift Guide 2026: Children’s & YA",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/childrens-announcements/article/101501-holiday-gift-guide-2026-children-s-ya.html",
+        "headline": "Backseat Driving: PW Talks with Edward Niedermeyer",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/authors/interviews/article/101487-backseat-driving-pw-talks-with-edward-niedermeyer.html",
         "published_at": "2026-10-09T04:00:00+00:00",
-        "summary": "Holiday Gift Guide 2026: Children’s & YA"
+        "summary": "Backseat Driving: PW Talks with Edward Niedermeyer"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Heartland Fall Forum Celebrates Community in Minneapolis",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/bookselling/article/101497-heartland-fall-forum-celebrates-community-in-minneapolis.html",
+        "published_at": "2026-10-09T04:00:00+00:00",
+        "summary": "Heartland Fall Forum Celebrates Community in Minneapolis"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Frankfurt Book Fair 2026: Audible Wants to Turn Every Book into an Audiobook",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101500-frankfurt-book-fair-2026-audible-wants-to-turn-every-book-into-an-audiobook.html",
+        "published_at": "2026-10-09T04:00:00+00:00",
+        "summary": "Frankfurt Book Fair 2026: Audible Wants to Turn Every Book into an Audiobook"
       }
     },
     {
@@ -490,19 +544,28 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "Frankfurt Book Fair 2026: New Layout, Lighter Traffic, and, Of Course, Lots of Deals",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/international/Frankfurt-Book-Fair/article/101504-frankfurt-book-fair-2026-new-layout-lighter-traffic-and-of-course-deals.html",
+        "headline": "Holiday Gift Guide 2026: Children’s & YA",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/new-titles/childrens-announcements/article/101501-holiday-gift-guide-2026-children-s-ya.html",
         "published_at": "2026-10-09T04:00:00+00:00",
-        "summary": "Frankfurt Book Fair 2026: New Layout, Lighter Traffic, and, Of Course, Lots of Deals"
+        "summary": "Holiday Gift Guide 2026: Children’s & YA"
       }
     },
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "Heartland Fall Forum Celebrates Community in Minneapolis",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/bookselling/article/101497-heartland-fall-forum-celebrates-community-in-minneapolis.html",
+        "headline": "Book Deals: Week of October 12, 2026",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic///article/101496-book-deals-week-of-october-12-2026.html",
         "published_at": "2026-10-09T04:00:00+00:00",
-        "summary": "Heartland Fall Forum Celebrates Community in Minneapolis"
+        "summary": "Book Deals: Week of October 12, 2026"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Library Vendors Get Up to Speed",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/publisher-news/article/101479-library-vendors-get-up-to-speed.html",
+        "published_at": "2026-10-09T04:00:00+00:00",
+        "summary": "Companies such as Follett, Ingram, and Readerlink are listening to publisher feedback and adapting to an accelerated marketplace."
       }
     },
     {
@@ -519,7 +582,7 @@
         "source_name": "New York Times Books",
         "headline": "Why Anne Carson, the New Nobel Laureate, Is the Easiest Difficult Poet",
         "source_url": "https://www.nytimes.com/2026/10/08/books/review/anne-carson-appraisal.html",
-        "published_at": "2026-10-08T22:14:19+00:00",
+        "published_at": "2026-10-08T22:14:20+00:00",
         "summary": "Carson has mind-boggling range and formal audacity, our poetry columnist writes, but however much she toys with obscurity she remains too hilarious to be intimidating."
       }
     },
@@ -561,29 +624,11 @@
     },
     {
       "event_model_payload": {
-        "source_name": "New York Times Books",
-        "headline": "Dark Retellings of Classic Books Like ‘Jane Eyre,’ ‘Frankenstein’ and More",
-        "source_url": "https://www.nytimes.com/2026/10/08/books/classic-retelling-gothic-horror-books.html",
-        "published_at": "2026-10-08T15:59:52+00:00",
-        "summary": "The best-selling author Kat Dunn recommends some of her favorite modern retellings, of “Jane Eyre,” “Frankenstein” and more."
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "Book Riot",
         "headline": "The Winner of the 2026 Nobel Prize in Literature",
         "source_url": "https://bookriot.com/2026-nobel-prize-in-literature/",
         "published_at": "2026-10-08T15:49:53+00:00",
         "summary": "Canadian poet Anne Carson, well-known for her translations, won the 2026 Nobel Prize in Literature “for her bold and inventive oeuvre.\""
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Book Riot",
-        "headline": "The 2026 Kirkus Prize Winners Have Been Announced",
-        "source_url": "https://bookriot.com/2026-kirkus-prize-winners/",
-        "published_at": "2026-10-08T15:45:46+00:00",
-        "summary": "Last night, the 2026 the Kirkus Prize was awarded to authors in three categories: Fiction, Nonfiction, and Young People's Literature."
       }
     },
     {
@@ -606,24 +651,6 @@
     },
     {
       "event_model_payload": {
-        "source_name": "New York Times Books",
-        "headline": "Book Review: ‘The Names of the New World,’ by Kawai Strong Washburn",
-        "source_url": "https://www.nytimes.com/2026/10/08/books/review/the-names-of-the-new-world-kawai-strong-washburn.html",
-        "published_at": "2026-10-08T09:00:51+00:00",
-        "summary": "In the Minneapolis of Kawai Strong Washburn’s climate dystopia, three characters form unlikely bonds to take on the nation’s greediest oil behemoths."
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "New York Times Books",
-        "headline": "Book Review: ‘Fair Ones,’ by Lydia Millet",
-        "source_url": "https://www.nytimes.com/2026/10/08/books/review/fair-ones-lydia-millet.html",
-        "published_at": "2026-10-08T09:00:33+00:00",
-        "summary": "In Lydia Millet’s dialogue-driven novel, a random act of violence leaves two New York women at loose ends (though not for long)."
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "NPR Books",
         "headline": "Poet and essayist Anne Carson wins 2026 Nobel Prize in literature",
         "source_url": "https://www.npr.org/2026/10/08/nx-s1-5984350/nobel-prize-in-literature-anne-carson",
@@ -638,15 +665,6 @@
         "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403892286",
         "published_at": "2026-10-08T07:16:00+00:00",
         "summary": "<br /><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td align=\"left\" valign=\"top\"><table bgcolor=\"#dddddd\" border=\"0\" cellpadding=\"5\" cellspacing=\"1\" style=\"margin-right: 10px;\"><tbody><tr><td bgcolor=\"#ffffff\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403892286\"><img border=\"0\" src=\"https://image.aladin.co.kr/product/40389/22/cover200/k192131806_1.jpg\" /></a></td></tr></tbody></table><h2><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?rssType=1&type=item&itemId=403892286\">혼자 살기 워크숍</a></h2>반유화 지음 / 은행나무 / 2026년 10월 / ISBN:<span class=\"isbn13\">9791167376985</span><br />정가: <span style=\"color: #FF0202;\">20,000</span>원 / 판매가: <span style=\"color: #FF0202;\">18,000</span>원 / 마일리지: <span style=\"color: #FF0202;\">1,000</span>원<br /><span style=\"color: #FF0202;\">이벤트</span>: 10월 특별 선물. 태블릿 거치대 · 디저트볼 · 고블렛 · 자판 열쇠고리<br /><table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" height=\"20\"><tr><td align=\"left\" width=\"113\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=basket&itemId=403892286&rssType=1\" target=\"_blank\"><img alt=\"장바구니담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_basket.gif\" /></a></td><td align=\"left\" width=\"101\"><a href=\"http://www.aladin.co.kr/rsscenter/go.aspx?type=safebasket&itemId=403892286&rssType=1\" target=\"_blank\"><img alt=\"보관함담기\" border=\"0\" src=\"http://www.aladin.co.kr/img/rss/bu_safebasket.gif\" /></a></td><td align=\"left\" width=\"83\"></td><td align=\"left\" width=\"113\"></td></tr></table></td></tr><tr><td align=\"left\" valign=\"top\"><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/intro_t.gif\" /><br />1인 가구 천만을 넘어선, 혼자 살아가는 것이 가장 평범한 시대다. 그런데 이상하게도 혼자 사는 법을 체계적으로 배울 곳은 없다. 여전히 혼자의 삶이 ‘결혼하지 않은 삶’ 혹은 ‘결혼으로 가는 과정’으로 여겨지는 탓이다. 결혼이라는 렌즈로 투과되는 ‘예외적인’ 삶인 것이다. 그러다 보니 혼자의 삶은 이례적인 모습만 조명받고 자극적으로 묘사된다. <br />\n<br />\n《혼자 살기 워크숍》은 혼자의 삶, 곧 ‘가장 보통의 행복’을 어떻게 꾸려갈 수 있는지 제시하는 책이다. 비혼 여성의 멘토로 활동해온 정신과 전문의 반유화 저자는 진료실 안팎에서 만난 수많은 ‘혼자’들의 서로 다른 욕구와 고민에 대한 답을 찾아나가며 알게 된 ‘혼자의 삶을 설계하는 법’을 정리했다.<br />\n<br />\n‘이렇게 살면 행복해진다’라는 허울 좋은 정답을 제시하는 대신, ‘나는 어떤 욕망과 두려움을 가졌고, 내 삶을 운영하는 적절한 방법은 무엇인지’를 스스로 알아갈 수 있도록 돕는다. 이를 바탕으로 단단하고 유연한 ‘삶의 운영체제’를 설계할 수 있는 구체적인 질문과 실천법을 담고 있어, 정신과 의사와 함께 워크숍을 하듯 내 삶을 돌아보고 미래를 계획할 수 있는 인생의 “교과서”다.<br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/content_t.gif\" /><br /><p>들어가며 ‘가장 보통의 행복’에 주목하지 않는 사회<br />\n<br />\n<b>1부 나는 왜 혼자이고 싶을까?―나의 동기와 욕구 점검하기</b><br />\n1장 나는 어떤 혼자인가<br />\n2장 내가 혼자인 이유─지금까지의 내 삶 들여다 보기<br />\n3장 결혼이라는 패키지, 나는 무엇을 원하고 무엇을 거부하는가<br />\n4장 혼자 행복하게 사는 사람들의 공통점<br />\n5장 연애와 결혼, 내 마음을 아직 모르겠다면<br />\n6장 원가족 들여다보기─부모(주양육자)와의 관계와 내 삶의 지향<br />\n<br />\n<b>2부 혼자의 삶에 배달되는 명세서</b><br />\n1장 싱글을 설명하게 만드는 사회 <br />\n2장 누군가에게 기대면 안 된다고 느끼는 사람들 <br />\n3장 기대는 마음이 두려움을 만날 때 <br />\n4장 외로움을 외로움이라 부르지 못하고 <br />\n5장 혼자의 삶을 운영하는 비용들 <br />\n6장 원가족의 시간표 속에서 <br />\n<br />\n<b>3부 ‘나’의 운영체제 설계하기</b><br />\n1장 나의 가장 오래된 전문가는 누구인가 <br />\n2장 경제: 나쁜 관계를 피할 권리 <br />\n3장 일상을 운영하는 사람 <br />\n4장 몸과 마음을 돌보는 일 <br />\n5장 ‘폭풍’이 와도 남아 있는 것 <br />\n6장 나를 반드시 기쁘게 하는 것들 <br />\n<br />\n<b>4부 혼자의 삶에서 관계 설계하기</b><br />\n1장 결혼 밖에서 관계를 상상하기 <br />\n2장 내게 필요한 친밀함은 어떤 얼굴을 하고 있는가 <br />\n3장 생활을 나누는 관계─같이 살지 않아도 같이 살아가는 법 <br />\n4장 삶을 함께 받쳐주는 관계를 만드는 법 <br />\n5장 원가족과의 적절한 거리 설정하기 <br />\n6장 동반자를 만나고 싶다면 <br />\n<br />\n나가며 설명이 필요 없는 혼자의 삶을 향하여<br />\n<br />\n주 </p><br /><br /><img border=\"0\" src=\"http://www.aladin.co.kr/img/book/subject_t.gif\" /><br /><a class=\"ml\" href=\"http://www.aladin.co.kr/home/wbookmain.aspx\">국내도서</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=656\">인문학</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51395\">심리학/정신분석학</a> > <a class=\"ml\" href=\"http://www.aladin.co.kr/shop/wbrowse.aspx?CID=51514&BrowseTarget=List\"><b>교양 심리학</b></a><br /><br /></td></tr></table>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "The Guardian Books",
-        "headline": "Agate Head / Stone Soup by Patricia Lockwood review – a gem of a collection",
-        "source_url": "https://www.theguardian.com/books/2026/oct/08/agate-head-stone-soup-by-patricia-lockwood-review-a-gem-of-a-collection",
-        "published_at": "2026-10-08T06:00:11+00:00",
-        "summary": "<p>Inspired by stones and metals, the memoirist and novelist’s first poetry collection for more than a decade is charming, whimsical and intimate</p><p>In the introduction to her first book of poetry in 12 years, Patricia Lockwood states that, “For almost a decade … I had not been able to hear it. The poems that I wrote would not end … too much was happening, there was a different kind of attention being paid.” It wasn’t that she didn’t want them to arrive. From Cave Painting: “<em>And does she still write poems?</em> / Not a whole one since I had been ill. / Five years. I kept saying I was / Doing it privately. So private even / I didn’t know about it.”</p><p>In that intervening period, Lockwood’s status has jumped from interesting US poet famous for the viral sensation <a href=\"https://www.theguardian.com/society/shortcuts/2013/jul/26/patricia-lockwood-poem-rape-joke\">Rape Joke</a> to literary superstar: an acclaimed memoirist and novelist whose freewheeling, antic style is for many the internet’s maelstrom lassoed and put back on to the page. Who else can claim to have turned an audience with the pope into a biting comic essay?</p> <a href=\"https://www.theguardian.com/books/2026/oct/08/agate-head-stone-soup-by-patricia-lockwood-review-a-gem-of-a-collection\">Continue reading...</a>"
       }
     },
     {
@@ -706,73 +724,10 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "New to Anne Carson? Read These Books First",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/tip-sheet/article/101482-the-unique-and-modern-classicism-of-anne-carson.html",
-        "published_at": "2026-10-08T04:00:00+00:00",
-        "summary": "New to Anne Carson? Read These Books First"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Curiouser and Curiouser: PW Talks with Maggie Tokuda-Hall",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101489-curiouser-and-curiouser-pw-talks-with-maggie-tokuda-hall.html",
-        "published_at": "2026-10-08T04:00:00+00:00",
-        "summary": "Curiouser and Curiouser: PW Talks with Maggie Tokuda-Hall"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "USBBY Introduces Latido Honor List",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101495-usbby-introduces-latido-honor-list.html",
-        "published_at": "2026-10-08T04:00:00+00:00",
-        "summary": "USBBY Introduces Latido Honor List"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "First Look: ‘Charlie and the Chocolate Factory: The Graphic Novel’",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101494-first-look-charlie-and-the-chocolate-factory-the-graphic-novel.html",
-        "published_at": "2026-10-08T04:00:00+00:00",
-        "summary": "First Look: ‘Charlie and the Chocolate Factory: The Graphic Novel’"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
         "headline": "Save Our Stories Supper Wields the Power of Resistance to Bans",
         "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/libraries/article/101480-prh-ftrf-save-our-stories-event-wields-the-power-of-resistance-to-bans.html",
         "published_at": "2026-10-08T04:00:00+00:00",
         "summary": "Save Our Stories Supper Wields the Power of Resistance to Bans"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "The Rabbit hOle Hosts Inaugural Literary Festival",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101492-the-rabbit-hole-hosts-inaugural-literary-festival.html",
-        "published_at": "2026-10-08T04:00:00+00:00",
-        "summary": "The Rabbit hOle Hosts Inaugural Literary Festival"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Middle Grade Comics Mag ‘Hullabaloo’ Rebrands, Launches as ‘Bangarang’",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101491-middle-grade-comics-mag-hullabaloo-rebrands-launches-as-bangarang.html",
-        "published_at": "2026-10-08T04:00:00+00:00",
-        "summary": "Middle Grade Comics Mag ‘Hullabaloo’ Rebrands, Launches as ‘Bangarang’"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
-        "headline": "Anne Carson Wins 2026 Nobel Prize for Literature",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/awards-and-prizes/article/101483-anne-carson-wins-2026-nobel-prize-for-literature.html",
-        "published_at": "2026-10-08T04:00:00+00:00",
-        "summary": "Anne Carson Wins 2026 Nobel Prize for Literature"
       }
     },
     {
@@ -787,15 +742,6 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "Sarah Blakley-Cartwright on Five Dollhouse Stories That Informed Her Latest Novel",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/tip-sheet/article/101493-sarah-blakley-cartwright-on-five-dollhouse-stories-that-informed-her-latest-novel.html",
-        "published_at": "2026-10-08T04:00:00+00:00",
-        "summary": "Sarah Blakley-Cartwright on Five Dollhouse Stories That Informed Her Latest Novel"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "Publishers Weekly",
         "headline": "‘We All Battle in Our Lives’: PW Talks with Gary Sinise",
         "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/religion/article/101424-we-all-battle-in-our-lives-pw-talks-with-gary-sinise.html",
         "published_at": "2026-10-08T04:00:00+00:00",
@@ -805,19 +751,37 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "‘Think Like the Audience’: PW Talks with B.J. Novak",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101485-think-like-the-audience-pw-talks-with-b-j-novak.html",
+        "headline": "USBBY Introduces Latido Honor List",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101495-usbby-introduces-latido-honor-list.html",
         "published_at": "2026-10-08T04:00:00+00:00",
-        "summary": "‘Think Like the Audience’: PW Talks with B.J. Novak"
+        "summary": "USBBY Introduces Latido Honor List"
       }
     },
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
-        "headline": "Wm. Paul Young Revisits ‘The Shack’",
-        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/religion/article/101422-wm-paul-young-revisits-the-shack.html",
+        "headline": "Middle Grade Comics Mag ‘Hullabaloo’ Rebrands, Launches as ‘Bangarang’",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101491-middle-grade-comics-mag-hullabaloo-rebrands-launches-as-bangarang.html",
         "published_at": "2026-10-08T04:00:00+00:00",
-        "summary": "Wm. Paul Young Revisits ‘The Shack’"
+        "summary": "Middle Grade Comics Mag ‘Hullabaloo’ Rebrands, Launches as ‘Bangarang’"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "First Look: ‘Charlie and the Chocolate Factory: The Graphic Novel’",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101494-first-look-charlie-and-the-chocolate-factory-the-graphic-novel.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "First Look: ‘Charlie and the Chocolate Factory: The Graphic Novel’"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Curiouser and Curiouser: PW Talks with Maggie Tokuda-Hall",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101489-curiouser-and-curiouser-pw-talks-with-maggie-tokuda-hall.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "Curiouser and Curiouser: PW Talks with Maggie Tokuda-Hall"
       }
     },
     {
@@ -832,10 +796,64 @@
     {
       "event_model_payload": {
         "source_name": "Publishers Weekly",
+        "headline": "Anne Carson Wins 2026 Nobel Prize for Literature",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/awards-and-prizes/article/101483-anne-carson-wins-2026-nobel-prize-for-literature.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "Anne Carson Wins 2026 Nobel Prize for Literature"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "The Rabbit hOle Hosts Inaugural Literary Festival",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101492-the-rabbit-hole-hosts-inaugural-literary-festival.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "The Rabbit hOle Hosts Inaugural Literary Festival"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Sarah Blakley-Cartwright on Five Dollhouse Stories That Informed Her Latest Novel",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/tip-sheet/article/101493-sarah-blakley-cartwright-on-five-dollhouse-stories-that-informed-her-latest-novel.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "Sarah Blakley-Cartwright on Five Dollhouse Stories That Informed Her Latest Novel"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "New to Anne Carson? Read These Books First",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/tip-sheet/article/101482-the-unique-and-modern-classicism-of-anne-carson.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "New to Anne Carson? Read These Books First"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "‘Think Like the Audience’: PW Talks with B.J. Novak",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-authors/article/101485-think-like-the-audience-pw-talks-with-b-j-novak.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "‘Think Like the Audience’: PW Talks with B.J. Novak"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
         "headline": "New Kids’ and YA Books: Week of October 12, 2026",
         "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-book-news/article/101484-new-kids-and-ya-books-week-of-october-12-2026.html",
         "published_at": "2026-10-08T04:00:00+00:00",
         "summary": "New Kids’ and YA Books: Week of October 12, 2026"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "Publishers Weekly",
+        "headline": "Wm. Paul Young Revisits ‘The Shack’",
+        "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/religion/article/101422-wm-paul-young-revisits-the-shack.html",
+        "published_at": "2026-10-08T04:00:00+00:00",
+        "summary": "Wm. Paul Young Revisits ‘The Shack’"
       }
     },
     {
@@ -1101,33 +1119,6 @@
     },
     {
       "event_model_payload": {
-        "source_name": "알라딘 베스트셀러",
-        "headline": "[알라딘 베스트 RSS] 도서종합 분야 주간 베스트셀러",
-        "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?rssType=5&type=BEST&branch=book&cid=0&days=2026102",
-        "published_at": "2026-10-04T22:01:14+00:00",
-        "summary": "<span style=\"color: #bc2e17;\">2026년 10월 2주 베스트셀러 순위입니다.</span><br /><br />"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "The Guardian Books",
-        "headline": "‘We have been dispossessed’: Nick Hayes on land rights and a peaceful revolution at the real Toad Hall",
-        "source_url": "https://www.theguardian.com/books/2026/oct/04/we-have-been-dispossessed-nick-hayes-on-land-rights-and-a-peaceful-revolution-at-the-real-toad-hall",
-        "published_at": "2026-10-04T11:00:27+00:00",
-        "summary": "<p>The co-founder of the Right to Roam campaign and author of The Book of Trespass discusses the Oxfordshire riverside community he calls home and how Hardwick Hall has been taken back by the people</p><p>On the banks of the Thames in South Oxfordshire, the Hardwick estate has been owned by the Rose family for generations. When Sir Charles Rose, a banker, sportsman, yachtsman and aviator, sped through the lanes in his Rolls-Royce in the early days of motoring, he <a href=\"https://hardwickestate.co.uk/history/\">inspired Kenneth Grahame</a> to create Mr Toad in The Wind in the Willows. Grahame’s character became a symbol of decadent aristocracy whose foolishness leads to the temporary loss of a fine house to weasel-socialists.</p><p>Now Toad Hall has been taken over for good and Nick Hayes, artist, writer and co-founder of the Right to Roam campaign, has had a riverside view of this striking turn of events. When Hayes, who lives on a beautiful wide-beamed barge on the Thames, became the Hardwick estate’s artist-in-residence, he discovered that Rose’s heirs are, in effect, disinheriting themselves. The estate is gradually being turned into a charity which will be run by the tenants and the alternative community that has grown up in its shelter.</p> <a href=\"https://www.theguardian.com/books/2026/oct/04/we-have-been-dispossessed-nick-hayes-on-land-rights-and-a-peaceful-revolution-at-the-real-toad-hall\">Continue reading...</a>"
-      }
-    },
-    {
-      "event_model_payload": {
-        "source_name": "The Guardian Books",
-        "headline": "Do humans really have a ‘lizard brain’ lurking beneath our rational minds?",
-        "source_url": "https://www.theguardian.com/science/2026/oct/04/lizard-brain-rational-mind-neuroscience",
-        "published_at": "2026-10-04T11:00:26+00:00",
-        "summary": "<p>It’s a powerful analogy that captured the popular imagination, but the biological reality is quite different</p><p>Humans have a cognitive quirk for the number three. Think of the many stories that use it, from The Three Little Pigs to Goldilocks and the Three Bears and The Three Musketeers. Public information and political campaigns use it for impact and ease of recall (“Stop, look and listen”; “See it. Say it. Sorted”; “Reduce, reuse, recycle”). And then there are psychological or philosophical frameworks: Freud with his id, ego and superego; Plato’s three parts of the human soul; the Holy Trinity.</p><p>Well, it turns out neuroscience isn’t immune from tri-mania. In 1959 Paul D MacLean set out a new way of thinking about the evolution and function of the brain, which he christened the “triune” – three-in-one – model. It quickly became one of best known and most enduring concepts in human biology. His idea was that a trio of distinct brains are layered inside our skulls, one on top of the other, all fighting to generate our feelings and thoughts.</p> <a href=\"https://www.theguardian.com/science/2026/oct/04/lizard-brain-rational-mind-neuroscience\">Continue reading...</a>"
-      }
-    },
-    {
-      "event_model_payload": {
         "source_name": "The Guardian Books",
         "headline": "The best books to read in September: new paperbacks from Margaret Atwood, Kiran Desai and Richard Holmes",
         "source_url": "https://www.theguardian.com/books/ng-interactive/2026/sep/18/the-best-books-to-read-in-september-new-paperbacks-from-margaret-atwood-kiran-desai-and-richard-holmes",
@@ -1160,6 +1151,15 @@
         "source_url": "https://www.theguardian.com/books/2026/sep/18/childrens-and-teens-roundup-the-best-new-picture-books-and-novels",
         "published_at": "2026-09-18T11:00:18+00:00",
         "summary": "<p>A tiger’s tale; the young Henry VIII; a fantasy follow‑up from Katherine Rundell; small-town secrets; ghosts galore and more</p><p><strong><a href=\"https://www.guardianbookshop.com/once-upon-a-tiger-9781398544949/?utm_source=editoriallink&utm_medium=merch&utm_campaign=article\">Once Upon a Tiger</a> by Sarah Massini, S&S, £14.99</strong><strong><br /></strong>Tiger is irate to find three cheeky human cubs climbing on his back – but when they refuse to be scared off, he becomes increasingly attached to them. A sweet, classic-feeling picture book fable, heightened by tender, expressive illustrations.</p><p><strong><a href=\"https://guardianbookshop.com/mamas-wedding-9781836290476?utm_source=editoriallink&utm_medium=merch&utm_campaign=article\">Mama’s Wedding</a> by Circle Yuen, Lantana, £12.99</strong><strong><br /></strong>Mama is getting married, but Ruby has mixed emotions – how will Daddy Daniel feel on the day? A gorgeous, nuanced picture book about blended families and new milestones.</p> <a href=\"https://www.theguardian.com/books/2026/sep/18/childrens-and-teens-roundup-the-best-new-picture-books-and-novels\">Continue reading...</a>"
+      }
+    },
+    {
+      "event_model_payload": {
+        "source_name": "The Guardian Books",
+        "headline": "‘We have been dispossessed’: Nick Hayes on land rights and a peaceful revolution at the real Toad Hall",
+        "source_url": "https://www.theguardian.com/books/2026/oct/04/we-have-been-dispossessed-nick-hayes-on-land-rights-and-a-peaceful-revolution-at-the-real-toad-hall",
+        "published_at": "2026-10-04T11:00:27+00:00",
+        "summary": "<p>The co-founder of the Right to Roam campaign and author of The Book of Trespass discusses the Oxfordshire riverside community he calls home and how Hardwick Hall has been taken back by the people</p><p>On the banks of the Thames in South Oxfordshire, the Hardwick estate has been owned by the Rose family for generations. When Sir Charles Rose, a banker, sportsman, yachtsman and aviator, sped through the lanes in his Rolls-Royce in the early days of motoring, he <a href=\"https://hardwickestate.co.uk/history/\">inspired Kenneth Grahame</a> to create Mr Toad in The Wind in the Willows. Grahame’s character became a symbol of decadent aristocracy whose foolishness leads to the temporary loss of a fine house to weasel-socialists.</p><p>Now Toad Hall has been taken over for good and Nick Hayes, artist, writer and co-founder of the Right to Roam campaign, has had a riverside view of this striking turn of events. When Hayes, who lives on a beautiful wide-beamed barge on the Thames, became the Hardwick estate’s artist-in-residence, he discovered that Rose’s heirs are, in effect, disinheriting themselves. The estate is gradually being turned into a charity which will be run by the tenants and the alternative community that has grown up in its shelter.</p> <a href=\"https://www.theguardian.com/books/2026/oct/04/we-have-been-dispossessed-nick-hayes-on-land-rights-and-a-peaceful-revolution-at-the-real-toad-hall\">Continue reading...</a>"
       }
     },
     {

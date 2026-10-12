@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-10-11T06:53:28.296940+00:00",
+  "generated_at": "2026-10-12T07:02:25.859336+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -74,10 +74,10 @@
       "status": "fresh",
       "article_count": 1,
       "event_count": 1,
-      "latest_event_at": "2026-10-04T22:01:14+00:00",
-      "age_days": 6.37,
+      "latest_event_at": "2026-10-11T22:00:18+00:00",
+      "age_days": 0.38,
       "latest_title": "[알라딘 베스트 RSS] 도서종합 분야 주간 베스트셀러",
-      "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?branch=book&cid=0&days=2026102&rssType=5&type=BEST",
+      "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?branch=book&cid=0&days=2026103&rssType=5&type=BEST",
       "latest_source_signal": [
         "official_book_source",
         "sales_ranking"
@@ -793,7 +793,7 @@
       "title": "Anne Carson’s Publisher Has Won the Nobel Prize Twice in Two Years",
       "url": "https://www.nytimes.com/2026/10/09/books/new-directions-nobel-anne-carson.html",
       "source_url": "https://www.nytimes.com/2026/10/09/books/new-directions-nobel-anne-carson.html",
-      "event_at": "2026-10-09T18:00:20+00:00",
+      "event_at": "2026-10-12T02:55:17+00:00",
       "isbn": "",
       "rank": null,
       "retailer": "",
@@ -819,7 +819,7 @@
       ],
       "canonical_key": "book_source:new-york-times-books:f009c8e56b0b",
       "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:f272194441aa:20261009",
+      "event_key": "award_signal:f272194441aa:20261012",
       "required_field_proxy": {
         "isbn": false,
         "award_name": true,
@@ -827,6 +827,50 @@
       },
       "required_field_gaps": [
         "isbn"
+      ]
+    },
+    {
+      "source": "알라딘 베스트셀러",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "bestseller",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "sales_ranking",
+      "title": "[알라딘 베스트 RSS] 도서종합 분야 주간 베스트셀러",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?branch=book&cid=0&days=2026103&rssType=5&type=BEST",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?branch=book&cid=0&days=2026103&rssType=5&type=BEST",
+      "event_at": "2026-10-11T22:00:18+00:00",
+      "isbn": "2026103",
+      "rank": null,
+      "retailer": "알라딘 베스트셀러",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "",
+      "genre": [],
+      "publisher": [],
+      "book_type": [
+        "베스트셀러"
+      ],
+      "author": [],
+      "award": [],
+      "book_event": [],
+      "source_signal": [
+        "official_book_source",
+        "sales_ranking"
+      ],
+      "canonical_key": "book_edition:2026103",
+      "canonical_key_status": "complete",
+      "event_key": "sales_ranking:dca0c500b0bf:20261011",
+      "required_field_proxy": {
+        "isbn": true,
+        "rank": false,
+        "retailer": true
+      },
+      "required_field_gaps": [
+        "rank"
       ]
     },
     {
@@ -1121,7 +1165,7 @@
       "title": "Why Anne Carson, the New Nobel Laureate, Is the Easiest Difficult Poet",
       "url": "https://www.nytimes.com/2026/10/08/books/review/anne-carson-appraisal.html",
       "source_url": "https://www.nytimes.com/2026/10/08/books/review/anne-carson-appraisal.html",
-      "event_at": "2026-10-08T22:14:19+00:00",
+      "event_at": "2026-10-08T22:14:20+00:00",
       "isbn": "",
       "rank": null,
       "retailer": "",
@@ -1429,50 +1473,6 @@
       "required_field_gaps": []
     },
     {
-      "source": "알라딘 베스트셀러",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "bestseller",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "sales_ranking",
-      "title": "[알라딘 베스트 RSS] 도서종합 분야 주간 베스트셀러",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?branch=book&cid=0&days=2026102&rssType=5&type=BEST",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?branch=book&cid=0&days=2026102&rssType=5&type=BEST",
-      "event_at": "2026-10-04T22:01:14+00:00",
-      "isbn": "2026102",
-      "rank": null,
-      "retailer": "알라딘 베스트셀러",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "",
-      "genre": [],
-      "publisher": [],
-      "book_type": [
-        "베스트셀러"
-      ],
-      "author": [],
-      "award": [],
-      "book_event": [],
-      "source_signal": [
-        "official_book_source",
-        "sales_ranking"
-      ],
-      "canonical_key": "book_edition:2026102",
-      "canonical_key_status": "complete",
-      "event_key": "sales_ranking:cad30852f63b:20261004",
-      "required_field_proxy": {
-        "isbn": true,
-        "rank": false,
-        "retailer": true
-      },
-      "required_field_gaps": [
-        "rank"
-      ]
-    },
-    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -1535,6 +1535,16 @@
       "source": "New York Times Books",
       "title": "Anne Carson’s Publisher Has Won the Nobel Prize Twice in Two Years",
       "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "sales_ranking",
+      "source": "알라딘 베스트셀러",
+      "title": "[알라딘 베스트 RSS] 도서종합 분야 주간 베스트셀러",
+      "canonical_key": "book_edition:2026103",
+      "required_field_gaps": [
+        "rank"
+      ]
     },
     {
       "reason": "missing_required_fields",
@@ -1674,16 +1684,6 @@
       "source": "Book Riot",
       "title": "The Winner of the 2026 Nobel Prize in Literature",
       "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "sales_ranking",
-      "source": "알라딘 베스트셀러",
-      "title": "[알라딘 베스트 RSS] 도서종합 분야 주간 베스트셀러",
-      "canonical_key": "book_edition:2026102",
-      "required_field_gaps": [
-        "rank"
-      ]
     },
     {
       "reason": "missing_required_fields",
