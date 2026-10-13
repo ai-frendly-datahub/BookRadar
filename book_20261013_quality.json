@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-10-12T07:02:25.859336+00:00",
+  "generated_at": "2026-10-13T07:26:46.516360+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,24 +16,24 @@
     "collection_error_count": 0,
     "sales_ranking_events": 1,
     "library_lending_events": 0,
-    "author_event_events": 3,
-    "award_signal_events": 12,
-    "book_signal_event_count": 16,
-    "official_or_operational_event_count": 1,
+    "author_event_events": 4,
+    "award_signal_events": 7,
+    "book_signal_event_count": 12,
+    "official_or_operational_event_count": 3,
     "community_proxy_event_count": 0,
     "complete_canonical_key_count": 7,
-    "proxy_canonical_key_count": 9,
+    "proxy_canonical_key_count": 5,
     "missing_canonical_key_count": 0,
     "isbn_present_count": 7,
     "author_present_count": 3,
-    "publisher_present_count": 1,
+    "publisher_present_count": 2,
     "rank_present_count": 0,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 12,
+    "event_required_field_gap_count": 8,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 26
+    "daily_review_item_count": 18
   },
   "sources": [
     {
@@ -75,7 +75,7 @@
       "article_count": 1,
       "event_count": 1,
       "latest_event_at": "2026-10-11T22:00:18+00:00",
-      "age_days": 0.38,
+      "age_days": 1.39,
       "latest_title": "[알라딘 베스트 RSS] 도서종합 분야 주간 베스트셀러",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?branch=book&cid=0&days=2026103&rssType=5&type=BEST",
       "latest_source_signal": [
@@ -923,56 +923,6 @@
       ]
     },
     {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "The best recent science fiction, fantasy and horror – review roundup",
-      "url": "https://www.theguardian.com/books/2026/oct/09/the-best-recent-science-fiction-fantasy-and-horror-review-roundup",
-      "source_url": "https://www.theguardian.com/books/2026/oct/09/the-best-recent-science-fiction-fantasy-and-horror-review-roundup",
-      "event_at": "2026-10-09T11:00:27+00:00",
-      "isbn": "9781804999899",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "award",
-      "genre": [
-        "fiction",
-        "novel",
-        "horror",
-        "fantasy"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "author",
-        "writer"
-      ],
-      "award": [
-        "award"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:9781804999899",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:1d837cd6aa6c:20261009",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
       "source": "Literary Hub",
       "source_type": "rss",
       "trust_tier": "T3_professional",
@@ -1154,191 +1104,59 @@
       ]
     },
     {
-      "source": "New York Times Books",
+      "source": "알라딘 신간",
       "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Why Anne Carson, the New Nobel Laureate, Is the Easiest Difficult Poet",
-      "url": "https://www.nytimes.com/2026/10/08/books/review/anne-carson-appraisal.html",
-      "source_url": "https://www.nytimes.com/2026/10/08/books/review/anne-carson-appraisal.html",
-      "event_at": "2026-10-08T22:14:20+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "nobel",
-      "genre": [
-        "poetry"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "nobel"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:new-york-times-books:a54c7d10f030",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:29bd26674dd2:20261008",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "New York Times Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Canadian Poet Anne Carson Is Awarded Nobel Prize in Literature",
-      "url": "https://www.nytimes.com/2026/10/08/books/nobel-prize-literature.html",
-      "source_url": "https://www.nytimes.com/2026/10/08/books/nobel-prize-literature.html",
-      "event_at": "2026-10-08T22:08:07+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "nobel",
-      "genre": [
-        "literature"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "writer"
-      ],
-      "award": [
-        "nobel"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:title:71019d449a16",
-      "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:e30a1c18f6f0:20261008",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "New York Times Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "New to Anne Carson’s Books? Start Here.",
-      "url": "https://www.nytimes.com/2026/10/08/books/review/anne-carson-best-books.html",
-      "source_url": "https://www.nytimes.com/2026/10/08/books/review/anne-carson-best-books.html",
-      "event_at": "2026-10-08T21:12:30+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "nobel",
-      "genre": [
-        "literature"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "nobel"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:new-york-times-books:d7eacda2922d",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:605a42cc0045:20261008",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "Book Riot",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
+      "trust_tier": "T1_official",
       "content_type": "news",
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "The Winner of the 2026 Nobel Prize in Literature",
-      "url": "https://bookriot.com/2026-nobel-prize-in-literature",
-      "source_url": "https://bookriot.com/2026-nobel-prize-in-literature",
-      "event_at": "2026-10-08T15:49:53+00:00",
-      "isbn": "",
+      "title": "[세트] 2026 노벨문학상 수상작가 앤 카슨 - 시/앤 카슨 지음, 황유원 옮김/난다",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403919175&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403919175&rssType=1&type=item",
+      "event_at": "2026-10-08T13:16:00+00:00",
+      "isbn": "403919175",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
       "venue": "",
-      "award_name": "nobel",
+      "award_name": "노벨문학상",
       "genre": [
-        "literature"
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "역사"
       ],
       "publisher": [],
-      "book_type": [],
-      "author": [],
+      "book_type": [
+        "세트"
+      ],
+      "author": [
+        "작가"
+      ],
       "award": [
-        "nobel",
-        "winner"
+        "노벨문학상",
+        "수상",
+        "문학상"
       ],
       "book_event": [],
       "source_signal": [
         "editorial_coverage",
+        "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_source:book-riot:ee4f7bfff954",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:06527ce0ff9d:20261008",
+      "canonical_key": "book_edition:403919175",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:3d68e1518154:20261008",
       "required_field_proxy": {
-        "isbn": false,
+        "isbn": true,
         "award_name": true,
         "source_url": true
       },
-      "required_field_gaps": [
-        "isbn"
-      ]
+      "required_field_gaps": []
     },
     {
       "source": "NPR Books",
@@ -1385,45 +1203,57 @@
       "required_field_gaps": []
     },
     {
-      "source": "Publishers Weekly",
+      "source": "알라딘 신간",
       "source_type": "rss",
-      "trust_tier": "T3_professional",
+      "trust_tier": "T1_official",
       "content_type": "news",
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Anne Carson Wins 2026 Nobel Prize for Literature",
-      "url": "http://www.publishersweekly.com/pw/by-topic/industry-news/awards-and-prizes/article/101483-anne-carson-wins-2026-nobel-prize-for-literature.html",
-      "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/awards-and-prizes/article/101483-anne-carson-wins-2026-nobel-prize-for-literature.html",
-      "event_at": "2026-10-08T04:00:00+00:00",
-      "isbn": "101483",
+      "event_model": "author_event",
+      "title": "경계에서 자란다/이길보라 지음/문학동네",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403881859&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=403881859&rssType=1&type=item",
+      "event_at": "2026-10-08T05:42:00+00:00",
+      "isbn": "403881859",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
-      "venue": "",
-      "award_name": "nobel",
+      "venue": "강연",
+      "award_name": "",
       "genre": [
-        "literature"
+        "소설",
+        "에세이",
+        "시",
+        "문학",
+        "예술",
+        "일본어",
+        "어린이",
+        "육아"
       ],
-      "publisher": [],
+      "publisher": [
+        "문학동네"
+      ],
       "book_type": [],
-      "author": [],
-      "award": [
-        "nobel"
+      "author": [
+        "저자"
       ],
-      "book_event": [],
+      "award": [],
+      "book_event": [
+        "강연"
+      ],
       "source_signal": [
         "editorial_coverage",
+        "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:101483",
+      "canonical_key": "book_edition:403881859",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:4dbd288f7761:20261008",
+      "event_key": "author_event:bccd15a7b2e0:20261008",
       "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
+        "author_name": true,
+        "venue": true,
         "source_url": true
       },
       "required_field_gaps": []
@@ -1615,74 +1445,6 @@
       "event_model": "award_signal",
       "source": "New York Times Books",
       "title": "Princeton Celebrates Anne Carson, a Nobel Prize Winner Who Was Denied Tenure",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "Why Anne Carson, the New Nobel Laureate, Is the Easiest Difficult Poet",
-      "canonical_key": "book_source:new-york-times-books:a54c7d10f030",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "Why Anne Carson, the New Nobel Laureate, Is the Easiest Difficult Poet",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "Canadian Poet Anne Carson Is Awarded Nobel Prize in Literature",
-      "canonical_key": "book_edition:title:71019d449a16",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "Canadian Poet Anne Carson Is Awarded Nobel Prize in Literature",
-      "canonical_key_status": "title_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "New to Anne Carson’s Books? Start Here.",
-      "canonical_key": "book_source:new-york-times-books:d7eacda2922d",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "New to Anne Carson’s Books? Start Here.",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "The Winner of the 2026 Nobel Prize in Literature",
-      "canonical_key": "book_source:book-riot:ee4f7bfff954",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "The Winner of the 2026 Nobel Prize in Literature",
       "canonical_key_status": "source_proxy"
     },
     {
