@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-10-18T05:30:12.726478+00:00",
+  "generated_at": "2026-10-19T05:50:04.822753+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -14,26 +14,26 @@
     "not_tracked_sources": 8,
     "skipped_disabled_sources": 23,
     "collection_error_count": 0,
-    "sales_ranking_events": 1,
+    "sales_ranking_events": 2,
     "library_lending_events": 0,
     "author_event_events": 8,
-    "award_signal_events": 39,
-    "book_signal_event_count": 48,
-    "official_or_operational_event_count": 32,
+    "award_signal_events": 40,
+    "book_signal_event_count": 50,
+    "official_or_operational_event_count": 33,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 37,
-    "proxy_canonical_key_count": 11,
+    "complete_canonical_key_count": 38,
+    "proxy_canonical_key_count": 12,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 37,
+    "isbn_present_count": 38,
     "author_present_count": 31,
     "publisher_present_count": 7,
     "rank_present_count": 3,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 14,
+    "event_required_field_gap_count": 16,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 30
+    "daily_review_item_count": 33
   },
   "sources": [
     {
@@ -72,12 +72,12 @@
       "event_model": "sales_ranking",
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 1,
-      "event_count": 1,
-      "latest_event_at": "2026-10-11T22:00:18+00:00",
-      "age_days": 6.31,
+      "article_count": 2,
+      "event_count": 2,
+      "latest_event_at": "2026-10-18T22:00:32+00:00",
+      "age_days": 0.33,
       "latest_title": "[알라딘 베스트 RSS] 도서종합 분야 주간 베스트셀러",
-      "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?branch=book&cid=0&days=2026103&rssType=5&type=BEST",
+      "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?branch=book&cid=0&days=2026104&rssType=5&type=BEST",
       "latest_source_signal": [
         "official_book_source",
         "sales_ranking"
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 39,
+      "article_count": 42,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -286,7 +286,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 16,
+      "article_count": 18,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -332,7 +332,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 39,
+      "article_count": 40,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -378,7 +378,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 38,
+      "article_count": 40,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -782,6 +782,96 @@
   ],
   "events": [
     {
+      "source": "알라딘 베스트셀러",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "bestseller",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "sales_ranking",
+      "title": "[알라딘 베스트 RSS] 도서종합 분야 주간 베스트셀러",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?branch=book&cid=0&days=2026104&rssType=5&type=BEST",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?branch=book&cid=0&days=2026104&rssType=5&type=BEST",
+      "event_at": "2026-10-18T22:00:32+00:00",
+      "isbn": "2026104",
+      "rank": null,
+      "retailer": "알라딘 베스트셀러",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "",
+      "genre": [],
+      "publisher": [],
+      "book_type": [
+        "베스트셀러"
+      ],
+      "author": [],
+      "award": [],
+      "book_event": [],
+      "source_signal": [
+        "official_book_source",
+        "sales_ranking"
+      ],
+      "canonical_key": "book_edition:2026104",
+      "canonical_key_status": "complete",
+      "event_key": "sales_ranking:32a33d65b46c:20261018",
+      "required_field_proxy": {
+        "isbn": true,
+        "rank": false,
+        "retailer": true
+      },
+      "required_field_gaps": [
+        "rank"
+      ]
+    },
+    {
+      "source": "Book Riot",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Book Riot’s Deals of the Day for October 18, 2026",
+      "url": "https://bookriot.com/book-riots-deals-of-the-day-for-october-18-2026",
+      "source_url": "https://bookriot.com/book-riots-deals-of-the-day-for-october-18-2026",
+      "event_at": "2026-10-18T11:00:00+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [
+        "thriller"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:book-riot:4a3c5ecbf985",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:1eb1ab4b5d95:20261018",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
       "source": "New York Times Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -886,7 +976,7 @@
       "title": "Book Review: ‘Redemption,’ by Lawrence Wright",
       "url": "https://www.nytimes.com/2026/10/17/books/review/redemption-lawrence-wright.html",
       "source_url": "https://www.nytimes.com/2026/10/17/books/review/redemption-lawrence-wright.html",
-      "event_at": "2026-10-17T09:00:27+00:00",
+      "event_at": "2026-10-17T09:00:28+00:00",
       "isbn": "",
       "rank": null,
       "retailer": "",
@@ -1098,7 +1188,6 @@
       "award_name": "선정",
       "genre": [
         "시",
-        "어린이",
         "그림책"
       ],
       "publisher": [],
@@ -1150,7 +1239,6 @@
       "award_name": "선정",
       "genre": [
         "시",
-        "어린이",
         "그림책"
       ],
       "publisher": [],
@@ -3225,6 +3313,33 @@
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "sales_ranking",
+      "source": "알라딘 베스트셀러",
+      "title": "[알라딘 베스트 RSS] 도서종합 분야 주간 베스트셀러",
+      "canonical_key": "book_edition:2026104",
+      "required_field_gaps": [
+        "rank"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "Book Riot’s Deals of the Day for October 18, 2026",
+      "canonical_key": "book_source:book-riot:4a3c5ecbf985",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "Book Riot’s Deals of the Day for October 18, 2026",
+      "canonical_key_status": "source_proxy"
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "author_event",
