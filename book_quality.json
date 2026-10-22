@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-10-21T05:46:46.563431+00:00",
+  "generated_at": "2026-10-22T05:49:39.012813+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -17,23 +17,23 @@
     "sales_ranking_events": 2,
     "library_lending_events": 0,
     "author_event_events": 8,
-    "award_signal_events": 48,
-    "book_signal_event_count": 58,
-    "official_or_operational_event_count": 39,
+    "award_signal_events": 57,
+    "book_signal_event_count": 67,
+    "official_or_operational_event_count": 46,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 45,
-    "proxy_canonical_key_count": 13,
+    "complete_canonical_key_count": 52,
+    "proxy_canonical_key_count": 15,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 45,
-    "author_present_count": 34,
-    "publisher_present_count": 7,
+    "isbn_present_count": 52,
+    "author_present_count": 40,
+    "publisher_present_count": 8,
     "rank_present_count": 3,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 17,
+    "event_required_field_gap_count": 19,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 35
+    "daily_review_item_count": 39
   },
   "sources": [
     {
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 180,
+      "article_count": 210,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 2,
       "event_count": 2,
       "latest_event_at": "2026-10-18T22:00:32+00:00",
-      "age_days": 2.32,
+      "age_days": 3.33,
       "latest_title": "[알라딘 베스트 RSS] 도서종합 분야 주간 베스트셀러",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?branch=book&cid=0&days=2026104&rssType=5&type=BEST",
       "latest_source_signal": [
@@ -240,7 +240,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 80,
+      "article_count": 85,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 48,
+      "article_count": 52,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -309,7 +309,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 61,
+      "article_count": 71,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -332,7 +332,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 59,
+      "article_count": 66,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -378,7 +378,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 45,
+      "article_count": 50,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -782,6 +782,101 @@
   ],
   "events": [
     {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Pip Adam has won the 2026 Ursula K. Le Guin Prize for Fiction.",
+      "url": "https://lithub.com/pip-adam-has-won-the-2026-ursula-k-le-guin-prize-for-fiction",
+      "source_url": "https://lithub.com/pip-adam-has-won-the-2026-ursula-k-le-guin-prize-for-fiction",
+      "event_at": "2026-10-21T17:53:59+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "winner",
+      "genre": [
+        "fiction",
+        "literary"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "writer"
+      ],
+      "award": [
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:d31a95cdaefd",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:52735a098091:20261021",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "New prize launches for books co-written with AI",
+      "url": "https://www.theguardian.com/books/2026/oct/21/new-prize-launches-books-co-written-with-ai-france",
+      "source_url": "https://www.theguardian.com/books/2026/oct/21/new-prize-launches-books-co-written-with-ai-france",
+      "event_at": "2026-10-21T14:59:34+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "winner",
+      "genre": [
+        "fiction"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:the-guardian-books:45e0408f13d2",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:7996e1d89b5a:20261021",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
       "source": "New York Times Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -874,6 +969,371 @@
       "required_field_gaps": [
         "isbn"
       ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "개 같은 내 인생/레이데르 욘손 지음, 임호경 옮김/책콩(책과콩나무)",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404848999&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404848999&rssType=1&type=item",
+      "event_at": "2026-10-20T07:43:00+00:00",
+      "isbn": "404848999",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "에세이",
+        "시",
+        "희곡",
+        "문학",
+        "외국어"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "수상",
+        "후보"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:404848999",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:579d6b9a76f1:20261020",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "유년의 추운 밤/테제르 외즐뤼 지음, 이난아 옮김/민음사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404844285&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404844285&rssType=1&type=item",
+      "event_at": "2026-10-20T07:06:00+00:00",
+      "isbn": "404844285",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "후보",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "정치",
+        "영어"
+      ],
+      "publisher": [
+        "민음사"
+      ],
+      "book_type": [
+        "세트"
+      ],
+      "author": [
+        "작가",
+        "번역"
+      ],
+      "award": [
+        "후보"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:404844285",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:7035401b9a28:20261020",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "10월의 어느 멋진 날에/조선희 지음/네오픽션",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404840726&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404840726&rssType=1&type=item",
+      "event_at": "2026-10-20T06:35:00+00:00",
+      "isbn": "404840726",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "에세이",
+        "시",
+        "희곡",
+        "문학",
+        "과학",
+        "판타지",
+        "sf"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:404840726",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:4699ffdcb378:20261020",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "폴란드 1939 : 제2차 세계대전의 서막/로저 무어하우스 지음, 이승훈 옮김/일조각",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404839880&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404839880&rssType=1&type=item",
+      "event_at": "2026-10-20T06:27:00+00:00",
+      "isbn": "404839880",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "과학",
+        "역사",
+        "사회과학"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "저자"
+      ],
+      "award": [
+        "수상",
+        "선정",
+        "후보"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:404839880",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:c9005588adff:20261020",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "바다가 들린다 THE VISUAL COLLECTION/김진수 옮김, 스튜디오 지브리 감수/대원씨아이(단행본)",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404835176&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404835176&rssType=1&type=item",
+      "event_at": "2026-10-20T05:45:00+00:00",
+      "isbn": "404835176",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "소설",
+        "시",
+        "예술"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:404835176",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:6a590587b52e:20261020",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "세계공희의 이십틀라/위래 지음/에이플랫",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404817712&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404817712&rssType=1&type=item",
+      "event_at": "2026-10-20T02:34:00+00:00",
+      "isbn": "404817712",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "에세이",
+        "시",
+        "희곡",
+        "과학",
+        "sf"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:404817712",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:273701535353:20261020",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "안개 속 달빛서점/낮잠 지음/클랩북스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404817626&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404817626&rssType=1&type=item",
+      "event_at": "2026-10-20T02:33:00+00:00",
+      "isbn": "404817626",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "판타지"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:404817626",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:50f7aad01631:20261020",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "The Guardian Books",
@@ -3707,6 +4167,40 @@
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Pip Adam has won the 2026 Ursula K. Le Guin Prize for Fiction.",
+      "canonical_key": "book_edition:title:d31a95cdaefd",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Pip Adam has won the 2026 Ursula K. Le Guin Prize for Fiction.",
+      "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "New prize launches for books co-written with AI",
+      "canonical_key": "book_source:the-guardian-books:45e0408f13d2",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "New prize launches for books co-written with AI",
+      "canonical_key_status": "source_proxy"
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
