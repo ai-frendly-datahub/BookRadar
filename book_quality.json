@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-10-23T05:48:44.254322+00:00",
+  "generated_at": "2026-10-24T05:28:42.865378+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -17,23 +17,23 @@
     "sales_ranking_events": 2,
     "library_lending_events": 0,
     "author_event_events": 12,
-    "award_signal_events": 63,
-    "book_signal_event_count": 77,
-    "official_or_operational_event_count": 55,
+    "award_signal_events": 70,
+    "book_signal_event_count": 84,
+    "official_or_operational_event_count": 60,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 61,
-    "proxy_canonical_key_count": 16,
+    "complete_canonical_key_count": 66,
+    "proxy_canonical_key_count": 18,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 61,
-    "author_present_count": 47,
-    "publisher_present_count": 10,
-    "rank_present_count": 4,
+    "isbn_present_count": 66,
+    "author_present_count": 49,
+    "publisher_present_count": 13,
+    "rank_present_count": 5,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 22,
+    "event_required_field_gap_count": 24,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 43
+    "daily_review_item_count": 47
   },
   "sources": [
     {
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 240,
+      "article_count": 270,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 2,
       "event_count": 2,
       "latest_event_at": "2026-10-18T22:00:32+00:00",
-      "age_days": 4.33,
+      "age_days": 5.31,
       "latest_title": "[알라딘 베스트 RSS] 도서종합 분야 주간 베스트셀러",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?branch=book&cid=0&days=2026104&rssType=5&type=BEST",
       "latest_source_signal": [
@@ -240,7 +240,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 101,
+      "article_count": 114,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 56,
+      "article_count": 60,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -286,7 +286,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 20,
+      "article_count": 22,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -309,7 +309,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 81,
+      "article_count": 91,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -332,7 +332,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 66,
+      "article_count": 76,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -378,7 +378,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 59,
+      "article_count": 64,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -782,6 +782,98 @@
   ],
   "events": [
     {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Here’s the winner of the 2026 Cundill History Prize.",
+      "url": "https://lithub.com/heres-the-winner-of-the-2026-cundill-history-prize",
+      "source_url": "https://lithub.com/heres-the-winner-of-the-2026-cundill-history-prize",
+      "event_at": "2026-10-23T22:45:49+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "winner",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:literary-hub:09618b6878cc",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:19809dbdd622:20261023",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Book Riot",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Book Riot’s Deals of the Day for October 22, 2026",
+      "url": "https://bookriot.com/book-riots-deals-of-the-day-for-october-22-2026",
+      "source_url": "https://bookriot.com/book-riots-deals-of-the-day-for-october-22-2026",
+      "event_at": "2026-10-22T14:49:32+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "pulitzer",
+      "genre": [
+        "novel",
+        "fantasy",
+        "romance"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "pulitzer"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:book-riot:f26a334fe71b",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:151ba1925a16:20261022",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -830,6 +922,270 @@
       "required_field_gaps": [
         "isbn"
       ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "미야옹 마음 분식점 3/주미 지음, 안병현 그림/지구별아이",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405015661&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405015661&rssType=1&type=item",
+      "event_at": "2026-10-22T08:44:00+00:00",
+      "isbn": "405015661",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "시",
+        "교육",
+        "어린이",
+        "동화"
+      ],
+      "publisher": [],
+      "book_type": [
+        "시리즈"
+      ],
+      "author": [],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:405015661",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:26c54fb72f36:20261022",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "잃지 않는 주식투자의 원칙/김태홍 지음/위너스북",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405009326&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405009326&rssType=1&type=item",
+      "event_at": "2026-10-22T07:36:00+00:00",
+      "isbn": "405009326",
+      "rank": 8,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "시",
+        "경제경영",
+        "심리"
+      ],
+      "publisher": [
+        "사계절"
+      ],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "선정",
+        "후보"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:405009326",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:9d6295de6057:20261022",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "소녀들의 유랑극단/이상권 지음/문학과지성사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405001435&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405001435&rssType=1&type=item",
+      "event_at": "2026-10-22T06:20:00+00:00",
+      "isbn": "405001435",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "예술"
+      ],
+      "publisher": [
+        "문학과지성사"
+      ],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:405001435",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:cfa179586334:20261022",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "작은 마을 솔러스/메리 로슨 지음, 이승민 옮김/문학동네",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404998023&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404998023&rssType=1&type=item",
+      "event_at": "2026-10-22T05:47:00+00:00",
+      "isbn": "404998023",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "노벨문학상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학"
+      ],
+      "publisher": [
+        "문학동네"
+      ],
+      "book_type": [],
+      "author": [
+        "작가",
+        "데뷔"
+      ],
+      "award": [
+        "노벨문학상",
+        "부커상",
+        "퓰리처",
+        "수상",
+        "문학상",
+        "후보"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:404998023",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:28b40dceeb3e:20261022",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "루어/김민선 지음, 해랑 그림/오늘책",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404977344&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404977344&rssType=1&type=item",
+      "event_at": "2026-10-22T02:42:00+00:00",
+      "isbn": "404977344",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "문학",
+        "sf",
+        "어린이",
+        "동화"
+      ],
+      "publisher": [],
+      "book_type": [
+        "화제의 책",
+        "세트"
+      ],
+      "author": [],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:404977344",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:ae76d76d34f7:20261022",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "Literary Hub",
@@ -4456,55 +4812,6 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "‘Sometimes she publishes notes she’s scribbled on her hand’: Édouard Louis on 10 reasons to love Anne Carson",
-      "url": "https://www.theguardian.com/books/2026/oct/09/sometimes-she-publishes-notes-shes-scribbled-on-her-hand-edouard-louis-on-10-reasons-to-love-anne-carson",
-      "source_url": "https://www.theguardian.com/books/2026/oct/09/sometimes-she-publishes-notes-shes-scribbled-on-her-hand-edouard-louis-on-10-reasons-to-love-anne-carson",
-      "event_at": "2026-10-09T15:08:23+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "nobel",
-      "genre": [
-        "literature"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "author"
-      ],
-      "award": [
-        "nobel",
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:title:673aafbc01d3",
-      "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:4522ca59d2e1:20261009",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
       "title": "The best recent science fiction, fantasy and horror – review roundup",
       "url": "https://www.theguardian.com/books/2026/oct/09/the-best-recent-science-fiction-fantasy-and-horror-review-roundup",
       "source_url": "https://www.theguardian.com/books/2026/oct/09/the-best-recent-science-fiction-fantasy-and-horror-review-roundup",
@@ -4636,6 +4943,55 @@
       ]
     },
     {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "‘Sometimes she publishes notes she’s scribbled on her hand’: Édouard Louis on 10 reasons to love Anne Carson",
+      "url": "https://www.theguardian.com/books/2026/oct/09/sometimes-she-publishes-notes-shes-scribbled-on-her-hand-edouard-louis-on-10-reasons-to-love-anne-carson",
+      "source_url": "https://www.theguardian.com/books/2026/oct/09/sometimes-she-publishes-notes-shes-scribbled-on-her-hand-edouard-louis-on-10-reasons-to-love-anne-carson",
+      "event_at": "2026-10-09T15:08:23+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "nobel",
+      "genre": [
+        "literature"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author"
+      ],
+      "award": [
+        "nobel",
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:673aafbc01d3",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:4522ca59d2e1:20261009",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
       "source": "NPR Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -4681,6 +5037,40 @@
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Here’s the winner of the 2026 Cundill History Prize.",
+      "canonical_key": "book_source:literary-hub:09618b6878cc",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Here’s the winner of the 2026 Cundill History Prize.",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "Book Riot’s Deals of the Day for October 22, 2026",
+      "canonical_key": "book_source:book-riot:f26a334fe71b",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "Book Riot’s Deals of the Day for October 22, 2026",
+      "canonical_key_status": "source_proxy"
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
@@ -4983,23 +5373,6 @@
       "reason": "missing_required_fields",
       "event_model": "award_signal",
       "source": "The Guardian Books",
-      "title": "‘Sometimes she publishes notes she’s scribbled on her hand’: Édouard Louis on 10 reasons to love Anne Carson",
-      "canonical_key": "book_edition:title:673aafbc01d3",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "‘Sometimes she publishes notes she’s scribbled on her hand’: Édouard Louis on 10 reasons to love Anne Carson",
-      "canonical_key_status": "title_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
       "title": "The best books to read in September: new paperbacks from Margaret Atwood, Kiran Desai and Richard Holmes",
       "canonical_key": "book_source:the-guardian-books:c88c7879962c",
       "required_field_gaps": [
@@ -5012,6 +5385,23 @@
       "source": "The Guardian Books",
       "title": "The best books to read in September: new paperbacks from Margaret Atwood, Kiran Desai and Richard Holmes",
       "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "‘Sometimes she publishes notes she’s scribbled on her hand’: Édouard Louis on 10 reasons to love Anne Carson",
+      "canonical_key": "book_edition:title:673aafbc01d3",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "‘Sometimes she publishes notes she’s scribbled on her hand’: Édouard Louis on 10 reasons to love Anne Carson",
+      "canonical_key_status": "title_proxy"
     },
     {
       "reason": "missing_event_model",
