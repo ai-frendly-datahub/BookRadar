@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-10-25T05:47:07.552690+00:00",
+  "generated_at": "2026-10-26T05:50:03.499806+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -14,26 +14,26 @@
     "not_tracked_sources": 8,
     "skipped_disabled_sources": 23,
     "collection_error_count": 0,
-    "sales_ranking_events": 2,
+    "sales_ranking_events": 3,
     "library_lending_events": 0,
     "author_event_events": 12,
     "award_signal_events": 75,
-    "book_signal_event_count": 89,
-    "official_or_operational_event_count": 64,
+    "book_signal_event_count": 90,
+    "official_or_operational_event_count": 65,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 70,
+    "complete_canonical_key_count": 71,
     "proxy_canonical_key_count": 19,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 70,
+    "isbn_present_count": 71,
     "author_present_count": 52,
     "publisher_present_count": 14,
     "rank_present_count": 5,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 25,
+    "event_required_field_gap_count": 26,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 49
+    "daily_review_item_count": 50
   },
   "sources": [
     {
@@ -72,12 +72,12 @@
       "event_model": "sales_ranking",
       "freshness_sla_days": 7.0,
       "status": "fresh",
-      "article_count": 2,
-      "event_count": 2,
-      "latest_event_at": "2026-10-18T22:00:32+00:00",
-      "age_days": 6.32,
+      "article_count": 3,
+      "event_count": 3,
+      "latest_event_at": "2026-10-25T22:00:46+00:00",
+      "age_days": 0.33,
       "latest_title": "[알라딘 베스트 RSS] 도서종합 분야 주간 베스트셀러",
-      "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?branch=book&cid=0&days=2026104&rssType=5&type=BEST",
+      "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?branch=book&cid=0&days=2026105&rssType=5&type=BEST",
       "latest_source_signal": [
         "official_book_source",
         "sales_ranking"
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 61,
+      "article_count": 63,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -286,7 +286,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 22,
+      "article_count": 24,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -332,7 +332,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 77,
+      "article_count": 78,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -378,7 +378,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 66,
+      "article_count": 69,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -781,6 +781,50 @@
     }
   ],
   "events": [
+    {
+      "source": "알라딘 베스트셀러",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "bestseller",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "sales_ranking",
+      "title": "[알라딘 베스트 RSS] 도서종합 분야 주간 베스트셀러",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?branch=book&cid=0&days=2026105&rssType=5&type=BEST",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?branch=book&cid=0&days=2026105&rssType=5&type=BEST",
+      "event_at": "2026-10-25T22:00:46+00:00",
+      "isbn": "2026105",
+      "rank": null,
+      "retailer": "알라딘 베스트셀러",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "",
+      "genre": [],
+      "publisher": [],
+      "book_type": [
+        "베스트셀러"
+      ],
+      "author": [],
+      "award": [],
+      "book_event": [],
+      "source_signal": [
+        "official_book_source",
+        "sales_ranking"
+      ],
+      "canonical_key": "book_edition:2026105",
+      "canonical_key_status": "complete",
+      "event_key": "sales_ranking:790daa987d2f:20261025",
+      "required_field_proxy": {
+        "isbn": true,
+        "rank": false,
+        "retailer": true
+      },
+      "required_field_gaps": [
+        "rank"
+      ]
+    },
     {
       "source": "The Guardian Books",
       "source_type": "rss",
@@ -4905,107 +4949,48 @@
       "required_field_gaps": []
     },
     {
-      "source": "알라딘 신간",
+      "source": "The Guardian Books",
       "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "맥마스터 살인자 양성학교/루퍼트 홈즈 지음, 김은영 옮김/북플라자",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404180270&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404180270&rssType=1&type=item",
-      "event_at": "2026-10-12T05:36:00+00:00",
-      "isbn": "404180270",
+      "title": "The best recent science fiction, fantasy and horror – review roundup",
+      "url": "https://www.theguardian.com/books/2026/oct/09/the-best-recent-science-fiction-fantasy-and-horror-review-roundup",
+      "source_url": "https://www.theguardian.com/books/2026/oct/09/the-best-recent-science-fiction-fantasy-and-horror-review-roundup",
+      "event_at": "2026-10-09T11:00:27+00:00",
+      "isbn": "9781804999899",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
       "venue": "",
-      "award_name": "수상",
+      "award_name": "award",
       "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "예술",
-        "교육",
-        "추리"
+        "fiction",
+        "novel",
+        "horror",
+        "fantasy"
       ],
       "publisher": [],
-      "book_type": [
-        "베스트셀러"
-      ],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상",
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:404180270",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:46c2f76224ea:20261012",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "일일업무 보고서/황시운 지음/창비",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404166499&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404166499&rssType=1&type=item",
-      "event_at": "2026-10-12T02:53:00+00:00",
-      "isbn": "404166499",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학"
-      ],
-      "publisher": [
-        "창비"
-      ],
       "book_type": [],
       "author": [
-        "작가"
+        "author",
+        "writer"
       ],
       "award": [
-        "수상",
-        "문학상"
+        "award"
       ],
       "book_event": [],
       "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
+        "book_review_source",
+        "editorial_coverage"
       ],
-      "canonical_key": "book_edition:404166499",
+      "canonical_key": "book_edition:9781804999899",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:a361e136b27f:20261012",
+      "event_key": "award_signal:1d837cd6aa6c:20261009",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -5056,56 +5041,6 @@
       "required_field_gaps": [
         "rank"
       ]
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "The best recent science fiction, fantasy and horror – review roundup",
-      "url": "https://www.theguardian.com/books/2026/oct/09/the-best-recent-science-fiction-fantasy-and-horror-review-roundup",
-      "source_url": "https://www.theguardian.com/books/2026/oct/09/the-best-recent-science-fiction-fantasy-and-horror-review-roundup",
-      "event_at": "2026-10-09T11:00:27+00:00",
-      "isbn": "9781804999899",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "award",
-      "genre": [
-        "fiction",
-        "novel",
-        "horror",
-        "fantasy"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "author",
-        "writer"
-      ],
-      "award": [
-        "award"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:9781804999899",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:1d837cd6aa6c:20261009",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     },
     {
       "source": "NPR Books",
@@ -5288,9 +5223,128 @@
         "source_url": true
       },
       "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "맥마스터 살인자 양성학교/루퍼트 홈즈 지음, 김은영 옮김/북플라자",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404180270&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404180270&rssType=1&type=item",
+      "event_at": "2026-10-12T05:36:00+00:00",
+      "isbn": "404180270",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "예술",
+        "교육",
+        "추리"
+      ],
+      "publisher": [],
+      "book_type": [
+        "베스트셀러"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상",
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:404180270",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:46c2f76224ea:20261012",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "일일업무 보고서/황시운 지음/창비",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404166499&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404166499&rssType=1&type=item",
+      "event_at": "2026-10-12T02:53:00+00:00",
+      "isbn": "404166499",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학"
+      ],
+      "publisher": [
+        "창비"
+      ],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:404166499",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:a361e136b27f:20261012",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "sales_ranking",
+      "source": "알라딘 베스트셀러",
+      "title": "[알라딘 베스트 RSS] 도서종합 분야 주간 베스트셀러",
+      "canonical_key": "book_edition:2026105",
+      "required_field_gaps": [
+        "rank"
+      ]
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
