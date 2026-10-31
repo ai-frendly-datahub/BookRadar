@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-10-30T06:51:54.522241+00:00",
+  "generated_at": "2026-10-31T06:44:00.843200+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,17 +16,17 @@
     "collection_error_count": 0,
     "sales_ranking_events": 3,
     "library_lending_events": 0,
-    "author_event_events": 11,
-    "award_signal_events": 70,
-    "book_signal_event_count": 84,
-    "official_or_operational_event_count": 62,
+    "author_event_events": 10,
+    "award_signal_events": 72,
+    "book_signal_event_count": 85,
+    "official_or_operational_event_count": 60,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 66,
+    "complete_canonical_key_count": 67,
     "proxy_canonical_key_count": 18,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 66,
-    "author_present_count": 45,
-    "publisher_present_count": 16,
+    "isbn_present_count": 67,
+    "author_present_count": 46,
+    "publisher_present_count": 19,
     "rank_present_count": 5,
     "lending_count_present_count": 0,
     "event_required_field_gap_count": 25,
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 299,
+      "article_count": 291,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 3,
       "event_count": 3,
       "latest_event_at": "2026-10-25T22:00:46+00:00",
-      "age_days": 4.37,
+      "age_days": 5.36,
       "latest_title": "[알라딘 베스트 RSS] 도서종합 분야 주간 베스트셀러",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?branch=book&cid=0&days=2026105&rssType=5&type=BEST",
       "latest_source_signal": [
@@ -240,7 +240,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 110,
+      "article_count": 126,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 66,
+      "article_count": 68,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -286,7 +286,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 22,
+      "article_count": 23,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -309,7 +309,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 102,
+      "article_count": 111,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -332,7 +332,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 83,
+      "article_count": 91,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -378,7 +378,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 77,
+      "article_count": 81,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -782,6 +782,139 @@
   ],
   "events": [
     {
+      "source": "Book Riot",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Book Riot’s Deals of the Day for October 30, 2026",
+      "url": "https://bookriot.com/book-riots-deals-of-the-day-for-october-30-2026",
+      "source_url": "https://bookriot.com/book-riots-deals-of-the-day-for-october-30-2026",
+      "event_at": "2026-10-30T15:15:25+00:00",
+      "isbn": "217145",
+      "rank": 1,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "pulitzer",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author"
+      ],
+      "award": [
+        "pulitzer",
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:217145",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:865941de474a:20261030",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "NPR Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Kazuo Ishiguro on 'Klara and the Sun' and writing novels about the future",
+      "url": "https://www.npr.org/2026/10/30/nx-s1-6022105/kazuo-ishiguro-on-klara-and-the-sun-and-writing-novels-about-the-future",
+      "source_url": "https://www.npr.org/2026/10/30/nx-s1-6022105/kazuo-ishiguro-on-klara-and-the-sun-and-writing-novels-about-the-future",
+      "event_at": "2026-10-30T14:35:59+00:00",
+      "isbn": "6022105",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "nobel",
+      "genre": [
+        "novel"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "nobel"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:6022105",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:8bd56e940b42:20261030",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "Book Riot",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "New Middle Grade Books by Award-Winning Authors",
+      "url": "https://bookriot.com/new-middle-grade-books-by-award-winning-authors",
+      "source_url": "https://bookriot.com/new-middle-grade-books-by-award-winning-authors",
+      "event_at": "2026-10-30T10:01:00+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:book-riot:5fe6f81c5171",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:27075a08da1c:20261030",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -794,7 +927,7 @@
       "url": "https://www.theguardian.com/books/2026/oct/29/sarah-howe-wins-forward-poetry-prize-for-best-collection",
       "source_url": "https://www.theguardian.com/books/2026/oct/29/sarah-howe-wins-forward-poetry-prize-for-best-collection",
       "event_at": "2026-10-29T16:32:12+00:00",
-      "isbn": "",
+      "isbn": "9781784746131",
       "rank": null,
       "retailer": "",
       "library_network": "",
@@ -816,17 +949,241 @@
         "book_review_source",
         "editorial_coverage"
       ],
-      "canonical_key": "book_source:the-guardian-books:70c29167c053",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:ef67b7dc51ce:20261029",
+      "canonical_key": "book_edition:9781784746131",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:43a782068e8f:20261029",
       "required_field_proxy": {
-        "isbn": false,
+        "isbn": true,
         "award_name": true,
         "source_url": true
       },
-      "required_field_gaps": [
-        "isbn"
-      ]
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "북위 37도/김유철 지음/나비클럽",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405638010&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405638010&rssType=1&type=item",
+      "event_at": "2026-10-29T06:44:00+00:00",
+      "isbn": "405638010",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "추리",
+        "스릴러"
+      ],
+      "publisher": [
+        "문학동네"
+      ],
+      "book_type": [
+        "신간"
+      ],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:405638010",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:da8882ae6511:20261029",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "환상 해결사 6/강민정 지음, 김래현 그림/비룡소",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405620385&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405620385&rssType=1&type=item",
+      "event_at": "2026-10-29T04:31:00+00:00",
+      "isbn": "405620385",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "교육",
+        "어린이",
+        "동화"
+      ],
+      "publisher": [
+        "비룡소"
+      ],
+      "book_type": [
+        "화제의 책",
+        "세트",
+        "시리즈",
+        "완결"
+      ],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:405620385",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:267af687b510:20261029",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "이름을 부르면 내가 죽어요/이소호 지음/문학과지성사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405608045&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405608045&rssType=1&type=item",
+      "event_at": "2026-10-29T02:27:00+00:00",
+      "isbn": "405608045",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "예술",
+        "종교",
+        "여행"
+      ],
+      "publisher": [
+        "문학과지성사"
+      ],
+      "book_type": [],
+      "author": [
+        "번역",
+        "데뷔"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:405608045",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:bb8ec18768d8:20261029",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "진짜로 잘하고 싶은 너에게/황농문.마케마케 지음, 김미연 그림/돌핀북",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405604212&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405604212&rssType=1&type=item",
+      "event_at": "2026-10-29T02:01:00+00:00",
+      "isbn": "405604212",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "후보",
+      "genre": [
+        "시",
+        "자기계발",
+        "과학",
+        "교육",
+        "컴퓨터",
+        "어린이",
+        "청소년"
+      ],
+      "publisher": [],
+      "book_type": [
+        "베스트셀러",
+        "시리즈"
+      ],
+      "author": [
+        "작가",
+        "저자"
+      ],
+      "award": [
+        "후보"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:405604212",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:2d39efd6129f:20261029",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "알라딘 신간",
@@ -4007,58 +4364,6 @@
       ]
     },
     {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "나의 첫 고전/김남금 지음/앤의서재",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404531789&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404531789&rssType=1&type=item",
-      "event_at": "2026-10-16T08:07:00+00:00",
-      "isbn": "404531789",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "퓰리처",
-      "genre": [
-        "소설",
-        "에세이",
-        "시",
-        "문학",
-        "인문학"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "퓰리처",
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:404531789",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:1987dccda4ad:20261016",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -4246,6 +4551,58 @@
       "canonical_key": "book_edition:9781804999899",
       "canonical_key_status": "complete",
       "event_key": "award_signal:1d837cd6aa6c:20261009",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "나의 첫 고전/김남금 지음/앤의서재",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404531789&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404531789&rssType=1&type=item",
+      "event_at": "2026-10-16T08:07:00+00:00",
+      "isbn": "404531789",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "퓰리처",
+      "genre": [
+        "소설",
+        "에세이",
+        "시",
+        "문학",
+        "인문학"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "퓰리처",
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:404531789",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:1987dccda4ad:20261016",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -4701,330 +5058,15 @@
       "required_field_gaps": [
         "rank"
       ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "마리 퀴리의 원소들/데이바 소벨 지음, 김병순 옮김/돌베개",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404421665&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404421665&rssType=1&type=item",
-      "event_at": "2026-10-15T08:10:00+00:00",
-      "isbn": "404421665",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "올해의 책",
-      "genre": [
-        "시",
-        "과학",
-        "역사",
-        "사회과학"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "올해의 책",
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:404421665",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:b256a78e1e55:20261015",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "나무를 심은 사람/다니엘 카사나브 그림, 박재연 옮김, 장 지오노 원작, 플로랑스 르봉발레 각색/탐",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404414795&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404414795&rssType=1&type=item",
-      "event_at": "2026-10-15T07:08:00+00:00",
-      "isbn": "404414795",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "문학",
-        "건강",
-        "만화",
-        "라이트노벨",
-        "어린이",
-        "청소년"
-      ],
-      "publisher": [],
-      "book_type": [
-        "베스트셀러"
-      ],
-      "author": [
-        "작가",
-        "번역"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:404414795",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:e176cc647f48:20261015",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "낱말 공장 나라/아네스 드 레스트라드 지음, 발레리아 도캄포 그림, 신윤경 옮김/세용출판",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404381524&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404381524&rssType=1&type=item",
-      "event_at": "2026-10-15T03:25:00+00:00",
-      "isbn": "404381524",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "시",
-        "어린이",
-        "그림책"
-      ],
-      "publisher": [],
-      "book_type": [
-        "개정판"
-      ],
-      "author": [],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:404381524",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:e845b414164c:20261015",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "캐슬힐 : 사라지는 아이들/재스민 왈가 지음, 윤영 옮김/밝은미래",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404381225&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404381225&rssType=1&type=item",
-      "event_at": "2026-10-15T03:21:00+00:00",
-      "isbn": "404381225",
-      "rank": 1,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "문학",
-        "어린이",
-        "청소년",
-        "동화"
-      ],
-      "publisher": [],
-      "book_type": [
-        "베스트셀러",
-        "완결"
-      ],
-      "author": [],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:404381225",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:5bf086b181b8:20261015",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "하늘 너머 반짝이는 일곱 개의 별/가노 도모코 지음, 구수영 옮김/내친구의서재",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404374490&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404374490&rssType=1&type=item",
-      "event_at": "2026-10-15T02:19:00+00:00",
-      "isbn": "404374490",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "추리",
-        "청소년"
-      ],
-      "publisher": [],
-      "book_type": [
-        "완결"
-      ],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:404374490",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:826d26291146:20261015",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "아마추어의 반란/캐런 월런드 지음, 서은경 옮김/현암사",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404364044&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404364044&rssType=1&type=item",
-      "event_at": "2026-10-15T00:57:00+00:00",
-      "isbn": "404364044",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "강연",
-      "award_name": "",
-      "genre": [
-        "에세이",
-        "시",
-        "문학",
-        "자기계발",
-        "인문학",
-        "심리"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가",
-        "저자"
-      ],
-      "award": [],
-      "book_event": [
-        "강연"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:404364044",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:0a77e1697024:20261015",
-      "required_field_proxy": {
-        "author_name": true,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "Sarah Howe wins Forward poetry prize for best collection",
-      "canonical_key": "book_source:the-guardian-books:70c29167c053",
+      "source": "Book Riot",
+      "title": "New Middle Grade Books by Award-Winning Authors",
+      "canonical_key": "book_source:book-riot:5fe6f81c5171",
       "required_field_gaps": [
         "isbn"
       ]
@@ -5032,8 +5074,8 @@
     {
       "reason": "proxy_canonical_key",
       "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "Sarah Howe wins Forward poetry prize for best collection",
+      "source": "Book Riot",
+      "title": "New Middle Grade Books by Award-Winning Authors",
       "canonical_key_status": "source_proxy"
     },
     {
