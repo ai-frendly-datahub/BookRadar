@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-11-02T07:23:10.780121+00:00",
+  "generated_at": "2026-11-03T07:40:03.985558+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -17,23 +17,23 @@
     "sales_ranking_events": 17,
     "library_lending_events": 0,
     "author_event_events": 11,
-    "award_signal_events": 69,
-    "book_signal_event_count": 97,
-    "official_or_operational_event_count": 77,
+    "award_signal_events": 71,
+    "book_signal_event_count": 99,
+    "official_or_operational_event_count": 78,
     "community_proxy_event_count": 0,
     "complete_canonical_key_count": 83,
-    "proxy_canonical_key_count": 14,
+    "proxy_canonical_key_count": 16,
     "missing_canonical_key_count": 0,
     "isbn_present_count": 83,
-    "author_present_count": 53,
+    "author_present_count": 52,
     "publisher_present_count": 31,
-    "rank_present_count": 23,
+    "rank_present_count": 24,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 20,
+    "event_required_field_gap_count": 22,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 39
+    "daily_review_item_count": 43
   },
   "sources": [
     {
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 283,
+      "article_count": 286,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 17,
       "event_count": 17,
       "latest_event_at": "2026-11-01T22:00:35+00:00",
-      "age_days": 0.39,
+      "age_days": 1.4,
       "latest_title": "8위 일일 반출록",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405496546&radar_rank=8&radar_ranking_date=20261101220035&rssType=5&type=item",
       "latest_source_signal": [
@@ -240,7 +240,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 122,
+      "article_count": 113,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 65,
+      "article_count": 66,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -286,7 +286,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 21,
+      "article_count": 19,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -309,7 +309,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 102,
+      "article_count": 101,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -332,7 +332,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 83,
+      "article_count": 82,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -378,7 +378,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 83,
+      "article_count": 84,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -781,6 +781,106 @@
     }
   ],
   "events": [
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "This Week in Literary History: Sinclair Lewis Wins the Nobel Prize in Literature",
+      "url": "https://lithub.com/this-week-in-literary-history-sinclair-lewis-wins-the-nobel-prize-in-literature",
+      "source_url": "https://lithub.com/this-week-in-literary-history-sinclair-lewis-wins-the-nobel-prize-in-literature",
+      "event_at": "2026-11-02T09:15:53+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "nobel",
+      "genre": [
+        "literary",
+        "literature"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "nobel"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:literary-hub:4f593460fa1e",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:9d0b326374bf:20261102",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "The Rhyl Poster by Tom McCarthy review – is this avant-garde spy drama worth the riddles?",
+      "url": "https://www.theguardian.com/books/2026/nov/02/the-rhyl-poster-by-tom-mccarthy-review-is-this-avant-garde-spy-drama-worth-the-riddles",
+      "source_url": "https://www.theguardian.com/books/2026/nov/02/the-rhyl-poster-by-tom-mccarthy-review-is-this-avant-garde-spy-drama-worth-the-riddles",
+      "event_at": "2026-11-02T09:00:36+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [
+        "fiction",
+        "novel",
+        "literary",
+        "essay",
+        "sf"
+      ],
+      "publisher": [],
+      "book_type": [
+        "bestseller"
+      ],
+      "author": [],
+      "award": [
+        "booker",
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:the-guardian-books:21911d99018d",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:dcf6ee21934a:20261102",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
     {
       "source": "알라딘 베스트셀러",
       "source_type": "rss",
@@ -1911,7 +2011,9 @@
         "sf"
       ],
       "publisher": [],
-      "book_type": [],
+      "book_type": [
+        "화제의 책"
+      ],
       "author": [
         "작가"
       ],
@@ -2059,6 +2161,58 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
+      "title": "팝콘 인문학 수업 2/이진희 지음/책이라는신화",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405731853&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405731853&rssType=1&type=item",
+      "event_at": "2026-10-30T06:13:00+00:00",
+      "isbn": "405731853",
+      "rank": 8,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "시",
+        "문학",
+        "인문학",
+        "역사",
+        "예술",
+        "청소년"
+      ],
+      "publisher": [],
+      "book_type": [
+        "추천도서"
+      ],
+      "author": [],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:405731853",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:1ded56c72f41:20261030",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
       "title": "킬러들의 쇼핑몰 시즌1 & 2 각본집 세트 - 전2권/지호진.이권 각본, 이언희 크리에이터/플레인아카이브",
       "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405713107&rssType=1&type=item",
       "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405713107&rssType=1&type=item",
@@ -2076,6 +2230,7 @@
       ],
       "publisher": [],
       "book_type": [
+        "화제의 책",
         "세트",
         "시리즈"
       ],
@@ -4706,6 +4861,285 @@
       "required_field_gaps": []
     },
     {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "‘Is there any value in writing a story in a time of chaos?’: novelist Elif Shafak on her creative crisis",
+      "url": "https://www.theguardian.com/books/2026/oct/17/is-there-any-value-in-writing-a-story-in-a-time-of-chaos-novelist-elif-shafak-on-her-creative-crisis",
+      "source_url": "https://www.theguardian.com/books/2026/oct/17/is-there-any-value-in-writing-a-story-in-a-time-of-chaos-novelist-elif-shafak-on-her-creative-crisis",
+      "event_at": "2026-10-17T08:00:25+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "nobel",
+      "genre": [
+        "novel",
+        "literary",
+        "literature"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author"
+      ],
+      "award": [
+        "nobel",
+        "booker"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:56f24a6ca97f",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:9e17fba51701:20261017",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Where to start with: Anne Carson",
+      "url": "https://www.theguardian.com/books/2026/oct/08/where-to-start-with-anne-carson",
+      "source_url": "https://www.theguardian.com/books/2026/oct/08/where-to-start-with-anne-carson",
+      "event_at": "2026-10-08T19:43:38+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "nobel",
+      "genre": [
+        "literature",
+        "poetry"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "writer"
+      ],
+      "award": [
+        "nobel",
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:b1cfabd2c9bc",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:8c7c898bd16a:20261008",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Anti-Zionism: A Jewish History by Benjamin Moser review – the deep roots of a contemporary movement",
+      "url": "https://www.theguardian.com/books/2026/oct/19/anti-zionism-a-jewish-history-by-benjamin-moser-review-the-deep-roots-of-a-contemporary-movement",
+      "source_url": "https://www.theguardian.com/books/2026/oct/19/anti-zionism-a-jewish-history-by-benjamin-moser-review-the-deep-roots-of-a-contemporary-movement",
+      "event_at": "2026-10-19T12:00:02+00:00",
+      "isbn": "829040",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "pulitzer",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "pulitzer"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:829040",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:470404756aea:20261019",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 베스트셀러",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "bestseller",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "sales_ranking",
+      "title": "[알라딘 베스트 RSS] 도서종합 분야 주간 베스트셀러",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?branch=book&cid=0&days=2026104&rssType=5&type=BEST",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?branch=book&cid=0&days=2026104&rssType=5&type=BEST",
+      "event_at": "2026-10-18T22:00:32+00:00",
+      "isbn": "2026104",
+      "rank": null,
+      "retailer": "알라딘 베스트셀러",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "",
+      "genre": [],
+      "publisher": [],
+      "book_type": [
+        "베스트셀러"
+      ],
+      "author": [],
+      "award": [],
+      "book_event": [],
+      "source_signal": [
+        "official_book_source",
+        "sales_ranking"
+      ],
+      "canonical_key": "book_edition:2026104",
+      "canonical_key_status": "complete",
+      "event_key": "sales_ranking:32a33d65b46c:20261018",
+      "required_field_proxy": {
+        "isbn": true,
+        "rank": false,
+        "retailer": true
+      },
+      "required_field_gaps": [
+        "rank"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Ply by Hernan Diaz review – Pulitzer winner’s dry vision of far-future America",
+      "url": "https://www.theguardian.com/books/2026/oct/14/ply-by-hernan-diaz-review-pulitzer-winners-dry-vision-of-far-future-america",
+      "source_url": "https://www.theguardian.com/books/2026/oct/14/ply-by-hernan-diaz-review-pulitzer-winners-dry-vision-of-far-future-america",
+      "event_at": "2026-10-14T08:00:48+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "pulitzer",
+      "genre": [
+        "fiction",
+        "novel"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "pulitzer",
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:the-guardian-books:c4820d92f3f5",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:5a64038c2f16:20261014",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "New York Times Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "The Best Book Parties Are at the Frankfurt Book Fair",
+      "url": "https://www.nytimes.com/2026/10/17/books/book-parties-frankfurt.html",
+      "source_url": "https://www.nytimes.com/2026/10/17/books/book-parties-frankfurt.html",
+      "event_at": "2026-10-17T21:53:26+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "book fair",
+      "award_name": "",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "book fair"
+      ],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:new-york-times-books:20e7060c5a63",
+      "canonical_key_status": "source_proxy",
+      "event_key": "author_event:2be9b3c5b4ef:20261017",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
       "source": "알라딘 신간",
       "source_type": "rss",
       "trust_tier": "T1_official",
@@ -5020,48 +5454,6 @@
       "required_field_gaps": []
     },
     {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Anti-Zionism: A Jewish History by Benjamin Moser review – the deep roots of a contemporary movement",
-      "url": "https://www.theguardian.com/books/2026/oct/19/anti-zionism-a-jewish-history-by-benjamin-moser-review-the-deep-roots-of-a-contemporary-movement",
-      "source_url": "https://www.theguardian.com/books/2026/oct/19/anti-zionism-a-jewish-history-by-benjamin-moser-review-the-deep-roots-of-a-contemporary-movement",
-      "event_at": "2026-10-19T12:00:02+00:00",
-      "isbn": "829040",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "pulitzer",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "pulitzer"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:829040",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:470404756aea:20261019",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
       "source": "알라딘 신간",
       "source_type": "rss",
       "trust_tier": "T1_official",
@@ -5153,243 +5545,6 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "‘Is there any value in writing a story in a time of chaos?’: novelist Elif Shafak on her creative crisis",
-      "url": "https://www.theguardian.com/books/2026/oct/17/is-there-any-value-in-writing-a-story-in-a-time-of-chaos-novelist-elif-shafak-on-her-creative-crisis",
-      "source_url": "https://www.theguardian.com/books/2026/oct/17/is-there-any-value-in-writing-a-story-in-a-time-of-chaos-novelist-elif-shafak-on-her-creative-crisis",
-      "event_at": "2026-10-17T08:00:25+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "nobel",
-      "genre": [
-        "novel",
-        "literary",
-        "literature"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "author"
-      ],
-      "award": [
-        "nobel",
-        "booker"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:title:56f24a6ca97f",
-      "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:9e17fba51701:20261017",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Where to start with: Anne Carson",
-      "url": "https://www.theguardian.com/books/2026/oct/08/where-to-start-with-anne-carson",
-      "source_url": "https://www.theguardian.com/books/2026/oct/08/where-to-start-with-anne-carson",
-      "event_at": "2026-10-08T19:43:38+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "nobel",
-      "genre": [
-        "literature",
-        "poetry"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "writer"
-      ],
-      "award": [
-        "nobel",
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:title:b1cfabd2c9bc",
-      "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:8c7c898bd16a:20261008",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "알라딘 베스트셀러",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "bestseller",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "sales_ranking",
-      "title": "[알라딘 베스트 RSS] 도서종합 분야 주간 베스트셀러",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?branch=book&cid=0&days=2026104&rssType=5&type=BEST",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?branch=book&cid=0&days=2026104&rssType=5&type=BEST",
-      "event_at": "2026-10-18T22:00:32+00:00",
-      "isbn": "2026104",
-      "rank": null,
-      "retailer": "알라딘 베스트셀러",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "",
-      "genre": [],
-      "publisher": [],
-      "book_type": [
-        "베스트셀러"
-      ],
-      "author": [],
-      "award": [],
-      "book_event": [],
-      "source_signal": [
-        "official_book_source",
-        "sales_ranking"
-      ],
-      "canonical_key": "book_edition:2026104",
-      "canonical_key_status": "complete",
-      "event_key": "sales_ranking:32a33d65b46c:20261018",
-      "required_field_proxy": {
-        "isbn": true,
-        "rank": false,
-        "retailer": true
-      },
-      "required_field_gaps": [
-        "rank"
-      ]
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Ply by Hernan Diaz review – Pulitzer winner’s dry vision of far-future America",
-      "url": "https://www.theguardian.com/books/2026/oct/14/ply-by-hernan-diaz-review-pulitzer-winners-dry-vision-of-far-future-america",
-      "source_url": "https://www.theguardian.com/books/2026/oct/14/ply-by-hernan-diaz-review-pulitzer-winners-dry-vision-of-far-future-america",
-      "event_at": "2026-10-14T08:00:48+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "pulitzer",
-      "genre": [
-        "fiction",
-        "novel"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "pulitzer",
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:the-guardian-books:c4820d92f3f5",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:5a64038c2f16:20261014",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "New York Times Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "The Best Book Parties Are at the Frankfurt Book Fair",
-      "url": "https://www.nytimes.com/2026/10/17/books/book-parties-frankfurt.html",
-      "source_url": "https://www.nytimes.com/2026/10/17/books/book-parties-frankfurt.html",
-      "event_at": "2026-10-17T21:53:26+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "book fair",
-      "award_name": "",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "book fair"
-      ],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:new-york-times-books:20e7060c5a63",
-      "canonical_key_status": "source_proxy",
-      "event_key": "author_event:2be9b3c5b4ef:20261017",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
-      ]
     },
     {
       "source": "알라딘 신간",
@@ -5602,56 +5757,43 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "NPR Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Writer Yiyun Li lost both of her sons. When words fell short, she turned to music",
-      "url": "https://www.npr.org/2026/10/13/nx-s1-6000124/yiyun-li-music-against-the-night",
-      "source_url": "https://www.npr.org/2026/10/13/nx-s1-6000124/yiyun-li-music-against-the-night",
-      "event_at": "2026-10-13T17:41:07+00:00",
-      "isbn": "6000124",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "pulitzer",
-      "genre": [
-        "novel",
-        "memoir"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "writer"
-      ],
-      "award": [
-        "pulitzer"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:6000124",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:19083aef4e73:20261013",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "This Week in Literary History: Sinclair Lewis Wins the Nobel Prize in Literature",
+      "canonical_key": "book_source:literary-hub:4f593460fa1e",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "This Week in Literary History: Sinclair Lewis Wins the Nobel Prize in Literature",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "The Rhyl Poster by Tom McCarthy review – is this avant-garde spy drama worth the riddles?",
+      "canonical_key": "book_source:the-guardian-books:21911d99018d",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "The Rhyl Poster by Tom McCarthy review – is this avant-garde spy drama worth the riddles?",
+      "canonical_key_status": "source_proxy"
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "author_event",
