@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-11-04T07:18:01.545373+00:00",
+  "generated_at": "2026-11-05T07:45:24.474234+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,15 +16,15 @@
     "collection_error_count": 0,
     "sales_ranking_events": 17,
     "library_lending_events": 0,
-    "author_event_events": 11,
-    "award_signal_events": 70,
-    "book_signal_event_count": 98,
-    "official_or_operational_event_count": 76,
+    "author_event_events": 10,
+    "award_signal_events": 69,
+    "book_signal_event_count": 96,
+    "official_or_operational_event_count": 74,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 81,
+    "complete_canonical_key_count": 79,
     "proxy_canonical_key_count": 17,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 81,
+    "isbn_present_count": 79,
     "author_present_count": 53,
     "publisher_present_count": 33,
     "rank_present_count": 24,
@@ -75,7 +75,7 @@
       "article_count": 17,
       "event_count": 17,
       "latest_event_at": "2026-11-01T22:00:35+00:00",
-      "age_days": 2.39,
+      "age_days": 3.41,
       "latest_title": "8위 일일 반출록",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405496546&radar_rank=8&radar_ranking_date=20261101220035&rssType=5&type=item",
       "latest_source_signal": [
@@ -240,7 +240,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 119,
+      "article_count": 109,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -332,7 +332,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 85,
+      "article_count": 83,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -378,7 +378,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 84,
+      "article_count": 80,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -790,6 +790,149 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
+      "title": "‘Blockbuster’ history of Alexander the Great wins £50,000 Baillie Gifford prize",
+      "url": "https://www.theguardian.com/books/2026/nov/04/edmund-richardson-alexander-god-king-man-wins-baillie-gifford-prize",
+      "source_url": "https://www.theguardian.com/books/2026/nov/04/edmund-richardson-alexander-god-king-man-wins-baillie-gifford-prize",
+      "event_at": "2026-11-04T22:15:46+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "writer"
+      ],
+      "award": [
+        "award",
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:a2f87a50bcea",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:9919911fcaf1:20261104",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "‘He was destined for this award’: China Miéville wins Goldsmiths prize for 1,200-page novel",
+      "url": "https://www.theguardian.com/books/2026/nov/04/china-mieville-wins-10000-goldsmiths-prize-for-the-rouse",
+      "source_url": "https://www.theguardian.com/books/2026/nov/04/china-mieville-wins-10000-goldsmiths-prize-for-the-rouse",
+      "event_at": "2026-11-04T20:00:43+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [
+        "fiction",
+        "novel",
+        "thriller"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author"
+      ],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:9876639bf5da",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:6035dfae655d:20261104",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Please Don’t Put in the Novel That I Died: Olivia Manning’s (Lightly) Fictionalized Novels",
+      "url": "https://lithub.com/please-dont-put-in-the-novel-that-i-died-olivia-mannings-lightly-fictionalized-novels",
+      "source_url": "https://lithub.com/please-dont-put-in-the-novel-that-i-died-olivia-mannings-lightly-fictionalized-novels",
+      "event_at": "2026-11-04T09:20:12+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [
+        "novel"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:literary-hub:80ef5290c651",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:43647a7d1840:20261104",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
       "title": "‘A trailblazer in the truest sense’: poet Grace Nichols wins £10,000 Pioneer prize",
       "url": "https://www.theguardian.com/books/2026/nov/03/poet-grace-nichols-wins-pioneer-prize-royal-society-of-literature",
       "source_url": "https://www.theguardian.com/books/2026/nov/03/poet-grace-nichols-wins-pioneer-prize-royal-society-of-literature",
@@ -877,6 +1020,270 @@
       "required_field_gaps": [
         "isbn"
       ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "청령포의 어린 뱃사공/홍종의 지음, 진수 그림/소중한책",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406032249&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406032249&rssType=1&type=item",
+      "event_at": "2026-11-03T07:44:00+00:00",
+      "isbn": "406032249",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "시",
+        "역사",
+        "어린이",
+        "동화"
+      ],
+      "publisher": [
+        "출판사"
+      ],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:406032249",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:53530d29ba6b:20261103",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "세상에 하나뿐인 밥/캐서린 애플게이트 지음, 파트리시아 카스텔라오 그림, 서현정 옮김/가람어린이",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406019998&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406019998&rssType=1&type=item",
+      "event_at": "2026-11-03T05:32:00+00:00",
+      "isbn": "406019998",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "어린이",
+        "동화"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:406019998",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:5b0a8b60ebc5:20261103",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "부딪힌 삶/폴 가스니에 지음, 조민영 옮김/위고",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406018049&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406018049&rssType=1&type=item",
+      "event_at": "2026-11-03T05:14:00+00:00",
+      "isbn": "406018049",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "공쿠르",
+      "genre": [
+        "에세이",
+        "시",
+        "문학",
+        "인문학",
+        "역사",
+        "철학",
+        "정치",
+        "청소년"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "데뷔"
+      ],
+      "award": [
+        "공쿠르",
+        "수상",
+        "선정",
+        "후보"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:406018049",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:22031e0402cf:20261103",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "기적의 초등 신문 2027/강버들 외 지음/길벗",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406003993&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406003993&rssType=1&type=item",
+      "event_at": "2026-11-03T01:54:00+00:00",
+      "isbn": "406003993",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "시",
+        "문학",
+        "과학",
+        "정치",
+        "개발",
+        "만화",
+        "어린이",
+        "그림책"
+      ],
+      "publisher": [],
+      "book_type": [
+        "화제의 책",
+        "세트"
+      ],
+      "author": [
+        "저자"
+      ],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:406003993",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:ab3dbe32f894:20261103",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "나의 거리에게/린지 지어보걸 지음, 카롤린 보네뮐러 그림, 조연혜 옮김/샘터사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406003864&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406003864&rssType=1&type=item",
+      "event_at": "2026-11-03T01:52:00+00:00",
+      "isbn": "406003864",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "시",
+        "어린이",
+        "그림책"
+      ],
+      "publisher": [],
+      "book_type": [
+        "시리즈"
+      ],
+      "author": [
+        "저자"
+      ],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:406003864",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:b2186d17f24c:20261103",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "Literary Hub",
@@ -4254,6 +4661,193 @@
       "required_field_gaps": []
     },
     {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "‘Is there any value in writing a story in a time of chaos?’: novelist Elif Shafak on her creative crisis",
+      "url": "https://www.theguardian.com/books/2026/oct/17/is-there-any-value-in-writing-a-story-in-a-time-of-chaos-novelist-elif-shafak-on-her-creative-crisis",
+      "source_url": "https://www.theguardian.com/books/2026/oct/17/is-there-any-value-in-writing-a-story-in-a-time-of-chaos-novelist-elif-shafak-on-her-creative-crisis",
+      "event_at": "2026-10-17T08:00:25+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "nobel",
+      "genre": [
+        "novel",
+        "literary",
+        "literature"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author"
+      ],
+      "award": [
+        "nobel",
+        "booker"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:56f24a6ca97f",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:9e17fba51701:20261017",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Where to start with: Anne Carson",
+      "url": "https://www.theguardian.com/books/2026/oct/08/where-to-start-with-anne-carson",
+      "source_url": "https://www.theguardian.com/books/2026/oct/08/where-to-start-with-anne-carson",
+      "event_at": "2026-10-08T19:43:38+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "nobel",
+      "genre": [
+        "literature",
+        "poetry"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "writer"
+      ],
+      "award": [
+        "nobel",
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:b1cfabd2c9bc",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:8c7c898bd16a:20261008",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Anti-Zionism: A Jewish History by Benjamin Moser review – the deep roots of a contemporary movement",
+      "url": "https://www.theguardian.com/books/2026/oct/19/anti-zionism-a-jewish-history-by-benjamin-moser-review-the-deep-roots-of-a-contemporary-movement",
+      "source_url": "https://www.theguardian.com/books/2026/oct/19/anti-zionism-a-jewish-history-by-benjamin-moser-review-the-deep-roots-of-a-contemporary-movement",
+      "event_at": "2026-10-19T12:00:02+00:00",
+      "isbn": "829040",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "pulitzer",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "pulitzer"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:829040",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:470404756aea:20261019",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 베스트셀러",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "bestseller",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "sales_ranking",
+      "title": "[알라딘 베스트 RSS] 도서종합 분야 주간 베스트셀러",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?branch=book&cid=0&days=2026104&rssType=5&type=BEST",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?branch=book&cid=0&days=2026104&rssType=5&type=BEST",
+      "event_at": "2026-10-18T22:00:32+00:00",
+      "isbn": "2026104",
+      "rank": null,
+      "retailer": "알라딘 베스트셀러",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "",
+      "genre": [],
+      "publisher": [],
+      "book_type": [
+        "베스트셀러"
+      ],
+      "author": [],
+      "award": [],
+      "book_event": [],
+      "source_signal": [
+        "official_book_source",
+        "sales_ranking"
+      ],
+      "canonical_key": "book_edition:2026104",
+      "canonical_key_status": "complete",
+      "event_key": "sales_ranking:32a33d65b46c:20261018",
+      "required_field_proxy": {
+        "isbn": true,
+        "rank": false,
+        "retailer": true
+      },
+      "required_field_gaps": [
+        "rank"
+      ]
+    },
+    {
       "source": "알라딘 신간",
       "source_type": "rss",
       "trust_tier": "T1_official",
@@ -4468,55 +5062,6 @@
       "required_field_gaps": []
     },
     {
-      "source": "Literary Hub",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Pip Adam has won the 2026 Ursula K. Le Guin Prize for Fiction.",
-      "url": "https://lithub.com/pip-adam-has-won-the-2026-ursula-k-le-guin-prize-for-fiction",
-      "source_url": "https://lithub.com/pip-adam-has-won-the-2026-ursula-k-le-guin-prize-for-fiction",
-      "event_at": "2026-10-21T17:53:59+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "winner",
-      "genre": [
-        "fiction",
-        "literary"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "writer"
-      ],
-      "award": [
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:title:d31a95cdaefd",
-      "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:52735a098091:20261021",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -4560,193 +5105,6 @@
       },
       "required_field_gaps": [
         "isbn"
-      ]
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "‘Is there any value in writing a story in a time of chaos?’: novelist Elif Shafak on her creative crisis",
-      "url": "https://www.theguardian.com/books/2026/oct/17/is-there-any-value-in-writing-a-story-in-a-time-of-chaos-novelist-elif-shafak-on-her-creative-crisis",
-      "source_url": "https://www.theguardian.com/books/2026/oct/17/is-there-any-value-in-writing-a-story-in-a-time-of-chaos-novelist-elif-shafak-on-her-creative-crisis",
-      "event_at": "2026-10-17T08:00:25+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "nobel",
-      "genre": [
-        "novel",
-        "literary",
-        "literature"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "author"
-      ],
-      "award": [
-        "nobel",
-        "booker"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:title:56f24a6ca97f",
-      "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:9e17fba51701:20261017",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Where to start with: Anne Carson",
-      "url": "https://www.theguardian.com/books/2026/oct/08/where-to-start-with-anne-carson",
-      "source_url": "https://www.theguardian.com/books/2026/oct/08/where-to-start-with-anne-carson",
-      "event_at": "2026-10-08T19:43:38+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "nobel",
-      "genre": [
-        "literature",
-        "poetry"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "writer"
-      ],
-      "award": [
-        "nobel",
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:title:b1cfabd2c9bc",
-      "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:8c7c898bd16a:20261008",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Anti-Zionism: A Jewish History by Benjamin Moser review – the deep roots of a contemporary movement",
-      "url": "https://www.theguardian.com/books/2026/oct/19/anti-zionism-a-jewish-history-by-benjamin-moser-review-the-deep-roots-of-a-contemporary-movement",
-      "source_url": "https://www.theguardian.com/books/2026/oct/19/anti-zionism-a-jewish-history-by-benjamin-moser-review-the-deep-roots-of-a-contemporary-movement",
-      "event_at": "2026-10-19T12:00:02+00:00",
-      "isbn": "829040",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "pulitzer",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "pulitzer"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:829040",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:470404756aea:20261019",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 베스트셀러",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "bestseller",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "sales_ranking",
-      "title": "[알라딘 베스트 RSS] 도서종합 분야 주간 베스트셀러",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?branch=book&cid=0&days=2026104&rssType=5&type=BEST",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?branch=book&cid=0&days=2026104&rssType=5&type=BEST",
-      "event_at": "2026-10-18T22:00:32+00:00",
-      "isbn": "2026104",
-      "rank": null,
-      "retailer": "알라딘 베스트셀러",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "",
-      "genre": [],
-      "publisher": [],
-      "book_type": [
-        "베스트셀러"
-      ],
-      "author": [],
-      "award": [],
-      "book_event": [],
-      "source_signal": [
-        "official_book_source",
-        "sales_ranking"
-      ],
-      "canonical_key": "book_edition:2026104",
-      "canonical_key_status": "complete",
-      "event_key": "sales_ranking:32a33d65b46c:20261018",
-      "required_field_proxy": {
-        "isbn": true,
-        "rank": false,
-        "retailer": true
-      },
-      "required_field_gaps": [
-        "rank"
       ]
     },
     {
@@ -5260,465 +5618,60 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
+    }
+  ],
+  "daily_review_items": [
     {
-      "source": "New York Times Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
+      "reason": "missing_required_fields",
       "event_model": "award_signal",
-      "title": "Book Review: ‘Redemption,’ by Lawrence Wright",
-      "url": "https://www.nytimes.com/2026/10/17/books/review/redemption-lawrence-wright.html",
-      "source_url": "https://www.nytimes.com/2026/10/17/books/review/redemption-lawrence-wright.html",
-      "event_at": "2026-10-20T11:17:54+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "pulitzer",
-      "genre": [],
-      "publisher": [],
-      "book_type": [
-        "book review"
-      ],
-      "author": [],
-      "award": [
-        "pulitzer",
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:new-york-times-books:02a73f942b56",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:fead73f26171:20261020",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
+      "source": "The Guardian Books",
+      "title": "‘Blockbuster’ history of Alexander the Great wins £50,000 Baillie Gifford prize",
+      "canonical_key": "book_edition:title:a2f87a50bcea",
       "required_field_gaps": [
         "isbn"
       ]
     },
     {
-      "source": "New York Times Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "The Best Book Parties Are at the Frankfurt Book Fair",
-      "url": "https://www.nytimes.com/2026/10/17/books/book-parties-frankfurt.html",
-      "source_url": "https://www.nytimes.com/2026/10/17/books/book-parties-frankfurt.html",
-      "event_at": "2026-10-17T21:53:26+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "book fair",
-      "award_name": "",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "book fair"
-      ],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:new-york-times-books:20e7060c5a63",
-      "canonical_key_status": "source_proxy",
-      "event_key": "author_event:2be9b3c5b4ef:20261017",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "‘Blockbuster’ history of Alexander the Great wins £50,000 Baillie Gifford prize",
+      "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "‘He was destined for this award’: China Miéville wins Goldsmiths prize for 1,200-page novel",
+      "canonical_key": "book_edition:title:9876639bf5da",
       "required_field_gaps": [
-        "author_name"
+        "isbn"
       ]
     },
     {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
+      "reason": "proxy_canonical_key",
       "event_model": "award_signal",
-      "title": "개 같은 내 인생/레이데르 욘손 지음, 임호경 옮김/책콩(책과콩나무)",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404848999&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404848999&rssType=1&type=item",
-      "event_at": "2026-10-20T07:43:00+00:00",
-      "isbn": "404848999",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "에세이",
-        "시",
-        "희곡",
-        "문학",
-        "외국어"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "수상",
-        "후보"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:404848999",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:579d6b9a76f1:20261020",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
+      "source": "The Guardian Books",
+      "title": "‘He was destined for this award’: China Miéville wins Goldsmiths prize for 1,200-page novel",
+      "canonical_key_status": "title_proxy"
     },
     {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
+      "reason": "missing_required_fields",
       "event_model": "award_signal",
-      "title": "유년의 추운 밤/테제르 외즐뤼 지음, 이난아 옮김/민음사",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404844285&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404844285&rssType=1&type=item",
-      "event_at": "2026-10-20T07:06:00+00:00",
-      "isbn": "404844285",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "후보",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "정치",
-        "영어"
-      ],
-      "publisher": [
-        "민음사"
-      ],
-      "book_type": [
-        "세트"
-      ],
-      "author": [
-        "작가",
-        "번역"
-      ],
-      "award": [
-        "후보"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:404844285",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:7035401b9a28:20261020",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
+      "source": "Literary Hub",
+      "title": "Please Don’t Put in the Novel That I Died: Olivia Manning’s (Lightly) Fictionalized Novels",
+      "canonical_key": "book_source:literary-hub:80ef5290c651",
+      "required_field_gaps": [
+        "isbn"
+      ]
     },
     {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
+      "reason": "proxy_canonical_key",
       "event_model": "award_signal",
-      "title": "10월의 어느 멋진 날에/조선희 지음/네오픽션",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404840726&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404840726&rssType=1&type=item",
-      "event_at": "2026-10-20T06:35:00+00:00",
-      "isbn": "404840726",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "에세이",
-        "시",
-        "희곡",
-        "문학",
-        "과학",
-        "판타지",
-        "sf"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:404840726",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:4699ffdcb378:20261020",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
+      "source": "Literary Hub",
+      "title": "Please Don’t Put in the Novel That I Died: Olivia Manning’s (Lightly) Fictionalized Novels",
+      "canonical_key_status": "source_proxy"
     },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "폴란드 1939 : 제2차 세계대전의 서막/로저 무어하우스 지음, 이승훈 옮김/일조각",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404839880&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404839880&rssType=1&type=item",
-      "event_at": "2026-10-20T06:27:00+00:00",
-      "isbn": "404839880",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "과학",
-        "역사",
-        "사회과학"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "저자"
-      ],
-      "award": [
-        "수상",
-        "선정",
-        "후보"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:404839880",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:c9005588adff:20261020",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "바다가 들린다 THE VISUAL COLLECTION/김진수 옮김, 스튜디오 지브리 감수/대원씨아이(단행본)",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404835176&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404835176&rssType=1&type=item",
-      "event_at": "2026-10-20T05:45:00+00:00",
-      "isbn": "404835176",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "소설",
-        "시",
-        "예술"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:404835176",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:6a590587b52e:20261020",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "세계공희의 이십틀라/위래 지음/에이플랫",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404817712&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404817712&rssType=1&type=item",
-      "event_at": "2026-10-20T02:34:00+00:00",
-      "isbn": "404817712",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "에세이",
-        "시",
-        "희곡",
-        "과학",
-        "sf"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:404817712",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:273701535353:20261020",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "안개 속 달빛서점/낮잠 지음/클랩북스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404817626&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=404817626&rssType=1&type=item",
-      "event_at": "2026-10-20T02:33:00+00:00",
-      "isbn": "404817626",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "판타지"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:404817626",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:50f7aad01631:20261020",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    }
-  ],
-  "daily_review_items": [
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
@@ -5922,40 +5875,6 @@
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Pip Adam has won the 2026 Ursula K. Le Guin Prize for Fiction.",
-      "canonical_key": "book_edition:title:d31a95cdaefd",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Pip Adam has won the 2026 Ursula K. Le Guin Prize for Fiction.",
-      "canonical_key_status": "title_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "New prize launches for books co-written with AI",
-      "canonical_key": "book_source:the-guardian-books:45e0408f13d2",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "New prize launches for books co-written with AI",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
       "source": "The Guardian Books",
       "title": "‘Is there any value in writing a story in a time of chaos?’: novelist Elif Shafak on her creative crisis",
       "canonical_key": "book_edition:title:56f24a6ca97f",
@@ -6001,6 +5920,23 @@
       "reason": "missing_required_fields",
       "event_model": "award_signal",
       "source": "The Guardian Books",
+      "title": "New prize launches for books co-written with AI",
+      "canonical_key": "book_source:the-guardian-books:45e0408f13d2",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "New prize launches for books co-written with AI",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
       "title": "Ply by Hernan Diaz review – Pulitzer winner’s dry vision of far-future America",
       "canonical_key": "book_source:the-guardian-books:c4820d92f3f5",
       "required_field_gaps": [
@@ -6033,40 +5969,6 @@
       "required_field_gaps": [
         "author_name"
       ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "Book Review: ‘Redemption,’ by Lawrence Wright",
-      "canonical_key": "book_source:new-york-times-books:02a73f942b56",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "Book Review: ‘Redemption,’ by Lawrence Wright",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "New York Times Books",
-      "title": "The Best Book Parties Are at the Frankfurt Book Fair",
-      "canonical_key": "book_source:new-york-times-books:20e7060c5a63",
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "author_event",
-      "source": "New York Times Books",
-      "title": "The Best Book Parties Are at the Frankfurt Book Fair",
-      "canonical_key_status": "source_proxy"
     },
     {
       "reason": "missing_event_model",
