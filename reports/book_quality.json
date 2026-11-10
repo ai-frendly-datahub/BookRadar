@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-11-09T07:42:48.330644+00:00",
+  "generated_at": "2026-11-10T08:03:30.048808+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -17,23 +17,23 @@
     "sales_ranking_events": 31,
     "library_lending_events": 0,
     "author_event_events": 8,
-    "award_signal_events": 88,
-    "book_signal_event_count": 127,
-    "official_or_operational_event_count": 103,
+    "award_signal_events": 85,
+    "book_signal_event_count": 124,
+    "official_or_operational_event_count": 94,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 108,
-    "proxy_canonical_key_count": 19,
+    "complete_canonical_key_count": 101,
+    "proxy_canonical_key_count": 23,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 108,
-    "author_present_count": 70,
-    "publisher_present_count": 49,
+    "isbn_present_count": 101,
+    "author_present_count": 66,
+    "publisher_present_count": 45,
     "rank_present_count": 42,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 23,
+    "event_required_field_gap_count": 27,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
-    "daily_review_item_count": 47
+    "daily_review_item_count": 50
   },
   "sources": [
     {
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 300,
+      "article_count": 275,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 31,
       "event_count": 31,
       "latest_event_at": "2026-11-08T22:01:51+00:00",
-      "age_days": 0.4,
+      "age_days": 1.42,
       "latest_title": "14위 체스 이야기·낯선 여인의 편지 (먼슬리 클래식)",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406237524&radar_rank=14&radar_ranking_date=20261108220151&rssType=5&type=item",
       "latest_source_signal": [
@@ -240,7 +240,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 130,
+      "article_count": 129,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 69,
+      "article_count": 70,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -286,7 +286,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 17,
+      "article_count": 18,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -332,7 +332,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 92,
+      "article_count": 91,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -781,6 +781,331 @@
     }
   ],
   "events": [
+    {
+      "source": "New York Times Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "M. John Harrison’s ‘The End of Everything’ Wins Booker Prize",
+      "url": "https://www.nytimes.com/2026/11/09/books/booker-prize-winner-2026-science-fiction.html",
+      "source_url": "https://www.nytimes.com/2026/11/09/books/booker-prize-winner-2026-science-fiction.html",
+      "event_at": "2026-11-10T00:55:42+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:new-york-times-books:8e97e01705f0",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:4676eab4b066:20261110",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "M. John Harrison’s The End of Everything has won the 2026 Booker Prize.",
+      "url": "https://lithub.com/m-john-harrisons-the-end-of-everything-has-won-the-2026-booker-prize",
+      "source_url": "https://lithub.com/m-john-harrisons-the-end-of-everything-has-won-the-2026-booker-prize",
+      "event_at": "2026-11-09T22:16:44+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [
+        "novel"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:literary-hub:56f3e077ca51",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:0790e6894b27:20261109",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Book Riot",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Here’s the Book That Won the 2026 Booker Prize Winner",
+      "url": "https://bookriot.com/2026-booker-prize-winner",
+      "source_url": "https://bookriot.com/2026-booker-prize-winner",
+      "event_at": "2026-11-09T22:03:52+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author"
+      ],
+      "award": [
+        "booker",
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:title:f8c57b3a13ca",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:77f317aa97eb:20261109",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "M John Harrison becomes first science fiction author to win the Booker prize",
+      "url": "https://www.theguardian.com/books/2026/nov/09/m-john-harrison-the-end-of-everything-wins-2026-booker-prize",
+      "source_url": "https://www.theguardian.com/books/2026/nov/09/m-john-harrison-the-end-of-everything-wins-2026-booker-prize",
+      "event_at": "2026-11-09T22:00:20+00:00",
+      "isbn": "9781800812949",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [
+        "fiction",
+        "novel",
+        "sf"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author",
+        "writer"
+      ],
+      "award": [
+        "booker",
+        "award",
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:9781800812949",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:91bd9ff31a12:20261109",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "NPR Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Apocalyptic sci-fi novel 'The End of Everything' wins this year's Booker Prize",
+      "url": "https://www.npr.org/2026/11/09/nx-s1-6028700/2026-booker-prize-winner-the-end-of-everything",
+      "source_url": "https://www.npr.org/2026/11/09/nx-s1-6028700/2026-booker-prize-winner-the-end-of-everything",
+      "event_at": "2026-11-09T22:00:00+00:00",
+      "isbn": "6028700",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [
+        "novel"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker",
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:6028700",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:e0fefe3611c7:20261109",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "Book Riot",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "New and Classic Books by African Authors",
+      "url": "https://bookriot.com/new-and-classic-books-by-african-authors",
+      "source_url": "https://bookriot.com/new-and-classic-books-by-african-authors",
+      "event_at": "2026-11-09T11:15:00+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:book-riot:b041fda59fdf",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:b6b7a259e20f:20261109",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Olivia Laing on Chronicling the World of 1970s Italian Cinema",
+      "url": "https://lithub.com/olivia-laing-on-chronicling-the-world-of-1970s-italian-cinema",
+      "source_url": "https://lithub.com/olivia-laing-on-chronicling-the-world-of-1970s-italian-cinema",
+      "event_at": "2026-11-09T09:15:12+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [
+        "novel"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author"
+      ],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:4cdb0c3cba6c",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:cd64b87d9a4b:20261109",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
     {
       "source": "알라딘 베스트셀러",
       "source_type": "rss",
@@ -1798,78 +2123,29 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "바이브 (VIBE)/애덤 그랜트 지음, 홍지수 옮김/한국경제신문",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406266490&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406266490&rssType=1&type=item",
-      "event_at": "2026-11-06T07:02:00+00:00",
-      "isbn": "406266490",
+      "title": "사료로 보는 새로운 미시사/설혜심 지음/연세대학교출판문화원",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406258490&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406258490&rssType=1&type=item",
+      "event_at": "2026-11-06T05:55:00+00:00",
+      "isbn": "406258490",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
       "venue": "",
-      "award_name": "올해의 책",
+      "award_name": "수상",
       "genre": [
+        "소설",
         "시",
-        "경제경영",
-        "자기계발",
-        "심리"
-      ],
-      "publisher": [],
-      "book_type": [
-        "베스트셀러"
-      ],
-      "author": [
-        "저자"
-      ],
-      "award": [
-        "올해의 책"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:406266490",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:cf4fc72365be:20261106",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "쉬운 교리/박재은 지음/생명의말씀사",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406257790&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406257790&rssType=1&type=item",
-      "event_at": "2026-11-06T05:50:00+00:00",
-      "isbn": "406257790",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "올해의 책",
-      "genre": [
-        "시",
-        "종교"
+        "역사",
+        "여행",
+        "추리"
       ],
       "publisher": [],
       "book_type": [],
       "author": [],
       "award": [
-        "올해의 책"
+        "수상"
       ],
       "book_event": [],
       "source_signal": [
@@ -1877,9 +2153,9 @@
         "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:406257790",
+      "canonical_key": "book_edition:406258490",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:771ad13b43c7:20261106",
+      "event_key": "award_signal:f152dee17ee4:20261106",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -1948,33 +2224,33 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
-      "title": "이승조의 첫 주식투자 교과서/이승조 지음/김영사",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406231757&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406231757&rssType=1&type=item",
-      "event_at": "2026-11-06T00:25:00+00:00",
-      "isbn": "406231757",
+      "title": "결국 우리 아이는 수학을 좋아하게 된다/김안나 지음/앵글북스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406233664&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406233664&rssType=1&type=item",
+      "event_at": "2026-11-06T00:56:00+00:00",
+      "isbn": "406233664",
       "rank": null,
       "retailer": "",
       "library_network": "",
       "lending_count": null,
       "venue": "",
-      "award_name": "올해의 책",
+      "award_name": "수상",
       "genre": [
+        "에세이",
         "시",
-        "경제경영",
-        "역사",
-        "심리"
+        "과학",
+        "사회과학",
+        "교육",
+        "청소년"
       ],
-      "publisher": [
-        "김영사",
-        "사계절"
+      "publisher": [],
+      "book_type": [
+        "추천도서"
       ],
-      "book_type": [],
-      "author": [
-        "저자"
-      ],
+      "author": [],
       "award": [
-        "올해의 책"
+        "수상",
+        "선정"
       ],
       "book_event": [],
       "source_signal": [
@@ -1982,9 +2258,9 @@
         "official_book_source",
         "publishing_news_source"
       ],
-      "canonical_key": "book_edition:406231757",
+      "canonical_key": "book_edition:406233664",
       "canonical_key_status": "complete",
-      "event_key": "award_signal:3aa42d21d519:20261106",
+      "event_key": "award_signal:4d0a2cf0101b:20261106",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -2240,53 +2516,6 @@
       "collection_tier": "C1_rss",
       "producer_role": "",
       "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "교회 밖에서 묻는 질문들/오성민 지음/복있는사람",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406198810&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406198810&rssType=1&type=item",
-      "event_at": "2026-11-05T07:53:00+00:00",
-      "isbn": "406198810",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "올해의 책",
-      "genre": [
-        "시",
-        "과학",
-        "종교"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "올해의 책"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:406198810",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:0151c9c3ad06:20261105",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
       "event_model": "author_event",
       "title": "죽음학자의 사랑 수업/정현채 지음/중앙books(중앙북스)",
       "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406196212&rssType=1&type=item",
@@ -2298,7 +2527,7 @@
       "library_network": "",
       "lending_count": null,
       "venue": "강연",
-      "award_name": "올해의 책",
+      "award_name": "",
       "genre": [
         "에세이",
         "시",
@@ -2315,9 +2544,7 @@
         "작가",
         "저자"
       ],
-      "award": [
-        "올해의 책"
-      ],
+      "award": [],
       "book_event": [
         "강연"
       ],
@@ -2332,113 +2559,6 @@
       "required_field_proxy": {
         "author_name": true,
         "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "죽음학자의 사랑 수업/정현채 지음/중앙books(중앙북스)",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406196212&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406196212&rssType=1&type=item",
-      "event_at": "2026-11-05T07:24:00+00:00",
-      "isbn": "406196212",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "강연",
-      "award_name": "올해의 책",
-      "genre": [
-        "에세이",
-        "시",
-        "문학",
-        "인문학",
-        "과학",
-        "어린이"
-      ],
-      "publisher": [
-        "중앙books"
-      ],
-      "book_type": [],
-      "author": [
-        "작가",
-        "저자"
-      ],
-      "award": [
-        "올해의 책"
-      ],
-      "book_event": [
-        "강연"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:406196212",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:f61ed836a210:20261105",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "위대한 심리학자 매튜 맥케이의 자존감 수업/매튜 맥케이.패트릭 패닝 지음, 홍경자.김유정 옮김/메이트북스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406195060&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406195060&rssType=1&type=item",
-      "event_at": "2026-11-05T07:12:00+00:00",
-      "isbn": "406195060",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "올해의 책",
-      "genre": [
-        "시",
-        "문학",
-        "자기계발",
-        "인문학",
-        "건강",
-        "심리"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "올해의 책"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:406195060",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:b4658db7944a:20261105",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
         "source_url": true
       },
       "required_field_gaps": []
@@ -6123,316 +6243,6 @@
       "required_field_gaps": []
     },
     {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "낯선 사람/벨 버든 지음, 손백희 옮김/은행나무",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405462706&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405462706&rssType=1&type=item",
-      "event_at": "2026-10-27T07:51:00+00:00",
-      "isbn": "405462706",
-      "rank": 1,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "에세이",
-        "시"
-      ],
-      "publisher": [],
-      "book_type": [
-        "베스트셀러"
-      ],
-      "author": [
-        "작가",
-        "저자",
-        "번역"
-      ],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:405462706",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:7e4446194d3a:20261027",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "[세트] 국어 한 권 : 중3 문학 + 비문학 - 전2권/김미성 외 엮음/창비교육",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405451215&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405451215&rssType=1&type=item",
-      "event_at": "2026-10-27T06:44:00+00:00",
-      "isbn": "405451215",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "소설",
-        "에세이",
-        "시",
-        "문학",
-        "과학",
-        "교육",
-        "청소년"
-      ],
-      "publisher": [
-        "창비"
-      ],
-      "book_type": [
-        "세트"
-      ],
-      "author": [],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:405451215",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:ba64627ac960:20261027",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "국어 한 권 : 중3 비문학/김미성 외 엮음/창비교육",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405426078&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405426078&rssType=1&type=item",
-      "event_at": "2026-10-27T03:30:00+00:00",
-      "isbn": "405426078",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "에세이",
-        "시",
-        "문학",
-        "과학",
-        "교육",
-        "청소년"
-      ],
-      "publisher": [
-        "창비"
-      ],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:405426078",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:d55940697799:20261027",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "Literary Hub",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Brandon Taylor on Writing About Black Art and Black Artists in America",
-      "url": "https://lithub.com/brandon-taylor-on-writing-about-black-art-and-black-artists-in-america",
-      "source_url": "https://lithub.com/brandon-taylor-on-writing-about-black-art-and-black-artists-in-america",
-      "event_at": "2026-10-26T09:10:26+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [
-        "fiction",
-        "novel"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "author"
-      ],
-      "award": [
-        "booker"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:title:3620c7993335",
-      "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:9c879297ee6f:20261026",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "텃밭의 기원/이갑규 지음/길벗어린이",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405361943&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405361943&rssType=1&type=item",
-      "event_at": "2026-10-26T07:58:00+00:00",
-      "isbn": "405361943",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "도서전",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "어린이",
-        "그림책"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [
-        "도서전"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:405361943",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:69bc744555c5:20261026",
-      "required_field_proxy": {
-        "author_name": true,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "텃밭의 기원/이갑규 지음/길벗어린이",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405361943&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405361943&rssType=1&type=item",
-      "event_at": "2026-10-26T07:58:00+00:00",
-      "isbn": "405361943",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "도서전",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "어린이",
-        "그림책"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [
-        "도서전"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:405361943",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:69bc744555c5:20261026",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -6726,6 +6536,267 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
+      "title": "낯선 사람/벨 버든 지음, 손백희 옮김/은행나무",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405462706&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405462706&rssType=1&type=item",
+      "event_at": "2026-10-27T07:51:00+00:00",
+      "isbn": "405462706",
+      "rank": 1,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "에세이",
+        "시"
+      ],
+      "publisher": [],
+      "book_type": [
+        "베스트셀러"
+      ],
+      "author": [
+        "작가",
+        "저자",
+        "번역"
+      ],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:405462706",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:7e4446194d3a:20261027",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "[세트] 국어 한 권 : 중3 문학 + 비문학 - 전2권/김미성 외 엮음/창비교육",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405451215&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405451215&rssType=1&type=item",
+      "event_at": "2026-10-27T06:44:00+00:00",
+      "isbn": "405451215",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "소설",
+        "에세이",
+        "시",
+        "문학",
+        "과학",
+        "교육",
+        "청소년"
+      ],
+      "publisher": [
+        "창비"
+      ],
+      "book_type": [
+        "세트"
+      ],
+      "author": [],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:405451215",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:ba64627ac960:20261027",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "국어 한 권 : 중3 비문학/김미성 외 엮음/창비교육",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405426078&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405426078&rssType=1&type=item",
+      "event_at": "2026-10-27T03:30:00+00:00",
+      "isbn": "405426078",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "에세이",
+        "시",
+        "문학",
+        "과학",
+        "교육",
+        "청소년"
+      ],
+      "publisher": [
+        "창비"
+      ],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:405426078",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:d55940697799:20261027",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "텃밭의 기원/이갑규 지음/길벗어린이",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405361943&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405361943&rssType=1&type=item",
+      "event_at": "2026-10-26T07:58:00+00:00",
+      "isbn": "405361943",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "어린이",
+        "그림책"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:405361943",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:69bc744555c5:20261026",
+      "required_field_proxy": {
+        "author_name": true,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "텃밭의 기원/이갑규 지음/길벗어린이",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405361943&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405361943&rssType=1&type=item",
+      "event_at": "2026-10-26T07:58:00+00:00",
+      "isbn": "405361943",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "어린이",
+        "그림책"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:405361943",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:69bc744555c5:20261026",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
       "title": "내일은 한판승!/백혜영 지음, 이루비 그림/아르볼",
       "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405359767&rssType=1&type=item",
       "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405359767&rssType=1&type=item",
@@ -6873,272 +6944,94 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "지킨다는 것/김승혜 지음, 백주희 그림/너머학교",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405095034&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405095034&rssType=1&type=item",
-      "event_at": "2026-10-23T06:22:00+00:00",
-      "isbn": "405095034",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "후보",
-      "genre": [
-        "시",
-        "문학",
-        "인문학",
-        "교육",
-        "청소년"
-      ],
-      "publisher": [],
-      "book_type": [
-        "시리즈"
-      ],
-      "author": [
-        "작가",
-        "저자"
-      ],
-      "award": [
-        "후보"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:405095034",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:85c43f128f07:20261023",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "고양이 타타 태어나 보니 생물 박사 3/빈반 글, 로로 그림, 네이버웹툰 감수/위즈덤하우스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405094014&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405094014&rssType=1&type=item",
-      "event_at": "2026-10-23T06:15:00+00:00",
-      "isbn": "405094014",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "과학",
-        "컴퓨터",
-        "만화",
-        "어린이"
-      ],
-      "publisher": [
-        "위즈덤하우스",
-        "사계절"
-      ],
-      "book_type": [
-        "화제의 책",
-        "세트"
-      ],
-      "author": [],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:405094014",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:f618e1a492f2:20261023",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "오래된 미래, 커먼즈/오창현 외 지음/황소걸음",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405072508&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405072508&rssType=1&type=item",
-      "event_at": "2026-10-23T03:14:00+00:00",
-      "isbn": "405072508",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "문학",
-        "인문학",
-        "과학",
-        "역사",
-        "사회과학"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:405072508",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:1e2854fa8310:20261023",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "저녁 구름/쇼노 준조 지음, 오하나 옮김/문학과지성사",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405068386&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405068386&rssType=1&type=item",
-      "event_at": "2026-10-23T02:30:00+00:00",
-      "isbn": "405068386",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "개발"
-      ],
-      "publisher": [
-        "문학과지성사"
-      ],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:405068386",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:9ee0ff492b69:20261023",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "내가 크고 있는지 궁금해/라피 지음, 존 클라센 그림/웅진주니어",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405062500&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405062500&rssType=1&type=item",
-      "event_at": "2026-10-23T02:00:00+00:00",
-      "isbn": "405062500",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "어린이",
-        "그림책"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상",
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:405062500",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:a396885a9986:20261023",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "New York Times Books",
+      "title": "M. John Harrison’s ‘The End of Everything’ Wins Booker Prize",
+      "canonical_key": "book_source:new-york-times-books:8e97e01705f0",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "New York Times Books",
+      "title": "M. John Harrison’s ‘The End of Everything’ Wins Booker Prize",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "M. John Harrison’s The End of Everything has won the 2026 Booker Prize.",
+      "canonical_key": "book_source:literary-hub:56f3e077ca51",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "M. John Harrison’s The End of Everything has won the 2026 Booker Prize.",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "Here’s the Book That Won the 2026 Booker Prize Winner",
+      "canonical_key": "book_edition:title:f8c57b3a13ca",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "Here’s the Book That Won the 2026 Booker Prize Winner",
+      "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "New and Classic Books by African Authors",
+      "canonical_key": "book_source:book-riot:b041fda59fdf",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "New and Classic Books by African Authors",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Olivia Laing on Chronicling the World of 1970s Italian Cinema",
+      "canonical_key": "book_edition:title:4cdb0c3cba6c",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Olivia Laing on Chronicling the World of 1970s Italian Cinema",
+      "canonical_key_status": "title_proxy"
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "author_event",
@@ -7400,23 +7293,6 @@
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Brandon Taylor on Writing About Black Art and Black Artists in America",
-      "canonical_key": "book_edition:title:3620c7993335",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Brandon Taylor on Writing About Black Art and Black Artists in America",
-      "canonical_key_status": "title_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
       "source": "The Guardian Books",
       "title": "‘Our third date was at Buckingham Palace’: Marlon James and Nicholas Boggs on life as a literary power couple",
       "canonical_key": "book_source:the-guardian-books:d4a9d51a2f62",
@@ -7501,34 +7377,6 @@
       "source": "The Guardian Books",
       "title": "Black Bag by Luke Kennard audiobook review – brilliant Booker-shortlisted campus comedy",
       "canonical_key_status": "title_proxy"
-    },
-    {
-      "reason": "missing_event_model",
-      "event_model": "library_lending"
-    },
-    {
-      "reason": "source_backlog_pending",
-      "source": "Aladin bestseller ranking history",
-      "signal_type": "sales_ranking",
-      "activation_gate": "ranking window handling, ISBN mapping, and retailer taxonomy"
-    },
-    {
-      "reason": "source_backlog_pending",
-      "source": "YES24 bestseller ranking history",
-      "signal_type": "sales_ranking",
-      "activation_gate": "parser stability, ISBN mapping, and duplicate edition handling"
-    },
-    {
-      "reason": "source_backlog_pending",
-      "source": "Korea library bigdata lending statistics",
-      "signal_type": "library_lending",
-      "activation_gate": "API key, date granularity, ISBN coverage, and source attribution"
-    },
-    {
-      "reason": "source_backlog_pending",
-      "source": "Publisher/bookstore author event calendars",
-      "signal_type": "author_event",
-      "activation_gate": "venue canonicalization, event date parsing, and duplicate event handling"
     }
   ],
   "source_backlog": {
