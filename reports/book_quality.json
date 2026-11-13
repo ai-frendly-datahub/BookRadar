@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-11-12T08:00:21.363852+00:00",
+  "generated_at": "2026-11-13T07:39:40.317890+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,20 +16,20 @@
     "collection_error_count": 0,
     "sales_ranking_events": 31,
     "library_lending_events": 0,
-    "author_event_events": 8,
-    "award_signal_events": 96,
+    "author_event_events": 7,
+    "award_signal_events": 97,
     "book_signal_event_count": 135,
-    "official_or_operational_event_count": 95,
+    "official_or_operational_event_count": 96,
     "community_proxy_event_count": 0,
     "complete_canonical_key_count": 104,
     "proxy_canonical_key_count": 31,
     "missing_canonical_key_count": 0,
     "isbn_present_count": 104,
-    "author_present_count": 73,
-    "publisher_present_count": 43,
+    "author_present_count": 71,
+    "publisher_present_count": 40,
     "rank_present_count": 41,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 36,
+    "event_required_field_gap_count": 35,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 245,
+      "article_count": 248,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 31,
       "event_count": 31,
       "latest_event_at": "2026-11-08T22:01:51+00:00",
-      "age_days": 3.42,
+      "age_days": 4.4,
       "latest_title": "14위 체스 이야기·낯선 여인의 편지 (먼슬리 클래식)",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406237524&radar_rank=14&radar_ranking_date=20261108220151&rssType=5&type=item",
       "latest_source_signal": [
@@ -240,7 +240,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 137,
+      "article_count": 133,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -286,7 +286,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 18,
+      "article_count": 17,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -332,7 +332,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 91,
+      "article_count": 93,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -378,7 +378,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 75,
+      "article_count": 70,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -1021,6 +1021,54 @@
       ]
     },
     {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "러브버그물풍선폭탄사태/임희강 지음/비채",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406654377&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406654377&rssType=1&type=item",
+      "event_at": "2026-11-11T05:35:00+00:00",
+      "isbn": "406654377",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "요리"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:406654377",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:40aeae6c0eeb:20261111",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -1072,6 +1120,110 @@
       ]
     },
     {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "외로운 도시/올리비아 랭 지음, 김병화 옮김/어크로스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406642785&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406642785&rssType=1&type=item",
+      "event_at": "2026-11-11T03:27:00+00:00",
+      "isbn": "406642785",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "올해의 책",
+      "genre": [
+        "에세이",
+        "시",
+        "문학",
+        "인문학",
+        "예술",
+        "철학"
+      ],
+      "publisher": [],
+      "book_type": [
+        "양장본"
+      ],
+      "author": [
+        "저자",
+        "번역"
+      ],
+      "award": [
+        "올해의 책",
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:406642785",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:7676591a2000:20261111",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "팁스 이펙트/팁스프로젝트팀 지음/남해의봄날",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406641954&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406641954&rssType=1&type=item",
+      "event_at": "2026-11-11T03:12:00+00:00",
+      "isbn": "406641954",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "시",
+        "경제경영",
+        "과학",
+        "교육"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:406641954",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:5d06620bafc2:20261111",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
       "source": "New York Times Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -1114,6 +1266,110 @@
       "required_field_gaps": [
         "isbn"
       ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "세상에서 가장 쉬운 과학 수업 : 분광화학/정완상 지음/성림원북스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406640803&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406640803&rssType=1&type=item",
+      "event_at": "2026-11-11T02:57:00+00:00",
+      "isbn": "406640803",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "문학",
+        "과학",
+        "역사",
+        "예술",
+        "종교",
+        "개발"
+      ],
+      "publisher": [],
+      "book_type": [
+        "시리즈"
+      ],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:406640803",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:b7bc77b116d7:20261111",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "대셔 : 소원을 들어 줄게/매트 타바레스 지음, 용희진 옮김/제이픽",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406634601&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406634601&rssType=1&type=item",
+      "event_at": "2026-11-11T01:48:00+00:00",
+      "isbn": "406634601",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "어린이",
+        "그림책"
+      ],
+      "publisher": [],
+      "book_type": [
+        "베스트셀러",
+        "시리즈"
+      ],
+      "author": [],
+      "award": [
+        "수상",
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:406634601",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:681f98520e3b:20261111",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "Literary Hub",
@@ -6277,6 +6533,153 @@
       ]
     },
     {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "‘Our third date was at Buckingham Palace’: Marlon James and Nicholas Boggs on life as a literary power couple",
+      "url": "https://www.theguardian.com/books/2026/oct/24/our-third-date-was-at-buckingham-palace-marlon-james-and-nicholas-boggs-on-life-as-a-literary-power-couple",
+      "source_url": "https://www.theguardian.com/books/2026/oct/24/our-third-date-was-at-buckingham-palace-marlon-james-and-nicholas-boggs-on-life-as-a-literary-power-couple",
+      "event_at": "2026-10-24T08:00:27+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [
+        "literary"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:the-guardian-books:d4a9d51a2f62",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:5bdd7eee59d5:20261024",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "‘Is there any value in writing a story in a time of chaos?’: novelist Elif Shafak on her creative crisis",
+      "url": "https://www.theguardian.com/books/2026/oct/17/is-there-any-value-in-writing-a-story-in-a-time-of-chaos-novelist-elif-shafak-on-her-creative-crisis",
+      "source_url": "https://www.theguardian.com/books/2026/oct/17/is-there-any-value-in-writing-a-story-in-a-time-of-chaos-novelist-elif-shafak-on-her-creative-crisis",
+      "event_at": "2026-10-17T08:00:25+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "nobel",
+      "genre": [
+        "novel",
+        "literary",
+        "literature"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author"
+      ],
+      "award": [
+        "nobel",
+        "booker"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:56f24a6ca97f",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:9e17fba51701:20261017",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Where to start with: Anne Carson",
+      "url": "https://www.theguardian.com/books/2026/oct/08/where-to-start-with-anne-carson",
+      "source_url": "https://www.theguardian.com/books/2026/oct/08/where-to-start-with-anne-carson",
+      "event_at": "2026-10-08T19:43:38+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "nobel",
+      "genre": [
+        "literature",
+        "poetry"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "writer"
+      ],
+      "award": [
+        "nobel",
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:b1cfabd2c9bc",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:8c7c898bd16a:20261008",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
       "source": "알라딘 신간",
       "source_type": "rss",
       "trust_tier": "T1_official",
@@ -6709,198 +7112,6 @@
       "required_field_gaps": []
     },
     {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Sarah Howe wins Forward poetry prize for best collection",
-      "url": "https://www.theguardian.com/books/2026/oct/29/sarah-howe-wins-forward-poetry-prize-for-best-collection",
-      "source_url": "https://www.theguardian.com/books/2026/oct/29/sarah-howe-wins-forward-poetry-prize-for-best-collection",
-      "event_at": "2026-10-29T16:32:12+00:00",
-      "isbn": "9781784746131",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "award",
-      "genre": [
-        "poetry"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "award",
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:9781784746131",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:43a782068e8f:20261029",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "‘Our third date was at Buckingham Palace’: Marlon James and Nicholas Boggs on life as a literary power couple",
-      "url": "https://www.theguardian.com/books/2026/oct/24/our-third-date-was-at-buckingham-palace-marlon-james-and-nicholas-boggs-on-life-as-a-literary-power-couple",
-      "source_url": "https://www.theguardian.com/books/2026/oct/24/our-third-date-was-at-buckingham-palace-marlon-james-and-nicholas-boggs-on-life-as-a-literary-power-couple",
-      "event_at": "2026-10-24T08:00:27+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [
-        "literary"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "booker"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:the-guardian-books:d4a9d51a2f62",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:5bdd7eee59d5:20261024",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "‘Is there any value in writing a story in a time of chaos?’: novelist Elif Shafak on her creative crisis",
-      "url": "https://www.theguardian.com/books/2026/oct/17/is-there-any-value-in-writing-a-story-in-a-time-of-chaos-novelist-elif-shafak-on-her-creative-crisis",
-      "source_url": "https://www.theguardian.com/books/2026/oct/17/is-there-any-value-in-writing-a-story-in-a-time-of-chaos-novelist-elif-shafak-on-her-creative-crisis",
-      "event_at": "2026-10-17T08:00:25+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "nobel",
-      "genre": [
-        "novel",
-        "literary",
-        "literature"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "author"
-      ],
-      "award": [
-        "nobel",
-        "booker"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:title:56f24a6ca97f",
-      "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:9e17fba51701:20261017",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Where to start with: Anne Carson",
-      "url": "https://www.theguardian.com/books/2026/oct/08/where-to-start-with-anne-carson",
-      "source_url": "https://www.theguardian.com/books/2026/oct/08/where-to-start-with-anne-carson",
-      "event_at": "2026-10-08T19:43:38+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "nobel",
-      "genre": [
-        "literature",
-        "poetry"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "writer"
-      ],
-      "award": [
-        "nobel",
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:title:b1cfabd2c9bc",
-      "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:8c7c898bd16a:20261008",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
       "source": "알라딘 신간",
       "source_type": "rss",
       "trust_tier": "T1_official",
@@ -6948,6 +7159,51 @@
       "canonical_key": "book_edition:405638010",
       "canonical_key_status": "complete",
       "event_key": "award_signal:da8882ae6511:20261029",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Sarah Howe wins Forward poetry prize for best collection",
+      "url": "https://www.theguardian.com/books/2026/oct/29/sarah-howe-wins-forward-poetry-prize-for-best-collection",
+      "source_url": "https://www.theguardian.com/books/2026/oct/29/sarah-howe-wins-forward-poetry-prize-for-best-collection",
+      "event_at": "2026-10-29T16:32:12+00:00",
+      "isbn": "9781784746131",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [
+        "poetry"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "award",
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:9781784746131",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:43a782068e8f:20261029",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -7213,258 +7469,6 @@
       "required_field_proxy": {
         "author_name": true,
         "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "Publishers Weekly",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "London Book Fair Unveils 2027 Authors of the Fair",
-      "url": "http://www.publishersweekly.com/pw/by-topic/international/london-book-fair/article/101611-london-book-fair-unveils-2027-authors-of-the-fair.html",
-      "source_url": "http://www.publishersweekly.com/pw/by-topic/international/london-book-fair/article/101611-london-book-fair-unveils-2027-authors-of-the-fair.html",
-      "event_at": "2026-10-26T04:00:00+00:00",
-      "isbn": "101611",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "book fair",
-      "award_name": "",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "book fair"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:101611",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:2bb45664bd39:20261026",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "아무튼, 집밥/변연경 지음/위고",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405519623&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405519623&rssType=1&type=item",
-      "event_at": "2026-10-28T06:12:00+00:00",
-      "isbn": "405519623",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "에세이",
-        "시",
-        "요리"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "저자"
-      ],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:405519623",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:b151ca67e557:20261028",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "가로수 그늘 아래 서면/이영훈 지음, 이영채 그림/알에이치코리아(RHK)",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405501034&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405501034&rssType=1&type=item",
-      "event_at": "2026-10-28T02:30:00+00:00",
-      "isbn": "405501034",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "에세이",
-        "시",
-        "예술",
-        "건강"
-      ],
-      "publisher": [
-        "알에이치코리아",
-        "rhk"
-      ],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:405501034",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:afcc74be5f06:20261028",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "아포칼립스 베이비시터즈/이우인 지음/사계절",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405499728&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405499728&rssType=1&type=item",
-      "event_at": "2026-10-28T02:11:00+00:00",
-      "isbn": "405499728",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "문학",
-        "철학",
-        "청소년"
-      ],
-      "publisher": [
-        "사계절"
-      ],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:405499728",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:2dc5651a0ed6:20261028",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "일일 반출록/성해나 지음/무제",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405496546&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405496546&rssType=1&type=item",
-      "event_at": "2026-10-28T01:31:00+00:00",
-      "isbn": "405496546",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "문학상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학"
-      ],
-      "publisher": [
-        "창비",
-        "문학동네",
-        "한겨레출판"
-      ],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:405496546",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:e8797f4ddc09:20261028",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
         "source_url": true
       },
       "required_field_gaps": []
