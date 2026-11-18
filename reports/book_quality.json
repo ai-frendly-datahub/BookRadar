@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-11-17T08:53:19.972396+00:00",
+  "generated_at": "2026-11-18T08:16:53.400837+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,20 +16,20 @@
     "collection_error_count": 0,
     "sales_ranking_events": 45,
     "library_lending_events": 0,
-    "author_event_events": 9,
-    "award_signal_events": 94,
-    "book_signal_event_count": 148,
-    "official_or_operational_event_count": 108,
+    "author_event_events": 11,
+    "award_signal_events": 96,
+    "book_signal_event_count": 152,
+    "official_or_operational_event_count": 109,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 115,
-    "proxy_canonical_key_count": 33,
+    "complete_canonical_key_count": 118,
+    "proxy_canonical_key_count": 34,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 115,
-    "author_present_count": 72,
-    "publisher_present_count": 42,
+    "isbn_present_count": 118,
+    "author_present_count": 74,
+    "publisher_present_count": 40,
     "rank_present_count": 58,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 40,
+    "event_required_field_gap_count": 43,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
@@ -75,7 +75,7 @@
       "article_count": 45,
       "event_count": 45,
       "latest_event_at": "2026-11-15T22:02:34+00:00",
-      "age_days": 1.45,
+      "age_days": 2.43,
       "latest_title": "15위 야마다 군과 Lv999의 사랑을 하다 9 (특별판)",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406842883&radar_rank=15&radar_ranking_date=20261115220234&rssType=5&type=item",
       "latest_source_signal": [
@@ -240,7 +240,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 138,
+      "article_count": 147,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -286,7 +286,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 18,
+      "article_count": 19,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -309,7 +309,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 102,
+      "article_count": 99,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -332,7 +332,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 88,
+      "article_count": 91,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -378,7 +378,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 70,
+      "article_count": 71,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -782,6 +782,232 @@
   ],
   "events": [
     {
+      "source": "New York Times Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "National Book Award Finalist May Be Ineligible for the Prize",
+      "url": "https://www.nytimes.com/2026/11/17/books/national-book-award-nonfiction-elgendy-eligibility.html",
+      "source_url": "https://www.nytimes.com/2026/11/17/books/national-book-award-nonfiction-elgendy-eligibility.html",
+      "event_at": "2026-11-18T03:10:59+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [
+        "memoir"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "writer"
+      ],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:4371a0a8d628",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:d7de59dc693b:20261118",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Book Riot",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "TIME’s 100 Must-Read Books of 2026",
+      "url": "https://bookriot.com/times-100-must-read-books-of-2026",
+      "source_url": "https://bookriot.com/times-100-must-read-books-of-2026",
+      "event_at": "2026-11-17T14:41:45+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:book-riot:14a7657b1ec1",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:9d75c33124f3:20261117",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "And the Best Literary TV Adaptation of All Time is…",
+      "url": "https://lithub.com/and-the-best-literary-tv-adaptation-of-all-time-is",
+      "source_url": "https://lithub.com/and-the-best-literary-tv-adaptation-of-all-time-is",
+      "event_at": "2026-11-17T12:00:17+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "winner",
+      "genre": [
+        "literary"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:literary-hub:209cfcba07ae",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:d560866cda5b:20261117",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Publishers Weekly",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "2026 Shanghai International Children’s Book Fair: A Brief Look at the Chinese Children’s Book Market",
+      "url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101794-2026-shanghai-international-children-s-book-fair-a-brief-look-at-the-chinese-children-s-book-market.html",
+      "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101794-2026-shanghai-international-children-s-book-fair-a-brief-look-at-the-chinese-children-s-book-market.html",
+      "event_at": "2026-11-17T05:00:00+00:00",
+      "isbn": "1017942026",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "book fair",
+      "award_name": "",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "book fair"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:1017942026",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:6e78128b8044:20261117",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "Publishers Weekly",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "2026 Shanghai International Children’s Book Fair: Exhibitors Look for New Market Opportunities",
+      "url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101793-2026-shanghai-international-children-s-book-fair-exhibitors-look-for-new-market-opportunities.html",
+      "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101793-2026-shanghai-international-children-s-book-fair-exhibitors-look-for-new-market-opportunities.html",
+      "event_at": "2026-11-17T05:00:00+00:00",
+      "isbn": "1017932026",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "book fair",
+      "award_name": "",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "book fair"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:1017932026",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:e020a05b2f02:20261117",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
       "source": "Literary Hub",
       "source_type": "rss",
       "trust_tier": "T3_professional",
@@ -962,6 +1188,264 @@
       "required_field_gaps": [
         "isbn"
       ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "파괴의 시절/폴린 페라드 지음, 이재룡 옮김/열림원(도서출판)",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=407175561&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=407175561&rssType=1&type=item",
+      "event_at": "2026-11-16T07:32:00+00:00",
+      "isbn": "407175561",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "공쿠르",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "인문학"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "공쿠르",
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:407175561",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:8ff68c6f09bf:20261116",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "AI 시대 레버리지 성공학/김정수 지음/중앙경제평론사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=407173981&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=407173981&rssType=1&type=item",
+      "event_at": "2026-11-16T07:18:00+00:00",
+      "isbn": "407173981",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "winner",
+      "genre": [
+        "시",
+        "경제경영",
+        "자기계발"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "저자"
+      ],
+      "award": [
+        "winner"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:407173981",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:2389ce605676:20261116",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "무죄 보장 구역/정재민 지음/리프",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=407169867&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=407169867&rssType=1&type=item",
+      "event_at": "2026-11-16T06:45:00+00:00",
+      "isbn": "407169867",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "김초엽",
+        "작가"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:407169867",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:d518a0f6fad5:20261116",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "과학으로 쓰는 소설, 소설로 읽는 과학/키스 쿠퍼 지음, 임예슬 옮김, 권우진 감수/북스힐",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=407166085&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=407166085&rssType=1&type=item",
+      "event_at": "2026-11-16T06:12:00+00:00",
+      "isbn": "407166085",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "문학",
+        "과학",
+        "sf"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가",
+        "저자"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:407166085",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:b5e9c08edfb6:20261116",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "시간의 집/도리야마 마코토 지음, 김춘미 옮김/포레스트북스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=407163617&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=407163617&rssType=1&type=item",
+      "event_at": "2026-11-16T05:50:00+00:00",
+      "isbn": "407163617",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:407163617",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:7a17de0c4411:20261116",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "알라딘 베스트셀러",
@@ -6113,308 +6597,6 @@
       ]
     },
     {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "신고가 돌파 주식 투자법/DUKE。 지음, 김정환 옮김/이레미디어",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406115302&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406115302&rssType=1&type=item",
-      "event_at": "2026-11-04T07:45:00+00:00",
-      "isbn": "406115302",
-      "rank": 3,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "시",
-        "경제경영",
-        "심리"
-      ],
-      "publisher": [],
-      "book_type": [
-        "베스트셀러"
-      ],
-      "author": [
-        "저자"
-      ],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:406115302",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:4f95bc57a86f:20261104",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "봉쇄의 모든 것/황동하 지음, 최경란 그림/그림씨",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406109124&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406109124&rssType=1&type=item",
-      "event_at": "2026-11-04T06:46:00+00:00",
-      "isbn": "406109124",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "시",
-        "역사",
-        "정치",
-        "청소년"
-      ],
-      "publisher": [],
-      "book_type": [
-        "추천도서",
-        "시리즈"
-      ],
-      "author": [],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:406109124",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:131b81a3f917:20261104",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "내 친구가 하고 싶은 말/박하잎 지음/오늘책",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406108461&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406108461&rssType=1&type=item",
-      "event_at": "2026-11-04T06:40:00+00:00",
-      "isbn": "406108461",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "문학",
-        "그림책"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:406108461",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:3d3f3027decc:20261104",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "난독 일기/심윤경 지음/문학동네",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406102834&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406102834&rssType=1&type=item",
-      "event_at": "2026-11-04T05:39:00+00:00",
-      "isbn": "406102834",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "에세이",
-        "시",
-        "문학",
-        "역사",
-        "예술"
-      ],
-      "publisher": [
-        "문학동네"
-      ],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:406102834",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:0c1fc846284d:20261104",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "‘A trailblazer in the truest sense’: poet Grace Nichols wins £10,000 Pioneer prize",
-      "url": "https://www.theguardian.com/books/2026/nov/03/poet-grace-nichols-wins-pioneer-prize-royal-society-of-literature",
-      "source_url": "https://www.theguardian.com/books/2026/nov/03/poet-grace-nichols-wins-pioneer-prize-royal-society-of-literature",
-      "event_at": "2026-11-03T14:46:05+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "award",
-      "genre": [
-        "literary",
-        "literature",
-        "poetry"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "writer"
-      ],
-      "award": [
-        "award",
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:title:8f45568eafc4",
-      "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:cbf3f60da4e3:20261103",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "Literary Hub",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Natasha Trethewey on the essential teachings of John Edgar Wideman.",
-      "url": "https://lithub.com/natasha-trethewey-on-the-essential-teachings-of-john-edgar-wideman",
-      "source_url": "https://lithub.com/natasha-trethewey-on-the-essential-teachings-of-john-edgar-wideman",
-      "event_at": "2026-11-03T14:13:11+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "award",
-      "genre": [
-        "literary"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "award"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:literary-hub:97650aeafb35",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:69515c4fc011:20261103",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
       "source": "NPR Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -7523,6 +7705,211 @@
       "required_field_gaps": []
     },
     {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "신고가 돌파 주식 투자법/DUKE。 지음, 김정환 옮김/이레미디어",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406115302&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406115302&rssType=1&type=item",
+      "event_at": "2026-11-04T07:45:00+00:00",
+      "isbn": "406115302",
+      "rank": 3,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "시",
+        "경제경영",
+        "심리"
+      ],
+      "publisher": [],
+      "book_type": [
+        "베스트셀러"
+      ],
+      "author": [
+        "저자"
+      ],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:406115302",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:4f95bc57a86f:20261104",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "봉쇄의 모든 것/황동하 지음, 최경란 그림/그림씨",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406109124&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406109124&rssType=1&type=item",
+      "event_at": "2026-11-04T06:46:00+00:00",
+      "isbn": "406109124",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "시",
+        "역사",
+        "정치",
+        "청소년"
+      ],
+      "publisher": [],
+      "book_type": [
+        "추천도서",
+        "시리즈"
+      ],
+      "author": [],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:406109124",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:131b81a3f917:20261104",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "내 친구가 하고 싶은 말/박하잎 지음/오늘책",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406108461&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406108461&rssType=1&type=item",
+      "event_at": "2026-11-04T06:40:00+00:00",
+      "isbn": "406108461",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "문학",
+        "그림책"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:406108461",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:3d3f3027decc:20261104",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "난독 일기/심윤경 지음/문학동네",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406102834&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406102834&rssType=1&type=item",
+      "event_at": "2026-11-04T05:39:00+00:00",
+      "isbn": "406102834",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "에세이",
+        "시",
+        "문학",
+        "역사",
+        "예술"
+      ],
+      "publisher": [
+        "문학동네"
+      ],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:406102834",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:0c1fc846284d:20261104",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -7835,223 +8222,80 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "체리의 계절/몬세라트 로치 지음, 권가람 옮김/민음사",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405963913&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405963913&rssType=1&type=item",
-      "event_at": "2026-11-02T06:52:00+00:00",
-      "isbn": "405963913",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "문학",
-        "역사",
-        "영어"
-      ],
-      "publisher": [
-        "민음사"
-      ],
-      "book_type": [
-        "세트"
-      ],
-      "author": [
-        "작가",
-        "번역"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:405963913",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:7a99e8056349:20261102",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "완벽한 말보다 통하는 말/후션즈 지음, 박지수 옮김/이든서재",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405961545&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405961545&rssType=1&type=item",
-      "event_at": "2026-11-02T06:35:00+00:00",
-      "isbn": "405961545",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "시",
-        "문학",
-        "자기계발",
-        "인문학",
-        "심리"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:405961545",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:565b25dd355d:20261102",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "쇠락의 두 가지 유형/세라 망구소 지음, 양미래 옮김/반비",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405945434&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405945434&rssType=1&type=item",
-      "event_at": "2026-11-02T02:39:00+00:00",
-      "isbn": "405945434",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "소설",
-        "에세이",
-        "시",
-        "문학",
-        "인문학",
-        "철학"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "선정",
-        "후보"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:405945434",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:ec89bb731259:20261102",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "두둥뚜둥 레스토랑/소연 지음, 벼레 그림/위즈덤하우스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405945431&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=405945431&rssType=1&type=item",
-      "event_at": "2026-11-02T02:39:00+00:00",
-      "isbn": "405945431",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "문학",
-        "요리",
-        "어린이",
-        "그림책"
-      ],
-      "publisher": [
-        "위즈덤하우스",
-        "비룡소"
-      ],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상",
-        "문학상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:405945431",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:2d1fb992c209:20261102",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "New York Times Books",
+      "title": "National Book Award Finalist May Be Ineligible for the Prize",
+      "canonical_key": "book_edition:title:4371a0a8d628",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "New York Times Books",
+      "title": "National Book Award Finalist May Be Ineligible for the Prize",
+      "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "TIME’s 100 Must-Read Books of 2026",
+      "canonical_key": "book_source:book-riot:14a7657b1ec1",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "TIME’s 100 Must-Read Books of 2026",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "And the Best Literary TV Adaptation of All Time is…",
+      "canonical_key": "book_source:literary-hub:209cfcba07ae",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "And the Best Literary TV Adaptation of All Time is…",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "Publishers Weekly",
+      "title": "2026 Shanghai International Children’s Book Fair: A Brief Look at the Chinese Children’s Book Market",
+      "canonical_key": "book_edition:1017942026",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "Publishers Weekly",
+      "title": "2026 Shanghai International Children’s Book Fair: Exhibitors Look for New Market Opportunities",
+      "canonical_key": "book_edition:1017932026",
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
@@ -8417,74 +8661,6 @@
       "required_field_gaps": [
         "author_name"
       ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "Narrative threads: How to write a Booker-shortlisted novel, by Marlon James, Douglas Stuart, Elizabeth Strout and more",
-      "canonical_key": "book_source:the-guardian-books:2986de8b5627",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "Narrative threads: How to write a Booker-shortlisted novel, by Marlon James, Douglas Stuart, Elizabeth Strout and more",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "Booker Prize 2026: Vote in Our Readers’ Poll",
-      "canonical_key": "book_source:new-york-times-books:4bc01653446d",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "New York Times Books",
-      "title": "Booker Prize 2026: Vote in Our Readers’ Poll",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Here’s the winner of the 2026 American Library in Paris Book Award.",
-      "canonical_key": "book_source:literary-hub:dd475cd1f4aa",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Here’s the winner of the 2026 American Library in Paris Book Award.",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "Winner of the Prix Goncourt literary prize admits to using AI",
-      "canonical_key": "book_source:the-guardian-books:1067bc1a619d",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "Winner of the Prix Goncourt literary prize admits to using AI",
-      "canonical_key_status": "source_proxy"
     }
   ],
   "source_backlog": {
