@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-11-20T08:10:13.815441+00:00",
+  "generated_at": "2026-11-21T08:03:33.575540+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,20 +16,20 @@
     "collection_error_count": 0,
     "sales_ranking_events": 45,
     "library_lending_events": 0,
-    "author_event_events": 12,
-    "award_signal_events": 104,
+    "author_event_events": 13,
+    "award_signal_events": 103,
     "book_signal_event_count": 161,
-    "official_or_operational_event_count": 116,
+    "official_or_operational_event_count": 113,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 129,
-    "proxy_canonical_key_count": 32,
+    "complete_canonical_key_count": 126,
+    "proxy_canonical_key_count": 35,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 129,
-    "author_present_count": 81,
-    "publisher_present_count": 44,
-    "rank_present_count": 57,
+    "isbn_present_count": 126,
+    "author_present_count": 82,
+    "publisher_present_count": 42,
+    "rank_present_count": 60,
     "lending_count_present_count": 0,
-    "event_required_field_gap_count": 41,
+    "event_required_field_gap_count": 45,
     "tracked_source_gap_count": 0,
     "missing_event_model_count": 1,
     "source_backlog_candidate_count": 4,
@@ -49,7 +49,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 256,
+      "article_count": 267,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -75,7 +75,7 @@
       "article_count": 45,
       "event_count": 45,
       "latest_event_at": "2026-11-15T22:02:34+00:00",
-      "age_days": 4.42,
+      "age_days": 5.42,
       "latest_title": "15위 야마다 군과 Lv999의 사랑을 하다 9 (특별판)",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406842883&radar_rank=15&radar_ranking_date=20261115220234&rssType=5&type=item",
       "latest_source_signal": [
@@ -240,7 +240,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 131,
+      "article_count": 149,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 62,
+      "article_count": 64,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -286,7 +286,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 20,
+      "article_count": 19,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -309,7 +309,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 97,
+      "article_count": 104,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -332,7 +332,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 93,
+      "article_count": 101,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -378,7 +378,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 70,
+      "article_count": 72,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -790,6 +790,143 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
+      "title": "Jonathan Yardley, Who Reviewed 3,000 Books and Pulled Zero Punches, Has Died",
+      "url": "https://www.nytimes.com/2026/11/20/books/jonathan-yardley-dead.html",
+      "source_url": "https://www.nytimes.com/2026/11/20/books/jonathan-yardley-dead.html",
+      "event_at": "2026-11-20T18:40:30+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "pulitzer",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "pulitzer"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:new-york-times-books:09f17b151322",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:58c293ce1fb1:20261120",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Lit Hub Daily: November 20, 2026",
+      "url": "https://lithub.com/lit-hub-daily-november-20-2026",
+      "source_url": "https://lithub.com/lit-hub-daily-november-20-2026",
+      "event_at": "2026-11-20T11:30:45+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "writer"
+      ],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:a06cb776f518",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:c1220f68ef44:20261120",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "How Ten National Book Award Finalists Tackle Writer’s Block",
+      "url": "https://lithub.com/how-ten-national-book-award-finalists-tackle-writers-block",
+      "source_url": "https://lithub.com/how-ten-national-book-award-finalists-tackle-writers-block",
+      "event_at": "2026-11-20T09:02:23+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "author",
+        "writer"
+      ],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:88d3cfee4290",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:d9e5bb484562:20261120",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "New York Times Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
       "title": "National Book Award for Nonfiction Goes to Writer Denied Visa to Attend",
       "url": "https://www.nytimes.com/2026/11/18/books/national-book-award-for-nonfiction-goes-to-writer-denied-visa-to-attend.html",
       "source_url": "https://www.nytimes.com/2026/11/18/books/national-book-award-for-nonfiction-goes-to-writer-denied-visa-to-attend.html",
@@ -974,6 +1111,60 @@
       "required_field_gaps": []
     },
     {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "내가 별로 생각하고 싶지 않은 것/옌터 포스트휘마 지음, 신혜빈 옮김/문학동네",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=407476428&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=407476428&rssType=1&type=item",
+      "event_at": "2026-11-19T05:49:00+00:00",
+      "isbn": "407476428",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "부커상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학"
+      ],
+      "publisher": [
+        "문학동네"
+      ],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "부커상",
+        "문학상",
+        "후보"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:407476428",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:cccb366278ab:20261119",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
       "source": "Publishers Weekly",
       "source_type": "rss",
       "trust_tier": "T3_professional",
@@ -1108,6 +1299,325 @@
       "required_field_gaps": [
         "isbn"
       ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "재난관리청 특별기밀자료들/유아사 지음/황금가지",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=407458180&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=407458180&rssType=1&type=item",
+      "event_at": "2026-11-19T03:11:00+00:00",
+      "isbn": "407458180",
+      "rank": 1,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "동화"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:407458180",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:274a28e50b66:20261119",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "에덴브릿지호텔 신입 직원들을 위한 행동 지침서/지야.코코아드림.녹차빙수 지음/황금가지",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=407457951&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=407457951&rssType=1&type=item",
+      "event_at": "2026-11-19T03:08:00+00:00",
+      "isbn": "407457951",
+      "rank": 1,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "",
+      "genre": [
+        "소설",
+        "시",
+        "희곡"
+      ],
+      "publisher": [],
+      "book_type": [
+        "전자책",
+        "한정판",
+        "시리즈"
+      ],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:407457951",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:0970c574293f:20261119",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "타키 포오 네버 다이 과학 어드벤처 5 : 노벨상을 찾아서!/박시연 지음, 팀키즈 그림, 이승훈 감수, 캐릭온TV 원작/대원키즈",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=407455499&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=407455499&rssType=1&type=item",
+      "event_at": "2026-11-19T02:35:00+00:00",
+      "isbn": "407455499",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "과학",
+        "여행",
+        "컴퓨터",
+        "만화",
+        "어린이"
+      ],
+      "publisher": [],
+      "book_type": [
+        "시리즈"
+      ],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:407455499",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:51b9b428e66a:20261119",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "뉴 잭 스윙/박서련 지음/창비",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=407453304&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=407453304&rssType=1&type=item",
+      "event_at": "2026-11-19T02:10:00+00:00",
+      "isbn": "407453304",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "이상문학상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "추리"
+      ],
+      "publisher": [
+        "창비"
+      ],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "이상문학상",
+        "김유정문학상",
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:407453304",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:ca4e9e23da9a:20261119",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "전사들 슈퍼 에디션 : 브램블스타의 폭풍 (양장)/에린 헌터 지음, 이주현 옮김/가람어린이",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=407452804&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=407452804&rssType=1&type=item",
+      "event_at": "2026-11-19T02:03:00+00:00",
+      "isbn": "407452804",
+      "rank": 4,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "만화",
+        "어린이",
+        "동화"
+      ],
+      "publisher": [],
+      "book_type": [
+        "베스트셀러",
+        "시리즈"
+      ],
+      "author": [
+        "번역"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:407452804",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:ebf0608c0e0f:20261119",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "엉뚱한 노마/앤 카슨 지음, 신해경 옮김/봄날의책",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=407450602&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=407450602&rssType=1&type=item",
+      "event_at": "2026-11-19T01:35:00+00:00",
+      "isbn": "407450602",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "노벨문학상",
+      "genre": [
+        "에세이",
+        "시",
+        "문학",
+        "역사",
+        "여행"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "노벨문학상",
+        "수상",
+        "문학상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:407450602",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:cbe13582e0b9:20261119",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "New York Times Books",
@@ -6530,52 +7040,6 @@
       ]
     },
     {
-      "source": "New York Times Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Booker Prize 2026: Vote in Our Readers’ Poll",
-      "url": "https://www.nytimes.com/2026/11/06/books/booker-prize-readers-vote.html",
-      "source_url": "https://www.nytimes.com/2026/11/06/books/booker-prize-readers-vote.html",
-      "event_at": "2026-11-06T12:26:51+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [
-        "novel"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "booker"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:new-york-times-books:4bc01653446d",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:66e1877a09d6:20261106",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
       "source": "NPR Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -6795,6 +7259,52 @@
       "canonical_key": "book_edition:title:56f24a6ca97f",
       "canonical_key_status": "title_proxy",
       "event_key": "award_signal:9e17fba51701:20261017",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "New York Times Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Booker Prize 2026: Vote in Our Readers’ Poll",
+      "url": "https://www.nytimes.com/2026/11/06/books/booker-prize-readers-vote.html",
+      "source_url": "https://www.nytimes.com/2026/11/06/books/booker-prize-readers-vote.html",
+      "event_at": "2026-11-06T12:26:51+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [
+        "novel"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:new-york-times-books:4bc01653446d",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:66e1877a09d6:20261106",
       "required_field_proxy": {
         "isbn": false,
         "award_name": true,
@@ -8184,511 +8694,60 @@
         "retailer": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "한반도 사피엔스/이진옥.박정재 지음/김영사",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406163528&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406163528&rssType=1&type=item",
-      "event_at": "2026-11-05T02:06:00+00:00",
-      "isbn": "406163528",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "올해의 책",
-      "genre": [
-        "시",
-        "문학",
-        "인문학",
-        "역사"
-      ],
-      "publisher": [
-        "김영사"
-      ],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "올해의 책"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:406163528",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:7c390f63980d:20261105",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "쇼펜하우어의 여자들/임왕준 지음/이숲",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406162568&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406162568&rssType=1&type=item",
-      "event_at": "2026-11-05T02:04:00+00:00",
-      "isbn": "406162568",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "올해의 책",
-      "genre": [
-        "시",
-        "문학",
-        "인문학",
-        "철학"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "올해의 책"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:406162568",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:51b451617a32:20261105",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "불순한 건축/조진만 지음/미래의창",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406160947&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406160947&rssType=1&type=item",
-      "event_at": "2026-11-05T01:44:00+00:00",
-      "isbn": "406160947",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "올해의 책",
-      "genre": [
-        "시",
-        "문학",
-        "인문학",
-        "역사",
-        "예술"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "저자"
-      ],
-      "award": [
-        "올해의 책"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:406160947",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:f5abb5363ca3:20261105",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "경성 활자 미스터리 (무선)/이미정 지음/창비",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406160332&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406160332&rssType=1&type=item",
-      "event_at": "2026-11-05T01:36:00+00:00",
-      "isbn": "406160332",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "문학",
-        "추리",
-        "청소년"
-      ],
-      "publisher": [
-        "창비"
-      ],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:406160332",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:52920965d339:20261105",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "우화 읽고 지혜 쓰기/읽고쓰는생각연구소 지음, 김민준 그림/천개의바람",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406160043&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406160043&rssType=1&type=item",
-      "event_at": "2026-11-05T01:32:00+00:00",
-      "isbn": "406160043",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "올해의 책",
-      "genre": [
-        "시",
-        "어린이"
-      ],
-      "publisher": [],
-      "book_type": [
-        "시리즈"
-      ],
-      "author": [],
-      "award": [
-        "올해의 책"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:406160043",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:9568517fb5e4:20261105",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "고전 읽고 마음 쓰기/읽고쓰는생각연구소 지음, 김선배 그림/천개의바람",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406159436&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406159436&rssType=1&type=item",
-      "event_at": "2026-11-05T01:26:00+00:00",
-      "isbn": "406159436",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "올해의 책",
-      "genre": [
-        "시",
-        "어린이"
-      ],
-      "publisher": [],
-      "book_type": [
-        "시리즈"
-      ],
-      "author": [],
-      "award": [
-        "올해의 책"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:406159436",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:4227a0e287f7:20261105",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "전래 동화 읽고 바꿔 쓰기/읽고쓰는생각연구소 지음, 손지희 그림/천개의바람",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406157326&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406157326&rssType=1&type=item",
-      "event_at": "2026-11-05T01:18:00+00:00",
-      "isbn": "406157326",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "올해의 책",
-      "genre": [
-        "시",
-        "어린이",
-        "동화"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "올해의 책"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:406157326",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:5e2dbbe88db4:20261105",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "상실의 쓸모/조윤정 지음/유노랩",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406156548&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406156548&rssType=1&type=item",
-      "event_at": "2026-11-05T01:07:00+00:00",
-      "isbn": "406156548",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "올해의 책",
-      "genre": [
-        "시",
-        "문학",
-        "인문학",
-        "건강",
-        "심리"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "저자"
-      ],
-      "award": [
-        "올해의 책"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:406156548",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:58e41f76de76:20261105",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "경성 활자 미스터리 (양장)/이미정 지음/창비",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406156037&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406156037&rssType=1&type=item",
-      "event_at": "2026-11-05T01:01:00+00:00",
-      "isbn": "406156037",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "에세이",
-        "시",
-        "희곡",
-        "추리"
-      ],
-      "publisher": [
-        "창비"
-      ],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:406156037",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:ffa8ace53b81:20261105",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "소원을 들어주는 주전자 요정/박지윤 지음/비룡소",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406154994&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406154994&rssType=1&type=item",
-      "event_at": "2026-11-05T00:52:00+00:00",
-      "isbn": "406154994",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "올해의 책",
-      "genre": [
-        "시",
-        "그림책"
-      ],
-      "publisher": [
-        "비룡소"
-      ],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "올해의 책",
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:406154994",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:8bb3c7fd6af5:20261105",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "New York Times Books",
+      "title": "Jonathan Yardley, Who Reviewed 3,000 Books and Pulled Zero Punches, Has Died",
+      "canonical_key": "book_source:new-york-times-books:09f17b151322",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "New York Times Books",
+      "title": "Jonathan Yardley, Who Reviewed 3,000 Books and Pulled Zero Punches, Has Died",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Lit Hub Daily: November 20, 2026",
+      "canonical_key": "book_edition:title:a06cb776f518",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Lit Hub Daily: November 20, 2026",
+      "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "How Ten National Book Award Finalists Tackle Writer’s Block",
+      "canonical_key": "book_edition:title:88d3cfee4290",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "How Ten National Book Award Finalists Tackle Writer’s Block",
+      "canonical_key_status": "title_proxy"
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
@@ -8756,6 +8815,16 @@
       "source": "The Guardian Books",
       "title": "Hannah Lillith Assadi wins US National book award for ‘visionary’ novel Paradiso 17",
       "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "author_event",
+      "source": "알라딘 신간",
+      "title": "에덴브릿지호텔 신입 직원들을 위한 행동 지침서/지야.코코아드림.녹차빙수 지음/황금가지",
+      "canonical_key": "book_edition:407457951",
+      "required_field_gaps": [
+        "author_name"
+      ]
     },
     {
       "reason": "missing_required_fields",
@@ -9061,67 +9130,6 @@
       "source": "Book Riot",
       "title": "The November Oprah’s Book Club Reading Selection",
       "canonical_key": "book_edition:title:161f8492ae9f",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "The November Oprah’s Book Club Reading Selection",
-      "canonical_key_status": "title_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "📚 Not just about everything",
-      "canonical_key": "book_source:book-riot:c1c1710f03ac",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Book Riot",
-      "title": "📚 Not just about everything",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "Jarvis Cocker on judging the Booker prize: ‘It’s just like being in a band’",
-      "canonical_key": "book_edition:title:58d84545bc65",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "The Guardian Books",
-      "title": "Jarvis Cocker on judging the Booker prize: ‘It’s just like being in a band’",
-      "canonical_key_status": "title_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "알라딘 신간",
-      "title": "엄청나게 멋진 크리스마스를 보여 줄게!/조리 존 지음, 피트 오즈월드 그림, 김경희 옮김/길벗어린이",
-      "canonical_key": "book_edition:406526644",
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "M. John Harrison’s The End of Everything has won the 2026 Booker Prize.",
-      "canonical_key": "book_source:literary-hub:56f3e077ca51",
       "required_field_gaps": [
         "isbn"
       ]
