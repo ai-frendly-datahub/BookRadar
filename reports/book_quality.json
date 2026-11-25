@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-11-24T10:43:41.688059+00:00",
+  "generated_at": "2026-11-25T09:38:32.724248+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,17 +16,17 @@
     "collection_error_count": 0,
     "sales_ranking_events": 45,
     "library_lending_events": 0,
-    "author_event_events": 15,
-    "award_signal_events": 101,
+    "author_event_events": 16,
+    "award_signal_events": 100,
     "book_signal_event_count": 161,
     "official_or_operational_event_count": 114,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 127,
-    "proxy_canonical_key_count": 34,
+    "complete_canonical_key_count": 126,
+    "proxy_canonical_key_count": 35,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 127,
-    "author_present_count": 86,
-    "publisher_present_count": 36,
+    "isbn_present_count": 126,
+    "author_present_count": 85,
+    "publisher_present_count": 38,
     "rank_present_count": 60,
     "lending_count_present_count": 0,
     "event_required_field_gap_count": 44,
@@ -75,7 +75,7 @@
       "article_count": 45,
       "event_count": 45,
       "latest_event_at": "2026-11-22T22:02:02+00:00",
-      "age_days": 1.53,
+      "age_days": 2.48,
       "latest_title": "5위 100일의 거짓말 대본집 세트 - 전3권",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=407135636&radar_rank=5&radar_ranking_date=20261122220202&rssType=5&type=item",
       "latest_source_signal": [
@@ -240,7 +240,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 133,
+      "article_count": 137,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -263,7 +263,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 63,
+      "article_count": 62,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -286,7 +286,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 20,
+      "article_count": 21,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -332,7 +332,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 94,
+      "article_count": 96,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -378,7 +378,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 70,
+      "article_count": 67,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -782,6 +782,239 @@
   ],
   "events": [
     {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Vaim Hotel by Jon Fosse review – not your typical ghost story",
+      "url": "https://www.theguardian.com/books/2026/nov/25/vaim-hotel-by-jon-fosse-review-not-your-typical-ghost-story",
+      "source_url": "https://www.theguardian.com/books/2026/nov/25/vaim-hotel-by-jon-fosse-review-not-your-typical-ghost-story",
+      "event_at": "2026-11-25T09:00:10+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "nobel",
+      "genre": [
+        "novel"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "nobel"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:the-guardian-books:c701580f752e",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:d05e3e1f401a:20261125",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "Literary Hub",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Here’s the shortlist for the first-ever Children’s Booker Prize.",
+      "url": "https://lithub.com/heres-the-shortlist-for-the-first-ever-childrens-booker-prize",
+      "source_url": "https://lithub.com/heres-the-shortlist-for-the-first-ever-childrens-booker-prize",
+      "event_at": "2026-11-24T20:49:41+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:literary-hub:91dd7213947c",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:cb5f5ac43791:20261124",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Meher Iqbal wins 2026 4thWrite prize with ‘evocative’ coming-of-age story",
+      "url": "https://www.theguardian.com/books/2026/nov/24/meher-iqbal-wins-2026-4thwrite-prize-with-evocative-coming-of-age-story",
+      "source_url": "https://www.theguardian.com/books/2026/nov/24/meher-iqbal-wins-2026-4thwrite-prize-with-evocative-coming-of-age-story",
+      "event_at": "2026-11-24T20:00:55+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "award",
+      "genre": [
+        "fiction"
+      ],
+      "publisher": [
+        "publisher"
+      ],
+      "book_type": [],
+      "author": [
+        "writer"
+      ],
+      "award": [
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:7301cf2afe02",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:55e203206a90:20261124",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "The Guardian Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "‘It was a cover-up’: HarperCollins accused of using lawyers to shut down concerns about David Walliams",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/nov/24/it-was-a-cover-up-harpercollins-accused-of-using-lawyers-to-shut-down-concerns-about-david-walliams",
+      "source_url": "https://www.theguardian.com/tv-and-radio/2026/nov/24/it-was-a-cover-up-harpercollins-accused-of-using-lawyers-to-shut-down-concerns-about-david-walliams",
+      "event_at": "2026-11-24T12:00:45+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "book signing",
+      "award_name": "",
+      "genre": [],
+      "publisher": [
+        "publisher"
+      ],
+      "book_type": [],
+      "author": [
+        "author"
+      ],
+      "award": [],
+      "book_event": [
+        "book signing"
+      ],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_edition:title:d7e4c81e170e",
+      "canonical_key_status": "title_proxy",
+      "event_key": "author_event:8f3081ee0e6f:20261124",
+      "required_field_proxy": {
+        "author_name": true,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "Book Riot",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "The 2027 Children’s Booker Award Shortlist: Meet The New Literary Award",
+      "url": "https://bookriot.com/the-2027-childrens-booker-award-shortlist",
+      "source_url": "https://bookriot.com/the-2027-childrens-booker-award-shortlist",
+      "event_at": "2026-11-24T11:19:39+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [
+        "literary"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker",
+        "award"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_source:book-riot:1e99e860762c",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:87c566a83bf4:20261124",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
       "source": "Book Riot",
       "source_type": "rss",
       "trust_tier": "T3_professional",
@@ -876,6 +1109,48 @@
       "required_field_gaps": [
         "isbn"
       ]
+    },
+    {
+      "source": "Publishers Weekly",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "Inaugural Children’s Booker Prize Announces Shortlist, Child Judges",
+      "url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101847-shortlist-child-judges-announced-for-inaugural-children-s-booker-prize.html",
+      "source_url": "http://www.publishersweekly.com/pw/by-topic/childrens/childrens-industry-news/article/101847-shortlist-child-judges-announced-for-inaugural-children-s-booker-prize.html",
+      "event_at": "2026-11-24T05:00:00+00:00",
+      "isbn": "101847",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:101847",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:df8417920ee1:20261124",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "New York Times Books",
@@ -6380,54 +6655,6 @@
       ]
     },
     {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "러브버그물풍선폭탄사태/임희강 지음/비채",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406654377&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406654377&rssType=1&type=item",
-      "event_at": "2026-11-11T05:35:00+00:00",
-      "isbn": "406654377",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "요리"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:406654377",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:40aeae6c0eeb:20261111",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -6469,350 +6696,6 @@
       "canonical_key": "book_edition:title:785d192e6e4b",
       "canonical_key_status": "title_proxy",
       "event_key": "award_signal:8a97612b88ad:20261111",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "외로운 도시/올리비아 랭 지음, 김병화 옮김/어크로스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406642785&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406642785&rssType=1&type=item",
-      "event_at": "2026-11-11T03:27:00+00:00",
-      "isbn": "406642785",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "올해의 책",
-      "genre": [
-        "에세이",
-        "시",
-        "문학",
-        "인문학",
-        "예술",
-        "철학"
-      ],
-      "publisher": [],
-      "book_type": [
-        "양장본"
-      ],
-      "author": [
-        "저자",
-        "번역"
-      ],
-      "award": [
-        "올해의 책",
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:406642785",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:7676591a2000:20261111",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "팁스 이펙트/팁스프로젝트팀 지음/남해의봄날",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406641954&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406641954&rssType=1&type=item",
-      "event_at": "2026-11-11T03:12:00+00:00",
-      "isbn": "406641954",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "시",
-        "경제경영",
-        "과학",
-        "교육"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:406641954",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:5d06620bafc2:20261111",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "New York Times Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "M. John Harrison’s ‘The End of Everything’ Wins Booker Prize",
-      "url": "https://www.nytimes.com/2026/11/09/books/booker-prize-winner-2026-science-fiction.html",
-      "source_url": "https://www.nytimes.com/2026/11/09/books/booker-prize-winner-2026-science-fiction.html",
-      "event_at": "2026-11-11T03:01:42+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "booker"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:new-york-times-books:8e97e01705f0",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:4676eab4b066:20261111",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "세상에서 가장 쉬운 과학 수업 : 분광화학/정완상 지음/성림원북스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406640803&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406640803&rssType=1&type=item",
-      "event_at": "2026-11-11T02:57:00+00:00",
-      "isbn": "406640803",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "문학",
-        "과학",
-        "역사",
-        "예술",
-        "종교",
-        "개발"
-      ],
-      "publisher": [],
-      "book_type": [
-        "시리즈"
-      ],
-      "author": [],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:406640803",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:b7bc77b116d7:20261111",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "대셔 : 소원을 들어 줄게/매트 타바레스 지음, 용희진 옮김/제이픽",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406634601&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406634601&rssType=1&type=item",
-      "event_at": "2026-11-11T01:48:00+00:00",
-      "isbn": "406634601",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "어린이",
-        "그림책"
-      ],
-      "publisher": [],
-      "book_type": [
-        "베스트셀러",
-        "시리즈"
-      ],
-      "author": [],
-      "award": [
-        "수상",
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:406634601",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:681f98520e3b:20261111",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "Literary Hub",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "The brand new Stylus Prize will distribute $750,000 to three literary nonprofits.",
-      "url": "https://lithub.com/the-brand-new-stylus-prize-will-distribute-750000-to-three-literary-nonprofits",
-      "source_url": "https://lithub.com/the-brand-new-stylus-prize-will-distribute-750000-to-three-literary-nonprofits",
-      "event_at": "2026-11-10T20:11:52+00:00",
-      "isbn": "750000",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "award",
-      "genre": [
-        "literary"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "award"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:750000",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:24e1faee2cb2:20261110",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "Book Riot",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "The November Oprah’s Book Club Reading Selection",
-      "url": "https://bookriot.com/oprahs-book-club-selection-november-2026",
-      "source_url": "https://bookriot.com/oprahs-book-club-selection-november-2026",
-      "event_at": "2026-11-10T15:16:55+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [],
-      "publisher": [],
-      "book_type": [
-        "book club"
-      ],
-      "author": [
-        "author"
-      ],
-      "award": [
-        "booker"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:title:161f8492ae9f",
-      "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:1374c9b218ea:20261110",
       "required_field_proxy": {
         "isbn": false,
         "award_name": true,
@@ -7036,6 +6919,50 @@
       "canonical_key": "book_source:the-guardian-books:79fc6309be1c",
       "canonical_key_status": "source_proxy",
       "event_key": "award_signal:8efc7384df96:20261104",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "New York Times Books",
+      "source_type": "rss",
+      "trust_tier": "T2_institutional",
+      "content_type": "review",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "M. John Harrison’s ‘The End of Everything’ Wins Booker Prize",
+      "url": "https://www.nytimes.com/2026/11/09/books/booker-prize-winner-2026-science-fiction.html",
+      "source_url": "https://www.nytimes.com/2026/11/09/books/booker-prize-winner-2026-science-fiction.html",
+      "event_at": "2026-11-11T03:01:42+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "booker"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "book_review_source",
+        "editorial_coverage"
+      ],
+      "canonical_key": "book_source:new-york-times-books:8e97e01705f0",
+      "canonical_key_status": "source_proxy",
+      "event_key": "award_signal:4676eab4b066:20261111",
       "required_field_proxy": {
         "isbn": false,
         "award_name": true,
@@ -8012,6 +7939,310 @@
       "producer_role": "",
       "info_purpose": [],
       "event_model": "award_signal",
+      "title": "러브버그물풍선폭탄사태/임희강 지음/비채",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406654377&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406654377&rssType=1&type=item",
+      "event_at": "2026-11-11T05:35:00+00:00",
+      "isbn": "406654377",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "요리"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:406654377",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:40aeae6c0eeb:20261111",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "외로운 도시/올리비아 랭 지음, 김병화 옮김/어크로스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406642785&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406642785&rssType=1&type=item",
+      "event_at": "2026-11-11T03:27:00+00:00",
+      "isbn": "406642785",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "올해의 책",
+      "genre": [
+        "에세이",
+        "시",
+        "문학",
+        "인문학",
+        "예술",
+        "철학"
+      ],
+      "publisher": [],
+      "book_type": [
+        "양장본"
+      ],
+      "author": [
+        "저자",
+        "번역"
+      ],
+      "award": [
+        "올해의 책",
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:406642785",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:7676591a2000:20261111",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "팁스 이펙트/팁스프로젝트팀 지음/남해의봄날",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406641954&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406641954&rssType=1&type=item",
+      "event_at": "2026-11-11T03:12:00+00:00",
+      "isbn": "406641954",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "시",
+        "경제경영",
+        "과학",
+        "교육"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:406641954",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:5d06620bafc2:20261111",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "세상에서 가장 쉬운 과학 수업 : 분광화학/정완상 지음/성림원북스",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406640803&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406640803&rssType=1&type=item",
+      "event_at": "2026-11-11T02:57:00+00:00",
+      "isbn": "406640803",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "문학",
+        "과학",
+        "역사",
+        "예술",
+        "종교",
+        "개발"
+      ],
+      "publisher": [],
+      "book_type": [
+        "시리즈"
+      ],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:406640803",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:b7bc77b116d7:20261111",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "대셔 : 소원을 들어 줄게/매트 타바레스 지음, 용희진 옮김/제이픽",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406634601&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406634601&rssType=1&type=item",
+      "event_at": "2026-11-11T01:48:00+00:00",
+      "isbn": "406634601",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "어린이",
+        "그림책"
+      ],
+      "publisher": [],
+      "book_type": [
+        "베스트셀러",
+        "시리즈"
+      ],
+      "author": [],
+      "award": [
+        "수상",
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:406634601",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:681f98520e3b:20261111",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "Book Riot",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "The November Oprah’s Book Club Reading Selection",
+      "url": "https://bookriot.com/oprahs-book-club-selection-november-2026",
+      "source_url": "https://bookriot.com/oprahs-book-club-selection-november-2026",
+      "event_at": "2026-11-10T15:16:55+00:00",
+      "isbn": "",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "booker",
+      "genre": [],
+      "publisher": [],
+      "book_type": [
+        "book club"
+      ],
+      "author": [
+        "author"
+      ],
+      "award": [
+        "booker"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:title:161f8492ae9f",
+      "canonical_key_status": "title_proxy",
+      "event_key": "award_signal:1374c9b218ea:20261110",
+      "required_field_proxy": {
+        "isbn": false,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
       "title": "파리 알로/우나 지음/한국경제신문",
       "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406553181&rssType=1&type=item",
       "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406553181&rssType=1&type=item",
@@ -8475,252 +8706,84 @@
         "source_url": true
       },
       "required_field_gaps": []
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "‘Is there any value in writing a story in a time of chaos?’: novelist Elif Shafak on her creative crisis",
-      "url": "https://www.theguardian.com/books/2026/oct/17/is-there-any-value-in-writing-a-story-in-a-time-of-chaos-novelist-elif-shafak-on-her-creative-crisis",
-      "source_url": "https://www.theguardian.com/books/2026/oct/17/is-there-any-value-in-writing-a-story-in-a-time-of-chaos-novelist-elif-shafak-on-her-creative-crisis",
-      "event_at": "2026-10-17T08:00:25+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "nobel",
-      "genre": [
-        "novel",
-        "literary",
-        "literature"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "author"
-      ],
-      "award": [
-        "nobel",
-        "booker"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:title:56f24a6ca97f",
-      "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:9e17fba51701:20261017",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Jarvis Cocker on judging the Booker prize: ‘It’s just like being in a band’",
-      "url": "https://www.theguardian.com/books/2026/nov/10/jarvis-cocker-on-judging-the-booker-prize-its-just-like-being-in-a-band",
-      "source_url": "https://www.theguardian.com/books/2026/nov/10/jarvis-cocker-on-judging-the-booker-prize-its-just-like-being-in-a-band",
-      "event_at": "2026-11-10T09:00:34+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [
-        "fiction",
-        "literary"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "author"
-      ],
-      "award": [
-        "booker",
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:title:58d84545bc65",
-      "canonical_key_status": "title_proxy",
-      "event_key": "award_signal:51ce8b9326a1:20261110",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "The Guardian Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "M John Harrison becomes first science fiction author to win the Booker prize",
-      "url": "https://www.theguardian.com/books/2026/nov/09/m-john-harrison-the-end-of-everything-wins-2026-booker-prize",
-      "source_url": "https://www.theguardian.com/books/2026/nov/09/m-john-harrison-the-end-of-everything-wins-2026-booker-prize",
-      "event_at": "2026-11-09T22:00:20+00:00",
-      "isbn": "9781800812949",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [
-        "fiction",
-        "novel",
-        "sf"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [
-        "author",
-        "writer"
-      ],
-      "award": [
-        "booker",
-        "award",
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_edition:9781800812949",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:91bd9ff31a12:20261109",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "New York Times Books",
-      "source_type": "rss",
-      "trust_tier": "T2_institutional",
-      "content_type": "review",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "Booker Prize 2026: Vote in Our Readers’ Poll",
-      "url": "https://www.nytimes.com/2026/11/06/books/booker-prize-readers-vote.html",
-      "source_url": "https://www.nytimes.com/2026/11/06/books/booker-prize-readers-vote.html",
-      "event_at": "2026-11-06T12:26:51+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [
-        "novel"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "booker"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "book_review_source",
-        "editorial_coverage"
-      ],
-      "canonical_key": "book_source:new-york-times-books:4bc01653446d",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:66e1877a09d6:20261106",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "source": "Book Riot",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "📚 Not just about everything",
-      "url": "https://bookriot.com/not-just-about-everything",
-      "source_url": "https://bookriot.com/not-just-about-everything",
-      "event_at": "2026-11-10T10:00:00+00:00",
-      "isbn": "",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "booker",
-        "winner"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_source:book-riot:c1c1710f03ac",
-      "canonical_key_status": "source_proxy",
-      "event_key": "award_signal:05566299ef77:20261110",
-      "required_field_proxy": {
-        "isbn": false,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "isbn"
-      ]
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Vaim Hotel by Jon Fosse review – not your typical ghost story",
+      "canonical_key": "book_source:the-guardian-books:c701580f752e",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Vaim Hotel by Jon Fosse review – not your typical ghost story",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Here’s the shortlist for the first-ever Children’s Booker Prize.",
+      "canonical_key": "book_source:literary-hub:91dd7213947c",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Literary Hub",
+      "title": "Here’s the shortlist for the first-ever Children’s Booker Prize.",
+      "canonical_key_status": "source_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Meher Iqbal wins 2026 4thWrite prize with ‘evocative’ coming-of-age story",
+      "canonical_key": "book_edition:title:7301cf2afe02",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "The Guardian Books",
+      "title": "Meher Iqbal wins 2026 4thWrite prize with ‘evocative’ coming-of-age story",
+      "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "author_event",
+      "source": "The Guardian Books",
+      "title": "‘It was a cover-up’: HarperCollins accused of using lawyers to shut down concerns about David Walliams",
+      "canonical_key_status": "title_proxy"
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "The 2027 Children’s Booker Award Shortlist: Meet The New Literary Award",
+      "canonical_key": "book_source:book-riot:1e99e860762c",
+      "required_field_gaps": [
+        "isbn"
+      ]
+    },
+    {
+      "reason": "proxy_canonical_key",
+      "event_model": "award_signal",
+      "source": "Book Riot",
+      "title": "The 2027 Children’s Booker Award Shortlist: Meet The New Literary Award",
+      "canonical_key_status": "source_proxy"
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "award_signal",
@@ -9076,87 +9139,6 @@
       "required_field_gaps": [
         "isbn"
       ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Lit Hub Daily: November 16, 2026",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Meet the 2026 National Book Award Finalists",
-      "canonical_key": "book_source:literary-hub:58e2d539c12d",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Meet the 2026 National Book Award Finalists",
-      "canonical_key_status": "source_proxy"
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "알라딘 베스트셀러",
-      "title": "9위 향기로운 꽃은 늠름하게 핀다 23 (사인회 특별판 A)",
-      "canonical_key": "book_edition:9791142368912",
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "알라딘 베스트셀러",
-      "title": "2위 가호",
-      "canonical_key": "book_edition:9791141691370",
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "알라딘 베스트셀러",
-      "title": "11위 트렌드 코리아 2027",
-      "canonical_key": "book_edition:9791124073483",
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "author_event",
-      "source": "Publishers Weekly",
-      "title": "PW Talks with Armando Montes de Santiago",
-      "canonical_key": "book_edition:101776",
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Jacob Elordi will star in an adaptation of The Executioner’s Song.",
-      "canonical_key": "book_source:literary-hub:c2207c39f0e4",
-      "required_field_gaps": [
-        "isbn"
-      ]
-    },
-    {
-      "reason": "proxy_canonical_key",
-      "event_model": "award_signal",
-      "source": "Literary Hub",
-      "title": "Jacob Elordi will star in an adaptation of The Executioner’s Song.",
-      "canonical_key_status": "source_proxy"
     }
   ],
   "source_backlog": {
