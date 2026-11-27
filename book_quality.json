@@ -1,6 +1,6 @@
 {
   "category": "book",
-  "generated_at": "2026-11-26T09:14:19.547745+00:00",
+  "generated_at": "2026-11-27T09:29:37.253647+00:00",
   "scope_note": "BookRadar separates retailer ranking, library lending, author event, and award evidence from broad publishing news, review, and community feeds. Community discussion remains contextual until ISBN or event identifiers exist.",
   "summary": {
     "total_sources": 32,
@@ -16,18 +16,18 @@
     "collection_error_count": 0,
     "sales_ranking_events": 45,
     "library_lending_events": 0,
-    "author_event_events": 18,
-    "award_signal_events": 93,
-    "book_signal_event_count": 156,
-    "official_or_operational_event_count": 111,
+    "author_event_events": 20,
+    "award_signal_events": 92,
+    "book_signal_event_count": 157,
+    "official_or_operational_event_count": 113,
     "community_proxy_event_count": 0,
-    "complete_canonical_key_count": 124,
+    "complete_canonical_key_count": 125,
     "proxy_canonical_key_count": 32,
     "missing_canonical_key_count": 0,
-    "isbn_present_count": 124,
-    "author_present_count": 78,
-    "publisher_present_count": 40,
-    "rank_present_count": 60,
+    "isbn_present_count": 125,
+    "author_present_count": 82,
+    "publisher_present_count": 43,
+    "rank_present_count": 61,
     "lending_count_present_count": 0,
     "event_required_field_gap_count": 43,
     "tracked_source_gap_count": 0,
@@ -75,7 +75,7 @@
       "article_count": 45,
       "event_count": 45,
       "latest_event_at": "2026-11-22T22:02:02+00:00",
-      "age_days": 3.47,
+      "age_days": 4.48,
       "latest_title": "5위 100일의 거짓말 대본집 세트 - 전3권",
       "latest_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=407135636&radar_rank=5&radar_ranking_date=20261122220202&rssType=5&type=item",
       "latest_source_signal": [
@@ -240,7 +240,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 129,
+      "article_count": 116,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -286,7 +286,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 24,
+      "article_count": 22,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -309,7 +309,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 90,
+      "article_count": 80,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -332,7 +332,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 92,
+      "article_count": 87,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -378,7 +378,7 @@
       "event_model": "editorial_coverage",
       "freshness_sla_days": null,
       "status": "not_tracked",
-      "article_count": 67,
+      "article_count": 66,
       "event_count": 0,
       "latest_event_at": null,
       "age_days": null,
@@ -873,6 +873,364 @@
       "required_field_gaps": [
         "isbn"
       ]
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "이스라엘이라는 문제/오메르 바르토프 지음, 김상기 옮김/돌베개",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=408073669&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=408073669&rssType=1&type=item",
+      "event_at": "2026-11-25T08:02:00+00:00",
+      "isbn": "408073669",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "시",
+        "과학",
+        "역사",
+        "사회과학",
+        "정치"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:408073669",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:1a0277a52a76:20261125",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "묘향산/임유영 지음/문학과지성사",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=408066016&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=408066016&rssType=1&type=item",
+      "event_at": "2026-11-25T06:59:00+00:00",
+      "isbn": "408066016",
+      "rank": 1,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "문학",
+        "철학"
+      ],
+      "publisher": [
+        "문학동네",
+        "문학과지성사"
+      ],
+      "book_type": [],
+      "author": [
+        "한강"
+      ],
+      "award": [
+        "수상",
+        "문학상",
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:408066016",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:18e3b533a517:20261125",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "가장자리에 서서 내일을 보고 있어/김다혜 지음, 양양 그림/책읽는곰",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=408047308&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=408047308&rssType=1&type=item",
+      "event_at": "2026-11-25T04:23:00+00:00",
+      "isbn": "408047308",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "시",
+        "어린이",
+        "동화"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:408047308",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:eeb549772125:20261125",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "계단 뿌셔 막힘없이 어디로든/박수빈 지음/세미콜론",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=408041671&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=408041671&rssType=1&type=item",
+      "event_at": "2026-11-25T03:22:00+00:00",
+      "isbn": "408041671",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "에세이",
+        "시"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:408041671",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:69f2ebe4f3f2:20261125",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "철학자의 달력/필리프 그라나롤로 지음, 박효은 옮김/까치",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=408040482&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=408040482&rssType=1&type=item",
+      "event_at": "2026-11-25T03:07:00+00:00",
+      "isbn": "408040482",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "강연",
+      "award_name": "",
+      "genre": [
+        "시",
+        "문학",
+        "인문학",
+        "과학",
+        "철학",
+        "정치"
+      ],
+      "publisher": [],
+      "book_type": [],
+      "author": [
+        "작가",
+        "저자",
+        "역자"
+      ],
+      "award": [],
+      "book_event": [
+        "강연"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:408040482",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:adc3e5d995bd:20261125",
+      "required_field_proxy": {
+        "author_name": true,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "크리스마스 캐럴/찰스 디킨스 지음, 앨런 마크스 그림, 김영진 옮김/비룡소",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=408038426&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=408038426&rssType=1&type=item",
+      "event_at": "2026-11-25T02:46:00+00:00",
+      "isbn": "408038426",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "도서전",
+      "award_name": "",
+      "genre": [
+        "시",
+        "어린이",
+        "동화"
+      ],
+      "publisher": [
+        "비룡소"
+      ],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [],
+      "book_event": [
+        "도서전"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:408038426",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:80d72ce02764:20261125",
+      "required_field_proxy": {
+        "author_name": true,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "온도계의 수은/박부용 외 지음/황금가지",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=408035635&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=408035635&rssType=1&type=item",
+      "event_at": "2026-11-25T02:21:00+00:00",
+      "isbn": "408035635",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "수상",
+      "genre": [
+        "소설",
+        "시",
+        "희곡",
+        "과학",
+        "sf"
+      ],
+      "publisher": [
+        "출판사"
+      ],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "수상"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:408035635",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:5d0f78c3d061:20261125",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
     },
     {
       "source": "Literary Hub",
@@ -6414,211 +6772,6 @@
       "required_field_gaps": []
     },
     {
-      "source": "Publishers Weekly",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "PW Talks with Armando Montes de Santiago",
-      "url": "http://www.publishersweekly.com/pw/by-topic/industry-news/trade-shows-events/article/101776-pw-talks-with-armando-montes-de-santiago.html",
-      "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/trade-shows-events/article/101776-pw-talks-with-armando-montes-de-santiago.html",
-      "event_at": "2026-11-13T05:00:00+00:00",
-      "isbn": "101776",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "book fair",
-      "award_name": "",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [],
-      "book_event": [
-        "book fair"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:101776",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:165907e2b72b:20261113",
-      "required_field_proxy": {
-        "author_name": false,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": [
-        "author_name"
-      ]
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "author_event",
-      "title": "포poe문/김혼비 지음/난다",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406857536&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406857536&rssType=1&type=item",
-      "event_at": "2026-11-13T02:58:00+00:00",
-      "isbn": "406857536",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "북토크",
-      "award_name": "",
-      "genre": [
-        "소설",
-        "에세이",
-        "시",
-        "문학",
-        "여행",
-        "건강"
-      ],
-      "publisher": [
-        "출판사"
-      ],
-      "book_type": [],
-      "author": [
-        "정세랑",
-        "작가",
-        "번역"
-      ],
-      "award": [],
-      "book_event": [
-        "북토크"
-      ],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:406857536",
-      "canonical_key_status": "complete",
-      "event_key": "author_event:c50982f6da32:20261113",
-      "required_field_proxy": {
-        "author_name": true,
-        "venue": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "사자성어에 진심인 편/붕어만세 지음/특별한서재",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406853522&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406853522&rssType=1&type=item",
-      "event_at": "2026-11-13T02:25:00+00:00",
-      "isbn": "406853522",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "소설",
-        "시",
-        "역사",
-        "만화",
-        "어린이",
-        "청소년"
-      ],
-      "publisher": [],
-      "book_type": [
-        "추천도서"
-      ],
-      "author": [
-        "저자"
-      ],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:406853522",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:c2b8af381fea:20261113",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "소문 먹는 풍선/흰운동화 지음/밝은미래",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406846156&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406846156&rssType=1&type=item",
-      "event_at": "2026-11-13T01:32:00+00:00",
-      "isbn": "406846156",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "시",
-        "그림책",
-        "동화"
-      ],
-      "publisher": [
-        "출판사"
-      ],
-      "book_type": [],
-      "author": [
-        "작가"
-      ],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:406846156",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:307b1b59c897:20261113",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
       "source": "The Guardian Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -6810,6 +6963,50 @@
       "required_field_gaps": []
     },
     {
+      "source": "Publishers Weekly",
+      "source_type": "rss",
+      "trust_tier": "T3_professional",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "PW Talks with Armando Montes de Santiago",
+      "url": "http://www.publishersweekly.com/pw/by-topic/industry-news/trade-shows-events/article/101776-pw-talks-with-armando-montes-de-santiago.html",
+      "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/trade-shows-events/article/101776-pw-talks-with-armando-montes-de-santiago.html",
+      "event_at": "2026-11-13T05:00:00+00:00",
+      "isbn": "101776",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "book fair",
+      "award_name": "",
+      "genre": [],
+      "publisher": [],
+      "book_type": [],
+      "author": [],
+      "award": [],
+      "book_event": [
+        "book fair"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:101776",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:165907e2b72b:20261113",
+      "required_field_proxy": {
+        "author_name": false,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": [
+        "author_name"
+      ]
+    },
+    {
       "source": "NPR Books",
       "source_type": "rss",
       "trust_tier": "T2_institutional",
@@ -6846,6 +7043,167 @@
       "canonical_key": "book_edition:6022105",
       "canonical_key_status": "complete",
       "event_key": "award_signal:8bd56e940b42:20261030",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "author_event",
+      "title": "포poe문/김혼비 지음/난다",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406857536&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406857536&rssType=1&type=item",
+      "event_at": "2026-11-13T02:58:00+00:00",
+      "isbn": "406857536",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "북토크",
+      "award_name": "",
+      "genre": [
+        "소설",
+        "에세이",
+        "시",
+        "문학",
+        "여행",
+        "건강"
+      ],
+      "publisher": [
+        "출판사"
+      ],
+      "book_type": [],
+      "author": [
+        "정세랑",
+        "작가",
+        "번역"
+      ],
+      "award": [],
+      "book_event": [
+        "북토크"
+      ],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:406857536",
+      "canonical_key_status": "complete",
+      "event_key": "author_event:c50982f6da32:20261113",
+      "required_field_proxy": {
+        "author_name": true,
+        "venue": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "사자성어에 진심인 편/붕어만세 지음/특별한서재",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406853522&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406853522&rssType=1&type=item",
+      "event_at": "2026-11-13T02:25:00+00:00",
+      "isbn": "406853522",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "소설",
+        "시",
+        "역사",
+        "만화",
+        "어린이",
+        "청소년"
+      ],
+      "publisher": [],
+      "book_type": [
+        "추천도서"
+      ],
+      "author": [
+        "저자"
+      ],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:406853522",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:c2b8af381fea:20261113",
+      "required_field_proxy": {
+        "isbn": true,
+        "award_name": true,
+        "source_url": true
+      },
+      "required_field_gaps": []
+    },
+    {
+      "source": "알라딘 신간",
+      "source_type": "rss",
+      "trust_tier": "T1_official",
+      "content_type": "news",
+      "collection_tier": "C1_rss",
+      "producer_role": "",
+      "info_purpose": [],
+      "event_model": "award_signal",
+      "title": "소문 먹는 풍선/흰운동화 지음/밝은미래",
+      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406846156&rssType=1&type=item",
+      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406846156&rssType=1&type=item",
+      "event_at": "2026-11-13T01:32:00+00:00",
+      "isbn": "406846156",
+      "rank": null,
+      "retailer": "",
+      "library_network": "",
+      "lending_count": null,
+      "venue": "",
+      "award_name": "선정",
+      "genre": [
+        "시",
+        "그림책",
+        "동화"
+      ],
+      "publisher": [
+        "출판사"
+      ],
+      "book_type": [],
+      "author": [
+        "작가"
+      ],
+      "award": [
+        "선정"
+      ],
+      "book_event": [],
+      "source_signal": [
+        "editorial_coverage",
+        "official_book_source",
+        "publishing_news_source"
+      ],
+      "canonical_key": "book_edition:406846156",
+      "canonical_key_status": "complete",
+      "event_key": "award_signal:307b1b59c897:20261113",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
@@ -8165,304 +8523,6 @@
       "canonical_key": "book_edition:406753576",
       "canonical_key_status": "complete",
       "event_key": "award_signal:c684b266bc4f:20261112",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "Publishers Weekly",
-      "source_type": "rss",
-      "trust_tier": "T3_professional",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "M. John Harrison Wins 2026 Booker Prize for ‘The End of Everything’",
-      "url": "http://www.publishersweekly.com/pw/by-topic/industry-news/awards-and-prizes/article/101739-m-john-harrison-wins-2026-booker-prize-for-the-end-of-everything.html",
-      "source_url": "http://www.publishersweekly.com/pw/by-topic/industry-news/awards-and-prizes/article/101739-m-john-harrison-wins-2026-booker-prize-for-the-end-of-everything.html",
-      "event_at": "2026-11-10T05:00:00+00:00",
-      "isbn": "101739",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "booker",
-      "genre": [],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "booker"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:101739",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:87e67caba76c:20261110",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "러브버그물풍선폭탄사태/임희강 지음/비채",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406654377&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406654377&rssType=1&type=item",
-      "event_at": "2026-11-11T05:35:00+00:00",
-      "isbn": "406654377",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "소설",
-        "시",
-        "희곡",
-        "요리"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:406654377",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:40aeae6c0eeb:20261111",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "외로운 도시/올리비아 랭 지음, 김병화 옮김/어크로스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406642785&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406642785&rssType=1&type=item",
-      "event_at": "2026-11-11T03:27:00+00:00",
-      "isbn": "406642785",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "올해의 책",
-      "genre": [
-        "에세이",
-        "시",
-        "문학",
-        "인문학",
-        "예술",
-        "철학"
-      ],
-      "publisher": [],
-      "book_type": [
-        "양장본"
-      ],
-      "author": [
-        "저자",
-        "번역"
-      ],
-      "award": [
-        "올해의 책",
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:406642785",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:7676591a2000:20261111",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "팁스 이펙트/팁스프로젝트팀 지음/남해의봄날",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406641954&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406641954&rssType=1&type=item",
-      "event_at": "2026-11-11T03:12:00+00:00",
-      "isbn": "406641954",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "선정",
-      "genre": [
-        "시",
-        "경제경영",
-        "과학",
-        "교육"
-      ],
-      "publisher": [],
-      "book_type": [],
-      "author": [],
-      "award": [
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:406641954",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:5d06620bafc2:20261111",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "세상에서 가장 쉬운 과학 수업 : 분광화학/정완상 지음/성림원북스",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406640803&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406640803&rssType=1&type=item",
-      "event_at": "2026-11-11T02:57:00+00:00",
-      "isbn": "406640803",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "문학",
-        "과학",
-        "역사",
-        "예술",
-        "종교",
-        "개발"
-      ],
-      "publisher": [],
-      "book_type": [
-        "시리즈"
-      ],
-      "author": [],
-      "award": [
-        "수상"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:406640803",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:b7bc77b116d7:20261111",
-      "required_field_proxy": {
-        "isbn": true,
-        "award_name": true,
-        "source_url": true
-      },
-      "required_field_gaps": []
-    },
-    {
-      "source": "알라딘 신간",
-      "source_type": "rss",
-      "trust_tier": "T1_official",
-      "content_type": "news",
-      "collection_tier": "C1_rss",
-      "producer_role": "",
-      "info_purpose": [],
-      "event_model": "award_signal",
-      "title": "대셔 : 소원을 들어 줄게/매트 타바레스 지음, 용희진 옮김/제이픽",
-      "url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406634601&rssType=1&type=item",
-      "source_url": "http://www.aladin.co.kr/rsscenter/go.aspx?itemId=406634601&rssType=1&type=item",
-      "event_at": "2026-11-11T01:48:00+00:00",
-      "isbn": "406634601",
-      "rank": null,
-      "retailer": "",
-      "library_network": "",
-      "lending_count": null,
-      "venue": "",
-      "award_name": "수상",
-      "genre": [
-        "시",
-        "어린이",
-        "그림책"
-      ],
-      "publisher": [],
-      "book_type": [
-        "베스트셀러",
-        "시리즈"
-      ],
-      "author": [],
-      "award": [
-        "수상",
-        "선정"
-      ],
-      "book_event": [],
-      "source_signal": [
-        "editorial_coverage",
-        "official_book_source",
-        "publishing_news_source"
-      ],
-      "canonical_key": "book_edition:406634601",
-      "canonical_key_status": "complete",
-      "event_key": "award_signal:681f98520e3b:20261111",
       "required_field_proxy": {
         "isbn": true,
         "award_name": true,
